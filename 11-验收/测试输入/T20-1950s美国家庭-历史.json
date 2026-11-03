@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T20",
+    "title": "1950s 美国家庭主妇：历史模式与年龄层级证据",
+    "types": [
+      "historical_accuracy",
+      "1950s"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "period_coverage"
+    ],
+    "query": [
+      "1950s",
+      "--type",
+      "period_region",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Ruth",
+    "occupation": "homemaker",
+    "economic_status": "middle",
+    "arc": "renegotiating domestic expectations"
+  },
+  "period": "1950s",
+  "region": "united_states",
+  "season": "spring",
+  "scene": "suburban kitchen",
+  "time": "morning",
+  "weather": "indoor",
+  "action": "serving breakfast",
+  "location": "suburban kitchen",
+  "art_direction": "1950s domestic realism",
+  "lighting": "soft window daylight",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

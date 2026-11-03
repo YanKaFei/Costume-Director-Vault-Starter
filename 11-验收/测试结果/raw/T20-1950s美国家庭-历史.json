@@ -1,0 +1,1089 @@
+{
+  "input": {
+    "character_name": "Ruth",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "homemaker",
+    "economic_status": "middle",
+    "period": "1950s",
+    "region": "united_states",
+    "season": "spring",
+    "scene": "suburban kitchen",
+    "time": "morning",
+    "weather": "indoor",
+    "action": "serving breakfast",
+    "arc": "renegotiating domestic expectations",
+    "art_direction": "1950s domestic realism",
+    "lighting": "soft window daylight",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "historical",
+    "tool": "generic",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": ""
+  },
+  "fidelity_mode": "historical",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 46.8,
+      "scores": {
+        "period": 24.1,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 4.1,
+        "movement": 4.4,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.33,
+      "cost_total": 0.99,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "upper_body": "exact",
+        "lower_body": "exact",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "exact",
+        "lower_body": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "beaded",
+        "black",
+        "blue black",
+        "buckskin",
+        "cream",
+        "embroidered",
+        "indigo",
+        "tan"
+      ],
+      "style_tags": [
+        "class",
+        "craft",
+        "dandy",
+        "indigenous",
+        "menswear",
+        "rockabilly",
+        "victorian",
+        "working",
+        "working class",
+        "youth"
+      ],
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve homemaker; the middle economic register shows through material and finish; formality runs from business / casual / casual; the beaded, black, blue black palette controls the emotional temperature; against the arc (renegotiating domestic expectations) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-0008",
+          "name_zh": "马甲",
+          "name_en": "waistcoat",
+          "colors": [
+            "black",
+            "cream",
+            "embroidered"
+          ],
+          "materials": [
+            "wool",
+            "silk",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0109"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.26704545454545453,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0014",
+          "name_zh": "牛仔裤",
+          "name_en": "jeans",
+          "colors": [
+            "indigo",
+            "blue_black"
+          ],
+          "materials": [
+            "denim",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0115"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3761363636363636,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
+          "colors": [
+            "tan",
+            "buckskin",
+            "beaded"
+          ],
+          "materials": [
+            "leather",
+            "beads",
+            "silk_ribbon"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0124"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.17727272727272728,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0006",
+          "slot": "upper_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "lower_body",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ruth, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, blue black, buckskin, cream, embroidered, indigo, tan, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+      "prompt_video": "Ruth, serving breakfast, scene: suburban kitchen, morning, indoor, camera: medium shot, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: soft window daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 24.1/25, 摄影/一致性 6.5/10",
+        "上装: GAR-0008 马甲 (business)",
+        "下装: GAR-0014 牛仔裤 (casual)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked structure cards: STR-0006, STR-0011",
+        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0109",
+          "SRC-0115",
+          "SRC-0124",
+          "SRC-0136",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0423"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0109",
+            "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+          },
+          {
+            "source_id": "SRC-0115",
+            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+          },
+          {
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0136",
+            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0007"
+        ],
+        "context_scene_ids": [
+          "SCN-0002"
+        ],
+        "item_evidence": {
+          "GAR-0008": "verified",
+          "GAR-0014": "verified",
+          "GAR-0023": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 46.3,
+      "scores": {
+        "period": 24.1,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 4.0,
+        "movement": 4.0,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.301,
+      "cost_total": 0.903,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "upper_body": "exact",
+        "lower_body": "exact",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "exact",
+        "lower_body": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "beaded",
+        "blue black",
+        "buckskin",
+        "cream",
+        "indigo",
+        "striped",
+        "tan",
+        "white"
+      ],
+      "style_tags": [
+        "class",
+        "craft",
+        "edwardian",
+        "indigenous",
+        "rockabilly",
+        "victorian",
+        "working",
+        "working class",
+        "youth"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve homemaker; the middle economic register shows through material and finish; formality runs from smart_casual / casual / casual; the beaded, blue black, buckskin palette controls the emotional temperature; against the arc (renegotiating domestic expectations) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-0007",
+          "name_zh": "衬衫式女衫",
+          "name_en": "shirtwaist",
+          "colors": [
+            "white",
+            "cream",
+            "striped"
+          ],
+          "materials": [
+            "cotton",
+            "silk",
+            "linen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0108"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.23977272727272725,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0014",
+          "name_zh": "牛仔裤",
+          "name_en": "jeans",
+          "colors": [
+            "indigo",
+            "blue_black"
+          ],
+          "materials": [
+            "denim",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0115"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3761363636363636,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
+          "colors": [
+            "tan",
+            "buckskin",
+            "beaded"
+          ],
+          "materials": [
+            "leather",
+            "beads",
+            "silk_ribbon"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0124"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.17727272727272728,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "upper_body",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ruth, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, blue black, buckskin, cream, indigo, striped, tan, white, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
+      "prompt_video": "Ruth, serving breakfast, scene: suburban kitchen, morning, indoor, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: soft window daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 24.1/25, 摄影/一致性 6.5/10",
+        "上装: GAR-0007 衬衫式女衫 (smart_casual)",
+        "下装: GAR-0014 牛仔裤 (casual)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0108",
+          "SRC-0115",
+          "SRC-0124",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0102",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0423"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0108",
+            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+          },
+          {
+            "source_id": "SRC-0115",
+            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+          },
+          {
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0007"
+        ],
+        "context_scene_ids": [
+          "SCN-0002"
+        ],
+        "item_evidence": {
+          "GAR-0007": "verified",
+          "GAR-0014": "verified",
+          "GAR-0023": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 44.2,
+      "scores": {
+        "period": 23.8,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 3.2,
+        "movement": 4.0,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.418,
+      "cost_total": 0.835,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "set": "exact",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "set": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "beaded",
+        "buckskin",
+        "multicolor",
+        "red",
+        "tan",
+        "white"
+      ],
+      "style_tags": [
+        "craft",
+        "indigenous",
+        "mesoamerican"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve homemaker; the middle economic register shows through material and finish; formality runs from ceremonial / casual; the beaded, buckskin, multicolor palette controls the emotional temperature; against the arc (renegotiating domestic expectations) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0030",
+          "name_zh": "惠皮尔",
+          "name_en": "huipil",
+          "colors": [
+            "multicolor",
+            "red",
+            "white"
+          ],
+          "materials": [
+            "cotton",
+            "silk",
+            "brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0131"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.23977272727272725,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
+          "colors": [
+            "tan",
+            "buckskin",
+            "beaded"
+          ],
+          "materials": [
+            "leather",
+            "beads",
+            "silk_ribbon"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0124"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.17727272727272728,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "set",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "set"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "set"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ruth, complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, buckskin, multicolor, red, tan, white, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "prompt_video": "Ruth, serving breakfast, scene: suburban kitchen, morning, indoor, camera: medium shot, costume: complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: natural fabric response to the action, gravity and wind, lighting: soft window daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.8/25, 摄影/一致性 6.5/10",
+        "成套: GAR-0030 惠皮尔 (ceremonial)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0003",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "region mismatch in GAR-0030: cards document their own regions, not united_states",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0131",
+          "SRC-0124",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0102",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0131",
+            "url": "https://fashionhistory.fitnyc.edu/huipilli-huipil/"
+          },
+          {
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0007"
+        ],
+        "context_scene_ids": [
+          "SCN-0002"
+        ],
+        "item_evidence": {
+          "GAR-0030": "verified",
+          "GAR-0023": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [],
+    "period_refs": [
+      "PRD-0007"
+    ],
+    "scene_refs": [
+      "SCN-0002"
+    ]
+  },
+  "context_refs": [
+    {
+      "id": "PRD-0007",
+      "type": "period_region",
+      "score": 0.85,
+      "period_tier": "exact",
+      "region_tier": "exact",
+      "reason": "period/region match"
+    },
+    {
+      "id": "SCN-0002",
+      "type": "scene",
+      "score": 0.409,
+      "period_tier": "era",
+      "region_tier": "exact",
+      "reason": "scene token match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction '1950s domestic realism'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "period_era_level",
+      "severity": "low",
+      "message": "period evidence is era-level (century bucket) for GAR-0023; exact-decade cards are missing",
+      "items": [
+        "GAR-0023"
+      ],
+      "look": null
+    },
+    {
+      "code": "occupation_coverage_gap",
+      "severity": "high",
+      "message": "no occupational garment cards match 'homemaker'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "cheaper",
+    "a_cost_total": 0.99,
+    "c_cost_total": 0.835,
+    "differences": {
+      "a_b": 2,
+      "a_c": 3,
+      "b_c": 3
+    }
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0008",
+      "GAR-0007",
+      "GAR-0006",
+      "GAR-0043",
+      "GAR-0034"
+    ],
+    "lower_body": [
+      "GAR-0014",
+      "GAR-0010",
+      "GAR-0011",
+      "GAR-0059"
+    ],
+    "set": [
+      "GAR-0030",
+      "GAR-0042",
+      "GAR-0036"
+    ],
+    "inner_layer": [
+      "GAR-0012",
+      "GAR-0020"
+    ],
+    "outerwear": [
+      "GAR-0040",
+      "GAR-0017",
+      "GAR-0016",
+      "GAR-0045",
+      "GAR-0046",
+      "GAR-0041",
+      "GAR-0057",
+      "GAR-0033",
+      "GAR-0018",
+      "GAR-0037"
+    ],
+    "accessory": [
+      "GAR-0021",
+      "GAR-0026",
+      "GAR-0039",
+      "GAR-0050",
+      "GAR-0051",
+      "GAR-0068",
+      "GAR-0070",
+      "GAR-0028"
+    ],
+    "carried_prop": [
+      "GAR-0048",
+      "GAR-0047"
+    ],
+    "footwear": [
+      "GAR-0023",
+      "GAR-0035",
+      "GAR-0024",
+      "GAR-0044",
+      "GAR-0022",
+      "GAR-0058",
+      "GAR-0060"
+    ],
+    "one_piece": [
+      "GAR-0031",
+      "GAR-0054",
+      "GAR-0055",
+      "GAR-0032",
+      "GAR-0056",
+      "GAR-0052",
+      "GAR-0069",
+      "GAR-0053"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0002",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 14th_century, 15th_century, 16th_century, 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0003",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-EXAMPLE-001",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: example card is not historical evidence"
+      ]
+    },
+    {
+      "id": "GAR-0013",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with united_states (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with united_states (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with united_states (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0025",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 18th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with united_states (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0049",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with united_states (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs late_antiquity, byzantine_era, middle_ages)",
+        "region-specific card incompatible with united_states (europe, byzantium)"
+      ]
+    },
+    {
+      "id": "GAR-0015",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 18th_century, rococo)"
+      ]
+    },
+    {
+      "id": "GAR-0029",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs roman_republic, roman_empire)"
+      ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs late_antiquity)",
+        "region-specific card incompatible with united_states (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0062",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs late_16th_century, early_17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with united_states (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with united_states (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with united_states (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with united_states (china)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no reliable style card for art direction '1950s domestic realism'",
+    "period evidence is era-level (century bucket) for GAR-0023; exact-decade cards are missing",
+    "no occupational garment cards match 'homemaker'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute"
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0109",
+      "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+    },
+    {
+      "source_id": "SRC-0115",
+      "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+    },
+    {
+      "source_id": "SRC-0124",
+      "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+    },
+    {
+      "source_id": "SRC-0136",
+      "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0108",
+      "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+    },
+    {
+      "source_id": "SRC-0131",
+      "url": "https://fashionhistory.fitnyc.edu/huipilli-huipil/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "historical",
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "warnings_count": 3,
+    "rejected_count": 21
+  }
+}

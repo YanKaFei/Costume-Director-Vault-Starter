@@ -26,43 +26,53 @@
     "score": 8.0
   },
   {
-    "id": "GAR-0015",
-    "path": "01-服装单品/连身/GAR-0015-法式长袍.md",
-    "name_zh": "法式长袍",
-    "name_en": "robe à la française",
+    "id": "GAR-0040",
+    "path": "01-服装单品/外层/GAR-0040-军装外套.md",
+    "name_zh": "军装外套",
+    "name_en": "military coat",
     "type": "garment",
     "evidence_status": "verified",
     "source_ids": [
-      "SRC-0116"
+      "SRC-0404"
     ],
-    "snippet": "…hem, open front revealing stomacher and petticoat, panniers, silk brocade` - 中文造型说明：十八世纪法式长袍，前身合体，背部箱形褶垂至地面，前开露出胸衣插片与衬裙，丝绸织锦…",
-    "score": 3.0
+    "snippet": "# 军装外套 / military coat ## 定义 军装外套是军队制服体系中的外层大衣/常服外套，通常以羊毛等耐候材料制成，配有军衔、部队标识与金属扣。met 藏 1941 年美军羊毛军装…",
+    "score": 8.0
   },
   {
-    "id": "GAR-0033",
-    "path": "01-服装单品/外层/GAR-0033-西式休闲西装.md",
-    "name_zh": "西式休闲西装",
-    "name_en": "lounge suit",
+    "id": "GAR-0041",
+    "path": "01-服装单品/外层/GAR-0041-医生白袍.md",
+    "name_zh": "医生白袍",
+    "name_en": "doctor’s white coat",
     "type": "garment",
-    "evidence_status": "verified",
-    "source_ids": [
-      "SRC-0204",
-      "SRC-0155"
-    ],
-    "snippet": "…1930 年代后期马甲逐渐减少（src-0155 亦载 1930 年代男装舍弃 waistcoat/vest）。 - 本卡实证实例为 1940—49 年英国西装，不证明 1930 年代制作；民国上海城市男性采用西式套装属 interpretive，…",
-    "score": 3.0
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "# 医生白袍 / doctor’s white coat ## 定义 医生白袍是医疗专业人员的标志性外衣：白色、前开扣、及膝或大腿长度、多个口袋，用于覆盖内层衣物并形成洁净/权威的职业识别（本卡为 inte…",
+    "score": 8.0
   },
   {
-    "id": "GAR-0034",
-    "path": "01-服装单品/上装/GAR-0034-针织背心.md",
-    "name_zh": "针织背心",
-    "name_en": "knitted vest",
+    "id": "GAR-0045",
+    "path": "01-服装单品/外层/GAR-0045-风衣.md",
+    "name_zh": "风衣",
+    "name_en": "trench coat",
     "type": "garment",
     "evidence_status": "verified",
     "source_ids": [
-      "SRC-0203"
+      "SRC-0405"
     ],
-    "snippet": "…后领至下摆 70 cm、背宽 40 cm（馆方实测）。 - 针织背心与正装马甲（waistcoat，梭织、有衬里）结构不同；本卡不把“针织背心取代正装马甲”当作已证事实（若需要该因果叙事，应标 interpretive 并另找直接来源）。 - 上海…",
-    "score": 1.0
+    "snippet": "# 风衣 / trench coat ## 定义 风衣（trench coat）是 20 世纪形成的及膝防雨外套：双排扣、腰带、肩部覆片、袖口扣与防雨面料。v&a 藏 burberry…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-0046",
+    "path": "01-服装单品/外层/GAR-0046-雨衣.md",
+    "name_zh": "雨衣",
+    "name_en": "raincoat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0406"
+    ],
+    "snippet": "# 雨衣 / raincoat ## 定义 雨衣（raincoat）是防水/防泼水的外套；v&a 藏约 1920 年英国银灰橡胶丝绸雨衣，是早期橡胶涂层防水外套的实例。 ## 结构…",
+    "score": 8.0
   }
 ]

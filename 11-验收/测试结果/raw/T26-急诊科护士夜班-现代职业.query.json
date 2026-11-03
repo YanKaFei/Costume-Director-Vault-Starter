@@ -1,0 +1,76 @@
+[
+  {
+    "id": "GAR-0041",
+    "path": "01-服装单品/外层/GAR-0041-医生白袍.md",
+    "name_zh": "医生白袍",
+    "name_en": "doctor’s white coat",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "# 医生白袍 / doctor’s white coat ## 定义 医生白袍是医疗专业人员的标志性外衣：白色、前开扣、及膝或大腿长度、多个口袋，用于覆盖内层衣…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-EXAMPLE-001",
+    "path": "01-服装单品/上装/GAR-EXAMPLE-001-白色立领衬衫.md",
+    "name_zh": "白色立领衬衫",
+    "name_en": "white stand-collar shirt",
+    "type": "garment",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "# 白色立领衬衫（原创造型示例） 这张卡是结构展示，不对应某件历史服装，也不构成已验证的产品或史料。 ## 定义 白色立领衬衫是本项目用于演示字段与视觉叙事…",
+    "score": 5.2
+  },
+  {
+    "id": "GAR-0007",
+    "path": "01-服装单品/上装/GAR-0007-衬衫式女衫.md",
+    "name_zh": "衬衫式女衫",
+    "name_en": "shirtwaist",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0108"
+    ],
+    "snippet": "…，前片可打褶并收进腰头；1890 年代袖型肩部饱满、下臂贴身。 - 常用轻薄棉、丝或亚麻；白色与条纹最常见。 - 是早期成衣业的重要品类，尺码标准化程度较高。 ## 视觉辨识 明显的前门襟纽扣、硬挺领子、袖子上宽下窄；下摆整齐收进裙腰；常配胸…",
+    "score": 2.0
+  },
+  {
+    "id": "GAR-0010",
+    "path": "01-服装单品/下装/GAR-0010-灯笼裤.md",
+    "name_zh": "灯笼裤",
+    "name_en": "bloomers",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0111"
+    ],
+    "snippet": "…er costume 为短裙+长裤；后期多作为裙下衬裤或运动裤。 - 常用棉、羊毛、亚麻；白色最常见。 - 20 世纪初用于自行车、体操等运动，逐渐被更贴身款式取代。 ## 视觉辨识 裙摆下露出收口裤腿，或整体呈“短裙+鼓胀裤管”轮廓；脚踝处…",
+    "score": 2.0
+  },
+  {
+    "id": "GAR-0012",
+    "path": "01-服装单品/内层/GAR-0012-衬裤.md",
+    "name_zh": "衬裤",
+    "name_en": "pantalettes",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0113"
+    ],
+    "snippet": "…衬裤（pantalettes）是 19 世纪早中期女性、女孩与尚未穿裤男童的腿部内衬衣，白色亚麻制，可连体或分腿，常带褶、蕾丝与镂空绣，用于裙下遮腿。 ## 结构要点 - 连体或分腿（每条腿一件），腰头以纽扣/系带固定。 - 白色亚麻/棉为…",
+    "score": 2.0
+  },
+  {
+    "id": "GAR-0014",
+    "path": "01-服装单品/下装/GAR-0014-牛仔裤.md",
+    "name_zh": "牛仔裤",
+    "name_en": "jeans",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0115"
+    ],
+    "snippet": "…裤袢为经典结构（工艺常识，非本来源逐条支撑）。 - 1950 年代常见直筒或微修身版型，配白 t 恤与皮夹克。 - 洗水与磨损状态是连续性的重要变量：膝部、裆部、后袋。 - 女性牛仔裤在同期开始出现，但版型与穿着语境不同。 ## 视觉辨识 靛…",
+    "score": 2.0
+  }
+]

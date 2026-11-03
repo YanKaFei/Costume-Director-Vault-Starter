@@ -29,270 +29,340 @@
     {
       "look_ref": "A",
       "source_look_id": null,
-      "total": 47.5,
+      "total": 48.7,
       "scores": {
-        "period": 8.5,
-        "identity": 4.0,
-        "environment": 9.6,
-        "art": 4.7,
-        "movement": 5.6,
-        "arc": 5.7,
-        "camera": 8.5
+        "period": 20.2,
+        "identity": 3.4,
+        "environment": 7.9,
+        "art": 3.9,
+        "movement": 4.4,
+        "arc": 4.2,
+        "camera": 6.8
       },
       "missing": [],
-      "cost": 0.468,
+      "cost": 0.33,
+      "cost_total": 0.99,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "upper_body": "era",
+        "lower_body": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "exact",
+        "lower_body": "exact",
+        "footwear": "exact"
+      },
       "colors": [
+        "beaded",
         "black",
-        "cream white",
-        "red",
-        "silver"
+        "blue black",
+        "buckskin",
+        "cream",
+        "embroidered",
+        "indigo",
+        "tan"
       ],
       "style_tags": [
-        "1930s",
-        "art",
-        "art deco",
-        "deco",
-        "elite",
-        "era",
-        "republican",
-        "republican era",
-        "scholar",
-        "urban",
-        "urban elite"
+        "class",
+        "craft",
+        "dandy",
+        "indigenous",
+        "menswear",
+        "rockabilly",
+        "victorian",
+        "working",
+        "working class",
+        "youth"
       ],
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve jazz dancer; the middle economic register shows through material and finish; formality runs from business / casual / casual; the beaded, black, blue black palette controls the emotional temperature; against the arc (stepping out of a small town) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "one_piece",
-          "id": "GAR-0032",
-          "name_zh": "长衫",
-          "name_en": "changshan",
+          "slot": "upper_body",
+          "id": "GAR-0008",
+          "name_zh": "马甲",
+          "name_en": "waistcoat",
           "colors": [
-            "cream_white"
+            "black",
+            "cream",
+            "embroidered"
           ],
           "materials": [
+            "wool",
             "silk",
-            "gauze_silk"
+            "cotton"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0202"
+            "SRC-0109"
           ],
           "scores": {
-            "period": 0.33999999999999997,
-            "identity": 0.29375,
-            "environment": 0.50925,
-            "art": 0.2833333333333333,
-            "movement": 0.6,
-            "arc": 0.5666666666666667,
-            "camera": 0.8500000000000001
+            "period": 0.81,
+            "identity": 0.225,
+            "environment": 0.5319999999999999,
+            "art": 0.31029411764705883,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0014",
+          "name_zh": "牛仔裤",
+          "name_en": "jeans",
+          "colors": [
+            "indigo",
+            "blue_black"
+          ],
+          "materials": [
+            "denim",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0115"
+          ],
+          "scores": {
+            "period": 0.81,
+            "identity": 0.225,
+            "environment": 0.5319999999999999,
+            "art": 0.28308823529411764,
+            "movement": 0.4,
+            "arc": 0.4583333333333333,
+            "camera": 0.65
           }
         },
         {
           "slot": "footwear",
-          "id": "GAR-0035",
-          "name_zh": "女式皮鞋",
-          "name_en": "1930s women’s shoes",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
           "colors": [
-            "black",
-            "red",
-            "silver"
+            "tan",
+            "buckskin",
+            "beaded"
           ],
           "materials": [
-            "lace",
-            "sequins",
-            "silk",
-            "metallic_brocade"
+            "leather",
+            "beads",
+            "silk_ribbon"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0205",
-            "SRC-0206"
+            "SRC-0124"
           ],
           "scores": {
-            "period": 0.33999999999999997,
+            "period": 0.81,
             "identity": 0.225,
-            "environment": 0.80925,
-            "art": 0.35,
-            "movement": 0.5,
-            "arc": 0.5666666666666667,
-            "camera": 0.8500000000000001
+            "environment": 0.50925,
+            "art": 0.18529411764705883,
+            "movement": 0.4,
+            "arc": 0.4583333333333333,
+            "camera": 0.69
           }
         }
       ],
       "parts": [
         {
-          "id": "STR-0011",
-          "slot": "one_piece",
+          "id": "STR-0006",
+          "slot": "upper_body",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "lower_body",
+          "confidence": "suggested"
         }
       ],
       "materials": [
         {
           "id": "MAT-0002",
-          "slot": "one_piece"
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
         },
         {
           "id": "MAT-0003",
-          "slot": "one_piece"
+          "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mabel, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined, worn over jacket and trousers; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, cream white, red, silver, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined, worn over jacket and trousers; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 两侧开衩提供步幅，但仍限制大步/跑动；长而紧的袖限制手腕；长摆上下楼梯需提摆，镜头间需保持提摆/放下状态一致。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Mabel, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, blue black, buckskin, cream, embroidered, indigo, tan, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 8.5/25, 环境气候 9.6/15",
-        "连身: GAR-0032 长衫 (formal)",
-        "足部: GAR-0035 女式皮鞋 (smart_casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0002, MAT-0003"
+        "highest scoring dimensions: 年代/文化 20.2/25, 环境气候 7.9/15",
+        "上装: GAR-0008 马甲 (business)",
+        "下装: GAR-0014 牛仔裤 (casual)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked structure cards: STR-0006, STR-0011",
+        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0011"
       ],
       "risks": [
-        "region mismatch in GAR-0032, GAR-0035: cards document their own regions, not north_america",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0202",
-          "SRC-0205",
-          "SRC-0206",
+          "SRC-0109",
+          "SRC-0115",
+          "SRC-0124",
+          "SRC-0136",
           "SRC-0200",
+          "SRC-0202",
           "SRC-0141",
-          "SRC-0142"
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0423"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
+            "source_id": "SRC-0109",
+            "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
           },
           {
-            "source_id": "SRC-0205",
-            "url": "https://collections.vam.ac.uk/item/O350849/"
+            "source_id": "SRC-0115",
+            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
           },
           {
-            "source_id": "SRC-0206",
-            "url": "https://collections.vam.ac.uk/item/O350850/"
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0136",
+            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
           },
           {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
           }
         ],
-        "context_style_ids": [
-          "STY-0003",
-          "STY-0004"
-        ],
+        "context_style_ids": [],
         "context_period_ids": [
           "PRD-0004"
         ],
-        "context_scene_ids": [
-          "SCN-0001"
-        ],
+        "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0032": "verified",
-          "GAR-0035": "verified"
+          "GAR-0008": "verified",
+          "GAR-0014": "verified",
+          "GAR-0023": "verified"
         },
         "missing_urls": []
       }
     },
     {
       "look_ref": "B",
-      "source_look_id": "LOOK-0005",
-      "total": 40.8,
+      "source_look_id": null,
+      "total": 48.4,
       "scores": {
-        "period": 9.8,
+        "period": 20.2,
         "identity": 3.4,
-        "environment": 8.3,
-        "art": 3.9,
-        "movement": 4.0,
-        "arc": 3.5,
-        "camera": 7.5
+        "environment": 8.1,
+        "art": 3.7,
+        "movement": 4.4,
+        "arc": 3.9,
+        "camera": 6.8
       },
       "missing": [],
-      "cost": 0.343,
+      "cost": 0.33,
+      "cost_total": 0.99,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "upper_body": "era",
+        "lower_body": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "exact",
+        "lower_body": "exact",
+        "footwear": "exact"
+      },
       "colors": [
+        "beaded",
         "black",
+        "buckskin",
         "cream",
         "dark",
-        "gold",
-        "pink ribbon",
-        "red",
-        "silk",
-        "straw",
-        "striped",
+        "embroidered",
+        "tan",
         "white"
       ],
       "style_tags": [
         "athletic",
-        "boudoir",
-        "court",
-        "edwardian",
-        "regency",
+        "craft",
+        "dandy",
+        "indigenous",
+        "menswear",
         "suffragist",
         "victorian"
       ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve jazz dancer; the middle economic register shows through material and finish; formality runs from business / casual / casual; the beaded, black, buckskin palette controls the emotional temperature; against the arc (stepping out of a small town) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "inner_layer",
-          "id": "GAR-0012",
-          "name_zh": "衬裤",
-          "name_en": "pantalettes",
+          "slot": "upper_body",
+          "id": "GAR-0008",
+          "name_zh": "马甲",
+          "name_en": "waistcoat",
           "colors": [
-            "white"
+            "black",
+            "cream",
+            "embroidered"
           ],
           "materials": [
-            "linen",
+            "wool",
+            "silk",
             "cotton"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0113"
+            "SRC-0109"
           ],
           "scores": {
-            "period": 0.4099999999999999,
+            "period": 0.81,
             "identity": 0.225,
-            "environment": 0.5774999999999999,
-            "art": 0.21666666666666667,
-            "movement": 0.4,
+            "environment": 0.5319999999999999,
+            "art": 0.31029411764705883,
+            "movement": 0.5,
             "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "upper_body",
-          "id": "GAR-0007",
-          "name_zh": "衬衫式女衫",
-          "name_en": "shirtwaist",
-          "colors": [
-            "white",
-            "cream",
-            "striped"
-          ],
-          "materials": [
-            "cotton",
-            "silk",
-            "linen"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0108"
-          ],
-          "scores": {
-            "period": 0.4099999999999999,
-            "identity": 0.225,
-            "environment": 0.5774999999999999,
-            "art": 0.26666666666666666,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
+            "camera": 0.69
           }
         },
         {
@@ -315,10 +385,10 @@
             "SRC-0111"
           ],
           "scores": {
-            "period": 0.4099999999999999,
+            "period": 0.81,
             "identity": 0.225,
             "environment": 0.5774999999999999,
-            "art": 0.26666666666666666,
+            "art": 0.24779411764705883,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -326,321 +396,51 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0024",
-          "name_zh": "穆勒鞋",
-          "name_en": "mule",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
           "colors": [
-            "red",
-            "silk",
-            "gold"
+            "tan",
+            "buckskin",
+            "beaded"
           ],
           "materials": [
             "leather",
-            "silk",
-            "velvet"
+            "beads",
+            "silk_ribbon"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0125"
+            "SRC-0124"
           ],
           "scores": {
-            "period": 0.33999999999999997,
+            "period": 0.81,
             "identity": 0.225,
             "environment": 0.50925,
-            "art": 0.26666666666666666,
+            "art": 0.18529411764705883,
             "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
-          }
-        },
-        {
-          "slot": "accessory",
-          "id": "GAR-0026",
-          "name_zh": "波克帽",
-          "name_en": "poke bonnet",
-          "colors": [
-            "straw",
-            "pink_ribbon",
-            "white"
-          ],
-          "materials": [
-            "straw",
-            "silk",
-            "lace"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0127"
-          ],
-          "scores": {
-            "period": 0.4099999999999999,
-            "identity": 0.225,
-            "environment": 0.50925,
-            "art": 0.25,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
+            "arc": 0.4583333333333333,
+            "camera": 0.69
           }
         }
       ],
       "parts": [
         {
-          "id": "STR-0008",
-          "slot": "inner_layer",
+          "id": "STR-0006",
+          "slot": "upper_body",
           "confidence": "explicit"
         },
         {
           "id": "STR-0011",
-          "slot": "upper_body",
+          "slot": "lower_body",
           "confidence": "suggested"
-        },
-        {
-          "id": "STR-0004",
-          "slot": "look_card",
-          "confidence": "explicit"
         }
       ],
       "materials": [
-        {
-          "id": "MAT-0001",
-          "slot": "inner_layer"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "upper_body"
-        },
         {
           "id": "MAT-0002",
           "slot": "upper_body"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult Mabel, inner layer: white linen pantalettes, ankle-length drawers with tucks and lace trim, worn under a crinoline skirt, one-piece or split-leg; upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: 19th-century poke bonnet, brim projecting forward, ribbon tied under the chin, straw or silk, lace and flower trim, Regency or Victorian woman, palette: black, cream, dark, gold, pink ribbon, red, silk, straw, striped, white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: cage crinoline (STR-0008); frog closure (STR-0011); gigot sleeve (STR-0004), continuity lock: GAR-0012 pantalettes [white; linen, cotton; inner layer] | GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0026 poke bonnet [straw, pink_ribbon, white; straw, silk, lace; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: inner layer: white linen pantalettes, ankle-length drawers with tucks and lace trim, worn under a crinoline skirt, one-piece or split-leg; upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: 19th-century poke bonnet, brim projecting forward, ribbon tied under the chin, straw or silk, lace and flower trim, Regency or Victorian woman, fabric motion: 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0012 pantalettes [white; linen, cotton; inner layer] | GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0026 poke bonnet [straw, pink_ribbon, white; straw, silk, lace; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0012 pantalettes [white; linen, cotton; inner layer] | GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0026 poke bonnet [straw, pink_ribbon, white; straw, silk, lace; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
-      "reasons": [
-        "highest scoring dimensions: 年代/文化 9.8/25, 环境气候 8.3/15",
-        "内层: GAR-0012 衬裤 (functional)",
-        "上装: GAR-0007 衬衫式女衫 (smart_casual)",
-        "下装: GAR-0010 灯笼裤 (casual)",
-        "足部: GAR-0024 穆勒鞋 (formal)",
-        "配饰: GAR-0026 波克帽 (smart_casual)",
-        "linked structure cards: STR-0008, STR-0011, STR-0004",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002",
-        "based on curated vault look card LOOK-0005"
-      ],
-      "risks": [
-        "region mismatch in GAR-0024: cards document their own regions, not north_america",
-        "character psychology is a directorial interpretation, not a clothing-history fact",
-        "all images remain external links; no third-party images are embedded in the vault"
-      ],
-      "evidence": {
-        "source_ids": [
-          "SRC-0108",
-          "SRC-0111",
-          "SRC-0113",
-          "SRC-0127",
-          "SRC-0125",
-          "SRC-0138",
-          "SRC-0200",
-          "SRC-0202",
-          "SRC-0134",
-          "SRC-0102",
-          "SRC-0142",
-          "SRC-0141"
-        ],
-        "source_urls": [
-          {
-            "source_id": "SRC-0108",
-            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
-          },
-          {
-            "source_id": "SRC-0111",
-            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
-          },
-          {
-            "source_id": "SRC-0113",
-            "url": "https://fashionhistory.fitnyc.edu/pantalettes/"
-          },
-          {
-            "source_id": "SRC-0127",
-            "url": "https://fashionhistory.fitnyc.edu/poke-bonnet/"
-          },
-          {
-            "source_id": "SRC-0125",
-            "url": "https://fashionhistory.fitnyc.edu/mule/"
-          },
-          {
-            "source_id": "SRC-0138",
-            "url": "https://fashionhistory.fitnyc.edu/cage-crinoline/"
-          },
-          {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
-          },
-          {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
-          },
-          {
-            "source_id": "SRC-0134",
-            "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
-          },
-          {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          }
-        ],
-        "context_style_ids": [
-          "STY-0003",
-          "STY-0004"
-        ],
-        "context_period_ids": [
-          "PRD-0004"
-        ],
-        "context_scene_ids": [
-          "SCN-0001"
-        ],
-        "item_evidence": {
-          "GAR-0007": "verified",
-          "GAR-0010": "verified",
-          "GAR-0012": "verified",
-          "GAR-0026": "verified",
-          "GAR-0024": "verified"
         },
-        "missing_urls": []
-      }
-    },
-    {
-      "look_ref": "C",
-      "source_look_id": "LOOK-EXAMPLE-001",
-      "total": 43.3,
-      "scores": {
-        "period": 9.8,
-        "identity": 3.7,
-        "environment": 6.7,
-        "art": 3.8,
-        "movement": 4.4,
-        "arc": 4.2,
-        "camera": 6.8
-      },
-      "missing": [],
-      "cost": 0.237,
-      "colors": [
-        "black",
-        "blue black",
-        "brown",
-        "indigo",
-        "off white"
-      ],
-      "style_tags": [
-        "class",
-        "contemporary",
-        "country",
-        "fictional",
-        "fictional noir",
-        "military",
-        "minimal",
-        "noir",
-        "rockabilly",
-        "working",
-        "working class",
-        "youth"
-      ],
-      "items": [
-        {
-          "slot": "upper_body",
-          "id": "GAR-EXAMPLE-001",
-          "name_zh": "白色立领衬衫",
-          "name_en": "white stand-collar shirt",
-          "colors": [
-            "off_white"
-          ],
-          "materials": [
-            "cotton"
-          ],
-          "evidence_status": "example",
-          "source_ids": [],
-          "scores": {
-            "period": 0.42000000000000004,
-            "identity": 0.29375,
-            "environment": 0.5319999999999999,
-            "art": 0.25,
-            "movement": 0.5,
-            "arc": 0.4583333333333333,
-            "camera": 0.55
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0014",
-          "name_zh": "牛仔裤",
-          "name_en": "jeans",
-          "colors": [
-            "indigo",
-            "blue_black"
-          ],
-          "materials": [
-            "denim",
-            "cotton"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0115"
-          ],
-          "scores": {
-            "period": 0.4099999999999999,
-            "identity": 0.225,
-            "environment": 0.5319999999999999,
-            "art": 0.23333333333333334,
-            "movement": 0.4,
-            "arc": 0.4583333333333333,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "footwear",
-          "id": "GAR-0022",
-          "name_zh": "威灵顿靴",
-          "name_en": "wellington boot",
-          "colors": [
-            "black",
-            "brown"
-          ],
-          "materials": [
-            "leather",
-            "rubber"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0123"
-          ],
-          "scores": {
-            "period": 0.33999999999999997,
-            "identity": 0.225,
-            "environment": 0.259,
-            "art": 0.26666666666666666,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
-          }
-        }
-      ],
-      "parts": [
-        {
-          "id": "STR-0011",
-          "slot": "lower_body",
-          "confidence": "suggested"
-        }
-      ],
-      "materials": [
         {
           "id": "MAT-0001",
           "slot": "upper_body"
@@ -648,43 +448,252 @@
         {
           "id": "MAT-0003",
           "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mabel, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue black, brown, indigo, off white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "prompt_image": "full-body character design of an adult Mabel, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, buckskin, cream, dark, embroidered, tan, white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 9.8/25, 摄影/一致性 6.8/10",
-        "上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)",
-        "下装: GAR-0014 牛仔裤 (casual)",
-        "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0001, MAT-0003",
-        "based on curated vault look card LOOK-EXAMPLE-001"
+        "highest scoring dimensions: 年代/文化 20.2/25, 环境气候 8.1/15",
+        "上装: GAR-0008 马甲 (business)",
+        "下装: GAR-0010 灯笼裤 (casual)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked structure cards: STR-0006, STR-0011",
+        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0011"
       ],
       "risks": [
-        "look includes example cards, not historical evidence",
-        "region mismatch in GAR-0022: cards document their own regions, not north_america",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0115",
-          "SRC-0123",
+          "SRC-0109",
+          "SRC-0111",
+          "SRC-0124",
+          "SRC-0136",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0423"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0109",
+            "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+          },
+          {
+            "source_id": "SRC-0111",
+            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+          },
+          {
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0136",
+            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0004"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0008": "verified",
+          "GAR-0010": "verified",
+          "GAR-0023": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 47.1,
+      "scores": {
+        "period": 20.2,
+        "identity": 3.4,
+        "environment": 7.8,
+        "art": 2.8,
+        "movement": 4.0,
+        "arc": 4.0,
+        "camera": 6.9
+      },
+      "missing": [],
+      "cost": 0.418,
+      "cost_total": 0.835,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "set": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "set": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "beaded",
+        "buckskin",
+        "multicolor",
+        "red",
+        "tan",
+        "white"
+      ],
+      "style_tags": [
+        "craft",
+        "indigenous",
+        "mesoamerican"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve jazz dancer; the middle economic register shows through material and finish; formality runs from ceremonial / casual; the beaded, buckskin, multicolor palette controls the emotional temperature; against the arc (stepping out of a small town) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0030",
+          "name_zh": "惠皮尔",
+          "name_en": "huipil",
+          "colors": [
+            "multicolor",
+            "red",
+            "white"
+          ],
+          "materials": [
+            "cotton",
+            "silk",
+            "brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0131"
+          ],
+          "scores": {
+            "period": 0.81,
+            "identity": 0.225,
+            "environment": 0.5319999999999999,
+            "art": 0.18529411764705883,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
+          "colors": [
+            "tan",
+            "buckskin",
+            "beaded"
+          ],
+          "materials": [
+            "leather",
+            "beads",
+            "silk_ribbon"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0124"
+          ],
+          "scores": {
+            "period": 0.81,
+            "identity": 0.225,
+            "environment": 0.50925,
+            "art": 0.18529411764705883,
+            "movement": 0.4,
+            "arc": 0.4583333333333333,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "set",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "set"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "set"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Mabel, complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, buckskin, multicolor, red, tan, white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 20.2/25, 环境气候 7.8/15",
+        "成套: GAR-0030 惠皮尔 (ceremonial)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0003"
+      ],
+      "risks": [
+        "region mismatch in GAR-0030: cards document their own regions, not north_america",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0131",
+          "SRC-0124",
           "SRC-0200",
           "SRC-0202",
           "SRC-0102",
+          "SRC-0141",
           "SRC-0142"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0115",
-            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+            "source_id": "SRC-0131",
+            "url": "https://fashionhistory.fitnyc.edu/huipilli-huipil/"
           },
           {
-            "source_id": "SRC-0123",
-            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
           },
           {
             "source_id": "SRC-0200",
@@ -699,84 +708,146 @@
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           }
         ],
-        "context_style_ids": [
-          "STY-0003",
-          "STY-0004"
-        ],
+        "context_style_ids": [],
         "context_period_ids": [
           "PRD-0004"
         ],
-        "context_scene_ids": [
-          "SCN-0001"
-        ],
+        "context_scene_ids": [],
         "item_evidence": {
-          "GAR-EXAMPLE-001": "example",
-          "GAR-0014": "verified",
-          "GAR-0022": "verified"
+          "GAR-0030": "verified",
+          "GAR-0023": "verified"
         },
         "missing_urls": []
       }
     }
   ],
   "context": {
-    "style_refs": [
-      "STY-0003",
-      "STY-0004"
-    ],
+    "style_refs": [],
     "period_refs": [
       "PRD-0004"
     ],
-    "scene_refs": [
-      "SCN-0001"
-    ]
+    "scene_refs": []
+  },
+  "context_refs": [
+    {
+      "id": "PRD-0004",
+      "type": "period_region",
+      "score": 0.85,
+      "period_tier": "exact",
+      "region_tier": "exact",
+      "reason": "period/region match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction '1920s dance-hall glamour'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "occupation_coverage_gap",
+      "severity": "high",
+      "message": "no occupational garment cards match 'jazz dancer'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "cheaper",
+    "a_cost_total": 0.99,
+    "c_cost_total": 0.835,
+    "differences": {
+      "a_b": 2,
+      "a_c": 3,
+      "b_c": 3
+    }
   },
   "retrieved_ids": {
     "upper_body": [
       "GAR-0008",
-      "GAR-0002",
       "GAR-0007",
-      "GAR-EXAMPLE-001",
-      "GAR-0003",
       "GAR-0006",
+      "GAR-EXAMPLE-001",
+      "GAR-0043",
+      "GAR-0002",
+      "GAR-0003",
       "GAR-0034"
     ],
     "lower_body": [
-      "GAR-0010",
       "GAR-0014",
-      "GAR-0013",
-      "GAR-0011"
+      "GAR-0010",
+      "GAR-0011",
+      "GAR-0059",
+      "GAR-0013"
+    ],
+    "set": [
+      "GAR-0030",
+      "GAR-0042",
+      "GAR-0036"
     ],
     "inner_layer": [
       "GAR-0020",
       "GAR-0012"
     ],
     "outerwear": [
-      "GAR-0018",
-      "GAR-0019",
-      "GAR-0016",
+      "GAR-0040",
       "GAR-0017",
+      "GAR-0045",
+      "GAR-0046",
+      "GAR-0057",
+      "GAR-0041",
+      "GAR-0016",
+      "GAR-0018",
+      "GAR-0037",
       "GAR-0033"
     ],
     "accessory": [
       "GAR-0021",
-      "GAR-0028",
       "GAR-0026",
-      "GAR-0025"
+      "GAR-0025",
+      "GAR-0068",
+      "GAR-0028",
+      "GAR-0050",
+      "GAR-0039",
+      "GAR-0051",
+      "GAR-0070"
+    ],
+    "carried_prop": [
+      "GAR-0047",
+      "GAR-0048",
+      "GAR-0049"
     ],
     "footwear": [
-      "GAR-0035",
       "GAR-0023",
-      "GAR-0024",
+      "GAR-0035",
+      "GAR-0058",
+      "GAR-0044",
+      "GAR-0060",
       "GAR-0022"
     ],
     "one_piece": [
-      "GAR-0031",
       "GAR-0032",
+      "GAR-0031",
+      "GAR-0055",
+      "GAR-0054",
+      "GAR-0062",
       "GAR-0015",
+      "GAR-0069",
+      "GAR-0053",
+      "GAR-0056",
+      "GAR-0052",
       "GAR-0029"
     ]
   },
@@ -796,10 +867,17 @@
       ]
     },
     {
-      "id": "GAR-0030",
+      "id": "GAR-0065",
       "slot": "set",
       "reasons": [
-        "region-specific card incompatible with north_america (mesoamerica, mexico, guatemala)"
+        "region-specific card incompatible with north_america (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "indoor scene: arctic/snow outerwear unsuitable"
       ]
     },
     {
@@ -807,6 +885,13 @@
       "slot": "accessory",
       "reasons": [
         "region-specific card incompatible with north_america (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "dance: heels unsafe for dance movement"
       ]
     },
     {
@@ -822,73 +907,95 @@
       "reasons": [
         "region-specific card incompatible with north_america (europe, byzantium)"
       ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with north_america (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with north_america (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with north_america (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with north_america (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with north_america (china)"
+      ]
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "no reliable style card for art direction '1920s dance-hall glamour'",
+    "no occupational garment cards match 'jazz dancer'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute"
+  ],
   "sources": [
     {
-      "source_id": "SRC-0202",
-      "url": "https://collections.vam.ac.uk/item/O80590/"
-    },
-    {
-      "source_id": "SRC-0205",
-      "url": "https://collections.vam.ac.uk/item/O350849/"
-    },
-    {
-      "source_id": "SRC-0206",
-      "url": "https://collections.vam.ac.uk/item/O350850/"
-    },
-    {
-      "source_id": "SRC-0200",
-      "url": "https://collections.vam.ac.uk/item/O1151302/"
-    },
-    {
-      "source_id": "SRC-0141",
-      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-    },
-    {
-      "source_id": "SRC-0142",
-      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-    },
-    {
-      "source_id": "SRC-0108",
-      "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
-    },
-    {
-      "source_id": "SRC-0111",
-      "url": "https://fashionhistory.fitnyc.edu/bloomers/"
-    },
-    {
-      "source_id": "SRC-0113",
-      "url": "https://fashionhistory.fitnyc.edu/pantalettes/"
-    },
-    {
-      "source_id": "SRC-0127",
-      "url": "https://fashionhistory.fitnyc.edu/poke-bonnet/"
-    },
-    {
-      "source_id": "SRC-0125",
-      "url": "https://fashionhistory.fitnyc.edu/mule/"
-    },
-    {
-      "source_id": "SRC-0138",
-      "url": "https://fashionhistory.fitnyc.edu/cage-crinoline/"
-    },
-    {
-      "source_id": "SRC-0134",
-      "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
-    },
-    {
-      "source_id": "SRC-0102",
-      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+      "source_id": "SRC-0109",
+      "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
     },
     {
       "source_id": "SRC-0115",
       "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
     },
     {
-      "source_id": "SRC-0123",
-      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+      "source_id": "SRC-0124",
+      "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+    },
+    {
+      "source_id": "SRC-0136",
+      "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0111",
+      "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+    },
+    {
+      "source_id": "SRC-0131",
+      "url": "https://fashionhistory.fitnyc.edu/huipilli-huipil/"
     }
   ],
   "missing_urls": [],
@@ -899,6 +1006,15 @@
     "scores_sum_100": true,
     "looks_distinct": true,
     "fidelity_mode": "inspired",
-    "history_evidence": true
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "warnings_count": 2,
+    "rejected_count": 13
   }
 }

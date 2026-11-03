@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T21",
+    "title": "1960s 伦敦摄影师：青年文化历史造型",
+    "types": [
+      "historical_accuracy",
+      "1960s"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "period_coverage"
+    ],
+    "query": [
+      "1960s",
+      "--type",
+      "period_region",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Ada",
+    "occupation": "photographer",
+    "economic_status": "middle",
+    "arc": "finding a visual voice in a changing city"
+  },
+  "period": "1960s",
+  "region": "britain",
+  "season": "summer",
+  "scene": "marylebone studio",
+  "time": "afternoon",
+  "weather": "indoor",
+  "action": "adjusting a camera and directing a portrait",
+  "location": "london photography studio",
+  "art_direction": "swinging sixties youth culture",
+  "lighting": "hard window light",
+  "camera": "medium shot",
+  "budget": "low",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

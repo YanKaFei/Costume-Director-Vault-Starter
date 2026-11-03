@@ -1,0 +1,728 @@
+{
+  "input": {
+    "character_name": "Siren-7",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "orbital opera singer",
+    "economic_status": "elite",
+    "period": "23rd century",
+    "region": "orbital opera house",
+    "season": "controlled indoor climate",
+    "scene": "zero-gravity stage",
+    "time": "night performance",
+    "weather": "indoor, climate controlled",
+    "action": "hovering, sustaining a long note, slowly rotating",
+    "arc": "balancing body modification and artistic self",
+    "art_direction": "bio-baroque and retro-futurism",
+    "lighting": "cold stage light and gold practicals",
+    "camera": "orbiting long take",
+    "budget": "high",
+    "fidelity_mode": "fictional",
+    "tool": "sora",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": ""
+  },
+  "fidelity_mode": "fictional",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 49.9,
+      "scores": {
+        "period": 23.0,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 4.1,
+        "movement": 4.8,
+        "arc": 4.0,
+        "camera": 6.9
+      },
+      "missing": [],
+      "cost": 0.213,
+      "cost_total": 0.425,
+      "contains_example": false,
+      "evidence_tier": "none",
+      "period_tiers": {
+        "set": "none",
+        "footwear": "none"
+      },
+      "region_tiers": {
+        "set": "unknown",
+        "footwear": "unknown"
+      },
+      "colors": [
+        "black",
+        "navy",
+        "white"
+      ],
+      "style_tags": [
+        "medical",
+        "occupational",
+        "uniform"
+      ],
+      "budget_mode": "equivalent_cost",
+      "budget_explanation": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "differences": {
+        "a_b": 2,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve orbital opera singer; the elite economic register shows through material and finish; formality runs from functional / functional; the black, navy, white palette controls the emotional temperature; against the arc (balancing body modification and artistic self) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0042",
+          "name_zh": "警察制服",
+          "name_en": "police uniform",
+          "colors": [
+            "navy",
+            "black"
+          ],
+          "materials": [
+            "wool",
+            "polyester",
+            "cotton"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2425,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0044",
+          "name_zh": "医疗工作鞋",
+          "name_en": "medical work shoes",
+          "colors": [
+            "white",
+            "black"
+          ],
+          "materials": [
+            "leather",
+            "rubber",
+            "synthetic"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.305,
+            "movement": 0.5714285714285714,
+            "arc": 0.35,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "set"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Siren-7, complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: black, navy, white, setting: zero-gravity stage, night performance, indoor, climate controlled, art direction: bio-baroque and retro-futurism, lighting: cold stage light and gold practicals, camera: orbiting long take, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "prompt_video": "Siren-7, hovering, sustaining a long note, slowly rotating, scene: zero-gravity stage, night performance, indoor, climate controlled, camera: orbiting long take, costume: complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: natural fabric response to the action, gravity and wind, lighting: cold stage light and gold practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10",
+        "成套: GAR-0042 警察制服 (functional)",
+        "足部: GAR-0044 医疗工作鞋 (functional)",
+        "linked material cards: MAT-0001"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0042, GAR-0044: cards document their own regions, not orbital opera house",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0102"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0042": "interpretive",
+          "GAR-0044": "interpretive"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 49.2,
+      "scores": {
+        "period": 23.0,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 3.6,
+        "movement": 4.0,
+        "arc": 4.4,
+        "camera": 6.9
+      },
+      "missing": [],
+      "cost": 0.206,
+      "cost_total": 0.413,
+      "contains_example": false,
+      "evidence_tier": "none",
+      "period_tiers": {
+        "set": "none",
+        "footwear": "none"
+      },
+      "region_tiers": {
+        "set": "unknown",
+        "footwear": "unknown"
+      },
+      "colors": [
+        "black",
+        "brown",
+        "navy"
+      ],
+      "style_tags": [
+        "country",
+        "military",
+        "occupational",
+        "uniform"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve orbital opera singer; the elite economic register shows through material and finish; formality runs from functional / smart_casual; the black, brown, navy palette controls the emotional temperature; against the arc (balancing body modification and artistic self) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0042",
+          "name_zh": "警察制服",
+          "name_en": "police uniform",
+          "colors": [
+            "navy",
+            "black"
+          ],
+          "materials": [
+            "wool",
+            "polyester",
+            "cotton"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2425,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2425,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "set"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Siren-7, complete set: police uniform, badge and number, belt with equipment, high-visibility variant; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, navy, setting: zero-gravity stage, night performance, indoor, climate controlled, art direction: bio-baroque and retro-futurism, lighting: cold stage light and gold practicals, camera: orbiting long take, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "prompt_video": "Siren-7, hovering, sustaining a long note, slowly rotating, scene: zero-gravity stage, night performance, indoor, climate controlled, camera: orbiting long take, costume: complete set: police uniform, badge and number, belt with equipment, high-visibility variant; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: natural fabric response to the action, gravity and wind, lighting: cold stage light and gold practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10",
+        "成套: GAR-0042 警察制服 (functional)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0042, GAR-0022: cards document their own regions, not orbital opera house",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0123",
+          "SRC-0102"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0042": "interpretive",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 39.2,
+      "scores": {
+        "period": 13.2,
+        "identity": 4.4,
+        "environment": 1.8,
+        "art": 4.4,
+        "movement": 5.0,
+        "arc": 5.5,
+        "camera": 6.9
+      },
+      "missing": [],
+      "cost": 0.296,
+      "cost_total": 0.593,
+      "contains_example": false,
+      "evidence_tier": "none",
+      "period_tiers": {
+        "one_piece": "none",
+        "footwear": "none"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "footwear": "unknown"
+      },
+      "colors": [
+        "black",
+        "brown",
+        "mid blue",
+        "orange red",
+        "pink",
+        "white"
+      ],
+      "style_tags": [
+        "art",
+        "art deco",
+        "country",
+        "deco",
+        "era",
+        "military",
+        "modern",
+        "republican",
+        "republican era",
+        "shanghai",
+        "shanghai modern"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve orbital opera singer; the elite economic register shows through material and finish; formality runs from smart_casual / smart_casual; the black, brown, mid blue palette controls the emotional temperature; against the arc (balancing body modification and artistic self) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0031",
+          "name_zh": "旗袍",
+          "name_en": "qipao",
+          "colors": [
+            "white",
+            "orange_red",
+            "pink",
+            "mid_blue"
+          ],
+          "materials": [
+            "silk",
+            "synthetic_velvet",
+            "crepe",
+            "silk_damask"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0200",
+            "SRC-0201"
+          ],
+          "scores": {
+            "period": 0.21825000000000003,
+            "identity": 0.3472222222222222,
+            "environment": 0.12249999999999998,
+            "art": 0.33499999999999996,
+            "movement": 0.5714285714285714,
+            "arc": 0.6285714285714286,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2425,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "one_piece"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Siren-7, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, mid blue, orange red, pink, white, setting: zero-gravity stage, night performance, indoor, climate controlled, art direction: bio-baroque and retro-futurism, lighting: cold stage light and gold practicals, camera: orbiting long take, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_video": "Siren-7, hovering, sustaining a long note, slowly rotating, scene: zero-gravity stage, night performance, indoor, climate controlled, camera: orbiting long take, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: cold stage light and gold practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 13.2/25, 摄影/一致性 6.9/10",
+        "连身: GAR-0031 旗袍 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0002, MAT-0003"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0031, GAR-0022: cards document their own regions, not orbital opera house",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0200",
+          "SRC-0201",
+          "SRC-0123",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0031": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [
+      "STY-0009"
+    ],
+    "period_refs": [],
+    "scene_refs": []
+  },
+  "context_refs": [
+    {
+      "id": "STY-0009",
+      "type": "style",
+      "score": 0.227,
+      "period_tier": "unknown",
+      "region_tier": "unknown",
+      "reason": "style tag match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable period/region context card after period/region normalization (requested: 23rd century / orbital opera house)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "period_approximate",
+      "severity": "medium",
+      "message": "period evidence is approximate/none for GAR-0022, GAR-0031, GAR-0042, GAR-0044 (requested 23rd century); treat these as era-level hypotheses, not exact period matches",
+      "items": [
+        "GAR-0022",
+        "GAR-0031",
+        "GAR-0042",
+        "GAR-0044"
+      ],
+      "look": null
+    },
+    {
+      "code": "future_wardrobe_gap",
+      "severity": "high",
+      "message": "fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "budget_equivalent",
+      "severity": "medium",
+      "message": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "equivalent_cost",
+    "a_cost_total": 0.425,
+    "c_cost_total": 0.593,
+    "differences": {
+      "a_b": 2,
+      "a_c": 4,
+      "b_c": 2
+    }
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0043",
+      "GAR-0006",
+      "GAR-EXAMPLE-001",
+      "GAR-0002",
+      "GAR-0008",
+      "GAR-0003",
+      "GAR-0007",
+      "GAR-0034"
+    ],
+    "lower_body": [
+      "GAR-0014",
+      "GAR-0010",
+      "GAR-0011",
+      "GAR-0059",
+      "GAR-0013"
+    ],
+    "set": [
+      "GAR-0005",
+      "GAR-0042",
+      "GAR-0065",
+      "GAR-0001",
+      "GAR-0030",
+      "GAR-0036"
+    ],
+    "inner_layer": [
+      "GAR-0020",
+      "GAR-0012"
+    ],
+    "outerwear": [
+      "GAR-0041",
+      "GAR-0045",
+      "GAR-0018",
+      "GAR-0040",
+      "GAR-0017",
+      "GAR-0057",
+      "GAR-0016",
+      "GAR-0033",
+      "GAR-0037",
+      "GAR-0046"
+    ],
+    "accessory": [
+      "GAR-0070",
+      "GAR-0050",
+      "GAR-0027",
+      "GAR-0021",
+      "GAR-0039",
+      "GAR-0051",
+      "GAR-0026",
+      "GAR-0028",
+      "GAR-0025",
+      "GAR-0068",
+      "GAR-0067",
+      "GAR-0066"
+    ],
+    "carried_prop": [
+      "GAR-0047",
+      "GAR-0048",
+      "GAR-0049"
+    ],
+    "footwear": [
+      "GAR-0044",
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0035",
+      "GAR-0058",
+      "GAR-0060",
+      "GAR-0024"
+    ],
+    "one_piece": [
+      "GAR-0069",
+      "GAR-0063",
+      "GAR-0064",
+      "GAR-0031",
+      "GAR-0061",
+      "GAR-0015",
+      "GAR-0056",
+      "GAR-0032",
+      "GAR-0004",
+      "GAR-0009",
+      "GAR-0029",
+      "GAR-0052",
+      "GAR-0062",
+      "GAR-0054",
+      "GAR-0053",
+      "GAR-0055"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    }
+  ],
+  "warnings": [
+    "no upper_body candidates retrieved",
+    "no lower_body candidates retrieved",
+    "no reliable period/region context card after period/region normalization (requested: 23rd century / orbital opera house)",
+    "period evidence is approximate/none for GAR-0022, GAR-0031, GAR-0042, GAR-0044 (requested 23rd century); treat these as era-level hypotheses, not exact period matches",
+    "fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins",
+    "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "fictional",
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "warnings_count": 6,
+    "rejected_count": 1
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "input": {
+    "character_name": "Theodora",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "court attendant",
+    "economic_status": "elite",
+    "period": "late_byzantine_empire",
+    "region": "byzantium",
+    "season": "winter",
+    "scene": "palace reception hall",
+    "time": "evening",
+    "weather": "indoor, cold",
+    "action": "standing in attendance, carrying a candle",
+    "arc": "surviving a shift in imperial favour",
+    "art_direction": "late byzantine court, gold and deep colours",
+    "lighting": "candlelight and gold reflections",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "historical",
+    "tool": "generic",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": ""
+  },
+  "fidelity_mode": "historical",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 40.0,
+      "scores": {
+        "period": 22.2,
+        "identity": 3.4,
+        "environment": 8.7,
+        "art": 5.2,
+        "movement": 4.0,
+        "arc": 4.6,
+        "camera": 6.9
+      },
+      "missing": [
+        "footwear",
+        "outerwear"
+      ],
+      "cost": 0.58,
+      "cost_total": 0.58,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era"
+      },
+      "region_tiers": {
+        "one_piece": "exact"
+      },
+      "colors": [
+        "gold",
+        "purple",
+        "white"
+      ],
+      "style_tags": [
+        "byzantine",
+        "ecclesiastical"
+      ],
+      "budget_mode": "none",
+      "budget_explanation": "Only one/two distinct combinations were available.",
+      "differences": {
+        "a_b": null,
+        "a_c": null,
+        "b_c": null
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve court attendant; the elite economic register shows through material and finish; formality runs from ceremonial; the gold, purple, white palette controls the emotional temperature; against the arc (surviving a shift in imperial favour) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0009",
+          "name_zh": "达尔马提亚长袍",
+          "name_en": "dalmatic tunic",
+          "colors": [
+            "purple",
+            "gold",
+            "white"
+          ],
+          "materials": [
+            "wool",
+            "silk",
+            "tapestry_trim"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0110"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.5774999999999999,
+            "art": 0.3458333333333333,
+            "movement": 0.4,
+            "arc": 0.4583333333333333,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0005",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0010",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "one_piece"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Theodora, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs, palette: gold, purple, white, setting: palace reception hall, evening, indoor, cold, art direction: late byzantine court, gold and deep colours, lighting: candlelight and gold reflections, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_video": "Theodora, standing in attendance, carrying a candle, scene: palace reception hall, evening, indoor, cold, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs, fabric motion: 宽身长袍，手臂活动时宽袖与侧衩提供空间; 饰边与重料会限制快走。, lighting: candlelight and gold reflections, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 22.2/25, 环境气候 8.7/15",
+        "连身: GAR-0009 达尔马提亚长袍 (ceremonial)",
+        "linked structure cards: STR-0005, STR-0010",
+        "linked material cards: MAT-0002, MAT-0003",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "incomplete look, missing: footwear, outerwear (knowledge-base gap, do not invent items)",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0110",
+          "SRC-0135",
+          "SRC-0140",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0110",
+            "url": "https://fashionhistory.fitnyc.edu/dalmatic-tunic/"
+          },
+          {
+            "source_id": "SRC-0135",
+            "url": "https://fashionhistory.fitnyc.edu/leg-of-mutton-sleeves/"
+          },
+          {
+            "source_id": "SRC-0140",
+            "url": "https://fashionhistory.fitnyc.edu/slashing/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0010"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0009": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [],
+    "period_refs": [
+      "PRD-0010"
+    ],
+    "scene_refs": []
+  },
+  "context_refs": [
+    {
+      "id": "PRD-0010",
+      "type": "period_region",
+      "score": 0.823,
+      "period_tier": "era",
+      "region_tier": "exact",
+      "reason": "period/region match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction 'late byzantine court, gold and deep colours'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "period_era_level",
+      "severity": "low",
+      "message": "period evidence is era-level (century bucket) for GAR-0009; exact-decade cards are missing",
+      "items": [
+        "GAR-0009"
+      ],
+      "look": null
+    },
+    {
+      "code": "knowledge_gap_slots",
+      "severity": "high",
+      "message": "looks are missing required layers: footwear, outerwear (no invented replacements)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "occupation_coverage_gap",
+      "severity": "high",
+      "message": "no occupational garment cards match 'court attendant'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "looks_incomplete",
+      "severity": "high",
+      "message": "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "none",
+    "a_cost_total": 0.58,
+    "c_cost_total": null,
+    "differences": {
+      "a_b": null,
+      "a_c": null,
+      "b_c": null
+    }
+  },
+  "retrieved_ids": {
+    "one_piece": [
+      "GAR-0009"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0002",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 14th_century, 15th_century, 16th_century, 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0003",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0006",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s, 1970s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0007",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1890s, edwardian_era, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0008",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 17th_century, 18th_century, 19th_century, 20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0034",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-EXAMPLE-001",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: example card is not historical evidence"
+      ]
+    },
+    {
+      "id": "GAR-0010",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1850s, late_19th_century, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0011",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs mid_19th_century, late_19th_century, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0013",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0014",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1950s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, early_20th_century)",
+        "region-specific card incompatible with byzantium (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)",
+        "region-specific card incompatible with byzantium (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs pre_columbian, colonial_era, 20th_century)",
+        "region-specific card incompatible with byzantium (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1910s, 1920s, 1930s)",
+        "region-specific card incompatible with byzantium (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0012",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs early_19th_century, mid_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0020",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0016",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_17th_century, 18th_century, early_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0017",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 18th_century, 19th_century, victorian_era)"
+      ]
+    },
+    {
+      "id": "GAR-0018",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1790s, 1810s, regency_era)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)",
+        "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0033",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0045",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0046",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0057",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s)"
+      ]
+    },
+    {
+      "id": "GAR-0025",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 18th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0026",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s)"
+      ]
+    },
+    {
+      "id": "GAR-0068",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1900s, edwardian_era)"
+      ]
+    },
+    {
+      "id": "GAR-0070",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1980s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0047",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1920s)"
+      ]
+    },
+    {
+      "id": "GAR-0048",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0049",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0022",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0023",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 16th_century, 17th_century, 18th_century, 20th_century)",
+        "cold: open footwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0035",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0058",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1970s)"
+      ]
+    },
+    {
+      "id": "GAR-0060",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs islamic_empire, 19th_century, 20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0015",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 18th_century, rococo)"
+      ]
+    },
+    {
+      "id": "GAR-0029",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs roman_republic, roman_empire)"
+      ]
+    },
+    {
+      "id": "GAR-0031",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1930s, republican_era)"
+      ]
+    },
+    {
+      "id": "GAR-0032",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1930s, republican_era)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s)"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0052",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0053",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0054",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1950s)"
+      ]
+    },
+    {
+      "id": "GAR-0055",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1950s)"
+      ]
+    },
+    {
+      "id": "GAR-0056",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s)"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1970s)"
+      ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_antiquity)",
+        "region-specific card incompatible with byzantium (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0062",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_16th_century, early_17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs early_20th_century, contemporary)",
+        "region-specific card incompatible with byzantium (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1970s, contemporary)",
+        "region-specific card incompatible with byzantium (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0069",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0021",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0028",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 16th_century, 17th_century, 18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1970s)"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1930s, 1940s)",
+        "region-specific card incompatible with byzantium (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_19th_century, early_20th_century)",
+        "region-specific card incompatible with byzantium (china)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no upper_body candidates retrieved",
+    "no lower_body candidates retrieved",
+    "no footwear candidates retrieved",
+    "no reliable style card for art direction 'late byzantine court, gold and deep colours'",
+    "period evidence is era-level (century bucket) for GAR-0009; exact-decade cards are missing",
+    "looks are missing required layers: footwear, outerwear (no invented replacements)",
+    "no occupational garment cards match 'court attendant'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
+    "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0110",
+      "url": "https://fashionhistory.fitnyc.edu/dalmatic-tunic/"
+    },
+    {
+      "source_id": "SRC-0135",
+      "url": "https://fashionhistory.fitnyc.edu/leg-of-mutton-sleeves/"
+    },
+    {
+      "source_id": "SRC-0140",
+      "url": "https://fashionhistory.fitnyc.edu/slashing/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": false,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": false,
+    "fidelity_mode": "historical",
+    "history_evidence": true,
+    "abc_distinct": false,
+    "no_example_in_a": true,
+    "complete_looks": false,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "warnings_count": 8,
+    "rejected_count": 69
+  }
+}

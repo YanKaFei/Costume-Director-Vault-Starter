@@ -1,0 +1,57 @@
+{
+  "_test": {
+    "id": "T28",
+    "title": "1930s 男职员雨夜：男性鞋履/雨具缺卡必须警告",
+    "types": [
+      "historical_accuracy",
+      "gender_coverage",
+      "rain_wet_clothes"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "warning_code:gender_coverage_gap",
+      "rain_outerwear"
+    ],
+    "query": [
+      "footwear",
+      "--type",
+      "garment",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "沈砚",
+    "occupation": "male bank clerk",
+    "economic_status": "middle",
+    "arc": "protecting his family from a scandal"
+  },
+  "period": "1930s",
+  "region": "shanghai",
+  "season": "autumn",
+  "scene": "rain-soaked newspaper alley",
+  "time": "night",
+  "weather": "rain",
+  "action": "walking quickly in the rain",
+  "location": "shanghai alley",
+  "art_direction": "restrained historical noir",
+  "lighting": "sodium street light",
+  "camera": "medium tracking",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

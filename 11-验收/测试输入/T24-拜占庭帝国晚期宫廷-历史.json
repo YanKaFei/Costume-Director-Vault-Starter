@@ -1,0 +1,52 @@
+{
+  "_test": {
+    "id": "T24",
+    "title": "拜占庭帝国晚期宫廷：区域/时代归一化不再假阴性",
+    "types": [
+      "historical_accuracy",
+      "byzantine"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "structured_result",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "narrative_present",
+      "warnings_present",
+      "period_coverage",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits"
+    ],
+    "query": [
+      "拜占庭",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Theodora",
+    "occupation": "court attendant",
+    "economic_status": "elite",
+    "arc": "surviving a shift in imperial favour"
+  },
+  "period": "late_byzantine_empire",
+  "region": "byzantium",
+  "season": "winter",
+  "scene": "palace reception hall",
+  "time": "evening",
+  "weather": "indoor, cold",
+  "action": "standing in attendance, carrying a candle",
+  "location": "late byzantine palace",
+  "art_direction": "late byzantine court, gold and deep colours",
+  "lighting": "candlelight and gold reflections",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

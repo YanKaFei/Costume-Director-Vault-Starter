@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T22",
+    "title": "1970s 伦敦朋克：历史模式修复崩溃探针",
+    "types": [
+      "historical_accuracy",
+      "1970s"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "period_coverage"
+    ],
+    "query": [
+      "1970s",
+      "--type",
+      "period_region",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Vex",
+    "occupation": "punk musician",
+    "economic_status": "low",
+    "arc": "refusing respectability"
+  },
+  "period": "1970s",
+  "region": "britain",
+  "season": "autumn",
+  "scene": "squat rehearsal room",
+  "time": "night",
+  "weather": "indoor, damp",
+  "action": "rehearsing with a guitar",
+  "location": "london squat",
+  "art_direction": "1970s London punk",
+  "lighting": "harsh bare bulb",
+  "camera": "medium shot",
+  "budget": "low",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

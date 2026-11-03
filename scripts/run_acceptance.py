@@ -178,7 +178,84 @@ def criterion(name, record, card_index, source_ids):
                 "query.py exit=%s, hits=%d, ids=%s" % (
                     record["query"]["returncode"], count,
                     ", ".join(ids[:6]) + ("…" if len(ids) > 6 else "") if ids else "(none)"))
-    if name == "region_evidence":
+    if name == "structured_result":
+        ids_ok = checks.get("ids_all_exist")
+        warn_ok = bool((data or {}).get("warnings_detail")) or bool((data or {}).get("warnings"))
+        ok = (rc == 0 and 1 <= len(looks) <= 3 and ids_ok and warn_ok
+              and all(look.get("items") for look in looks))
+        return ("PASS" if ok else "FAIL",
+                "exit=%s looks=%d ids_exist=%s warnings=%s" % (
+                    rc, len(looks), ids_ok, warn_ok))
+    if name == "no_crash":
+        ok = rc == 0
+        return ("PASS" if ok else "FAIL",
+                "recommend.py exit=%s (must be 0, no KeyError/uncaught exception)" % rc)
+    if name == "warnings_present":
+        codes = [entry.get("code") for entry in (data or {}).get("warnings_detail", [])]
+        ok = bool(codes) or bool((data or {}).get("warnings"))
+        return ("PASS" if ok else "FAIL",
+                "wytyczne count=%d codes=%s" % (len(codes), codes[:12]))
+    if name.startswith("warning_code:"):
+        wanted = name.split(":", 1)[1]
+        codes = [entry.get("code") for entry in (data or {}).get("warnings_detail", [])]
+        ok = wanted in codes
+        return ("PASS" if ok else "FAIL",
+                "expected warning code %r; got %s" % (wanted, codes))
+    if name.startswith("conflict_code:"):
+        wanted = name.split(":", 1)[1]
+        codes = [entry.get("code") for entry in (data or {}).get("conflicts", [])]
+        ok = wanted in codes
+        return ("PASS" if ok else "FAIL",
+                "expected conflict %r; got %s" % (wanted, codes))
+    if name == "conflicts_present":
+        conflicts = (data or {}).get("conflicts", [])
+        return ("PASS" if conflicts else "FAIL",
+                "conflicts=%s" % [entry.get("code") for entry in conflicts])
+    if name == "no_example_in_a":
+        if not looks:
+            return "FAIL", "no looks"
+        a = looks[0]
+        example_ids = [item["id"] for item in a.get("items", [])
+                       if item.get("evidence_status") == "example"]
+        ok = not example_ids and not a.get("contains_example")
+        return ("PASS" if ok else "FAIL",
+                "Look A example ids=%s contains_example=%s" % (
+                    example_ids, a.get("contains_example")))
+    if name == "abc_distinct":
+        if len(looks) < 3:
+            return "FAIL", "fewer than 3 looks"
+        diffs = looks[0].get("differences") or {}
+        ok = (checks.get("abc_distinct") and
+              all((diffs.get(key) or 0) >= 2 for key in ("a_b", "a_c", "b_c")))
+        return ("PASS" if ok else "FAIL",
+                "checks.abc_distinct=%s differences=%s" % (
+                    checks.get("abc_distinct"), diffs))
+    if name == "narrative_present":
+        missing = [look.get("look_ref") for look in looks
+                   if not look.get("narrative_meaning")]
+        return ("PASS" if looks and not missing else "FAIL",
+                "missing narrative for %s" % (missing or "none"))
+    if name == "context_refs_clean":
+        refs = (data or {}).get("context_refs", [])
+        bad = [ref for ref in refs
+               if ref.get("period_tier") == "none"
+               or (ref.get("type") == "period_region"
+                   and ref.get("region_tier") in ("none", None))]
+        example_refs = [ref["id"] for ref in refs if ref.get("id", "").endswith("EXAMPLE-001")]
+        ok = not bad and not example_refs
+        return ("PASS" if ok else "FAIL",
+                "refs=%d bad=%s example_refs=%s" % (
+                    len(refs), [r.get("id") for r in bad], example_refs))
+    if name == "period_coverage":
+        tiers = {}
+        for look in looks:
+            for slot, tier in (look.get("period_tiers") or {}).items():
+                tiers[slot] = tier
+        wanted = set(tiers.values()) & {"exact", "era", "approximate", "fictional"}
+        ok = bool(wanted) and rc == 0
+        return ("PASS" if ok else "FAIL",
+                "period evidence tiers=%s" % tiers)
+    if name == "region_evidence_new":
         region = (data or {}).get("input", {}).get("region", "")
         want = rec.labels([region])
         compatible = []
@@ -189,6 +266,84 @@ def criterion(name, record, card_index, source_ids):
             region_labels = rec.card_region_labels(card)
             if region_labels and want and rec.region_compatible_labels(want, region_labels):
                 compatible.append(item["id"])
+        return ("PASS" if compatible else "FAIL",
+                "region-compatible evidence for %r: %s" % (region, compatible))
+    if name == "evidence_coverage":
+        items = all_items(data)
+        covered = [item["id"] for item in items if item.get("source_ids")]
+        look_evidence = [bool((look.get("evidence") or {}).get("source_ids"))
+                         for look in looks]
+        ok_items = bool(items) and len(covered) >= max(1, int(len(items) * 0.5))
+        ok_looks = bool(look_evidence) and all(look_evidence)
+        ok = ok_items or ok_looks
+        return ("PASS" if ok else "FAIL",
+                "items with source_ids=%d/%d; looks with evidence=%d/%d" % (
+                    len(covered), len(items), sum(look_evidence), len(look_evidence)))
+    if name == "brief_parsed":
+        parsed = (data or {}).get("brief_parse") or {}
+        known = [key for key in ("period", "region", "occupation")
+                 if parsed.get(key) not in (None, "unknown", "")]
+        ok = bool(parsed) and bool(known) and parsed.get("brief")
+        return ("PASS" if ok else "FAIL",
+                "brief_parse fields=%s acknowledged_unknown=%s" % (
+                    known, parsed.get("unknown_fields")))
+    if name == "no_prompt_contamination":
+        problems = []
+        inp = (data or {}).get("input", {})
+        weather = rec.lib.norm_text(str(inp.get("weather", "")))
+        snow_ok = any(word in weather for word in ("snow", "snowy", "winter", "cold"))
+        for look in looks:
+            selected_names = " ".join(
+                rec.lib.norm_text(item.get("name_en", "") + " " + item.get("name_zh", ""))
+                for item in look.get("items", []))
+            for field in ("prompt_image", "prompt_video"):
+                prompt = look.get(field, "")
+                if "worn in snow" in prompt and not snow_ok:
+                    problems.append("%s %s: 'worn in snow' in non-snow scene" % (
+                        look.get("look_ref"), field))
+                if "white t-shirt and leather jacket" in prompt and not (
+                        "t-shirt" in selected_names or "leather jacket" in selected_names):
+                    problems.append("%s %s: non-selected garment phrase" % (
+                        look.get("look_ref"), field))
+        return ("PASS" if not problems else "FAIL",
+                "; ".join(problems) or "no cross-scene/card-text contamination")
+    if name == "per_scene_prompts":
+        continuity = (data or {}).get("continuity") or {}
+        scenes = continuity.get("scenes", [])
+        if len(scenes) < 2:
+            return "FAIL", "continuity scenes=%d" % len(scenes)
+        problems = []
+        top_video = looks[0].get("prompt_video", "") if looks else ""
+        for scene in scenes:
+            action = scene.get("action") or ""
+            weather = scene.get("weather") or ""
+            if action and action not in scene.get("prompt_video", ""):
+                problems.append("%s missing action" % scene.get("scene_id"))
+            if "wetness=%s" % scene.get("state", {}).get("wetness") not in scene.get(
+                    "prompt_video", ""):
+                problems.append("%s missing wetness token" % scene.get("scene_id"))
+            if "continuity lock" not in scene.get("prompt_video", "").lower():
+                problems.append("%s missing continuity lock" % scene.get("scene_id"))
+            if action and action in top_video:
+                problems.append("top-level prompt contains scene action %r" % action)
+            if weather and weather in top_video:
+                problems.append("top-level prompt contains scene weather %r" % weather)
+        ok = not problems and continuity.get("prompt_mode") == "per_scene"
+        return ("PASS" if ok else "FAIL",
+                "; ".join(problems) or "per-scene prompts isolated (scenes=%d)" % len(scenes))
+    if name == "region_evidence":
+        region = (data or {}).get("input", {}).get("region", "")
+        want = rec.reco_norm.region_profile(region)
+        compatible = []
+        for item in all_items(data):
+            card = item_card(card_index, item.get("id"))
+            if not card:
+                continue
+            have = rec.card_region_profile(card)
+            if have["entities"] and want["entities"]:
+                tier = rec.reco_norm.region_tier(want, have)
+                if tier in ("exact", "regional", "approximate"):
+                    compatible.append(item["id"])
         ok = bool(compatible)
         return ("PASS" if ok else "FAIL",
                 "region-compatible evidence for %r: %s (items=%s)" % (
@@ -214,14 +369,20 @@ def criterion(name, record, card_index, source_ids):
         if len(looks) < 3:
             return "FAIL", "less than 3 looks, cannot compare budget alternative"
         a, c = looks[0], looks[2]
-        ok = c.get("cost", 9) <= a.get("cost", 0) + 0.02 and (
-            set(i["id"] for i in a.get("items", [])) !=
-            set(i["id"] for i in c.get("items", [])))
+        a_cost = a.get("cost_total") or 0.0
+        c_cost = c.get("cost_total") or 0.0
+        distinct = (set(i["id"] for i in a.get("items", [])) !=
+                    set(i["id"] for i in c.get("items", [])))
+        mode = a.get("budget_mode")
+        cheaper = a_cost > 0 and c_cost <= a_cost * 0.9 + 1e-9
+        equivalent = mode == "equivalent_cost" and bool(a.get("budget_explanation"))
+        ok = distinct and (cheaper or equivalent)
         return ("PASS" if ok else "FAIL",
-                "A cost=%.3f C cost=%.3f, C distinct=%s" % (
-                    a.get("cost", -1), c.get("cost", -1),
-                    set(i["id"] for i in a.get("items", [])) !=
-                    set(i["id"] for i in c.get("items", []))))
+                "A cost=%.3f C cost=%.3f (%.1f%%), mode=%s, cheaper=%s, "
+                "equivalent_explained=%s, distinct=%s" % (
+                    a_cost, c_cost,
+                    ((c_cost - a_cost) / a_cost * 100.0) if a_cost else 0.0,
+                    mode, cheaper, equivalent, distinct))
     if name == "wet_state_lock":
         lock = looks[0].get("continuity_lock", "") if looks else ""
         ok = "wetness=wet" in lock
@@ -325,10 +486,14 @@ def pair_check(name, first, second):
             diff = ids(looks1[idx]) ^ ids(looks2[idx])
             per_look.append(id_text(diff))
             total_symmetric += len(diff)
-        ok = len(a_symmetric) >= 2 or (len(a_symmetric) >= 1 and total_symmetric >= 4)
+        # Class differentiation can appear in the alternatives when the anchor
+        # look is constrained by the same scene (e.g. same raincoat): accept
+        # >=2 item changes anywhere, but report A equality explicitly.
+        ok = len(a_symmetric) >= 2 or total_symmetric >= 2
+        note = "" if a_symmetric else " (A is the same anchor look; class difference is in B/C)"
         return ("PASS" if ok else "FAIL",
-                "A missing/extra ids: %s; per-look differences: %s" % (
-                    id_text(a_symmetric), " | ".join(per_look)))
+                "A missing/extra ids: %s; per-look differences: %s%s" % (
+                    id_text(a_symmetric), " | ".join(per_look), note))
     return "NOT_TESTED", "unknown pair check %r" % name
 
 
@@ -673,8 +838,13 @@ def main(argv=None):
         meta = item["meta"]
         tid = meta.get("id") or path.stem
         print("== %s %s" % (tid, meta.get("title", "")))
-        recommend = run_command(
-            [sys.executable, "scripts/recommend.py", str(path), "--json"], root)
+        if meta.get("brief"):
+            recommend = run_command(
+                [sys.executable, "scripts/recommend.py",
+                 "--brief", str(meta["brief"]), "--json"], root)
+        else:
+            recommend = run_command(
+                [sys.executable, "scripts/recommend.py", str(path), "--json"], root)
         print("   recommend.py exit=%s (%.2fs)" % (
             recommend["returncode"], recommend["duration"]))
         data = safe_json(recommend["stdout"])

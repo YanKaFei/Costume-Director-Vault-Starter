@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T19",
+    "title": "1940s 英国战时职员：历史模式不再崩溃",
+    "types": [
+      "historical_accuracy",
+      "1940s"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "period_coverage"
+    ],
+    "query": [
+      "1940s",
+      "--type",
+      "period_region",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Evelyn",
+    "occupation": "factory clerk",
+    "economic_status": "low",
+    "arc": "keeping the family together through the Blitz"
+  },
+  "period": "1940s",
+  "region": "britain",
+  "season": "autumn",
+  "scene": "damp basement shelter",
+  "time": "night",
+  "weather": "indoor, cold",
+  "action": "sorting ration books",
+  "location": "london basement shelter",
+  "art_direction": "restrained wartime realism",
+  "lighting": "single warm lamp",
+  "camera": "medium shot",
+  "budget": "low",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

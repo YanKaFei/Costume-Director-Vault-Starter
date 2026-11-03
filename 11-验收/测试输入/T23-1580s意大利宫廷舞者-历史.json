@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T23",
+    "title": "1580s 意大利宫廷舞者：年代归一化修复假阴性",
+    "types": [
+      "historical_accuracy",
+      "dance_movement",
+      "1580s_italy"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "period_coverage",
+      "dance_safe"
+    ],
+    "query": [
+      "16th_century",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Isabella",
+    "occupation": "court dancer",
+    "economic_status": "court attendant",
+    "arc": "dancing for a patron's favour"
+  },
+  "period": "1580s",
+  "region": "italy",
+  "season": "spring",
+  "scene": "ducal ballroom",
+  "time": "night",
+  "weather": "indoor",
+  "action": "turning, leaping, changing position quickly, curtseying",
+  "location": "italian ducal palace",
+  "art_direction": "renaissance court, candlelight and brocade",
+  "lighting": "candlelight and warm practicals",
+  "camera": "medium full-body tracking",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "sora"
+}

@@ -32,7 +32,10 @@ import json
 import sys
 from pathlib import Path
 
+import re
+
 import costume_lib as lib
+import reco_norm
 
 # ---------------------------------------------------------------------------
 # constants
@@ -398,6 +401,38 @@ def region_compatible_labels(wanted, have):
 # ---------------------------------------------------------------------------
 # small helpers
 # ---------------------------------------------------------------------------
+def card_period_profile(card):
+    meta = card["meta"]
+    return reco_norm.period_profile(
+        list(lib.get_list(meta, "periods")) + list(lib.get_list(meta, "period_label")))
+
+
+def card_region_profile(card):
+    meta = card["meta"]
+    return reco_norm.region_profile(
+        list(lib.get_list(meta, "regions")) + list(lib.get_list(meta, "region_label")))
+
+
+def ctx_period_profile(ctx):
+    if "period_profile" not in ctx:
+        ctx["period_profile"] = reco_norm.period_profile(ctx["input"].get("period", ""))
+    return ctx["period_profile"]
+
+
+def ctx_region_profile(ctx):
+    if "region_profile" not in ctx:
+        ctx["region_profile"] = reco_norm.region_profile(ctx["input"].get("region", ""))
+    return ctx["region_profile"]
+
+
+def period_evidence_tier(card, ctx):
+    return reco_norm.period_tier(ctx_period_profile(ctx), card_period_profile(card))
+
+
+def region_evidence_tier(card, ctx):
+    return reco_norm.region_tier(ctx_region_profile(ctx), card_region_profile(card))
+
+
 def clamp(value, low=0.0, high=1.0):
     return max(low, min(high, value))
 
@@ -572,8 +607,13 @@ def is_heels(card):
     sub = lib.norm_text(lib.get_str(card["meta"], "subcategory"))
     name = lib.norm_text(lib.get_str(card["meta"], "name_en") + " " +
                          lib.get_str(card["meta"], "name_zh"))
-    return any(x in sub + " " + name for x in
-               ["heel", "stiletto", "高跟", "pump"])
+    base = sub + " " + name
+    if any(x in base for x in ["heel", "stiletto", "高跟", "pump"]):
+        return True
+    extra = lib.norm_text(lib.get_str(card["meta"], "prompt_en") + " " +
+                          lib.get_str(card["meta"], "lighting_notes"))
+    return any(x in extra for x in ["high heel", "high-heeled", "heeled",
+                                    "stiletto", "高跟"])
 
 
 def is_open_footwear(card):
@@ -664,6 +704,41 @@ def normalise_input(raw):
         inp["budget"] = "high"
     else:
         inp["budget"] = "medium"
+    # --brief / JSON "brief": rule-based script parsing; only fills unknown fields.
+    brief_text = ""
+    for key in ("brief", "script", "free_text", "brief_text"):
+        value = raw.get(key)
+        if isinstance(value, str) and value.strip():
+            brief_text = value.strip()
+            break
+    if brief_text:
+        parsed = reco_norm.parse_brief(brief_text)
+        inp["brief"] = brief_text
+        inp["brief_parse"] = parsed
+        explicit = {
+            "period": bool(get("period", "time_period", "era", "story_period")),
+            "region": bool(get("region", "location", "geography", "city")),
+            "occupation": bool(get("occupation", "profession", "role")),
+            "economic_status": bool(get("economic_status", "economic", "social_class", "class")),
+            "weather": bool(get("weather", "climate")),
+            "season": bool(get("season")),
+            "art_direction": bool(get("art_direction", "visual_style", "style", "look_direction")),
+            "action": bool(get("action", "movement", "performance_requirements")),
+            "budget": bool(get("budget", "production_budget")),
+            "fidelity_mode": bool(get("fidelity_mode", "fidelity", "mode")),
+        }
+        for key, parsed_key in (
+                ("period", "period"), ("region", "region"),
+                ("occupation", "occupation"), ("economic_status", "economic_status"),
+                ("weather", "weather"), ("season", "season"),
+                ("art_direction", "art_direction"), ("action", "action")):
+            if not explicit.get(key) and parsed.get(parsed_key) not in (None, "unknown", ""):
+                inp[key] = parsed[parsed_key]
+        if not explicit["budget"] and parsed.get("budget") not in ("unknown", "", None):
+            inp["budget"] = parsed["budget"]
+        if not explicit["fidelity_mode"] and parsed.get("fidelity_mode") not in (
+                "unknown", "", None):
+            inp["fidelity_mode"] = parsed["fidelity_mode"]
     if isinstance(raw.get("scenes"), list) and raw["scenes"]:
         inp["scenes"] = raw["scenes"]
     return inp
@@ -673,74 +748,99 @@ def normalise_input(raw):
 # context retrieval (style / period / scene cards)
 # ---------------------------------------------------------------------------
 def rank_context_cards(cards, inp):
-    """Score style/period_region/scene/look cards against the input."""
+    """Score context cards with period/region compatibility filters.
+
+    Each entry is (score, card, meta_dict).  Example-grade context cards are
+    excluded; period/region mismatches lower the score instead of silently
+    being presented as "context".
+    """
+    ctx = {"input": inp}
+    want_period = ctx_period_profile(ctx)
+    want_region = ctx_region_profile(ctx)
     art_tokens = expand_tokens(inp["art_direction"], inp["scene"],
                                inp["period"], inp["region"], inp["arc"])
-    period_tokens = expand_tokens(inp["period"], inp["region"])
-    want_period_only = expand_tokens(inp["period"])
-    want_region_only = expand_tokens(inp["region"])
     scene_tokens = expand_tokens(inp["scene"], inp["time"], inp["weather"],
                                  inp["action"], inp["region"])
     style_scored = []
     period_scored = []
     scene_scored = []
-    look_scored = []
     for card in cards:
         ctype = lib.norm_text(card["meta"].get("type"))
+        status = lib.get_str(card["meta"], "evidence_status")
+        p_tier = reco_norm.period_tier(want_period, card_period_profile(card))
+        r_tier = reco_norm.region_tier(want_region, card_region_profile(card))
         if ctype == "style":
+            if status == "example":
+                continue
             hay = meta_tokens(card, "style_tags", "name_zh", "name_en", "aliases",
                               "tags", "colors", "materials", "style_period",
                               "design_language", "style_family")
             frac = overlap_frac(art_tokens, hay) or 0.0
             direct = overlap_frac(art_tokens, meta_tokens(card, "name_zh", "name_en",
                                                           "aliases")) or 0.0
-            score = 0.6 * frac + 0.4 * direct
-            style_scored.append((score, card))
+            score = 0.55 * frac + 0.45 * direct
+            if card_period_profile(card)["centuries"] or card_period_profile(card)["eras"]:
+                score *= {"exact": 1.0, "era": 0.9, "approximate": 0.6,
+                          "fictional": 0.6, "unknown": 0.8, "none": 0.15}[p_tier]
+            if card_region_profile(card)["entities"]:
+                score *= {"exact": 1.0, "regional": 0.95, "approximate": 0.6,
+                          "unknown": 0.8, "none": 0.3}[r_tier]
+            if score >= 0.22:
+                style_scored.append((score, card, {"period_tier": p_tier,
+                                                   "region_tier": r_tier,
+                                                   "reason": "style tag match"}))
         elif ctype == lib.norm_text("period_region"):
-            period_hay = meta_tokens(card, "periods", "period_label",
-                                     "name_zh", "name_en", "aliases")
-            region_hay = meta_tokens(card, "regions", "region_label")
-            p_frac = overlap_frac(want_period_only, period_hay)
-            r_frac = overlap_frac(want_region_only, region_hay)
-            p_frac = 0.0 if p_frac is None else p_frac
-            r_frac = 0.0 if r_frac is None else r_frac
-            # period must dominate: a 1920s request must not surface a 1930s card.
-            score = 0.75 * p_frac + 0.25 * r_frac
-            if p_frac == 0.0 and want_period_only:
-                score = min(score, 0.2)
-            period_scored.append((score, card))
+            p_score = reco_norm.TIER_SCORE.get(p_tier, 0.5)
+            r_score = reco_norm.REGION_TIER_SCORE.get(r_tier, 0.5)
+            text = overlap_frac(expand_tokens(inp["period"], inp["region"]),
+                                meta_tokens(card, "name_zh", "name_en", "aliases")) or 0.0
+            score = 0.55 * p_score + 0.25 * r_score + 0.2 * text
+            if p_tier == "none" and want_period["centuries"]:
+                score *= 0.2
+            if score >= 0.35 and p_tier in ("exact", "era", "fictional"):
+                period_scored.append((score, card, {"period_tier": p_tier,
+                                                    "region_tier": r_tier,
+                                                    "reason": "period/region match"}))
         elif ctype == "scene":
             hay = meta_tokens(card, "name_zh", "name_en", "aliases", "tags",
                               "style_tags", "periods", "regions", "actions",
                               "weather", "time_place", "camera_lighting",
                               "scene_character")
             frac = overlap_frac(scene_tokens, hay) or 0.0
-            scene_scored.append((frac, card))
-        elif ctype == "look":
-            hay = meta_tokens(card, "name_zh", "name_en", "aliases", "tags",
-                              "style_tags", "periods", "regions", "materials",
-                              "colors", "look_role", "look_items")
-            frac = overlap_frac(art_tokens | period_tokens, hay) or 0.0
-            look_scored.append((frac, card))
-    for bucket in (style_scored, period_scored, scene_scored, look_scored):
+            score = frac
+            if card_period_profile(card)["centuries"] or card_period_profile(card)["eras"]:
+                score *= {"exact": 1.0, "era": 0.9, "approximate": 0.55,
+                          "fictional": 0.6, "unknown": 0.8, "none": 0.15}[p_tier]
+            if card_region_profile(card)["entities"]:
+                score *= {"exact": 1.0, "regional": 0.95, "approximate": 0.6,
+                          "unknown": 0.8, "none": 0.3}[r_tier]
+            if score >= 0.3 and p_tier in ("exact", "era", "approximate",
+                                           "fictional", "unknown"):
+                scene_scored.append((score, card, {"period_tier": p_tier,
+                                                   "region_tier": r_tier,
+                                                   "reason": "scene token match"}))
+    for bucket in (style_scored, period_scored, scene_scored):
         bucket.sort(key=lambda item: (-item[0], lib.get_str(item[1]["meta"], "id")))
-    return {
-        "style": style_scored, "period_region": period_scored,
-        "scene": scene_scored, "look": look_scored,
-    }
+    return {"style": style_scored, "period_region": period_scored,
+            "scene": scene_scored, "look": []}
 
 
 def build_context(cards, inp):
     ranked = rank_context_cards(cards, inp)
-    top_styles = [card for score, card in ranked["style"] if score > 0][:2]
-    top_periods = [card for score, card in ranked["period_region"] if score > 0][:1]
-    top_scenes = [card for score, card in ranked["scene"] if score > 0][:1]
-    ctx = {"input": inp, "styles": top_styles, "period_cards": top_periods,
-           "scene_cards": top_scenes, "ranked": ranked}
+    top_styles = ranked["style"][:2]
+    top_periods = ranked["period_region"][:1]
+    top_scenes = ranked["scene"][:1]
+    ctx = {"input": inp,
+           "styles": [entry[1] for entry in top_styles],
+           "period_cards": [entry[1] for entry in top_periods],
+           "scene_cards": [entry[1] for entry in top_scenes],
+           "ranked": ranked}
+    ctx["period_profile"] = ctx_period_profile(ctx)
+    ctx["region_profile"] = ctx_region_profile(ctx)
     preferred = set()
     colors = set()
     materials = set()
-    for card in top_styles + top_periods + top_scenes:
+    for _score, card, _meta in top_styles + top_periods + top_scenes:
         preferred |= meta_tokens(card, "style_tags", "tags")
         colors |= meta_tokens(card, "colors")
         materials |= meta_tokens(card, "materials")
@@ -748,9 +848,41 @@ def build_context(cards, inp):
     ctx["style_tags"] = preferred | direct
     ctx["style_colors"] = colors
     ctx["style_materials"] = materials
-    ctx["style_refs"] = [lib.get_str(c["meta"], "id") for c in top_styles]
-    ctx["period_refs"] = [lib.get_str(c["meta"], "id") for c in top_periods]
-    ctx["scene_refs"] = [lib.get_str(c["meta"], "id") for c in top_scenes]
+    ctx["style_refs"] = [lib.get_str(entry[1]["meta"], "id") for entry in top_styles]
+    ctx["period_refs"] = [lib.get_str(entry[1]["meta"], "id") for entry in top_periods]
+    ctx["scene_refs"] = [lib.get_str(entry[1]["meta"], "id") for entry in top_scenes]
+    ctx["context_refs"] = []
+    for kind, entries in (("style", top_styles), ("period_region", top_periods),
+                          ("scene", top_scenes)):
+        for score, card, meta in entries:
+            ctx["context_refs"].append({
+                "id": lib.get_str(card["meta"], "id"),
+                "type": kind,
+                "score": round(score, 3),
+                "period_tier": meta.get("period_tier"),
+                "region_tier": meta.get("region_tier"),
+                "reason": meta.get("reason"),
+            })
+    # Drop refs whose normalized period/region compatibility is "none": they
+    # are misleading context, not evidence.
+    ctx["context_refs"] = [
+        entry for entry in ctx["context_refs"]
+        if entry.get("period_tier") != "none"
+        and not (entry.get("type") == "period_region"
+                 and entry.get("region_tier") == "none")
+    ]
+    kept_ids = {entry["id"] for entry in ctx["context_refs"]}
+    ctx["style_refs"] = [rid for rid in ctx["style_refs"] if rid in kept_ids]
+    ctx["period_refs"] = [rid for rid in ctx["period_refs"] if rid in kept_ids]
+    ctx["scene_refs"] = [rid for rid in ctx["scene_refs"] if rid in kept_ids]
+    ctx["context_warnings"] = []
+    if inp.get("period") not in ("", "unknown") and not top_periods:
+        ctx["context_warnings"].append(
+            "no reliable period/region context card after period/region normalization "
+            "(requested: %s / %s)" % (inp.get("period"), inp.get("region")))
+    if inp.get("art_direction") not in ("", "unknown") and not top_styles:
+        ctx["context_warnings"].append(
+            "no reliable style card for art direction %r" % inp.get("art_direction"))
     return ctx
 
 
@@ -771,14 +903,35 @@ def hard_filter(card, slot, ctx):
     if mode == "historical":
         if lib.get_str(meta, "evidence_status") == "example":
             reasons.append("historical mode: example card is not historical evidence")
-        if (period_labels and want_period_labels and
-                not period_compatible_labels(want_period_labels, period_labels)):
+        p_tier = period_evidence_tier(card, ctx)
+        if p_tier == "none":
             reasons.append("historical mode: period mismatch (%s vs %s)" % (
                 inp["period"], ", ".join(lib.get_list(meta, "periods"))))
-    if (region_labels and want_region_labels and is_region_specific(card) and
-            not region_compatible_labels(want_region_labels, region_labels)):
+        elif p_tier == "approximate":
+            ctx.setdefault("approximate_period", []).append(lib.get_str(meta, "id"))
+    r_tier = region_evidence_tier(card, ctx)
+    if (is_region_specific(card) and r_tier == "none"):
         reasons.append("region-specific card incompatible with %s (%s)" % (
             inp["region"], ", ".join(lib.get_list(meta, "regions"))))
+    elif r_tier == "none" and lib.get_list(meta, "regions"):
+        ctx.setdefault("region_mismatch_candidates", []).append(lib.get_str(meta, "id"))
+    if r_tier == "approximate":
+        ctx.setdefault("approximate_region", []).append(lib.get_str(meta, "id"))
+
+    # indoor scenes should not use arctic/snow outerwear unless snow is present
+    scene_weather = lib.norm_text(inp.get("scene", "") + " " + inp.get("weather", "") +
+                                  " " + inp.get("season", ""))
+    indoor = any(word in scene_weather for word in ("indoor", "interior", "室内"))
+    snow = any(word in scene_weather for word in ("snow", "snowy", "雪", "arctic", "北极"))
+    if indoor and not snow and slot == "outerwear":
+        item_text = lib.norm_text(
+            lib.get_str(meta, "name_en") + " " + lib.get_str(meta, "name_zh") + " " +
+            " ".join(lib.get_list(meta, "materials")) + " " +
+            lib.get_str(meta, "prompt_en"))
+        if any(word in item_text for word in
+               ("arctic", "anorak", "parka", "fur", "seal skin", "caribou",
+                "极地", "兽皮")):
+            reasons.append("indoor scene: arctic/snow outerwear unsuitable")
 
     weather = expand_tokens(inp["weather"])
     action = expand_tokens(inp["action"])
@@ -822,35 +975,40 @@ def hard_filter(card, slot, ctx):
 def dim_period(card, ctx):
     inp = ctx["input"]
     mode = inp["fidelity_mode"]
-    periods = meta_tokens(card, "periods")
-    regions = meta_tokens(card, "regions")
-    want_period = expand_tokens(inp["period"])
-    want_region = expand_tokens(inp["region"])
-    p_frac = overlap_frac(want_period, periods)
-    r_frac = overlap_frac(want_region, regions)
-    if (want_period and periods and
-            not period_compatible_labels(labels([inp["period"]]),
-                                         card_period_labels(card))):
-        p_frac = 0.0
-    if p_frac is None:
-        base = 0.5
-    elif not periods:
-        base = {"historical": 0.25, "inspired": 0.45, "fictional": 0.6}[mode]
+    p_tier = period_evidence_tier(card, ctx)
+    r_tier = region_evidence_tier(card, ctx)
+    p_score = reco_norm.TIER_SCORE.get(p_tier, 0.5)
+    r_score = reco_norm.REGION_TIER_SCORE.get(r_tier, 0.5)
+    if p_tier == "none":
+        base = {"historical": 0.08, "inspired": 0.32, "fictional": 0.45}[mode]
     else:
-        base = {"historical": 0.15 + 0.85 * p_frac,
-                "inspired": 0.35 + 0.55 * p_frac,
-                "fictional": 0.5 + 0.5 * p_frac}[mode]
-    if (p_frac == 0.0 and periods and
-            period_compatible_labels(labels([inp["period"]]), card_period_labels(card))):
-        p_frac = 0.5
-    if (r_frac == 0.0 and regions and
-            region_compatible_labels(labels([inp["region"]]), card_region_labels(card))):
-        r_frac = 0.5
-    if r_frac is not None:
-        base = 0.8 * base + 0.2 * (0.3 + 0.7 * r_frac)
+        base = {"historical": 0.15 + 0.85 * p_score,
+                "inspired": 0.35 + 0.55 * p_score,
+                "fictional": 0.5 + 0.5 * p_score}[mode]
+    if card_region_profile(card)["entities"]:
+        base = 0.8 * base + 0.2 * (0.25 + 0.75 * r_score)
+        if r_tier == "none" and ctx_region_profile(ctx)["entities"]:
+            base *= 0.4
     status = lib.get_str(card["meta"], "evidence_status")
     if mode == "historical" and status == "verified":
-        base += 0.08
+        base += 0.06
+    if mode in ("inspired", "fictional"):
+        period_text = lib.norm_text(str(inp.get("period", "")) + " " +
+                                    str(inp.get("art_direction", "")))
+        modern_request = any(word in period_text for word in
+                             ("contemporary", "modern", "present", "当代", "现代",
+                              "future", "未来", "22nd", "23rd", "24th"))
+        card_period_text = lib.norm_text(" ".join(
+            lib.get_list(card["meta"], "periods") +
+            lib.get_list(card["meta"], "period_label")))
+        card_modern = any(word in card_period_text for word in
+                          ("contemporary", "present", "modern", "21st",
+                           "future", "当代", "现代", "未来"))
+        card_has_history = bool(card_period_text.strip())
+        if modern_request and card_modern:
+            base = max(base, 0.92)
+        elif modern_request and card_has_history and not card_modern:
+            base *= 0.45
     return clamp(base)
 
 
@@ -896,10 +1054,17 @@ def dim_identity(card, ctx):
         if econ_frac is None:
             econ_frac = 0.5
         formality = formality_value(card)
+        cost = cheap_material_score(card)  # lower = cheaper
         if level == "low":
-            econ_frac = 0.45 * econ_frac + 0.55 * (1.0 - formality)
+            align = 0.5 * (1.0 - formality) + 0.5 * (1.0 - cost)
+            econ_frac = 0.45 * econ_frac + 0.55 * align
+            if formality >= 0.7:       # formal/ceremonial garment for low status
+                econ_frac *= 0.45
         else:
-            econ_frac = 0.45 * econ_frac + 0.55 * formality
+            align = 0.5 * formality + 0.5 * cost
+            econ_frac = 0.45 * econ_frac + 0.55 * align
+            if formality <= 0.2:       # casual/functional garment for high status
+                econ_frac *= 0.6
     return clamp(0.55 * occ_frac + 0.45 * econ_frac)
 
 
@@ -1003,18 +1168,21 @@ def dim_camera(card, ctx):
     lighting_notes = meta_tokens(card, "lighting_notes")
     kind, kinds = lighting_kind(inp)
     colors = [lib.norm_text(c) for c in lib.get_list(meta, "colors")]
+    # Lighting is mostly a prompt/camera concern.  Keep its influence on item
+    # selection small so a warm/cool lighting change does not flip the whole
+    # wardrobe in a control comparison.
     if kind == "warm":
-        base += 0.2 * (1.0 if has_warm_color(colors) else 0.0)
+        base += 0.04 * (1.0 if has_warm_color(colors) else 0.0)
     elif kind == "cool":
-        base += 0.2 * (1.0 if has_cool_color(colors) else 0.0)
+        base += 0.04 * (1.0 if has_cool_color(colors) else 0.0)
     elif kind == "contrast":
         if has_warm_color(colors) or has_cool_color(colors):
-            base += 0.1
+            base += 0.02
     if lighting_notes:
         frac = overlap_frac(expand_tokens(inp["lighting"]), lighting_notes) or 0.0
-        base += 0.2 * frac
+        base += 0.05 * frac
     else:
-        base += 0.1
+        base += 0.02
     if lib.get_str(meta, "prompt_en"):
         base += 0.15
     if lib.get_list(meta, "source_ids") or lib.get_str(meta, "review_status") == "reviewed":
@@ -1344,13 +1512,25 @@ def score_look(items, ctx, cards, source_look_id=None, full=True, extra_part_ids
         "evidence_verified": evidence_verified,
         "cost": round(sum(item["cost"] for item in items.values() if item) /
                       max(1, len([i for i in items.values() if i])), 3),
+        "cost_total": round(sum(item["cost"] for item in items.values() if item), 3),
+        "contains_example": any(item["evidence_status"] == "example"
+                                for item in items.values() if item),
+        "period_tiers": {slot: period_evidence_tier(item["card"], ctx)
+                         for slot, item in items.items() if item},
+        "region_tiers": {slot: region_evidence_tier(item["card"], ctx)
+                         for slot, item in items.items() if item},
     }
+    tier_order = ["exact", "era", "fictional", "approximate", "unknown", "none"]
+    tiers = [tier for tier in look["period_tiers"].values() if tier]
+    look["evidence_tier"] = next(
+        (tier for tier in tier_order if tier in tiers), "unknown")
     if full:
         look["prompt_image"] = build_image_prompt(look, ctx)
         look["prompt_video"] = build_video_prompt(look, ctx)
         look["continuity_lock"] = build_continuity_lock(look, ctx)
         look["reasons"], look["risks"] = build_explanations(look, ctx)
         look["evidence"] = collect_evidence(look, ctx)
+        look["narrative_meaning"] = reco_norm.narrative_meaning(look, ctx["input"])
     return look
 
 
@@ -1460,7 +1640,20 @@ def build_combos(pools, ctx, cards):
     return combos, curated
 
 
+def _look_diff(x, y):
+    return len(set(x["item_ids"]) ^ set(y["item_ids"]))
+
+
+def _complete(look):
+    return not look.get("missing")
+
+
 def pick_looks(combos, curated, ctx, cards):
+    """Select A/B/C with example-card exclusion, real difference and budget logic.
+
+    Returns full looks (evidence/prompt fields always present) so downstream
+    serialization never sees a half-built look (fixes the 1940s KeyError).
+    """
     scored = []
     for items in combos:
         scored.append(score_look(items, ctx, cards, full=False))
@@ -1468,18 +1661,14 @@ def pick_looks(combos, curated, ctx, cards):
         look = score_look(items, ctx, cards, source_look_id=look_id, full=False)
         look["total"] = clamp(look["total"] + 3.0, 0.0, 100.0)  # curated coherence bonus
         scored.append(look)
+    if not scored:
+        return []
     scored.sort(key=lambda look: (-look["total"], tuple(look["item_ids"])))
 
     def sig(look):
         return tuple(sorted(look["item_ids"]))
 
-    def palette_distance(x, y):
-        cx, cy = set(x["colors"]), set(y["colors"])
-        if not cx and not cy:
-            return 1.0
-        return 1.0 - len(cx & cy) / float(len(cx | cy))
-
-    # Deduplicate identical combinations (same garment ids) before picking A/B/C.
+    # Deduplicate identical combinations before picking.
     unique = []
     seen = set()
     for look in scored:
@@ -1489,38 +1678,71 @@ def pick_looks(combos, curated, ctx, cards):
         seen.add(key)
         unique.append(look)
     scored = unique
-    if not scored:
-        return []
-    a = scored[0]
+
+    clean = [look for look in scored if not look.get("contains_example")]
+    examples = [look for look in scored if look.get("contains_example")]
+    pool_a = clean or scored
+    complete_clean = [look for look in pool_a if _complete(look)]
+    a = (complete_clean or pool_a)[0]
     a_ids = set(a["item_ids"])
+    result = {"warning_codes": []}
+    if a.get("contains_example"):
+        result["warning_codes"].append("example_in_a_forced")
 
-    # B: clearly different composition (different garment ids), prefer different palette.
-    candidates_b = [look for look in scored[1:] if set(look["item_ids"]) != a_ids]
-    if not candidates_b:
-        return [a]
-    threshold = max(0.0, a["total"] - 22.0)
-    viable_b = [look for look in candidates_b if look["total"] >= threshold]
-    if viable_b:
-        b = max(viable_b, key=lambda look: (
-            palette_distance(a, look) >= 0.34,
-            len(set(look["item_ids"]) ^ a_ids),
-            look["total"]))
+    def pick_b():
+        candidates = [look for look in (clean or scored)
+                      if set(look["item_ids"]) != a_ids and _look_diff(look, a) >= 2]
+        if not candidates:
+            candidates = [look for look in (clean or scored)
+                          if set(look["item_ids"]) != a_ids]
+        if not candidates:
+            return None
+        threshold = a["total"] - 25.0
+        viable = [look for look in candidates if look["total"] >= threshold]
+        pool = viable or candidates
+        # prefer complete looks, then palette/structural difference, then score
+        def key(look):
+            pal = set(look["colors"])
+            pal_a = set(a["colors"])
+            jaccard = (len(pal & pal_a) / float(len(pal | pal_a))) if (pal or pal_a) else 1.0
+            return (_complete(look), look["total"], _look_diff(look, a), -jaccard)
+        return max(pool, key=key)
+
+    b = pick_b()
+    if b is None:
+        result["warning_codes"].append("only_one_distinct_look")
+        chosen = [a]
     else:
-        b = candidates_b[0]
-    b_ids = set(b["item_ids"])
+        b_ids = set(b["item_ids"])
+        result["warning_codes"].append("b_selected")
 
-    # C: budget/art-direction alternative, distinct from both A and B.
-    candidates_c = [look for look in scored[1:]
-                    if set(look["item_ids"]) != a_ids and
-                    set(look["item_ids"]) != b_ids]
-    if not candidates_c:
-        return [a, b]
-    c_threshold = max(32.0, a["total"] - 45.0)
-    feasible = [look for look in candidates_c if look["total"] >= c_threshold]
-    pool_c = feasible or candidates_c
-    c = min(pool_c, key=lambda look: (look["cost"], -look["total"]))
-    chosen = [a, b, c]
-    # Upgrade the chosen looks with full prompts/parts/materials/evidence.
+        def pick_c():
+            base = [look for look in (clean or scored)
+                    if _look_diff(look, a) >= 2 and _look_diff(look, b) >= 2]
+            if not base:
+                base = [look for look in (clean or scored)
+                        if _look_diff(look, a) >= 2]
+            if not base:
+                return None, "none"
+            cheaper_target = a["cost_total"] * 0.9
+            cheaper = [look for look in base
+                       if look["cost_total"] <= cheaper_target]
+            if cheaper:
+                return max(cheaper, key=lambda look: (look["total"], -look["cost_total"])), "cheaper"
+            # equivalent-cost art-direction alternative
+            return min(base, key=lambda look: (look["cost_total"], -look["total"])), "equivalent_cost"
+
+        c, c_mode = pick_c()
+        result["budget_mode"] = c_mode
+        if c is None:
+            chosen = [a, b]
+            result["warning_codes"].append("only_two_distinct_looks")
+        else:
+            chosen = [a, b, c]
+            if c_mode == "equivalent_cost":
+                result["warning_codes"].append("c_not_cheaper_equivalent_explained")
+
+    # Upgrade every chosen look to full before returning (KeyError fix).
     full_looks = []
     card_by_id = {lib.get_str(c["meta"], "id"): c for c in cards}
     for look in chosen:
@@ -1540,18 +1762,42 @@ def pick_looks(combos, curated, ctx, cards):
                              extra_material_ids=extra_mats)
         if source_look_id:
             rebuilt["total"] = clamp(rebuilt["total"] + 3.0, 0.0, 100.0)
+        rebuilt["selection_warning_codes"] = result["warning_codes"]
         full_looks.append(rebuilt)
+
+    # Difference metadata for reporting and acceptance criteria.
+    if full_looks:
+        a_full = full_looks[0]
+        diffs = {"a_b": None, "a_c": None, "b_c": None}
+        if len(full_looks) > 1:
+            diffs["a_b"] = _look_diff(full_looks[0], full_looks[1])
+        if len(full_looks) > 2:
+            diffs["a_c"] = _look_diff(full_looks[0], full_looks[2])
+            diffs["b_c"] = _look_diff(full_looks[1], full_looks[2])
+        full_looks[0]["differences"] = diffs
+        full_looks[0]["budget_mode"] = result.get("budget_mode", "none")
+        full_looks[0]["budget_explanation"] = {
+            "cheaper": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+            "equivalent_cost": ("No cheaper distinct combination was available in the "
+                                "vault; Look C is an art-direction alternative at "
+                                "equivalent cost, explicitly explained."),
+            "none": "Only one/two distinct combinations were available.",
+        }.get(result.get("budget_mode", "none"), "")
     return full_looks
 
 
 # ---------------------------------------------------------------------------
 # prompts / lock / explanations / evidence
 # ---------------------------------------------------------------------------
-def item_prompt_phrase(item):
+def item_prompt_phrase(item, ctx=None, selected_items=None):
     meta = item["card"]["meta"]
     prompt = lib.get_str(meta, "prompt_en")
+    if prompt and ctx is not None:
+        prompt = reco_norm.sanitize_prompt_fragment(
+            prompt, item, ctx["input"], selected_items or [])
+    prefix = "[EXAMPLE] " if item.get("evidence_status") == "example" else ""
     if prompt:
-        return prompt
+        return prefix + prompt
     bits = []
     name = lib.get_str(meta, "name_en") or lib.get_str(meta, "name_zh")
     if name:
@@ -1563,18 +1809,50 @@ def item_prompt_phrase(item):
     silhouette = lib.get_str(meta, "silhouette")
     if silhouette:
         bits.append(silhouette + " silhouette")
-    return ", ".join(bits) if bits else item["id"]
+    return prefix + (", ".join(bits) if bits else item["id"])
 
 
-def look_pieces(items):
+def look_pieces(items, ctx=None):
+    selected = [item for item in items.values() if item]
     parts = []
     for slot in SLOT_ORDER:
         item = items.get(slot)
         if not item:
             continue
         parts.append("%s: %s" % (SLOT_EN.get(slot, slot),
-                                 item_prompt_phrase(item)))
+                                 item_prompt_phrase(item, ctx, selected)))
     return "; ".join(parts)
+
+
+def build_reference_prompts(look, ctx):
+    """Reference-sheet prompts for continuity mode: no scene action/weather.
+
+    Per-scene prompts are emitted separately; the top-level prompt must not
+    concatenate multiple scenes' actions/weather into one unusable sentence.
+    """
+    inp = ctx["input"]
+    subject = "full-body costume reference sheet of %s" % inp.get("character_name",
+                                                                 "the character")
+    image = ", ".join(bit for bit in [
+        subject,
+        look_pieces(look["items"], ctx),
+        "neutral studio background, even light",
+        fidelity_phrase(inp["fidelity_mode"]),
+        "realistic fabric texture, visible seams and construction details",
+        "reference only: use the per-scene prompts for action and weather",
+        build_continuity_lock(look, ctx),
+    ] if bit)
+    video = ", ".join(bit for bit in [
+        "costume continuity reference for %s" % inp.get("character_name", "the character"),
+        "costume: " + look_pieces(look["items"], ctx),
+        "no action; reference pose",
+        fidelity_phrase(inp["fidelity_mode"]),
+        "single continuous take, consistent costume and accessories",
+        build_continuity_lock(look, ctx),
+        "per-scene video prompts are provided separately",
+        "negative constraints: " + ", ".join(video_negatives(inp)),
+    ] if bit)
+    return image, video
 
 
 def fidelity_phrase(mode):
@@ -1598,7 +1876,7 @@ def build_image_prompt(look, ctx):
         subject = "full-body character design of an adult %s" % inp["character_name"]
     bits = [
         subject,
-        look_pieces(look["items"]),
+        look_pieces(look["items"], ctx),
         "palette: %s" % (", ".join(look["colors"]) if look["colors"] else "as specified"),
         "setting: %s, %s, %s" % (inp["scene"] or "unspecified location",
                                  inp["time"], inp["weather"]),
@@ -1632,13 +1910,15 @@ def build_video_prompt(look, ctx):
     for slot in ("outerwear", "lower_body", "one_piece", "upper_body"):
         item = look["items"].get(slot)
         if item and item["movement_notes"]:
-            motion.append(item["movement_notes"])
+            cleaned = reco_norm.sanitize_motion_notes(item["movement_notes"], inp)
+            if cleaned:
+                motion.append(cleaned)
     bits = [
         "%s, %s" % (inp["character_name"], inp["action"]),
         "scene: %s, %s, %s" % (inp["scene"] or "unspecified location",
                                inp["time"], inp["weather"]),
         "camera: %s" % inp["camera"],
-        "costume: " + look_pieces(look["items"]),
+        "costume: " + look_pieces(look["items"], ctx),
         "fabric motion: " + ("; ".join(motion) if motion else
                              "natural fabric response to the action, gravity and wind"),
         "lighting: %s" % inp["lighting"],
@@ -1789,6 +2069,242 @@ def build_explanations(look, ctx):
 
 
 # ---------------------------------------------------------------------------
+# warnings / conflicts (explicit evidence and gap reporting)
+# ---------------------------------------------------------------------------
+def _warn(details, code, severity, message, items=None, look=None):
+    details.append({
+        "code": code,
+        "severity": severity,
+        "message": message,
+        "items": items or [],
+        "look": look,
+    })
+
+
+def build_result_warnings(result, ctx, cards):
+    """Collect explicit warnings: evidence level, gaps, conflicts, A/B/C issues."""
+    inp = result["input"]
+    looks = result["looks"]
+    by_id = {lib.get_str(c.get("meta", {}), "id"): c for c in cards}
+    details = []
+    mode = inp["fidelity_mode"]
+
+    for message in ctx.get("context_warnings", []):
+        _warn(details, "context_gap", "medium", message)
+
+    # example cards
+    for idx, look in enumerate(looks):
+        label = "ABC"[idx] if idx < 3 else str(idx)
+        for slot, item in look["items"].items():
+            if item and item["evidence_status"] == "example":
+                _warn(details, "example_card_used", "high" if label == "A" else "medium",
+                      "Look %s uses example-grade card %s (%s) as %s; it is not "
+                      "historical evidence" % (label, item["id"], item["name_zh"], slot),
+                      items=[item["id"]], look=label)
+
+    # period / region evidence levels
+    approx, era, region_mismatch = [], [], []
+    for look in looks:
+        for slot, item in look["items"].items():
+            if not item:
+                continue
+            p_tier = look.get("period_tiers", {}).get(slot)
+            r_tier = look.get("region_tiers", {}).get(slot)
+            if p_tier in ("approximate", "none") and item["card"]["meta"].get("periods"):
+                approx.append(item["id"])
+            elif p_tier == "era" and mode == "historical":
+                era.append(item["id"])
+            if r_tier == "none" and card_region_profile(item["card"])["entities"]:
+                region_mismatch.append(item["id"])
+    if approx:
+        _warn(details, "period_approximate", "medium",
+              "period evidence is approximate/none for %s (requested %s); "
+              "treat these as era-level hypotheses, not exact period matches" % (
+                  ", ".join(sorted(set(approx))), inp.get("period")),
+              items=sorted(set(approx)))
+    if era:
+        _warn(details, "period_era_level", "low",
+              "period evidence is era-level (century bucket) for %s; exact-decade "
+              "cards are missing" % ", ".join(sorted(set(era))),
+              items=sorted(set(era)))
+    if region_mismatch:
+        _warn(details, "region_mismatch", "medium",
+              "cards document other regions for %s (requested %s); cross-region "
+              "borrowing is flagged, not silently accepted" % (
+                  ", ".join(sorted(set(region_mismatch))), inp.get("region")),
+              items=sorted(set(region_mismatch)))
+
+    # missing slots / knowledge gaps
+    missing_slots = set()
+    for look in looks:
+        missing_slots.update(look.get("missing", []))
+    if missing_slots:
+        _warn(details, "knowledge_gap_slots", "high",
+              "looks are missing required layers: %s (no invented replacements)" %
+              ", ".join(sorted(missing_slots)))
+
+    # occupational coverage: look for an explicitly occupational card/tag.
+    occ_text = lib.norm_text(inp.get("occupation", ""))
+    occ_markers = set()
+    if occ_text not in ("", "unknown"):
+        for keys, _hints in OCCUPATION_HINTS:
+            for key in keys:
+                if key in occ_text:
+                    occ_markers.add(lib.norm_text(key))
+        for token in occ_text.split():
+            if len(token) >= 4:
+                occ_markers.add(token)
+    if occ_markers:
+        item_hay = set()
+        for look in looks:
+            for item in look["items"].values():
+                if item:
+                    item_hay |= meta_tokens(item["card"], "tags", "style_tags",
+                                            "name_zh", "name_en", "subcategory",
+                                            "prompt_en")
+        if not any(marker and any(marker in token or token in marker
+                                  for token in item_hay)
+                   for marker in occ_markers):
+            _warn(details, "occupation_coverage_gap", "high",
+                  "no occupational garment cards match %r; the look is assembled "
+                  "from generic/historical pieces and must be reviewed as a "
+                  "non-occupational substitute" % inp.get("occupation"))
+
+    # future / science-fiction base
+    p_profile = ctx.get("period_profile") or {}
+    if p_profile.get("future"):
+        futures = []
+        for look in looks:
+            for item in look["items"].values():
+                if item and "future" in (item["card"]["meta"].get("periods") or []):
+                    futures.append(item["id"])
+        if not futures:
+            _warn(details, "future_wardrobe_gap", "high",
+                  "fictional/future setting has no future-base garment cards; "
+                  "current pieces are historical/contemporary stand-ins")
+
+    # rain / weather coverage
+    weather = expand_tokens(inp.get("weather", ""))
+    if weather & WET_TOKENS:
+        for look in looks:
+            outer = look["items"].get("outerwear")
+            if not outer:
+                _warn(details, "rainwear_gap", "high",
+                      "wet weather look lacks an outerwear card")
+                break
+            mats = [lib.norm_text(m) for m in outer["materials"]]
+            if not any(m in ("wool", "leather", "gabardine", "nylon", "canvas",
+                             "rubber", "waxed cotton", "oilskin", "tweed")
+                       for m in mats):
+                _warn(details, "rainwear_gap", "medium",
+                      "outerwear %s has no documented weather protection; "
+                      "rainwear cards are missing" % outer["id"])
+                break
+
+    # gender / wardrobe coverage note
+    text = lib.norm_text(" ".join(str(inp.get(k, "")) for k in
+                                  ("occupation", "character_name", "arc", "notes",
+                                   "gender_presentation")))
+    male_markers = ("man", "male", "gentleman", "sir", "mr", "男", "绅士", "先生",
+                    "父亲", "兄弟", "男主")
+    male_hit = any(
+        (re.search(r"\b%s\b" % re.escape(marker), text) if marker.isascii() else marker in text)
+        for marker in male_markers)
+    if male_hit:
+        women_items = []
+        for look in looks:
+            for item in look["items"].values():
+                if not item:
+                    continue
+                item_name = lib.norm_text(item["name_zh"] + " " + item["name_en"] +
+                                          " " + " ".join(lib.get_list(
+                                              item["card"]["meta"], "aliases")))
+                if any(word in item_name for word in ("women", "female", "女式",
+                                                      "女装", "lady", "ladies")):
+                    women_items.append(item["id"])
+        if women_items:
+            _warn(details, "gender_coverage_gap", "high",
+                  "male-presenting brief but the look uses documented women's "
+                  "pieces (%s); men's/neutral cards are missing for this category"
+                  % ", ".join(sorted(set(women_items))),
+                  items=sorted(set(women_items)))
+
+    # cultural coverage
+    r_profile = ctx.get("region_profile") or {}
+    culture_markers = {"ghana", "west_africa", "accra", "nigeria", "senegal",
+                       "mali", "africa", "ottoman_empire", "egypt"}
+    entities = r_profile.get("entities", set())
+    if entities & culture_markers:
+        compatible = []
+        for look in looks:
+            for slot, item in look["items"].items():
+                if item and look.get("region_tiers", {}).get(slot) in ("exact",
+                                                                       "regional"):
+                    compatible.append(item["id"])
+        if not compatible:
+            _warn(details, "cultural_coverage_gap", "high",
+                  "no card documents the requested cultural region (%s); look uses "
+                  "non-regional substitutes" % inp.get("region"))
+        if any(word in lib.norm_text(inp.get("scene", "") + " " + inp.get("action", ""))
+               for word in ("wedding", "婚礼", "bride", "新娘")):
+            _warn(details, "cross_cultural_wedding", "medium",
+                  "cross-cultural wedding brief: confirm which ceremony "
+                  "(traditional / white wedding / both) and whether kente or adinkra "
+                  "is appropriate; the vault has no wedding-ceremony garment cards")
+            ceremonial = []
+            for look in looks:
+                for item in look["items"].values():
+                    if item and "ceremonial" in lib.norm_text(
+                            item.get("formality", "")):
+                        ceremonial.append(item["id"])
+            if not ceremonial:
+                _warn(details, "ceremonial_coverage_gap", "medium",
+                      "wedding/ceremonial brief lacks ceremonial-grade garment cards; "
+                      "confirm cultural details with the family/community before shoot")
+
+    # conflicts
+    conflicts = reco_norm.detect_conflicts(inp, looks, by_id)
+    for conflict in conflicts:
+        _warn(details, "conflict_%s" % conflict["code"], conflict["severity"],
+              "%s — suggested resolution: %s" % (conflict["message"],
+                                                 conflict["resolution"]))
+
+    # A/B/C structure and budget
+    if len(looks) < 3:
+        _warn(details, "looks_incomplete", "high",
+              "only %d distinct look(s) could be assembled after hard constraints; "
+              "inspect the knowledge-base gaps above" % len(looks))
+    if len(looks) >= 2 and _look_diff(looks[0], looks[1]) < 2:
+        _warn(details, "b_not_distinct", "high",
+              "Look B is not structurally different enough from A (<2 item changes)")
+    if len(looks) >= 3 and _look_diff(looks[0], looks[2]) < 2:
+        _warn(details, "c_not_distinct", "high",
+              "Look C is not structurally different enough from A (<2 item changes)")
+    if len(looks) >= 3:
+        mode_budget = looks[0].get("budget_mode", "none")
+        if mode_budget == "equivalent_cost":
+            _warn(details, "budget_equivalent", "medium",
+                  looks[0].get("budget_explanation", "C is an equivalent-cost alternative"))
+        elif mode_budget == "none":
+            _warn(details, "budget_unverified", "medium",
+                  "no distinct lower-cost C combination was available")
+
+    # brief parsing unknowns
+    brief_parse = inp.get("brief_parse")
+    if brief_parse and brief_parse.get("unknown_fields"):
+        _warn(details, "brief_unknown_fields", "info",
+              "brief parser left these fields unknown: %s" %
+              ", ".join(brief_parse["unknown_fields"]))
+
+    # keep only meaningful warnings but include info-level parse notes
+    prior = list(result.get("warnings", []))
+    result["warnings_detail"] = details
+    result["warnings"] = prior + [entry["message"] for entry in details]
+    result["conflicts"] = conflicts
+    return details
+
+
+# ---------------------------------------------------------------------------
 # rendering
 # ---------------------------------------------------------------------------
 def fmt_list(values):
@@ -1826,9 +2342,14 @@ def render_look(look, label):
                          lib.get_str(m[1]["meta"], "name_en"), m[0])
             for m in look["materials"]))
     lines.append("- palette: %s" % fmt_list(look["colors"]))
+    lines.append("- evidence tier: `%s`%s" % (
+        look.get("evidence_tier", "unknown"),
+        "；含 example 卡（非史实）" if look.get("contains_example") else ""))
     lines.append("- score breakdown: " + ", ".join(
         "%s %s" % (label2, look["scores"].get(key, 0))
         for key, label2, _w in DIM_ORDER))
+    if look.get("narrative_meaning"):
+        lines.append("- narrative meaning: " + look["narrative_meaning"])
     lines.append("- why: " + " ".join(look["reasons"]))
     if look["risks"]:
         lines.append("- risks: " + " ".join(look["risks"]))
@@ -1867,6 +2388,20 @@ def render_markdown(result):
         lines.append("- unknown / 待补：%s（不得自行断言，按缺省假设处理并标注）。" % ", ".join(unknowns))
     lines.append("- 假设：%s" % ("无明确假设" if not unknowns else
                                 "unknown 字段按中性默认值处理，不构成史实或心理断言"))
+    brief_parse = inp.get("brief_parse")
+    if brief_parse:
+        lines.append("")
+        lines.append("### 剧本解析（--brief / brief 字段）")
+        lines.append("")
+        lines.append("- 原始文本：`%s`" % brief_parse.get("brief", ""))
+        lines.append("- 解析结果：period=%s；region=%s；occupation=%s；economic=%s；weather=%s；art=%s；fidelity=%s；budget=%s" % (
+            brief_parse.get("period"), brief_parse.get("region"),
+            brief_parse.get("occupation"), brief_parse.get("economic_status"),
+            brief_parse.get("weather"), brief_parse.get("art_direction"),
+            brief_parse.get("fidelity_mode"), brief_parse.get("budget")))
+        if brief_parse.get("unknown_fields"):
+            lines.append("- 未能解析（保持 unknown）：%s" % ", ".join(
+                brief_parse["unknown_fields"]))
     lines.append("")
     lines.append("## 2. 不可违反的约束")
     lines.append("")
@@ -1899,9 +2434,31 @@ def render_markdown(result):
     lines.append("")
     if result["looks"]:
         a = result["looks"][0]
-        lines.append("**推荐 %s**：%s。备选 B 用于明确不同的视觉方向，C 用于预算/美术替代；三者不共享同一套完整组合。" % (
+        lines.append("**推荐 %s**：%s。备选 B 用于明确不同的视觉方向，C 用于预算/美术替代；三者按单品差异度校验（B/C 与 A 至少 2 件不同）。" % (
             "Look A", "综合得分最高，且通过全部硬约束" if not a["missing"] else
             "综合得分最高，但存在知识库缺口（见风险）"))
+        if len(result["looks"]) >= 2:
+            lines.append("")
+            lines.append("**A/B/C 差异与预算模型**：")
+            lines.append("")
+            lines.append("- 单品差异：%s" % (a.get("differences") or {}))
+            if a.get("budget_mode"):
+                lines.append("- 预算模式：`%s` — %s" % (
+                    a["budget_mode"], a.get("budget_explanation", "")))
+            if len(result["looks"]) >= 3:
+                lines.append("- 成本：A=%.3f，B=%.3f，C=%.3f（含 example 标记：A=%s）" % (
+                    result["looks"][0].get("cost_total", 0),
+                    result["looks"][1].get("cost_total", 0),
+                    result["looks"][2].get("cost_total", 0),
+                    result["looks"][0].get("contains_example")))
+    if result.get("conflicts"):
+        lines.append("")
+        lines.append("## 4.5 约束冲突检测")
+        lines.append("")
+        for conflict in result["conflicts"]:
+            lines.append("- **[%s] %s**：%s；建议：%s" % (
+                conflict.get("severity"), conflict.get("code"),
+                conflict.get("message"), conflict.get("resolution")))
     lines.append("")
     lines.append("## 5. 生图 Prompt (EN)")
     lines.append("")
@@ -1946,7 +2503,20 @@ def render_markdown(result):
             lines.append("  - %s: %s" % (entry["source_id"], entry["url"]))
     if result["missing_urls"]:
         lines.append("- **来源缺口**：source_ids 在 04-来源/ 中找不到对应卡片：%s（不得编造链接）" % fmt_list(result["missing_urls"]))
-    lines.append("- 未命中/缺口：%s" % (fmt_list(result["warnings"])))
+    if result.get("context_refs"):
+        lines.append("- 语境引用（已按年代/地域过滤）：%s" % "; ".join(
+            "%s(%s, %s/%s)" % (entry["id"], entry["type"],
+                               entry.get("period_tier"), entry.get("region_tier"))
+            for entry in result["context_refs"]))
+    else:
+        lines.append("- 语境引用：无可靠匹配卡（已过滤，不用误导性引用填充）")
+    if result.get("warnings_detail"):
+        lines.append("- 警告明细：")
+        for entry in result["warnings_detail"]:
+            lines.append("  - [%s][%s] %s" % (
+                entry.get("severity"), entry.get("code"), entry.get("message")))
+    else:
+        lines.append("- 警告明细：无。")
     lines.append("- uncertainty：推荐为可解释的设计决策支持，不是服饰史定论；心理与叙事解读属于导演解释。")
     lines.append("")
     return "\n".join(lines)
@@ -1974,6 +2544,14 @@ def render_continuity_markdown(result):
     lines.append("```")
     lines.append(base["continuity_lock"])
     lines.append("```")
+    lines.append("")
+    lines.append("> 顶层 prompt 仅作为换装/一致性参考表，不含多场动作与天气；逐场生成必须使用下方 `scenes[]` 的 prompt。")
+    if result.get("warnings_detail"):
+        lines.append("")
+        lines.append("**连续性警告**：")
+        for entry in result["warnings_detail"]:
+            lines.append("- [%s][%s] %s" % (
+                entry.get("severity"), entry.get("code"), entry.get("message")))
     lines.append("")
     lines.append("## 分场次状态与 Prompt")
     lines.append("")
@@ -2042,8 +2620,17 @@ def result_to_json(result):
             "scores": look["scores"],
             "missing": look["missing"],
             "cost": look["cost"],
+            "cost_total": look.get("cost_total"),
+            "contains_example": look.get("contains_example"),
+            "evidence_tier": look.get("evidence_tier"),
+            "period_tiers": look.get("period_tiers", {}),
+            "region_tiers": look.get("region_tiers", {}),
             "colors": look["colors"],
             "style_tags": look["style_tags"],
+            "budget_mode": look.get("budget_mode"),
+            "budget_explanation": look.get("budget_explanation"),
+            "differences": look.get("differences", {}),
+            "narrative_meaning": look.get("narrative_meaning", ""),
             "items": [
                 {
                     "slot": slot,
@@ -2081,6 +2668,18 @@ def result_to_json(result):
             "period_refs": result["context"]["period_refs"],
             "scene_refs": result["context"]["scene_refs"],
         },
+        "context_refs": result["context"].get("context_refs", []),
+        "brief_parse": result["input"].get("brief_parse"),
+        "conflicts": result.get("conflicts", []),
+        "warnings_detail": result.get("warnings_detail", []),
+        "budget_model": {
+            "mode": (result["looks"][0].get("budget_mode") if result.get("looks") else "none"),
+            "a_cost_total": (result["looks"][0].get("cost_total") if result.get("looks") else None),
+            "c_cost_total": (result["looks"][2].get("cost_total")
+                             if len(result.get("looks", [])) > 2 else None),
+            "differences": (result["looks"][0].get("differences", {})
+                            if result.get("looks") else {}),
+        },
         "retrieved_ids": result["retrieved_ids"],
         "rejected": result.get("rejected", []),
         "warnings": result.get("warnings", []),
@@ -2092,13 +2691,19 @@ def result_to_json(result):
         payload["continuity"] = {
             "verdict": result["continuity"]["verdict"],
             "issues": result["continuity"]["issues"],
+            "prompt_mode": result["continuity"].get("prompt_mode", "per_scene"),
             "scenes": [
                 {
                     "scene_id": scene["scene_id"],
+                    "time": scene.get("time"),
+                    "weather": scene.get("weather"),
+                    "action": scene.get("action"),
+                    "state_explicit": scene.get("state_explicit"),
                     "item_ids": scene["item_ids"],
                     "state": scene["state"],
                     "prompt_image": scene["prompt_image"],
                     "prompt_video": scene["prompt_video"],
+                    "lock": scene.get("lock"),
                 }
                 for scene in result["continuity"]["scenes"]
             ],
@@ -2126,6 +2731,8 @@ def make_result(inp, cards, sources):
         "retrieved_ids": retrieved,
         "rejected": ctx.get("rejected", []),
         "warnings": [],
+        "warnings_detail": [],
+        "conflicts": [],
         "checks": {},
     }
     if ctx.get("relaxed"):
@@ -2134,8 +2741,14 @@ def make_result(inp, cards, sources):
             "open footwear kept as least-bad option with risk note (%s)" %
             ", ".join(entry["id"] for entry in ctx["relaxed"]))
     if not looks:
-        result["warnings"].append("no wardrobe candidates: check card coverage for %s" % (
-            "period " + inp["period"] if inp["fidelity_mode"] == "historical" else "required slots"))
+        result["warnings"].append("no wardrobe candidates after hard constraints: check "
+                                  "card coverage for %s" % (
+                                      "period " + inp["period"]
+                                      if inp["fidelity_mode"] == "historical"
+                                      else "required slots"))
+        for message in ctx.get("context_warnings", []):
+            result["warnings"].append(message)
+        build_result_warnings(result, ctx, cards)
         return result
     # Checks used by acceptance tests and by humans.
     all_ids = set()
@@ -2172,8 +2785,24 @@ def make_result(inp, cards, sources):
                    for look in looks for item in look["items"].values()):
             result["warnings"].append(
                 "historical mode: no verified card in any look (knowledge-base gap)")
-    if not result["checks"]["three_looks"]:
-        result["warnings"].append("only %d distinct look(s) assembled" % len(looks))
+    # P3 check contract (kept alongside the legacy checks for backward compatibility).
+    result["checks"]["abc_distinct"] = (
+        len(looks) >= 2 and
+        all(_look_diff(looks[i], looks[j]) >= 2
+            for i in range(len(looks)) for j in range(i + 1, len(looks))))
+    result["checks"]["no_example_in_a"] = (
+        not looks or not looks[0].get("contains_example"))
+    result["checks"]["complete_looks"] = all(not look.get("missing") for look in looks)
+    result["checks"]["context_refs_filtered"] = all(
+        entry.get("period_tier") != "none" for entry in ctx.get("context_refs", []))
+    result["checks"]["narrative_present"] = all(
+        bool(look.get("narrative_meaning")) for look in looks)
+    result["checks"]["brief_parsed"] = bool(inp.get("brief_parse"))
+    result["checks"]["conflicts"] = len(result["conflicts"])
+    build_result_warnings(result, ctx, cards)
+    # deterministic test-friendly diagnostics
+    result["checks"]["warnings_count"] = len(result["warnings"])
+    result["checks"]["rejected_count"] = len(result.get("rejected", []))
     return result
 
 
@@ -2190,6 +2819,11 @@ def build_continuity_result(inp, cards, sources):
     if not base_result["looks"]:
         return base_result
     base = base_result["looks"][0]
+    # Top-level prompts are a reference sheet only; per-scene prompts below must
+    # not inherit the merged multi-scene action/weather strings.
+    base["prompt_image"], base["prompt_video"] = build_reference_prompts(
+        base, {"input": dict(inp, weather="reference", action="reference")})
+    base["prompt_mode"] = "per_scene_reference"
     scene_results = []
     issues = []
     first_ids = None
@@ -2245,30 +2879,72 @@ def build_continuity_result(inp, cards, sources):
     # Explicit state switches are legal; only implicit defaults or item changes fail.
     verdict = "PASS" if not issues else "FAIL"
     continuity = {"scenes": scene_results, "issues": issues, "verdict": verdict,
-                  "wetness_sequence": wetness_sequence}
+                  "wetness_sequence": wetness_sequence,
+                  "prompt_mode": "per_scene"}
     base_result["continuity"] = continuity
+    base_result["prompt_mode"] = "per_scene"
     base_result["looks"] = [base]
     base_result["checks"]["continuity_verdict"] = verdict
+    # An identity/economic arc across scenes is not modeled by a single locked
+    # wardrobe; make that limitation explicit instead of claiming continuity.
+    econ = lib.norm_text(inp.get("economic_status", ""))
+    arc = lib.norm_text(inp.get("arc", ""))
+    if len(scene_results) > 1 and any(
+            word in econ + " " + arc for word in
+            ("to ", "decline", "rise", "落魄", "崛起", "翻身", "destitute",
+             "wealthy", "难民")):
+        base_result.setdefault("warnings_detail", []).append({
+            "code": "identity_arc_continuity",
+            "severity": "medium",
+            "message": ("identity/economic arc is present but continuity mode keeps one "
+                        "locked wardrobe across scenes; a wardrobe-stage change is not "
+                        "modeled — flag for the costume designer"),
+            "items": [],
+            "look": None,
+        })
+        base_result["warnings"].append(
+            "identity/economic arc present but one locked wardrobe spans all scenes; "
+            "wardrobe-stage change not modeled")
     return base_result
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(
         description="Evidence-linked costume recommendation over the vault cards.")
-    parser.add_argument("input", help="path to input JSON")
+    parser.add_argument("input", nargs="?", help="path to input JSON")
+    parser.add_argument("--brief", help="free-text script/character brief (rule-based parsing)")
+    parser.add_argument("--brief-file", help="read the free-text brief from a file")
     parser.add_argument("--json", action="store_true", help="emit machine-readable JSON")
     parser.add_argument("--out", help="write output to file")
     parser.add_argument("--continuity", action="store_true",
                         help="force multi-scene continuity mode (input has 'scenes')")
     args = parser.parse_args(argv)
 
-    try:
-        raw = json.loads(Path(args.input).read_text(encoding="utf-8"))
-    except FileNotFoundError:
-        print("ERROR: input file not found: %s" % args.input, file=sys.stderr)
-        return 2
-    except json.JSONDecodeError as exc:
-        print("ERROR: invalid JSON: %s" % exc, file=sys.stderr)
+    raw = {}
+    if args.input:
+        try:
+            raw = json.loads(Path(args.input).read_text(encoding="utf-8"))
+        except FileNotFoundError:
+            print("ERROR: input file not found: %s" % args.input, file=sys.stderr)
+            return 2
+        except json.JSONDecodeError as exc:
+            print("ERROR: invalid JSON: %s" % exc, file=sys.stderr)
+            return 2
+        if not isinstance(raw, dict):
+            print("ERROR: input JSON must be an object", file=sys.stderr)
+            return 2
+    brief_text = args.brief or ""
+    if args.brief_file:
+        try:
+            brief_text = Path(args.brief_file).read_text(encoding="utf-8").strip()
+        except OSError as exc:
+            print("ERROR: cannot read brief file: %s" % exc, file=sys.stderr)
+            return 2
+    if brief_text:
+        raw = dict(raw)
+        raw.setdefault("brief", brief_text)
+    if not raw:
+        print("ERROR: provide an input JSON path or --brief/--brief-file", file=sys.stderr)
         return 2
     try:
         inp = normalise_input(raw)

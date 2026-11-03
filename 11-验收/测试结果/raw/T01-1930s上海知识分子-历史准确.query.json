@@ -14,6 +14,19 @@
     "score": 4.5
   },
   {
+    "id": "GAR-0060",
+    "path": "01-服装单品/足部/GAR-0060-1930年代男式皮鞋.md",
+    "name_zh": "1930 年代男式皮鞋",
+    "name_en": "1930s men’s Oxford shoes",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0420"
+    ],
+    "snippet": "# 1930 年代男式皮鞋 / 1930s men’s oxford shoes ## 定义 1930 年代男式皮鞋以 oxford 系带鞋为主：closed-tab 结构、窄尖头、皮革/麂皮…",
+    "score": 4.5
+  },
+  {
     "id": "GAR-0034",
     "path": "01-服装单品/上装/GAR-0034-针织背心.md",
     "name_zh": "针织背心",
@@ -54,17 +67,16 @@
     "score": 2.5
   },
   {
-    "id": "GAR-0033",
-    "path": "01-服装单品/外层/GAR-0033-西式休闲西装.md",
-    "name_zh": "西式休闲西装",
-    "name_en": "lounge suit",
+    "id": "GAR-0066",
+    "path": "01-服装单品/配饰/GAR-0066-和服腰带.md",
+    "name_zh": "和服腰带",
+    "name_en": "obi",
     "type": "garment",
     "evidence_status": "verified",
     "source_ids": [
-      "SRC-0204",
-      "SRC-0155"
+      "SRC-0427"
     ],
-    "snippet": "…呢厚重）；不要把现代修身西装当作 1930 年代版型。 ## 提示词短语 - 生图片段：`1930s lounge suit, single-breasted jacket with wide trousers, brown herringbone…",
-    "score": 2.0
+    "snippet": "…；历史反思题材。 ## 不适用条件 现代日常；把 obi 当普通腰带；忽略其政治宣传语境（1930s 实例）。 ## 提示词短语 - 生图片段：`1930s japanese obi, plain weave silk, stencil-printe…",
+    "score": 2.5
   }
 ]

@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T26",
+    "title": "急诊科护士夜班：职业服缺卡必须显式警告",
+    "types": [
+      "contemporary_realism",
+      "occupational"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "warning_code:occupation_coverage_gap"
+    ],
+    "query": [
+      "白",
+      "--type",
+      "garment",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "林悦",
+    "occupation": "急诊科护士",
+    "economic_status": "low",
+    "arc": "疲惫但保持专业尊严"
+  },
+  "period": "contemporary",
+  "region": "urban china shanghai",
+  "season": "summer",
+  "scene": "急诊抢救区",
+  "time": "night",
+  "weather": "indoor air-conditioned, rain outside",
+  "action": "fast walking, bending, lifting a stretcher, putting on gloves",
+  "location": "hospital emergency department",
+  "art_direction": "handheld documentary, cool fluorescent realism",
+  "lighting": "cool fluorescent",
+  "camera": "handheld close and medium",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney"
+}

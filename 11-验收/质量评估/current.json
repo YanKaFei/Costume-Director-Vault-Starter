@@ -1,0 +1,1486 @@
+{
+  "summary": {
+    "snapshot_cards": 328,
+    "query_relevant_at_5": 3.84,
+    "query_precision": 0.941,
+    "query_zero_hit_rate": 0.12,
+    "recommend_crash_rate": 0.0,
+    "example_in_a_rate": 0.0,
+    "warning_coverage_rate": 1.0,
+    "abc_all_pairwise_distinct_rate": 0.9666666666666667,
+    "budget_c_cheaper_or_explained_rate": 0.933,
+    "evidence_coverage": 0.702,
+    "context_ref_clean_rate": 1.0,
+    "narrative_presence_rate": 1.0,
+    "prompt_contamination_count": 0,
+    "fabrication_violations": 0
+  },
+  "queries": {
+    "probes": [
+      {
+        "id": "P01",
+        "query": [
+          "旗袍"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0031",
+          "LOOK-0009",
+          "LOOK-0019",
+          "SRC-0200",
+          "SRC-0201"
+        ],
+        "relevant_ids": [
+          "GAR-0031",
+          "LOOK-0009",
+          "LOOK-0019",
+          "SRC-0200",
+          "SRC-0201"
+        ]
+      },
+      {
+        "id": "P02",
+        "query": [
+          "和服"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0001",
+          "GAR-0065",
+          "GAR-0066",
+          "SRC-0009",
+          "SRC-0028"
+        ],
+        "relevant_ids": [
+          "GAR-0001",
+          "GAR-0065",
+          "GAR-0066",
+          "SRC-0009",
+          "SRC-0028"
+        ]
+      },
+      {
+        "id": "P03",
+        "query": [
+          "风衣"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 4,
+        "ids": [
+          "GAR-0045",
+          "SRC-0037",
+          "SRC-0405",
+          "GAR-0046",
+          "GAR-0047"
+        ],
+        "relevant_ids": [
+          "GAR-0045",
+          "SRC-0037",
+          "SRC-0405",
+          "GAR-0046"
+        ]
+      },
+      {
+        "id": "P04",
+        "query": [
+          "蕾丝"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "MAT-0002",
+          "SRC-0014",
+          "SRC-0141",
+          "SRC-0205",
+          "SRC-0405"
+        ],
+        "relevant_ids": [
+          "MAT-0002",
+          "SRC-0014",
+          "SRC-0141",
+          "SRC-0205",
+          "SRC-0405"
+        ]
+      },
+      {
+        "id": "P05",
+        "query": [
+          "朋克"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0051",
+          "LOOK-0006",
+          "LOOK-0017",
+          "SRC-0165",
+          "SRC-0173"
+        ],
+        "relevant_ids": [
+          "GAR-0051",
+          "LOOK-0006",
+          "LOOK-0017",
+          "SRC-0165",
+          "SRC-0173"
+        ]
+      },
+      {
+        "id": "P06",
+        "query": [
+          "徽章"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0050",
+          "GAR-0051",
+          "SRC-0410",
+          "SRC-0411",
+          "GAR-0042"
+        ],
+        "relevant_ids": [
+          "GAR-0050",
+          "GAR-0051",
+          "SRC-0410",
+          "SRC-0411",
+          "GAR-0042"
+        ]
+      },
+      {
+        "id": "P07",
+        "query": [
+          "1930s 上海"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "LOOK-0008",
+          "LOOK-0009",
+          "LOOK-0012",
+          "PRD-0011",
+          "SCN-0004"
+        ],
+        "relevant_ids": [
+          "LOOK-0008",
+          "LOOK-0009",
+          "LOOK-0012",
+          "PRD-0011",
+          "SCN-0004"
+        ]
+      },
+      {
+        "id": "P08",
+        "query": [
+          "立领",
+          "盘扣"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "STR-0011",
+          "GAR-0031",
+          "GAR-0032",
+          "LOOK-0008",
+          "LOOK-0009"
+        ],
+        "relevant_ids": [
+          "STR-0011",
+          "GAR-0031",
+          "GAR-0032",
+          "LOOK-0008",
+          "LOOK-0009"
+        ]
+      },
+      {
+        "id": "P09",
+        "query": [
+          "蕾丝",
+          "晚装"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 4,
+        "ids": [
+          "MAT-0002",
+          "SRC-0141",
+          "GAR-0007",
+          "GAR-0054",
+          "GAR-0031"
+        ],
+        "relevant_ids": [
+          "MAT-0002",
+          "SRC-0141",
+          "GAR-0054",
+          "GAR-0031"
+        ]
+      },
+      {
+        "id": "P10",
+        "query": [
+          "丝绸",
+          "和服"
+        ],
+        "exit": 0,
+        "hits": 4,
+        "relevant": 4,
+        "ids": [
+          "GAR-0001",
+          "GAR-0063",
+          "GAR-0064",
+          "LOOK-0020"
+        ],
+        "relevant_ids": [
+          "GAR-0001",
+          "GAR-0063",
+          "GAR-0064",
+          "LOOK-0020"
+        ]
+      },
+      {
+        "id": "P11",
+        "query": [
+          "--phrase",
+          "stand-up collar"
+        ],
+        "exit": 0,
+        "hits": 2,
+        "relevant": 2,
+        "ids": [
+          "GAR-0031",
+          "GAR-0032"
+        ],
+        "relevant_ids": [
+          "GAR-0031",
+          "GAR-0032"
+        ]
+      },
+      {
+        "id": "P12",
+        "query": [
+          "--phrase",
+          "right side fastening"
+        ],
+        "exit": 0,
+        "hits": 3,
+        "relevant": 3,
+        "ids": [
+          "GAR-0031",
+          "GAR-0032",
+          "STR-0011"
+        ],
+        "relevant_ids": [
+          "GAR-0031",
+          "GAR-0032",
+          "STR-0011"
+        ]
+      },
+      {
+        "id": "P13",
+        "query": [
+          "--type",
+          "garment",
+          "--category",
+          "footwear"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0022",
+          "GAR-0023",
+          "GAR-0024",
+          "GAR-0035",
+          "GAR-0044"
+        ],
+        "relevant_ids": [
+          "GAR-0022",
+          "GAR-0023",
+          "GAR-0024",
+          "GAR-0035",
+          "GAR-0044"
+        ]
+      },
+      {
+        "id": "P14",
+        "query": [
+          "--style-tag",
+          "noir"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 2,
+        "ids": [
+          "GAR-EXAMPLE-001",
+          "LOOK-0007",
+          "LOOK-0021",
+          "LOOK-EXAMPLE-001",
+          "SCN-0001"
+        ],
+        "relevant_ids": [
+          "LOOK-0007",
+          "SCN-0001"
+        ]
+      },
+      {
+        "id": "P15",
+        "query": [
+          "--period",
+          "1930s",
+          "--region",
+          "shanghai"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0031",
+          "LOOK-0008",
+          "LOOK-0009",
+          "LOOK-0012",
+          "LOOK-0015"
+        ],
+        "relevant_ids": [
+          "GAR-0031",
+          "LOOK-0008",
+          "LOOK-0009",
+          "LOOK-0012",
+          "LOOK-0015"
+        ]
+      },
+      {
+        "id": "P16",
+        "query": [
+          "--type",
+          "source",
+          "--evidence",
+          "verified"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "SRC-0001",
+          "SRC-0002",
+          "SRC-0003",
+          "SRC-0004",
+          "SRC-0005"
+        ],
+        "relevant_ids": [
+          "SRC-0001",
+          "SRC-0002",
+          "SRC-0003",
+          "SRC-0004",
+          "SRC-0005"
+        ]
+      },
+      {
+        "id": "P17",
+        "query": [
+          "--type",
+          "look"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "LOOK-0001",
+          "LOOK-0002",
+          "LOOK-0003",
+          "LOOK-0004",
+          "LOOK-0005"
+        ],
+        "relevant_ids": [
+          "LOOK-0001",
+          "LOOK-0002",
+          "LOOK-0003",
+          "LOOK-0004",
+          "LOOK-0005"
+        ]
+      },
+      {
+        "id": "P18",
+        "query": [
+          "--category",
+          "accessory"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0021",
+          "GAR-0028",
+          "GAR-0050",
+          "GAR-0051",
+          "GAR-0066"
+        ],
+        "relevant_ids": [
+          "GAR-0021",
+          "GAR-0028",
+          "GAR-0050",
+          "GAR-0051",
+          "GAR-0066"
+        ]
+      },
+      {
+        "id": "P19",
+        "query": [
+          "--type",
+          "garment",
+          "--category",
+          "outerwear"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0016",
+          "GAR-0017",
+          "GAR-0018",
+          "GAR-0019",
+          "GAR-0033"
+        ],
+        "relevant_ids": [
+          "GAR-0016",
+          "GAR-0017",
+          "GAR-0018",
+          "GAR-0019",
+          "GAR-0033"
+        ]
+      },
+      {
+        "id": "P20",
+        "query": [
+          "spacesuit"
+        ],
+        "exit": 0,
+        "hits": 0,
+        "relevant": 0,
+        "ids": [],
+        "relevant_ids": []
+      },
+      {
+        "id": "P21",
+        "query": [
+          "Mughal"
+        ],
+        "exit": 0,
+        "hits": 0,
+        "relevant": 0,
+        "ids": [],
+        "relevant_ids": []
+      },
+      {
+        "id": "P22",
+        "query": [
+          "mourning jewelry"
+        ],
+        "exit": 0,
+        "hits": 0,
+        "relevant": 0,
+        "ids": [],
+        "relevant_ids": []
+      },
+      {
+        "id": "P23",
+        "query": [
+          "--match",
+          "any",
+          "旗袍",
+          "太空服"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 5,
+        "ids": [
+          "GAR-0031",
+          "LOOK-0009",
+          "LOOK-0019",
+          "SRC-0200",
+          "SRC-0201"
+        ],
+        "relevant_ids": [
+          "GAR-0031",
+          "LOOK-0009",
+          "LOOK-0019",
+          "SRC-0200",
+          "SRC-0201"
+        ]
+      },
+      {
+        "id": "P24",
+        "query": [
+          "--type",
+          "pattern"
+        ],
+        "exit": 0,
+        "hits": 3,
+        "relevant": 3,
+        "ids": [
+          "MAT-0005",
+          "MAT-0006",
+          "MAT-0007"
+        ],
+        "relevant_ids": [
+          "MAT-0005",
+          "MAT-0006",
+          "MAT-0007"
+        ]
+      },
+      {
+        "id": "P25",
+        "query": [
+          "雨",
+          "夜",
+          "调查"
+        ],
+        "exit": 0,
+        "hits": 5,
+        "relevant": 4,
+        "ids": [
+          "LOOK-0007",
+          "LOOK-0021",
+          "LOOK-EXAMPLE-001",
+          "SCN-0001",
+          "SRC-0175"
+        ],
+        "relevant_ids": [
+          "LOOK-0007",
+          "LOOK-0021",
+          "LOOK-EXAMPLE-001",
+          "SCN-0001"
+        ]
+      }
+    ],
+    "relevant_at_5": 3.84,
+    "precision": 0.941,
+    "zero_hit_rate": 0.12,
+    "example_in_top2_rate": 0.04,
+    "total_relevant": 96,
+    "total_returned": 102
+  },
+  "recommendations": [
+    {
+      "id": "T01",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 2,
+        "b_c": 5
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T02",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T03",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 1,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 4,
+        "a_c": 2,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "budget_equivalent",
+        "identity_arc_continuity"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T04",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 4
+      },
+      "warnings": [],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.2857142857142857,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T05",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 5,
+        "a_c": 4,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "occupation_coverage_gap",
+        "future_wardrobe_gap",
+        "rainwear_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.4,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T06",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.2222222222222222,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T07",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 5,
+        "a_c": 2,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "occupation_coverage_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.3,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T08",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 5,
+        "a_c": 2,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "occupation_coverage_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.3,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T09",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.3333333333333333,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T10",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T11",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T12",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T13",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T14",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 6,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.3333333333333333,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T15",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 5
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.25,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T16",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T17",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 1,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": false
+    },
+    {
+      "id": "T18",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.2222222222222222,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T19",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T20",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T21",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T22",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 8,
+        "a_c": 5,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T23",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 2,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "context_gap",
+        "period_approximate",
+        "period_era_level",
+        "conflict_movement_vs_footwear",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T24",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 1,
+      "example_in_a": false,
+      "abc_distinct": false,
+      "differences": {
+        "a_b": null,
+        "a_c": null,
+        "b_c": null
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "knowledge_gap_slots",
+        "occupation_coverage_gap",
+        "looks_incomplete"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "none",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": false
+    },
+    {
+      "id": "T25",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "future_wardrobe_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [
+        "future_wardrobe_gap"
+      ],
+      "warning_coverage": 1.0,
+      "evidence_coverage": 0.5,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T26",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 2,
+        "b_c": 5
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [
+        "occupation_coverage_gap"
+      ],
+      "warning_coverage": 1.0,
+      "evidence_coverage": 0.2,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T27",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 2,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "cross_cultural_wedding",
+        "ceremonial_coverage_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [
+        "cross_cultural_wedding"
+      ],
+      "warning_coverage": 1.0,
+      "evidence_coverage": 0.7142857142857143,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T28",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 5,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "gender_coverage_gap",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [
+        "gender_coverage_gap"
+      ],
+      "warning_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T29",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "conflict_historical_vs_scifi",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T30",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "rainwear_gap",
+        "conflict_weather_vs_material",
+        "brief_unknown_fields"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "budget_c_cheaper_or_explained": true
+    }
+  ]
+}

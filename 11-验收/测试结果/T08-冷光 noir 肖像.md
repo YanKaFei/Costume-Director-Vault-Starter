@@ -1,11 +1,11 @@
 # T08 — 冷光肖像：同一角色的冷暖光对照（cool lighting）
 
-- 运行时间：2026-11-04T01:49:17+08:00
+- 运行时间：2026-11-04T02:24:51+08:00
 - 测试类型：warm_cool_lighting
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T08-冷光 noir 肖像.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T08-冷光 noir 肖像.json --json`
-- 退出码：**0**（耗时 0.65s）
+- 退出码：**0**（耗时 1.52s）
 
 ## 实际输入
 
@@ -43,46 +43,41 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T08-冷光 noir 肖像.json --json` | 0 | 0.65s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.52s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T08-冷光 noir 肖像.json --json` | 0 | 1.52s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.75s |
 
-- `query.py` 命中数量：**4**（验收要求 ≥1）
-- `query.py` 命中卡片 ID：STY-0005, STY-EXAMPLE-001, LOOK-EXAMPLE-001, LOOK-0007
-- `recommend.py` 候选池：accessory=GAR-0021, GAR-0026, GAR-0025, GAR-0028; footwear=GAR-0022, GAR-0023, GAR-0035, GAR-0024; inner_layer=GAR-0012, GAR-0020; lower_body=GAR-0014, GAR-0010, GAR-0011, GAR-0013; one_piece=GAR-0031, GAR-0032, GAR-0015, GAR-0029; outerwear=GAR-0019, GAR-0018, GAR-0017, GAR-0016, GAR-0033; upper_body=GAR-EXAMPLE-001, GAR-0006, GAR-0008, GAR-0002, GAR-0007, GAR-0003, GAR-0034
-- 三套推荐选中：A: GAR-EXAMPLE-001, GAR-0014, GAR-0019, GAR-0022; B: GAR-0006, GAR-0010, GAR-0018, GAR-0023, GAR-0021; C: GAR-EXAMPLE-001, GAR-0010, GAR-0019, GAR-0022
+- `query.py` 命中数量：**5**（验收要求 ≥1）
+- `query.py` 命中卡片 ID：STY-0005, LOOK-0021, STY-EXAMPLE-001, LOOK-0007, LOOK-EXAMPLE-001
+- `recommend.py` 候选池：accessory=GAR-0070, GAR-0050, GAR-0051, GAR-0039, GAR-0021, GAR-0027, GAR-0026, GAR-0068, GAR-0067, GAR-0066, GAR-0028, GAR-0025; carried_prop=GAR-0047, GAR-0048, GAR-0049; footwear=GAR-0022, GAR-0044, GAR-0023, GAR-0035, GAR-0060, GAR-0058, GAR-0024; inner_layer=GAR-0012, GAR-0020; lower_body=GAR-0014, GAR-0010, GAR-0011, GAR-0059, GAR-0013; one_piece=GAR-0063, GAR-0064, GAR-0069, GAR-0031, GAR-0032, GAR-0056, GAR-0015, GAR-0055, GAR-0052, GAR-0053, GAR-0004, GAR-0054, GAR-0062, GAR-0061, GAR-0009, GAR-0029; outerwear=GAR-0045, GAR-0041, GAR-0019, GAR-0046, GAR-0057, GAR-0017, GAR-0033, GAR-0040, GAR-0016, GAR-0037, GAR-0018; set=GAR-0042, GAR-0005, GAR-0001, GAR-0065, GAR-0036, GAR-0030; upper_body=GAR-EXAMPLE-001, GAR-0043, GAR-0006, GAR-0008, GAR-0007, GAR-0034, GAR-0002, GAR-0003
+- 三套推荐选中：A: GAR-0042, GAR-0041, GAR-0044; B: GAR-0043, GAR-0014, GAR-0041, GAR-0022; C: GAR-0042, GAR-0041, GAR-0022
 
 ## 候选造型 A/B/C
 
-### Look A（score 52.4/100，cost 0.244，source_look=LOOK-0007）
+### Look A（score 50.8/100，cost 0.213，source_look=assembled）
 
 | 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
 | --- | --- | --- | --- | --- | --- |
-| upper_body | `GAR-EXAMPLE-001` | 白色立领衬衫 / white stand-collar shirt | off_white | cotton | example |
+| set | `GAR-0042` | 警察制服 / police uniform | navy, black | wool, polyester, cotton | interpretive |
+| outerwear | `GAR-0041` | 医生白袍 / doctor’s white coat | white | cotton, polyester | interpretive |
+| footwear | `GAR-0044` | 医疗工作鞋 / medical work shoes | white, black | leather, rubber, synthetic | interpretive |
+- 材质卡：MAT-0001, MAT-0003
+
+### Look B（score 50.1/100，cost 0.220，source_look=assembled）
+
+| 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
+| --- | --- | --- | --- | --- | --- |
+| upper_body | `GAR-0043` | 厨师服 / chef’s jacket | white, black | cotton, polyester | interpretive |
 | lower_body | `GAR-0014` | 牛仔裤 / jeans | indigo, blue_black | denim, cotton | verified |
-| outerwear | `GAR-0019` | 派克大衣 / anorak | white, natural_hide, beaded_contrast | seal_skin, caribou_fur, wool, cotton | verified |
+| outerwear | `GAR-0041` | 医生白袍 / doctor’s white coat | white | cotton, polyester | interpretive |
 | footwear | `GAR-0022` | 威灵顿靴 / wellington boot | black, brown | leather, rubber | verified |
 - 材质卡：MAT-0001, MAT-0003
 
-### Look B（score 41.7/100，cost 0.310，source_look=assembled）
+### Look C（score 49.6/100，cost 0.208，source_look=assembled）
 
 | 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
 | --- | --- | --- | --- | --- | --- |
-| upper_body | `GAR-0006` | 达希基套衫 / dashiki | multicolor, solid_color | cotton, printed_cotton | verified |
-| lower_body | `GAR-0010` | 灯笼裤 / bloomers | white, black, dark | cotton, wool, linen | verified |
-| outerwear | `GAR-0018` | 斯宾塞短夹克 / spencer jacket | mustard, white, dark_blue | wool, silk | verified |
-| footwear | `GAR-0023` | 莫卡辛鞋 / moccasins | tan, buckskin, beaded | leather, beads, silk_ribbon | verified |
-| accessory | `GAR-0021` | 围裙裙 / pinafore | white, printed, navy | cotton, linen | verified |
-
-- 结构卡：STR-0003
-- 材质卡：MAT-0001, MAT-0003, MAT-0002
-
-### Look C（score 47.5/100，cost 0.244，source_look=assembled）
-
-| 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
-| --- | --- | --- | --- | --- | --- |
-| upper_body | `GAR-EXAMPLE-001` | 白色立领衬衫 / white stand-collar shirt | off_white | cotton | example |
-| lower_body | `GAR-0010` | 灯笼裤 / bloomers | white, black, dark | cotton, wool, linen | verified |
-| outerwear | `GAR-0019` | 派克大衣 / anorak | white, natural_hide, beaded_contrast | seal_skin, caribou_fur, wool, cotton | verified |
+| set | `GAR-0042` | 警察制服 / police uniform | navy, black | wool, polyester, cotton | interpretive |
+| outerwear | `GAR-0041` | 医生白袍 / doctor’s white coat | white | cotton, polyester | interpretive |
 | footwear | `GAR-0022` | 威灵顿靴 / wellington boot | black, brown | leather, rubber | verified |
 - 材质卡：MAT-0001, MAT-0003
 
@@ -90,14 +85,14 @@
 
 | 维度 | A | B | C |
 | --- | --- | --- | --- |
-| 年代/文化 | 19.5 | 15.8 | 17.1 |
-| 角色身份 | 3.8 | 3.6 | 4.0 |
-| 环境气候 | 3.0 | 1.8 | 3.0 |
-| 美术方向 | 4.7 | 3.8 | 5.0 |
-| 动作可行 | 5.0 | 4.3 | 5.0 |
-| 剧情弧线 | 6.2 | 6.2 | 6.2 |
-| 摄影/一致性 | 8.2 | 7.6 | 8.2 |
-| **总计** | 52.4 | 41.7 | 47.5 |
+| 年代/文化 | 23.0 | 23.0 | 23.0 |
+| 角色身份 | 4.0 | 4.0 | 4.2 |
+| 环境气候 | 1.8 | 1.8 | 1.8 |
+| 美术方向 | 3.4 | 4.1 | 4.1 |
+| 动作可行 | 4.0 | 4.0 | 4.0 |
+| 剧情弧线 | 5.6 | 6.2 | 5.6 |
+| 摄影/一致性 | 6.9 | 6.9 | 6.9 |
+| **总计** | 50.8 | 50.1 | 49.6 |
 
 ## 生图 / 视频 Prompt（实际输出）
 
@@ -106,13 +101,13 @@
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult Lin, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, blue black, brown, indigo, natural hide, off white, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6
+full-body character design of an adult Lin, complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: black, navy, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6
 ```
 
 **Video prompt (EN):**
 
 ```
-Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
+Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
 ```
 
 ### Look B
@@ -120,13 +115,13 @@ Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up,
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult Lin, upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Regency spencer jacket, very short waist-length jacket, high waistline, long fitted sleeves, lightweight wool or silk, worn over an Empire dress; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, floral beadwork and silk ribbon ties, no separate heel; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, palette: beaded, black, buckskin, dark, dark blue, multicolor, mustard, navy, printed, solid color, tan, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0018 spencer jacket [mustard, white, dark_blue; wool, silk; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6
+full-body character design of an adult Lin, upper body: white chef’s jacket, double-breasted front, mandarin collar, long sleeves, cloth buttons, apron and tall toque, kitchen setting; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue black, brown, indigo, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0043 chef’s jacket [white, black; cotton, polyester; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6
 ```
 
 **Video prompt (EN):**
 
 ```
-Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Regency spencer jacket, very short waist-length jacket, high waistline, long fitted sleeves, lightweight wool or silk, worn over an Empire dress; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, floral beadwork and silk ribbon ties, no separate heel; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, fabric motion: 极短衣长，抬臂时下缘上移明显；袖口较紧时限制手腕动作。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 宽松套头，手臂活动自由；下摆与袖口在动作中易上移，需确认长度。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0018 spencer jacket [mustard, white, dark_blue; wool, silk; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
+Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: white chef’s jacket, double-breasted front, mandarin collar, long sleeves, cloth buttons, apron and tall toque, kitchen setting; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 双排扣与长袖在炉灶旁限制动作; 围裙/帽子的系带需锁定。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0043 chef’s jacket [white, black; cotton, polyester; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
 ```
 
 ### Look C
@@ -134,79 +129,62 @@ Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up,
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult Lin, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, brown, dark, natural hide, off white, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6
+full-body character design of an adult Lin, complete set: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, navy, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6
 ```
 
 **Video prompt (EN):**
 
 ```
-Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
+Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: complete set: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
 ```
 
 ## 风险与证据
 
 ### Look A
 
-- 理由：highest scoring dimensions: 年代/文化 19.5/25, 摄影/一致性 8.2/10
-- 理由：上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)
-- 理由：下装: GAR-0014 牛仔裤 (casual)
-- 理由：外层: GAR-0019 派克大衣 (functional)
-- 理由：足部: GAR-0022 威灵顿靴 (smart_casual)
+- 理由：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10
+- 理由：成套: GAR-0042 警察制服 (functional)
+- 理由：外层: GAR-0041 医生白袍 (functional)
+- 理由：足部: GAR-0044 医疗工作鞋 (functional)
 - 理由：linked material cards: MAT-0001, MAT-0003
-- 理由：based on curated vault look card LOOK-0007
-- 风险：look includes example cards, not historical evidence
 - 风险：fictional mode: no historical claim is made for this design
-- 风险：region mismatch in GAR-0014, GAR-0019, GAR-0022: cards document their own regions, not unspecified city
+- 风险：region mismatch in GAR-0042, GAR-0041, GAR-0044: cards document their own regions, not unspecified city
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
-- source_ids：SRC-0120, SRC-0115, SRC-0123, SRC-0102, SRC-0142
-- 来源链接：SRC-0120 → https://fashionhistory.fitnyc.edu/anorak/
-- 来源链接：SRC-0115 → https://fashionhistory.fitnyc.edu/1950-1959/
-- 来源链接：SRC-0123 → https://fashionhistory.fitnyc.edu/wellington-boot/
+- source_ids：SRC-0102, SRC-0142
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 
 ### Look B
 
-- 理由：highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 7.6/10
-- 理由：上装: GAR-0006 达希基套衫 (casual)
-- 理由：下装: GAR-0010 灯笼裤 (casual)
-- 理由：外层: GAR-0018 斯宾塞短夹克 (smart_casual)
-- 理由：足部: GAR-0023 莫卡辛鞋 (casual)
-- 理由：配饰: GAR-0021 围裙裙 (casual)
-- 理由：linked structure cards: STR-0003
-- 理由：linked material cards: MAT-0001, MAT-0003, MAT-0002
+- 理由：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10
+- 理由：上装: GAR-0043 厨师服 (functional)
+- 理由：下装: GAR-0014 牛仔裤 (casual)
+- 理由：外层: GAR-0041 医生白袍 (functional)
+- 理由：足部: GAR-0022 威灵顿靴 (smart_casual)
+- 理由：linked material cards: MAT-0001, MAT-0003
 - 风险：fictional mode: no historical claim is made for this design
-- 风险：region mismatch in GAR-0006, GAR-0010, GAR-0018, GAR-0023, GAR-0021: cards document their own regions, not unspecified city
+- 风险：region mismatch in GAR-0043, GAR-0014, GAR-0041, GAR-0022: cards document their own regions, not unspecified city
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
-- source_ids：SRC-0107, SRC-0111, SRC-0119, SRC-0124, SRC-0122, SRC-0133, SRC-0102, SRC-0142, SRC-0141
-- 来源链接：SRC-0107 → https://fashionhistory.fitnyc.edu/dashiki/
-- 来源链接：SRC-0111 → https://fashionhistory.fitnyc.edu/bloomers/
-- 来源链接：SRC-0119 → https://fashionhistory.fitnyc.edu/spencer-jacket/
-- 来源链接：SRC-0124 → https://fashionhistory.fitnyc.edu/moccasins/
-- 来源链接：SRC-0122 → https://fashionhistory.fitnyc.edu/pinafore/
-- 来源链接：SRC-0133 → https://fashionhistory.fitnyc.edu/ruff/
+- source_ids：SRC-0115, SRC-0123, SRC-0102, SRC-0142
+- 来源链接：SRC-0115 → https://fashionhistory.fitnyc.edu/1950-1959/
+- 来源链接：SRC-0123 → https://fashionhistory.fitnyc.edu/wellington-boot/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
-- 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
 
 ### Look C
 
-- 理由：highest scoring dimensions: 年代/文化 17.1/25, 摄影/一致性 8.2/10
-- 理由：上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)
-- 理由：下装: GAR-0010 灯笼裤 (casual)
-- 理由：外层: GAR-0019 派克大衣 (functional)
+- 理由：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10
+- 理由：成套: GAR-0042 警察制服 (functional)
+- 理由：外层: GAR-0041 医生白袍 (functional)
 - 理由：足部: GAR-0022 威灵顿靴 (smart_casual)
 - 理由：linked material cards: MAT-0001, MAT-0003
-- 风险：look includes example cards, not historical evidence
 - 风险：fictional mode: no historical claim is made for this design
-- 风险：region mismatch in GAR-0010, GAR-0019, GAR-0022: cards document their own regions, not unspecified city
+- 风险：region mismatch in GAR-0042, GAR-0041, GAR-0022: cards document their own regions, not unspecified city
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
-- source_ids：SRC-0111, SRC-0120, SRC-0123, SRC-0102, SRC-0142
-- 来源链接：SRC-0111 → https://fashionhistory.fitnyc.edu/bloomers/
-- 来源链接：SRC-0120 → https://fashionhistory.fitnyc.edu/anorak/
+- source_ids：SRC-0123, SRC-0102, SRC-0142
 - 来源链接：SRC-0123 → https://fashionhistory.fitnyc.edu/wellington-boot/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
@@ -219,14 +197,16 @@ Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up,
 | ids_exist | PASS | all garment ids resolvable: True |
 | fidelity_matches | PASS | expected=fictional got=fictional |
 | prompts | PASS | all prompts complete |
-| query_hits | PASS | query.py exit=0, hits=4, ids=STY-0005, STY-EXAMPLE-001, LOOK-EXAMPLE-001, LOOK-0007 |
-| lighting_pair（pair） | PASS | A item overlap=4, prompts differ=True |
+| query_hits | PASS | query.py exit=0, hits=5, ids=STY-0005, LOOK-0021, STY-EXAMPLE-001, LOOK-0007, LOOK-EXAMPLE-001 |
+| lighting_pair（pair） | PASS | A item overlap=3, prompts differ=True |
 
 **VERDICT: PASS**
 
 ## 备注
 
-- 脚本无警告。
+- 脚本警告：no reliable style card for art direction 'restrained urban noir'
+- 脚本警告：no occupational garment cards match 'private investigator'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute
+- 脚本警告：No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
 - 本文件由 `scripts/run_acceptance.py` 依据真实子进程输出生成；PASS/FAIL 只对应上方检查项。
 - 知识库为运行时刻快照；新增卡片后必须重跑本测试。
 

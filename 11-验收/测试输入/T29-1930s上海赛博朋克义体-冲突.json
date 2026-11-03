@@ -1,0 +1,54 @@
+{
+  "_test": {
+    "id": "T29",
+    "title": "1930s 上海 + 赛博朋克义体：冲突必须显式识别",
+    "types": [
+      "conflicting_constraints",
+      "historical_plus_sci_fi"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "conflicts_present",
+      "conflict_code:historical_vs_scifi"
+    ],
+    "query": [
+      "上海",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "周玖",
+    "occupation": "newspaper editor and body-modded courier",
+    "economic_status": "middle",
+    "arc": "hiding a cybernetic arm in a colonial city"
+  },
+  "period": "1930s",
+  "region": "shanghai",
+  "season": "autumn",
+  "scene": "rainy newspaper back alley",
+  "time": "night",
+  "weather": "rain",
+  "action": "running through the alley, forcing an iron gate with a cybernetic arm",
+  "location": "shanghai newspaper alley",
+  "art_direction": "historical noir + cyberpunk neon and body modification",
+  "lighting": "low neon and wet-ground reflections",
+  "camera": "medium close handheld",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "sora"
+}

@@ -29,233 +29,194 @@
     {
       "look_ref": "A",
       "source_look_id": null,
-      "total": 39.4,
+      "total": 49.1,
       "scores": {
-        "period": 13.8,
-        "identity": 3.2,
-        "environment": 4.0,
-        "art": 3.8,
-        "movement": 4.5,
-        "arc": 3.9,
-        "camera": 7.2
+        "period": 20.5,
+        "identity": 5.1,
+        "environment": 1.8,
+        "art": 4.6,
+        "movement": 5.4,
+        "arc": 4.0,
+        "camera": 6.6
       },
       "missing": [],
-      "cost": 0.346,
+      "cost": 0.282,
+      "cost_total": 0.847,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "one_piece": "exact",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional"
+      },
       "colors": [
         "black",
         "brown",
-        "dark",
-        "herringbone",
-        "off white",
-        "red",
-        "silver",
-        "white"
+        "deep green",
+        "green",
+        "scarlet"
       ],
       "style_tags": [
-        "1930s",
-        "art",
-        "art deco",
-        "athletic",
-        "contemporary",
-        "deco",
-        "era",
-        "fictional",
-        "fictional noir",
-        "minimal",
-        "noir",
-        "professional",
-        "republican",
-        "republican era",
-        "suffragist",
-        "urban",
-        "urban professional",
-        "victorian"
+        "1940s",
+        "1960s",
+        "age",
+        "country",
+        "couture",
+        "ii",
+        "military",
+        "mod",
+        "space",
+        "space age",
+        "utility",
+        "war",
+        "world",
+        "world war ii"
       ],
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve stage magician; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the black, brown, deep green palette controls the emotional temperature; against the arc (losing the audience) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "upper_body",
-          "id": "GAR-EXAMPLE-001",
-          "name_zh": "白色立领衬衫",
-          "name_en": "white stand-collar shirt",
+          "slot": "one_piece",
+          "id": "GAR-0052",
+          "name_zh": "Utility 连衣裙",
+          "name_en": "Utility day dress",
           "colors": [
-            "off_white"
+            "scarlet"
           ],
           "materials": [
-            "cotton"
+            "rayon_crepe"
           ],
-          "evidence_status": "example",
-          "source_ids": [],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0412"
+          ],
           "scores": {
-            "period": 0.42000000000000004,
-            "identity": 0.210375,
-            "environment": 0.4225,
-            "art": 0.3280701754385965,
+            "period": 0.8900000000000001,
+            "identity": 0.20081250000000003,
+            "environment": 0.12249999999999998,
+            "art": 0.36818181818181817,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
           }
         },
         {
-          "slot": "lower_body",
-          "id": "GAR-0010",
-          "name_zh": "灯笼裤",
-          "name_en": "bloomers",
-          "colors": [
-            "white",
-            "black",
-            "dark"
-          ],
-          "materials": [
-            "cotton",
-            "wool",
-            "linen"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0111"
-          ],
-          "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.244125,
-            "environment": 0.12249999999999998,
-            "art": 0.2649122807017544,
-            "movement": 0.4,
-            "arc": 0.5125,
-            "camera": 0.75
-          }
-        },
-        {
           "slot": "outerwear",
-          "id": "GAR-0033",
-          "name_zh": "西式休闲西装",
-          "name_en": "lounge suit",
+          "id": "GAR-0057",
+          "name_zh": "1960 年代 Courrèges 外套",
+          "name_en": "1960s Courrèges coat",
           "colors": [
-            "brown",
-            "herringbone"
+            "deep_green",
+            "green"
           ],
           "materials": [
-            "tweed",
-            "wool",
-            "sateen"
+            "vinyl",
+            "cotton",
+            "polyurethane"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0204",
-            "SRC-0155"
+            "SRC-0417"
           ],
           "scores": {
-            "period": 0.8733333333333334,
-            "identity": 0.15750000000000003,
+            "period": 0.78,
+            "identity": 0.5984166666666667,
             "environment": 0.12249999999999998,
-            "art": 0.19356725146198828,
-            "movement": 0.4,
+            "art": 0.20454545454545453,
+            "movement": 0.7,
             "arc": 0.35,
-            "camera": 0.75
+            "camera": 0.67
           }
         },
         {
           "slot": "footwear",
-          "id": "GAR-0035",
-          "name_zh": "女式皮鞋",
-          "name_en": "1930s women’s shoes",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
           "colors": [
             "black",
-            "red",
-            "silver"
+            "brown"
           ],
           "materials": [
-            "lace",
-            "sequins",
-            "silk",
-            "metallic_brocade"
+            "leather",
+            "rubber"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0205",
-            "SRC-0206"
+            "SRC-0123"
           ],
           "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.244125,
-            "environment": 0.4225,
-            "art": 0.22514619883040934,
-            "movement": 0.5,
-            "arc": 0.35,
-            "camera": 0.75
+            "period": 0.78,
+            "identity": 0.210375,
+            "environment": 0.12249999999999998,
+            "art": 0.3568181818181818,
+            "movement": 0.4,
+            "arc": 0.5125,
+            "camera": 0.67
           }
         }
       ],
       "parts": [
         {
           "id": "STR-0011",
-          "slot": "lower_body",
+          "slot": "one_piece",
           "confidence": "suggested"
         }
       ],
       "materials": [
         {
           "id": "MAT-0001",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "lower_body"
-        },
-        {
-          "id": "MAT-0002",
-          "slot": "footwear"
+          "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Elias, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: 1930s lounge suit, single-breasted jacket with wide trousers, brown herringbone tweed, generous cut, worn with shirt and tie, no waistcoat, urban professional; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, brown, dark, herringbone, off white, red, silver, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0033 lounge suit [brown, herringbone; tweed, wool, sateen; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: 1930s lounge suit, single-breasted jacket with wide trousers, brown herringbone tweed, generous cut, worn with shirt and tie, no waistcoat, urban professional; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 宽松剪裁与宽裤便于行走，但粗花呢厚重、抬臂时肩背起褶；三件套在 1930 年代后期常省略马甲，需锁定是否穿马甲。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0033 lounge suit [brown, herringbone; tweed, wool, sateen; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0033 lounge suit [brown, herringbone; tweed, wool, sateen; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult Elias, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, deep green, green, scarlet, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 13.8/25, 摄影/一致性 7.2/10",
-        "上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)",
-        "下装: GAR-0010 灯笼裤 (casual)",
-        "外层: GAR-0033 西式休闲西装 (business)",
-        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "highest scoring dimensions: 年代/文化 20.5/25, 摄影/一致性 6.6/10",
+        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
+        "外层: GAR-0057 1960 年代 Courrèges 外套 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "linked structure cards: STR-0011",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+        "linked material cards: MAT-0001"
       ],
       "risks": [
-        "look includes example cards, not historical evidence",
+        "region mismatch in GAR-0052, GAR-0057: cards document their own regions, not central europe",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0111",
-          "SRC-0204",
-          "SRC-0155",
-          "SRC-0205",
-          "SRC-0206",
+          "SRC-0412",
+          "SRC-0417",
+          "SRC-0123",
           "SRC-0200",
           "SRC-0202",
-          "SRC-0102",
-          "SRC-0142",
-          "SRC-0141"
+          "SRC-0102"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0111",
-            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
-            "source_id": "SRC-0204",
-            "url": "https://collections.vam.ac.uk/item/O110441/"
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
           },
           {
-            "source_id": "SRC-0155",
-            "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
-          },
-          {
-            "source_id": "SRC-0205",
-            "url": "https://collections.vam.ac.uk/item/O350849/"
-          },
-          {
-            "source_id": "SRC-0206",
-            "url": "https://collections.vam.ac.uk/item/O350850/"
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
             "source_id": "SRC-0200",
@@ -268,31 +229,17 @@
           {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           }
         ],
-        "context_style_ids": [
-          "STY-0005",
-          "STY-EXAMPLE-001"
-        ],
+        "context_style_ids": [],
         "context_period_ids": [
           "PRD-0006"
         ],
-        "context_scene_ids": [
-          "SCN-0001"
-        ],
+        "context_scene_ids": [],
         "item_evidence": {
-          "GAR-EXAMPLE-001": "example",
-          "GAR-0010": "verified",
-          "GAR-0033": "verified",
-          "GAR-0035": "verified"
+          "GAR-0052": "verified",
+          "GAR-0057": "verified",
+          "GAR-0022": "verified"
         },
         "missing_urls": []
       }
@@ -300,257 +247,197 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 33.7,
+      "total": 48.7,
       "scores": {
-        "period": 10.8,
-        "identity": 2.8,
+        "period": 20.5,
+        "identity": 5.1,
         "environment": 1.8,
-        "art": 4.0,
-        "movement": 4.4,
-        "arc": 4.8,
-        "camera": 7.5
+        "art": 4.2,
+        "movement": 5.4,
+        "arc": 4.0,
+        "camera": 6.6
       },
       "missing": [],
-      "cost": 0.329,
+      "cost": 0.282,
+      "cost_total": 0.847,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "one_piece": "exact",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional"
+      },
       "colors": [
         "black",
-        "brown",
-        "cream",
-        "dark grey",
-        "earth",
-        "navy",
-        "printed",
-        "striped",
-        "tweed grey",
-        "white"
+        "deep green",
+        "gold",
+        "green",
+        "scarlet"
       ],
       "style_tags": [
-        "country",
-        "domestic",
-        "edwardian",
-        "gentleman",
-        "military",
-        "sportswear",
-        "victorian"
+        "1940s",
+        "1960s",
+        "1970s",
+        "age",
+        "couture",
+        "disco",
+        "glam",
+        "ii",
+        "mod",
+        "space",
+        "space age",
+        "utility",
+        "war",
+        "world",
+        "world war ii"
       ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve stage magician; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the black, deep green, gold palette controls the emotional temperature; against the arc (losing the audience) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "upper_body",
-          "id": "GAR-0007",
-          "name_zh": "衬衫式女衫",
-          "name_en": "shirtwaist",
+          "slot": "one_piece",
+          "id": "GAR-0052",
+          "name_zh": "Utility 连衣裙",
+          "name_en": "Utility day dress",
           "colors": [
-            "white",
-            "cream",
-            "striped"
+            "scarlet"
           ],
           "materials": [
-            "cotton",
-            "silk",
-            "linen"
+            "rayon_crepe"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0108"
+            "SRC-0412"
           ],
           "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.210375,
+            "period": 0.8900000000000001,
+            "identity": 0.20081250000000003,
             "environment": 0.12249999999999998,
-            "art": 0.2529239766081871,
-            "movement": 0.4,
+            "art": 0.36818181818181817,
+            "movement": 0.5,
             "arc": 0.35,
-            "camera": 0.75
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0011",
-          "name_zh": "尼克裤",
-          "name_en": "knickerbockers",
-          "colors": [
-            "tweed_grey",
-            "brown",
-            "earth"
-          ],
-          "materials": [
-            "wool",
-            "tweed"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0112"
-          ],
-          "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.244125,
-            "environment": 0.12249999999999998,
-            "art": 0.2687134502923976,
-            "movement": 0.4,
-            "arc": 0.5125,
-            "camera": 0.75
+            "camera": 0.65
           }
         },
         {
           "slot": "outerwear",
-          "id": "GAR-0017",
-          "name_zh": "夫罗克大衣",
-          "name_en": "frock coat",
+          "id": "GAR-0057",
+          "name_zh": "1960 年代 Courrèges 外套",
+          "name_en": "1960s Courrèges coat",
           "colors": [
-            "black",
-            "navy",
-            "dark_grey"
+            "deep_green",
+            "green"
           ],
           "materials": [
-            "wool"
+            "vinyl",
+            "cotton",
+            "polyurethane"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0118"
+            "SRC-0417"
           ],
           "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.09562500000000002,
+            "period": 0.78,
+            "identity": 0.5984166666666667,
             "environment": 0.12249999999999998,
-            "art": 0.2807017543859649,
-            "movement": 0.5,
-            "arc": 0.5125,
-            "camera": 0.75
+            "art": 0.20454545454545453,
+            "movement": 0.7,
+            "arc": 0.35,
+            "camera": 0.67
           }
         },
         {
           "slot": "footwear",
-          "id": "GAR-0022",
-          "name_zh": "威灵顿靴",
-          "name_en": "wellington boot",
+          "id": "GAR-0058",
+          "name_zh": "1970 年代厚底鞋",
+          "name_en": "1970s platform shoe",
           "colors": [
             "black",
-            "brown"
+            "gold"
           ],
           "materials": [
             "leather",
+            "metal",
             "rubber"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0123"
+            "SRC-0418"
           ],
           "scores": {
-            "period": 0.4333333333333333,
+            "period": 0.78,
             "identity": 0.210375,
             "environment": 0.12249999999999998,
-            "art": 0.28450292397660815,
+            "art": 0.26704545454545453,
             "movement": 0.4,
             "arc": 0.5125,
-            "camera": 0.75
-          }
-        },
-        {
-          "slot": "accessory",
-          "id": "GAR-0021",
-          "name_zh": "围裙裙",
-          "name_en": "pinafore",
-          "colors": [
-            "white",
-            "printed",
-            "navy"
-          ],
-          "materials": [
-            "cotton",
-            "linen"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0122"
-          ],
-          "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.210375,
-            "environment": 0.12249999999999998,
-            "art": 0.24912280701754386,
-            "movement": 0.5,
-            "arc": 0.5125,
-            "camera": 0.75
+            "camera": 0.67
           }
         }
       ],
       "parts": [
         {
           "id": "STR-0011",
-          "slot": "upper_body",
+          "slot": "one_piece",
           "confidence": "suggested"
-        },
-        {
-          "id": "STR-0003",
-          "slot": "accessory",
-          "confidence": "explicit"
         }
       ],
       "materials": [
         {
           "id": "MAT-0001",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0002",
-          "slot": "upper_body"
+          "slot": "outerwear"
         },
         {
           "id": "MAT-0003",
-          "slot": "accessory"
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Elias, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, palette: black, brown, cream, dark grey, earth, navy, printed, striped, tweed grey, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); ruff (STR-0003), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, fabric motion: 及膝裙摆限制大步跑动；转身时下摆展开，需检查后开衩与纽扣状态。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Elias, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, deep green, gold, green, scarlet, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 10.8/25, 摄影/一致性 7.5/10",
-        "上装: GAR-0007 衬衫式女衫 (smart_casual)",
-        "下装: GAR-0011 尼克裤 (casual)",
-        "外层: GAR-0017 夫罗克大衣 (formal)",
-        "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "配饰: GAR-0021 围裙裙 (casual)",
-        "linked structure cards: STR-0011, STR-0003",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0003"
+        "highest scoring dimensions: 年代/文化 20.5/25, 摄影/一致性 6.6/10",
+        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
+        "外层: GAR-0057 1960 年代 Courrèges 外套 (smart_casual)",
+        "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0001, MAT-0003"
       ],
       "risks": [
+        "region mismatch in GAR-0052, GAR-0057, GAR-0058: cards document their own regions, not central europe",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0108",
-          "SRC-0112",
-          "SRC-0118",
-          "SRC-0123",
-          "SRC-0122",
+          "SRC-0412",
+          "SRC-0417",
+          "SRC-0418",
           "SRC-0200",
           "SRC-0202",
-          "SRC-0133",
           "SRC-0102",
-          "SRC-0141",
           "SRC-0142"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0108",
-            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
-            "source_id": "SRC-0112",
-            "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
           },
           {
-            "source_id": "SRC-0118",
-            "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
-          },
-          {
-            "source_id": "SRC-0123",
-            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
-          },
-          {
-            "source_id": "SRC-0122",
-            "url": "https://fashionhistory.fitnyc.edu/pinafore/"
+            "source_id": "SRC-0418",
+            "url": "https://collections.vam.ac.uk/item/O1380038/"
           },
           {
             "source_id": "SRC-0200",
@@ -561,38 +448,23 @@
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
-            "source_id": "SRC-0133",
-            "url": "https://fashionhistory.fitnyc.edu/ruff/"
-          },
-          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           }
         ],
-        "context_style_ids": [
-          "STY-0005",
-          "STY-EXAMPLE-001"
-        ],
+        "context_style_ids": [],
         "context_period_ids": [
           "PRD-0006"
         ],
-        "context_scene_ids": [
-          "SCN-0001"
-        ],
+        "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0007": "verified",
-          "GAR-0011": "verified",
-          "GAR-0017": "verified",
-          "GAR-0022": "verified",
-          "GAR-0021": "verified"
+          "GAR-0052": "verified",
+          "GAR-0057": "verified",
+          "GAR-0058": "verified"
         },
         "missing_urls": []
       }
@@ -600,122 +472,110 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 35.9,
+      "total": 44.9,
       "scores": {
-        "period": 10.7,
-        "identity": 3.4,
-        "environment": 3.0,
-        "art": 4.0,
-        "movement": 4.5,
-        "arc": 4.3,
-        "camera": 7.0
+        "period": 19.5,
+        "identity": 5.3,
+        "environment": 1.8,
+        "art": 3.6,
+        "movement": 5.0,
+        "arc": 4.0,
+        "camera": 6.7
       },
       "missing": [],
-      "cost": 0.241,
+      "cost": 0.223,
+      "cost_total": 0.667,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "set": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "set": "regional",
+        "outerwear": "regional",
+        "footwear": "regional"
+      },
       "colors": [
         "black",
+        "blue",
         "brown",
-        "calico print",
-        "dark",
-        "glazed wool",
-        "off white",
-        "silk floral",
+        "deep green",
+        "green",
         "white"
       ],
       "style_tags": [
-        "athletic",
-        "contemporary",
+        "1960s",
+        "age",
+        "costume",
         "country",
-        "fictional",
-        "fictional noir",
-        "gentleman",
+        "couture",
         "military",
-        "minimal",
-        "noir",
-        "orientalism",
-        "suffragist",
-        "victorian"
+        "mod",
+        "occupational",
+        "space",
+        "space age",
+        "television",
+        "television costume"
       ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve stage magician; the low economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual; the black, blue, brown palette controls the emotional temperature; against the arc (losing the audience) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "upper_body",
-          "id": "GAR-EXAMPLE-001",
-          "name_zh": "白色立领衬衫",
-          "name_en": "white stand-collar shirt",
-          "colors": [
-            "off_white"
-          ],
-          "materials": [
-            "cotton"
-          ],
-          "evidence_status": "example",
-          "source_ids": [],
-          "scores": {
-            "period": 0.42000000000000004,
-            "identity": 0.210375,
-            "environment": 0.4225,
-            "art": 0.3280701754385965,
-            "movement": 0.5,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0010",
-          "name_zh": "灯笼裤",
-          "name_en": "bloomers",
+          "slot": "set",
+          "id": "GAR-0036",
+          "name_zh": "护士制服",
+          "name_en": "nurse uniform",
           "colors": [
             "white",
-            "black",
-            "dark"
+            "blue"
           ],
           "materials": [
-            "cotton",
-            "wool",
-            "linen"
+            "polyester"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0111"
+            "SRC-0400"
           ],
           "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.244125,
+            "period": 0.78,
+            "identity": 0.23793749999999997,
             "environment": 0.12249999999999998,
-            "art": 0.2649122807017544,
+            "art": 0.17727272727272728,
             "movement": 0.4,
-            "arc": 0.5125,
-            "camera": 0.75
+            "arc": 0.35,
+            "camera": 0.67
           }
         },
         {
           "slot": "outerwear",
-          "id": "GAR-0016",
-          "name_zh": "班扬袍",
-          "name_en": "banyan",
+          "id": "GAR-0057",
+          "name_zh": "1960 年代 Courrèges 外套",
+          "name_en": "1960s Courrèges coat",
           "colors": [
-            "calico_print",
-            "silk_floral",
-            "glazed_wool"
+            "deep_green",
+            "green"
           ],
           "materials": [
-            "cotton_calico",
-            "silk",
-            "glazed_wool"
+            "vinyl",
+            "cotton",
+            "polyurethane"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0117"
+            "SRC-0417"
           ],
           "scores": {
-            "period": 0.4333333333333333,
-            "identity": 0.244125,
+            "period": 0.78,
+            "identity": 0.5984166666666667,
             "environment": 0.12249999999999998,
-            "art": 0.19736842105263158,
-            "movement": 0.5,
+            "art": 0.20454545454545453,
+            "movement": 0.7,
             "arc": 0.35,
-            "camera": 0.65
+            "camera": 0.67
           }
         },
         {
@@ -736,73 +596,62 @@
             "SRC-0123"
           ],
           "scores": {
-            "period": 0.4333333333333333,
+            "period": 0.78,
             "identity": 0.210375,
             "environment": 0.12249999999999998,
-            "art": 0.28450292397660815,
+            "art": 0.3568181818181818,
             "movement": 0.4,
             "arc": 0.5125,
-            "camera": 0.75
+            "camera": 0.67
           }
         }
       ],
       "parts": [
         {
           "id": "STR-0011",
-          "slot": "lower_body",
+          "slot": "set",
           "confidence": "suggested"
         }
       ],
       "materials": [
         {
           "id": "MAT-0001",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "lower_body"
-        },
-        {
-          "id": "MAT-0002",
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Elias, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: 18th-century gentleman’s banyan, loose wrapping dressing gown, cotton calico or floral silk, wide sleeves, tied at waist, worn indoors over shirt and breeches; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, calico print, dark, glazed wool, off white, silk floral, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0016 banyan [calico_print, silk_floral, glazed_wool; cotton_calico, silk, glazed_wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: 18th-century gentleman’s banyan, loose wrapping dressing gown, cotton calico or floral silk, wide sleeves, tied at waist, worn indoors over shirt and breeches; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 宽大交叠式，行走时下摆大幅度摆动；可在腰间系带改变轮廓，需锁定系法。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0016 banyan [calico_print, silk_floral, glazed_wool; cotton_calico, silk, glazed_wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0016 banyan [calico_print, silk_floral, glazed_wool; cotton_calico, silk, glazed_wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult Elias, complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue, brown, deep green, green, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 10.7/25, 摄影/一致性 7.0/10",
-        "上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)",
-        "下装: GAR-0010 灯笼裤 (casual)",
-        "外层: GAR-0016 班扬袍 (casual)",
+        "highest scoring dimensions: 年代/文化 19.5/25, 摄影/一致性 6.7/10",
+        "成套: GAR-0036 护士制服 (functional)",
+        "外层: GAR-0057 1960 年代 Courrèges 外套 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "linked structure cards: STR-0011",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+        "linked material cards: MAT-0001"
       ],
       "risks": [
-        "look includes example cards, not historical evidence",
+        "region mismatch in GAR-0036, GAR-0057: cards document their own regions, not central europe",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0111",
-          "SRC-0117",
+          "SRC-0400",
+          "SRC-0417",
           "SRC-0123",
           "SRC-0200",
           "SRC-0202",
-          "SRC-0102",
-          "SRC-0142",
-          "SRC-0141"
+          "SRC-0102"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0111",
-            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+            "source_id": "SRC-0400",
+            "url": "https://collections.vam.ac.uk/item/O1224877/"
           },
           {
-            "source_id": "SRC-0117",
-            "url": "https://fashionhistory.fitnyc.edu/banyan/"
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
           },
           {
             "source_id": "SRC-0123",
@@ -819,30 +668,16 @@
           {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           }
         ],
-        "context_style_ids": [
-          "STY-0005",
-          "STY-EXAMPLE-001"
-        ],
+        "context_style_ids": [],
         "context_period_ids": [
           "PRD-0006"
         ],
-        "context_scene_ids": [
-          "SCN-0001"
-        ],
+        "context_scene_ids": [],
         "item_evidence": {
-          "GAR-EXAMPLE-001": "example",
-          "GAR-0010": "verified",
-          "GAR-0016": "verified",
+          "GAR-0036": "verified",
+          "GAR-0057": "verified",
           "GAR-0022": "verified"
         },
         "missing_urls": []
@@ -850,62 +685,119 @@
     }
   ],
   "context": {
-    "style_refs": [
-      "STY-0005",
-      "STY-EXAMPLE-001"
-    ],
+    "style_refs": [],
     "period_refs": [
       "PRD-0006"
     ],
-    "scene_refs": [
-      "SCN-0001"
-    ]
+    "scene_refs": []
+  },
+  "context_refs": [
+    {
+      "id": "PRD-0006",
+      "type": "period_region",
+      "score": 0.8,
+      "period_tier": "exact",
+      "region_tier": "regional",
+      "reason": "period/region match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction 'expressionist noir, distorted shadows, stark geometry'",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "cheaper",
+    "a_cost_total": 0.847,
+    "c_cost_total": 0.667,
+    "differences": {
+      "a_b": 2,
+      "a_c": 2,
+      "b_c": 4
+    }
   },
   "retrieved_ids": {
     "upper_body": [
+      "GAR-0008",
       "GAR-EXAMPLE-001",
+      "GAR-0034",
       "GAR-0007",
       "GAR-0003",
-      "GAR-0008",
-      "GAR-0034",
       "GAR-0002",
+      "GAR-0043",
       "GAR-0006"
     ],
     "lower_body": [
       "GAR-0011",
       "GAR-0010",
       "GAR-0013",
-      "GAR-0014"
+      "GAR-0014",
+      "GAR-0059"
     ],
     "inner_layer": [
-      "GAR-0020",
-      "GAR-0012"
+      "GAR-0012",
+      "GAR-0020"
     ],
     "outerwear": [
+      "GAR-0057",
+      "GAR-0045",
       "GAR-0033",
+      "GAR-0046",
       "GAR-0017",
       "GAR-0016",
       "GAR-0018",
-      "GAR-0019"
+      "GAR-0040",
+      "GAR-0041",
+      "GAR-0037"
     ],
     "accessory": [
+      "GAR-0039",
+      "GAR-0050",
+      "GAR-0051",
       "GAR-0021",
+      "GAR-0068",
       "GAR-0026",
+      "GAR-0028",
       "GAR-0025",
-      "GAR-0028"
+      "GAR-0070"
+    ],
+    "carried_prop": [
+      "GAR-0048",
+      "GAR-0047",
+      "GAR-0049"
     ],
     "footwear": [
       "GAR-0035",
       "GAR-0022",
+      "GAR-0058",
+      "GAR-0060",
       "GAR-0024",
+      "GAR-0044",
       "GAR-0023"
     ],
     "one_piece": [
+      "GAR-0052",
+      "GAR-0053",
+      "GAR-0056",
+      "GAR-0055",
+      "GAR-0054",
       "GAR-0031",
-      "GAR-0009",
       "GAR-0015",
+      "GAR-0062",
+      "GAR-0009",
+      "GAR-0029",
       "GAR-0032",
-      "GAR-0029"
+      "GAR-0069"
+    ],
+    "set": [
+      "GAR-0036",
+      "GAR-0042"
     ]
   },
   "rejected": [
@@ -931,6 +823,20 @@
       ]
     },
     {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with central europe (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    },
+    {
       "id": "GAR-0027",
       "slot": "accessory",
       "reasons": [
@@ -943,29 +849,60 @@
       "reasons": [
         "region-specific card incompatible with central europe (arabia, morocco, persia, north_africa)"
       ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with central europe (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with central europe (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with central europe (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with central europe (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with central europe (china)"
+      ]
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "no upper_body candidates retrieved",
+    "no lower_body candidates retrieved",
+    "no reliable style card for art direction 'expressionist noir, distorted shadows, stark geometry'"
+  ],
   "sources": [
     {
-      "source_id": "SRC-0111",
-      "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
     },
     {
-      "source_id": "SRC-0204",
-      "url": "https://collections.vam.ac.uk/item/O110441/"
+      "source_id": "SRC-0417",
+      "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
     },
     {
-      "source_id": "SRC-0155",
-      "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
-    },
-    {
-      "source_id": "SRC-0205",
-      "url": "https://collections.vam.ac.uk/item/O350849/"
-    },
-    {
-      "source_id": "SRC-0206",
-      "url": "https://collections.vam.ac.uk/item/O350850/"
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
     },
     {
       "source_id": "SRC-0200",
@@ -980,40 +917,16 @@
       "url": "https://fashionhistory.fitnyc.edu/muslin/"
     },
     {
+      "source_id": "SRC-0418",
+      "url": "https://collections.vam.ac.uk/item/O1380038/"
+    },
+    {
       "source_id": "SRC-0142",
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
-      "source_id": "SRC-0141",
-      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-    },
-    {
-      "source_id": "SRC-0108",
-      "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
-    },
-    {
-      "source_id": "SRC-0112",
-      "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
-    },
-    {
-      "source_id": "SRC-0118",
-      "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
-    },
-    {
-      "source_id": "SRC-0123",
-      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
-    },
-    {
-      "source_id": "SRC-0122",
-      "url": "https://fashionhistory.fitnyc.edu/pinafore/"
-    },
-    {
-      "source_id": "SRC-0133",
-      "url": "https://fashionhistory.fitnyc.edu/ruff/"
-    },
-    {
-      "source_id": "SRC-0117",
-      "url": "https://fashionhistory.fitnyc.edu/banyan/"
+      "source_id": "SRC-0400",
+      "url": "https://collections.vam.ac.uk/item/O1224877/"
     }
   ],
   "missing_urls": [],
@@ -1024,6 +937,15 @@
     "scores_sum_100": true,
     "looks_distinct": true,
     "fidelity_mode": "inspired",
-    "history_evidence": true
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "warnings_count": 3,
+    "rejected_count": 12
   }
 }

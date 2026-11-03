@@ -1,0 +1,1047 @@
+{
+  "input": {
+    "character_name": "Ada",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "photographer",
+    "economic_status": "middle",
+    "period": "1960s",
+    "region": "britain",
+    "season": "summer",
+    "scene": "marylebone studio",
+    "time": "afternoon",
+    "weather": "indoor",
+    "action": "adjusting a camera and directing a portrait",
+    "arc": "finding a visual voice in a changing city",
+    "art_direction": "swinging sixties youth culture",
+    "lighting": "hard window light",
+    "camera": "medium shot",
+    "budget": "low",
+    "fidelity_mode": "historical",
+    "tool": "generic",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": ""
+  },
+  "fidelity_mode": "historical",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 51.4,
+      "scores": {
+        "period": 23.8,
+        "identity": 3.4,
+        "environment": 3.8,
+        "art": 4.1,
+        "movement": 4.4,
+        "arc": 4.4,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.302,
+      "cost_total": 0.605,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "set": "exact",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "set": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "black",
+        "blue",
+        "red",
+        "silver",
+        "white"
+      ],
+      "style_tags": [
+        "1930s",
+        "art",
+        "art deco",
+        "costume",
+        "deco",
+        "occupational",
+        "television",
+        "television costume"
+      ],
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from functional / smart_casual; the black, blue, red palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0036",
+          "name_zh": "护士制服",
+          "name_en": "nurse uniform",
+          "colors": [
+            "white",
+            "blue"
+          ],
+          "materials": [
+            "polyester"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0400"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2875,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
+          "colors": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "materials": [
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0205",
+            "SRC-0206"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.4225,
+            "art": 0.25,
+            "movement": 0.5,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0004",
+          "slot": "set",
+          "confidence": "suggested"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "footwear",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ada, complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, blue, red, silver, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: natural fabric response to the action, gravity and wind, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.8/25, 摄影/一致性 6.5/10",
+        "成套: GAR-0036 护士制服 (functional)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "linked structure cards: STR-0004, STR-0011",
+        "linked material cards: MAT-0002, MAT-0003",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0400",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0134",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0400",
+            "url": "https://collections.vam.ac.uk/item/O1224877/"
+          },
+          {
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0134",
+            "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0036": "verified",
+          "GAR-0035": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 50.7,
+      "scores": {
+        "period": 23.8,
+        "identity": 3.4,
+        "environment": 3.2,
+        "art": 4.2,
+        "movement": 4.3,
+        "arc": 4.3,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.351,
+      "cost_total": 1.403,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "set": "exact",
+        "footwear": "era",
+        "accessory": "exact",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "set": "exact",
+        "footwear": "exact",
+        "accessory": "exact",
+        "carried_prop": "exact"
+      },
+      "colors": [
+        "black",
+        "blue",
+        "red",
+        "silver",
+        "white"
+      ],
+      "style_tags": [
+        "1930s",
+        "accessory",
+        "age",
+        "art",
+        "art deco",
+        "costume",
+        "deco",
+        "occupational",
+        "protective",
+        "rain",
+        "space",
+        "space age",
+        "television",
+        "television costume"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from functional / smart_casual / functional / smart_casual; the black, blue, red palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0036",
+          "name_zh": "护士制服",
+          "name_en": "nurse uniform",
+          "colors": [
+            "white",
+            "blue"
+          ],
+          "materials": [
+            "polyester"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0400"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2875,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
+          "colors": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "materials": [
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0205",
+            "SRC-0206"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.4225,
+            "art": 0.25,
+            "movement": 0.5,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0039",
+          "name_zh": "安全头盔",
+          "name_en": "helmet",
+          "colors": [
+            "white",
+            "black"
+          ],
+          "materials": [
+            "papier_mache",
+            "cardboard"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0403"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.35,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0047",
+          "name_zh": "雨伞",
+          "name_en": "umbrella",
+          "colors": [
+            "black",
+            "silver"
+          ],
+          "materials": [
+            "silk",
+            "silver",
+            "wood"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0407"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.25,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0004",
+          "slot": "set",
+          "confidence": "suggested"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "footwear",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "carried_prop"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ada, complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: handmade white astronaut helmet, spherical dome with two black eye holes, cardboard neck flap, papier-mâché texture, 1960s space age; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: black, blue, red, silver, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0039 helmet [white, black; papier_mache, cardboard; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: handmade white astronaut helmet, spherical dome with two black eye holes, cardboard neck flap, papier-mâché texture, 1960s space age; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, fabric motion: natural fabric response to the action, gravity and wind, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0039 helmet [white, black; papier_mache, cardboard; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0039 helmet [white, black; papier_mache, cardboard; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.8/25, 摄影/一致性 6.5/10",
+        "成套: GAR-0036 护士制服 (functional)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "配饰: GAR-0039 安全头盔 (functional)",
+        "携带物: GAR-0047 雨伞 (smart_casual)",
+        "linked structure cards: STR-0004, STR-0011",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0011",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0400",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0403",
+          "SRC-0407",
+          "SRC-0134",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0423"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0400",
+            "url": "https://collections.vam.ac.uk/item/O1224877/"
+          },
+          {
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0403",
+            "url": "https://collections.vam.ac.uk/item/O1386978/"
+          },
+          {
+            "source_id": "SRC-0407",
+            "url": "https://collections.vam.ac.uk/item/O470711/"
+          },
+          {
+            "source_id": "SRC-0134",
+            "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0036": "verified",
+          "GAR-0035": "verified",
+          "GAR-0039": "verified",
+          "GAR-0047": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 49.5,
+      "scores": {
+        "period": 23.8,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 4.6,
+        "movement": 4.0,
+        "arc": 4.4,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.206,
+      "cost_total": 0.413,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "set": "exact",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "set": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "black",
+        "blue",
+        "brown",
+        "white"
+      ],
+      "style_tags": [
+        "costume",
+        "country",
+        "military",
+        "occupational",
+        "television",
+        "television costume"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from functional / smart_casual; the black, blue, brown palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0036",
+          "name_zh": "护士制服",
+          "name_en": "nurse uniform",
+          "colors": [
+            "white",
+            "blue"
+          ],
+          "materials": [
+            "polyester"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0400"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2875,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.32499999999999996,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0004",
+          "slot": "set",
+          "confidence": "suggested"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "footwear",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [],
+      "prompt_image": "full-body character design of an adult Ada, complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue, brown, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots",
+      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: natural fabric response to the action, gravity and wind, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.8/25, 摄影/一致性 6.5/10",
+        "成套: GAR-0036 护士制服 (functional)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0004, STR-0011",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0400",
+          "SRC-0123",
+          "SRC-0134",
+          "SRC-0200",
+          "SRC-0202"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0400",
+            "url": "https://collections.vam.ac.uk/item/O1224877/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0134",
+            "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0036": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [],
+    "period_refs": [
+      "PRD-0008"
+    ],
+    "scene_refs": []
+  },
+  "context_refs": [
+    {
+      "id": "PRD-0008",
+      "type": "period_region",
+      "score": 0.9,
+      "period_tier": "exact",
+      "region_tier": "exact",
+      "reason": "period/region match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction 'swinging sixties youth culture'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "period_era_level",
+      "severity": "low",
+      "message": "period evidence is era-level (century bucket) for GAR-0022, GAR-0035, GAR-0047; exact-decade cards are missing",
+      "items": [
+        "GAR-0022",
+        "GAR-0035",
+        "GAR-0047"
+      ],
+      "look": null
+    },
+    {
+      "code": "occupation_coverage_gap",
+      "severity": "high",
+      "message": "no occupational garment cards match 'photographer'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "cheaper",
+    "a_cost_total": 0.605,
+    "c_cost_total": 0.413,
+    "differences": {
+      "a_b": 2,
+      "a_c": 2,
+      "b_c": 4
+    }
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0008",
+      "GAR-0007",
+      "GAR-0034",
+      "GAR-0006",
+      "GAR-0043"
+    ],
+    "lower_body": [
+      "GAR-0010",
+      "GAR-0011",
+      "GAR-0014",
+      "GAR-0059"
+    ],
+    "inner_layer": [
+      "GAR-0012",
+      "GAR-0020"
+    ],
+    "outerwear": [
+      "GAR-0033",
+      "GAR-0057",
+      "GAR-0045",
+      "GAR-0046",
+      "GAR-0017",
+      "GAR-0016",
+      "GAR-0018",
+      "GAR-0040",
+      "GAR-0041",
+      "GAR-0037"
+    ],
+    "accessory": [
+      "GAR-0039",
+      "GAR-0051",
+      "GAR-0050",
+      "GAR-0068",
+      "GAR-0026",
+      "GAR-0028",
+      "GAR-0021",
+      "GAR-0070"
+    ],
+    "carried_prop": [
+      "GAR-0048",
+      "GAR-0047"
+    ],
+    "footwear": [
+      "GAR-0035",
+      "GAR-0022",
+      "GAR-0060",
+      "GAR-0058",
+      "GAR-0024",
+      "GAR-0023",
+      "GAR-0044"
+    ],
+    "one_piece": [
+      "GAR-0056",
+      "GAR-0054",
+      "GAR-0052",
+      "GAR-0053",
+      "GAR-0055",
+      "GAR-0031",
+      "GAR-0032",
+      "GAR-0069"
+    ],
+    "set": [
+      "GAR-0036",
+      "GAR-0042"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0002",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 14th_century, 15th_century, 16th_century, 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0003",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-EXAMPLE-001",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: example card is not historical evidence"
+      ]
+    },
+    {
+      "id": "GAR-0013",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0025",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 18th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with britain (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0049",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with britain (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs late_antiquity, byzantine_era, middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0015",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 18th_century, rococo)"
+      ]
+    },
+    {
+      "id": "GAR-0029",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs roman_republic, roman_empire)"
+      ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs late_antiquity)",
+        "region-specific card incompatible with britain (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0062",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs late_16th_century, early_17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with britain (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with britain (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with britain (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with britain (china)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no upper_body candidates retrieved",
+    "no lower_body candidates retrieved",
+    "no reliable style card for art direction 'swinging sixties youth culture'",
+    "period evidence is era-level (century bucket) for GAR-0022, GAR-0035, GAR-0047; exact-decade cards are missing",
+    "no occupational garment cards match 'photographer'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute"
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0400",
+      "url": "https://collections.vam.ac.uk/item/O1224877/"
+    },
+    {
+      "source_id": "SRC-0205",
+      "url": "https://collections.vam.ac.uk/item/O350849/"
+    },
+    {
+      "source_id": "SRC-0206",
+      "url": "https://collections.vam.ac.uk/item/O350850/"
+    },
+    {
+      "source_id": "SRC-0134",
+      "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0403",
+      "url": "https://collections.vam.ac.uk/item/O1386978/"
+    },
+    {
+      "source_id": "SRC-0407",
+      "url": "https://collections.vam.ac.uk/item/O470711/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "historical",
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "warnings_count": 5,
+    "rejected_count": 22
+  }
+}

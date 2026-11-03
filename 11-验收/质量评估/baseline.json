@@ -1,0 +1,15 @@
+{
+  "snapshot_cards": 235,
+  "query_relevant_at_5": 3.0,
+  "query_precision": 0.862,
+  "query_zero_hit_rate": 0.16,
+  "recommend_crash_rate": 1.0,
+  "example_in_a_rate": 0.7222222222222222,
+  "warning_coverage_rate": 0.0,
+  "abc_all_pairwise_distinct_rate": 0.0,
+  "b_c_shared_one_item_rate": 0.625,
+  "a_c_shared_two_or_more_rate": 0.8125,
+  "budget_c_cheaper_rate": 0.5,
+  "prompt_contamination_rate": 0.11,
+  "context_ref_mismatch_rate": 0.7
+}

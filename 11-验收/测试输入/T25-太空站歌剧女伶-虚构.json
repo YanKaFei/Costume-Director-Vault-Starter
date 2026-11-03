@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T25",
+    "title": "太空歌剧女伶：未来基底缺卡必须显式警告",
+    "types": [
+      "fictional_world",
+      "space"
+    ],
+    "mode": "standard",
+    "expected_mode": "fictional",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "warning_code:future_wardrobe_gap"
+    ],
+    "query": [
+      "未来",
+      "--type",
+      "style",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Siren-7",
+    "occupation": "orbital opera singer",
+    "economic_status": "elite",
+    "arc": "balancing body modification and artistic self"
+  },
+  "period": "23rd century",
+  "region": "orbital opera house",
+  "season": "controlled indoor climate",
+  "scene": "zero-gravity stage",
+  "time": "night performance",
+  "weather": "indoor, climate controlled",
+  "action": "hovering, sustaining a long note, slowly rotating",
+  "location": "orbital opera house",
+  "art_direction": "bio-baroque and retro-futurism",
+  "lighting": "cold stage light and gold practicals",
+  "camera": "orbiting long take",
+  "budget": "high",
+  "fidelity_mode": "fictional",
+  "tool": "sora"
+}

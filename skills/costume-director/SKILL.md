@@ -134,6 +134,17 @@ python3 scripts/query.py "领" --limit 0 --json --out /tmp/collars.json
 - `budget`：low/medium/high。
 - `tool`：midjourney / sdxl / dalle / sora / runway / generic（影响提示词后缀与视频结构）。
 
+### 3.1b 自由文本 `--brief`（P3）
+
+```bash
+python3 scripts/recommend.py --brief "1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate" --json
+python3 scripts/recommend.py --brief-file myscript.txt
+```
+
+规则化提取 period / region / occupation / economic_status / weather / season /
+art_direction / action / budget / fidelity_mode；未识别项保持 `unknown` 并在
+JSON/正文中输出 `brief_parse`（含 `unknown_fields`）。显式 JSON 字段优先于 brief 解析。
+
 ### 3.2 运行
 
 ```bash
@@ -249,6 +260,38 @@ python3 scripts/recommend.py continuity.json --continuity --json
 - 每个场景只允许 `state`（wetness/damage/dirt/accessories）显式变化；未显式给出 state 的场景会被判 FAIL 并记录 issue。
 - 输出 verdict：`PASS` / `FAIL`，附逐场状态表与每场 prompt（都含同一段 continuity lock）。
 
+### 3.6b P3 输出字段（向后兼容新增）
+
+- `context_refs`：已按 period/region 兼容度过滤的语境卡（style / period_region / scene），
+  含 `period_tier`、`region_tier`、score；不匹配的卡被移除，不再输出误导性 1770s 英法引用。
+- `warnings` / `warnings_detail`：显式警告（code/severity/message/items/look），覆盖：
+  example 卡进入方案、知识库缺层、年代/地域不匹配、era-level/approximate 证据、
+  职业/未来/雨具/性别/文化覆盖缺口、约束冲突、A/B/C 或预算不足、brief unknown 字段。
+- `conflicts`：冲突检测（historical vs sci-fi、室内 vs 北极装备、天气 vs 材质、
+  动作 vs 鞋履、婚礼 vs 丧仪、预算 vs 材质），附建议解决方式。
+- 每套 look 新增：`evidence_tier`（exact/era/approximate/none）、`period_tiers`、
+  `region_tiers`、`contains_example`、`cost_total`、`differences`、`budget_mode`、
+  `budget_explanation`、`narrative_meaning`（导演解释，不是史实）。
+- example 卡策略：A 套不使用 example 卡；若知识库只有 example 候选，会显式 warning 并标
+  `contains_example`（仅 B/C 或缺口场景）。
+- A/B/C 差异：合约校验 pairwise ≥2 件单品差异（`checks.abc_distinct`）；
+  C 套优先比 A 便宜 ≥10%，否则为 `equivalent_cost` 并明确说明等价原因。
+- 连续性：顶层 prompt 仅为参考表（不含多场动作/天气）；逐场 prompt 在
+  `continuity.scenes[].prompt_image/prompt_video`，各自带 state token 与 continuity lock。
+- 稀疏覆盖：允许结构化 1–2 套 Look（不崩溃），warning 明示 `looks_incomplete` 与缺口。
+
+### 3.6c 语义质量评估（独立于 exit code）
+
+```bash
+python3 scripts/quality_eval.py            # 写 11-验收/质量评估/
+python3 scripts/quality_eval.py --no-write # 只打印摘要
+```
+
+指标：query relevant@5 / precision / zero-hit、推荐崩溃率、example-in-A 率、
+warning 覆盖率、A/B/C 全差异率、证据覆盖率、context 引用清洁率、narrative 覆盖率、
+prompt 串文数、编造违规；基线为 P2.5 审计（235 卡）并输出前后对比表。
+退出码：0 全部质量阈值通过，1 至少一项不通过。
+
 ### 3.7 退出码
 
 | 退出码 | 含义 |
@@ -272,12 +315,13 @@ python3 scripts/recommend.py continuity.json --continuity --json
 ## 5. 验收测试
 
 ```bash
-python3 scripts/run_acceptance.py            # 18 例全跑，写 11-验收/测试结果/
+python3 scripts/run_acceptance.py            # 30 例全跑，写 11-验收/测试结果/（P3: ≥24 例）
 python3 scripts/run_acceptance.py --only T03,T17
 python3 scripts/run_acceptance.py --no-write # 只看判定
 ```
 
-- 定义见 `11-验收/测试场景.md`；结果见 `11-验收/测试结果/SUMMARY.md` 与逐例文件。
+- 定义见 `11-验收/测试场景.md`（30 例：18 例 P2 回归 + 12 例 P2.5/P3 回归：1940s–70s、1580s 意大利、拜占庭、太空、急诊护士、加纳婚礼、1930s 男鞋/雨衣、冲突约束、--brief）。
+- 结果见 `11-验收/测试结果/SUMMARY.md` 与逐例文件；语义质量见 `11-验收/质量评估/SUMMARY.md`。
 - 每个用例记录实际命令、退出码、`query.py` 命中数量与 ID、A/B/C、评分、Prompt、风险、PASS/FAIL。
 - 验收断言：每个场景的 `query.py` 步骤必须退出码 0 且命中 ≥1 张卡（`query_hits` 检查项）；SUMMARY 汇总每例命中数。
 - `run_acceptance.py` 退出码：0 全部 PASS；1 至少一项 FAIL。
@@ -295,6 +339,17 @@ python3 scripts/run_acceptance.py --no-write # 只看判定
 7. 交付前跑 `run_acceptance.py` 并核对 SUMMARY。
 
 ---
+
+## 7. P3 质量语义限制（如实记录）
+
+- 年代/地域归一化是**兼容性层级**（decade→century→era），不是精确断代：era-level / approximate
+  证据会在 warnings 与 `evidence_tier` 中明示，不能当作精确年代结论。
+- context_refs 仍可能有粗粒度（如 europe）匹配；已过滤 period/region=none 的引用，但
+  “同一时代不同地域”的细微差异仍需人工复核。
+- narrative_meaning 与冲突建议是导演/设计解释，不是服饰史事实；冲突检测是规则集，不是全语义理解。
+- example 卡在 B/C 或稀疏覆盖时仍可能出现（有 warning 与 `contains_example` 标记），A 套禁止。
+- 质量指标（relevant@5、precision、warning 覆盖率）含人工定义的探针/expected 集合，不是绝对真理。
+- 生图/视频成品效果、Obsidian GUI、逐图版权仍需人工 UAT；脚本不能代替真实拍摄验证。
 
 ## 7. 已知限制
 

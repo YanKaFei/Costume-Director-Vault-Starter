@@ -197,6 +197,11 @@ def run_query(args):
         results.append(row)
 
     if terms:
+        # Example-grade cards are useful but should not outrank real evidence
+        # for ordinary retrieval; keep them visible, just demoted.
+        for row in results:
+            if row["evidence_status"] == "example":
+                row["score"] = round(row["score"] * 0.65, 3)
         results.sort(key=lambda r: (-r["score"], r["id"]))
     else:
         results.sort(key=lambda r: r["id"])
