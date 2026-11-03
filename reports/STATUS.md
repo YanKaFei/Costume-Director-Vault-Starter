@@ -1,7 +1,7 @@
 # 运行状态（STATUS）— Costume Director Knowledge System（P3.3 最终复验后）
 
 - 更新时间：2026-11-04 03:26（Asia/Shanghai）；P3.3 最终复验（task-22）
-- 快照：**343 张卡**（内容 158 + 来源 185）；**45 例验收**；git HEAD `fcebf79`（工作区 clean）
+- 快照：**343 张卡**（内容 158 + 来源 185）；**45 例验收**；git HEAD `171efb6`（工作区 clean）
 - 外观：**PASS 24 / WARN 4 / FAIL 0 / HUMAN_UAT_PENDING 4（32 项）**
 - **发布门槛：技术/数据/质量门 PASS**；发布仍需完成 HUMAN_UAT_PENDING 4 项
 - 报告：[P3-QA.md](P3-QA.md) · [P3-DEFECTS.md](P3-DEFECTS.md) · [P3-COVERAGE.md](P3-COVERAGE.md) · [CHANGELOG-P3.md](CHANGELOG-P3.md) · [NEXT-PLAN.md](NEXT-PLAN.md)
