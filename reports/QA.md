@@ -1,24 +1,25 @@
-# QA 报告（P3.2 最终复验索引）
+# QA 报告（P3.3 最终复验索引）
 
-- 更新时间：2026-11-04 03:14；快照 **328 卡 / 45 例验收**；git HEAD `281e3b1`
+- 更新时间：2026-11-04 03:26；快照 **343 卡 / 185 来源 / 45 例验收**；git HEAD `fcebf79`
 - 详细独立验收：[P3-QA.md](P3-QA.md)；缺陷：[P3-DEFECTS.md](P3-DEFECTS.md)；历史：[P2.5-ACCEPTANCE.md](P2.5-ACCEPTANCE.md)
 
 ## 1. 机械验收（PASS）
 
 | 项 | 命令 | 退出码 | 结果 |
 |---|---|---|---|
-| 结构校验 | `python3 scripts/validate.py` | 0 | 328/328；17/17 PASS；0 错误 0 警告 |
-| 来源对账 | `python3 scripts/build_sources.py --check` | 0 | 174/174 一致（P3.2 CSV 已同步） |
-| 验收 | `python3 scripts/run_acceptance.py` | 0 | **PASS 45/45**；query 命中 187、逐例 ≥1 |
+| 结构校验 | `python3 scripts/validate.py` | 0 | 343/343；17/17 PASS；0 错误 0 警告 |
+| 来源对账 | `python3 scripts/build_sources.py --check` | 0 | 185/185 一致（CSV 186 行含表头） |
+| 验收 | `python3 scripts/run_acceptance.py` | 0 | **PASS 45/45** |
+| 质量评估 | `python3 scripts/quality_eval.py --no-write` | 0 | **OVERALL PASS**：relevant@5 4.16、precision .945、0 命中 0、CSV gate PASS |
 
-## 2. 独立质量结论（P3.2）：PASS 19 / WARN 5 / FAIL 0 / HUMAN_UAT_PENDING 4
+## 2. 独立质量结论（P3.3）：PASS 24 / WARN 4 / FAIL 0 / HUMAN_UAT_PENDING 4
 
-- **D2/D4/R1 全部关闭**：六类职业（护士/医生/警察/厨师/宇航员/婚礼）A 套匹配；同义词 T42–T45（巡警/民警/医师/宇航员）`occupation_match` 与 `no_cultural_mispick` PASS；雨具选择与 truthful warnings PASS；M1/M2/M4/M6/M7 关闭。
-- **R2 查询层关闭**：P14「noir」返回 3 条且无 example；P02/T41 无同名和服重复。
-- **R7（唯一条件项）**：独立 raw relevant@5 **3.92（98/125）<4.0**；剔除 P21 Mughal/P22 mourning jewelry 已知真实缺卡后 **4.26 ≥4.0**；precision **93.3%**、0 命中 **8%**；engineer 自评 4.0/95.2%/8%。
-- **15 案例 rubric**：PASS 7 / WARN 8 / FAIL 0（P3.1：6/9/0）。
-- **WARN 5**：R7 条件性、R8 单探针相关性、R3 数据层和服重复、R4 噪声 warning、R5 CSV 同步流程。
+- **R7 关闭**：独立 raw relevant@5 **4.16（104/125）≥4.0**；precision **94.5%**；0 命中 **0%**；P21 Mughal 3 命中（GAR-0071/SRC-0450/GAR-0072）、P22 mourning jewelry 2 命中（GAR-0073/GAR-0074）均相关；与 engineer 自评一致。
+- **R1/R2/R3/R4/R5 全部关闭**：六类职业含同义词匹配；P14 无 example、P02/T41 无同名重复；GAR-0065 改名「出口和服」；噪声 warning 移除；R5 质量门经「漂移→FAIL→恢复→PASS」实测有效。
+- **D2/D4/M1–M7/F1–F3** 保持关闭；45/45、validate、build 全 PASS。
+- **15 案例 rubric**：7 PASS / 8 WARN / 0 FAIL（切题均值 1.33/2）。
+- **WARN 4**：W1 rubric 覆盖限制、W2 C01 跨文化近似、W3 filtered 结果数有限、W4 证据覆盖 0.94。
 
 ## 3. 结论
 
-功能/结构/诚实性/回归全部 PASS，D2/D4/R1/R2 关闭；**发布门槛为 CONDITIONAL PASS**，唯一条件项 R7（raw 3.92 vs 调整 4.26）。若 lead 接受「已知 KB 缺口不计入门槛」，可进入发布；否则需再提升 P09/P10/P20 或补缺卡后复验。HUMAN_UAT_PENDING 4 项未完成前不得对外宣布全量 PASS。
+**技术/数据/质量门 PASS**（R7 关闭、R1–R5 关闭、45/45 验收、validate/build/quality_eval 全 PASS）。发布仍需完成 **HUMAN_UAT_PENDING 4 项**（Obsidian GUI、逐图版权、语义评分签核、62 draft 复核）；完成前不得对外宣布「全量 PASS」。

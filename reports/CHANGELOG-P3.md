@@ -147,3 +147,46 @@
 ## 3. 残余风险（WARN 5）
 
 R7（条件性放行：raw 3.92 <4.0、调整后 4.26）、R8 单探针相关性缺口、R3 数据层和服重复、R4 噪声 warning、R5 CSV 同步无自动化。**无 S1/S2 OPEN 缺陷；发布门槛为 CONDITIONAL PASS（R7 由 lead 决定接受已知缺口或继续提升）。**
+
+
+---
+
+# P3.3 更新（最终数据补充与 R7 关闭）
+
+- 时间：2026-11-04 03:08–03:16；commit `fcebf79`；工作区 clean
+- 触发：P3.2 复验 R7 raw relevant@5 3.92 < 4.0；P21 Mughal / P22 mourning jewelry 为真实缺卡；R3 和服同名、R4 噪声、R5 门禁未验证
+
+## 1. 知识库变更
+
+| 对象 | 变更 |
+|---|---|
+| GAR-0071 | 新增「莫卧儿 jama」（one_piece；mughal_empire/india；SRC-0450/0451/0452） |
+| GAR-0072 | 新增「帕贾马裤」（lower_body；india/lucknow/gujarat；SRC-0453/0454） |
+| GAR-0073 | 新增「维多利亚哀悼珠宝」（accessory；britain；SRC-0455/0456/0457） |
+| GAR-0074 | 新增「哀悼戒指与胸针」（accessory；britain；SRC-0458/0459/0460） |
+| SRC-0450..SRC-0460 | 新增 11 张 V&A 来源（11/11 HTTP 200，标题/对象与卡名吻合） |
+| GAR-0065 | `name_zh` 改为「出口和服」、`name_en: export kimono`（文件名保留兼容双链）——R3 |
+| 合计 | **343 卡（内容 158 + 来源 185）**；verified 297、interpretive 42、example 4；draft 62 |
+
+## 2. 脚本/门禁变更
+
+- `scripts/quality_eval.py`：新增 `check_sources_csv()` 质量门（R5），`sources_csv_sync` 阈值 1.0 纳入 OVERALL。
+- `scripts/recommend.py`：移除「no upper_body/lower_body candidates」噪声 warning（R4）。
+- `scripts/query.py`：P3.2 的区域意图/别名/example 排除策略保持；新增卡后 P21/P22 可检索。
+
+## 3. 独立复验结果（verifier）
+
+| 项 | 结果 |
+|---|---|
+| validate | exit 0（343/343，17/17，0 错误 0 警告） |
+| build_sources --check | exit 0（185/185，CSV 186 行含表头） |
+| run_acceptance | exit 0，**PASS 45/45** |
+| **R7** | **raw relevant@5=4.16（104/125）≥4.0**；precision 94.5%；0 命中 0%（P21 3 命中、P22 2 命中，均相关）；与自评 4.16/0.945/0.0 一致 → **CLOSED** |
+| R1/R2/R3/R4 | 全部 CLOSED（同义词六类匹配；P14 无 example；出口和服改名去重；噪声文案移除） |
+| R5 | **实测有效**：注入 CSV 漂移→FAIL，恢复→PASS |
+| 15 案例 rubric | **7 PASS / 8 WARN / 0 FAIL**（同 P3.2） |
+| F1/F2/F3 | 保持 PASS |
+
+## 4. 残余风险（WARN 4）
+
+W1 rubric 8/15 切题 0–1（KB 覆盖限制）；W2 C01 明末清初选莫卧儿 jama（近似）；W3 filtered 查询结果数有限；W4 证据覆盖 0.94。**无 FAIL；发布门槛技术项 PASS，HUMAN_UAT_PENDING 4 项待完成。**
