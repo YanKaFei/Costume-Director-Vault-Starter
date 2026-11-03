@@ -8,11 +8,11 @@ publisher: "Wikimedia Commons"
 url: "https://commons.wikimedia.org/wiki/File:Petersons_walking_dress_1870.jpg"
 date_accessed: "2026-11-04"
 source_kind: image_repository
-rights_statement: "Commons API 元数据 LicenseShortName = Public domain（著作权已届满）；本库仅存文件页链接"
-license_status: not_applicable
+rights_statement: "Public domain（著作权已届满）；字典无 public_domain 值，按 cc0 记录；本库仅存文件页链接，不嵌入图片"
+license_status: cc0
 evidence_status: verified
 review_status: reviewed
-note: "Commons 公有领域文件：1870 年 Peterson's 步行装插图；仅链接引用"
+note: "Commons 公有领域文件：1870 年 Peterson's 步行装插图；Commons API LicenseShortName=Public domain，字典以 cc0 记录；仅链接引用、不嵌入图片"
 tags: [source, image_repository, commons, public_domain, 1870s]
 ---
 
@@ -31,6 +31,8 @@ tags: [source, image_repository, commons, public_domain, 1870s]
 - 文件页题名：Petersons walking dress 1870.jpg；Commons 元数据许可为 Public domain（著作权已届满）。
 - 题名表明这是 1870 年 Peterson's（杂志）中的 walking dress 插图，可作 1870 年代日常女装的视觉参照。
 - 公有领域作品，可按来源页链接引用（本库仍只存链接，不嵌入）。
+
+- 许可映射：Commons 元数据为 Public domain；字典 v1.1 无 `public_domain` 枚举，故 `license_status: cc0`（note 已说明）。
 
 ## 验证记录
 

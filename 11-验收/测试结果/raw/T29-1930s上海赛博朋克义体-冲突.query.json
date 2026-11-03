@@ -1,5 +1,19 @@
 [
   {
+    "id": "GAR-0031",
+    "path": "01-服装单品/连身/GAR-0031-旗袍.md",
+    "name_zh": "旗袍",
+    "name_en": "qipao",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201"
+    ],
+    "snippet": "…便于行走。 - 右衽开口，以盘扣（loop-and-knot button）固定：v&a 上海实例为十枚（领口四枚）；1930 年代末实例另见侧缝隐形拉链与按扣。 - 立领：高而硬的 stand-up collar（上海实例），或小立领（193…",
+    "score": 8.4
+  },
+  {
     "id": "LOOK-0008",
     "path": "09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md",
     "name_zh": "1930 年代上海长衫知识分子",
@@ -76,22 +90,6 @@
       "SRC-0205"
     ],
     "snippet": "# 1930 年代上海民国语境 / 1930s shanghai republican-era context ## 定义 本卡覆盖 1930 年代以上海为中心的民国都市服…",
-    "score": 8.0
-  },
-  {
-    "id": "SCN-0004",
-    "path": "07-剧情场景/SCN-0004-1930年代上海知识分子对话.md",
-    "name_zh": "1930 年代上海知识分子对话",
-    "name_en": "1930s Shanghai intellectuals dialogue scene",
-    "type": "scene",
-    "evidence_status": "interpretive",
-    "source_ids": [
-      "SRC-0200",
-      "SRC-0201",
-      "SRC-0202",
-      "SRC-0205"
-    ],
-    "snippet": "# scn-0004 1930 年代上海知识分子对话 / 1930s shanghai intellectuals dialogue scene ## 定义 1930 年代上海知识分子对话场…",
     "score": 8.0
   }
 ]

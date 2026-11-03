@@ -1,0 +1,82 @@
+[
+  {
+    "id": "GAR-0046",
+    "path": "01-服装单品/外层/GAR-0046-雨衣.md",
+    "name_zh": "雨衣",
+    "name_en": "raincoat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0406"
+    ],
+    "snippet": "# 雨衣 / raincoat ## 定义 雨衣（raincoat）是防水/防泼水的外套；v&a 藏约 1920 年英国银灰橡胶丝绸雨衣，是早期橡胶涂层防水外…",
+    "score": 8.4
+  },
+  {
+    "id": "SRC-0406",
+    "path": "04-来源/SRC-0406-V&A-橡胶丝绸雨衣1920.md",
+    "name_zh": "V&A：约 1920 年英国橡胶丝绸雨衣",
+    "name_en": "V&A: rubberised silk raincoat, England, ca. 1920",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0406 v&a：约 1920 年英国橡胶丝绸雨衣 ## 定义 v&a 馆藏对象记录（对象页 + collections api），含对象类型、年代、材质工艺与形制描述。 ## 结构要点 - 发布机构…",
+    "score": 7.68
+  },
+  {
+    "id": "LOOK-0022",
+    "path": "09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md",
+    "name_zh": "1940 年代战后通勤·三场连续性",
+    "name_en": "1940s postwar commute, three-scene continuity",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0409",
+      "SRC-0405",
+      "SRC-0406",
+      "SRC-0407",
+      "SRC-0420"
+    ],
+    "snippet": "…三场连续性造型：灰色 lounge 西装 + 针织背心 + oxford 鞋 + 橡胶丝绸雨衣 + 雨伞。逐场 state 与逐场 prompt 分开。 ## 结构要点 - 外层（干场）：[[gar-0033-西式休闲西装]]，1940s 英国…",
+    "score": 3.0
+  },
+  {
+    "id": "GAR-0045",
+    "path": "01-服装单品/外层/GAR-0045-风衣.md",
+    "name_zh": "风衣",
+    "name_en": "trench coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0405"
+    ],
+    "snippet": "…undsen/shackleton 探险供装。 ## 相关卡片 - [[gar-0046-雨衣]] - [[gar-0047-雨伞]] - [[gar-0060-1930年代男式皮鞋]] - [[mat-0003-装饰绦带]] trench c…",
+    "score": 1.05
+  },
+  {
+    "id": "GAR-0047",
+    "path": "01-服装单品/携带物/GAR-0047-雨伞.md",
+    "name_zh": "雨伞",
+    "name_en": "umbrella",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0407"
+    ],
+    "snippet": "…叶片纹、柄缘刻 initials a. t.。 ## 相关卡片 - [[gar-0046-雨衣]] - [[gar-0045-风衣]] - [[gar-0048-手提包]] - [[gar-0049-手杖]] black silk umbrel…",
+    "score": 1.05
+  },
+  {
+    "id": "GAR-0049",
+    "path": "01-服装单品/携带物/GAR-0049-手杖.md",
+    "name_zh": "手杖",
+    "name_en": "walking stick",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0409"
+    ],
+    "snippet": "…ar-0047-雨伞]] - [[gar-0048-手提包]] - [[gar-0046-雨衣]] gentleman’s walking stick, dark wood inlaid with brass wire and mother-o…",
+    "score": 1.05
+  }
+]

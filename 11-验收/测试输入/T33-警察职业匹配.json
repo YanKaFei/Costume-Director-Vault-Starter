@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T33",
+    "title": "警察：职业匹配到警察制服 GAR-0042",
+    "types": [
+      "occupational",
+      "police",
+      "D2"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch"
+    ],
+    "query": [
+      "警察",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "PC Hale",
+    "occupation": "police constable",
+    "economic_status": "middle",
+    "arc": "keeping order during a night patrol"
+  },
+  "scene": "city street",
+  "time": "night",
+  "weather": "rain",
+  "action": "walking a night patrol",
+  "location": "london street",
+  "season": "autumn",
+  "period": "contemporary",
+  "region": "britain",
+  "art_direction": "gritty urban realism",
+  "lighting": "sodium street lights",
+  "camera": "medium tracking",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

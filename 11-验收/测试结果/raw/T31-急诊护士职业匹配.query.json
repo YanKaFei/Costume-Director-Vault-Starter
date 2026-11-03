@@ -1,0 +1,72 @@
+[
+  {
+    "id": "GAR-0036",
+    "path": "01-服装单品/连身/GAR-0036-护士制服.md",
+    "name_zh": "护士制服",
+    "name_en": "nurse uniform",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0400"
+    ],
+    "snippet": "# 护士制服 / nurse uniform ## 定义 护士制服（nurse uniform）是医疗护理职业的可识别工作服，通常由白色或浅色罩衣/连衣裙、围…",
+    "score": 8.4
+  },
+  {
+    "id": "LOOK-0010",
+    "path": "09-造型组合/LOOK-0010-急诊科护士夜班职业装.md",
+    "name_zh": "急诊科护士夜班职业装",
+    "name_en": "emergency nurse night-shift uniform look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0400"
+    ],
+    "snippet": "# 急诊科护士夜班职业装 / emergency nurse night-shift uniform look ## 定义 当代急诊科护士（虚构角色）的五槽完整造型…",
+    "score": 8.0
+  },
+  {
+    "id": "SRC-0400",
+    "path": "04-来源/SRC-0400-V&A-1960年代护士戏服.md",
+    "name_zh": "V&A：1960 年代电视剧《Emergency Ward 10》护士戏服",
+    "name_en": "V&A: Emergency Ward 10 nurses outfit, 1968–69",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0400 v&a：1960 年代电视剧《emergency ward 10》护士戏服 ## 定义 v&a 馆藏对象记录（对象页 + collections api），含对象类型、年代、材质工艺与形制描述。 ## 结构要点 - 发布…",
+    "score": 7.68
+  },
+  {
+    "id": "GAR-0041",
+    "path": "01-服装单品/外层/GAR-0041-医生白袍.md",
+    "name_zh": "医生白袍",
+    "name_en": "doctor’s white coat",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "…计知识，不作为医学史或具体医院制度的事实断言。 ## 相关卡片 - [[gar-0036-护士制服]] - [[gar-0044-医疗工作鞋]] - [[gar-0042-警察制服]] - [[gar-0038-连体工作服]] knee-len…",
+    "score": 1.05
+  },
+  {
+    "id": "GAR-0042",
+    "path": "01-服装单品/连身/GAR-0042-警察制服.md",
+    "name_zh": "警察制服",
+    "name_en": "police uniform",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "…0040-军装外套]] - [[gar-0050-制服徽章]] - [[gar-0036-护士制服]] - [[gar-0044-医疗工作鞋]] police uniform, dark navy tunic and trousers, pea…",
+    "score": 1.05
+  },
+  {
+    "id": "GAR-0043",
+    "path": "01-服装单品/上装/GAR-0043-厨师服.md",
+    "name_zh": "厨师服",
+    "name_en": "chef’s jacket",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "…38-连体工作服]] - [[gar-0044-医疗工作鞋]] - [[gar-0036-护士制服]] - [[gar-0021-围裙裙]] white chef’s jacket, double-breasted front, mandari…",
+    "score": 1.05
+  }
+]

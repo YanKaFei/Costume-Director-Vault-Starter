@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T31",
+    "title": "急诊护士：职业匹配到护士制服/LOOK-0010，不用警察/白袍替代",
+    "types": [
+      "occupational",
+      "nurse",
+      "D2"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch"
+    ],
+    "query": [
+      "护士",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Lin",
+    "occupation": "emergency room nurse",
+    "economic_status": "low",
+    "arc": "twelve-hour night shift"
+  },
+  "scene": "emergency room",
+  "time": "night",
+  "weather": "indoor, rain outside",
+  "action": "fast walking, lifting a stretcher, putting on gloves",
+  "location": "hospital emergency department",
+  "season": "summer",
+  "period": "contemporary",
+  "region": "urban china shanghai",
+  "art_direction": "handheld documentary, cool fluorescent realism",
+  "lighting": "cool fluorescent",
+  "camera": "handheld close and medium",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney"
+}

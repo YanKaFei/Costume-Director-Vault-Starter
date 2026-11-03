@@ -22,7 +22,8 @@
     "story_day": "1",
     "gender": "unknown",
     "state": {},
-    "notes": ""
+    "notes": "",
+    "location": "late byzantine palace"
   },
   "fidelity_mode": "historical",
   "looks": [
@@ -224,13 +225,6 @@
       "look": null
     },
     {
-      "code": "occupation_coverage_gap",
-      "severity": "high",
-      "message": "no occupational garment cards match 'court attendant'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
-      "items": [],
-      "look": null
-    },
-    {
       "code": "looks_incomplete",
       "severity": "high",
       "message": "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above",
@@ -300,7 +294,8 @@
       "id": "GAR-0043",
       "slot": "upper_body",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)"
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
@@ -424,21 +419,24 @@
       "id": "GAR-0037",
       "slot": "outerwear",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs late_19th_century)"
+        "historical mode: period mismatch (late_byzantine_empire vs late_19th_century)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
       "id": "GAR-0040",
       "slot": "outerwear",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 1940s)"
+        "historical mode: period mismatch (late_byzantine_empire vs 1940s)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
       "id": "GAR-0041",
       "slot": "outerwear",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 20th_century, contemporary)"
+        "historical mode: period mismatch (late_byzantine_empire vs 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
@@ -487,7 +485,8 @@
       "id": "GAR-0039",
       "slot": "accessory",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 1960s)"
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
@@ -558,7 +557,8 @@
       "id": "GAR-0044",
       "slot": "footwear",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 20th_century, contemporary)"
+        "historical mode: period mismatch (late_byzantine_empire vs 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
@@ -612,16 +612,26 @@
     },
     {
       "id": "GAR-0036",
-      "slot": "set",
+      "slot": "one_piece",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 1960s)"
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s)",
+        "occupational mismatch: the look is for 'court attendant'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1960s)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
       "id": "GAR-0042",
-      "slot": "set",
+      "slot": "one_piece",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)"
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
@@ -661,9 +671,10 @@
     },
     {
       "id": "GAR-0059",
-      "slot": "lower_body",
+      "slot": "one_piece",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 1970s)"
+        "historical mode: period mismatch (late_byzantine_empire vs 1970s)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
@@ -722,14 +733,16 @@
       "id": "GAR-0050",
       "slot": "accessory",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 1940s)"
+        "historical mode: period mismatch (late_byzantine_empire vs 1940s)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
       "id": "GAR-0051",
       "slot": "accessory",
       "reasons": [
-        "historical mode: period mismatch (late_byzantine_empire vs 1970s)"
+        "historical mode: period mismatch (late_byzantine_empire vs 1970s)",
+        "occupational mismatch: the look is for 'court attendant'"
       ]
     },
     {
@@ -756,7 +769,6 @@
     "no reliable style card for art direction 'late byzantine court, gold and deep colours'",
     "period evidence is era-level (century bucket) for GAR-0009; exact-decade cards are missing",
     "looks are missing required layers: footwear, outerwear (no invented replacements)",
-    "no occupational garment cards match 'court attendant'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
     "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
   ],
   "sources": [
@@ -797,7 +809,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
-    "warnings_count": 8,
-    "rejected_count": 69
+    "occupation_category": "unknown",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 7,
+    "rejected_count": 70
   }
 }

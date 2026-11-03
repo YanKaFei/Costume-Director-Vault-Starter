@@ -21,7 +21,8 @@
       "context_refs_clean",
       "evidence_coverage",
       "query_hits",
-      "warning_code:occupation_coverage_gap"
+      "occupation_match",
+      "no_occupation_mismatch"
     ],
     "query": [
       "白",

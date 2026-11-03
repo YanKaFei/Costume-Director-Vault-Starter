@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T36",
+    "title": "加纳-英国婚礼新郎：场合匹配（agbada/gele/LOOK-0013/0018）",
+    "types": [
+      "cross_cultural_traditional",
+      "wedding",
+      "occasion"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occasion_match",
+      "region_evidence"
+    ],
+    "query": [
+      "加纳",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Kwame",
+    "occupation": "architect",
+    "economic_status": "middle",
+    "arc": "honouring Ghanaian family tradition in London"
+  },
+  "scene": "wedding ceremony and reception",
+  "time": "afternoon to evening",
+  "weather": "warm, outdoor ceremony",
+  "action": "greeting elders and dancing",
+  "location": "London garden venue with Ghanaian family ceremony",
+  "season": "summer",
+  "period": "contemporary",
+  "region": "london and accra",
+  "art_direction": "documentary wedding photography, natural light",
+  "lighting": "late afternoon sun and warm string lights",
+  "camera": "documentary medium and close",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney"
+}

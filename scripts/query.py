@@ -32,6 +32,35 @@ from pathlib import Path
 
 import costume_lib as lib
 
+QUERY_ALIASES = {
+    "上海": ["shanghai"], "北京": ["beijing"], "中国": ["china"],
+    "旗袍": ["qipao", "cheongsam"], "长衫": ["changshan"],
+    "和服": ["kimono"], "汉服": ["hanfu"], "韩服": ["hanbok"],
+    "纱丽": ["sari"], "头巾": ["turban", "gele"],
+    "立领": ["stand collar", "stand-up collar"],
+    "盘扣": ["frog closure", "frog fastening"],
+    "雨衣": ["raincoat", "rain coat"], "风衣": ["trench coat", "trench"],
+    "护士": ["nurse"], "医生": ["doctor"], "警察": ["police"],
+    "厨师": ["chef"], "婚礼": ["wedding"], "新娘": ["bride"],
+    "太空": ["space"], "宇航": ["astronaut"],
+    "1930年代": ["1930s"], "1920年代": ["1920s"], "1940年代": ["1940s"],
+    "1950年代": ["1950s"], "1960年代": ["1960s"], "1970年代": ["1970s"],
+    "文艺复兴": ["renaissance"], "拜占庭": ["byzantine"], "维多利亚": ["victorian"],
+    "黑色电影": ["noir", "film noir"],
+}
+
+TYPE_WEIGHT = {
+    "garment": 1.05,
+    "look": 1.0,
+    "period_region": 1.03,
+    "style": 1.0,
+    "material": 1.01,
+    "pattern": 1.0,
+    "garment_part": 1.01,
+    "scene": 1.0,
+    "source": 0.96,
+}
+
 CONTRACT_KEYS = [
     "id", "path", "name_zh", "name_en", "type",
     "evidence_status", "source_ids", "snippet",
@@ -164,23 +193,38 @@ def run_query(args):
               file=sys.stderr)
     raw_terms = [t for t in args.terms if t and t.strip()]
     if args.phrase:
-        terms = raw_terms
+        base_terms = raw_terms
     else:
-        terms = []
+        base_terms = []
         for raw in raw_terms:
-            terms.extend(part for part in raw.split() if part.strip())
+            base_terms.extend(part for part in raw.split() if part.strip())
+    term_groups = []
+    for term in base_terms:
+        variants = [term]
+        norm_term = lib.norm_text(term)
+        for zh, aliases in QUERY_ALIASES.items():
+            if zh in term or lib.norm_text(zh) == norm_term:
+                variants.extend(aliases)
+        term_groups.append(variants)
+    terms = [variant for group in term_groups for variant in group]
     results = []
     for card in cards:
         if not apply_filter(card, args):
             continue
         haystacks = build_haystacks(card)
-        if terms:
+        if term_groups:
             hits = []
             field_hits = []
-            for term in terms:
-                score, field = term_score(term, haystacks)
-                hits.append(score)
-                field_hits.append(field)
+            for group in term_groups:
+                best_score = 0
+                best_field = None
+                for variant in group:
+                    score, field = term_score(variant, haystacks)
+                    if score > best_score:
+                        best_score = score
+                        best_field = field
+                hits.append(best_score)
+                field_hits.append(best_field)
             if args.match == "all":
                 if any(score == 0 for score in hits):
                     continue
@@ -188,6 +232,7 @@ def run_query(args):
                 if all(score == 0 for score in hits):
                     continue
             score = sum(hits) / float(len(hits)) if hits else 0.0
+            score *= TYPE_WEIGHT.get(lib.norm_text(card["meta"].get("type")), 1.0)
         else:
             score = 0.0
         row = card_to_row(card, score)
@@ -196,15 +241,29 @@ def run_query(args):
         row["_fields"] = [f for f in (field_hits if terms else []) if f]
         results.append(row)
 
-    if terms:
-        # Example-grade cards are useful but should not outrank real evidence
-        # for ordinary retrieval; keep them visible, just demoted.
+    if term_groups:
         for row in results:
             if row["evidence_status"] == "example":
                 row["score"] = round(row["score"] * 0.65, 3)
-        results.sort(key=lambda r: (-r["score"], r["id"]))
+        # Example cards must never outrank real cards for ordinary retrieval.
+        results.sort(key=lambda r: (r["evidence_status"] == "example",
+                                    -r["score"], r["id"]))
     else:
-        results.sort(key=lambda r: r["id"])
+        # filter-only queries have no score; still keep real cards before example
+        results.sort(key=lambda r: (r["evidence_status"] == "example", r["id"]))
+    # Deduplicate semantically identical content cards (e.g. two kimono cards
+    # with the same name_zh); keep the higher-ranked one.
+    deduped = []
+    seen_names = set()
+    for row in results:
+        key = (row["type"],
+               lib.norm_text(row["name_zh"]) or
+               lib.norm_text(row["name_en"]) or row["id"])
+        if key in seen_names:
+            continue
+        seen_names.add(key)
+        deduped.append(row)
+    results = deduped
     if args.limit and args.limit > 0:
         results = results[: args.limit]
     return results

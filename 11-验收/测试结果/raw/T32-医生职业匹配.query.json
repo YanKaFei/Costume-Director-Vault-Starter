@@ -1,0 +1,61 @@
+[
+  {
+    "id": "GAR-0041",
+    "path": "01-服装单品/外层/GAR-0041-医生白袍.md",
+    "name_zh": "医生白袍",
+    "name_en": "doctor’s white coat",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "# 医生白袍 / doctor’s white coat ## 定义 医生白袍是医疗专业人员的标志性外衣：白色、前开扣、及膝或大腿长度、多个口袋，用于覆盖内层…",
+    "score": 8.4
+  },
+  {
+    "id": "GAR-0044",
+    "path": "01-服装单品/足部/GAR-0044-医疗工作鞋.md",
+    "name_zh": "医疗工作鞋",
+    "name_en": "medical work shoes",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "…断言。 ## 相关卡片 - [[gar-0036-护士制服]] - [[gar-0041-医生白袍]] - [[gar-0060-1930年代男式皮鞋]] - [[gar-0022-威灵顿靴]] white closed-toe medical…",
+    "score": 1.05
+  },
+  {
+    "id": "LOOK-0010",
+    "path": "09-造型组合/LOOK-0010-急诊科护士夜班职业装.md",
+    "name_zh": "急诊科护士夜班职业装",
+    "name_en": "emergency nurse night-shift uniform look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0400"
+    ],
+    "snippet": "…960s 英国护士装，白色罩衣/围裙结构、短袖、及膝）。 - 外层：[[gar-0041-医生白袍]]，及膝前开白袍，作为护士在病区外行走时的工作外层；属借用（本库无护士开衫/隔离衣卡）。 - 鞋：[[gar-0044-医疗工作鞋]]，闭口、低…",
+    "score": 1.0
+  },
+  {
+    "id": "SCN-0005",
+    "path": "07-剧情场景/SCN-0005-急诊夜班抢救.md",
+    "name_zh": "急诊夜班抢救",
+    "name_en": "emergency night-shift resuscitation",
+    "type": "scene",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0400"
+    ],
+    "snippet": "…结构要点 - 人物：急诊科护士（见 [[look-0010-急诊科护士夜班职业装]]）；医生与担架员为群演，姓名 `unknown`。 - 剧情日：day 01 / 夜班 02:40（虚构编号）。 - 时间地点：城市综合医院急诊抢救区；城市与…",
+    "score": 1.0
+  },
+  {
+    "id": "SRC-0021",
+    "path": "04-来源/SRC-0021-in-s-g-ches-sarraute-and-the-straight-front-cors.md",
+    "name_zh": "FIT 专题研究：Inès Gâches-Sarraute 与直front束身衣",
+    "name_en": "Inès Gâches-Sarraute and the Straight-Front Corset",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "…ront（straight-front）束身衣常被时代错置地称为『s-bend』，它由一位医生为健康目的发明，随后迅速被时尚吸收。 - 页面引用 1896 年 7 月 vogue「piazza talk」匿名作者：束身衣从『长腰高胸』改为『更短…",
+    "score": 0.96
+  }
+]

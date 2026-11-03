@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T32",
+    "title": "医生：职业匹配到医生白袍 GAR-0041",
+    "types": [
+      "occupational",
+      "doctor",
+      "D2"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch"
+    ],
+    "query": [
+      "医生",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Dr Chen",
+    "occupation": "emergency physician",
+    "economic_status": "middle",
+    "arc": "treating patients with limited supplies"
+  },
+  "scene": "field hospital ward",
+  "time": "night",
+  "weather": "indoor",
+  "action": "examining a patient",
+  "location": "hospital ward",
+  "season": "autumn",
+  "period": "contemporary",
+  "region": "urban china",
+  "art_direction": "clinical realism",
+  "lighting": "cool fluorescent",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

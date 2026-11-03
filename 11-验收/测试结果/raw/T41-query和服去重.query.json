@@ -1,0 +1,61 @@
+[
+  {
+    "id": "GAR-0001",
+    "path": "01-服装单品/专门类型/GAR-0001-和服.md",
+    "name_zh": "和服",
+    "name_en": "kimono",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0100"
+    ],
+    "snippet": "# 和服 / kimono ## 定义 和服是日本传统服装中以直线裁剪、前襟交叠、腰间以带（obi）固定的长袍；本卡以 met 藏 19 世纪日本丝绸和服为核…",
+    "score": 8.4
+  },
+  {
+    "id": "GAR-0066",
+    "path": "01-服装单品/配饰/GAR-0066-和服腰带.md",
+    "name_zh": "和服腰带",
+    "name_en": "obi",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0427"
+    ],
+    "snippet": "# 和服腰带 / obi ## 定义 和服腰带（obi）是固定和服、塑造轮廓的宽腰带，也是重要装饰面；v&a 藏 1930–45 年飞机飞越中国纹样腰带是核验…",
+    "score": 8.4
+  },
+  {
+    "id": "SRC-0009",
+    "path": "04-来源/SRC-0009-kimonos.md",
+    "name_zh": "AAT 词条：kimonos（和服）",
+    "name_en": "kimonos",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# aat 词条：kimonos（和服） **来源**：art & architecture thesaurus full record display (getty research)…",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0028",
+    "path": "04-来源/SRC-0028-kimono-ca-1910.md",
+    "name_zh": "Met 藏品（API）：和服 ca. 1910",
+    "name_en": "Kimono, ca. 1910",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# met 藏品（api）：和服 ca. 1910 **来源**：kimono **发布者**：the metropolitan museum of art — costume in…",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0049",
+    "path": "04-来源/SRC-0049-khalili-collection-of-kimono-kx158-jpg.md",
+    "name_zh": "Wikimedia Commons 文件：Khalili 和服藏品 KX158（CC BY-SA 4.0）",
+    "name_en": "Khalili Collection of Kimono KX158.jpg",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# wikimedia commons 文件：khalili 和服藏品 kx158（cc by-sa 4.0） **来源**：file:khalili collection of kimono kx158.jpg -…",
+    "score": 7.68
+  }
+]

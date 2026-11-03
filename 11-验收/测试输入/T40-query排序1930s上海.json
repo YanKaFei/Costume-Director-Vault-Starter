@@ -1,0 +1,47 @@
+{
+  "_test": {
+    "id": "T40",
+    "title": "query 排序：1930s 上海 top5 必须含 GAR-0031 且无 example",
+    "types": [
+      "query_ranking",
+      "M8"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "no_crash",
+      "no_example_in_a",
+      "query_hits",
+      "query_top5_contains:GAR-0031",
+      "query_no_example_top",
+      "query_no_duplicate_names"
+    ],
+    "query": [
+      "1930s 上海",
+      "--limit",
+      "5",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Shen",
+    "occupation": "journalist",
+    "economic_status": "middle",
+    "arc": "chasing a story"
+  },
+  "scene": "rain-soaked newspaper alley",
+  "time": "night",
+  "weather": "rain",
+  "action": "walking quickly",
+  "location": "shanghai alley",
+  "season": "autumn",
+  "period": "1930s",
+  "region": "shanghai",
+  "art_direction": "restrained historical noir",
+  "lighting": "sodium street light",
+  "camera": "medium tracking",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

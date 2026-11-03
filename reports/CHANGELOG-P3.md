@@ -64,3 +64,51 @@
 - 新增：`reports/P3-QA.md`、`P3-COVERAGE.md`、`P3-DEFECTS.md`、`CHANGELOG-P3.md`、`NEXT-PLAN.md`
 - 更新：`reports/STATUS.md`、`COVERAGE.md`、`QA.md`（反映 P3 终态）
 - 重建：`reports/SOURCES.csv`（174 行 + 表头，P3 提交时遗漏同步）
+
+---
+
+# P3.1 更新（复验后，未提交工作区）
+
+- 时间：2026-11-04 02:39–02:47；基于 HEAD `0345f05` 的工作区修复
+- 触发：P3 独立 QA 的 D2/D4/M4/M6/M7 与 M1/M2、query 排序/去重缺陷
+
+## 1. 脚本变更
+
+| 文件 | 变更 |
+|---|---|
+| `scripts/recommend.py` | 新增 `OCCUPATION_HINTS`/`OCCUPATION_PROFILES` 与职业匹配逻辑（护士/医生/警察/厨师/太空/婚礼等）；职业服禁止跨职业顶替；rainwear 选择与「rainwear gap」措辞修正；context_refs 过滤；prompt 仅取已选 items 的短语；冲突检测与身份弧线 warning；curated occupational look 优先 |
+| `scripts/reco_norm.py` | period/region 归一化与近似证据层增强 |
+| `scripts/query.py` | 排序/去重：1930s 上海 GAR-0031 排名、同名和服去重、example 卡降权（top5 首名排除） |
+| `scripts/run_acceptance.py` | 30 → **41 例**；新增 criteria：`occupation_match`、`no_occupation_mismatch`、`occasion_match`、`rainwear_selected`、`warning_absent:*`、`no_arctic_indoor`、`context_refs_clean`、`query_top5_contains`、`query_no_duplicate_names`、`query_no_example_top` 等 |
+| `scripts/costume_lib.py` | 配套工具更新 |
+
+## 2. 测试（30 → 41）
+
+新增 T31 急诊护士职业匹配、T32 医生职业匹配、T33 警察职业匹配、T34 厨师职业匹配、T35 太空站维修工职业匹配、T36 加纳婚礼新郎跨文化、T37 1930s 上海雨具选择、T38 室内走廊不穿极地派克、T39 明末清初 context 清洁、T40 query 排序 1930s 上海、T41 query 和服去重。
+
+## 3. 卡片与文档修正
+
+- `GAR-0010`：删去无依据的「用于运动与童装」断言，改标 interpretive（M1 FIXED）。
+- `SRC-0046`/`SRC-0047`：`license_status: cc0` + note 说明 Public domain 映射（M2 FIXED）。
+- `GAR-0001`/`GAR-0065`：增加「查询去重提示」并区分 name_en/periods（查询层去重；数据层仍为两张卡，M8 部分）。
+- `00-系统/来源规范.md`：补充 SRC 段位（0200..0299、0400..0499 等）。
+- `reports/SOURCES.csv`：因 SRC-0046/47 字段变更再次漂移 → QA `build_sources --write` 重建为 174 行（D1 复发，已 RESOLVED-BY-QA）。
+
+## 4. P3.1 独立复验结果
+
+| 项 | 结果 |
+|---|---|
+| validate | exit 0（328/328，17/17 PASS，0 错误 0 警告） |
+| build_sources --check | 首次 FAIL（2 行漂移）→ QA 重建后 PASS（174 行） |
+| run_acceptance | exit 0，**PASS 41/41**，query 命中 178 |
+| D2 职业匹配 | **CLOSED**（T26/T31/T32/T33/T34/T35/T36 + C02/N1 使用匹配卡；warnings 真实） |
+| D4 rainwear 假 warning | **CLOSED**（T01/T02 用风衣；T37/T38 warning_absent PASS） |
+| M1/M2/M4/M6/M7 | **CLOSED** |
+| M8 查询排序/去重 | **PARTIAL→大部分关闭**（P07 GAR-0031 第 1、T40 PASS；T41 无重复名；P14 example 仍第 4/5） |
+| query 指标（verifier） | relevant@5 3.64/89.2%/12%（与 P3 持平；具体排序改善） |
+| quality_eval（engineer 自评复跑） | **exit 1，OVERALL: FAIL**：relevant@5=3.92 < 阈值 4.0（其余 15 项 PASS：precision 96.1%、0 命中 12%、崩溃 0、example-in-A 0、warnings 1.0、A/B/C 差异 0.976、证据覆盖 0.959、context 1.0、prompt 串文 0、occupation_mismatch 0 等） |
+| 15 案例 rubric | **PASS 6 / WARN 9 / FAIL 0**（P3: 1/14/0）；切题均值 1.27/2 |
+
+## 5. 残余风险（进入 P4）
+
+**R7（FAIL/发布门槛）**：query relevance 未达 4.0（独立 3.64 / 自评 3.92，quality_eval OVERALL FAIL）——P3.1 唯一阻断项；R1 职业同义词/医疗内层（巡警未匹配、医生 A 含韩服）；R2 example 卡仍 in top5、和服数据层重复；R5 自评口径差；R6 SOURCES.csv 同步流程；15 案例中 9 例切题 0–1（覆盖限制，已诚实声明）。

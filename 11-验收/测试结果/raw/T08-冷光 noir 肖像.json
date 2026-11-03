@@ -24,205 +24,27 @@
     "state": {
       "wetness": "dry"
     },
-    "notes": ""
+    "notes": "",
+    "location": "empty street"
   },
   "fidelity_mode": "fictional",
   "looks": [
     {
       "look_ref": "A",
       "source_look_id": null,
-      "total": 50.8,
+      "total": 49.4,
       "scores": {
         "period": 23.0,
-        "identity": 4.0,
+        "identity": 4.4,
         "environment": 1.8,
-        "art": 3.4,
-        "movement": 4.0,
-        "arc": 5.6,
-        "camera": 6.9
-      },
-      "missing": [],
-      "cost": 0.213,
-      "cost_total": 0.638,
-      "contains_example": false,
-      "evidence_tier": "era",
-      "period_tiers": {
-        "set": "era",
-        "outerwear": "era",
-        "footwear": "era"
-      },
-      "region_tiers": {
-        "set": "unknown",
-        "outerwear": "unknown",
-        "footwear": "unknown"
-      },
-      "colors": [
-        "black",
-        "navy",
-        "white"
-      ],
-      "style_tags": [
-        "medical",
-        "occupational",
-        "uniform"
-      ],
-      "budget_mode": "equivalent_cost",
-      "budget_explanation": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
-      "differences": {
-        "a_b": 5,
-        "a_c": 2,
-        "b_c": 3
-      },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from functional / functional / functional; the black, navy, white palette controls the emotional temperature; against the arc (closing in on the truth) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
-      "items": [
-        {
-          "slot": "set",
-          "id": "GAR-0042",
-          "name_zh": "警察制服",
-          "name_en": "police uniform",
-          "colors": [
-            "navy",
-            "black"
-          ],
-          "materials": [
-            "wool",
-            "polyester",
-            "cotton"
-          ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.2652986111111111,
-            "environment": 0.12249999999999998,
-            "art": 0.25,
-            "movement": 0.4,
-            "arc": 0.4583333333333333,
-            "camera": 0.69
-          }
-        },
-        {
-          "slot": "outerwear",
-          "id": "GAR-0041",
-          "name_zh": "医生白袍",
-          "name_en": "doctor’s white coat",
-          "colors": [
-            "white"
-          ],
-          "materials": [
-            "cotton",
-            "polyester"
-          ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.2990486111111111,
-            "environment": 0.12249999999999998,
-            "art": 0.1875,
-            "movement": 0.4,
-            "arc": 0.5666666666666667,
-            "camera": 0.69
-          }
-        },
-        {
-          "slot": "footwear",
-          "id": "GAR-0044",
-          "name_zh": "医疗工作鞋",
-          "name_en": "medical work shoes",
-          "colors": [
-            "white",
-            "black"
-          ],
-          "materials": [
-            "leather",
-            "rubber",
-            "synthetic"
-          ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.23793749999999997,
-            "environment": 0.12249999999999998,
-            "art": 0.25,
-            "movement": 0.4,
-            "arc": 0.675,
-            "camera": 0.69
-          }
-        }
-      ],
-      "parts": [],
-      "materials": [
-        {
-          "id": "MAT-0001",
-          "slot": "set"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "outerwear"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult Lin, complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: black, navy, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
-      "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10",
-        "成套: GAR-0042 警察制服 (functional)",
-        "外层: GAR-0041 医生白袍 (functional)",
-        "足部: GAR-0044 医疗工作鞋 (functional)",
-        "linked material cards: MAT-0001, MAT-0003"
-      ],
-      "risks": [
-        "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0042, GAR-0041, GAR-0044: cards document their own regions, not unspecified city",
-        "character psychology is a directorial interpretation, not a clothing-history fact",
-        "all images remain external links; no third-party images are embedded in the vault"
-      ],
-      "evidence": {
-        "source_ids": [
-          "SRC-0102",
-          "SRC-0142"
-        ],
-        "source_urls": [
-          {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          }
-        ],
-        "context_style_ids": [],
-        "context_period_ids": [
-          "PRD-0004"
-        ],
-        "context_scene_ids": [],
-        "item_evidence": {
-          "GAR-0042": "interpretive",
-          "GAR-0041": "interpretive",
-          "GAR-0044": "interpretive"
-        },
-        "missing_urls": []
-      }
-    },
-    {
-      "look_ref": "B",
-      "source_look_id": null,
-      "total": 50.1,
-      "scores": {
-        "period": 23.0,
-        "identity": 4.0,
-        "environment": 1.8,
-        "art": 4.1,
-        "movement": 4.0,
+        "art": 4.8,
+        "movement": 4.5,
         "arc": 6.2,
-        "camera": 6.9
+        "camera": 6.7
       },
       "missing": [],
-      "cost": 0.22,
-      "cost_total": 0.88,
+      "cost": 0.241,
+      "cost_total": 0.965,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
@@ -238,52 +60,67 @@
         "footwear": "unknown"
       },
       "colors": [
+        "beige",
         "black",
         "blue black",
         "brown",
         "indigo",
-        "white"
+        "khaki",
+        "lavender",
+        "multicolor",
+        "solid color"
       ],
       "style_tags": [
+        "afrocentric",
+        "black",
+        "black pride",
+        "burberry",
         "class",
+        "classic",
+        "counterculture",
         "country",
-        "culinary",
-        "medical",
+        "gabardine",
         "military",
-        "occupational",
+        "pride",
         "rockabilly",
         "working",
         "working class",
         "youth"
       ],
-      "budget_mode": null,
-      "budget_explanation": null,
-      "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from functional / casual / functional / smart_casual; the black, blue black, brown palette controls the emotional temperature; against the arc (closing in on the truth) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (closing in on the truth) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "upper_body",
-          "id": "GAR-0043",
-          "name_zh": "厨师服",
-          "name_en": "chef’s jacket",
+          "id": "GAR-0006",
+          "name_zh": "达希基套衫",
+          "name_en": "dashiki",
           "colors": [
-            "white",
-            "black"
+            "multicolor",
+            "solid_color"
           ],
           "materials": [
             "cotton",
-            "polyester"
+            "printed_cotton"
           ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0107"
+          ],
           "scores": {
             "period": 0.92,
-            "identity": 0.2652986111111111,
+            "identity": 0.19800000000000004,
             "environment": 0.12249999999999998,
-            "art": 0.25,
-            "movement": 0.4,
+            "art": 0.1875,
+            "movement": 0.5,
             "arc": 0.5666666666666667,
-            "camera": 0.69
+            "camera": 0.65
           }
         },
         {
@@ -315,26 +152,31 @@
         },
         {
           "slot": "outerwear",
-          "id": "GAR-0041",
-          "name_zh": "医生白袍",
-          "name_en": "doctor’s white coat",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
           "colors": [
-            "white"
+            "khaki",
+            "beige",
+            "lavender"
           ],
           "materials": [
+            "gabardine",
             "cotton",
-            "polyester"
+            "lace"
           ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
           "scores": {
             "period": 0.92,
-            "identity": 0.2990486111111111,
+            "identity": 0.44244444444444453,
             "environment": 0.12249999999999998,
-            "art": 0.1875,
-            "movement": 0.4,
+            "art": 0.4125,
+            "movement": 0.5,
             "arc": 0.5666666666666667,
-            "camera": 0.69
+            "camera": 0.65
           }
         },
         {
@@ -373,37 +215,52 @@
         },
         {
           "id": "MAT-0003",
-          "slot": "lower_body"
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, upper body: white chef’s jacket, double-breasted front, mandarin collar, long sleeves, cloth buttons, apron and tall toque, kitchen setting; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue black, brown, indigo, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0043 chef’s jacket [white, black; cotton, polyester; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: white chef’s jacket, double-breasted front, mandarin collar, long sleeves, cloth buttons, apron and tall toque, kitchen setting; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 双排扣与长袖在炉灶旁限制动作; 围裙/帽子的系带需锁定。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0043 chef’s jacket [white, black; cotton, polyester; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0043 chef’s jacket [white, black; cotton, polyester; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "prompt_image": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10",
-        "上装: GAR-0043 厨师服 (functional)",
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
+        "上装: GAR-0006 达希基套衫 (casual)",
         "下装: GAR-0014 牛仔裤 (casual)",
-        "外层: GAR-0041 医生白袍 (functional)",
+        "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0003"
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0043, GAR-0014, GAR-0041, GAR-0022: cards document their own regions, not unspecified city",
+        "region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0107",
           "SRC-0115",
+          "SRC-0405",
           "SRC-0123",
           "SRC-0102",
-          "SRC-0142"
+          "SRC-0142",
+          "SRC-0141"
         ],
         "source_urls": [
           {
+            "source_id": "SRC-0107",
+            "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+          },
+          {
             "source_id": "SRC-0115",
             "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+          },
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
           },
           {
             "source_id": "SRC-0123",
@@ -416,6 +273,10 @@
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           }
         ],
         "context_style_ids": [],
@@ -424,108 +285,124 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0043": "interpretive",
+          "GAR-0006": "verified",
           "GAR-0014": "verified",
-          "GAR-0041": "interpretive",
+          "GAR-0045": "verified",
           "GAR-0022": "verified"
         },
         "missing_urls": []
       }
     },
     {
-      "look_ref": "C",
+      "look_ref": "B",
       "source_look_id": null,
-      "total": 49.6,
+      "total": 49.2,
       "scores": {
         "period": 23.0,
-        "identity": 4.2,
+        "identity": 4.0,
         "environment": 1.8,
-        "art": 4.1,
-        "movement": 4.0,
-        "arc": 5.6,
-        "camera": 6.9
+        "art": 5.4,
+        "movement": 4.3,
+        "arc": 6.0,
+        "camera": 6.6
       },
       "missing": [],
-      "cost": 0.208,
-      "cost_total": 0.625,
+      "cost": 0.345,
+      "cost_total": 1.035,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "set": "era",
+        "one_piece": "era",
         "outerwear": "era",
         "footwear": "era"
       },
       "region_tiers": {
-        "set": "unknown",
+        "one_piece": "unknown",
         "outerwear": "unknown",
         "footwear": "unknown"
       },
       "colors": [
+        "beige",
         "black",
         "brown",
-        "navy",
-        "white"
+        "gold",
+        "khaki",
+        "lavender",
+        "pink",
+        "purple"
       ],
       "style_tags": [
+        "asian",
+        "burberry",
+        "classic",
         "country",
-        "medical",
+        "gabardine",
         "military",
-        "occupational",
-        "uniform"
+        "south",
+        "south asian",
+        "textile",
+        "traditional"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from functional / functional / smart_casual; the black, brown, navy palette controls the emotional temperature; against the arc (closing in on the truth) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (closing in on the truth) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "set",
-          "id": "GAR-0042",
-          "name_zh": "警察制服",
-          "name_en": "police uniform",
+          "slot": "one_piece",
+          "id": "GAR-0063",
+          "name_zh": "纱丽",
+          "name_en": "sari",
           "colors": [
-            "navy",
-            "black"
+            "purple",
+            "pink",
+            "gold"
           ],
           "materials": [
-            "wool",
-            "polyester",
-            "cotton"
+            "silk",
+            "gold_thread"
           ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0424"
+          ],
           "scores": {
             "period": 0.92,
-            "identity": 0.2652986111111111,
+            "identity": 0.09452361111111113,
             "environment": 0.12249999999999998,
-            "art": 0.25,
+            "art": 0.2875,
             "movement": 0.4,
-            "arc": 0.4583333333333333,
-            "camera": 0.69
+            "arc": 0.5666666666666667,
+            "camera": 0.65
           }
         },
         {
           "slot": "outerwear",
-          "id": "GAR-0041",
-          "name_zh": "医生白袍",
-          "name_en": "doctor’s white coat",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
           "colors": [
-            "white"
+            "khaki",
+            "beige",
+            "lavender"
           ],
           "materials": [
+            "gabardine",
             "cotton",
-            "polyester"
+            "lace"
           ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
           "scores": {
             "period": 0.92,
-            "identity": 0.2990486111111111,
+            "identity": 0.44244444444444453,
             "environment": 0.12249999999999998,
-            "art": 0.1875,
-            "movement": 0.4,
+            "art": 0.4125,
+            "movement": 0.5,
             "arc": 0.5666666666666667,
-            "camera": 0.69
+            "camera": 0.65
           }
         },
         {
@@ -559,48 +436,58 @@
       "parts": [],
       "materials": [
         {
-          "id": "MAT-0001",
-          "slot": "set"
+          "id": "MAT-0002",
+          "slot": "one_piece"
         },
         {
-          "id": "MAT-0003",
+          "id": "MAT-0001",
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, complete set: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, navy, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: complete set: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "prompt_image": "full-body character design of an adult Lin, one-piece: purple silk sari with shocking pink border and pallav, woven gold zari, temple sari, South Indian styling; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, gold, khaki, lavender, pink, purple, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0063 sari [purple, pink, gold; silk, gold_thread; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: one-piece: purple silk sari with shocking pink border and pallav, woven gold zari, temple sari, South Indian styling; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 长幅布缠绕，行走时需整理褶裥; 金线织边较重、垂坠明显。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0063 sari [purple, pink, gold; silk, gold_thread; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0063 sari [purple, pink, gold; silk, gold_thread; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10",
-        "成套: GAR-0042 警察制服 (functional)",
-        "外层: GAR-0041 医生白袍 (functional)",
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.6/10",
+        "连身: GAR-0063 纱丽 (ceremonial)",
+        "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0003"
+        "linked material cards: MAT-0002, MAT-0001"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0042, GAR-0041, GAR-0022: cards document their own regions, not unspecified city",
+        "region mismatch in GAR-0063, GAR-0045, GAR-0022: cards document their own regions, not unspecified city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0424",
+          "SRC-0405",
           "SRC-0123",
-          "SRC-0102",
-          "SRC-0142"
+          "SRC-0141",
+          "SRC-0102"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0424",
+            "url": "https://collections.vam.ac.uk/item/O84377/"
+          },
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
           {
             "source_id": "SRC-0123",
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
           }
         ],
         "context_style_ids": [],
@@ -609,8 +496,253 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0042": "interpretive",
-          "GAR-0041": "interpretive",
+          "GAR-0063": "verified",
+          "GAR-0045": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 47.3,
+      "scores": {
+        "period": 17.9,
+        "identity": 4.4,
+        "environment": 3.5,
+        "art": 4.9,
+        "movement": 5.4,
+        "arc": 6.4,
+        "camera": 6.8
+      },
+      "missing": [],
+      "cost": 0.282,
+      "cost_total": 0.847,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "outerwear": "unknown",
+        "footwear": "unknown"
+      },
+      "colors": [
+        "beige",
+        "black",
+        "brown",
+        "khaki",
+        "lavender",
+        "mid blue",
+        "orange red",
+        "pink",
+        "white"
+      ],
+      "style_tags": [
+        "art",
+        "art deco",
+        "burberry",
+        "classic",
+        "country",
+        "deco",
+        "era",
+        "gabardine",
+        "military",
+        "modern",
+        "republican",
+        "republican era",
+        "shanghai",
+        "shanghai modern"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (closing in on the truth) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0031",
+          "name_zh": "旗袍",
+          "name_en": "qipao",
+          "colors": [
+            "white",
+            "orange_red",
+            "pink",
+            "mid_blue"
+          ],
+          "materials": [
+            "silk",
+            "synthetic_velvet",
+            "crepe",
+            "silk_damask"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0200",
+            "SRC-0201"
+          ],
+          "scores": {
+            "period": 0.37125,
+            "identity": 0.16706250000000003,
+            "environment": 0.4225,
+            "art": 0.1875,
+            "movement": 0.7,
+            "arc": 0.675,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
+          "colors": [
+            "khaki",
+            "beige",
+            "lavender"
+          ],
+          "materials": [
+            "gabardine",
+            "cotton",
+            "lace"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.44244444444444453,
+            "environment": 0.12249999999999998,
+            "art": 0.4125,
+            "movement": 0.5,
+            "arc": 0.5666666666666667,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.2714861111111111,
+            "environment": 0.12249999999999998,
+            "art": 0.4,
+            "movement": 0.4,
+            "arc": 0.675,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0001",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Lin, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, mid blue, orange red, pink, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 17.9/25, 摄影/一致性 6.8/10",
+        "连身: GAR-0031 旗袍 (smart_casual)",
+        "外层: GAR-0045 风衣 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0001"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0031, GAR-0045, GAR-0022: cards document their own regions, not unspecified city",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0200",
+          "SRC-0201",
+          "SRC-0405",
+          "SRC-0123",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0102"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0004"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0031": "verified",
+          "GAR-0045": "verified",
           "GAR-0022": "verified"
         },
         "missing_urls": []
@@ -646,33 +778,25 @@
     },
     {
       "code": "occupation_coverage_gap",
-      "severity": "high",
-      "message": "no occupational garment cards match 'private investigator'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
-      "items": [],
-      "look": null
-    },
-    {
-      "code": "budget_equivalent",
       "severity": "medium",
-      "message": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "message": "the vault has no 'private investigator'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
       "items": [],
       "look": null
     }
   ],
   "budget_model": {
-    "mode": "equivalent_cost",
-    "a_cost_total": 0.638,
-    "c_cost_total": 0.625,
+    "mode": "cheaper",
+    "a_cost_total": 0.965,
+    "c_cost_total": 0.847,
     "differences": {
-      "a_b": 5,
-      "a_c": 2,
-      "b_c": 3
+      "a_b": 3,
+      "a_c": 3,
+      "b_c": 2
     }
   },
   "retrieved_ids": {
     "upper_body": [
       "GAR-EXAMPLE-001",
-      "GAR-0043",
       "GAR-0006",
       "GAR-0008",
       "GAR-0007",
@@ -684,15 +808,12 @@
       "GAR-0014",
       "GAR-0010",
       "GAR-0011",
-      "GAR-0059",
       "GAR-0013"
     ],
     "set": [
-      "GAR-0042",
       "GAR-0005",
       "GAR-0001",
       "GAR-0065",
-      "GAR-0036",
       "GAR-0030"
     ],
     "inner_layer": [
@@ -701,22 +822,16 @@
     ],
     "outerwear": [
       "GAR-0045",
-      "GAR-0041",
       "GAR-0019",
       "GAR-0046",
       "GAR-0057",
       "GAR-0017",
       "GAR-0033",
-      "GAR-0040",
       "GAR-0016",
-      "GAR-0037",
       "GAR-0018"
     ],
     "accessory": [
       "GAR-0070",
-      "GAR-0050",
-      "GAR-0051",
-      "GAR-0039",
       "GAR-0021",
       "GAR-0027",
       "GAR-0026",
@@ -733,7 +848,6 @@
     ],
     "footwear": [
       "GAR-0022",
-      "GAR-0044",
       "GAR-0023",
       "GAR-0035",
       "GAR-0060",
@@ -759,13 +873,113 @@
       "GAR-0029"
     ]
   },
-  "rejected": [],
+  "rejected": [
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'private investigator'"
+      ]
+    }
+  ],
   "warnings": [
     "no reliable style card for art direction 'restrained urban noir'",
-    "no occupational garment cards match 'private investigator'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
-    "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
+    "the vault has no 'private investigator'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
   ],
   "sources": [
+    {
+      "source_id": "SRC-0107",
+      "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+    },
+    {
+      "source_id": "SRC-0115",
+      "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+    },
+    {
+      "source_id": "SRC-0405",
+      "url": "https://collections.vam.ac.uk/item/O1295635/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
     {
       "source_id": "SRC-0102",
       "url": "https://fashionhistory.fitnyc.edu/muslin/"
@@ -775,12 +989,24 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
-      "source_id": "SRC-0115",
-      "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
-      "source_id": "SRC-0123",
-      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+      "source_id": "SRC-0424",
+      "url": "https://collections.vam.ac.uk/item/O84377/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
     }
   ],
   "missing_urls": [],
@@ -799,7 +1025,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
-    "warnings_count": 3,
-    "rejected_count": 0
+    "occupation_category": "generic:investigator",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 2,
+    "rejected_count": 12
   }
 }

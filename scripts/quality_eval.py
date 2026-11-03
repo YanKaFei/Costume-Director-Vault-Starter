@@ -57,7 +57,8 @@ PROBES = [
      "keywords": ["旗袍", "qipao", "cheongsam"]},
     {"id": "P02", "query": ["和服"], "expected_ids": {"GAR-0001"},
      "keywords": ["和服", "kimono"]},
-    {"id": "P03", "query": ["风衣"], "expected_ids": {"GAR-0045"},
+    {"id": "P03", "query": ["风衣"], "expected_ids": {"GAR-0045",
+                                                      "LOOK-0012", "LOOK-0014"},
      "keywords": ["风衣", "trench", "raincoat"]},
     {"id": "P04", "query": ["蕾丝"], "expected_ids": {"MAT-0002", "STR-0001"},
      "keywords": ["lace", "蕾丝"]},
@@ -68,14 +69,16 @@ PROBES = [
                                                       "GAR-0042"},
      "keywords": ["徽章", "badge", "pin", "button"]},
     {"id": "P07", "query": ["1930s 上海"], "expected_ids": {
-        "GAR-0031", "LOOK-0008", "LOOK-0009", "PRD-0011", "SCN-0004"},
+        "GAR-0031", "LOOK-0008", "LOOK-0009", "LOOK-0012", "LOOK-0015",
+        "PRD-0011", "SCN-0004"},
      "keywords": ["1930s", "上海", "shanghai", "qipao", "旗袍"]},
     {"id": "P08", "query": ["立领", "盘扣"], "expected_ids": {
-        "STR-0011", "GAR-0031", "GAR-0032", "LOOK-0008", "LOOK-0009"},
+        "STR-0011", "GAR-0031", "GAR-0032", "LOOK-0008", "LOOK-0009",
+        "LOOK-0012", "LOOK-0019"},
      "keywords": ["立领", "盘扣", "stand collar", "frog"]},
     {"id": "P09", "query": ["蕾丝", "晚装"], "expected_ids": {"MAT-0002",
                                                               "GAR-0054", "GAR-0031",
-                                                              "GAR-0015"},
+                                                              "GAR-0015", "GAR-0007"},
      "keywords": ["lace", "蕾丝", "evening", "晚装", "gown", "cocktail"]},
     {"id": "P10", "query": ["丝绸", "和服"], "expected_ids": {"GAR-0001",
                                                               "GAR-0063", "GAR-0064",
@@ -91,7 +94,7 @@ PROBES = [
                       "GAR-0044", "GAR-0058", "GAR-0060"},
      "keywords": ["鞋", "靴", "shoe", "boot", "footwear"], "type": "garment"},
     {"id": "P14", "query": ["--style-tag", "noir"],
-     "expected_ids": {"LOOK-0007", "STY-0005", "SCN-0001"},
+     "expected_ids": {"LOOK-0007", "LOOK-0021", "STY-0005", "SCN-0001"},
      "keywords": ["noir", "黑色"]},
     {"id": "P15", "query": ["--period", "1930s", "--region", "shanghai"],
      "expected_ids": {"GAR-0031", "LOOK-0008", "LOOK-0009", "PRD-0011",
@@ -117,12 +120,14 @@ PROBES = [
     {"id": "P22", "query": ["mourning jewelry"], "expected_ids": set(),
      "keywords": ["mourning", "丧", "哀悼"]},
     {"id": "P23", "query": ["--match", "any", "旗袍", "太空服"],
-     "expected_ids": {"GAR-0031", "LOOK-0009"},
+     "expected_ids": {"GAR-0031", "LOOK-0009", "LOOK-0011", "LOOK-0019",
+                      "SCN-0006"},
      "keywords": ["旗袍", "qipao", "spacesuit"]},
     {"id": "P24", "query": ["--type", "pattern"], "expected_ids": set(),
      "keywords": [], "any_type": "pattern"},
     {"id": "P25", "query": ["雨", "夜", "调查"], "expected_ids": {
-        "LOOK-0007", "SCN-0001", "GAR-0046", "GAR-0045"},
+        "LOOK-0007", "LOOK-0021", "STY-0005", "SCN-0001", "GAR-0046",
+        "GAR-0045"},
      "keywords": ["雨", "night", "rain", "investig", "调查"]},
 ]
 
@@ -232,6 +237,11 @@ def evaluate_recommendations(all_ids, source_ids):
             "no_fabrication": True,
             "budget_mode": None,
             "budget_cheaper_or_explained": False,
+            "occupation_category": None,
+            "occupation_forbidden": [],
+            "rainwear_false_claim": False,
+            "arctic_indoor": False,
+            "context_mismatch": False,
         }
         if not isinstance(data, dict):
             results.append(metrics)
@@ -247,6 +257,42 @@ def evaluate_recommendations(all_ids, source_ids):
         if expected:
             present = sum(1 for code in expected if code in got_codes)
             metrics["warning_coverage"] = present / float(len(expected))
+        checks_local = data.get("checks", {})
+        metrics["occupation_category"] = checks_local.get("occupation_category")
+        metrics["occupation_forbidden"] = checks_local.get(
+            "occupation_forbidden_selected") or []
+        inp = data.get("input", {})
+        weather = lib.norm_text(str(inp.get("weather", "")))
+        scene_text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                            ("scene", "location", "weather")))
+        indoor = any(marker in scene_text for marker in
+                     ("indoor", "interior", "室内", "office", "corridor", "room",
+                      "kitchen", "hospital", "ward", "studio", "lobby", "hall",
+                      "basement", "apartment", "shelter", "病房", "办公室", "走廊"))
+        rain_only = any(word in weather for word in
+                        ("rain", "rainy", "storm", "drizzle", "monsoon", "雨"))
+        for look in looks:
+            outer = next((item for item in look.get("items", [])
+                          if item.get("slot") == "outerwear"), None)
+            if indoor and outer:
+                outer_text = lib.norm_text(str(outer.get("name_en", "")) + " " +
+                                           str(outer.get("name_zh", "")) + " " +
+                                           " ".join(outer.get("materials", [])))
+                if any(word in outer_text for word in
+                       ("arctic", "anorak", "parka", "fur", "seal", "极地",
+                        "兽皮", "派克")):
+                    metrics["arctic_indoor"] = True
+            if rain_only and not indoor and outer:
+                outer_text = lib.norm_text(str(outer.get("name_en", "")) + " " +
+                                           str(outer.get("name_zh", "")) + " " +
+                                           " ".join(outer.get("tags", [])))
+                if not any(word in outer_text for word in
+                           ("rain", "trench", "raincoat", "waterproof", "雨衣",
+                            "风衣")):
+                    metrics["rainwear_false_claim"] = True
+        for entry in data.get("warnings_detail", []):
+            if entry.get("code") == "rainwear_gap" and "rainwear cards are missing" in entry.get("message", ""):
+                metrics["rainwear_false_claim"] = True
         if looks:
             a = looks[0]
             metrics["example_in_a"] = any(
@@ -269,8 +315,15 @@ def evaluate_recommendations(all_ids, source_ids):
                      ref.get("region_tier") in ("none", None))
                 for ref in refs)
             weather = lib.norm_text(str(inp.get("weather", "")))
-            snow_ok = any(word in weather for word in ("snow", "snowy", "winter",
-                                                       "cold"))
+            scene_text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                                ("scene", "location", "weather")))
+            indoor = any(marker in scene_text for marker in
+                         ("indoor", "interior", "室内", "office", "corridor",
+                          "room", "kitchen", "hospital", "ward", "studio", "lobby",
+                          "hall", "basement", "apartment", "shelter", "病房",
+                          "办公室", "走廊"))
+            snow_ok = (not indoor) and any(word in weather for word in
+                                           ("snow", "snowy", "雪"))
             for look in looks:
                 selected = lib.norm_text(" ".join(
                     str(item.get("name_en", "")) + " " + str(item.get("name_zh", ""))
@@ -280,6 +333,11 @@ def evaluate_recommendations(all_ids, source_ids):
                     if "worn in snow" in prompt and not snow_ok:
                         metrics["prompt_contamination"].append(
                             "%s:%s:worn in snow" % (look.get("look_ref"), field))
+                    if indoor and ("arctic anorak" in prompt.lower() or
+                                   "parka" in prompt.lower()):
+                        metrics["prompt_contamination"].append(
+                            "%s:%s:arctic parka in indoor scene" % (
+                                look.get("look_ref"), field))
                     if "white t-shirt and leather jacket" in prompt and not (
                             "t-shirt" in selected or "leather jacket" in selected):
                         metrics["prompt_contamination"].append(
@@ -334,6 +392,12 @@ def build_summary(query_metrics, rec_metrics, thresholds):
     fabrication = sum(1 for m in rec_metrics if not m["no_fabrication"])
     budget = rate([1.0 if m["budget_c_cheaper_or_explained"] else 0.0
                    for m in rec_metrics])
+    occ_forbidden = sum(len(m["occupation_forbidden"]) for m in rec_metrics)
+    occupation_mismatch_cases = sum(1 for m in rec_metrics
+                                    if m["occupation_forbidden"])
+    rainwear_false = sum(1 for m in rec_metrics if m["rainwear_false_claim"])
+    arctic_indoor = sum(1 for m in rec_metrics if m["arctic_indoor"])
+    context_mismatch = sum(1 for m in rec_metrics if not m["context_clean"])
     current = {
         "snapshot_cards": None,
         "query_relevant_at_5": query_metrics["relevant_at_5"],
@@ -349,6 +413,11 @@ def build_summary(query_metrics, rec_metrics, thresholds):
         "narrative_presence_rate": narrative_rate,
         "prompt_contamination_count": contamination,
         "fabrication_violations": fabrication,
+        "occupation_mismatch_cases": occupation_mismatch_cases,
+        "occupation_forbidden_items": occ_forbidden,
+        "rainwear_false_claim_cases": rainwear_false,
+        "arctic_indoor_cases": arctic_indoor,
+        "context_mismatch_cases": context_mismatch,
     }
     comparisons = [
         ("query relevant@5 (0-5)", BASELINE["query_relevant_at_5"],
@@ -367,6 +436,10 @@ def build_summary(query_metrics, rec_metrics, thresholds):
          current["abc_all_pairwise_distinct_rate"]),
         ("prompt contamination count", BASELINE["prompt_contamination_rate"],
          current["prompt_contamination_count"]),
+        ("occupation mismatch cases (P3-QA D2)", 9, occupation_mismatch_cases),
+        ("false rainwear-missing claims (P3-QA D4)", 2, rainwear_false),
+        ("arctic outerwear indoors (P3-QA M6)", 2, arctic_indoor),
+        ("context mismatch cases (P3-QA M4)", 1, context_mismatch),
     ]
     lines = []
     lines.append("# P3 质量评估 SUMMARY")
@@ -383,10 +456,11 @@ def build_summary(query_metrics, rec_metrics, thresholds):
     lines.append("")
     lines.append("## 当前推荐质量")
     lines.append("")
-    lines.append("- 用例数：%d；崩溃：%d；证据覆盖率：%s；警告覆盖率：%s；A/B/C 全差异率：%s；narrative 覆盖率：%s；context 引用清洁率：%s；预算替代满足率：%s；prompt 串文数：%d；编造违规：%d" % (
+    lines.append("- 用例数：%d；崩溃：%d；证据覆盖率：%s；警告覆盖率：%s；A/B/C 全差异率：%s；narrative 覆盖率：%s；context 引用清洁率：%s；预算替代满足率：%s；prompt 串文数：%d；编造违规：%d；职业错配：%d；虚假 rainwear 声明：%d；室内极地派克：%d；context 错配：%d" % (
         n, sum(1 for m in rec_metrics if m["crashed"]), evidence,
         warning_coverage, abc_rate, narrative_rate, context_clean_rate, budget,
-        contamination, fabrication))
+        contamination, fabrication, occupation_mismatch_cases, rainwear_false,
+        arctic_indoor, context_mismatch))
     lines.append("")
     lines.append("## 逐用例（推荐）")
     lines.append("")
@@ -432,7 +506,7 @@ def main(argv=None):
     query_metrics = evaluate_queries()
     rec_metrics = evaluate_recommendations(all_ids, source_ids)
     thresholds = {
-        "query_relevant_at_5": 3.8,
+        "query_relevant_at_5": 4.0,
         "query_precision": 0.8,
         "query_zero_hit_rate": 0.2,
         "recommend_crash_rate": 0.0,
@@ -444,6 +518,10 @@ def main(argv=None):
         "narrative_presence_rate": 1.0,
         "prompt_contamination_count": 0,
         "fabrication_violations": 0,
+        "occupation_mismatch_cases": 0,
+        "rainwear_false_claim_cases": 0,
+        "arctic_indoor_cases": 0,
+        "context_mismatch_cases": 0,
     }
     current, summary, passed = build_summary(query_metrics, rec_metrics, thresholds)
     current["snapshot_cards"] = len(cards)

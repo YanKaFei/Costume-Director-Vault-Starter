@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T35",
+    "title": "太空站维修工：职业匹配到连体工作服/安全头盔（GAR-0038/0039）",
+    "types": [
+      "occupational",
+      "space",
+      "D2"
+    ],
+    "mode": "standard",
+    "expected_mode": "fictional",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch"
+    ],
+    "query": [
+      "太空",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Kai",
+    "occupation": "space station mechanic",
+    "economic_status": "low",
+    "arc": "repairing a failing station"
+  },
+  "scene": "derelict station corridor",
+  "time": "ship night cycle",
+  "weather": "indoor, cold",
+  "action": "crawling through a service duct with a tool bag",
+  "location": "derelict space station",
+  "season": "controlled indoor",
+  "period": "22nd century",
+  "region": "derelict space station",
+  "art_direction": "minimal staged science fiction",
+  "lighting": "single cold work light",
+  "camera": "handheld medium",
+  "budget": "low",
+  "fidelity_mode": "fictional",
+  "tool": "generic"
+}

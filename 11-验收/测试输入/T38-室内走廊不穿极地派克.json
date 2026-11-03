@@ -1,0 +1,54 @@
+{
+  "_test": {
+    "id": "T38",
+    "title": "室内走廊：不得选极地派克，prompt 不得出现 worn in snow",
+    "types": [
+      "indoor",
+      "M6",
+      "M7"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "prompts",
+      "no_prompt_contamination",
+      "no_arctic_indoor",
+      "warning_absent:rainwear_gap",
+      "query_hits"
+    ],
+    "query": [
+      "办公室",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Shen",
+    "occupation": "clerk",
+    "economic_status": "low",
+    "arc": "keeping up appearances"
+  },
+  "scene": {
+    "scene_id": "S1",
+    "time": "day",
+    "weather": "cold overcast",
+    "action": "waiting on a bench",
+    "location": "office corridor"
+  },
+  "season": "winter",
+  "period": "1890s",
+  "region": "united_states",
+  "art_direction": "intimate low-budget period drama",
+  "lighting": "soft window daylight",
+  "camera": "medium shot",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

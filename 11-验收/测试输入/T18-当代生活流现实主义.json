@@ -10,7 +10,8 @@
     "criteria": [
       "three_looks",
       "ids_exist",
-      "prompts"
+      "prompts",
+      "no_occupation_mismatch"
     ],
     "query": [
       "trousers",

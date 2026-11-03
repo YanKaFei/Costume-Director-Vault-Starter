@@ -1,0 +1,54 @@
+{
+  "_test": {
+    "id": "T37",
+    "title": "1930s 上海雨夜：优先风衣/雨衣，不虚报 rainwear 缺口",
+    "types": [
+      "historical_accuracy",
+      "rainwear",
+      "D4",
+      "M6"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "rainwear_selected",
+      "warning_absent:rainwear_gap",
+      "query_hits"
+    ],
+    "query": [
+      "雨衣",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Shen",
+    "occupation": "journalist",
+    "economic_status": "middle",
+    "arc": "chasing a story through the rain"
+  },
+  "scene": "rain-soaked newspaper alley",
+  "time": "night",
+  "weather": "heavy rain",
+  "action": "walking quickly with a notebook",
+  "location": "shanghai alley",
+  "season": "autumn",
+  "period": "1930s",
+  "region": "shanghai",
+  "art_direction": "restrained historical noir",
+  "lighting": "sodium street light",
+  "camera": "medium tracking",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "generic"
+}

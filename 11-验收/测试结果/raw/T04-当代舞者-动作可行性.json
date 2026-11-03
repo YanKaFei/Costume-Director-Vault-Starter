@@ -22,254 +22,84 @@
     "story_day": "1",
     "gender": "unknown",
     "state": {},
-    "notes": ""
+    "notes": "",
+    "location": "rehearsal studio"
   },
   "fidelity_mode": "inspired",
   "looks": [
     {
       "look_ref": "A",
       "source_look_id": null,
-      "total": 53.4,
+      "total": 46.3,
       "scores": {
         "period": 23.0,
-        "identity": 5.8,
+        "identity": 1.8,
         "environment": 1.8,
-        "art": 3.3,
-        "movement": 5.7,
+        "art": 3.4,
+        "movement": 4.6,
         "arc": 4.8,
         "camera": 6.9
       },
       "missing": [],
-      "cost": 0.213,
-      "cost_total": 0.638,
+      "cost": 0.321,
+      "cost_total": 0.643,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
         "set": "era",
-        "outerwear": "era",
         "footwear": "era"
       },
       "region_tiers": {
         "set": "unknown",
-        "outerwear": "unknown",
         "footwear": "unknown"
       },
       "colors": [
         "black",
-        "navy",
+        "blue",
+        "brown",
+        "indigo",
         "white"
       ],
       "style_tags": [
-        "medical",
-        "occupational",
-        "uniform"
+        "african",
+        "country",
+        "military",
+        "west",
+        "west african"
       ],
-      "budget_mode": "cheaper",
-      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "budget_mode": "equivalent_cost",
+      "budget_explanation": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
       "differences": {
-        "a_b": 3,
-        "a_c": 3,
-        "b_c": 4
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 2
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from functional / functional / functional; the black, navy, white palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual; the black, blue, brown palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "set",
-          "id": "GAR-0042",
-          "name_zh": "警察制服",
-          "name_en": "police uniform",
+          "id": "GAR-0005",
+          "name_zh": "布布长袍",
+          "name_en": "boubou",
           "colors": [
-            "navy",
-            "black"
-          ],
-          "materials": [
-            "wool",
-            "polyester",
-            "cotton"
-          ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.34168750000000003,
-            "environment": 0.12249999999999998,
-            "art": 0.21102150537634407,
-            "movement": 0.5714285714285714,
-            "arc": 0.48,
-            "camera": 0.69
-          }
-        },
-        {
-          "slot": "outerwear",
-          "id": "GAR-0041",
-          "name_zh": "医生白袍",
-          "name_en": "doctor’s white coat",
-          "colors": [
-            "white"
+            "indigo",
+            "white",
+            "blue"
           ],
           "materials": [
             "cotton",
-            "polyester"
+            "indigo_dyed_cotton"
           ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0106"
+          ],
           "scores": {
             "period": 0.92,
-            "identity": 0.44418749999999996,
+            "identity": 0.047334375000000005,
             "environment": 0.12249999999999998,
             "art": 0.21102150537634407,
-            "movement": 0.5714285714285714,
-            "arc": 0.48,
-            "camera": 0.69
-          }
-        },
-        {
-          "slot": "footwear",
-          "id": "GAR-0044",
-          "name_zh": "医疗工作鞋",
-          "name_en": "medical work shoes",
-          "colors": [
-            "white",
-            "black"
-          ],
-          "materials": [
-            "leather",
-            "rubber",
-            "synthetic"
-          ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.3754375,
-            "environment": 0.12249999999999998,
-            "art": 0.25268817204301075,
-            "movement": 0.5714285714285714,
-            "arc": 0.48,
-            "camera": 0.69
-          }
-        }
-      ],
-      "parts": [],
-      "materials": [
-        {
-          "id": "MAT-0001",
-          "slot": "set"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "outerwear"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult Qiao, complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: black, navy, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: complete set: police uniform, badge and number, belt with equipment, polished shoes, high-visibility variant; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
-      "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10",
-        "成套: GAR-0042 警察制服 (functional)",
-        "外层: GAR-0041 医生白袍 (functional)",
-        "足部: GAR-0044 医疗工作鞋 (functional)",
-        "linked material cards: MAT-0001, MAT-0003"
-      ],
-      "risks": [
-        "region mismatch in GAR-0042, GAR-0041, GAR-0044: cards document their own regions, not unspecified city",
-        "character psychology is a directorial interpretation, not a clothing-history fact",
-        "all images remain external links; no third-party images are embedded in the vault"
-      ],
-      "evidence": {
-        "source_ids": [
-          "SRC-0102",
-          "SRC-0142"
-        ],
-        "source_urls": [
-          {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          }
-        ],
-        "context_style_ids": [
-          "STY-0009"
-        ],
-        "context_period_ids": [
-          "PRD-0004"
-        ],
-        "context_scene_ids": [],
-        "item_evidence": {
-          "GAR-0042": "interpretive",
-          "GAR-0041": "interpretive",
-          "GAR-0044": "interpretive"
-        },
-        "missing_urls": []
-      }
-    },
-    {
-      "look_ref": "B",
-      "source_look_id": null,
-      "total": 51.2,
-      "scores": {
-        "period": 23.0,
-        "identity": 4.3,
-        "environment": 1.8,
-        "art": 3.4,
-        "movement": 5.0,
-        "arc": 4.8,
-        "camera": 6.9
-      },
-      "missing": [],
-      "cost": 0.206,
-      "cost_total": 0.413,
-      "contains_example": false,
-      "evidence_tier": "era",
-      "period_tiers": {
-        "set": "era",
-        "footwear": "era"
-      },
-      "region_tiers": {
-        "set": "unknown",
-        "footwear": "unknown"
-      },
-      "colors": [
-        "black",
-        "brown",
-        "navy"
-      ],
-      "style_tags": [
-        "country",
-        "military",
-        "occupational",
-        "uniform"
-      ],
-      "budget_mode": null,
-      "budget_explanation": null,
-      "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from functional / smart_casual; the black, brown, navy palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
-      "items": [
-        {
-          "slot": "set",
-          "id": "GAR-0042",
-          "name_zh": "警察制服",
-          "name_en": "police uniform",
-          "colors": [
-            "navy",
-            "black"
-          ],
-          "materials": [
-            "wool",
-            "polyester",
-            "cotton"
-          ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.34168750000000003,
-            "environment": 0.12249999999999998,
-            "art": 0.21102150537634407,
-            "movement": 0.5714285714285714,
+            "movement": 0.5,
             "arc": 0.48,
             "camera": 0.69
           }
@@ -307,28 +137,199 @@
         {
           "id": "MAT-0001",
           "slot": "set"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "set"
         }
       ],
-      "prompt_image": "full-body character design of an adult Qiao, complete set: police uniform, badge and number, belt with equipment, high-visibility variant; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, navy, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: complete set: police uniform, badge and number, belt with equipment, high-visibility variant; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: natural fabric response to the action, gravity and wind, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "prompt_image": "full-body character design of an adult Qiao, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue, brown, indigo, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: natural fabric response to the action, gravity and wind, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.9/10",
-        "成套: GAR-0042 警察制服 (functional)",
+        "成套: GAR-0005 布布长袍 (ceremonial)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001"
+        "linked material cards: MAT-0001, MAT-0003"
       ],
       "risks": [
-        "region mismatch in GAR-0042, GAR-0022: cards document their own regions, not unspecified city",
+        "region mismatch in GAR-0005, GAR-0022: cards document their own regions, not unspecified city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0106",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0106",
+            "url": "https://fashionhistory.fitnyc.edu/boubou/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [
+          "PRD-0004"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0005": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 45.9,
+      "scores": {
+        "period": 23.0,
+        "identity": 1.8,
+        "environment": 1.8,
+        "art": 3.2,
+        "movement": 4.6,
+        "arc": 4.8,
+        "camera": 6.7
+      },
+      "missing": [],
+      "cost": 0.321,
+      "cost_total": 0.643,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "footwear": "unknown"
+      },
+      "colors": [
+        "black",
+        "brown",
+        "multicolor",
+        "striped"
+      ],
+      "style_tags": [
+        "african",
+        "ceremonial",
+        "country",
+        "menswear",
+        "military",
+        "west",
+        "west african"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual; the black, brown, multicolor palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0069",
+          "name_zh": "阿格巴达",
+          "name_en": "agbada",
+          "colors": [
+            "striped",
+            "multicolor"
+          ],
+          "materials": [
+            "cotton",
+            "velvet",
+            "embroidery"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0430"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.047334375000000005,
+            "environment": 0.12249999999999998,
+            "art": 0.18870967741935482,
+            "movement": 0.5,
+            "arc": 0.48,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.210375,
+            "environment": 0.12249999999999998,
+            "art": 0.24973118279569892,
+            "movement": 0.4,
+            "arc": 0.48,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "one_piece"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Qiao, one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, multicolor, striped, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 宽大长袍限制快走; 宽袖在动作中大幅摆动; 刺绣部位易勾挂。, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
+        "连身: GAR-0069 阿格巴达 (ceremonial)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001"
+      ],
+      "risks": [
+        "region mismatch in GAR-0069, GAR-0022: cards document their own regions, not unspecified city",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0430",
           "SRC-0123",
           "SRC-0102"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0430",
+            "url": "https://collections.vam.ac.uk/item/O1678646/"
+          },
           {
             "source_id": "SRC-0123",
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
@@ -346,7 +347,7 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0042": "interpretive",
+          "GAR-0069": "verified",
           "GAR-0022": "verified"
         },
         "missing_urls": []
@@ -355,122 +356,180 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 43.4,
+      "total": 39.5,
       "scores": {
         "period": 14.8,
-        "identity": 4.5,
-        "environment": 1.8,
-        "art": 3.6,
-        "movement": 4.8,
-        "arc": 4.1,
+        "identity": 2.8,
+        "environment": 4.4,
+        "art": 3.9,
+        "movement": 4.0,
+        "arc": 4.8,
         "camera": 6.9
       },
       "missing": [],
-      "cost": 0.213,
-      "cost_total": 0.425,
+      "cost": 0.296,
+      "cost_total": 0.593,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "set": "era",
+        "one_piece": "era",
         "footwear": "era"
       },
       "region_tiers": {
-        "set": "unknown",
+        "one_piece": "unknown",
         "footwear": "unknown"
       },
       "colors": [
         "black",
-        "blue",
+        "brown",
+        "mid blue",
+        "orange red",
+        "pink",
         "white"
       ],
       "style_tags": [
-        "costume",
-        "medical",
-        "occupational",
-        "television",
-        "television costume"
+        "art",
+        "art deco",
+        "country",
+        "deco",
+        "era",
+        "military",
+        "modern",
+        "republican",
+        "republican era",
+        "shanghai",
+        "shanghai modern"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from functional / functional; the black, blue, white palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual; the black, brown, mid blue palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "set",
-          "id": "GAR-0036",
-          "name_zh": "护士制服",
-          "name_en": "nurse uniform",
+          "slot": "one_piece",
+          "id": "GAR-0031",
+          "name_zh": "旗袍",
+          "name_en": "qipao",
           "colors": [
             "white",
-            "blue"
+            "orange_red",
+            "pink",
+            "mid_blue"
           ],
           "materials": [
-            "polyester"
+            "silk",
+            "synthetic_velvet",
+            "crepe",
+            "silk_damask"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0400"
+            "SRC-0200",
+            "SRC-0201"
           ],
           "scores": {
             "period": 0.33075,
-            "identity": 0.23793749999999997,
-            "environment": 0.12249999999999998,
-            "art": 0.23037634408602148,
+            "identity": 0.16706250000000003,
+            "environment": 0.4225,
+            "art": 0.27204301075268816,
             "movement": 0.4,
-            "arc": 0.35,
+            "arc": 0.48,
             "camera": 0.69
           }
         },
         {
           "slot": "footwear",
-          "id": "GAR-0044",
-          "name_zh": "医疗工作鞋",
-          "name_en": "medical work shoes",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
           "colors": [
-            "white",
-            "black"
+            "black",
+            "brown"
           ],
           "materials": [
             "leather",
-            "rubber",
-            "synthetic"
+            "rubber"
           ],
-          "evidence_status": "interpretive",
-          "source_ids": [],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
           "scores": {
             "period": 0.92,
-            "identity": 0.3754375,
+            "identity": 0.210375,
             "environment": 0.12249999999999998,
-            "art": 0.25268817204301075,
-            "movement": 0.5714285714285714,
+            "art": 0.24973118279569892,
+            "movement": 0.4,
             "arc": 0.48,
             "camera": 0.69
           }
         }
       ],
-      "parts": [],
-      "materials": [],
-      "prompt_image": "full-body character design of an adult Qiao, complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: black, blue, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots --ar 2:3 --style raw --v 6",
-      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: natural fabric response to the action, gravity and wind, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots",
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "one_piece"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Qiao, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, mid blue, orange red, pink, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
       "reasons": [
         "highest scoring dimensions: 年代/文化 14.8/25, 摄影/一致性 6.9/10",
-        "成套: GAR-0036 护士制服 (functional)",
-        "足部: GAR-0044 医疗工作鞋 (functional)"
+        "连身: GAR-0031 旗袍 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0002, MAT-0003"
       ],
       "risks": [
-        "region mismatch in GAR-0036, GAR-0044: cards document their own regions, not unspecified city",
+        "region mismatch in GAR-0031, GAR-0022: cards document their own regions, not unspecified city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0400"
+          "SRC-0200",
+          "SRC-0201",
+          "SRC-0123",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0142"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0400",
-            "url": "https://collections.vam.ac.uk/item/O1224877/"
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           }
         ],
         "context_style_ids": [
@@ -481,8 +540,8 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0036": "verified",
-          "GAR-0044": "interpretive"
+          "GAR-0031": "verified",
+          "GAR-0022": "verified"
         },
         "missing_urls": []
       }
@@ -517,21 +576,35 @@
   ],
   "brief_parse": null,
   "conflicts": [],
-  "warnings_detail": [],
+  "warnings_detail": [
+    {
+      "code": "occupation_coverage_gap",
+      "severity": "medium",
+      "message": "the vault has no 'contemporary dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "budget_equivalent",
+      "severity": "medium",
+      "message": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "items": [],
+      "look": null
+    }
+  ],
   "budget_model": {
-    "mode": "cheaper",
-    "a_cost_total": 0.638,
-    "c_cost_total": 0.425,
+    "mode": "equivalent_cost",
+    "a_cost_total": 0.643,
+    "c_cost_total": 0.593,
     "differences": {
-      "a_b": 3,
-      "a_c": 3,
-      "b_c": 4
+      "a_b": 2,
+      "a_c": 2,
+      "b_c": 2
     }
   },
   "retrieved_ids": {
     "upper_body": [
       "GAR-EXAMPLE-001",
-      "GAR-0043",
       "GAR-0006",
       "GAR-0008",
       "GAR-0007",
@@ -542,15 +615,12 @@
     "lower_body": [
       "GAR-0014",
       "GAR-0010",
-      "GAR-0059",
       "GAR-0011",
       "GAR-0013"
     ],
     "set": [
-      "GAR-0042",
       "GAR-0005",
       "GAR-0001",
-      "GAR-0036",
       "GAR-0065",
       "GAR-0030"
     ],
@@ -559,23 +629,17 @@
       "GAR-0012"
     ],
     "outerwear": [
-      "GAR-0041",
       "GAR-0045",
       "GAR-0057",
-      "GAR-0040",
       "GAR-0016",
       "GAR-0018",
       "GAR-0046",
-      "GAR-0037",
       "GAR-0017",
       "GAR-0033"
     ],
     "accessory": [
       "GAR-0070",
-      "GAR-0050",
-      "GAR-0051",
       "GAR-0027",
-      "GAR-0039",
       "GAR-0021",
       "GAR-0026",
       "GAR-0068",
@@ -590,7 +654,6 @@
       "GAR-0049"
     ],
     "footwear": [
-      "GAR-0044",
       "GAR-0022",
       "GAR-0023",
       "GAR-0035",
@@ -618,10 +681,45 @@
   },
   "rejected": [
     {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
       "id": "GAR-0019",
       "slot": "outerwear",
       "reasons": [
         "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
       ]
     },
     {
@@ -630,13 +728,72 @@
       "reasons": [
         "dance: heels unsafe for dance movement"
       ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'contemporary dancer'"
+      ]
     }
   ],
   "warnings": [
     "no upper_body candidates retrieved",
-    "no lower_body candidates retrieved"
+    "no lower_body candidates retrieved",
+    "the vault has no 'contemporary dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+    "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
   ],
   "sources": [
+    {
+      "source_id": "SRC-0106",
+      "url": "https://fashionhistory.fitnyc.edu/boubou/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
     {
       "source_id": "SRC-0102",
       "url": "https://fashionhistory.fitnyc.edu/muslin/"
@@ -646,12 +803,24 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
-      "source_id": "SRC-0123",
-      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+      "source_id": "SRC-0430",
+      "url": "https://collections.vam.ac.uk/item/O1678646/"
     },
     {
-      "source_id": "SRC-0400",
-      "url": "https://collections.vam.ac.uk/item/O1224877/"
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     }
   ],
   "missing_urls": [],
@@ -670,7 +839,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
-    "warnings_count": 2,
-    "rejected_count": 2
+    "occupation_category": "generic:dancer",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 4,
+    "rejected_count": 14
   }
 }

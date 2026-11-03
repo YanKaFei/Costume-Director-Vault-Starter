@@ -102,7 +102,8 @@ SUBCATEGORY_TO_SLOT = {
     "trousers": "lower_body", "pants": "lower_body", "skirt": "lower_body",
     "shorts": "lower_body", "culottes": "lower_body",
     "dress": "one_piece", "gown": "one_piece", "jumpsuit": "one_piece",
-    "overalls": "one_piece", "robe": "one_piece", "qipao": "one_piece",
+    "overalls": "one_piece", "coverall": "one_piece", "robe": "one_piece",
+    "qipao": "one_piece", "uniform dress": "one_piece",
     "cheongsam": "one_piece", "hanfu": "set", "kimono": "set",
     "uniform": "set", "suit": "set",
     "boots": "footwear", "shoes": "footwear", "sneakers": "footwear",
@@ -139,6 +140,30 @@ COLD_TOKENS = {"cold", "freezing", "winter", "snow", "snowy", "chill",
 HOT_TOKENS = {"hot", "summer", "heat", "humid", "tropical", "sunny",
               "热", "夏", "暑"}
 WIND_TOKENS = {"wind", "windy", "storm", "typhoon", "风"}
+RAIN_ONLY_TOKENS = {"rain", "raining", "rainy", "storm", "stormy", "drizzle",
+                    "drizzling", "monsoon", "typhoon", "wet", "shower",
+                    "downpour", "雨", "暴雨"}
+INDOOR_MARKERS = ("indoor", "interior", "室内", "office", "corridor", "room",
+                  "kitchen", "hospital", "ward", "studio", "lobby", "hall",
+                  "basement", "apartment", "shelter", "waiting room", "病房",
+                  "办公室", "走廊", "房间", "厨房", "医院", "地下室", "公寓")
+
+
+def is_rainwear_card(card):
+    meta = card["meta"]
+    text = lib.norm_text(lib.get_str(meta, "name_zh") + " " +
+                         lib.get_str(meta, "name_en") + " " +
+                         " ".join(lib.get_list(meta, "tags")))
+    return any(word in text for word in
+               ("rain", "waterproof", "water resistant", "water_resistant",
+                "雨衣", "风衣", "trench", "raincoat"))
+
+
+def is_indoor_context(ctx):
+    inp = ctx["input"]
+    text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                  ("scene", "weather", "location", "time")))
+    return any(marker in text for marker in INDOOR_MARKERS)
 
 WEATHER_MATERIALS = {
     "rain": {"wool": 0.9, "leather": 0.9, "gabardine": 1.0, "nylon": 0.9,
@@ -235,6 +260,175 @@ ECONOMIC_HINTS = {
              ["tailored", "fine", "silk", "velvet", "jewelry", "elegant",
               "formal", "polished"]),
 }
+
+# ---------------------------------------------------------------------------
+# occupation / occasion mapping (P3.1 D2)
+# ---------------------------------------------------------------------------
+OCCUPATION_PROFILES = {
+    "nurse": {
+        "keywords": ("nurse", "nursing", "急诊", "护士", "medical",
+                     "医院", "emergency ward"),
+        "groups": {"medical", "badge"},
+        "affinity_ids": {"GAR-0036": 1.0, "GAR-0044": 0.65, "GAR-0050": 0.35,
+                         "GAR-0048": 0.25, "LOOK-0010": 1.0,
+                         "GAR-0041": 0.0, "GAR-0042": 0.0},
+    },
+    "doctor": {
+        "keywords": ("doctor", "physician", "surgeon", "医生", "医师"),
+        "groups": {"medical", "badge"},
+        "affinity_ids": {"GAR-0041": 1.0, "GAR-0044": 0.55, "GAR-0050": 0.3,
+                         "LOOK-0010": 0.35, "GAR-0036": 0.0, "GAR-0042": 0.0},
+    },
+    "police": {
+        "keywords": ("police", "constable", "cop", "警察", "警官"),
+        "groups": {"police", "badge"},
+        "affinity_ids": {"GAR-0042": 1.0, "GAR-0050": 0.45, "GAR-0036": 0.0,
+                         "GAR-0041": 0.0},
+    },
+    "chef": {
+        "keywords": ("chef", "cook", "culinary", "厨师", "厨房"),
+        "groups": {"culinary"},
+        "affinity_ids": {"GAR-0043": 1.0, "GAR-0042": 0.0, "GAR-0041": 0.0},
+    },
+    "space": {
+        "keywords": ("astronaut", "space station mechanic", "space mechanic",
+                     "space station engineer", "station technician",
+                     "维修工", "技师", "航天员",
+                     "空间站维修", "orbital mechanic"),
+        "groups": {"space", "workwear", "protective"},
+        "affinity_ids": {"GAR-0038": 1.0, "GAR-0039": 0.9, "GAR-0037": 0.55,
+                         "LOOK-0011": 1.0},
+    },
+    "firefighter": {
+        "keywords": ("firefighter", "fireman", "消防员", "消防"),
+        "groups": {"protective", "space"},
+        "affinity_ids": {"GAR-0037": 1.0, "GAR-0039": 0.6},
+    },
+    "military": {
+        "keywords": ("soldier", "military", "officer", "army", "军人",
+                     "士兵", "军官"),
+        "groups": {"military", "badge"},
+        "affinity_ids": {"GAR-0040": 1.0, "GAR-0050": 0.5},
+    },
+    "wedding": {
+        "occasion": True,
+        "keywords": ("wedding", "bride", "groom", "marriage", "婚礼",
+                     "新娘", "新郎"),
+        "groups": {"bridal", "cultural", "ceremonial"},
+        "affinity_ids": {"GAR-0063": 0.9, "GAR-0068": 0.9, "GAR-0069": 0.9,
+                         "GAR-0070": 0.85, "LOOK-0013": 1.0, "LOOK-0018": 0.7,
+                         "LOOK-0020": 0.8, "GAR-0005": 0.5},
+    },
+}
+GENERIC_PROFESSIONS = {
+    "architect", "teacher", "dancer", "journalist", "student", "singer",
+    "courier", "writer", "artist", "lawyer", "banker", "merchant", "farmer",
+    "clerk", "servant", "investigator", "detective", "professor", "photographer",
+    "musician", "actor", "builder", "driver", "engineer", "设计师",
+    "建筑师", "教师", "老师", "舞者",
+    "记者", "学生", "歌手", "信使", "作家",
+    "艺术家", "律师", "银行家", "商人",
+    "农民", "职员", "仆人", "调查员",
+    "侦探", "摄影师", "音乐家", "演员",
+    "工程师",
+}
+EXCLUSIVE_PROFESSION_IDS = {
+    "GAR-0036": "nurse",
+    "GAR-0041": "doctor",
+    "GAR-0042": "police",
+    "GAR-0043": "chef",
+}
+UNIFORM_GROUPS = {"medical", "police", "culinary", "space", "workwear",
+                  "protective", "military", "badge"}
+
+
+def _text_has_keyword(text, keywords):
+    return any(keyword in text for keyword in keywords)
+
+
+def detect_occupation_profile(inp):
+    text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                  ("occupation", "role", "character_name", "arc")))
+    event_text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                        ("scene", "action", "notes", "arc")))
+    for category, profile in OCCUPATION_PROFILES.items():
+        hay = text + " " + event_text if profile.get("occasion") else text
+        if _text_has_keyword(hay, profile["keywords"]):
+            return {"category": category,
+                    "groups": set(profile.get("groups", set())),
+                    "affinity_ids": dict(profile.get("affinity_ids", {})),
+                    "keywords": profile["keywords"],
+                    "occasion": bool(profile.get("occasion"))}
+    for word in GENERIC_PROFESSIONS:
+        if word in text:
+            return {"category": "generic:" + word, "groups": set(),
+                    "affinity_ids": {}, "keywords": (word,), "occasion": False}
+    return None
+
+
+def card_occupation_groups(card):
+    meta = card["meta"]
+    tags = set(lib.norm_text(" ".join(lib.get_list(meta, "tags"))).split())
+    name = lib.norm_text(lib.get_str(meta, "name_zh") + " " +
+                         lib.get_str(meta, "name_en"))
+    groups = set()
+    if "medical" in tags:
+        groups.add("medical")
+    if "culinary" in tags:
+        groups.add("culinary")
+    if "uniform" in tags or "police" in name or "police" in tags:
+        groups.add("police")
+    if "military" in tags or "军装" in name:
+        groups.add("military")
+    if "badge" in tags or "insignia" in tags or "徽章" in name:
+        groups.add("badge")
+    if "protective" in tags or "space_age" in tags:
+        groups.add("protective")
+    if "space" in name or "头盔" in name:
+        if "space_age" in tags or "宇航" in name or "空间" in name:
+            groups.add("space")
+    if "workwear" in tags:
+        groups.add("workwear")
+    if "bridal" in tags or "wedding" in tags or "婚礼" in name:
+        groups.add("bridal")
+    if "ceremonial" in tags:
+        groups.add("ceremonial")
+    if "west_africa" in tags or "south_asia" in tags:
+        groups.add("cultural")
+    return groups
+
+
+def curated_look_matches_occupation(card, occ):
+    if not occ:
+        return False
+    text = lib.norm_text(lib.get_str(card["meta"], "name_zh") + " " +
+                         lib.get_str(card["meta"], "name_en") + " " +
+                         " ".join(lib.get_list(card["meta"], "tags")))
+    if any(keyword in text for keyword in occ["keywords"]):
+        return True
+    if occ["category"] == "nurse" and ("护士" in text or "nurse" in text):
+        return True
+    if occ["category"] == "space" and ("空间站" in text or "space" in text):
+        return True
+    if occ["category"] == "wedding" and ("婚礼" in text or "wedding" in text or
+                                         "bridal" in text):
+        return True
+    return False
+
+
+def occupation_card_affinity(card, occ):
+    if not occ:
+        return None
+    cid = lib.get_str(card["meta"], "id")
+    if cid in occ["affinity_ids"]:
+        return occ["affinity_ids"][cid]
+    groups = card_occupation_groups(card)
+    if groups & occ["groups"]:
+        return 0.45
+    if groups & UNIFORM_GROUPS:
+        return 0.0
+    return None
+
 
 ARC_HINTS = [
     ({"decline", "fall", "downfall", "落魄", "失势", "衰败", "没落"},
@@ -561,15 +755,19 @@ def classify_slot(card):
         if "uniform" in sub or "制服" in sub:
             return "set"
         return "set"
-    if cat in CATEGORY_TO_SLOT:
-        return CATEGORY_TO_SLOT[cat]
     for key, slot in CATEGORY_TO_SLOT.items():
-        if key and (key in cat or cat in key):
+        if lib.norm_text(key) == cat:
             return slot
-    if sub in SUBCATEGORY_TO_SLOT:
-        return SUBCATEGORY_TO_SLOT[sub]
+    for key, slot in CATEGORY_TO_SLOT.items():
+        norm_key = lib.norm_text(key)
+        if norm_key and (norm_key in cat or cat in norm_key):
+            return slot
     for key, slot in SUBCATEGORY_TO_SLOT.items():
-        if key and (key in sub or sub in key):
+        if lib.norm_text(key) == sub:
+            return slot
+    for key, slot in SUBCATEGORY_TO_SLOT.items():
+        norm_key = lib.norm_text(key)
+        if norm_key and (norm_key in sub or sub in norm_key):
             return slot
     text = " ".join([
         cat, sub,
@@ -689,6 +887,9 @@ def normalise_input(raw):
         "state": raw.get("state") if isinstance(raw.get("state"), dict) else {},
         "notes": as_text(get("notes", "brief")) or "",
     }
+    inp["location"] = as_text(first_present(
+        (raw, ("location",)), (scene, ("location", "place", "setting_detail")),
+        (character, ("location",)))) or ""
     inp["gender"] = inp["gender_presentation"]
     mode = lib.norm_text(inp["fidelity_mode"])
     if mode.startswith("hist") or "史实" in inp["fidelity_mode"] or "历史" in inp["fidelity_mode"]:
@@ -772,6 +973,10 @@ def rank_context_cards(cards, inp):
         if ctype == "style":
             if status == "example":
                 continue
+            if (card_period_profile(card)["centuries"] or
+                    card_period_profile(card)["eras"]):
+                if reco_norm.period_tier(want_period, card_period_profile(card)) == "none":
+                    continue
             hay = meta_tokens(card, "style_tags", "name_zh", "name_en", "aliases",
                               "tags", "colors", "materials", "style_period",
                               "design_language", "style_family")
@@ -837,6 +1042,20 @@ def build_context(cards, inp):
            "ranked": ranked}
     ctx["period_profile"] = ctx_period_profile(ctx)
     ctx["region_profile"] = ctx_region_profile(ctx)
+    ctx["occupation_profile"] = detect_occupation_profile(inp)
+    ctx["rainwear_ids"] = []
+    for card in cards:
+        ctype = lib.norm_text(card["meta"].get("type"))
+        if ctype not in ("garment", "outerwear"):
+            continue
+        text = lib.norm_text(
+            lib.get_str(card["meta"], "name_zh") + " " +
+            lib.get_str(card["meta"], "name_en") + " " +
+            " ".join(lib.get_list(card["meta"], "tags")))
+        if any(word in text for word in ("rain", "waterproof", "water resistant",
+                                         "water_resistant", "雨衣", "风衣",
+                                         "trench", "raincoat")):
+            ctx["rainwear_ids"].append(lib.get_str(card["meta"], "id"))
     preferred = set()
     colors = set()
     materials = set()
@@ -921,7 +1140,7 @@ def hard_filter(card, slot, ctx):
     # indoor scenes should not use arctic/snow outerwear unless snow is present
     scene_weather = lib.norm_text(inp.get("scene", "") + " " + inp.get("weather", "") +
                                   " " + inp.get("season", ""))
-    indoor = any(word in scene_weather for word in ("indoor", "interior", "室内"))
+    indoor = is_indoor_context(ctx)
     snow = any(word in scene_weather for word in ("snow", "snowy", "雪", "arctic", "北极"))
     if indoor and not snow and slot == "outerwear":
         item_text = lib.norm_text(
@@ -932,6 +1151,21 @@ def hard_filter(card, slot, ctx):
                ("arctic", "anorak", "parka", "fur", "seal skin", "caribou",
                 "极地", "兽皮")):
             reasons.append("indoor scene: arctic/snow outerwear unsuitable")
+
+    # D2: occupational uniforms must match the requested profession; never use
+    # another profession's uniform as a generic filler.
+    occ = ctx.get("occupation_profile")
+    if lib.norm_text(meta.get("type")) == "garment":
+        groups = card_occupation_groups(card)
+        if groups & UNIFORM_GROUPS:
+            cid = lib.get_str(meta, "id")
+            exclusive_owner = EXCLUSIVE_PROFESSION_IDS.get(cid)
+            if occ is None or not (occ["groups"] & groups):
+                reasons.append("occupational mismatch: the look is for %r" % (
+                    inp.get("occupation") or "unknown profession"))
+            elif exclusive_owner and occ["category"] != exclusive_owner:
+                reasons.append("occupational mismatch: %s belongs to %s, not %s" % (
+                    cid, exclusive_owner, occ["category"]))
 
     weather = expand_tokens(inp["weather"])
     action = expand_tokens(inp["action"])
@@ -1065,6 +1299,11 @@ def dim_identity(card, ctx):
             econ_frac = 0.45 * econ_frac + 0.55 * align
             if formality <= 0.2:       # casual/functional garment for high status
                 econ_frac *= 0.6
+    employer = ctx.get("occupation_profile")
+    if employer:
+        affinity = occupation_card_affinity(card, employer)
+        if affinity is not None:
+            occ_frac = 0.45 * occ_frac + 0.55 * affinity
     return clamp(0.55 * occ_frac + 0.45 * econ_frac)
 
 
@@ -1269,6 +1508,16 @@ def build_pools(cards, ctx):
                 rejected.append({"id": entry["id"], "slot": "footwear",
                                  "reasons": entry["reasons"] + [
                                      "relaxed fallback: no weather-appropriate footwear"]})
+    weather = expand_tokens(inp.get("weather", ""))
+    rain_only = bool(weather & RAIN_ONLY_TOKENS)
+    if rain_only and pools.get("outerwear"):
+        rainwear = [item for item in pools["outerwear"]
+                    if is_rainwear_card(item["card"])]
+        if rainwear:
+            pools["outerwear"] = rainwear
+            ctx["rainwear_preferred"] = [item["id"] for item in rainwear]
+        else:
+            ctx["rainwear_unavailable"] = True
     for slot in pools:
         pools[slot].sort(key=lambda item: (-item["total"], item["id"]))
     ctx["rejected"] = rejected
@@ -1617,6 +1866,10 @@ def build_combos(pools, ctx, cards):
             continue
         if hard_filter(card, "look", ctx):
             continue
+        occ = ctx.get("occupation_profile")
+        look_groups = card_occupation_groups(card)
+        if (look_groups & UNIFORM_GROUPS) and not curated_look_matches_occupation(card, occ):
+            continue
         items = {}
         candidate_ids = lib.get_list(card["meta"], "look_items") + \
             lib.find_wikilink_ids(card.get("body", ""))
@@ -1625,9 +1878,16 @@ def build_combos(pools, ctx, cards):
                 continue
             garment = id_to_card[gid]
             slot = classify_slot(garment)
-            if slot and slot not in items and not hard_filter(garment, slot, ctx):
-                item = score_item(garment, slot, ctx)
-                items[slot] = item
+            if not slot or slot in items:
+                continue
+            reasons = hard_filter(garment, slot, ctx)
+            if curated_look_matches_occupation(card, occ):
+                # a curated profession look is internally coherent even when one
+                # layer belongs to an adjacent medical role (e.g. LOOK-0010)
+                reasons = [reason for reason in reasons
+                           if not reason.startswith("occupational mismatch")]
+            if not reasons:
+                items[slot] = score_item(garment, slot, ctx)
         if len(items) < 2:
             continue
         # A curated look is a fixed composition: skip it when the current scene
@@ -1660,6 +1920,10 @@ def pick_looks(combos, curated, ctx, cards):
     for look_id, card, items in curated:
         look = score_look(items, ctx, cards, source_look_id=look_id, full=False)
         look["total"] = clamp(look["total"] + 3.0, 0.0, 100.0)  # curated coherence bonus
+        occ = ctx.get("occupation_profile")
+        if curated_look_matches_occupation(card, occ):
+            look["total"] = clamp(look["total"] + 8.0, 0.0, 100.0)
+            look["curated_occupation_match"] = True
         scored.append(look)
     if not scored:
         return []
@@ -1763,6 +2027,8 @@ def pick_looks(combos, curated, ctx, cards):
         if source_look_id:
             rebuilt["total"] = clamp(rebuilt["total"] + 3.0, 0.0, 100.0)
         rebuilt["selection_warning_codes"] = result["warning_codes"]
+        if look.get("curated_occupation_match"):
+            rebuilt["curated_occupation_match"] = True
         full_looks.append(rebuilt)
 
     # Difference metadata for reporting and acceptance criteria.
@@ -2143,32 +2409,61 @@ def build_result_warnings(result, ctx, cards):
               "looks are missing required layers: %s (no invented replacements)" %
               ", ".join(sorted(missing_slots)))
 
-    # occupational coverage: look for an explicitly occupational card/tag.
-    occ_text = lib.norm_text(inp.get("occupation", ""))
-    occ_markers = set()
-    if occ_text not in ("", "unknown"):
-        for keys, _hints in OCCUPATION_HINTS:
-            for key in keys:
-                if key in occ_text:
-                    occ_markers.add(lib.norm_text(key))
-        for token in occ_text.split():
-            if len(token) >= 4:
-                occ_markers.add(token)
-    if occ_markers:
-        item_hay = set()
+    # occupational coverage: compare against the actual occupation mapping.
+    occ = ctx.get("occupation_profile")
+    selected_ids = [item["id"] for look in looks
+                    for item in look["items"].values() if item]
+    selected_groups = set()
+    for look in looks:
+        for item in look["items"].values():
+            if item:
+                selected_groups |= card_occupation_groups(item["card"])
+    matched_ids = []
+    if occ:
+        for look in looks:
+            if look.get("source_look_id") and look.get("curated_occupation_match"):
+                matched_ids.append(look["source_look_id"])
+            for item in look["items"].values():
+                if not item:
+                    continue
+                affinity = occupation_card_affinity(item["card"], occ)
+                if affinity is not None and affinity >= 0.5:
+                    matched_ids.append(item["id"])
+    if occ and matched_ids:
+        pass  # profession cards are actually present and selected
+    elif occ and occ["affinity_ids"]:
+        _warn(details, "occupation_coverage_gap", "high",
+              "profession-specific cards exist for %r (%s) but none were selected; "
+              "inspect hard constraints and scoring before shipping" % (
+                  inp.get("occupation"), ", ".join(sorted(occ["affinity_ids"]))))
+    elif occ:
+        _warn(details, "occupation_coverage_gap", "medium",
+              "the vault has no %r-specific garment cards; generic pieces are used "
+              "and no other profession's uniform is substituted" % inp.get("occupation"))
+    else:
+        # unknown profession: if uniforms slipped in, surface it; otherwise no claim
+        if selected_groups & UNIFORM_GROUPS:
+            _warn(details, "occupation_unmatched", "medium",
+                  "occupational uniform pieces appear without a matching profession "
+                  "in the brief: %s" % ", ".join(sorted(selected_groups & UNIFORM_GROUPS)))
+
+    # wedding / ceremony coverage
+    event_text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                       ("scene", "action", "notes", "art_direction")))
+    wedding_event = any(word in event_text for word in
+                        ("wedding", "bride", "groom", "婚礼", "新娘", "新郎"))
+    if wedding_event:
+        ceremonial_ids = []
         for look in looks:
             for item in look["items"].values():
-                if item:
-                    item_hay |= meta_tokens(item["card"], "tags", "style_tags",
-                                            "name_zh", "name_en", "subcategory",
-                                            "prompt_en")
-        if not any(marker and any(marker in token or token in marker
-                                  for token in item_hay)
-                   for marker in occ_markers):
-            _warn(details, "occupation_coverage_gap", "high",
-                  "no occupational garment cards match %r; the look is assembled "
-                  "from generic/historical pieces and must be reviewed as a "
-                  "non-occupational substitute" % inp.get("occupation"))
+                if item and (card_occupation_groups(item["card"]) & {"bridal",
+                                                                   "cultural",
+                                                                   "ceremonial"}):
+                    ceremonial_ids.append(item["id"])
+        if not ceremonial_ids:
+            _warn(details, "ceremonial_coverage_gap", "medium",
+                  "wedding/ceremonial brief lacks ceremonial-grade garment cards; "
+                  "confirm cultural details with the family/community before shoot")
 
     # future / science-fiction base
     p_profile = ctx.get("period_profile") or {}
@@ -2183,23 +2478,29 @@ def build_result_warnings(result, ctx, cards):
                   "fictional/future setting has no future-base garment cards; "
                   "current pieces are historical/contemporary stand-ins")
 
-    # rain / weather coverage
+    # rain / weather coverage (D4: distinguish "missing cards" from
+    # "cards exist but are not compatible/selected")
     weather = expand_tokens(inp.get("weather", ""))
-    if weather & WET_TOKENS:
-        for look in looks:
-            outer = look["items"].get("outerwear")
-            if not outer:
-                _warn(details, "rainwear_gap", "high",
-                      "wet weather look lacks an outerwear card")
-                break
-            mats = [lib.norm_text(m) for m in outer["materials"]]
-            if not any(m in ("wool", "leather", "gabardine", "nylon", "canvas",
-                             "rubber", "waxed cotton", "oilskin", "tweed")
-                       for m in mats):
+    rain_only = bool(weather & RAIN_ONLY_TOKENS) and not is_indoor_context(ctx)
+    rainwear_all = ctx.get("rainwear_ids", [])
+    if rain_only:
+        first_outer = looks[0]["items"].get("outerwear") if looks else None
+        if not first_outer:
+            _warn(details, "rainwear_gap", "high",
+                  "wet weather look lacks an outerwear card")
+        elif not is_rainwear_card(first_outer["card"]):
+            if rainwear_all:
                 _warn(details, "rainwear_gap", "medium",
-                      "outerwear %s has no documented weather protection; "
-                      "rainwear cards are missing" % outer["id"])
-                break
+                      "outerwear %s is not a rainwear card; the vault has rainwear "
+                      "cards (%s) but none were selected/compatible for this period "
+                      "and region" % (first_outer["id"], ", ".join(rainwear_all)))
+            elif ctx.get("rainwear_unavailable"):
+                _warn(details, "rainwear_gap", "medium",
+                      "rainwear cards exist but no period/region-compatible card "
+                      "passed the hard constraints")
+            else:
+                _warn(details, "rainwear_gap", "high",
+                      "rainwear cards are missing from the vault")
 
     # gender / wardrobe coverage note
     text = lib.norm_text(" ".join(str(inp.get(k, "")) for k in
@@ -2799,6 +3100,50 @@ def make_result(inp, cards, sources):
         bool(look.get("narrative_meaning")) for look in looks)
     result["checks"]["brief_parsed"] = bool(inp.get("brief_parse"))
     result["checks"]["conflicts"] = len(result["conflicts"])
+    # P3.1 occupation / occasion / rainwear diagnostics
+    occ = ctx.get("occupation_profile")
+    selected = [item for look in looks for item in look["items"].values() if item]
+    occ_matched = []
+    occ_forbidden = []
+    for look in looks:
+        curated_match = bool(look.get("curated_occupation_match"))
+        for item in look["items"].values():
+            if not item:
+                continue
+            cid = item["id"]
+            groups = card_occupation_groups(item["card"])
+            if occ and cid in occ["affinity_ids"] and occ["affinity_ids"][cid] >= 0.5:
+                occ_matched.append(cid)
+            if groups & UNIFORM_GROUPS:
+                owner = EXCLUSIVE_PROFESSION_IDS.get(cid)
+                allowed = bool(occ and (occ["groups"] & groups))
+                if owner and occ and owner != occ["category"]:
+                    allowed = False
+                if curated_match:
+                    allowed = True
+                if allowed:
+                    occ_matched.append(cid)
+                else:
+                    occ_forbidden.append(cid)
+    result["checks"]["occupation_category"] = occ["category"] if occ else "unknown"
+    result["checks"]["occupation_match"] = bool(occ_matched)
+    result["checks"]["occupation_forbidden_selected"] = sorted(set(occ_forbidden))
+    event_text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                       ("scene", "action", "notes", "art_direction")))
+    wedding_event = any(word in event_text for word in
+                        ("wedding", "bride", "groom", "婚礼", "新娘", "新郎"))
+    if wedding_event:
+        result["checks"]["occasion_match"] = any(
+            card_occupation_groups(item["card"]) & {"bridal", "cultural", "ceremonial"}
+            for item in selected)
+    weather = expand_tokens(inp.get("weather", ""))
+    rain_active = bool(weather & RAIN_ONLY_TOKENS) and not is_indoor_context(ctx)
+    if rain_active:
+        outers = [look["items"].get("outerwear") for look in looks]
+        result["checks"]["rainwear_selected"] = bool(outers) and all(
+            outer and is_rainwear_card(outer["card"]) for outer in outers)
+    else:
+        result["checks"]["rainwear_selected"] = None
     build_result_warnings(result, ctx, cards)
     # deterministic test-friendly diagnostics
     result["checks"]["warnings_count"] = len(result["warnings"])

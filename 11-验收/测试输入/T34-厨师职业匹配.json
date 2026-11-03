@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T34",
+    "title": "厨师：职业匹配到厨师服 GAR-0043",
+    "types": [
+      "occupational",
+      "chef",
+      "D2"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "warnings_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch"
+    ],
+    "query": [
+      "厨师",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Marco",
+    "occupation": "restaurant chef",
+    "economic_status": "middle",
+    "arc": "service during a packed dinner"
+  },
+  "scene": "restaurant kitchen",
+  "time": "evening",
+  "weather": "indoor, hot",
+  "action": "plating dishes and calling orders",
+  "location": "restaurant kitchen",
+  "season": "summer",
+  "period": "contemporary",
+  "region": "italy",
+  "art_direction": "warm documentary kitchen realism",
+  "lighting": "warm kitchen practicals",
+  "camera": "handheld medium",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

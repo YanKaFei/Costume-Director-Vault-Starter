@@ -22,7 +22,8 @@
     "story_day": "1",
     "gender": "unknown",
     "state": {},
-    "notes": ""
+    "notes": "",
+    "location": "1920s dance hall"
   },
   "fidelity_mode": "inspired",
   "looks": [
@@ -758,8 +759,8 @@
     },
     {
       "code": "occupation_coverage_gap",
-      "severity": "high",
-      "message": "no occupational garment cards match 'jazz dancer'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
+      "severity": "medium",
+      "message": "the vault has no 'jazz dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
       "items": [],
       "look": null
     }
@@ -780,7 +781,6 @@
       "GAR-0007",
       "GAR-0006",
       "GAR-EXAMPLE-001",
-      "GAR-0043",
       "GAR-0002",
       "GAR-0003",
       "GAR-0034"
@@ -789,28 +789,22 @@
       "GAR-0014",
       "GAR-0010",
       "GAR-0011",
-      "GAR-0059",
       "GAR-0013"
     ],
     "set": [
-      "GAR-0030",
-      "GAR-0042",
-      "GAR-0036"
+      "GAR-0030"
     ],
     "inner_layer": [
       "GAR-0020",
       "GAR-0012"
     ],
     "outerwear": [
-      "GAR-0040",
       "GAR-0017",
       "GAR-0045",
       "GAR-0046",
       "GAR-0057",
-      "GAR-0041",
       "GAR-0016",
       "GAR-0018",
-      "GAR-0037",
       "GAR-0033"
     ],
     "accessory": [
@@ -819,9 +813,6 @@
       "GAR-0025",
       "GAR-0068",
       "GAR-0028",
-      "GAR-0050",
-      "GAR-0039",
-      "GAR-0051",
       "GAR-0070"
     ],
     "carried_prop": [
@@ -833,7 +824,6 @@
       "GAR-0023",
       "GAR-0035",
       "GAR-0058",
-      "GAR-0044",
       "GAR-0060",
       "GAR-0022"
     ],
@@ -852,6 +842,13 @@
     ]
   },
   "rejected": [
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
     {
       "id": "GAR-0001",
       "slot": "set",
@@ -881,6 +878,27 @@
       ]
     },
     {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
       "id": "GAR-0027",
       "slot": "accessory",
       "reasons": [
@@ -888,10 +906,24 @@
       ]
     },
     {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
       "id": "GAR-0024",
       "slot": "footwear",
       "reasons": [
         "dance: heels unsafe for dance movement"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
       ]
     },
     {
@@ -906,6 +938,34 @@
       "slot": "one_piece",
       "reasons": [
         "region-specific card incompatible with north_america (europe, byzantium)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
       ]
     },
     {
@@ -930,6 +990,20 @@
       ]
     },
     {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'jazz dancer'"
+      ]
+    },
+    {
       "id": "GAR-0066",
       "slot": "accessory",
       "reasons": [
@@ -946,7 +1020,7 @@
   ],
   "warnings": [
     "no reliable style card for art direction '1920s dance-hall glamour'",
-    "no occupational garment cards match 'jazz dancer'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute"
+    "the vault has no 'jazz dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
   ],
   "sources": [
     {
@@ -1014,7 +1088,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
+    "occupation_category": "generic:dancer",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
     "warnings_count": 2,
-    "rejected_count": 13
+    "rejected_count": 25
   }
 }

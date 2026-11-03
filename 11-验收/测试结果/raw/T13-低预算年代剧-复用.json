@@ -22,7 +22,8 @@
     "story_day": "1",
     "gender": "unknown",
     "state": {},
-    "notes": ""
+    "notes": "",
+    "location": "office corridor"
   },
   "fidelity_mode": "inspired",
   "looks": [
@@ -81,8 +82,8 @@
       "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
       "differences": {
         "a_b": 2,
-        "a_c": 4,
-        "b_c": 2
+        "a_c": 2,
+        "b_c": 4
       },
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve clerk; the low economic register shows through material and finish; formality runs from smart_casual / casual / formal / casual; the beaded, black, buckskin palette controls the emotional temperature; against the arc (keeping up appearances) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
@@ -324,315 +325,19 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 50.2,
-      "scores": {
-        "period": 21.0,
-        "identity": 3.1,
-        "environment": 8.2,
-        "art": 4.5,
-        "movement": 4.0,
-        "arc": 3.9,
-        "camera": 6.5
-      },
-      "missing": [],
-      "cost": 0.293,
-      "cost_total": 1.17,
-      "contains_example": false,
-      "evidence_tier": "exact",
-      "period_tiers": {
-        "upper_body": "exact",
-        "lower_body": "era",
-        "outerwear": "era",
-        "footwear": "era"
-      },
-      "region_tiers": {
-        "upper_body": "exact",
-        "lower_body": "exact",
-        "outerwear": "exact",
-        "footwear": "exact"
-      },
-      "colors": [
-        "beaded",
-        "beaded contrast",
-        "black",
-        "buckskin",
-        "cream",
-        "dark",
-        "natural hide",
-        "striped",
-        "tan",
-        "white"
-      ],
-      "style_tags": [
-        "arctic",
-        "athletic",
-        "craft",
-        "edwardian",
-        "functional",
-        "indigenous",
-        "suffragist",
-        "victorian"
-      ],
-      "budget_mode": null,
-      "budget_explanation": null,
-      "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve clerk; the low economic register shows through material and finish; formality runs from smart_casual / casual / functional / casual; the beaded, beaded contrast, black palette controls the emotional temperature; against the arc (keeping up appearances) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
-      "items": [
-        {
-          "slot": "upper_body",
-          "id": "GAR-0007",
-          "name_zh": "衬衫式女衫",
-          "name_en": "shirtwaist",
-          "colors": [
-            "white",
-            "cream",
-            "striped"
-          ],
-          "materials": [
-            "cotton",
-            "silk",
-            "linen"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0108"
-          ],
-          "scores": {
-            "period": 0.9200000000000002,
-            "identity": 0.19800000000000004,
-            "environment": 0.39549999999999996,
-            "art": 0.3392156862745098,
-            "movement": 0.4,
-            "arc": 0.5125,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0010",
-          "name_zh": "灯笼裤",
-          "name_en": "bloomers",
-          "colors": [
-            "white",
-            "black",
-            "dark"
-          ],
-          "materials": [
-            "cotton",
-            "wool",
-            "linen"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0111"
-          ],
-          "scores": {
-            "period": 0.81,
-            "identity": 0.23175,
-            "environment": 0.5774999999999999,
-            "art": 0.4225490196078431,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "outerwear",
-          "id": "GAR-0019",
-          "name_zh": "派克大衣",
-          "name_en": "anorak",
-          "colors": [
-            "white",
-            "natural_hide",
-            "beaded_contrast"
-          ],
-          "materials": [
-            "seal_skin",
-            "caribou_fur",
-            "wool",
-            "cotton"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0120"
-          ],
-          "scores": {
-            "period": 0.81,
-            "identity": 0.22556250000000005,
-            "environment": 0.6774999999999999,
-            "art": 0.26862745098039215,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "footwear",
-          "id": "GAR-0023",
-          "name_zh": "莫卡辛鞋",
-          "name_en": "moccasins",
-          "colors": [
-            "tan",
-            "buckskin",
-            "beaded"
-          ],
-          "materials": [
-            "leather",
-            "beads",
-            "silk_ribbon"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0124"
-          ],
-          "scores": {
-            "period": 0.81,
-            "identity": 0.16706250000000003,
-            "environment": 0.5319999999999999,
-            "art": 0.18529411764705883,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        }
-      ],
-      "parts": [
-        {
-          "id": "STR-0004",
-          "slot": "upper_body",
-          "confidence": "suggested"
-        },
-        {
-          "id": "STR-0011",
-          "slot": "lower_body",
-          "confidence": "suggested"
-        }
-      ],
-      "materials": [
-        {
-          "id": "MAT-0001",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0002",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "lower_body"
-        },
-        {
-          "id": "MAT-0011",
-          "slot": "footwear"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beaded contrast, black, buckskin, cream, dark, natural hide, striped, tan, white, setting: S11, day, cold overcast, art direction: intimate low-budget period drama, lighting: soft window daylight, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
-      "prompt_video": "沈砚, waiting on a bench, scene: S11, day, cold overcast, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 厚重兽皮限制大幅动作; 毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: soft window daylight, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
-      "reasons": [
-        "highest scoring dimensions: 年代/文化 21.0/25, 环境气候 8.2/15",
-        "上装: GAR-0007 衬衫式女衫 (smart_casual)",
-        "下装: GAR-0010 灯笼裤 (casual)",
-        "外层: GAR-0019 派克大衣 (functional)",
-        "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0004, STR-0011",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0003, MAT-0011"
-      ],
-      "risks": [
-        "region mismatch in GAR-0019: cards document their own regions, not united_states",
-        "character psychology is a directorial interpretation, not a clothing-history fact",
-        "all images remain external links; no third-party images are embedded in the vault"
-      ],
-      "evidence": {
-        "source_ids": [
-          "SRC-0108",
-          "SRC-0111",
-          "SRC-0120",
-          "SRC-0124",
-          "SRC-0134",
-          "SRC-0200",
-          "SRC-0202",
-          "SRC-0102",
-          "SRC-0141",
-          "SRC-0142",
-          "SRC-0423"
-        ],
-        "source_urls": [
-          {
-            "source_id": "SRC-0108",
-            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
-          },
-          {
-            "source_id": "SRC-0111",
-            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
-          },
-          {
-            "source_id": "SRC-0120",
-            "url": "https://fashionhistory.fitnyc.edu/anorak/"
-          },
-          {
-            "source_id": "SRC-0124",
-            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
-          },
-          {
-            "source_id": "SRC-0134",
-            "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
-          },
-          {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
-          },
-          {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
-          },
-          {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0423",
-            "url": "https://collections.vam.ac.uk/item/O315431/"
-          }
-        ],
-        "context_style_ids": [],
-        "context_period_ids": [
-          "PRD-0003"
-        ],
-        "context_scene_ids": [],
-        "item_evidence": {
-          "GAR-0007": "verified",
-          "GAR-0010": "verified",
-          "GAR-0019": "verified",
-          "GAR-0023": "verified"
-        },
-        "missing_urls": []
-      }
-    },
-    {
-      "look_ref": "C",
-      "source_look_id": null,
-      "total": 49.9,
+      "total": 50.1,
       "scores": {
         "period": 20.3,
-        "identity": 3.1,
+        "identity": 2.4,
         "environment": 8.9,
-        "art": 4.4,
-        "movement": 4.3,
+        "art": 5.0,
+        "movement": 4.5,
         "arc": 3.5,
         "camera": 6.5
       },
       "missing": [],
-      "cost": 0.314,
-      "cost_total": 1.258,
+      "cost": 0.383,
+      "cost_total": 1.533,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
@@ -649,22 +354,21 @@
       },
       "colors": [
         "beaded",
-        "beaded contrast",
         "black",
         "buckskin",
         "cream",
         "dark",
+        "dark grey",
         "embroidered",
-        "natural hide",
+        "navy",
         "tan",
         "white"
       ],
       "style_tags": [
-        "arctic",
         "athletic",
         "craft",
         "dandy",
-        "functional",
+        "gentleman",
         "indigenous",
         "menswear",
         "suffragist",
@@ -673,7 +377,7 @@
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve clerk; the low economic register shows through material and finish; formality runs from business / casual / functional / casual; the beaded, beaded contrast, black palette controls the emotional temperature; against the arc (keeping up appearances) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve clerk; the low economic register shows through material and finish; formality runs from business / casual / formal / casual; the beaded, black, buckskin palette controls the emotional temperature; against the arc (keeping up appearances) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "upper_body",
@@ -735,30 +439,27 @@
         },
         {
           "slot": "outerwear",
-          "id": "GAR-0019",
-          "name_zh": "派克大衣",
-          "name_en": "anorak",
+          "id": "GAR-0017",
+          "name_zh": "夫罗克大衣",
+          "name_en": "frock coat",
           "colors": [
-            "white",
-            "natural_hide",
-            "beaded_contrast"
+            "black",
+            "navy",
+            "dark_grey"
           ],
           "materials": [
-            "seal_skin",
-            "caribou_fur",
-            "wool",
-            "cotton"
+            "wool"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0120"
+            "SRC-0118"
           ],
           "scores": {
             "period": 0.81,
-            "identity": 0.22556250000000005,
+            "identity": 0.056953125,
             "environment": 0.6774999999999999,
-            "art": 0.26862745098039215,
-            "movement": 0.4,
+            "art": 0.40980392156862744,
+            "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
           }
@@ -823,20 +524,19 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beaded contrast, black, buckskin, cream, dark, embroidered, natural hide, tan, white, setting: S11, day, cold overcast, art direction: intimate low-budget period drama, lighting: soft window daylight, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
-      "prompt_video": "沈砚, waiting on a bench, scene: S11, day, cold overcast, camera: medium shot, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 厚重兽皮限制大幅动作; 毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: soft window daylight, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, single- or double-breasted, wool; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, buckskin, cream, dark, dark grey, embroidered, navy, tan, white, setting: S11, day, cold overcast, art direction: intimate low-budget period drama, lighting: soft window daylight, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+      "prompt_video": "沈砚, waiting on a bench, scene: S11, day, cold overcast, camera: medium shot, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, single- or double-breasted, wool; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 及膝裙摆限制大步跑动; 转身时下摆展开，需检查后开衩与纽扣状态。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: soft window daylight, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 20.3/25, 环境气候 8.9/15",
         "上装: GAR-0008 马甲 (business)",
         "下装: GAR-0010 灯笼裤 (casual)",
-        "外层: GAR-0019 派克大衣 (functional)",
+        "外层: GAR-0017 夫罗克大衣 (formal)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
         "linked structure cards: STR-0006, STR-0011",
         "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0011"
       ],
       "risks": [
-        "region mismatch in GAR-0019: cards document their own regions, not united_states",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
@@ -844,7 +544,7 @@
         "source_ids": [
           "SRC-0109",
           "SRC-0111",
-          "SRC-0120",
+          "SRC-0118",
           "SRC-0124",
           "SRC-0136",
           "SRC-0200",
@@ -864,8 +564,8 @@
             "url": "https://fashionhistory.fitnyc.edu/bloomers/"
           },
           {
-            "source_id": "SRC-0120",
-            "url": "https://fashionhistory.fitnyc.edu/anorak/"
+            "source_id": "SRC-0118",
+            "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
           },
           {
             "source_id": "SRC-0124",
@@ -908,8 +608,287 @@
         "item_evidence": {
           "GAR-0008": "verified",
           "GAR-0010": "verified",
-          "GAR-0019": "verified",
+          "GAR-0017": "verified",
           "GAR-0023": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 48.0,
+      "scores": {
+        "period": 17.8,
+        "identity": 2.5,
+        "environment": 8.2,
+        "art": 5.8,
+        "movement": 4.3,
+        "arc": 3.9,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.313,
+      "cost_total": 1.252,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "upper_body": "exact",
+        "lower_body": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "exact",
+        "lower_body": "exact",
+        "outerwear": "exact",
+        "footwear": "none"
+      },
+      "colors": [
+        "black",
+        "brown",
+        "cream",
+        "dark",
+        "dark grey",
+        "navy",
+        "striped",
+        "white"
+      ],
+      "style_tags": [
+        "athletic",
+        "country",
+        "edwardian",
+        "gentleman",
+        "military",
+        "suffragist",
+        "victorian"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve clerk; the low economic register shows through material and finish; formality runs from smart_casual / casual / formal / smart_casual; the black, brown, cream palette controls the emotional temperature; against the arc (keeping up appearances) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-0007",
+          "name_zh": "衬衫式女衫",
+          "name_en": "shirtwaist",
+          "colors": [
+            "white",
+            "cream",
+            "striped"
+          ],
+          "materials": [
+            "cotton",
+            "silk",
+            "linen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0108"
+          ],
+          "scores": {
+            "period": 0.9200000000000002,
+            "identity": 0.19800000000000004,
+            "environment": 0.39549999999999996,
+            "art": 0.3392156862745098,
+            "movement": 0.4,
+            "arc": 0.5125,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0010",
+          "name_zh": "灯笼裤",
+          "name_en": "bloomers",
+          "colors": [
+            "white",
+            "black",
+            "dark"
+          ],
+          "materials": [
+            "cotton",
+            "wool",
+            "linen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0111"
+          ],
+          "scores": {
+            "period": 0.81,
+            "identity": 0.23175,
+            "environment": 0.5774999999999999,
+            "art": 0.4225490196078431,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0017",
+          "name_zh": "夫罗克大衣",
+          "name_en": "frock coat",
+          "colors": [
+            "black",
+            "navy",
+            "dark_grey"
+          ],
+          "materials": [
+            "wool"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0118"
+          ],
+          "scores": {
+            "period": 0.81,
+            "identity": 0.056953125,
+            "environment": 0.6774999999999999,
+            "art": 0.40980392156862744,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.264,
+            "identity": 0.210375,
+            "environment": 0.5319999999999999,
+            "art": 0.37450980392156863,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0004",
+          "slot": "upper_body",
+          "confidence": "suggested"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "lower_body",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "lower_body"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, single- or double-breasted, wool; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark, dark grey, navy, striped, white, setting: S11, day, cold overcast, art direction: intimate low-budget period drama, lighting: soft window daylight, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "prompt_video": "沈砚, waiting on a bench, scene: S11, day, cold overcast, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, single- or double-breasted, wool; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝裙摆限制大步跑动; 转身时下摆展开，需检查后开衩与纽扣状态。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: soft window daylight, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 17.8/25, 环境气候 8.2/15",
+        "上装: GAR-0007 衬衫式女衫 (smart_casual)",
+        "下装: GAR-0010 灯笼裤 (casual)",
+        "外层: GAR-0017 夫罗克大衣 (formal)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0004, STR-0011",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0003"
+      ],
+      "risks": [
+        "region mismatch in GAR-0022: cards document their own regions, not united_states",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0108",
+          "SRC-0111",
+          "SRC-0118",
+          "SRC-0123",
+          "SRC-0134",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0102",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0108",
+            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+          },
+          {
+            "source_id": "SRC-0111",
+            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+          },
+          {
+            "source_id": "SRC-0118",
+            "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0134",
+            "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0003"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0007": "verified",
+          "GAR-0010": "verified",
+          "GAR-0017": "verified",
+          "GAR-0022": "verified"
         },
         "missing_urls": []
       }
@@ -943,9 +922,18 @@
       "look": null
     },
     {
+      "code": "region_mismatch",
+      "severity": "medium",
+      "message": "cards document other regions for GAR-0022 (requested united_states); cross-region borrowing is flagged, not silently accepted",
+      "items": [
+        "GAR-0022"
+      ],
+      "look": null
+    },
+    {
       "code": "occupation_coverage_gap",
-      "severity": "high",
-      "message": "no occupational garment cards match 'clerk'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute",
+      "severity": "medium",
+      "message": "the vault has no 'clerk'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
       "items": [],
       "look": null
     }
@@ -953,11 +941,11 @@
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 1.445,
-    "c_cost_total": 1.258,
+    "c_cost_total": 1.252,
     "differences": {
       "a_b": 2,
-      "a_c": 4,
-      "b_c": 2
+      "a_c": 2,
+      "b_c": 4
     }
   },
   "retrieved_ids": {
@@ -966,7 +954,6 @@
       "GAR-0008",
       "GAR-0006",
       "GAR-EXAMPLE-001",
-      "GAR-0043",
       "GAR-0034",
       "GAR-0002",
       "GAR-0003"
@@ -975,13 +962,10 @@
       "GAR-0010",
       "GAR-0011",
       "GAR-0014",
-      "GAR-0059",
       "GAR-0013"
     ],
     "set": [
-      "GAR-0030",
-      "GAR-0042",
-      "GAR-0036"
+      "GAR-0030"
     ],
     "inner_layer": [
       "GAR-0012",
@@ -989,12 +973,8 @@
     ],
     "outerwear": [
       "GAR-0017",
-      "GAR-0019",
-      "GAR-0040",
       "GAR-0016",
       "GAR-0018",
-      "GAR-0037",
-      "GAR-0041",
       "GAR-0033",
       "GAR-0045",
       "GAR-0057",
@@ -1005,10 +985,7 @@
       "GAR-0025",
       "GAR-0026",
       "GAR-0028",
-      "GAR-0039",
       "GAR-0068",
-      "GAR-0050",
-      "GAR-0051",
       "GAR-0070"
     ],
     "carried_prop": [
@@ -1018,7 +995,6 @@
     ],
     "footwear": [
       "GAR-0023",
-      "GAR-0044",
       "GAR-0022",
       "GAR-0035",
       "GAR-0058",
@@ -1039,6 +1015,13 @@
     ]
   },
   "rejected": [
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
     {
       "id": "GAR-0001",
       "slot": "set",
@@ -1061,6 +1044,34 @@
       ]
     },
     {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
       "id": "GAR-0027",
       "slot": "accessory",
       "reasons": [
@@ -1068,10 +1079,24 @@
       ]
     },
     {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
       "id": "GAR-0024",
       "slot": "footwear",
       "reasons": [
         "cold: open footwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
       ]
     },
     {
@@ -1086,6 +1111,34 @@
       "slot": "one_piece",
       "reasons": [
         "region-specific card incompatible with united_states (europe, byzantium)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
       ]
     },
     {
@@ -1110,6 +1163,20 @@
       ]
     },
     {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'clerk'"
+      ]
+    },
+    {
       "id": "GAR-0066",
       "slot": "accessory",
       "reasons": [
@@ -1126,7 +1193,8 @@
   ],
   "warnings": [
     "no reliable style card for art direction 'intimate low-budget period drama'",
-    "no occupational garment cards match 'clerk'; the look is assembled from generic/historical pieces and must be reviewed as a non-occupational substitute"
+    "cards document other regions for GAR-0022 (requested united_states); cross-region borrowing is flagged, not silently accepted",
+    "the vault has no 'clerk'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
   ],
   "sources": [
     {
@@ -1174,16 +1242,16 @@
       "url": "https://collections.vam.ac.uk/item/O315431/"
     },
     {
-      "source_id": "SRC-0120",
-      "url": "https://fashionhistory.fitnyc.edu/anorak/"
-    },
-    {
       "source_id": "SRC-0109",
       "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
     },
     {
       "source_id": "SRC-0136",
       "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
     }
   ],
   "missing_urls": [],
@@ -1202,7 +1270,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
-    "warnings_count": 2,
-    "rejected_count": 12
+    "occupation_category": "generic:clerk",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 3,
+    "rejected_count": 25
   }
 }

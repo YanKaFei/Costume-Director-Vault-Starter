@@ -1,0 +1,45 @@
+{
+  "_test": {
+    "id": "T41",
+    "title": "query 去重：同名和服卡不得重复占据 top5",
+    "types": [
+      "query_dedup",
+      "D3"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "ids_exist",
+      "no_crash",
+      "query_hits",
+      "query_no_duplicate_names",
+      "query_no_example_top"
+    ],
+    "query": [
+      "和服",
+      "--limit",
+      "5",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Aiko",
+    "occupation": "dancer",
+    "economic_status": "middle",
+    "arc": "performing in a period drama"
+  },
+  "scene": "theatre stage",
+  "time": "evening",
+  "weather": "indoor",
+  "action": "walking across the stage",
+  "location": "theatre",
+  "season": "spring",
+  "period": "1920s",
+  "region": "japan",
+  "art_direction": "theatre period drama",
+  "lighting": "warm stage light",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

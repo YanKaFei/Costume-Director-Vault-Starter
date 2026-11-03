@@ -22,7 +22,8 @@
     "story_day": "1",
     "gender": "unknown",
     "state": {},
-    "notes": ""
+    "notes": "",
+    "location": "italian ducal palace"
   },
   "fidelity_mode": "historical",
   "looks": [
@@ -783,6 +784,13 @@
       "look": null
     },
     {
+      "code": "occupation_coverage_gap",
+      "severity": "medium",
+      "message": "the vault has no 'court dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+      "items": [],
+      "look": null
+    },
+    {
       "code": "conflict_movement_vs_footwear",
       "severity": "high",
       "message": "dance/action scene with heeled or backless footwear GAR-0024 — suggested resolution: choose flat secure shoes; if no card exists, log the safety gap and test the movement",
@@ -858,7 +866,8 @@
       "id": "GAR-0043",
       "slot": "upper_body",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 19th_century, 20th_century, contemporary)"
+        "historical mode: period mismatch (1580s vs 19th_century, 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
@@ -968,21 +977,24 @@
       "id": "GAR-0037",
       "slot": "outerwear",
       "reasons": [
-        "historical mode: period mismatch (1580s vs late_19th_century)"
+        "historical mode: period mismatch (1580s vs late_19th_century)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
       "id": "GAR-0040",
       "slot": "outerwear",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 1940s)"
+        "historical mode: period mismatch (1580s vs 1940s)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
       "id": "GAR-0041",
       "slot": "outerwear",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 20th_century, contemporary)"
+        "historical mode: period mismatch (1580s vs 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
@@ -1032,7 +1044,8 @@
       "id": "GAR-0039",
       "slot": "accessory",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 1960s)"
+        "historical mode: period mismatch (1580s vs 1960s)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
@@ -1088,7 +1101,8 @@
       "id": "GAR-0044",
       "slot": "footwear",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 20th_century, contemporary)"
+        "historical mode: period mismatch (1580s vs 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
@@ -1150,16 +1164,26 @@
     },
     {
       "id": "GAR-0036",
-      "slot": "set",
+      "slot": "one_piece",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 1960s)"
+        "historical mode: period mismatch (1580s vs 1960s)",
+        "occupational mismatch: the look is for 'court dancer'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1960s)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
       "id": "GAR-0042",
-      "slot": "set",
+      "slot": "one_piece",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 19th_century, 20th_century, contemporary)"
+        "historical mode: period mismatch (1580s vs 19th_century, 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
@@ -1199,9 +1223,10 @@
     },
     {
       "id": "GAR-0059",
-      "slot": "lower_body",
+      "slot": "one_piece",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 1970s)"
+        "historical mode: period mismatch (1580s vs 1970s)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
@@ -1246,14 +1271,16 @@
       "id": "GAR-0050",
       "slot": "accessory",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 1940s)"
+        "historical mode: period mismatch (1580s vs 1940s)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
       "id": "GAR-0051",
       "slot": "accessory",
       "reasons": [
-        "historical mode: period mismatch (1580s vs 1970s)"
+        "historical mode: period mismatch (1580s vs 1970s)",
+        "occupational mismatch: the look is for 'court dancer'"
       ]
     },
     {
@@ -1278,6 +1305,7 @@
     "no reliable style card for art direction 'renaissance court, candlelight and brocade'",
     "period evidence is approximate/none for GAR-0008 (requested 1580s); treat these as era-level hypotheses, not exact period matches",
     "period evidence is era-level (century bucket) for GAR-0002, GAR-0013, GAR-0024, GAR-0062; exact-decade cards are missing",
+    "the vault has no 'court dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
     "dance/action scene with heeled or backless footwear GAR-0024 — suggested resolution: choose flat secure shoes; if no card exists, log the safety gap and test the movement",
     "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
   ],
@@ -1355,7 +1383,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
-    "warnings_count": 6,
-    "rejected_count": 61
+    "occupation_category": "generic:dancer",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 7,
+    "rejected_count": 62
   }
 }

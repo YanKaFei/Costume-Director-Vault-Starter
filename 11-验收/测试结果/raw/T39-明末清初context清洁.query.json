@@ -1,0 +1,86 @@
+[
+  {
+    "id": "GAR-0031",
+    "path": "01-服装单品/连身/GAR-0031-旗袍.md",
+    "name_zh": "旗袍",
+    "name_en": "qipao",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201"
+    ],
+    "snippet": "# 旗袍 / qipao ## 定义 旗袍（qipao，粤语称 cheongsam）是民国时期成型的现代中国女装：全长贴身、立领、右衽盘扣、侧衩。V&A 记录称其随 1911 年民国建立而风行，保留满族旗装的基本形制，装饰与剪裁变化象征对“封建过去”的推翻，是传统中国形制与西方现代影响的结合。 ##",
+    "score": 8.4
+  },
+  {
+    "id": "GAR-0032",
+    "path": "01-服装单品/连身/GAR-0032-长衫.md",
+    "name_zh": "长衫",
+    "name_en": "changshan",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0202"
+    ],
+    "snippet": "# 长衫 / changshan ## 定义 长衫（changshan）是民国男性穿着的全长中式长袍：右衽盘扣、小立领、长而紧的袖、两侧开衩。V&A 记录称其作为正式外袍穿在短上衣与长裤外，薄纱罗（luo）材质受学者与城市精英喜爱，竹纹象征君子品格。 ## 结构要点 - 右衽开口，五枚盘扣（loop",
+    "score": 8.4
+  },
+  {
+    "id": "GAR-0067",
+    "path": "01-服装单品/配饰/GAR-0067-云肩.md",
+    "name_zh": "云肩",
+    "name_en": "cloud collar",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0428"
+    ],
+    "snippet": "# 云肩 / cloud collar ## 定义 云肩（yunjian）是中国传统可拆卸领饰，多片如意云形，缎面丝绣、珠饰，用于正式场合，可能作婚礼配件；V&A 藏 1875–1911 年实例是核验锚点。 ## 结构要点 - V&A 实例：可拆卸女式领饰，缎纹丝地，丝与金属线刺绣、模制玻璃珠；每片",
+    "score": 8.4
+  },
+  {
+    "id": "LOOK-0008",
+    "path": "09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md",
+    "name_zh": "1930 年代上海长衫知识分子",
+    "name_en": "1930s Shanghai changshan intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0202",
+      "SRC-0203"
+    ],
+    "snippet": "# LOOK-0008 1930 年代上海长衫知识分子 / 1930s Shanghai changshan intellectual look ## 定义 1930 年代上海/香港知识分子（虚构角色）的完整造型样本，用于 T01 “1930 年代上海知识分子阶层变化”类场景中的传统/清贫一侧。它是",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-0009",
+    "path": "09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md",
+    "name_zh": "1930 年代上海旗袍女性知识分子",
+    "name_en": "1930s Shanghai qipao woman intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "# LOOK-0009 1930 年代上海旗袍女性知识分子 / 1930s Shanghai qipao woman intellectual look ## 定义 1930 年代上海女性知识分子/职员的完整造型样本，用于 T01 与民国都市题材中的女性视角。它是 `interpretive` 的搭",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-0012",
+    "path": "09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md",
+    "name_zh": "1930 年代上海雨夜女记者",
+    "name_en": "1930s Shanghai rainy-night woman journalist look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "# 1930 年代上海雨夜女记者 / 1930s Shanghai rainy-night woman journalist look ## 定义 1930 年代上海女记者（虚构角色）的五槽雨夜造型：旗袍 + 风衣 + 皮鞋 + 雨伞 + 手袋。`interpretive` 搭配，用于 T01/P2",
+    "score": 8.0
+  }
+]

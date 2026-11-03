@@ -1,49 +1,53 @@
-# P3 缺陷登记（DEFECTS）
+# P3 缺陷登记（DEFECTS）— P3.1 复验后
 
-- 更新时间：2026-11-04 02:42（Asia/Shanghai）
-- 快照：328 卡；git HEAD `0345f05`；验证方式见 `reports/P3-QA.md`
-- 状态图例：**FIXED** / **PARTIAL** / **OPEN** / **RESOLVED-BY-QA**（QA 交付时修复的报表问题）
-- 严重度：S1 阻断（错误/崩溃/虚假证据声明）、S2 严重（切题/约束错误）、S3 一般（标签/文档/一致性）、S4 轻微
+- 更新时间：2026-11-04 02:47（Asia/Shanghai）；P3.1 复验（task-17）
+- 快照：328 卡（内容 154 + 来源 174）；git HEAD `0345f05` + P3.1 工作区修改（未提交）
+- 状态：**D2/D4 已关闭；但 query relevance 未达发布门槛 → 最终 FAIL 1 / WARN 5**；FIXED 8 项；RESOLVED-BY-QA 2 项
+- 验证依据：`reports/P3-QA.md`（P3.1 复验章节）、`11-验收/测试结果/SUMMARY.md`（41 例）、`11-验收/测试结果/T31–T41.md`
 
-## 1. P2.5 FAIL 回归项
+## 1. P3 阻断缺陷（本轮验证）
 
-| ID | 严重度 | 缺陷 | P2.5 状态 | P3 状态 | 证据 |
+| ID | 严重度 | 缺陷 | P3 状态 | **P3.1 状态** | 证据 |
 |---|---|---|---|---|---|
-| F1 | S1 | historical 1940s–70s `KeyError: 'evidence'` 崩溃 | FAIL | **FIXED** | 4/4 输出现 exit 0、3 looks（P3-QA §2） |
-| F2 | S1 | period/region 未归一化 → 假阴性「no wardrobe candidates」 | FAIL | **FIXED** | 1580s（T23/C08）与拜占庭（T24）exit 0 + 近似/缺口声明；无假声明 |
-| F3 | S2 | 未覆盖请求静默套用无关单品（warnings=[]） | FAIL | **FIXED（诚实性）** | 6/6 探针均有 3–8 warnings；但**替代单品质量仍差**（见 D2） |
+| D2 | S2 | 职业服万能填充：护士/舞者/建筑师/教师等 A 套用警察制服+医生白袍+医疗鞋；warning 自称无职业卡 | OPEN | **FIXED（主项）** | T26/T31 急诊护士 A=护士制服 GAR-0036+白袍 GAR-0041+医疗鞋+徽章+手袋；T32 医生含白袍 GAR-0041；T33 警察=GAR-0042；T34 厨师=GAR-0043；T35 太空=连体工作服 GAR-0038+头盔 GAR-0039；T36 婚礼=布布长袍+gele；warnings 改为「无 X 专属卡，通用件替代且未用他职业制服」 |
+| D4 | S1 | 虚假 warning「rainwear cards are missing」（风衣/雨衣卡存在） | OPEN | **FIXED** | T01/T02 使用 GAR-0045 风衣；T37 `rainwear_selected=PASS`、`warning_absent:rainwear_gap=PASS`；T38 室内同理 |
+| D1 | S3 | SOURCES.csv 未随来源卡同步 | RESOLVED-BY-QA（P3） | **复发一次→已再次 RESOLVED-BY-QA** | P3.1 修 SRC-0046/47 后 CSV 2 行字段漂移（build --check FAIL）→ QA `--write` 重建后 PASS；须纳入发布步骤（见 NEXT-PLAN） |
 
-## 2. P2.5 错标 M1–M8
+## 2. P2.5 遗留错标（M1–M8）
 
-| ID | 严重度 | 缺陷 | 状态 | 证据/说明 |
-|---|---|---|---|---|
-| M1 | S3 | GAR-0010 `## 来源链接` 称「用于运动与童装」，FIT bloomers 页 0 次 sport/children | **OPEN** | 卡片原文未改；应改 interpretive 或删从属断言 |
-| M2 | S3 | SRC-0046/SRC-0047 `license_status: not_applicable`，rights=Public domain | **OPEN** | 应为 cc0/public domain |
-| M3 | S1 | 假阴性「no wardrobe candidates」措辞 | **FIXED** | 1580s/拜占庭改为近似/缺口声明 |
-| M4 | S2 | C01 context 引用 1770s 英法/维多利亚丧服（请求 1644 明末清初） | **OPEN** | context 仍 STY-EXAMPLE-001/STY-0002/PRD-0001/SCN-0004 |
-| M5 | S2 | example 卡进 A 套且无标记 | **FIXED** | 30/30 T + 15 案例 A 套 example=0 |
-| M6 | S2 | GAR-0019 派克大衣被用作室内/雨景外层 | **OPEN** | T10 look2/3、T13 look2/3；T10 prompt 含 Arctic anorak |
-| M7 | S2 | prompt 串文（「worn in snow」等） | **PARTIAL** | T13 室内走廊仍 2 处；T14 雪景合理；neon 为输入光照 |
-| M8 | S3 | query example 卡排序靠前 / GAR-0031 掉出 1930s 上海 top5 / 和服重复卡 | **PARTIAL** | 徽章、风衣/雨衣检索已修复；P14 仍 example 第 1/4，P07 仍无 GAR-0031，GAR-0001/GAR-0065 同名和服 |
+| ID | 状态 | 证据/说明 |
+|---|---|---|
+| M1 GAR-0010「运动与童装」扩写 | **FIXED** | 卡片改述「页面提及 exercising/athletic activities 但未广泛采用；运动与童装的具体范围属 interpretive」 |
+| M2 SRC-0046/0047 许可 | **FIXED** | license_status 改 `cc0`，note 说明「Commons Public domain；字典无 public_domain 值，按 cc0 记录」 |
+| M3 假阴性「无覆盖」 | **FIXED（P3）** | 保持修复 |
+| M4 C01 context 误导 | **FIXED** | C01 context_refs=`{}`（空）；T39 `context_refs_clean=PASS`，无 1770s/维多利亚引用 |
+| M5 example 卡进 A | **FIXED（P3）** | 41/41 T 与 15 语义案例 A 套 example=0 |
+| M6 GAR-0019 室内/雨景外层 | **FIXED** | T13/T38 A 无 anorak；T38 `no_arctic_indoor=PASS`；T01/T02 外层改用 GAR-0045 风衣 |
+| M7 prompt 串文「worn in snow」 | **FIXED** | T13/T38 prompts 扫描 0 次「worn in snow」；41 例 `no_prompt_contamination=PASS` |
+| M8 query 排序/重复 | **PARTIAL** | P07「1930s 上海」top5 现为 GAR-0031+LOOK-0008/0009/0012/0015（T40 `query_top5_contains:GAR-0031=PASS`）；P02 和服 top5 无同名重复（T41 `query_no_duplicate_names=PASS`）；**但 P14「noir」top5 仍含 example 卡（第 4/5 名），且 GAR-0001/GAR-0065 两张「和服」卡仍在库中**（仅查询层去重） |
 
-## 3. P3 新发现缺陷
+## 3. P3.1 残余风险（WARN，不阻断但需 P4 处理）
 
-| ID | 严重度 | 缺陷 | 状态 | 证据 |
-|---|---|---|---|---|
-| D1 | S3 | `reports/SOURCES.csv` 未同步 P3 新来源（142 行 vs 174 来源卡，缺 32 行） | **RESOLVED-BY-QA** | QA `build_sources --write` 重建 174 行；`--check` PASS。需把重建纳入发布步骤防复发 |
-| D2 | **S2（P3 主缺陷）** | **职业服万能填充**：当代/职业请求 A 套普遍为 警察制服 + 医生白袍 + 医疗工作鞋，且 warning 声称「no occupational garment cards match X」，与库内已有 护士制服 GAR-0036/医生白袍 GAR-0041/厨师服 GAR-0043 矛盾 | **OPEN** | T04 舞者、T15 建筑师、T18 小学教师、T26/C02/N1 急诊护士、T05/C03/N2 太空、C07/T27 婚礼均如此；切题维度均值 0.53/2（P3-QA §3.2） |
-| D3 | S3 | 重复内容卡：GAR-0001 与 GAR-0065 均为「和服 kimono / specialised traditional_regional」，仅来源不同 | **OPEN** | 应对齐或合并/canonical 标注；query P02 同时返回两卡 |
-| D4 | **S1** | **虚假 warning**：「outerwear GAR-0037 has no documented weather protection; rainwear cards are missing」——但库内已有 GAR-0045 风衣、GAR-0046 雨衣（tags 含 rain） | **OPEN** | T01/T02（1930s 上海雨）；应改为「雨具卡年代/地域不匹配」准确措辞 |
-| D5 | S4 | 噪声 warning：「no upper_body candidates retrieved / no lower_body candidates retrieved」在 one_piece/set 场景反复出现，易误读 | **OPEN** | T03/T04/T05/T06/T12/T15/T18/T24/T26/T27 等 |
-| D6 | S3 | `11-验收/质量评估/` 自评 OVERALL PASS 与其指标未覆盖的 S1/S2 缺陷不一致（relevant@5 3.84 vs 独立复算 3.64；F1/F2 语义 FAIL 不计入其指标） | **OPEN（流程）** | P3-QA §3.1/§5；建议自评不得单独作为验收依据 |
+| ID | 严重度 | 风险 | 证据/建议 |
+|---|---|---|---|
+| R1 | S2 | **职业同义词未全覆盖**：T33 用「警察」可匹配 GAR-0042，但我的合成案例「巡警」得到旗袍 GAR-0031+派克 GAR-0019（未匹配警察制服）；T32 医生 A 套仍含韩服 GAR-0064（白袍正确但内层不当） | 扩充 occupation hint 词表（巡警/女警/护士长/外科医生/厨师长/急诊医师…）；医疗场景对 one_piece 加领域白名单 |
+| R2 | S3 | **example 卡仍在 query top5**（P14 noir：GAR-EXAMPLE-001 第 4、LOOK-EXAMPLE-001 第 5） | 建议 style/evidence 过滤时默认排除 example，或排序降权至 top5 之外 |
+| R3 | S3 | **和服重复卡未在数据层合并**（GAR-0001/GAR-0065 同名，仅 name_en/periods/note 区分） | 保留可，但应在索引/字典标注 canonical；或合并为一张 |
+| R4 | S4 | 噪声 warning「no upper_body/lower_body candidates retrieved」在 one_piece/set 场景反复出现 | 措辞改为「该槽位由 one_piece/set 覆盖」 |
+| R5 | S3 | **质量自评与独立评分口径差异**：engineer `quality_eval` 报 relevant@5 3.84/94.1%，verifier 独立复评为 3.64/89.2%（严格人工 rubric） | 建议以独立 rubric 为准并在 release 说明；自评指标不得单独作为验收依据 |
+| R6 | S3 | **SOURCES.csv 同步流程缺失**（D1 复发） | 把 `build_sources.py --write` 写入发布清单与 CI 式检查（每次改来源卡后执行） |
 
-## 4. 已确认修复（保留记录）
+## 3.1 发布门槛 FAIL（唯一阻断项）
 
-- F1 崩溃、F2 假阴性、F3 静默（诚实性）、M3、M5：见 §1/§2。
-- 新增能力（非缺陷）：period/region 归一化与近似声明、warnings 覆盖（30/30）、A/B/C 差异度量（27/27 全 ≥2 件）、冲突检测（C10/T29/N5：历史 vs 科幻拆分建议）、身份弧线未建模声明（C05/N4/T03）、跨文化婚礼仪式询问（C07/T27）、未来基底缺口声明（C03/T25/N2）。
+| ID | 严重度 | 问题 | 证据 |
+|---|---|---|---|
+| R7（FAIL） | S2（发布门槛） | **query relevance 未达 4.0 阈值** | verifier 独立 relevant@5=**3.64**；engineer `quality_eval.py --no-write` relevant@5=**3.92**（<4.0）→ **OVERALL FAIL / exit 1**；precision 独立 89.2%（自评 96.1%）、0 命中 12%。具体排序已修（P07 GAR-0031 第 1、P02/T41 去重），但 P09/P10 跨文化多词查询与 P14 example 残留拉低均值 |
 
-## 5. 统计与优先级
+## 4. 统计与优先级
 
-- **OPEN 缺陷：M1、M2、M4、M6、D2、D3、D4、D5、D6 = 9 项**；**PARTIAL：M7、M8 = 2 项**；FIXED 5 项（F1/F2/F3/M3/M5）；RESOLVED-BY-QA 1 项（D1）。
-- **S1 阻断：D4（虚假证据声明）**；**S2 严重：D2（职业填充）、M4、M6、M7、M8 部分**。
-- 建议排期：D4 → D2 → M4/M6/M7 → M1/M2/D3/D5/D6。
+- **FIXED：8 项**（D2 主项、D4、M1、M2、M4、M6、M7 + P3 的 F1/F2/F3/M3/M5 保持）
+- **PARTIAL：1 项**（M8 查询层去重完成、数据层重复卡与 example top5 残留）
+- **RESOLVED-BY-QA：2 次**（D1 CSV 漂移）
+- **WARN/OPEN 残余：R1–R6（6 项，非阻断）+ R7（FAIL，唯一发布门槛阻断）**
+- 优先级：**R7（query relevance ≥4.0）** > R1（职业同义词/医疗内层）> R2（example top5）> R6（CSV 同步）> R3/R4/R5。
+- **发布门槛**：D2/D4 已关闭；R1/R2 建议在 P4 修复并回归；HUMAN_UAT_PENDING 4 项未完成前不得对外宣布全量 PASS。

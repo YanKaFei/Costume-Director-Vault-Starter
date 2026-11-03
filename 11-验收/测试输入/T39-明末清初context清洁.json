@@ -1,0 +1,49 @@
+{
+  "_test": {
+    "id": "T39",
+    "title": "明末清初：context_refs 不得引用 1770s/维多利亚等无关卡",
+    "types": [
+      "historical_weak_coverage",
+      "context",
+      "M4"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "structured_result",
+      "warning_absent:rainwear_gap",
+      "warnings_present",
+      "context_refs_clean",
+      "no_example_in_a",
+      "narrative_present",
+      "no_prompt_contamination",
+      "query_hits"
+    ],
+    "query": [
+      "china",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "顾砚秋",
+    "occupation": "书院教师、江南文人",
+    "economic_status": "中下",
+    "arc": "朝代更替中保持读书人的体面与犹疑"
+  },
+  "period": "1644 late Ming early Qing",
+  "region": "jiangnan china",
+  "season": "spring",
+  "scene": "书院讲堂",
+  "time": "day",
+  "weather": "overcast, dry",
+  "action": "讲学、整理书箱",
+  "location": "江南书院",
+  "art_direction": "文人水墨、克制、低饱和",
+  "lighting": "阴天窗光",
+  "camera": "medium shot",
+  "budget": "low",
+  "fidelity_mode": "historical",
+  "tool": "midjourney"
+}

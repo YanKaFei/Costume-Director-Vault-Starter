@@ -22,7 +22,8 @@
     "story_day": "1",
     "gender": "unknown",
     "state": {},
-    "notes": ""
+    "notes": "",
+    "location": "expressionist theatre"
   },
   "fidelity_mode": "inspired",
   "looks": [
@@ -472,80 +473,81 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 44.9,
+      "total": 44.1,
       "scores": {
         "period": 19.5,
-        "identity": 5.3,
+        "identity": 5.1,
         "environment": 1.8,
         "art": 3.6,
-        "movement": 5.0,
+        "movement": 5.4,
         "arc": 4.0,
         "camera": 6.7
       },
       "missing": [],
-      "cost": 0.223,
-      "cost_total": 0.667,
+      "cost": 0.218,
+      "cost_total": 0.655,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "set": "era",
+        "one_piece": "era",
         "outerwear": "era",
         "footwear": "era"
       },
       "region_tiers": {
-        "set": "regional",
+        "one_piece": "regional",
         "outerwear": "regional",
         "footwear": "regional"
       },
       "colors": [
         "black",
-        "blue",
         "brown",
         "deep green",
         "green",
+        "magenta",
+        "orange",
+        "pink",
         "white"
       ],
       "style_tags": [
         "1960s",
         "age",
-        "costume",
         "country",
         "couture",
         "military",
         "mod",
-        "occupational",
+        "psychedelic",
         "space",
-        "space age",
-        "television",
-        "television costume"
+        "space age"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve stage magician; the low economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual; the black, blue, brown palette controls the emotional temperature; against the arc (losing the audience) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve stage magician; the low economic register shows through material and finish; formality runs from casual / smart_casual / smart_casual; the black, brown, deep green palette controls the emotional temperature; against the arc (losing the audience) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "set",
-          "id": "GAR-0036",
-          "name_zh": "护士制服",
-          "name_en": "nurse uniform",
+          "slot": "one_piece",
+          "id": "GAR-0056",
+          "name_zh": "1960 年代迷你裙",
+          "name_en": "1960s mini-dress",
           "colors": [
             "white",
-            "blue"
+            "orange",
+            "pink",
+            "magenta"
           ],
           "materials": [
-            "polyester"
+            "printed_polyester"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0400"
+            "SRC-0416"
           ],
           "scores": {
             "period": 0.78,
-            "identity": 0.23793749999999997,
+            "identity": 0.210375,
             "environment": 0.12249999999999998,
             "art": 0.17727272727272728,
-            "movement": 0.4,
+            "movement": 0.5,
             "arc": 0.35,
             "camera": 0.67
           }
@@ -608,8 +610,13 @@
       ],
       "parts": [
         {
+          "id": "STR-0003",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0011",
-          "slot": "set",
+          "slot": "outerwear",
           "confidence": "suggested"
         }
       ],
@@ -619,35 +626,36 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Elias, complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue, brown, deep green, green, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: complete set: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; complete set] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "prompt_image": "full-body character design of an adult Elias, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, deep green, green, magenta, orange, pink, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); frog closure (STR-0011), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。; 超短裙摆限制坐姿与跨步; 泡泡袖/荷叶边在动作中翻动。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
       "reasons": [
         "highest scoring dimensions: 年代/文化 19.5/25, 摄影/一致性 6.7/10",
-        "成套: GAR-0036 护士制服 (functional)",
+        "连身: GAR-0056 1960 年代迷你裙 (casual)",
         "外层: GAR-0057 1960 年代 Courrèges 外套 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0011",
+        "linked structure cards: STR-0003, STR-0011",
         "linked material cards: MAT-0001"
       ],
       "risks": [
-        "region mismatch in GAR-0036, GAR-0057: cards document their own regions, not central europe",
+        "region mismatch in GAR-0056, GAR-0057: cards document their own regions, not central europe",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0400",
+          "SRC-0416",
           "SRC-0417",
           "SRC-0123",
+          "SRC-0133",
           "SRC-0200",
           "SRC-0202",
           "SRC-0102"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0400",
-            "url": "https://collections.vam.ac.uk/item/O1224877/"
+            "source_id": "SRC-0416",
+            "url": "https://collections.vam.ac.uk/item/O130915/"
           },
           {
             "source_id": "SRC-0417",
@@ -656,6 +664,10 @@
           {
             "source_id": "SRC-0123",
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0133",
+            "url": "https://fashionhistory.fitnyc.edu/ruff/"
           },
           {
             "source_id": "SRC-0200",
@@ -676,7 +688,7 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0036": "verified",
+          "GAR-0056": "verified",
           "GAR-0057": "verified",
           "GAR-0022": "verified"
         },
@@ -715,7 +727,7 @@
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 0.847,
-    "c_cost_total": 0.667,
+    "c_cost_total": 0.655,
     "differences": {
       "a_b": 2,
       "a_c": 2,
@@ -730,15 +742,13 @@
       "GAR-0007",
       "GAR-0003",
       "GAR-0002",
-      "GAR-0043",
       "GAR-0006"
     ],
     "lower_body": [
       "GAR-0011",
       "GAR-0010",
       "GAR-0013",
-      "GAR-0014",
-      "GAR-0059"
+      "GAR-0014"
     ],
     "inner_layer": [
       "GAR-0012",
@@ -751,15 +761,9 @@
       "GAR-0046",
       "GAR-0017",
       "GAR-0016",
-      "GAR-0018",
-      "GAR-0040",
-      "GAR-0041",
-      "GAR-0037"
+      "GAR-0018"
     ],
     "accessory": [
-      "GAR-0039",
-      "GAR-0050",
-      "GAR-0051",
       "GAR-0021",
       "GAR-0068",
       "GAR-0026",
@@ -778,7 +782,6 @@
       "GAR-0058",
       "GAR-0060",
       "GAR-0024",
-      "GAR-0044",
       "GAR-0023"
     ],
     "one_piece": [
@@ -794,13 +797,16 @@
       "GAR-0029",
       "GAR-0032",
       "GAR-0069"
-    ],
-    "set": [
-      "GAR-0036",
-      "GAR-0042"
     ]
   },
   "rejected": [
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
     {
       "id": "GAR-0001",
       "slot": "set",
@@ -837,6 +843,27 @@
       ]
     },
     {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
       "id": "GAR-0027",
       "slot": "accessory",
       "reasons": [
@@ -844,10 +871,52 @@
       ]
     },
     {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
       "id": "GAR-0004",
       "slot": "one_piece",
       "reasons": [
         "region-specific card incompatible with central europe (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
       ]
     },
     {
@@ -869,6 +938,20 @@
       "slot": "one_piece",
       "reasons": [
         "region-specific card incompatible with central europe (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'stage magician'"
       ]
     },
     {
@@ -925,8 +1008,12 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
-      "source_id": "SRC-0400",
-      "url": "https://collections.vam.ac.uk/item/O1224877/"
+      "source_id": "SRC-0416",
+      "url": "https://collections.vam.ac.uk/item/O130915/"
+    },
+    {
+      "source_id": "SRC-0133",
+      "url": "https://fashionhistory.fitnyc.edu/ruff/"
     }
   ],
   "missing_urls": [],
@@ -945,7 +1032,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
+    "occupation_category": "unknown",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
     "warnings_count": 3,
-    "rejected_count": 12
+    "rejected_count": 24
   }
 }

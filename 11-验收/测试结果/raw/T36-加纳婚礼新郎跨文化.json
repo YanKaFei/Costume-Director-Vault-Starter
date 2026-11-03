@@ -1,0 +1,965 @@
+{
+  "input": {
+    "character_name": "Kwame",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "architect",
+    "economic_status": "middle",
+    "period": "contemporary",
+    "region": "london and accra",
+    "season": "summer",
+    "scene": "wedding ceremony and reception",
+    "time": "afternoon to evening",
+    "weather": "warm, outdoor ceremony",
+    "action": "greeting elders and dancing",
+    "arc": "honouring Ghanaian family tradition in London",
+    "art_direction": "documentary wedding photography, natural light",
+    "lighting": "late afternoon sun and warm string lights",
+    "camera": "documentary medium and close",
+    "budget": "medium",
+    "fidelity_mode": "inspired",
+    "tool": "midjourney",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "",
+    "location": "London garden venue with Ghanaian family ceremony"
+  },
+  "fidelity_mode": "inspired",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": "LOOK-0013",
+      "total": 45.6,
+      "scores": {
+        "period": 16.8,
+        "identity": 4.9,
+        "environment": 3.2,
+        "art": 3.4,
+        "movement": 4.8,
+        "arc": 4.8,
+        "camera": 6.7
+      },
+      "missing": [],
+      "cost": 0.411,
+      "cost_total": 1.643,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "set": "era",
+        "accessory": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "set": "regional",
+        "accessory": "regional",
+        "footwear": "exact",
+        "carried_prop": "exact"
+      },
+      "colors": [
+        "black",
+        "blue",
+        "green",
+        "indigo",
+        "multicolor",
+        "orange",
+        "red",
+        "silver",
+        "white"
+      ],
+      "style_tags": [
+        "1930s",
+        "accessory",
+        "african",
+        "art",
+        "art deco",
+        "deco",
+        "headwear",
+        "textile",
+        "west",
+        "west african"
+      ],
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 6,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve architect; the middle economic register shows through material and finish; formality runs from ceremonial / ceremonial / smart_casual / smart_casual; the black, blue, green palette controls the emotional temperature; against the arc (honouring Ghanaian family tradition in London) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0005",
+          "name_zh": "布布长袍",
+          "name_en": "boubou",
+          "colors": [
+            "indigo",
+            "white",
+            "blue"
+          ],
+          "materials": [
+            "cotton",
+            "indigo_dyed_cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0106"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.37625000000000003,
+            "environment": 0.12249999999999998,
+            "art": 0.2425,
+            "movement": 0.5,
+            "arc": 0.5357142857142857,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
+          "colors": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "materials": [
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0205",
+            "SRC-0206"
+          ],
+          "scores": {
+            "period": 0.36450000000000005,
+            "identity": 0.225,
+            "environment": 0.4225,
+            "art": 0.2425,
+            "movement": 0.5,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0070",
+          "name_zh": "头巾",
+          "name_en": "gele head-tie",
+          "colors": [
+            "orange",
+            "green",
+            "red"
+          ],
+          "materials": [
+            "rayon",
+            "jacquard"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0431"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.482125,
+            "environment": 0.12249999999999998,
+            "art": 0.18,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0048",
+          "name_zh": "手提包",
+          "name_en": "handbag",
+          "colors": [
+            "multicolor"
+          ],
+          "materials": [
+            "canvas",
+            "wool"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0408"
+          ],
+          "scores": {
+            "period": 0.36450000000000005,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.18,
+            "movement": 0.5,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "set"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "set"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Kwame, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, matching wrapper and head-tie, ankle-length; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, blue, green, indigo, multicolor, orange, red, silver, white, setting: wedding ceremony and reception, afternoon to evening, warm, outdoor ceremony, art direction: documentary wedding photography, natural light, lighting: late afternoon sun and warm string lights, camera: documentary medium and close, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Kwame, greeting elders and dancing, scene: wedding ceremony and reception, afternoon to evening, warm, outdoor ceremony, camera: documentary medium and close, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, matching wrapper and head-tie, ankle-length; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: natural fabric response to the action, gravity and wind, lighting: late afternoon sun and warm string lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 16.8/25, 摄影/一致性 6.7/10",
+        "成套: GAR-0005 布布长袍 (ceremonial)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "配饰: GAR-0070 头巾 (ceremonial)",
+        "携带物: GAR-0048 手提包 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0011",
+        "based on curated vault look card LOOK-0013"
+      ],
+      "risks": [
+        "region mismatch in GAR-0005, GAR-0035, GAR-0070, GAR-0048: cards document their own regions, not london and accra",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0106",
+          "SRC-0431",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0408",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0141",
+          "SRC-0423"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0106",
+            "url": "https://fashionhistory.fitnyc.edu/boubou/"
+          },
+          {
+            "source_id": "SRC-0431",
+            "url": "https://collections.vam.ac.uk/item/O41652/"
+          },
+          {
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0408",
+            "url": "https://collections.vam.ac.uk/item/O367714/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0005": "verified",
+          "GAR-0070": "verified",
+          "GAR-0035": "verified",
+          "GAR-0048": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 49.7,
+      "scores": {
+        "period": 23.0,
+        "identity": 5.7,
+        "environment": 1.8,
+        "art": 3.5,
+        "movement": 4.6,
+        "arc": 4.4,
+        "camera": 6.7
+      },
+      "missing": [],
+      "cost": 0.321,
+      "cost_total": 0.643,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "footwear": "exact"
+      },
+      "colors": [
+        "black",
+        "brown",
+        "multicolor",
+        "striped"
+      ],
+      "style_tags": [
+        "african",
+        "ceremonial",
+        "country",
+        "menswear",
+        "military",
+        "west",
+        "west african"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve architect; the middle economic register shows through material and finish; formality runs from ceremonial / smart_casual; the black, brown, multicolor palette controls the emotional temperature; against the arc (honouring Ghanaian family tradition in London) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0069",
+          "name_zh": "阿格巴达",
+          "name_en": "agbada",
+          "colors": [
+            "striped",
+            "multicolor"
+          ],
+          "materials": [
+            "cotton",
+            "velvet",
+            "embroidery"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0430"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.4972500000000001,
+            "environment": 0.12249999999999998,
+            "art": 0.18,
+            "movement": 0.5,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3025,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "one_piece"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Kwame, one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, multicolor, striped, setting: wedding ceremony and reception, afternoon to evening, warm, outdoor ceremony, art direction: documentary wedding photography, natural light, lighting: late afternoon sun and warm string lights, camera: documentary medium and close, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Kwame, greeting elders and dancing, scene: wedding ceremony and reception, afternoon to evening, warm, outdoor ceremony, camera: documentary medium and close, costume: one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 宽大长袍限制快走; 宽袖在动作中大幅摆动; 刺绣部位易勾挂。, lighting: late afternoon sun and warm string lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
+        "连身: GAR-0069 阿格巴达 (ceremonial)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001"
+      ],
+      "risks": [
+        "region mismatch in GAR-0069, GAR-0022: cards document their own regions, not london and accra",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0430",
+          "SRC-0123",
+          "SRC-0102"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0430",
+            "url": "https://collections.vam.ac.uk/item/O1678646/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0069": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 49.7,
+      "scores": {
+        "period": 23.0,
+        "identity": 4.6,
+        "environment": 1.8,
+        "art": 4.0,
+        "movement": 4.6,
+        "arc": 4.9,
+        "camera": 6.7
+      },
+      "missing": [],
+      "cost": 0.321,
+      "cost_total": 0.643,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "set": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "set": "regional",
+        "footwear": "exact"
+      },
+      "colors": [
+        "black",
+        "blue",
+        "brown",
+        "indigo",
+        "white"
+      ],
+      "style_tags": [
+        "african",
+        "country",
+        "military",
+        "west",
+        "west african"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve architect; the middle economic register shows through material and finish; formality runs from ceremonial / smart_casual; the black, blue, brown palette controls the emotional temperature; against the arc (honouring Ghanaian family tradition in London) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "set",
+          "id": "GAR-0005",
+          "name_zh": "布布长袍",
+          "name_en": "boubou",
+          "colors": [
+            "indigo",
+            "white",
+            "blue"
+          ],
+          "materials": [
+            "cotton",
+            "indigo_dyed_cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0106"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.37625000000000003,
+            "environment": 0.12249999999999998,
+            "art": 0.2425,
+            "movement": 0.5,
+            "arc": 0.5357142857142857,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3025,
+            "movement": 0.4,
+            "arc": 0.44285714285714284,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "set"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "set"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Kwame, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue, brown, indigo, white, setting: wedding ceremony and reception, afternoon to evening, warm, outdoor ceremony, art direction: documentary wedding photography, natural light, lighting: late afternoon sun and warm string lights, camera: documentary medium and close, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Kwame, greeting elders and dancing, scene: wedding ceremony and reception, afternoon to evening, warm, outdoor ceremony, camera: documentary medium and close, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: natural fabric response to the action, gravity and wind, lighting: late afternoon sun and warm string lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
+        "成套: GAR-0005 布布长袍 (ceremonial)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0003"
+      ],
+      "risks": [
+        "region mismatch in GAR-0005, GAR-0022: cards document their own regions, not london and accra",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0106",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0106",
+            "url": "https://fashionhistory.fitnyc.edu/boubou/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0005": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [],
+    "period_refs": [
+      "PRD-0008"
+    ],
+    "scene_refs": []
+  },
+  "context_refs": [
+    {
+      "id": "PRD-0008",
+      "type": "period_region",
+      "score": 0.763,
+      "period_tier": "era",
+      "region_tier": "exact",
+      "reason": "period/region match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction 'documentary wedding photography, natural light'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "cross_cultural_wedding",
+      "severity": "medium",
+      "message": "cross-cultural wedding brief: confirm which ceremony (traditional / white wedding / both) and whether kente or adinkra is appropriate; the vault has no wedding-ceremony garment cards",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "cheaper",
+    "a_cost_total": 1.643,
+    "c_cost_total": 0.643,
+    "differences": {
+      "a_b": 6,
+      "a_c": 4,
+      "b_c": 2
+    }
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0006",
+      "GAR-EXAMPLE-001",
+      "GAR-0008",
+      "GAR-0007",
+      "GAR-0034",
+      "GAR-0002",
+      "GAR-0003"
+    ],
+    "lower_body": [
+      "GAR-0014",
+      "GAR-0010",
+      "GAR-0011",
+      "GAR-0013"
+    ],
+    "set": [
+      "GAR-0005"
+    ],
+    "inner_layer": [
+      "GAR-0020",
+      "GAR-0012"
+    ],
+    "outerwear": [
+      "GAR-0045",
+      "GAR-0019",
+      "GAR-0017",
+      "GAR-0016",
+      "GAR-0033",
+      "GAR-0057",
+      "GAR-0046",
+      "GAR-0018"
+    ],
+    "accessory": [
+      "GAR-0070",
+      "GAR-0068",
+      "GAR-0027",
+      "GAR-0028",
+      "GAR-0021",
+      "GAR-0026",
+      "GAR-0025"
+    ],
+    "carried_prop": [
+      "GAR-0048",
+      "GAR-0047",
+      "GAR-0049"
+    ],
+    "footwear": [
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0035",
+      "GAR-0060",
+      "GAR-0058"
+    ],
+    "one_piece": [
+      "GAR-0069",
+      "GAR-0056",
+      "GAR-0004",
+      "GAR-0054",
+      "GAR-0055",
+      "GAR-0052",
+      "GAR-0053",
+      "GAR-0031",
+      "GAR-0009",
+      "GAR-0015",
+      "GAR-0062",
+      "GAR-0029",
+      "GAR-0032"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with london and accra (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with london and accra (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with london and accra (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "dance: heels unsafe for dance movement"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with london and accra (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with london and accra (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with london and accra (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'architect'"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with london and accra (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with london and accra (china)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no upper_body candidates retrieved",
+    "no lower_body candidates retrieved",
+    "no reliable style card for art direction 'documentary wedding photography, natural light'",
+    "cross-cultural wedding brief: confirm which ceremony (traditional / white wedding / both) and whether kente or adinkra is appropriate; the vault has no wedding-ceremony garment cards"
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0106",
+      "url": "https://fashionhistory.fitnyc.edu/boubou/"
+    },
+    {
+      "source_id": "SRC-0431",
+      "url": "https://collections.vam.ac.uk/item/O41652/"
+    },
+    {
+      "source_id": "SRC-0205",
+      "url": "https://collections.vam.ac.uk/item/O350849/"
+    },
+    {
+      "source_id": "SRC-0206",
+      "url": "https://collections.vam.ac.uk/item/O350850/"
+    },
+    {
+      "source_id": "SRC-0408",
+      "url": "https://collections.vam.ac.uk/item/O367714/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0430",
+      "url": "https://collections.vam.ac.uk/item/O1678646/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "inspired",
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "occupation_category": "wedding",
+    "occupation_match": true,
+    "occupation_forbidden_selected": [],
+    "occasion_match": true,
+    "rainwear_selected": null,
+    "warnings_count": 4,
+    "rejected_count": 21
+  }
+}

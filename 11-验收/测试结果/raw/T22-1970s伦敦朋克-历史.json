@@ -22,7 +22,8 @@
     "story_day": "1",
     "gender": "unknown",
     "state": {},
-    "notes": ""
+    "notes": "",
+    "location": "london squat"
   },
   "fidelity_mode": "historical",
   "looks": [
@@ -85,9 +86,9 @@
       "budget_mode": "cheaper",
       "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
       "differences": {
-        "a_b": 8,
-        "a_c": 5,
-        "b_c": 3
+        "a_b": 5,
+        "a_c": 7,
+        "b_c": 2
       },
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve punk musician; the low economic register shows through material and finish; formality runs from business / smart_casual / smart_casual / smart_casual; the beige, black, grey herringbone palette controls the emotional temperature; against the arc (refusing respectability) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
@@ -309,256 +310,6 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 49.1,
-      "scores": {
-        "period": 23.3,
-        "identity": 3.8,
-        "environment": 1.8,
-        "art": 4.8,
-        "movement": 4.3,
-        "arc": 3.5,
-        "camera": 6.5
-      },
-      "missing": [],
-      "cost": 0.296,
-      "cost_total": 1.185,
-      "contains_example": false,
-      "evidence_tier": "exact",
-      "period_tiers": {
-        "one_piece": "era",
-        "outerwear": "era",
-        "footwear": "exact",
-        "accessory": "exact"
-      },
-      "region_tiers": {
-        "one_piece": "exact",
-        "outerwear": "exact",
-        "footwear": "exact",
-        "accessory": "exact"
-      },
-      "colors": [
-        "black",
-        "gold",
-        "green",
-        "scarlet",
-        "silver grey"
-      ],
-      "style_tags": [
-        "1940s",
-        "1970s",
-        "disco",
-        "edwardian",
-        "glam",
-        "ii",
-        "punk",
-        "rain",
-        "subculture",
-        "utility",
-        "war",
-        "world",
-        "world war ii"
-      ],
-      "budget_mode": null,
-      "budget_explanation": null,
-      "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve punk musician; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual / casual; the black, gold, green palette controls the emotional temperature; against the arc (refusing respectability) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
-      "items": [
-        {
-          "slot": "one_piece",
-          "id": "GAR-0052",
-          "name_zh": "Utility 连衣裙",
-          "name_en": "Utility day dress",
-          "colors": [
-            "scarlet"
-          ],
-          "materials": [
-            "rayon_crepe"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0412"
-          ],
-          "scores": {
-            "period": 0.8900000000000001,
-            "identity": 0.20081250000000003,
-            "environment": 0.12249999999999998,
-            "art": 0.40263157894736834,
-            "movement": 0.5,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "outerwear",
-          "id": "GAR-0046",
-          "name_zh": "雨衣",
-          "name_en": "raincoat",
-          "colors": [
-            "silver_grey"
-          ],
-          "materials": [
-            "rubberised_silk",
-            "silk"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0406"
-          ],
-          "scores": {
-            "period": 0.8900000000000001,
-            "identity": 0.210375,
-            "environment": 0.12249999999999998,
-            "art": 0.2131578947368421,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "footwear",
-          "id": "GAR-0058",
-          "name_zh": "1970 年代厚底鞋",
-          "name_en": "1970s platform shoe",
-          "colors": [
-            "black",
-            "gold"
-          ],
-          "materials": [
-            "leather",
-            "metal",
-            "rubber"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0418"
-          ],
-          "scores": {
-            "period": 1.0,
-            "identity": 0.210375,
-            "environment": 0.12249999999999998,
-            "art": 0.3388157894736842,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "accessory",
-          "id": "GAR-0051",
-          "name_zh": "朋克徽章",
-          "name_en": "punk badge",
-          "colors": [
-            "green",
-            "black"
-          ],
-          "materials": [
-            "plastic",
-            "metal",
-            "paper"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0411"
-          ],
-          "scores": {
-            "period": 1.0,
-            "identity": 0.5337291666666667,
-            "environment": 0.12249999999999998,
-            "art": 0.3388157894736842,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        }
-      ],
-      "parts": [],
-      "materials": [
-        {
-          "id": "MAT-0002",
-          "slot": "outerwear"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "outerwear"
-        },
-        {
-          "id": "MAT-0004",
-          "slot": "footwear"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight; accessory: circular punk lapel badge, green printed portrait with glasses and moustache, cheap plastic-coated print on metal, palette: black, gold, green, scarlet, silver grey, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear] | GAR-0051 punk badge [green, black; plastic, metal, paper; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
-      "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight; accessory: circular punk lapel badge, green printed portrait with glasses and moustache, cheap plastic-coated print on metal, fabric motion: 橡胶丝绸较硬、透气性差，动作时折痕明显; 湿后重量增加、内衬返潮。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear] | GAR-0051 punk badge [green, black; plastic, metal, paper; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear] | GAR-0051 punk badge [green, black; plastic, metal, paper; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
-      "reasons": [
-        "highest scoring dimensions: 年代/文化 23.3/25, 摄影/一致性 6.5/10",
-        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
-        "外层: GAR-0046 雨衣 (smart_casual)",
-        "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
-        "配饰: GAR-0051 朋克徽章 (casual)",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0004",
-        "period/culture score is supported by period-tagged cards"
-      ],
-      "risks": [
-        "character psychology is a directorial interpretation, not a clothing-history fact",
-        "all images remain external links; no third-party images are embedded in the vault"
-      ],
-      "evidence": {
-        "source_ids": [
-          "SRC-0412",
-          "SRC-0406",
-          "SRC-0418",
-          "SRC-0411",
-          "SRC-0141",
-          "SRC-0142",
-          "SRC-0143"
-        ],
-        "source_urls": [
-          {
-            "source_id": "SRC-0412",
-            "url": "https://collections.vam.ac.uk/item/O15693/"
-          },
-          {
-            "source_id": "SRC-0406",
-            "url": "https://collections.vam.ac.uk/item/O361727/"
-          },
-          {
-            "source_id": "SRC-0418",
-            "url": "https://collections.vam.ac.uk/item/O1380038/"
-          },
-          {
-            "source_id": "SRC-0411",
-            "url": "https://collections.vam.ac.uk/item/O238963/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0143",
-            "url": "https://fashionhistory.fitnyc.edu/lurex/"
-          }
-        ],
-        "context_style_ids": [],
-        "context_period_ids": [
-          "PRD-0006"
-        ],
-        "context_scene_ids": [],
-        "item_evidence": {
-          "GAR-0052": "verified",
-          "GAR-0046": "verified",
-          "GAR-0058": "verified",
-          "GAR-0051": "verified"
-        },
-        "missing_urls": []
-      }
-    },
-    {
-      "look_ref": "C",
-      "source_look_id": null,
       "total": 48.8,
       "scores": {
         "period": 22.3,
@@ -775,6 +526,216 @@
         },
         "missing_urls": []
       }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 48.1,
+      "scores": {
+        "period": 23.0,
+        "identity": 3.1,
+        "environment": 1.8,
+        "art": 4.8,
+        "movement": 4.4,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.264,
+      "cost_total": 0.792,
+      "contains_example": false,
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "exact"
+      },
+      "region_tiers": {
+        "one_piece": "exact",
+        "outerwear": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "black",
+        "gold",
+        "scarlet",
+        "silver grey"
+      ],
+      "style_tags": [
+        "1940s",
+        "1970s",
+        "disco",
+        "edwardian",
+        "glam",
+        "ii",
+        "rain",
+        "utility",
+        "war",
+        "world",
+        "world war ii"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve punk musician; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the black, gold, scarlet palette controls the emotional temperature; against the arc (refusing respectability) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0052",
+          "name_zh": "Utility 连衣裙",
+          "name_en": "Utility day dress",
+          "colors": [
+            "scarlet"
+          ],
+          "materials": [
+            "rayon_crepe"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0412"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.20081250000000003,
+            "environment": 0.12249999999999998,
+            "art": 0.40263157894736834,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0046",
+          "name_zh": "雨衣",
+          "name_en": "raincoat",
+          "colors": [
+            "silver_grey"
+          ],
+          "materials": [
+            "rubberised_silk",
+            "silk"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0406"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.210375,
+            "environment": 0.12249999999999998,
+            "art": 0.2131578947368421,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0058",
+          "name_zh": "1970 年代厚底鞋",
+          "name_en": "1970s platform shoe",
+          "colors": [
+            "black",
+            "gold"
+          ],
+          "materials": [
+            "leather",
+            "metal",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0418"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.210375,
+            "environment": 0.12249999999999998,
+            "art": 0.3388157894736842,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0004",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, gold, scarlet, silver grey, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
+      "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 橡胶丝绸较硬、透气性差，动作时折痕明显; 湿后重量增加、内衬返潮。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.5/10",
+        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
+        "外层: GAR-0046 雨衣 (smart_casual)",
+        "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0004",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0412",
+          "SRC-0406",
+          "SRC-0418",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0143"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
+          },
+          {
+            "source_id": "SRC-0418",
+            "url": "https://collections.vam.ac.uk/item/O1380038/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0006"
+        ],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0052": "verified",
+          "GAR-0046": "verified",
+          "GAR-0058": "verified"
+        },
+        "missing_urls": []
+      }
     }
   ],
   "context": {
@@ -817,16 +778,23 @@
         "GAR-0053"
       ],
       "look": null
+    },
+    {
+      "code": "occupation_coverage_gap",
+      "severity": "medium",
+      "message": "the vault has no 'punk musician'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+      "items": [],
+      "look": null
     }
   ],
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 1.52,
-    "c_cost_total": 0.985,
+    "c_cost_total": 0.792,
     "differences": {
-      "a_b": 8,
-      "a_c": 5,
-      "b_c": 3
+      "a_b": 5,
+      "a_c": 7,
+      "b_c": 2
     }
   },
   "retrieved_ids": {
@@ -834,13 +802,11 @@
       "GAR-0008",
       "GAR-0034",
       "GAR-0007",
-      "GAR-0006",
-      "GAR-0043"
+      "GAR-0006"
     ],
     "lower_body": [
       "GAR-0011",
       "GAR-0010",
-      "GAR-0059",
       "GAR-0014"
     ],
     "inner_layer": [
@@ -852,17 +818,11 @@
       "GAR-0046",
       "GAR-0033",
       "GAR-0057",
-      "GAR-0040",
       "GAR-0016",
       "GAR-0017",
-      "GAR-0018",
-      "GAR-0041",
-      "GAR-0037"
+      "GAR-0018"
     ],
     "accessory": [
-      "GAR-0051",
-      "GAR-0050",
-      "GAR-0039",
       "GAR-0068",
       "GAR-0021",
       "GAR-0026",
@@ -879,7 +839,6 @@
       "GAR-0060",
       "GAR-0022",
       "GAR-0024",
-      "GAR-0044",
       "GAR-0023"
     ],
     "one_piece": [
@@ -891,10 +850,6 @@
       "GAR-0031",
       "GAR-0032",
       "GAR-0069"
-    ],
-    "set": [
-      "GAR-0036",
-      "GAR-0042"
     ]
   },
   "rejected": [
@@ -910,6 +865,13 @@
       "slot": "upper_body",
       "reasons": [
         "historical mode: period mismatch (1970s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
       ]
     },
     {
@@ -962,6 +924,27 @@
       ]
     },
     {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
       "id": "GAR-0025",
       "slot": "accessory",
       "reasons": [
@@ -976,10 +959,24 @@
       ]
     },
     {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
       "id": "GAR-0049",
       "slot": "carried_prop",
       "reasons": [
         "historical mode: period mismatch (1970s vs 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
       ]
     },
     {
@@ -1008,6 +1005,34 @@
       "slot": "one_piece",
       "reasons": [
         "historical mode: period mismatch (1970s vs roman_republic, roman_empire)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
       ]
     },
     {
@@ -1040,6 +1065,20 @@
       ]
     },
     {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'punk musician'"
+      ]
+    },
+    {
       "id": "GAR-0066",
       "slot": "accessory",
       "reasons": [
@@ -1058,7 +1097,8 @@
     "no upper_body candidates retrieved",
     "no lower_body candidates retrieved",
     "no reliable style card for art direction '1970s London punk'",
-    "period evidence is era-level (century bucket) for GAR-0035, GAR-0045, GAR-0046, GAR-0047, GAR-0052, GAR-0053; exact-decade cards are missing"
+    "period evidence is era-level (century bucket) for GAR-0035, GAR-0045, GAR-0046, GAR-0047, GAR-0052, GAR-0053; exact-decade cards are missing",
+    "the vault has no 'punk musician'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
   ],
   "sources": [
     {
@@ -1110,10 +1150,6 @@
       "url": "https://collections.vam.ac.uk/item/O1380038/"
     },
     {
-      "source_id": "SRC-0411",
-      "url": "https://collections.vam.ac.uk/item/O238963/"
-    },
-    {
       "source_id": "SRC-0143",
       "url": "https://fashionhistory.fitnyc.edu/lurex/"
     }
@@ -1134,7 +1170,11 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
-    "warnings_count": 4,
-    "rejected_count": 22
+    "occupation_category": "generic:musician",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 5,
+    "rejected_count": 34
   }
 }

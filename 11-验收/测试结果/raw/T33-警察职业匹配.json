@@ -1,0 +1,1030 @@
+{
+  "input": {
+    "character_name": "PC Hale",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "police constable",
+    "economic_status": "middle",
+    "period": "contemporary",
+    "region": "britain",
+    "season": "autumn",
+    "scene": "city street",
+    "time": "night",
+    "weather": "rain",
+    "action": "walking a night patrol",
+    "arc": "keeping order during a night patrol",
+    "art_direction": "gritty urban realism",
+    "lighting": "sodium street lights",
+    "camera": "medium tracking",
+    "budget": "medium",
+    "fidelity_mode": "inspired",
+    "tool": "generic",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "",
+    "location": "london street"
+  },
+  "fidelity_mode": "inspired",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 57.9,
+      "scores": {
+        "period": 23.0,
+        "identity": 7.0,
+        "environment": 9.4,
+        "art": 5.1,
+        "movement": 4.3,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.223,
+      "cost_total": 0.667,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "none",
+        "outerwear": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "beige",
+        "black",
+        "brown",
+        "khaki",
+        "lavender",
+        "navy"
+      ],
+      "style_tags": [
+        "burberry",
+        "classic",
+        "country",
+        "gabardine",
+        "military",
+        "occupational",
+        "uniform"
+      ],
+      "budget_mode": "equivalent_cost",
+      "budget_explanation": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve police constable; the middle economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (keeping order during a night patrol) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0042",
+          "name_zh": "警察制服",
+          "name_en": "police uniform",
+          "colors": [
+            "navy",
+            "black"
+          ],
+          "materials": [
+            "wool",
+            "polyester",
+            "cotton"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.6100000000000001,
+            "environment": 0.5774999999999999,
+            "art": 0.35,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
+          "colors": [
+            "khaki",
+            "beige",
+            "lavender"
+          ],
+          "materials": [
+            "gabardine",
+            "cotton",
+            "lace"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.46944444444444444,
+            "environment": 0.7274999999999999,
+            "art": 0.3125,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.2861111111111111,
+            "environment": 0.5774999999999999,
+            "art": 0.35,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult PC Hale, one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, navy, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_video": "PC Hale, walking a night patrol, scene: city street, night, rain, camera: medium tracking, costume: one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 硬挺外套与腰带限制弯腰; 警棍/手铐位置影响跑动，需锁定。, lighting: sodium street lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.4/15",
+        "连身: GAR-0042 警察制服 (functional)",
+        "外层: GAR-0045 风衣 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+      ],
+      "risks": [
+        "region mismatch in GAR-0042: cards document their own regions, not britain",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0405",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0141"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0006"
+        ],
+        "context_scene_ids": [
+          "SCN-0005"
+        ],
+        "item_evidence": {
+          "GAR-0042": "interpretive",
+          "GAR-0045": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 56.6,
+      "scores": {
+        "period": 23.0,
+        "identity": 6.8,
+        "environment": 9.2,
+        "art": 4.3,
+        "movement": 4.3,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.287,
+      "cost_total": 0.86,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "none",
+        "outerwear": "exact",
+        "footwear": "none"
+      },
+      "colors": [
+        "beaded",
+        "beige",
+        "black",
+        "buckskin",
+        "khaki",
+        "lavender",
+        "navy",
+        "tan"
+      ],
+      "style_tags": [
+        "burberry",
+        "classic",
+        "craft",
+        "gabardine",
+        "indigenous",
+        "occupational",
+        "uniform"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve police constable; the middle economic register shows through material and finish; formality runs from functional / smart_casual / casual; the beaded, beige, black palette controls the emotional temperature; against the arc (keeping order during a night patrol) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0042",
+          "name_zh": "警察制服",
+          "name_en": "police uniform",
+          "colors": [
+            "navy",
+            "black"
+          ],
+          "materials": [
+            "wool",
+            "polyester",
+            "cotton"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.6100000000000001,
+            "environment": 0.5774999999999999,
+            "art": 0.35,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
+          "colors": [
+            "khaki",
+            "beige",
+            "lavender"
+          ],
+          "materials": [
+            "gabardine",
+            "cotton",
+            "lace"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.46944444444444444,
+            "environment": 0.7274999999999999,
+            "art": 0.3125,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
+          "colors": [
+            "tan",
+            "buckskin",
+            "beaded"
+          ],
+          "materials": [
+            "leather",
+            "beads",
+            "silk_ribbon"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0124"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.5319999999999999,
+            "art": 0.175,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult PC Hale, one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, black, buckskin, khaki, lavender, navy, tan, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011",
+      "prompt_video": "PC Hale, walking a night patrol, scene: city street, night, rain, camera: medium tracking, costume: one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 硬挺外套与腰带限制弯腰; 警棍/手铐位置影响跑动，需锁定。, lighting: sodium street lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.2/15",
+        "连身: GAR-0042 警察制服 (functional)",
+        "外层: GAR-0045 风衣 (smart_casual)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0011"
+      ],
+      "risks": [
+        "region mismatch in GAR-0042, GAR-0023: cards document their own regions, not britain",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0405",
+          "SRC-0124",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0141",
+          "SRC-0423"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0006"
+        ],
+        "context_scene_ids": [
+          "SCN-0005"
+        ],
+        "item_evidence": {
+          "GAR-0042": "interpretive",
+          "GAR-0045": "verified",
+          "GAR-0023": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 48.8,
+      "scores": {
+        "period": 17.9,
+        "identity": 5.2,
+        "environment": 6.9,
+        "art": 5.1,
+        "movement": 4.7,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.282,
+      "cost_total": 0.847,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "exact",
+        "outerwear": "exact",
+        "footwear": "exact"
+      },
+      "colors": [
+        "beige",
+        "black",
+        "brown",
+        "khaki",
+        "lavender",
+        "scarlet"
+      ],
+      "style_tags": [
+        "1940s",
+        "burberry",
+        "classic",
+        "country",
+        "gabardine",
+        "ii",
+        "military",
+        "utility",
+        "war",
+        "world",
+        "world war ii"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve police constable; the middle economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (keeping order during a night patrol) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0052",
+          "name_zh": "Utility 连衣裙",
+          "name_en": "Utility day dress",
+          "colors": [
+            "scarlet"
+          ],
+          "materials": [
+            "rayon_crepe"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0412"
+          ],
+          "scores": {
+            "period": 0.36450000000000005,
+            "identity": 0.2861111111111111,
+            "environment": 0.12249999999999998,
+            "art": 0.35,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
+          "colors": [
+            "khaki",
+            "beige",
+            "lavender"
+          ],
+          "materials": [
+            "gabardine",
+            "cotton",
+            "lace"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.46944444444444444,
+            "environment": 0.7274999999999999,
+            "art": 0.3125,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.2861111111111111,
+            "environment": 0.5774999999999999,
+            "art": 0.35,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult PC Hale, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, scarlet, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+      "prompt_video": "PC Hale, walking a night patrol, scene: city street, night, rain, camera: medium tracking, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: sodium street lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 17.9/25, 环境气候 6.9/15",
+        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
+        "外层: GAR-0045 风衣 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0002"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0412",
+          "SRC-0405",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0141"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0006"
+        ],
+        "context_scene_ids": [
+          "SCN-0005"
+        ],
+        "item_evidence": {
+          "GAR-0052": "verified",
+          "GAR-0045": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [],
+    "period_refs": [
+      "PRD-0006"
+    ],
+    "scene_refs": [
+      "SCN-0005"
+    ]
+  },
+  "context_refs": [
+    {
+      "id": "PRD-0006",
+      "type": "period_region",
+      "score": 0.763,
+      "period_tier": "era",
+      "region_tier": "exact",
+      "reason": "period/region match"
+    },
+    {
+      "id": "SCN-0005",
+      "type": "scene",
+      "score": 0.45,
+      "period_tier": "era",
+      "region_tier": "exact",
+      "reason": "scene token match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction 'gritty urban realism'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "region_mismatch",
+      "severity": "medium",
+      "message": "cards document other regions for GAR-0023, GAR-0042 (requested britain); cross-region borrowing is flagged, not silently accepted",
+      "items": [
+        "GAR-0023",
+        "GAR-0042"
+      ],
+      "look": null
+    },
+    {
+      "code": "budget_equivalent",
+      "severity": "medium",
+      "message": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "equivalent_cost",
+    "a_cost_total": 0.667,
+    "c_cost_total": 0.847,
+    "differences": {
+      "a_b": 2,
+      "a_c": 2,
+      "b_c": 4
+    }
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0006",
+      "GAR-EXAMPLE-001",
+      "GAR-0008",
+      "GAR-0034",
+      "GAR-0007",
+      "GAR-0003",
+      "GAR-0002"
+    ],
+    "lower_body": [
+      "GAR-0014",
+      "GAR-0010",
+      "GAR-0011",
+      "GAR-0013"
+    ],
+    "inner_layer": [
+      "GAR-0012",
+      "GAR-0020"
+    ],
+    "outerwear": [
+      "GAR-0045"
+    ],
+    "accessory": [
+      "GAR-0070",
+      "GAR-0068",
+      "GAR-0021",
+      "GAR-0028",
+      "GAR-0050",
+      "GAR-0025",
+      "GAR-0051",
+      "GAR-0026"
+    ],
+    "carried_prop": [
+      "GAR-0048",
+      "GAR-0047",
+      "GAR-0049"
+    ],
+    "footwear": [
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0060",
+      "GAR-0035",
+      "GAR-0058"
+    ],
+    "one_piece": [
+      "GAR-0042",
+      "GAR-0069",
+      "GAR-0053",
+      "GAR-0052",
+      "GAR-0055",
+      "GAR-0029",
+      "GAR-0054",
+      "GAR-0009",
+      "GAR-0056",
+      "GAR-0031",
+      "GAR-0015",
+      "GAR-0062",
+      "GAR-0032"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with britain (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0016",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0018",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0046",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with britain (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "rain: open footwear is unsafe/wet"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with britain (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'police constable'"
+      ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with britain (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with britain (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with britain (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with britain (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with britain (china)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no upper_body candidates retrieved",
+    "no lower_body candidates retrieved",
+    "no reliable style card for art direction 'gritty urban realism'",
+    "cards document other regions for GAR-0023, GAR-0042 (requested britain); cross-region borrowing is flagged, not silently accepted",
+    "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0405",
+      "url": "https://collections.vam.ac.uk/item/O1295635/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0124",
+      "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "inspired",
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "occupation_category": "police",
+    "occupation_match": true,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": true,
+    "warnings_count": 5,
+    "rejected_count": 24
+  }
+}

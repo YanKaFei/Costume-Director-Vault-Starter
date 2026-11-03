@@ -664,8 +664,14 @@ def sanitize_prompt_fragment(fragment, item, inp, selected_items):
     if not fragment:
         return ""
     weather = lib.norm_text(inp.get("weather", "") + " " + inp.get("season", ""))
-    snow_ok = any(word in weather for word in ("snow", "snowy", "winter", "cold",
-                                                "雪", "冬", "寒"))
+    scene_text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                        ("scene", "location", "weather")))
+    indoor = any(marker in scene_text for marker in
+                 ("indoor", "interior", "室内", "office", "corridor", "room",
+                  "kitchen", "hospital", "ward", "studio", "lobby", "hall",
+                  "basement", "apartment", "shelter", "病房", "办公室", "走廊"))
+    snow_ok = (not indoor) and any(word in weather for word in
+                                   ("snow", "snowy", "雪"))
     own_text = lib.norm_text(item.get("name_en", "") + " " + item.get("name_zh", ""))
     selected_text = lib.norm_text(" ".join(
         other.get("name_en", "") + " " + other.get("name_zh", "")
@@ -691,8 +697,13 @@ def sanitize_motion_notes(notes, inp):
     if not notes:
         return ""
     weather = lib.norm_text(inp.get("weather", "") + " " + inp.get("season", ""))
-    snow_ok = any(word in weather for word in ("snow", "snowy", "winter", "cold",
-                                                "雪", "冬", "寒"))
+    scene_text = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                        ("scene", "location", "weather")))
+    indoor = any(marker in scene_text for marker in
+                 ("indoor", "interior", "室内", "office", "corridor", "room",
+                  "kitchen", "hospital", "ward", "studio", "lobby", "hall",
+                  "basement", "apartment", "shelter", "病房", "办公室", "走廊"))
+    snow_ok = (not indoor) and any(word in weather for word in ("snow", "snowy", "雪"))
     kept = []
     for clause in re.split(r"[;；]", notes):
         clause = clause.strip()

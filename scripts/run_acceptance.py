@@ -290,8 +290,16 @@ def criterion(name, record, card_index, source_ids):
     if name == "no_prompt_contamination":
         problems = []
         inp = (data or {}).get("input", {})
-        weather = rec.lib.norm_text(str(inp.get("weather", "")))
-        snow_ok = any(word in weather for word in ("snow", "snowy", "winter", "cold"))
+        weather = rec.lib.norm_text(str(inp.get("weather", "")) + " " +
+                                    str(inp.get("season", "")))
+        scene_text = rec.lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                                ("scene", "location", "weather")))
+        indoor = any(marker in scene_text for marker in
+                     ("indoor", "interior", "室内", "office", "corridor", "room",
+                      "kitchen", "hospital", "ward", "studio", "lobby", "hall",
+                      "basement", "apartment", "shelter", "病房", "办公室", "走廊"))
+        snow_ok = (not indoor) and any(word in weather for word in
+                                       ("snow", "snowy", "雪"))
         for look in looks:
             selected_names = " ".join(
                 rec.lib.norm_text(item.get("name_en", "") + " " + item.get("name_zh", ""))
@@ -299,7 +307,11 @@ def criterion(name, record, card_index, source_ids):
             for field in ("prompt_image", "prompt_video"):
                 prompt = look.get(field, "")
                 if "worn in snow" in prompt and not snow_ok:
-                    problems.append("%s %s: 'worn in snow' in non-snow scene" % (
+                    problems.append("%s %s: 'worn in snow' in non-snow/indoor scene" % (
+                        look.get("look_ref"), field))
+                if indoor and ("arctic anorak" in prompt.lower() or
+                               "parka" in prompt.lower()):
+                    problems.append("%s %s: arctic parka language in indoor scene" % (
                         look.get("look_ref"), field))
                 if "white t-shirt and leather jacket" in prompt and not (
                         "t-shirt" in selected_names or "leather jacket" in selected_names):
@@ -331,6 +343,86 @@ def criterion(name, record, card_index, source_ids):
         ok = not problems and continuity.get("prompt_mode") == "per_scene"
         return ("PASS" if ok else "FAIL",
                 "; ".join(problems) or "per-scene prompts isolated (scenes=%d)" % len(scenes))
+    if name == "occupation_match":
+        checks_local = (data or {}).get("checks", {})
+        forbidden = checks_local.get("occupation_forbidden_selected") or []
+        ok = bool(checks_local.get("occupation_match")) and not forbidden
+        return ("PASS" if ok else "FAIL",
+                "category=%s match=%s forbidden=%s" % (
+                    checks_local.get("occupation_category"),
+                    checks_local.get("occupation_match"), forbidden))
+    if name == "no_occupation_mismatch":
+        checks_local = (data or {}).get("checks", {})
+        forbidden = checks_local.get("occupation_forbidden_selected") or []
+        return ("PASS" if not forbidden else "FAIL",
+                "category=%s forbidden_selected=%s" % (
+                    checks_local.get("occupation_category"), forbidden))
+    if name == "occasion_match":
+        checks_local = (data or {}).get("checks", {})
+        ok = bool(checks_local.get("occasion_match"))
+        return ("PASS" if ok else "FAIL",
+                "occasion_match=%s" % checks_local.get("occasion_match"))
+    if name == "rainwear_selected":
+        checks_local = (data or {}).get("checks", {})
+        value = checks_local.get("rainwear_selected")
+        return ("PASS" if value is True else "FAIL",
+                "checks.rainwear_selected=%s" % value)
+    if name.startswith("warning_absent:"):
+        wanted = name.split(":", 1)[1]
+        codes = [entry.get("code") for entry in (data or {}).get("warnings_detail", [])]
+        return ("PASS" if wanted not in codes else "FAIL",
+                "warning %r present? %s (codes=%s)" % (
+                    wanted, wanted in codes, codes))
+    if name == "no_arctic_indoor":
+        inp = (data or {}).get("input", {})
+        scene_text = rec.lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                                ("scene", "location", "weather")))
+        indoor = any(marker in scene_text for marker in
+                     ("indoor", "interior", "室内", "office", "corridor", "room",
+                      "kitchen", "hospital", "ward", "studio", "lobby", "hall",
+                      "basement", "apartment", "shelter", "病房", "办公室", "走廊"))
+        if not indoor:
+            return "PASS", "not an indoor scene; arctic outdoor wear may be valid"
+        bad = []
+        for look in looks:
+            for slot, item in ((i.get("slot"), i) for i in look.get("items", [])):
+                if slot != "outerwear":
+                    continue
+                text = rec.lib.norm_text(str(item.get("name_en", "")) + " " +
+                                         str(item.get("name_zh", "")) + " " +
+                                         " ".join(item.get("materials", [])))
+                if any(word in text for word in
+                       ("arctic", "anorak", "parka", "fur", "seal", "极地",
+                        "兽皮", "派克")):
+                    bad.append(item.get("id"))
+        return ("PASS" if not bad else "FAIL",
+                "indoor arctic outerwear=%s" % bad)
+    if name.startswith("query_top5_contains:"):
+        wanted = name.split(":", 1)[1]
+        rows = record.get("query_data") or []
+        top = [row.get("id") for row in rows[:5] if isinstance(row, dict)]
+        return ("PASS" if wanted in top else "FAIL",
+                "query top5=%s (wanted %s)" % (top, wanted))
+    if name == "query_no_example_top":
+        rows = record.get("query_data") or []
+        bad = [row.get("id") for row in rows[:5]
+               if isinstance(row, dict) and row.get("evidence_status") == "example"]
+        return ("PASS" if not bad else "FAIL",
+                "example ids in query top5=%s" % bad)
+    if name == "query_no_duplicate_names":
+        rows = record.get("query_data") or []
+        seen = {}
+        dupes = []
+        for row in rows[:5]:
+            if not isinstance(row, dict):
+                continue
+            name = rec.lib.norm_text(str(row.get("name_zh", "")) or
+                                     str(row.get("name_en", "")))
+            if name and name in seen:
+                dupes.append(name)
+            seen[name] = row.get("id")
+        return ("PASS" if not dupes else "FAIL",
+                "duplicate names in query top5=%s" % dupes)
     if name == "region_evidence":
         region = (data or {}).get("input", {}).get("region", "")
         want = rec.reco_norm.region_profile(region)

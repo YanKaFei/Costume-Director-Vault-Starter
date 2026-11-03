@@ -280,6 +280,20 @@ python3 scripts/recommend.py continuity.json --continuity --json
   `continuity.scenes[].prompt_image/prompt_video`，各自带 state token 与 continuity lock。
 - 稀疏覆盖：允许结构化 1–2 套 Look（不崩溃），warning 明示 `looks_incomplete` 与缺口。
 
+### 3.6b-2 P3.1 职业/雨具/环境语义（新增）
+
+- **职业映射**：`occupation_profile` 把护士/医生/警察/厨师/太空/军人/婚礼映射到真实卡
+  （护士 GAR-0036 + LOOK-0010、医生 GAR-0041、警察 GAR-0042、厨师 GAR-0043、
+  太空 GAR-0038/0039 + LOOK-0011、婚礼 GAR-0063/0068/0069/0070 + LOOK-0013/0018/0020）。
+  其他职业（建筑师/教师/舞者/记者等）没有专属卡时使用通用单品，**不会拿别的职业制服顶替**；
+  `checks.occupation_match` / `checks.occupation_forbidden_selected` 可供验收断言。
+- **雨具**：雨景优先风衣 GAR-0045 / 雨衣 GAR-0046；`checks.rainwear_selected`；
+  若只能用非雨具外层，warning 会区分「库内无雨具卡」与「有雨具卡但年代/地域不兼容」，不再虚报缺卡。
+- **室内环境**：办公室/走廊/病房等 indoor 场景硬性拒绝极地派克/兽皮外层；
+  prompt 清洗会剔除室内场景的 “worn in snow” 等串文。
+- **query**：`--style-tag` 等过滤查询中 example 卡排在真实卡之后；同名内容卡去重
+  （如 GAR-0001/GAR-0065 和服）；period/region 字段权重提高，1930s 上海 top5 含 GAR-0031。
+
 ### 3.6c 语义质量评估（独立于 exit code）
 
 ```bash
