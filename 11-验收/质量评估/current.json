@@ -1,19 +1,24 @@
 {
   "summary": {
     "snapshot_cards": 328,
-    "query_relevant_at_5": 3.84,
-    "query_precision": 0.941,
-    "query_zero_hit_rate": 0.12,
+    "query_relevant_at_5": 4.0,
+    "query_precision": 0.952,
+    "query_zero_hit_rate": 0.08,
     "recommend_crash_rate": 0.0,
     "example_in_a_rate": 0.0,
     "warning_coverage_rate": 1.0,
-    "abc_all_pairwise_distinct_rate": 0.9666666666666667,
-    "budget_c_cheaper_or_explained_rate": 0.933,
-    "evidence_coverage": 0.702,
+    "abc_all_pairwise_distinct_rate": 0.9777777777777777,
+    "budget_c_cheaper_or_explained_rate": 0.956,
+    "evidence_coverage": 0.94,
     "context_ref_clean_rate": 1.0,
     "narrative_presence_rate": 1.0,
     "prompt_contamination_count": 0,
-    "fabrication_violations": 0
+    "fabrication_violations": 0,
+    "occupation_mismatch_cases": 0,
+    "occupation_forbidden_items": 0,
+    "rainwear_false_claim_cases": 0,
+    "arctic_indoor_cases": 0,
+    "context_mismatch_cases": 0
   },
   "queries": {
     "probes": [
@@ -50,17 +55,17 @@
         "relevant": 5,
         "ids": [
           "GAR-0001",
-          "GAR-0065",
           "GAR-0066",
           "SRC-0009",
-          "SRC-0028"
+          "SRC-0028",
+          "SRC-0049"
         ],
         "relevant_ids": [
           "GAR-0001",
-          "GAR-0065",
           "GAR-0066",
           "SRC-0009",
-          "SRC-0028"
+          "SRC-0028",
+          "SRC-0049"
         ]
       },
       {
@@ -70,19 +75,20 @@
         ],
         "exit": 0,
         "hits": 5,
-        "relevant": 4,
+        "relevant": 5,
         "ids": [
           "GAR-0045",
           "SRC-0037",
           "SRC-0405",
-          "GAR-0046",
-          "GAR-0047"
+          "LOOK-0012",
+          "LOOK-0014"
         ],
         "relevant_ids": [
           "GAR-0045",
           "SRC-0037",
           "SRC-0405",
-          "GAR-0046"
+          "LOOK-0012",
+          "LOOK-0014"
         ]
       },
       {
@@ -120,15 +126,15 @@
           "GAR-0051",
           "LOOK-0006",
           "LOOK-0017",
-          "SRC-0165",
-          "SRC-0173"
+          "STY-0007",
+          "SRC-0165"
         ],
         "relevant_ids": [
           "GAR-0051",
           "LOOK-0006",
           "LOOK-0017",
-          "SRC-0165",
-          "SRC-0173"
+          "STY-0007",
+          "SRC-0165"
         ]
       },
       {
@@ -163,18 +169,18 @@
         "hits": 5,
         "relevant": 5,
         "ids": [
+          "GAR-0031",
           "LOOK-0008",
           "LOOK-0009",
           "LOOK-0012",
-          "PRD-0011",
-          "SCN-0004"
+          "LOOK-0015"
         ],
         "relevant_ids": [
+          "GAR-0031",
           "LOOK-0008",
           "LOOK-0009",
           "LOOK-0012",
-          "PRD-0011",
-          "SCN-0004"
+          "LOOK-0015"
         ]
       },
       {
@@ -188,17 +194,17 @@
         "relevant": 5,
         "ids": [
           "STR-0011",
-          "GAR-0031",
-          "GAR-0032",
           "LOOK-0008",
-          "LOOK-0009"
+          "LOOK-0009",
+          "LOOK-0012",
+          "LOOK-0019"
         ],
         "relevant_ids": [
           "STR-0011",
-          "GAR-0031",
-          "GAR-0032",
           "LOOK-0008",
-          "LOOK-0009"
+          "LOOK-0009",
+          "LOOK-0012",
+          "LOOK-0019"
         ]
       },
       {
@@ -213,8 +219,8 @@
         "ids": [
           "MAT-0002",
           "SRC-0141",
-          "GAR-0007",
           "GAR-0054",
+          "PRD-0003",
           "GAR-0031"
         ],
         "relevant_ids": [
@@ -231,19 +237,21 @@
           "和服"
         ],
         "exit": 0,
-        "hits": 4,
-        "relevant": 4,
+        "hits": 5,
+        "relevant": 5,
         "ids": [
           "GAR-0001",
-          "GAR-0063",
-          "GAR-0064",
-          "LOOK-0020"
+          "GAR-0066",
+          "SRC-0028",
+          "SRC-0100",
+          "GAR-0064"
         ],
         "relevant_ids": [
           "GAR-0001",
-          "GAR-0063",
-          "GAR-0064",
-          "LOOK-0020"
+          "GAR-0066",
+          "SRC-0028",
+          "SRC-0100",
+          "GAR-0064"
         ]
       },
       {
@@ -317,18 +325,17 @@
           "noir"
         ],
         "exit": 0,
-        "hits": 5,
-        "relevant": 2,
+        "hits": 3,
+        "relevant": 3,
         "ids": [
-          "GAR-EXAMPLE-001",
           "LOOK-0007",
           "LOOK-0021",
-          "LOOK-EXAMPLE-001",
-          "SCN-0001"
+          "STY-0005"
         ],
         "relevant_ids": [
           "LOOK-0007",
-          "SCN-0001"
+          "LOOK-0021",
+          "STY-0005"
         ]
       },
       {
@@ -463,10 +470,19 @@
           "spacesuit"
         ],
         "exit": 0,
-        "hits": 0,
-        "relevant": 0,
-        "ids": [],
-        "relevant_ids": []
+        "hits": 5,
+        "relevant": 2,
+        "ids": [
+          "LOOK-0011",
+          "SCN-0006",
+          "SRC-0403",
+          "GAR-0039",
+          "GAR-0057"
+        ],
+        "relevant_ids": [
+          "LOOK-0011",
+          "SCN-0006"
+        ]
       },
       {
         "id": "P21",
@@ -505,15 +521,15 @@
           "GAR-0031",
           "LOOK-0009",
           "LOOK-0019",
-          "SRC-0200",
-          "SRC-0201"
+          "LOOK-0011",
+          "SCN-0006"
         ],
         "relevant_ids": [
           "GAR-0031",
           "LOOK-0009",
           "LOOK-0019",
-          "SRC-0200",
-          "SRC-0201"
+          "LOOK-0011",
+          "SCN-0006"
         ]
       },
       {
@@ -544,33 +560,204 @@
           "调查"
         ],
         "exit": 0,
-        "hits": 5,
-        "relevant": 4,
+        "hits": 4,
+        "relevant": 3,
         "ids": [
           "LOOK-0007",
           "LOOK-0021",
-          "LOOK-EXAMPLE-001",
-          "SCN-0001",
+          "STY-0005",
           "SRC-0175"
         ],
         "relevant_ids": [
           "LOOK-0007",
           "LOOK-0021",
-          "LOOK-EXAMPLE-001",
-          "SCN-0001"
+          "STY-0005"
         ]
       }
     ],
-    "relevant_at_5": 3.84,
-    "precision": 0.941,
-    "zero_hit_rate": 0.12,
-    "example_in_top2_rate": 0.04,
-    "total_relevant": 96,
-    "total_returned": 102
+    "relevant_at_5": 4.0,
+    "precision": 0.952,
+    "zero_hit_rate": 0.08,
+    "example_in_top2_rate": 0.0,
+    "total_relevant": 100,
+    "total_returned": 105
   },
   "recommendations": [
     {
       "id": "T01",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:writer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T02",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:journalist",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T03",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 1,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "occupation_coverage_gap",
+        "budget_equivalent",
+        "identity_arc_continuity"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:investigator",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T04",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 2
+      },
+      "warnings": [
+        "occupation_coverage_gap",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:dancer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T05",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "occupation_coverage_gap",
+        "future_wardrobe_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:courier",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T06",
       "exit": 0,
       "json_ok": true,
       "crashed": false,
@@ -584,12 +771,7 @@
       },
       "warnings": [
         "context_gap",
-        "period_approximate",
-        "period_era_level",
-        "region_mismatch",
-        "occupation_coverage_gap",
-        "rainwear_gap",
-        "conflict_weather_vs_material"
+        "region_mismatch"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
@@ -600,155 +782,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "budget_c_cheaper_or_explained": true
-    },
-    {
-      "id": "T02",
-      "exit": 0,
-      "json_ok": true,
-      "crashed": false,
-      "looks": 3,
-      "example_in_a": false,
-      "abc_distinct": true,
-      "differences": {
-        "a_b": 2,
-        "a_c": 2,
-        "b_c": 2
-      },
-      "warnings": [
-        "context_gap",
-        "period_approximate",
-        "region_mismatch",
-        "occupation_coverage_gap",
-        "rainwear_gap",
-        "conflict_weather_vs_material"
-      ],
-      "expected_warnings": [],
-      "warning_coverage": null,
-      "evidence_coverage": 1.0,
-      "context_clean": true,
-      "narrative": true,
-      "prompt_contamination": [],
-      "no_fabrication": true,
-      "budget_mode": "cheaper",
-      "budget_cheaper_or_explained": false,
-      "budget_c_cheaper_or_explained": true
-    },
-    {
-      "id": "T03",
-      "exit": 0,
-      "json_ok": true,
-      "crashed": false,
-      "looks": 1,
-      "example_in_a": false,
-      "abc_distinct": true,
-      "differences": {
-        "a_b": 4,
-        "a_c": 2,
-        "b_c": 2
-      },
-      "warnings": [
-        "context_gap",
-        "occupation_coverage_gap",
-        "rainwear_gap",
-        "budget_equivalent",
-        "identity_arc_continuity"
-      ],
-      "expected_warnings": [],
-      "warning_coverage": null,
-      "evidence_coverage": 0.0,
-      "context_clean": true,
-      "narrative": true,
-      "prompt_contamination": [],
-      "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
-      "budget_cheaper_or_explained": false,
-      "budget_c_cheaper_or_explained": true
-    },
-    {
-      "id": "T04",
-      "exit": 0,
-      "json_ok": true,
-      "crashed": false,
-      "looks": 3,
-      "example_in_a": false,
-      "abc_distinct": true,
-      "differences": {
-        "a_b": 3,
-        "a_c": 3,
-        "b_c": 4
-      },
-      "warnings": [],
-      "expected_warnings": [],
-      "warning_coverage": null,
-      "evidence_coverage": 0.2857142857142857,
-      "context_clean": true,
-      "narrative": true,
-      "prompt_contamination": [],
-      "no_fabrication": true,
-      "budget_mode": "cheaper",
-      "budget_cheaper_or_explained": false,
-      "budget_c_cheaper_or_explained": true
-    },
-    {
-      "id": "T05",
-      "exit": 0,
-      "json_ok": true,
-      "crashed": false,
-      "looks": 3,
-      "example_in_a": false,
-      "abc_distinct": true,
-      "differences": {
-        "a_b": 5,
-        "a_c": 4,
-        "b_c": 3
-      },
-      "warnings": [
-        "context_gap",
-        "period_approximate",
-        "occupation_coverage_gap",
-        "future_wardrobe_gap",
-        "rainwear_gap",
-        "budget_equivalent"
-      ],
-      "expected_warnings": [],
-      "warning_coverage": null,
-      "evidence_coverage": 0.4,
-      "context_clean": true,
-      "narrative": true,
-      "prompt_contamination": [],
-      "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
-      "budget_cheaper_or_explained": false,
-      "budget_c_cheaper_or_explained": true
-    },
-    {
-      "id": "T06",
-      "exit": 0,
-      "json_ok": true,
-      "crashed": false,
-      "looks": 3,
-      "example_in_a": false,
-      "abc_distinct": true,
-      "differences": {
-        "a_b": 2,
-        "a_c": 2,
-        "b_c": 4
-      },
-      "warnings": [
-        "context_gap",
-        "region_mismatch",
-        "budget_equivalent"
-      ],
-      "expected_warnings": [],
-      "warning_coverage": null,
-      "evidence_coverage": 0.2222222222222222,
-      "context_clean": true,
-      "narrative": true,
-      "prompt_contamination": [],
-      "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
-      "budget_cheaper_or_explained": false,
+      "occupation_category": "unknown",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -760,24 +798,28 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 5,
-        "a_c": 2,
-        "b_c": 3
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
-        "occupation_coverage_gap",
-        "budget_equivalent"
+        "occupation_coverage_gap"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.3,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:investigator",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -789,24 +831,28 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 5,
-        "a_c": 2,
-        "b_c": 3
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
-        "occupation_coverage_gap",
-        "budget_equivalent"
+        "occupation_coverage_gap"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.3,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:investigator",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -818,26 +864,29 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 2,
-        "a_c": 4,
-        "b_c": 2
+        "a_b": 3,
+        "a_c": 2,
+        "b_c": 5
       },
       "warnings": [
         "context_gap",
         "region_mismatch",
-        "occupation_coverage_gap",
-        "rainwear_gap",
-        "budget_equivalent"
+        "occupation_coverage_gap"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.3333333333333333,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:courier",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -850,12 +899,14 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 4,
-        "b_c": 2
+        "a_c": 3,
+        "b_c": 5
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "period_era_level",
+        "region_mismatch",
         "occupation_coverage_gap"
       ],
       "expected_warnings": [],
@@ -867,6 +918,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:clerk",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -897,6 +953,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:merchant",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -925,6 +986,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:dancer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -937,11 +1003,12 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 4,
-        "b_c": 2
+        "a_c": 2,
+        "b_c": 4
       },
       "warnings": [
         "context_gap",
+        "region_mismatch",
         "occupation_coverage_gap"
       ],
       "expected_warnings": [],
@@ -953,6 +1020,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:clerk",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -965,24 +1037,27 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 6,
-        "b_c": 4
+        "a_c": 5,
+        "b_c": 3
       },
       "warnings": [
         "context_gap",
-        "region_mismatch",
-        "occupation_coverage_gap",
-        "rainwear_gap"
+        "region_mismatch"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.3333333333333333,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "unknown",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -995,23 +1070,29 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 3,
-        "b_c": 5
+        "a_c": 2,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
         "region_mismatch",
-        "occupation_coverage_gap"
+        "occupation_coverage_gap",
+        "budget_equivalent"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.25,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "cheaper",
+      "budget_mode": "equivalent_cost",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:architect",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1039,6 +1120,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "unknown",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1050,12 +1136,13 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 2,
+        "a_b": 3,
         "a_c": 2,
-        "b_c": 4
+        "b_c": 5
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "period_era_level",
         "region_mismatch",
         "occupation_coverage_gap"
@@ -1069,6 +1156,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:writer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": false
     },
     {
@@ -1081,24 +1173,28 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 2,
-        "b_c": 4
+        "a_c": 4,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
         "region_mismatch",
-        "occupation_coverage_gap",
-        "budget_equivalent"
+        "occupation_coverage_gap"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.2222222222222222,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:teacher",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1128,6 +1224,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:clerk",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1145,8 +1246,7 @@
       },
       "warnings": [
         "context_gap",
-        "period_era_level",
-        "occupation_coverage_gap"
+        "period_era_level"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
@@ -1157,6 +1257,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "unknown",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1186,6 +1291,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:photographer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1197,13 +1307,14 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 8,
-        "a_c": 5,
-        "b_c": 3
+        "a_b": 5,
+        "a_c": 7,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
-        "period_era_level"
+        "period_era_level",
+        "occupation_coverage_gap"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
@@ -1214,6 +1325,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:musician",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1234,6 +1350,7 @@
         "context_gap",
         "period_approximate",
         "period_era_level",
+        "occupation_coverage_gap",
         "conflict_movement_vs_footwear",
         "budget_equivalent"
       ],
@@ -1246,6 +1363,11 @@
       "no_fabrication": true,
       "budget_mode": "equivalent_cost",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:dancer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1265,7 +1387,6 @@
         "context_gap",
         "period_era_level",
         "knowledge_gap_slots",
-        "occupation_coverage_gap",
         "looks_incomplete"
       ],
       "expected_warnings": [],
@@ -1277,6 +1398,11 @@
       "no_fabrication": true,
       "budget_mode": "none",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "unknown",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": false
     },
     {
@@ -1289,12 +1415,13 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 4,
+        "a_c": 2,
         "b_c": 2
       },
       "warnings": [
         "context_gap",
         "period_approximate",
+        "occupation_coverage_gap",
         "future_wardrobe_gap",
         "budget_equivalent"
       ],
@@ -1302,13 +1429,18 @@
         "future_wardrobe_gap"
       ],
       "warning_coverage": 1.0,
-      "evidence_coverage": 0.5,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
       "budget_mode": "equivalent_cost",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:singer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1320,28 +1452,28 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 2,
-        "b_c": 5
+        "a_b": 7,
+        "a_c": 7,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
-        "region_mismatch",
-        "occupation_coverage_gap",
-        "rainwear_gap",
-        "budget_equivalent"
+        "region_mismatch"
       ],
-      "expected_warnings": [
-        "occupation_coverage_gap"
-      ],
-      "warning_coverage": 1.0,
-      "evidence_coverage": 0.2,
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.6923076923076923,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "nurse",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1353,29 +1485,30 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 2,
-        "b_c": 3
+        "a_b": 6,
+        "a_c": 4,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
-        "region_mismatch",
-        "occupation_coverage_gap",
-        "cross_cultural_wedding",
-        "ceremonial_coverage_gap",
-        "budget_equivalent"
+        "cross_cultural_wedding"
       ],
       "expected_warnings": [
         "cross_cultural_wedding"
       ],
       "warning_coverage": 1.0,
-      "evidence_coverage": 0.7142857142857143,
+      "evidence_coverage": 1.0,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "wedding",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1387,17 +1520,15 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 5,
-        "b_c": 2
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
       },
       "warnings": [
         "context_gap",
-        "period_approximate",
         "period_era_level",
         "region_mismatch",
         "occupation_coverage_gap",
-        "rainwear_gap",
         "gender_coverage_gap",
         "conflict_weather_vs_material"
       ],
@@ -1412,6 +1543,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:clerk",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1424,16 +1560,14 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 2,
-        "b_c": 2
+        "a_c": 3,
+        "b_c": 3
       },
       "warnings": [
         "context_gap",
-        "period_approximate",
         "period_era_level",
         "region_mismatch",
         "occupation_coverage_gap",
-        "rainwear_gap",
         "conflict_historical_vs_scifi",
         "conflict_weather_vs_material"
       ],
@@ -1446,6 +1580,11 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:courier",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     },
     {
@@ -1458,16 +1597,13 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 4,
-        "b_c": 2
+        "a_c": 3,
+        "b_c": 3
       },
       "warnings": [
         "context_gap",
-        "period_approximate",
         "period_era_level",
         "region_mismatch",
-        "occupation_coverage_gap",
-        "rainwear_gap",
         "conflict_weather_vs_material",
         "brief_unknown_fields"
       ],
@@ -1480,6 +1616,522 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:journalist",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T31",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 7,
+        "a_c": 7,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.6923076923076923,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "nurse",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T32",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.4,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "doctor",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T33",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.7777777777777778,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "police",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T34",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 6
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.7777777777777778,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "chef",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T35",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 6,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "context_gap",
+        "period_approximate",
+        "future_wardrobe_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "space",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T36",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 6,
+        "a_c": 4,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "cross_cultural_wedding"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "wedding",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T37",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "region_mismatch",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:journalist",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T38",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:clerk",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T39",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 4,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "context_gap",
+        "period_approximate",
+        "period_era_level",
+        "region_mismatch",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:教师",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T40",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "period_era_level",
+        "region_mismatch",
+        "conflict_weather_vs_material"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:journalist",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T41",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "occupation_coverage_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "generic:dancer",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T42",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.7777777777777778,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "police",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T43",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.4,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "doctor",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T44",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 6,
+        "a_c": 5,
+        "b_c": 3
+      },
+      "warnings": [
+        "context_gap",
+        "period_approximate",
+        "future_wardrobe_gap"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 1.0,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "cheaper",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "space",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
+      "budget_c_cheaper_or_explained": true
+    },
+    {
+      "id": "T45",
+      "exit": 0,
+      "json_ok": true,
+      "crashed": false,
+      "looks": 3,
+      "example_in_a": false,
+      "abc_distinct": true,
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "warnings": [
+        "context_gap",
+        "region_mismatch",
+        "budget_equivalent"
+      ],
+      "expected_warnings": [],
+      "warning_coverage": null,
+      "evidence_coverage": 0.7777777777777778,
+      "context_clean": true,
+      "narrative": true,
+      "prompt_contamination": [],
+      "no_fabrication": true,
+      "budget_mode": "equivalent_cost",
+      "budget_cheaper_or_explained": false,
+      "occupation_category": "police",
+      "occupation_forbidden": [],
+      "rainwear_false_claim": false,
+      "arctic_indoor": false,
+      "context_mismatch": false,
       "budget_c_cheaper_or_explained": true
     }
   ]

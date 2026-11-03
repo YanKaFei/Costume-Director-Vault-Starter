@@ -1,0 +1,80 @@
+[
+  {
+    "id": "LOOK-0011",
+    "path": "09-造型组合/LOOK-0011-废弃空间站维修工.md",
+    "name_zh": "废弃空间站维修工",
+    "name_en": "derelict space station repair technician look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0402",
+      "SRC-0403"
+    ],
+    "snippet": "…960s 连体工作服（gar-0038 来源）；`src-0403` v&a 1960s 宇航员玩具头盔（gar-0039 来源）。 - `gar-0037`（19 世纪日本消防外套）与 `gar-0022`（威灵顿靴）来源见各自卡片；本卡借用为…",
+    "score": 8.0
+  },
+  {
+    "id": "SCN-0006",
+    "path": "07-剧情场景/SCN-0006-废弃空间站维修.md",
+    "name_zh": "废弃空间站维修",
+    "name_en": "derelict space station repair",
+    "type": "scene",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0402",
+      "SRC-0403"
+    ],
+    "snippet": "…src-0402` v&a 连体工作服（gar-0038）；`src-0403` v&a 宇航员玩具头盔（gar-0039）；场景为虚构 interpretive。 ## 相关卡片 - [[look-0011-废弃空间站维修工]] - [[gar…",
+    "score": 8.0
+  },
+  {
+    "id": "SRC-0403",
+    "path": "04-来源/SRC-0403-V&A-1969年宇航员头盔.md",
+    "name_zh": "V&A：1969 年儿童手工宇航员头盔",
+    "name_en": "V&A: child’s handmade astronaut helmet, 1969",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0403 v&a：1969 年儿童手工宇航员头盔 ## 定义 v&a 馆藏对象记录（对象页 + collections api），含对象类型、年代、材质工艺与形制描述。 ## 结构要点 - 发布…",
+    "score": 7.68
+  },
+  {
+    "id": "GAR-0039",
+    "path": "01-服装单品/头部/GAR-0039-安全头盔.md",
+    "name_zh": "安全头盔",
+    "name_en": "helmet",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0403"
+    ],
+    "snippet": "…护头部的硬质帽具，覆盖工业、消防、军事、运动与航天等场景。v&a 藏 1969 年儿童手工宇航员头盔，是 1960 年代太空竞赛想象的代表实例。 ## 结构要点 - v&a 实例：纸浆+瓦楞纸制成，倒扣碗成形，涂白乳胶漆，前部两黑色圆孔，颈部为纸…",
+    "score": 5.25
+  },
+  {
+    "id": "GAR-0057",
+    "path": "01-服装单品/外层/GAR-0057-1960年代Courrèges外套.md",
+    "name_zh": "1960 年代 Courrèges 外套",
+    "name_en": "1960s Courrèges coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0417"
+    ],
+    "snippet": "…urrèges coat ## 定义 courrèges 外套是 1960 年代 mod/space age 风格代表：箱形轮廓、乙烯基等合成材料、高领与腰带，可作外套或连衣裙穿。fit 单件研究以 met 藏 1963–69 年乙烯基外套为核验实例…",
+    "score": 5.25
+  },
+  {
+    "id": "STR-0010",
+    "path": "02-结构细节/STR-0010-剪口装饰.md",
+    "name_zh": "剪口装饰",
+    "name_en": "slashing",
+    "type": "garment_part",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0140"
+    ],
+    "snippet": "…- 生图片段：`slashed garment decoration, regular spaced cuts through the outer fabric revealing contrasting lining, combined with…",
+    "score": 3.0
+  }
+]

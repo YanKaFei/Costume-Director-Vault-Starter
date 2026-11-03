@@ -1,0 +1,53 @@
+{
+  "_test": {
+    "id": "T44",
+    "title": "职业同义词：宇航员→astronaut，A 套含 GAR-0038/0039",
+    "types": [
+      "occupation_synonym",
+      "R1"
+    ],
+    "mode": "standard",
+    "expected_mode": "fictional",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch"
+    ],
+    "query": [
+      "宇航员",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Yuri",
+    "occupation": "宇航员",
+    "economic_status": "middle",
+    "arc": "first solo mission"
+  },
+  "period": "22nd century",
+  "region": "orbital station",
+  "season": "controlled indoor",
+  "scene": "station corridor",
+  "time": "ship night",
+  "weather": "indoor, cold",
+  "action": "checking equipment",
+  "location": "orbital station",
+  "art_direction": "staged science fiction",
+  "lighting": "cold work light",
+  "camera": "handheld medium",
+  "budget": "low",
+  "fidelity_mode": "fictional",
+  "tool": "generic"
+}

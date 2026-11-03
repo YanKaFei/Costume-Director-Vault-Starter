@@ -1,13 +1,91 @@
 [
   {
-    "id": "LOOK-EXAMPLE-001",
-    "path": "09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md",
-    "name_zh": "雨夜调查者",
-    "name_en": "rainy-night investigator",
+    "id": "LOOK-0007",
+    "path": "09-造型组合/LOOK-0007-当代雨夜调查者连续性.md",
+    "name_zh": "当代雨夜调查者连续性造型",
+    "name_en": "contemporary rain investigator continuity look",
     "type": "look",
-    "evidence_status": "example",
-    "source_ids": [],
-    "snippet": "# look-example-001 雨夜调查者 / rainy-night investigator ## 定义 原创虚构角色的完整造型样本：现代都市调查人员，夜间户外、情绪紧张、生活略显拮据。它是 `exam…",
-    "score": 4.116
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0036"
+    ],
+    "snippet": "# look-0007 当代雨夜调查者连续性造型 / contemporary rain investigator continuity look ## 定义 当代虚构都市调查者的连…",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-0012",
+    "path": "09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md",
+    "name_zh": "1930 年代上海雨夜女记者",
+    "name_en": "1930s Shanghai rainy-night woman journalist look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "# 1930 年代上海雨夜女记者 / 1930s shanghai rainy-night woman journalist look ## 定义 1930 年代上海女记者（虚…",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-0021",
+    "path": "09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md",
+    "name_zh": "当代雨夜调查者·四场连续性升级",
+    "name_en": "contemporary rain investigator, four-scene continuity upgrade",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0405",
+      "SRC-0407",
+      "SRC-0123",
+      "SRC-0115"
+    ],
+    "snippet": "# 当代雨夜调查者·四场连续性升级 / contemporary rain investigator (four-scene continuity) ## 定义…",
+    "score": 8.0
+  },
+  {
+    "id": "SCN-0007",
+    "path": "07-剧情场景/SCN-0007-上海雨夜后巷.md",
+    "name_zh": "上海雨夜后巷",
+    "name_en": "Shanghai rainy-night back alley",
+    "type": "scene",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201"
+    ],
+    "snippet": "# scn-0007 上海雨夜后巷 / shanghai rainy-night back alley ## 定义 1930 年代上海雨夜后巷场次，用于检验旗袍 + 风衣 + 伞的…",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-0015",
+    "path": "09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md",
+    "name_zh": "上海银行家之妻：从晚宴到难民（身份下滑）",
+    "name_en": "Shanghai banker’s wife: ballroom to refugee (identity descent)",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205",
+      "SRC-0412",
+      "SRC-0405",
+      "SRC-0407"
+    ],
+    "snippet": "…同一位 1930 年代上海银行家之妻（虚构角色）跨三场的身份下滑造型：晚宴（s0）→轰炸雨夜逃离（s1）→难民收容所（s2）。每个阶段整体更换衣柜，保留同一只手袋作为跨阶段锚点。 ## 结构要点 - **s0 晚宴**：[[gar-0031-…",
+    "score": 1.0
+  },
+  {
+    "id": "STY-0005",
+    "path": "05-风格体系/STY-0005-黑色电影造型.md",
+    "name_zh": "黑色电影造型",
+    "name_en": "film noir styling",
+    "type": "style",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0156"
+    ],
+    "snippet": "…相比更冷硬、更少装饰。 ## 适用条件 1940s–1950s 背景的犯罪/悬疑片；夜景、雨夜、办公室与车内空间；黑白或低饱和摄影；需要阴影塑形与压抑氛围的镜头。 ## 不适用条件 高饱和彩色喜剧或歌舞片；明亮日光外景；把 noir 当成真实历…",
+    "score": 1.0
   }
 ]

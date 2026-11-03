@@ -40,13 +40,31 @@ QUERY_ALIASES = {
     "立领": ["stand collar", "stand-up collar"],
     "盘扣": ["frog closure", "frog fastening"],
     "雨衣": ["raincoat", "rain coat"], "风衣": ["trench coat", "trench"],
-    "护士": ["nurse"], "医生": ["doctor"], "警察": ["police"],
-    "厨师": ["chef"], "婚礼": ["wedding"], "新娘": ["bride"],
+    "护士": ["nurse"], "医生": ["doctor"], "医师": ["doctor"],
+    "警察": ["police"], "巡警": ["police", "constable"],
+    "民警": ["police"], "警官": ["police"],
+    "厨师": ["chef"], "宇航员": ["astronaut", "space"],
+    "航天员": ["astronaut", "space"],
+    "婚礼": ["wedding"], "新娘": ["bride"], "新郎": ["groom"],
     "太空": ["space"], "宇航": ["astronaut"],
     "1930年代": ["1930s"], "1920年代": ["1920s"], "1940年代": ["1940s"],
     "1950年代": ["1950s"], "1960年代": ["1960s"], "1970年代": ["1970s"],
     "文艺复兴": ["renaissance"], "拜占庭": ["byzantine"], "维多利亚": ["victorian"],
     "黑色电影": ["noir", "film noir"],
+    "丝绸": ["silk"], "绸": ["silk"], "羊毛": ["wool"], "棉": ["cotton"],
+    "蕾丝": ["lace"], "皮革": ["leather"],
+    "spacesuit": ["space suit", "space", "astronaut"],
+    "space suit": ["spacesuit", "space", "astronaut"],
+}
+
+REGION_INTENT = {
+    "和服": ["japan", "east_asia"], "kimono": ["japan", "east_asia"],
+    "旗袍": ["china", "shanghai", "east_asia"], "qipao": ["china", "shanghai"],
+    "cheongsam": ["china", "shanghai"], "韩服": ["korea", "east_asia"],
+    "hanbok": ["korea", "east_asia"], "纱丽": ["india", "south_asia"],
+    "sari": ["india", "south_asia"], "汉服": ["china", "east_asia"],
+    "hanfu": ["china", "east_asia"], "头巾": ["nigeria", "west_africa"],
+    "gele": ["nigeria", "west_africa"], "agbada": ["nigeria", "west_africa"],
 }
 
 TYPE_WEIGHT = {
@@ -207,6 +225,12 @@ def run_query(args):
                 variants.extend(aliases)
         term_groups.append(variants)
     terms = [variant for group in term_groups for variant in group]
+    region_intent = set()
+    for term in base_terms:
+        norm_term = lib.norm_text(term)
+        for key, regions in REGION_INTENT.items():
+            if key in term or lib.norm_text(key) == norm_term:
+                region_intent.update(lib.norm_text(r) for r in regions)
     results = []
     for card in cards:
         if not apply_filter(card, args):
@@ -233,6 +257,21 @@ def run_query(args):
                     continue
             score = sum(hits) / float(len(hits)) if hits else 0.0
             score *= TYPE_WEIGHT.get(lib.norm_text(card["meta"].get("type")), 1.0)
+            if region_intent and lib.norm_text(
+                    card["meta"].get("type")) in ("garment", "look"):
+                card_regions = set(lib.norm_text(r) for r in
+                                   lib.get_list(card["meta"], "regions"))
+                hierarchy = {"korea": "east asia", "japan": "east asia",
+                             "china": "east asia", "shanghai": "east asia",
+                             "hong kong": "east asia", "india": "south asia",
+                             "ghana": "west africa", "nigeria": "west africa",
+                             "accra": "west africa"}
+                expanded = set(card_regions)
+                for region in card_regions:
+                    if region in hierarchy:
+                        expanded.add(hierarchy[region])
+                if expanded & region_intent:
+                    score += 0.2
         else:
             score = 0.0
         row = card_to_row(card, score)
@@ -264,6 +303,9 @@ def run_query(args):
         seen_names.add(key)
         deduped.append(row)
     results = deduped
+    if not getattr(args, "include_example", False):
+        results = [row for row in results
+                   if row.get("evidence_status") != "example"]
     if args.limit and args.limit > 0:
         results = results[: args.limit]
     return results
@@ -323,6 +365,9 @@ def main(argv=None):
                         help="AND/OR across terms (default all)")
     parser.add_argument("--limit", type=int, default=10,
                         help="max results; 0 = all (default 10)")
+    parser.add_argument("--include-example", action="store_true",
+                        help="include example-grade cards in default results "
+                             "(default: excluded; R2)")
     parser.add_argument("--json", action="store_true",
                         help="emit JSON array with contract keys")
     parser.add_argument("--out", help="write output to file instead of stdout")

@@ -86,8 +86,8 @@
       "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
       "differences": {
         "a_b": 7,
-        "a_c": 6,
-        "b_c": 3
+        "a_c": 7,
+        "b_c": 2
       },
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 急诊科护士; the low economic register shows through material and finish; formality runs from functional / functional / functional / functional / smart_casual; the black, blue, gold palette controls the emotional temperature; against the arc (疲惫但保持专业尊严) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
@@ -301,19 +301,19 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 52.6,
+      "total": 48.4,
       "scores": {
-        "period": 23.0,
+        "period": 17.9,
         "identity": 4.5,
-        "environment": 9.1,
-        "art": 3.2,
+        "environment": 8.9,
+        "art": 3.3,
         "movement": 4.5,
         "arc": 3.5,
         "camera": 6.7
       },
       "missing": [],
-      "cost": 0.244,
-      "cost_total": 0.978,
+      "cost": 0.279,
+      "cost_total": 1.115,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
@@ -335,22 +335,17 @@
         "indigo",
         "khaki",
         "lavender",
-        "multicolor",
-        "solid color",
         "white"
       ],
       "style_tags": [
-        "afrocentric",
-        "black",
-        "black pride",
+        "1930s",
         "burberry",
+        "casual",
         "class",
         "classic",
-        "counterculture",
         "gabardine",
         "medical",
         "occupational",
-        "pride",
         "rockabilly",
         "working",
         "working class",
@@ -363,26 +358,22 @@
       "items": [
         {
           "slot": "upper_body",
-          "id": "GAR-0006",
-          "name_zh": "达希基套衫",
-          "name_en": "dashiki",
-          "colors": [
-            "multicolor",
-            "solid_color"
-          ],
+          "id": "GAR-0034",
+          "name_zh": "针织背心",
+          "name_en": "knitted vest",
+          "colors": [],
           "materials": [
-            "cotton",
-            "printed_cotton"
+            "wool"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0107"
+            "SRC-0203"
           ],
           "scores": {
-            "period": 0.92,
-            "identity": 0.19800000000000004,
-            "environment": 0.5774999999999999,
-            "art": 0.18157894736842103,
+            "period": 0.1188,
+            "identity": 0.20081250000000003,
+            "environment": 0.5319999999999999,
+            "art": 0.2131578947368421,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -475,36 +466,36 @@
       "materials": [
         {
           "id": "MAT-0001",
-          "slot": "upper_body"
+          "slot": "lower_body"
         },
         {
           "id": "MAT-0003",
-          "slot": "upper_body"
+          "slot": "outerwear"
         },
         {
           "id": "MAT-0002",
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 林悦, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: beige, black, blue black, indigo, khaki, lavender, multicolor, solid color, white, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult 林悦, upper body: 1930s man’s knitted wool vest, jersey knit, V-neck, sleeveless, ribbed hem, muted colour; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: beige, black, blue black, indigo, khaki, lavender, white, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0034 knitted vest [unspecified; wool; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: upper body: 1930s man’s knitted wool vest, jersey knit, V-neck, sleeveless, ribbed hem, muted colour; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 针织有弹性、贴合躯干; 抬臂时下摆与袖笼处易上移/变形，连续镜头需锁定长度与领口位置。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0034 knitted vest [unspecified; wool; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0034 knitted vest [unspecified; wool; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.1/15",
-        "上装: GAR-0006 达希基套衫 (casual)",
+        "highest scoring dimensions: 年代/文化 17.9/25, 环境气候 8.9/15",
+        "上装: GAR-0034 针织背心 (casual)",
         "下装: GAR-0014 牛仔裤 (casual)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0044 医疗工作鞋 (functional)",
         "linked material cards: MAT-0001, MAT-0003, MAT-0002"
       ],
       "risks": [
-        "region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0044: cards document their own regions, not urban china shanghai",
+        "region mismatch in GAR-0034, GAR-0014, GAR-0045, GAR-0044: cards document their own regions, not urban china shanghai",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0107",
+          "SRC-0203",
           "SRC-0115",
           "SRC-0405",
           "SRC-0102",
@@ -513,8 +504,8 @@
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0107",
-            "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+            "source_id": "SRC-0203",
+            "url": "https://collections.vam.ac.uk/item/O235319/"
           },
           {
             "source_id": "SRC-0115",
@@ -543,7 +534,7 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0006": "verified",
+          "GAR-0034": "verified",
           "GAR-0014": "verified",
           "GAR-0045": "verified",
           "GAR-0044": "interpretive"
@@ -554,77 +545,113 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 52.2,
+      "total": 47.9,
       "scores": {
-        "period": 23.0,
-        "identity": 4.0,
-        "environment": 9.2,
-        "art": 3.4,
-        "movement": 4.3,
+        "period": 17.9,
+        "identity": 4.5,
+        "environment": 9.1,
+        "art": 3.6,
+        "movement": 4.5,
         "arc": 3.5,
         "camera": 6.8
       },
       "missing": [],
-      "cost": 0.303,
-      "cost_total": 0.91,
+      "cost": 0.266,
+      "cost_total": 1.065,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "one_piece": "era",
+        "upper_body": "era",
+        "lower_body": "era",
         "outerwear": "era",
         "footwear": "era"
       },
       "region_tiers": {
-        "one_piece": "regional",
+        "upper_body": "none",
+        "lower_body": "none",
         "outerwear": "none",
         "footwear": "none"
       },
       "colors": [
         "beige",
         "black",
+        "blue black",
+        "cream",
+        "embroidered",
+        "indigo",
         "khaki",
         "lavender",
-        "pink",
-        "purple",
         "white"
       ],
       "style_tags": [
-        "asian",
         "burberry",
+        "class",
         "classic",
-        "east",
-        "east asian",
+        "dandy",
         "gabardine",
         "medical",
+        "menswear",
         "occupational",
-        "traditional"
+        "rockabilly",
+        "victorian",
+        "working",
+        "working class",
+        "youth"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 急诊科护士; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual / functional; the beige, black, khaki palette controls the emotional temperature; against the arc (疲惫但保持专业尊严) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 急诊科护士; the low economic register shows through material and finish; formality runs from business / casual / smart_casual / functional; the beige, black, blue black palette controls the emotional temperature; against the arc (疲惫但保持专业尊严) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "one_piece",
-          "id": "GAR-0064",
-          "name_zh": "韩服",
-          "name_en": "hanbok",
+          "slot": "upper_body",
+          "id": "GAR-0008",
+          "name_zh": "马甲",
+          "name_en": "waistcoat",
           "colors": [
-            "purple",
-            "pink",
-            "white"
+            "black",
+            "cream",
+            "embroidered"
           ],
           "materials": [
+            "wool",
             "silk",
             "cotton"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0425"
+            "SRC-0109"
+          ],
+          "scores": {
+            "period": 0.1188,
+            "identity": 0.1884375,
+            "environment": 0.5774999999999999,
+            "art": 0.28872180451127816,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0014",
+          "name_zh": "牛仔裤",
+          "name_en": "jeans",
+          "colors": [
+            "indigo",
+            "blue_black"
+          ],
+          "materials": [
+            "denim",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0115"
           ],
           "scores": {
             "period": 0.92,
-            "identity": 0.13900104166666669,
+            "identity": 0.3234166666666667,
             "environment": 0.5774999999999999,
             "art": 0.25300751879699246,
             "movement": 0.4,
@@ -688,52 +715,70 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0006",
+          "slot": "upper_body",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0002",
-          "slot": "one_piece"
+          "slot": "upper_body"
         },
         {
           "id": "MAT-0001",
-          "slot": "one_piece"
+          "slot": "upper_body"
         },
         {
           "id": "MAT-0003",
-          "slot": "outerwear"
+          "slot": "lower_body"
         }
       ],
-      "prompt_image": "full-body character design of an adult 林悦, one-piece: women’s hanbok; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: beige, black, khaki, lavender, pink, purple, white, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0064 hanbok [purple, pink, white; silk, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: one-piece: women’s hanbok; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 长裙与短上衣限制大步; 系带在动作中松脱，需锁定。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0064 hanbok [purple, pink, white; silk, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0064 hanbok [purple, pink, white; silk, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003",
+      "prompt_image": "full-body character design of an adult 林悦, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: beige, black, blue black, cream, embroidered, indigo, khaki, lavender, white, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.2/15",
-        "连身: GAR-0064 韩服 (ceremonial)",
+        "highest scoring dimensions: 年代/文化 17.9/25, 环境气候 9.1/15",
+        "上装: GAR-0008 马甲 (business)",
+        "下装: GAR-0014 牛仔裤 (casual)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0044 医疗工作鞋 (functional)",
+        "linked structure cards: STR-0006",
         "linked material cards: MAT-0002, MAT-0001, MAT-0003"
       ],
       "risks": [
-        "region mismatch in GAR-0064, GAR-0045, GAR-0044: cards document their own regions, not urban china shanghai",
+        "region mismatch in GAR-0008, GAR-0014, GAR-0045, GAR-0044: cards document their own regions, not urban china shanghai",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0425",
+          "SRC-0109",
+          "SRC-0115",
           "SRC-0405",
+          "SRC-0136",
           "SRC-0141",
           "SRC-0102",
           "SRC-0142"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0425",
-            "url": "https://collections.vam.ac.uk/item/O1793865/"
+            "source_id": "SRC-0109",
+            "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+          },
+          {
+            "source_id": "SRC-0115",
+            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
           },
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0136",
+            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
           },
           {
             "source_id": "SRC-0141",
@@ -754,7 +799,8 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0064": "verified",
+          "GAR-0008": "verified",
+          "GAR-0014": "verified",
           "GAR-0045": "verified",
           "GAR-0044": "interpretive"
         },
@@ -792,10 +838,11 @@
     {
       "code": "region_mismatch",
       "severity": "medium",
-      "message": "cards document other regions for GAR-0006, GAR-0014, GAR-0036, GAR-0041, GAR-0044, GAR-0045, GAR-0048, GAR-0050 (requested urban china shanghai); cross-region borrowing is flagged, not silently accepted",
+      "message": "cards document other regions for GAR-0008, GAR-0014, GAR-0034, GAR-0036, GAR-0041, GAR-0044, GAR-0045, GAR-0048, GAR-0050 (requested urban china shanghai); cross-region borrowing is flagged, not silently accepted",
       "items": [
-        "GAR-0006",
+        "GAR-0008",
         "GAR-0014",
+        "GAR-0034",
         "GAR-0036",
         "GAR-0041",
         "GAR-0044",
@@ -809,16 +856,15 @@
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 1.27,
-    "c_cost_total": 0.91,
+    "c_cost_total": 1.065,
     "differences": {
       "a_b": 7,
-      "a_c": 6,
-      "b_c": 3
+      "a_c": 7,
+      "b_c": 2
     }
   },
   "retrieved_ids": {
     "upper_body": [
-      "GAR-0006",
       "GAR-EXAMPLE-001",
       "GAR-0008",
       "GAR-0007",
@@ -832,10 +878,6 @@
       "GAR-0011",
       "GAR-0013"
     ],
-    "set": [
-      "GAR-0001",
-      "GAR-0065"
-    ],
     "inner_layer": [
       "GAR-0012",
       "GAR-0020"
@@ -844,13 +886,9 @@
       "GAR-0045"
     ],
     "accessory": [
-      "GAR-0070",
       "GAR-0021",
-      "GAR-0068",
       "GAR-0050",
       "GAR-0028",
-      "GAR-0066",
-      "GAR-0067",
       "GAR-0025",
       "GAR-0051",
       "GAR-0026"
@@ -869,11 +907,6 @@
       "GAR-0058"
     ],
     "one_piece": [
-      "GAR-0064",
-      "GAR-0069",
-      "GAR-0031",
-      "GAR-0063",
-      "GAR-0032",
       "GAR-0036",
       "GAR-0053",
       "GAR-0055",
@@ -887,6 +920,13 @@
   },
   "rejected": [
     {
+      "id": "GAR-0006",
+      "slot": "upper_body",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
       "id": "GAR-0043",
       "slot": "upper_body",
       "reasons": [
@@ -894,17 +934,33 @@
       ]
     },
     {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
       "id": "GAR-0005",
       "slot": "set",
       "reasons": [
-        "region-specific card incompatible with urban china shanghai (west_africa, senegal, mali)"
+        "region-specific card incompatible with urban china shanghai (west_africa, senegal, mali)",
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
       ]
     },
     {
       "id": "GAR-0030",
       "slot": "set",
       "reasons": [
-        "region-specific card incompatible with urban china shanghai (mesoamerica, mexico, guatemala)"
+        "region-specific card incompatible with urban china shanghai (mesoamerica, mexico, guatemala)",
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
       ]
     },
     {
@@ -971,6 +1027,20 @@
       ]
     },
     {
+      "id": "GAR-0068",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0070",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
       "id": "GAR-0024",
       "slot": "footwear",
       "reasons": [
@@ -981,14 +1051,30 @@
       "id": "GAR-0004",
       "slot": "one_piece",
       "reasons": [
-        "region-specific card incompatible with urban china shanghai (arabia, morocco, persia, north_africa)"
+        "region-specific card incompatible with urban china shanghai (arabia, morocco, persia, north_africa)",
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
       ]
     },
     {
       "id": "GAR-0009",
       "slot": "one_piece",
       "reasons": [
-        "region-specific card incompatible with urban china shanghai (europe, byzantium)"
+        "region-specific card incompatible with urban china shanghai (europe, byzantium)",
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0031",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0032",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
       ]
     },
     {
@@ -1018,11 +1104,46 @@
       "reasons": [
         "region-specific card incompatible with urban china shanghai (egypt)"
       ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0069",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (nurse)"
+      ]
     }
   ],
   "warnings": [
     "no reliable style card for art direction 'handheld documentary, cool fluorescent realism'",
-    "cards document other regions for GAR-0006, GAR-0014, GAR-0036, GAR-0041, GAR-0044, GAR-0045, GAR-0048, GAR-0050 (requested urban china shanghai); cross-region borrowing is flagged, not silently accepted"
+    "cards document other regions for GAR-0008, GAR-0014, GAR-0034, GAR-0036, GAR-0041, GAR-0044, GAR-0045, GAR-0048, GAR-0050 (requested urban china shanghai); cross-region borrowing is flagged, not silently accepted"
   ],
   "sources": [
     {
@@ -1046,8 +1167,8 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
-      "source_id": "SRC-0107",
-      "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+      "source_id": "SRC-0203",
+      "url": "https://collections.vam.ac.uk/item/O235319/"
     },
     {
       "source_id": "SRC-0115",
@@ -1062,8 +1183,12 @@
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
-      "source_id": "SRC-0425",
-      "url": "https://collections.vam.ac.uk/item/O1793865/"
+      "source_id": "SRC-0109",
+      "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+    },
+    {
+      "source_id": "SRC-0136",
+      "url": "https://fashionhistory.fitnyc.edu/stomacher/"
     }
   ],
   "missing_urls": [],
@@ -1087,6 +1212,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 2,
-    "rejected_count": 19
+    "rejected_count": 31
   }
 }

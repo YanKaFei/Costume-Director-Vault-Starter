@@ -1,0 +1,54 @@
+{
+  "_test": {
+    "id": "T42",
+    "title": "职业同义词：巡警→police，A 套含 GAR-0042 且无旗袍/派克",
+    "types": [
+      "occupation_synonym",
+      "R1"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch",
+      "no_cultural_mispick"
+    ],
+    "query": [
+      "巡警",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Li",
+    "occupation": "巡警",
+    "economic_status": "middle",
+    "arc": "night patrol"
+  },
+  "period": "contemporary",
+  "region": "china",
+  "season": "autumn",
+  "scene": "city street",
+  "time": "night",
+  "weather": "rain",
+  "action": "walking a night patrol",
+  "location": "shanghai street",
+  "art_direction": "gritty urban realism",
+  "lighting": "sodium streetlight",
+  "camera": "medium tracking",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

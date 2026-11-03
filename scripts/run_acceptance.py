@@ -357,6 +357,25 @@ def criterion(name, record, card_index, source_ids):
         return ("PASS" if not forbidden else "FAIL",
                 "category=%s forbidden_selected=%s" % (
                     checks_local.get("occupation_category"), forbidden))
+    if name == "no_cultural_mispick":
+        checks_local = (data or {}).get("checks", {})
+        category = checks_local.get("occupation_category")
+        strict = {"doctor", "police", "nurse", "chef", "space",
+                  "firefighter", "military"}
+        if category not in strict:
+            return "PASS", "non-occupational brief; cultural pieces may be valid"
+        bad = []
+        cultural_words = ("韩服", "纱丽", "和服", "旗袍", "汉服", "长衫",
+                          "马褂", "云肩", "agbada", "buba", "kaftan", "kimono",
+                          "sari", "hanbok", "qipao", "hanfu")
+        for look in looks:
+            for item in look.get("items", []):
+                text = rec.lib.norm_text(str(item.get("name_zh", "")) + " " +
+                                         str(item.get("name_en", "")))
+                if any(word in text for word in cultural_words):
+                    bad.append(item.get("id"))
+        return ("PASS" if not bad else "FAIL",
+                "cultural pieces in %s occupational look=%s" % (category, bad))
     if name == "occasion_match":
         checks_local = (data or {}).get("checks", {})
         ok = bool(checks_local.get("occasion_match"))

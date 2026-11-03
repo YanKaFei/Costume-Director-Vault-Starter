@@ -1,11 +1,11 @@
 # T30 — 自由文本 --brief：规则化剧本/人物解析
 
-- 运行时间：2026-11-04T02:47:17+08:00
+- 运行时间：2026-11-04T03:02:06+08:00
 - 测试类型：brief_parsing, 1930s_shanghai
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T30-自由文本brief解析.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json`
-- 退出码：**0**（耗时 1.03s）
+- 退出码：**0**（耗时 1.02s）
 
 ## 实际输入
 
@@ -19,7 +19,7 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json` | 0 | 1.03s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json` | 0 | 1.02s |
 | `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s --type garment --limit 6 --json` | 0 | 0.73s |
 
 - `query.py` 命中数量：**6**（验收要求 ≥1）

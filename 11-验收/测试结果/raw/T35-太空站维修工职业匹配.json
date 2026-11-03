@@ -79,7 +79,7 @@
       "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
       "differences": {
         "a_b": 6,
-        "a_c": 5,
+        "a_c": 3,
         "b_c": 3
       },
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve space station mechanic; the low economic register shows through material and finish; formality runs from functional / functional / functional / smart_casual; the black, brown, indigo palette controls the emotional temperature; against the arc (repairing a failing station) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
@@ -269,23 +269,23 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 45.7,
+      "total": 42.0,
       "scores": {
-        "period": 23.0,
+        "period": 18.5,
         "identity": 3.1,
-        "environment": 6.8,
+        "environment": 7.5,
         "art": 0.0,
         "movement": 4.5,
         "arc": 3.5,
-        "camera": 6.7
+        "camera": 6.8
       },
       "missing": [],
-      "cost": 0.241,
-      "cost_total": 0.965,
+      "cost": 0.263,
+      "cost_total": 1.052,
       "contains_example": false,
       "evidence_tier": "approximate",
       "period_tiers": {
-        "upper_body": "approximate",
+        "upper_body": "none",
         "lower_body": "approximate",
         "outerwear": "approximate",
         "footwear": "approximate"
@@ -301,25 +301,23 @@
         "black",
         "blue black",
         "brown",
+        "cream",
+        "embroidered",
         "indigo",
         "khaki",
-        "lavender",
-        "multicolor",
-        "solid color"
+        "lavender"
       ],
       "style_tags": [
-        "afrocentric",
-        "black",
-        "black pride",
         "burberry",
         "class",
         "classic",
-        "counterculture",
         "country",
+        "dandy",
         "gabardine",
+        "menswear",
         "military",
-        "pride",
         "rockabilly",
+        "victorian",
         "working",
         "working class",
         "youth"
@@ -327,33 +325,35 @@
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve space station mechanic; the low economic register shows through material and finish; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (repairing a failing station) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve space station mechanic; the low economic register shows through material and finish; formality runs from business / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (repairing a failing station) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "upper_body",
-          "id": "GAR-0006",
-          "name_zh": "达希基套衫",
-          "name_en": "dashiki",
+          "id": "GAR-0008",
+          "name_zh": "马甲",
+          "name_en": "waistcoat",
           "colors": [
-            "multicolor",
-            "solid_color"
+            "black",
+            "cream",
+            "embroidered"
           ],
           "materials": [
-            "cotton",
-            "printed_cotton"
+            "wool",
+            "silk",
+            "cotton"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0107"
+            "SRC-0109"
           ],
           "scores": {
-            "period": 0.92,
-            "identity": 0.19800000000000004,
-            "environment": 0.39549999999999996,
+            "period": 0.21825000000000003,
+            "identity": 0.1884375,
+            "environment": 0.5774999999999999,
             "art": 0.0,
             "movement": 0.5,
             "arc": 0.35,
-            "camera": 0.65
+            "camera": 0.69
           }
         },
         {
@@ -440,52 +440,60 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0006",
+          "slot": "upper_body",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "upper_body"
+        },
         {
           "id": "MAT-0001",
           "slot": "upper_body"
         },
         {
           "id": "MAT-0003",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0002",
-          "slot": "outerwear"
+          "slot": "lower_body"
         }
       ],
-      "prompt_image": "full-body character design of an adult Kai, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: derelict station corridor, ship night cycle, indoor, cold, art direction: minimal staged science fiction, lighting: single cold work light, camera: handheld medium, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
-      "prompt_video": "Kai, crawling through a service duct with a tool bag, scene: derelict station corridor, ship night cycle, indoor, cold, camera: handheld medium, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: single cold work light, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult Kai, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, cream, embroidered, indigo, khaki, lavender, setting: derelict station corridor, ship night cycle, indoor, cold, art direction: minimal staged science fiction, lighting: single cold work light, camera: handheld medium, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003",
+      "prompt_video": "Kai, crawling through a service duct with a tool bag, scene: derelict station corridor, ship night cycle, indoor, cold, camera: handheld medium, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: single cold work light, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 6.8/15",
-        "上装: GAR-0006 达希基套衫 (casual)",
+        "highest scoring dimensions: 年代/文化 18.5/25, 环境气候 7.5/15",
+        "上装: GAR-0008 马甲 (business)",
         "下装: GAR-0014 牛仔裤 (casual)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+        "linked structure cards: STR-0006",
+        "linked material cards: MAT-0002, MAT-0001, MAT-0003"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not derelict space station",
+        "region mismatch in GAR-0008, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not derelict space station",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0107",
+          "SRC-0109",
           "SRC-0115",
           "SRC-0405",
           "SRC-0123",
+          "SRC-0136",
+          "SRC-0141",
           "SRC-0102",
-          "SRC-0142",
-          "SRC-0141"
+          "SRC-0142"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0107",
-            "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+            "source_id": "SRC-0109",
+            "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
           },
           {
             "source_id": "SRC-0115",
@@ -500,23 +508,27 @@
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
+            "source_id": "SRC-0136",
+            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           }
         ],
         "context_style_ids": [],
         "context_period_ids": [],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0006": "verified",
+          "GAR-0008": "verified",
           "GAR-0014": "verified",
           "GAR-0045": "verified",
           "GAR-0022": "verified"
@@ -527,80 +539,74 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 45.2,
+      "total": 40.8,
       "scores": {
-        "period": 23.0,
-        "identity": 2.2,
+        "period": 16.5,
+        "identity": 4.7,
         "environment": 7.0,
         "art": 0.0,
-        "movement": 4.7,
+        "movement": 4.3,
         "arc": 3.5,
         "camera": 6.8
       },
       "missing": [],
-      "cost": 0.299,
-      "cost_total": 0.897,
+      "cost": 0.241,
+      "cost_total": 0.722,
       "contains_example": false,
       "evidence_tier": "approximate",
       "period_tiers": {
-        "set": "approximate",
+        "one_piece": "none",
         "outerwear": "approximate",
         "footwear": "approximate"
       },
       "region_tiers": {
-        "set": "unknown",
+        "one_piece": "unknown",
         "outerwear": "unknown",
         "footwear": "unknown"
       },
       "colors": [
         "beige",
         "black",
-        "blue",
         "brown",
-        "indigo",
         "khaki",
         "lavender",
-        "white"
+        "pale blue"
       ],
       "style_tags": [
-        "african",
         "burberry",
         "classic",
         "country",
         "gabardine",
         "military",
-        "west",
-        "west african"
+        "occupational",
+        "workwear"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve space station mechanic; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual / smart_casual; the beige, black, blue palette controls the emotional temperature; against the arc (repairing a failing station) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve space station mechanic; the low economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (repairing a failing station) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "set",
-          "id": "GAR-0005",
-          "name_zh": "布布长袍",
-          "name_en": "boubou",
+          "slot": "one_piece",
+          "id": "GAR-0038",
+          "name_zh": "连体工作服",
+          "name_en": "overalls",
           "colors": [
-            "indigo",
-            "white",
-            "blue"
+            "pale_blue"
           ],
           "materials": [
-            "cotton",
-            "indigo_dyed_cotton"
+            "cotton"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0106"
+            "SRC-0402"
           ],
           "scores": {
-            "period": 0.92,
-            "identity": 0.047334375000000005,
+            "period": 0.21825000000000003,
+            "identity": 0.49431250000000004,
             "environment": 0.39549999999999996,
             "art": 0.0,
-            "movement": 0.5,
+            "movement": 0.4,
             "arc": 0.35,
             "camera": 0.69
           }
@@ -666,36 +672,36 @@
       "materials": [
         {
           "id": "MAT-0001",
-          "slot": "set"
+          "slot": "one_piece"
         },
         {
           "id": "MAT-0003",
-          "slot": "set"
+          "slot": "outerwear"
         },
         {
           "id": "MAT-0002",
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Kai, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: derelict station corridor, ship night cycle, indoor, cold, art direction: minimal staged science fiction, lighting: single cold work light, camera: handheld medium, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
-      "prompt_video": "Kai, crawling through a service duct with a tool bag, scene: derelict station corridor, ship night cycle, indoor, cold, camera: handheld medium, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。, lighting: single cold work light, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult Kai, one-piece: pale blue cotton overalls, long sleeves, large single front pocket, oversized lapels, cinched cuffs and waist; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, pale blue, setting: derelict station corridor, ship night cycle, indoor, cold, art direction: minimal staged science fiction, lighting: single cold work light, camera: handheld medium, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0038 overalls [pale_blue; cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_video": "Kai, crawling through a service duct with a tool bag, scene: derelict station corridor, ship night cycle, indoor, cold, camera: handheld medium, costume: one-piece: pale blue cotton overalls, long sleeves, large single front pocket, oversized lapels, cinched cuffs and waist; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 前交叉后系带结构在弯腰时松紧变化; 大口袋位置限制下蹲动作。, lighting: single cold work light, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0038 overalls [pale_blue; cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0038 overalls [pale_blue; cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 7.0/15",
-        "成套: GAR-0005 布布长袍 (ceremonial)",
+        "highest scoring dimensions: 年代/文化 16.5/25, 环境气候 7.0/15",
+        "连身: GAR-0038 连体工作服 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "linked material cards: MAT-0001, MAT-0003, MAT-0002"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0005, GAR-0045, GAR-0022: cards document their own regions, not derelict space station",
+        "region mismatch in GAR-0038, GAR-0045, GAR-0022: cards document their own regions, not derelict space station",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0106",
+          "SRC-0402",
           "SRC-0405",
           "SRC-0123",
           "SRC-0102",
@@ -704,8 +710,8 @@
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0106",
-            "url": "https://fashionhistory.fitnyc.edu/boubou/"
+            "source_id": "SRC-0402",
+            "url": "https://collections.vam.ac.uk/item/O1276042/"
           },
           {
             "source_id": "SRC-0405",
@@ -732,7 +738,7 @@
         "context_period_ids": [],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0005": "verified",
+          "GAR-0038": "verified",
           "GAR-0045": "verified",
           "GAR-0022": "verified"
         },
@@ -766,10 +772,9 @@
     {
       "code": "period_approximate",
       "severity": "medium",
-      "message": "period evidence is approximate/none for GAR-0005, GAR-0006, GAR-0014, GAR-0022, GAR-0037, GAR-0038, GAR-0039, GAR-0045 (requested 22nd century); treat these as era-level hypotheses, not exact period matches",
+      "message": "period evidence is approximate/none for GAR-0008, GAR-0014, GAR-0022, GAR-0037, GAR-0038, GAR-0039, GAR-0045 (requested 22nd century); treat these as era-level hypotheses, not exact period matches",
       "items": [
-        "GAR-0005",
-        "GAR-0006",
+        "GAR-0008",
         "GAR-0014",
         "GAR-0022",
         "GAR-0037",
@@ -790,17 +795,16 @@
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 1.14,
-    "c_cost_total": 0.897,
+    "c_cost_total": 0.722,
     "differences": {
       "a_b": 6,
-      "a_c": 5,
+      "a_c": 3,
       "b_c": 3
     }
   },
   "retrieved_ids": {
     "upper_body": [
       "GAR-EXAMPLE-001",
-      "GAR-0006",
       "GAR-0008",
       "GAR-0034",
       "GAR-0002",
@@ -812,12 +816,6 @@
       "GAR-0010",
       "GAR-0011",
       "GAR-0013"
-    ],
-    "set": [
-      "GAR-0005",
-      "GAR-0030",
-      "GAR-0001",
-      "GAR-0065"
     ],
     "inner_layer": [
       "GAR-0012",
@@ -834,16 +832,12 @@
       "GAR-0046"
     ],
     "accessory": [
-      "GAR-0070",
       "GAR-0039",
       "GAR-0027",
       "GAR-0021",
       "GAR-0025",
       "GAR-0028",
-      "GAR-0068",
-      "GAR-0026",
-      "GAR-0066",
-      "GAR-0067"
+      "GAR-0026"
     ],
     "carried_prop": [
       "GAR-0048",
@@ -858,20 +852,13 @@
       "GAR-0035"
     ],
     "one_piece": [
-      "GAR-0069",
-      "GAR-0064",
-      "GAR-0063",
       "GAR-0038",
       "GAR-0061",
       "GAR-0053",
       "GAR-0056",
-      "GAR-0009",
       "GAR-0029",
       "GAR-0055",
-      "GAR-0004",
       "GAR-0059",
-      "GAR-0031",
-      "GAR-0032",
       "GAR-0062",
       "GAR-0052",
       "GAR-0015",
@@ -880,10 +867,45 @@
   },
   "rejected": [
     {
+      "id": "GAR-0006",
+      "slot": "upper_body",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
       "id": "GAR-0043",
       "slot": "upper_body",
       "reasons": [
         "occupational mismatch: the look is for 'space station mechanic'"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
       ]
     },
     {
@@ -908,6 +930,20 @@
       ]
     },
     {
+      "id": "GAR-0068",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0070",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
       "id": "GAR-0024",
       "slot": "footwear",
       "reasons": [
@@ -919,6 +955,34 @@
       "slot": "footwear",
       "reasons": [
         "occupational mismatch: the look is for 'space station mechanic'"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0031",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0032",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
       ]
     },
     {
@@ -936,6 +1000,27 @@
       ]
     },
     {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0069",
+      "slot": "one_piece",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
       "id": "GAR-0050",
       "slot": "accessory",
       "reasons": [
@@ -948,12 +1033,26 @@
       "reasons": [
         "occupational mismatch: the look is for 'space station mechanic'"
       ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "cross-cultural garment not appropriate for the occupational brief (space)"
+      ]
     }
   ],
   "warnings": [
     "no reliable period/region context card after period/region normalization (requested: 22nd century / derelict space station)",
     "no reliable style card for art direction 'minimal staged science fiction'",
-    "period evidence is approximate/none for GAR-0005, GAR-0006, GAR-0014, GAR-0022, GAR-0037, GAR-0038, GAR-0039, GAR-0045 (requested 22nd century); treat these as era-level hypotheses, not exact period matches",
+    "period evidence is approximate/none for GAR-0008, GAR-0014, GAR-0022, GAR-0037, GAR-0038, GAR-0039, GAR-0045 (requested 22nd century); treat these as era-level hypotheses, not exact period matches",
     "fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins"
   ],
   "sources": [
@@ -982,8 +1081,8 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
-      "source_id": "SRC-0107",
-      "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+      "source_id": "SRC-0109",
+      "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
     },
     {
       "source_id": "SRC-0115",
@@ -994,12 +1093,12 @@
       "url": "https://collections.vam.ac.uk/item/O1295635/"
     },
     {
-      "source_id": "SRC-0141",
-      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+      "source_id": "SRC-0136",
+      "url": "https://fashionhistory.fitnyc.edu/stomacher/"
     },
     {
-      "source_id": "SRC-0106",
-      "url": "https://fashionhistory.fitnyc.edu/boubou/"
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     }
   ],
   "missing_urls": [],
@@ -1023,6 +1122,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 4,
-    "rejected_count": 10
+    "rejected_count": 26
   }
 }

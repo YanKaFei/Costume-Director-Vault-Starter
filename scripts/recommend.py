@@ -274,13 +274,15 @@ OCCUPATION_PROFILES = {
                          "GAR-0041": 0.0, "GAR-0042": 0.0},
     },
     "doctor": {
-        "keywords": ("doctor", "physician", "surgeon", "医生", "医师"),
+        "keywords": ("doctor", "physician", "surgeon", "医生", "医师",
+                     "医疗人员"),
         "groups": {"medical", "badge"},
         "affinity_ids": {"GAR-0041": 1.0, "GAR-0044": 0.55, "GAR-0050": 0.3,
                          "LOOK-0010": 0.35, "GAR-0036": 0.0, "GAR-0042": 0.0},
     },
     "police": {
-        "keywords": ("police", "constable", "cop", "警察", "警官"),
+        "keywords": ("police", "constable", "cop", "patrol officer",
+                     "警察", "警官", "巡警", "民警", "公安"),
         "groups": {"police", "badge"},
         "affinity_ids": {"GAR-0042": 1.0, "GAR-0050": 0.45, "GAR-0036": 0.0,
                          "GAR-0041": 0.0},
@@ -291,7 +293,8 @@ OCCUPATION_PROFILES = {
         "affinity_ids": {"GAR-0043": 1.0, "GAR-0042": 0.0, "GAR-0041": 0.0},
     },
     "space": {
-        "keywords": ("astronaut", "space station mechanic", "space mechanic",
+        "keywords": ("astronaut", "\u5b87\u822a\u5458", "\u822a\u5929\u5458",
+                     "\u592a\u7a7a\u4eba", "space station mechanic", "space mechanic",
                      "space station engineer", "station technician",
                      "维修工", "技师", "航天员",
                      "空间站维修", "orbital mechanic"),
@@ -340,6 +343,21 @@ EXCLUSIVE_PROFESSION_IDS = {
 }
 UNIFORM_GROUPS = {"medical", "police", "culinary", "space", "workwear",
                   "protective", "military", "badge"}
+OCCUPATIONAL_STRICT = {"nurse", "doctor", "police", "chef", "space",
+                       "firefighter", "military"}
+CULTURAL_GARMENT_WORDS = ("\u97e9\u670d", "\u7eb1\u4e3d", "\u548c\u670d", "\u65d7\u888d",
+                          "\u6c49\u670d", "\u957f\u886b", "\u9a6c\u8902", "\u4e91\u80a9", "dashiki", "\u8fbe\u5e0c\u57fa", "agbada", "buba", "kaftan", "kimono",
+                          "sari", "hanbok", "qipao", "hanfu", "ao dai",
+                          "traditional", "regional", "ceremonial", "bridal")
+
+
+def is_culturally_specific(card):
+    meta = card["meta"]
+    text = lib.norm_text(lib.get_str(meta, "name_zh") + " " +
+                         lib.get_str(meta, "name_en") + " " +
+                         " ".join(lib.get_list(meta, "tags")) + " " +
+                         " ".join(lib.get_list(meta, "style_tags")))
+    return any(word in text for word in CULTURAL_GARMENT_WORDS)
 
 
 def _text_has_keyword(text, keywords):
@@ -1166,6 +1184,12 @@ def hard_filter(card, slot, ctx):
             elif exclusive_owner and occ["category"] != exclusive_owner:
                 reasons.append("occupational mismatch: %s belongs to %s, not %s" % (
                     cid, exclusive_owner, occ["category"]))
+    if (lib.norm_text(meta.get("type")) == "garment" and occ and
+            occ["category"] in OCCUPATIONAL_STRICT):
+        groups = card_occupation_groups(card)
+        if is_culturally_specific(card) and not (groups & UNIFORM_GROUPS):
+            reasons.append("cross-cultural garment not appropriate for the "
+                           "occupational brief (%s)" % occ["category"])
 
     weather = expand_tokens(inp["weather"])
     action = expand_tokens(inp["action"])

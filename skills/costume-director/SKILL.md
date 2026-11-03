@@ -67,6 +67,7 @@ python3 scripts/query.py "领" --limit 0 --json --out /tmp/collars.json
 | `--evidence` | evidence_status（verified/interpretive/example/unverified） |
 | `--tag` / `--id` | 命中 tags / 精确 ID |
 | `--limit` | 返回上限，默认 10；`0` 表示全部 |
+| `--include-example` | 默认结果**排除 example 卡**（R2）；需要时才显式包含 |
 | `--phrase` | 每个位置参数作为完整短语（不拆词） |
 | `--json` | 输出 JSON 数组；每项含契约字段 + `score` |
 | `--verbose` | 文本模式显示命中字段 |
@@ -282,7 +283,8 @@ python3 scripts/recommend.py continuity.json --continuity --json
 
 ### 3.6b-2 P3.1 职业/雨具/环境语义（新增）
 
-- **职业映射**：`occupation_profile` 把护士/医生/警察/厨师/太空/军人/婚礼映射到真实卡
+- **职业同义词**：护士/医生(医师)/警察(巡警/民警/警官)/厨师/宇航员(航天员)/太空/婚礼(新娘/新郎)
+  等中文同义词会归一化到同一职业；A 套不得跨职业/跨文化乱配（医生不得穿韩服/长衫，巡警不得穿旗袍）。
   （护士 GAR-0036 + LOOK-0010、医生 GAR-0041、警察 GAR-0042、厨师 GAR-0043、
   太空 GAR-0038/0039 + LOOK-0011、婚礼 GAR-0063/0068/0069/0070 + LOOK-0013/0018/0020）。
   其他职业（建筑师/教师/舞者/记者等）没有专属卡时使用通用单品，**不会拿别的职业制服顶替**；

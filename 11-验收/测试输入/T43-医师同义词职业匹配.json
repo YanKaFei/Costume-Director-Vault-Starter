@@ -1,0 +1,54 @@
+{
+  "_test": {
+    "id": "T43",
+    "title": "职业同义词：医师→doctor，A 套含 GAR-0041 且无韩服/长衫",
+    "types": [
+      "occupation_synonym",
+      "R1"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "no_crash",
+      "no_example_in_a",
+      "abc_distinct",
+      "narrative_present",
+      "prompts",
+      "no_prompt_contamination",
+      "context_refs_clean",
+      "evidence_coverage",
+      "query_hits",
+      "occupation_match",
+      "no_occupation_mismatch",
+      "no_cultural_mispick"
+    ],
+    "query": [
+      "医师",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Dr Wang",
+    "occupation": "主治医师",
+    "economic_status": "middle",
+    "arc": "night shift"
+  },
+  "period": "contemporary",
+  "region": "urban china",
+  "season": "winter",
+  "scene": "hospital ward",
+  "time": "night",
+  "weather": "indoor",
+  "action": "examining a patient",
+  "location": "hospital ward",
+  "art_direction": "clinical realism",
+  "lighting": "cool fluorescent",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}
