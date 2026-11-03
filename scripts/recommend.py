@@ -2624,7 +2624,10 @@ def build_result_warnings(result, ctx, cards):
     # keep only meaningful warnings but include info-level parse notes
     prior = list(result.get("warnings", []))
     result["warnings_detail"] = details
-    result["warnings"] = prior + [entry["message"] for entry in details]
+    # info-level notes (e.g. brief unknowns) are available in warnings_detail but
+    # do not pollute the default human-facing warning list (R4 noise reduction).
+    result["warnings"] = prior + [entry["message"] for entry in details
+                                  if entry.get("severity") != "info"]
     result["conflicts"] = conflicts
     return details
 
@@ -3102,9 +3105,6 @@ def make_result(inp, cards, sources):
     if result["missing_urls"]:
         result["warnings"].append("source_ids missing from 04-来源/: " +
                                   ", ".join(result["missing_urls"]))
-    for slot in ("upper_body", "lower_body", "footwear"):
-        if not any(look["items"].get(slot) for look in looks):
-            result["warnings"].append("no %s candidates retrieved" % slot)
     if inp["fidelity_mode"] == "historical":
         if not any(item["evidence_status"] == "verified"
                    for look in looks for item in look["items"].values()):

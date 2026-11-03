@@ -441,74 +441,82 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 43.4,
+      "total": 43.5,
       "scores": {
-        "period": 15.6,
+        "period": 17.2,
         "identity": 5.6,
         "environment": 1.8,
-        "art": 3.7,
+        "art": 4.1,
         "movement": 4.4,
         "arc": 3.5,
-        "camera": 6.8
+        "camera": 6.9
       },
       "missing": [],
-      "cost": 0.273,
-      "cost_total": 0.818,
+      "cost": 0.277,
+      "cost_total": 0.83,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "one_piece": "era",
+        "one_piece": "approximate",
         "outerwear": "era",
         "footwear": "era"
       },
       "region_tiers": {
-        "one_piece": "none",
+        "one_piece": "regional",
         "outerwear": "none",
         "footwear": "none"
       },
       "colors": [
         "black",
-        "scarlet",
+        "gold",
+        "red",
         "white"
       ],
       "style_tags": [
-        "1940s",
-        "ii",
+        "asian",
+        "court",
+        "court dress",
+        "dress",
         "medical",
+        "mughal",
         "occupational",
-        "utility",
-        "war",
-        "world",
-        "world war ii"
+        "south",
+        "south asian"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 主治医师; the middle economic register shows through material and finish; formality runs from smart_casual / functional / functional; the black, scarlet, white palette controls the emotional temperature; against the arc (night shift) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 主治医师; the middle economic register shows through material and finish; formality runs from formal / functional / functional; the black, gold, red palette controls the emotional temperature; against the arc (night shift) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "one_piece",
-          "id": "GAR-0052",
-          "name_zh": "Utility 连衣裙",
-          "name_en": "Utility day dress",
+          "id": "GAR-0071",
+          "name_zh": "莫卧儿jama",
+          "name_en": "Mughal jama",
           "colors": [
-            "scarlet"
+            "white",
+            "gold",
+            "red"
           ],
           "materials": [
-            "rayon_crepe"
+            "cotton_muslin",
+            "gold_thread",
+            "satin"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0412"
+            "SRC-0450",
+            "SRC-0451",
+            "SRC-0452"
           ],
           "scores": {
-            "period": 0.1188,
+            "period": 0.2916000000000001,
             "identity": 0.225,
             "environment": 0.12249999999999998,
-            "art": 0.22499999999999998,
+            "art": 0.2946428571428571,
             "movement": 0.5,
             "arc": 0.35,
-            "camera": 0.65
+            "camera": 0.69
           }
         },
         {
@@ -566,37 +574,56 @@
       "materials": [
         {
           "id": "MAT-0001",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Dr Wang, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: black, scarlet, white, setting: hospital ward, night, indoor, art direction: clinical realism, lighting: cool fluorescent, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
-      "prompt_video": "Dr Wang, examining a patient, scene: hospital ward, night, indoor, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
+      "prompt_image": "full-body character design of an adult Dr Wang, one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, palette: black, gold, red, white, setting: hospital ward, night, indoor, art direction: clinical realism, lighting: cool fluorescent, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "prompt_video": "Dr Wang, examining a patient, scene: hospital ward, night, indoor, camera: medium shot, costume: one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。; 长袍及膝/及踝、裙摆宽大，快走时下摆展开; 交叉襟与侧系在抬臂时拉扯，需锁定系合位置。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 15.6/25, 摄影/一致性 6.8/10",
-        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
+        "highest scoring dimensions: 年代/文化 17.2/25, 摄影/一致性 6.9/10",
+        "连身: GAR-0071 莫卧儿jama (formal)",
         "外层: GAR-0041 医生白袍 (functional)",
         "足部: GAR-0044 医疗工作鞋 (functional)",
-        "linked material cards: MAT-0001"
+        "linked material cards: MAT-0001, MAT-0003"
       ],
       "risks": [
-        "region mismatch in GAR-0052, GAR-0041, GAR-0044: cards document their own regions, not urban china",
+        "region mismatch in GAR-0071, GAR-0041, GAR-0044: cards document their own regions, not urban china",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0412",
-          "SRC-0102"
+          "SRC-0450",
+          "SRC-0451",
+          "SRC-0452",
+          "SRC-0102",
+          "SRC-0142"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0412",
-            "url": "https://collections.vam.ac.uk/item/O15693/"
+            "source_id": "SRC-0450",
+            "url": "https://collections.vam.ac.uk/item/O144142/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0452",
+            "url": "https://collections.vam.ac.uk/item/O438362/"
           },
           {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           }
         ],
         "context_style_ids": [],
@@ -605,7 +632,7 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0052": "verified",
+          "GAR-0071": "verified",
           "GAR-0041": "interpretive",
           "GAR-0044": "interpretive"
         },
@@ -641,15 +668,23 @@
       "look": null
     },
     {
+      "code": "period_approximate",
+      "severity": "medium",
+      "message": "period evidence is approximate/none for GAR-0071 (requested contemporary); treat these as era-level hypotheses, not exact period matches",
+      "items": [
+        "GAR-0071"
+      ],
+      "look": null
+    },
+    {
       "code": "region_mismatch",
       "severity": "medium",
-      "message": "cards document other regions for GAR-0014, GAR-0034, GAR-0041, GAR-0044, GAR-0052, GAR-0056 (requested urban china); cross-region borrowing is flagged, not silently accepted",
+      "message": "cards document other regions for GAR-0014, GAR-0034, GAR-0041, GAR-0044, GAR-0056 (requested urban china); cross-region borrowing is flagged, not silently accepted",
       "items": [
         "GAR-0014",
         "GAR-0034",
         "GAR-0041",
         "GAR-0044",
-        "GAR-0052",
         "GAR-0056"
       ],
       "look": null
@@ -658,7 +693,7 @@
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 1.073,
-    "c_cost_total": 0.818,
+    "c_cost_total": 0.83,
     "differences": {
       "a_b": 3,
       "a_c": 3,
@@ -676,6 +711,7 @@
     ],
     "lower_body": [
       "GAR-0014",
+      "GAR-0072",
       "GAR-0010",
       "GAR-0011",
       "GAR-0013"
@@ -700,6 +736,8 @@
       "GAR-0021",
       "GAR-0026",
       "GAR-0028",
+      "GAR-0074",
+      "GAR-0073",
       "GAR-0025"
     ],
     "carried_prop": [
@@ -718,6 +756,7 @@
     ],
     "one_piece": [
       "GAR-0056",
+      "GAR-0071",
       "GAR-0055",
       "GAR-0062",
       "GAR-0052",
@@ -924,7 +963,8 @@
   ],
   "warnings": [
     "no reliable style card for art direction 'clinical realism'",
-    "cards document other regions for GAR-0014, GAR-0034, GAR-0041, GAR-0044, GAR-0052, GAR-0056 (requested urban china); cross-region borrowing is flagged, not silently accepted"
+    "period evidence is approximate/none for GAR-0071 (requested contemporary); treat these as era-level hypotheses, not exact period matches",
+    "cards document other regions for GAR-0014, GAR-0034, GAR-0041, GAR-0044, GAR-0056 (requested urban china); cross-region borrowing is flagged, not silently accepted"
   ],
   "sources": [
     {
@@ -952,8 +992,16 @@
       "url": "https://fashionhistory.fitnyc.edu/ruff/"
     },
     {
-      "source_id": "SRC-0412",
-      "url": "https://collections.vam.ac.uk/item/O15693/"
+      "source_id": "SRC-0450",
+      "url": "https://collections.vam.ac.uk/item/O144142/"
+    },
+    {
+      "source_id": "SRC-0451",
+      "url": "https://collections.vam.ac.uk/item/O109190/"
+    },
+    {
+      "source_id": "SRC-0452",
+      "url": "https://collections.vam.ac.uk/item/O438362/"
     }
   ],
   "missing_urls": [],
@@ -976,7 +1024,7 @@
     "occupation_match": true,
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
-    "warnings_count": 2,
+    "warnings_count": 3,
     "rejected_count": 27
   }
 }

@@ -761,6 +761,7 @@
       "GAR-0014",
       "GAR-0010",
       "GAR-0011",
+      "GAR-0072",
       "GAR-0013"
     ],
     "inner_layer": [
@@ -776,6 +777,8 @@
       "GAR-0050",
       "GAR-0025",
       "GAR-0051",
+      "GAR-0074",
+      "GAR-0073",
       "GAR-0026"
     ],
     "carried_prop": [
@@ -799,7 +802,8 @@
       "GAR-0054",
       "GAR-0056",
       "GAR-0015",
-      "GAR-0062"
+      "GAR-0062",
+      "GAR-0071"
     ]
   },
   "rejected": [
@@ -1031,8 +1035,6 @@
     }
   ],
   "warnings": [
-    "no upper_body candidates retrieved",
-    "no lower_body candidates retrieved",
     "no reliable style card for art direction 'gritty urban realism'",
     "cards document other regions for GAR-0023, GAR-0042 (requested britain); cross-region borrowing is flagged, not silently accepted",
     "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
@@ -1091,7 +1093,7 @@
     "occupation_match": true,
     "occupation_forbidden_selected": [],
     "rainwear_selected": true,
-    "warnings_count": 5,
+    "warnings_count": 3,
     "rejected_count": 31
   }
 }

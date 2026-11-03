@@ -1,11 +1,11 @@
 # T39 — 明末清初：context_refs 不得引用 1770s/维多利亚等无关卡
 
-- 运行时间：2026-11-04T03:02:24+08:00
+- 运行时间：2026-11-04T03:13:48+08:00
 - 测试类型：historical_weak_coverage, context, M4
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T39-明末清初context清洁.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json`
-- 退出码：**0**（耗时 0.84s）
+- 退出码：**0**（耗时 0.87s）
 
 ## 实际输入
 
@@ -38,37 +38,33 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json` | 0 | 0.84s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py china --limit 6 --json` | 0 | 0.77s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json` | 0 | 0.87s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py china --limit 6 --json` | 0 | 0.78s |
 
 - `query.py` 命中数量：**6**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0031, GAR-0032, GAR-0067, LOOK-0008, LOOK-0009, LOOK-0012
-- `recommend.py` 候选池：accessory=GAR-0028, GAR-0021, GAR-0025, GAR-0026; carried_prop=GAR-0049; footwear=GAR-0024; inner_layer=GAR-0020; lower_body=GAR-0013; one_piece=GAR-0062, GAR-0015; outerwear=GAR-0016, GAR-0017, GAR-0018; upper_body=GAR-0002, GAR-0008, GAR-0003
-- 三套推荐选中：A: GAR-0002, GAR-0013, GAR-0024; B: GAR-0015, GAR-0024, GAR-0028; C: GAR-0062, GAR-0024
+- `recommend.py` 候选池：accessory=GAR-0028, GAR-0021, GAR-0025, GAR-0026; carried_prop=GAR-0049; footwear=GAR-0024; inner_layer=GAR-0020; lower_body=GAR-0013; one_piece=GAR-0071, GAR-0062, GAR-0015; outerwear=GAR-0016, GAR-0017, GAR-0018; upper_body=GAR-0002, GAR-0008, GAR-0003
+- 三套推荐选中：A: GAR-0071, GAR-0024; B: GAR-0071, GAR-0024, GAR-0028, GAR-0049; C: GAR-0062, GAR-0024
 
 ## 候选造型 A/B/C
 
-### Look A（score 28.2/100，cost 0.477，source_look=LOOK-0003）
+### Look A（score 32.6/100，cost 0.474，source_look=assembled）
 
 | 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
 | --- | --- | --- | --- | --- | --- |
-| upper_body | `GAR-0002` | 达布里特 / doublet | black, red, slashed_contrast | wool, silk, linen | verified |
-| lower_body | `GAR-0013` | 遮阴袋 / codpiece | contrast_color, gold | wool, silk, velvet | verified |
+| one_piece | `GAR-0071` | 莫卧儿jama / Mughal jama | white, gold, red | cotton_muslin, gold_thread, satin | verified |
 | footwear | `GAR-0024` | 穆勒鞋 / mule | red, silk, gold | leather, silk, velvet | verified |
+- 材质卡：MAT-0001, MAT-0002
 
-- 结构卡：STR-0003, STR-0005, STR-0006, STR-0010, STR-0001
-- 材质卡：MAT-0002, MAT-0003, MAT-0011
-
-### Look B（score 28.0/100，cost 0.555，source_look=LOOK-0001）
+### Look B（score 29.1/100，cost 0.508，source_look=assembled）
 
 | 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
 | --- | --- | --- | --- | --- | --- |
-| one_piece | `GAR-0015` | 法式长袍 / robe à la française | pastel, silk_floral, cream | silk, brocade, lace | verified |
+| one_piece | `GAR-0071` | 莫卧儿jama / Mughal jama | white, gold, red | cotton_muslin, gold_thread, satin | verified |
 | footwear | `GAR-0024` | 穆勒鞋 / mule | red, silk, gold | leather, silk, velvet | verified |
 | accessory | `GAR-0028` | 手笼 / muff | fur_brown, white, silk | fur, silk, wool | verified |
-
-- 结构卡：STR-0006, STR-0009
-- 材质卡：MAT-0002, MAT-0003, MAT-0011
+| carried_prop | `GAR-0049` | 手杖 / walking stick | brown, gold | wood, metal, mother_of_pearl | verified |
+- 材质卡：MAT-0001, MAT-0002, MAT-0003, MAT-0004
 
 ### Look C（score 26.1/100，cost 0.542，source_look=assembled）
 
@@ -84,14 +80,14 @@
 
 | 维度 | A | B | C |
 | --- | --- | --- | --- |
-| 年代/文化 | 7.6 | 7.4 | 8.3 |
+| 年代/文化 | 12.8 | 11.5 | 8.3 |
 | 角色身份 | 3.4 | 3.4 | 3.4 |
 | 环境气候 | 1.8 | 1.8 | 1.8 |
 | 美术方向 | 0.0 | 0.0 | 0.0 |
-| 动作可行 | 4.4 | 4.5 | 4.6 |
+| 动作可行 | 4.6 | 4.4 | 4.6 |
 | 剧情弧线 | 3.5 | 3.5 | 3.5 |
 | 摄影/一致性 | 6.5 | 6.5 | 6.5 |
-| **总计** | 28.2 | 28.0 | 26.1 |
+| **总计** | 32.6 | 29.1 | 26.1 |
 
 ## 生图 / 视频 Prompt（实际输出）
 
@@ -100,13 +96,13 @@
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult 顾砚秋, upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: black, contrast color, gold, red, silk, slashed contrast, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); leg-of-mutton sleeves (STR-0005); stomacher (STR-0006); slashing (STR-0010); Medici collar (STR-0001), continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011 --ar 2:3 --style raw --v 6
+full-body character design of an adult 顾砚秋, one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: gold, red, silk, white, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6
 ```
 
 **Video prompt (EN):**
 
 ```
-顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 固定在长袜/裤裆前，行走与坐下时位置明显; 不能在高动作镜头中忽略其体积。; 合体收腰，抬臂时肩袖与后背拉扯明显; 下摆短或带垂片，需与袜带/裤装固定关系。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories
+顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 长袍及膝/及踝、裙摆宽大，快走时下摆展开; 交叉襟与侧系在抬臂时拉扯，需锁定系合位置。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories
 ```
 
 ### Look B
@@ -114,13 +110,13 @@ full-body character design of an adult 顾砚秋, upper body: men’s fitted dou
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult 顾砚秋, one-piece: 18th-century robe à la française, fitted front bodice, loose back with two box pleats falling from shoulders to hem, panniers, silk brocade; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory, palette: cream, fur brown, gold, pastel, red, silk, silk floral, white, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); panniers (STR-0009), continuity lock: GAR-0015 robe à la française [pastel, silk_floral, cream; silk, brocade, lace; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011 --ar 2:3 --style raw --v 6
+full-body character design of an adult 顾砚秋, one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: gentleman’s walking stick, dark wood inlaid with brass wire and mother-of-pearl, gilded metal collar, tall above hand height, carried with authority, palette: brown, fur brown, gold, red, silk, white, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0004 --ar 2:3 --style raw --v 6
 ```
 
 **Video prompt (EN):**
 
 ```
-顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: one-piece: 18th-century robe à la française, fitted front bodice, loose back with two box pleats falling from shoulders to hem, panniers, silk brocade; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory, fabric motion: 背部箱褶与裙撑使转身半径大; 快走时裙摆与后褶大幅摆动，需固定裙撑位置。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0015 robe à la française [pastel, silk_floral, cream; silk, brocade, lace; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories
+顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: gentleman’s walking stick, dark wood inlaid with brass wire and mother-of-pearl, gilded metal collar, tall above hand height, carried with authority, fabric motion: 长袍及膝/及踝、裙摆宽大，快走时下摆展开; 交叉襟与侧系在抬臂时拉扯，需锁定系合位置。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories
 ```
 
 ### Look C
@@ -141,51 +137,43 @@ full-body character design of an adult 顾砚秋, one-piece: late Renaissance It
 
 ### Look A
 
-- 理由：highest scoring dimensions: 年代/文化 7.6/25, 摄影/一致性 6.5/10
-- 理由：上装: GAR-0002 达布里特 (formal)
-- 理由：下装: GAR-0013 遮阴袋 (unknown)
+- 理由：highest scoring dimensions: 年代/文化 12.8/25, 摄影/一致性 6.5/10
+- 理由：连身: GAR-0071 莫卧儿jama (formal)
 - 理由：足部: GAR-0024 穆勒鞋 (formal)
-- 理由：linked structure cards: STR-0003, STR-0005, STR-0006, STR-0010, STR-0001
-- 理由：linked material cards: MAT-0002, MAT-0003, MAT-0011
-- 理由：based on curated vault look card LOOK-0003
-- 风险：region mismatch in GAR-0002, GAR-0013, GAR-0024: cards document their own regions, not jiangnan china
+- 理由：linked material cards: MAT-0001, MAT-0002
+- 风险：region mismatch in GAR-0071, GAR-0024: cards document their own regions, not jiangnan china
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
-- source_ids：SRC-0103, SRC-0114, SRC-0125, SRC-0133, SRC-0135, SRC-0136, SRC-0140, SRC-0101, SRC-0141, SRC-0142, SRC-0423
-- 来源链接：SRC-0103 → https://fashionhistory.fitnyc.edu/doublet/
-- 来源链接：SRC-0114 → https://fashionhistory.fitnyc.edu/codpiece/
+- source_ids：SRC-0450, SRC-0451, SRC-0452, SRC-0125, SRC-0102, SRC-0141
+- 来源链接：SRC-0450 → https://collections.vam.ac.uk/item/O144142/
+- 来源链接：SRC-0451 → https://collections.vam.ac.uk/item/O109190/
+- 来源链接：SRC-0452 → https://collections.vam.ac.uk/item/O438362/
 - 来源链接：SRC-0125 → https://fashionhistory.fitnyc.edu/mule/
-- 来源链接：SRC-0133 → https://fashionhistory.fitnyc.edu/ruff/
-- 来源链接：SRC-0135 → https://fashionhistory.fitnyc.edu/leg-of-mutton-sleeves/
-- 来源链接：SRC-0136 → https://fashionhistory.fitnyc.edu/stomacher/
-- 来源链接：SRC-0140 → https://fashionhistory.fitnyc.edu/slashing/
-- 来源链接：SRC-0101 → https://fashionhistory.fitnyc.edu/medici-collar/
+- 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
-- 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
-- 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 
 ### Look B
 
-- 理由：highest scoring dimensions: 年代/文化 7.4/25, 摄影/一致性 6.5/10
-- 理由：连身: GAR-0015 法式长袍 (ceremonial)
+- 理由：highest scoring dimensions: 年代/文化 11.5/25, 摄影/一致性 6.5/10
+- 理由：连身: GAR-0071 莫卧儿jama (formal)
 - 理由：足部: GAR-0024 穆勒鞋 (formal)
 - 理由：配饰: GAR-0028 手笼 (formal)
-- 理由：linked structure cards: STR-0006, STR-0009
-- 理由：linked material cards: MAT-0002, MAT-0003, MAT-0011
-- 理由：based on curated vault look card LOOK-0001
-- 风险：low budget: relatively expensive materials
-- 风险：region mismatch in GAR-0015, GAR-0024, GAR-0028: cards document their own regions, not jiangnan china
+- 理由：携带物: GAR-0049 手杖 (formal)
+- 理由：linked material cards: MAT-0001, MAT-0002, MAT-0003, MAT-0004
+- 风险：region mismatch in GAR-0071, GAR-0024, GAR-0028, GAR-0049: cards document their own regions, not jiangnan china
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
-- source_ids：SRC-0116, SRC-0129, SRC-0125, SRC-0136, SRC-0139, SRC-0141, SRC-0142, SRC-0423
-- 来源链接：SRC-0116 → https://fashionhistory.fitnyc.edu/robe-a-la-francaise/
-- 来源链接：SRC-0129 → https://fashionhistory.fitnyc.edu/muff/
+- source_ids：SRC-0450, SRC-0451, SRC-0452, SRC-0125, SRC-0129, SRC-0409, SRC-0102, SRC-0141, SRC-0142, SRC-0143
+- 来源链接：SRC-0450 → https://collections.vam.ac.uk/item/O144142/
+- 来源链接：SRC-0451 → https://collections.vam.ac.uk/item/O109190/
+- 来源链接：SRC-0452 → https://collections.vam.ac.uk/item/O438362/
 - 来源链接：SRC-0125 → https://fashionhistory.fitnyc.edu/mule/
-- 来源链接：SRC-0136 → https://fashionhistory.fitnyc.edu/stomacher/
-- 来源链接：SRC-0139 → https://fashionhistory.fitnyc.edu/panniers/
+- 来源链接：SRC-0129 → https://fashionhistory.fitnyc.edu/muff/
+- 来源链接：SRC-0409 → https://collections.vam.ac.uk/item/O166839/
+- 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
-- 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
+- 来源链接：SRC-0143 → https://fashionhistory.fitnyc.edu/lurex/
 
 ### Look C
 
@@ -210,8 +198,8 @@ full-body character design of an adult 顾砚秋, one-piece: late Renaissance It
 | 检查项 | 结果 | 说明 |
 | --- | --- | --- |
 | structured_result | PASS | exit=0 looks=3 ids_exist=True warnings=True |
-| warning_absent:rainwear_gap | PASS | warning 'rainwear_gap' present? False (codes=['context_gap', 'context_gap', 'period_approximate', 'period_era_level', 'region_mismatch', 'occupation_coverage_gap']) |
-| warnings_present | PASS | wytyczne count=6 codes=['context_gap', 'context_gap', 'period_approximate', 'period_era_level', 'region_mismatch', 'occupation_coverage_gap'] |
+| warning_absent:rainwear_gap | PASS | warning 'rainwear_gap' present? False (codes=['context_gap', 'context_gap', 'period_approximate', 'period_era_level', 'region_mismatch', 'occupation_coverage_gap', 'budget_equivalent']) |
+| warnings_present | PASS | wytyczne count=7 codes=['context_gap', 'context_gap', 'period_approximate', 'period_era_level', 'region_mismatch', 'occupation_coverage_gap', 'budget_equivalent'] |
 | context_refs_clean | PASS | refs=0 bad=[] example_refs=[] |
 | no_example_in_a | PASS | Look A example ids=[] contains_example=False |
 | narrative_present | PASS | missing narrative for none |
@@ -224,10 +212,11 @@ full-body character design of an adult 顾砚秋, one-piece: late Renaissance It
 
 - 脚本警告：no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)
 - 脚本警告：no reliable style card for art direction '文人水墨、克制、低饱和'
-- 脚本警告：period evidence is approximate/none for GAR-0013, GAR-0015 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
-- 脚本警告：period evidence is era-level (century bucket) for GAR-0002, GAR-0024, GAR-0028, GAR-0062; exact-decade cards are missing
-- 脚本警告：cards document other regions for GAR-0002, GAR-0013, GAR-0015, GAR-0024, GAR-0028, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
+- 脚本警告：period evidence is approximate/none for GAR-0071 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
+- 脚本警告：period evidence is era-level (century bucket) for GAR-0024, GAR-0028, GAR-0049, GAR-0062; exact-decade cards are missing
+- 脚本警告：cards document other regions for GAR-0024, GAR-0028, GAR-0049, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
 - 脚本警告：the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+- 脚本警告：No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
 - 本文件由 `scripts/run_acceptance.py` 依据真实子进程输出生成；PASS/FAIL 只对应上方检查项。
 - 知识库为运行时刻快照；新增卡片后必须重跑本测试。
 

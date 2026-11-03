@@ -296,6 +296,17 @@ python3 scripts/recommend.py continuity.json --continuity --json
 - **query**：`--style-tag` 等过滤查询中 example 卡排在真实卡之后；同名内容卡去重
   （如 GAR-0001/GAR-0065 和服）；period/region 字段权重提高，1930s 上海 top5 含 GAR-0031。
 
+### 3.6b-3 质量门（P3.3）
+
+- **R5 CSV 同步门**：`scripts/quality_eval.py` 启动会运行
+  `python3 scripts/build_sources.py --check`；CSV 与 `04-来源/` 不一致时
+  quality_eval 直接 FAIL（避免历次 SOURCES.csv 漂移）。修正流程：
+  `python3 scripts/build_sources.py --write` 后重跑质量评估；`--check` 只读。
+- **R4 warning 降噪**：不再输出「no upper_body/lower_body candidates retrieved」噪声
+  warning；info 级提示只保留在 `warnings_detail`，不出现在默认 `warnings` 列表。
+- query 默认排除 example 卡（`--include-example` 才包含且排最后）；`GAR-0065 出口和服`
+  与 GAR-0001 同名去重。
+
 ### 3.6c 语义质量评估（独立于 exit code）
 
 ```bash

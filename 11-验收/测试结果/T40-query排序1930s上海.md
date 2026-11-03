@@ -1,11 +1,11 @@
 # T40 — query 排序：1930s 上海 top5 必须含 GAR-0031 且无 example
 
-- 运行时间：2026-11-04T03:02:26+08:00
+- 运行时间：2026-11-04T03:13:50+08:00
 - 测试类型：query_ranking, M8
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T40-query排序1930s上海.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json`
-- 退出码：**0**（耗时 1.03s）
+- 退出码：**0**（耗时 1.1s）
 
 ## 实际输入
 
@@ -38,12 +38,12 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json` | 0 | 1.03s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s 上海 --limit 5 --json` | 0 | 0.75s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json` | 0 | 1.1s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s 上海 --limit 5 --json` | 0 | 0.77s |
 
 - `query.py` 命中数量：**5**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0031, LOOK-0008, LOOK-0009, LOOK-0012, LOOK-0015
-- `recommend.py` 候选池：accessory=GAR-0066, GAR-0067, GAR-0068, GAR-0021, GAR-0028, GAR-0070, GAR-0026; carried_prop=GAR-0048, GAR-0047; footwear=GAR-0035, GAR-0022, GAR-0060, GAR-0058, GAR-0023; inner_layer=GAR-0012, GAR-0020; lower_body=GAR-0014, GAR-0010, GAR-0011; one_piece=GAR-0031, GAR-0032, GAR-0064, GAR-0063, GAR-0069, GAR-0053, GAR-0055, GAR-0056, GAR-0052, GAR-0054; outerwear=GAR-0045; set=GAR-0065, GAR-0001; upper_body=GAR-0008, GAR-0034, GAR-0007, GAR-0006
+- `recommend.py` 候选池：accessory=GAR-0066, GAR-0067, GAR-0068, GAR-0021, GAR-0028, GAR-0070, GAR-0026, GAR-0074, GAR-0073; carried_prop=GAR-0048, GAR-0047; footwear=GAR-0035, GAR-0022, GAR-0060, GAR-0058, GAR-0023; inner_layer=GAR-0012, GAR-0020; lower_body=GAR-0072, GAR-0014, GAR-0010, GAR-0011; one_piece=GAR-0031, GAR-0032, GAR-0064, GAR-0063, GAR-0071, GAR-0069, GAR-0053, GAR-0055, GAR-0056, GAR-0052, GAR-0054; outerwear=GAR-0045; set=GAR-0065, GAR-0001; upper_body=GAR-0008, GAR-0034, GAR-0007, GAR-0006
 - 三套推荐选中：A: GAR-0031, GAR-0045, GAR-0035, GAR-0047; B: GAR-0031, GAR-0045, GAR-0035, GAR-0048; C: GAR-0031, GAR-0045, GAR-0022
 
 ## 候选造型 A/B/C
@@ -231,8 +231,6 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 
 ## 备注
 
-- 脚本警告：no upper_body candidates retrieved
-- 脚本警告：no lower_body candidates retrieved
 - 脚本警告：no reliable style card for art direction 'restrained historical noir'
 - 脚本警告：period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing
 - 脚本警告：cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted

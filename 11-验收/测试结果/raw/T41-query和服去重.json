@@ -81,7 +81,7 @@
         {
           "slot": "set",
           "id": "GAR-0065",
-          "name_zh": "和服",
+          "name_zh": "出口和服",
           "name_en": "export kimono",
           "colors": [
             "cream",
@@ -164,7 +164,7 @@
       "continuity_lock": "continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10",
-        "成套: GAR-0065 和服 (ceremonial)",
+        "成套: GAR-0065 出口和服 (ceremonial)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "linked structure cards: STR-0011",
         "linked material cards: MAT-0002, MAT-0003, MAT-0011"
@@ -485,7 +485,7 @@
         {
           "slot": "set",
           "id": "GAR-0065",
-          "name_zh": "和服",
+          "name_zh": "出口和服",
           "name_en": "export kimono",
           "colors": [
             "cream",
@@ -565,7 +565,7 @@
       "continuity_lock": "continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
       "reasons": [
         "highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10",
-        "成套: GAR-0065 和服 (ceremonial)",
+        "成套: GAR-0065 出口和服 (ceremonial)",
         "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
         "linked structure cards: STR-0011",
         "linked material cards: MAT-0002, MAT-0003, MAT-0004"
@@ -681,6 +681,7 @@
       "GAR-0003"
     ],
     "lower_body": [
+      "GAR-0072",
       "GAR-0014",
       "GAR-0010",
       "GAR-0011",
@@ -707,6 +708,8 @@
       "GAR-0067",
       "GAR-0066",
       "GAR-0068",
+      "GAR-0074",
+      "GAR-0073",
       "GAR-0070",
       "GAR-0028",
       "GAR-0026",
@@ -731,6 +734,7 @@
       "GAR-0032",
       "GAR-0063",
       "GAR-0064",
+      "GAR-0071",
       "GAR-0054",
       "GAR-0056",
       "GAR-0055",
@@ -878,8 +882,6 @@
     }
   ],
   "warnings": [
-    "no upper_body candidates retrieved",
-    "no lower_body candidates retrieved",
     "no reliable style card for art direction 'theatre period drama'",
     "cards document other regions for GAR-0035, GAR-0058 (requested japan); cross-region borrowing is flagged, not silently accepted",
     "the vault has no 'dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
@@ -950,7 +952,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
-    "warnings_count": 5,
+    "warnings_count": 3,
     "rejected_count": 19
   }
 }

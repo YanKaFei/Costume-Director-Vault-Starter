@@ -1,6 +1,6 @@
 # P2 验收测试 SUMMARY
 
-- 运行时间：2026-11-04T03:02:36+08:00
+- 运行时间：2026-11-04T03:14:00+08:00
 - Python：3.9.6
 - 测试数：45
 - 结果目录：`11-验收/测试结果/`
@@ -8,17 +8,17 @@
 
 ## 知识库快照
 
-- 卡片总数：328
-  - `garment`: 71
+- 卡片总数：343
+  - `garment`: 75
   - `garment_part`: 11
   - `look`: 23
   - `material`: 8
   - `pattern`: 3
   - `period_region`: 11
   - `scene`: 16
-  - `source`: 174
+  - `source`: 185
   - `style`: 11
-- 来源卡：174
+- 来源卡：185
 
 ## 逐例结果
 
@@ -41,7 +41,7 @@
 | T15 | 当代建筑师：职业身份与正式度（modern realism） | standard | 0 | 0 | 6 | PASS | - |
 | T16 | 表现主义黑色电影：美术风格驱动 vs 现实主义的冲突（inspired） | standard | 0 | 0 | 1 | PASS | - |
 | T17 | 完整多场次服装连续性（4 场：干→湿→阴干→次日，含破损） | continuity | 0 | 0 | 1 | PASS | - |
-| T18 | 当代生活流现实主义：日常场景的可信度（modern realism） | standard | 0 | 0 | 5 | PASS | - |
+| T18 | 当代生活流现实主义：日常场景的可信度（modern realism） | standard | 0 | 0 | 6 | PASS | - |
 | T19 | 1940s 英国战时职员：历史模式不再崩溃 | standard | 0 | 0 | 3 | PASS | - |
 | T20 | 1950s 美国家庭主妇：历史模式与年龄层级证据 | standard | 0 | 0 | 4 | PASS | - |
 | T21 | 1960s 伦敦摄影师：青年文化历史造型 | standard | 0 | 0 | 2 | PASS | - |
@@ -74,7 +74,7 @@
 
 - PASS：45 / 45
 - FAIL：0 / 45
-- query.py 命中总数：187（逐例：T01=6, T02=5, T03=6, T04=6, T05=1, T06=2, T07=3, T08=3, T09=5, T10=1, T11=4, T12=5, T13=6, T14=2, T15=6, T16=1, T17=1, T18=5, T19=3, T20=4, T21=2, T22=2, T23=6, T24=6, T25=1, T26=6, T27=6, T28=6, T29=6, T30=6, T31=6, T32=5, T33=3, T34=1, T35=6, T36=6, T37=6, T38=5, T39=6, T40=5, T41=5, T42=2, T43=1, T44=6, T45=2）
+- query.py 命中总数：188（逐例：T01=6, T02=5, T03=6, T04=6, T05=1, T06=2, T07=3, T08=3, T09=5, T10=1, T11=4, T12=5, T13=6, T14=2, T15=6, T16=1, T17=1, T18=6, T19=3, T20=4, T21=2, T22=2, T23=6, T24=6, T25=1, T26=6, T27=6, T28=6, T29=6, T30=6, T31=6, T32=5, T33=3, T34=1, T35=6, T36=6, T37=6, T38=5, T39=6, T40=5, T41=5, T42=2, T43=1, T44=6, T45=2）
 - 每个场景 query 步骤均返回 ≥1 命中：是
 
 ## 失败明细
@@ -83,9 +83,7 @@
 
 ## 知识库缺口汇总（来自脚本 warnings）
 
-- ×22 no upper_body candidates retrieved
-- ×22 no lower_body candidates retrieved
-- ×8 No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
+- ×9 No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
 - ×7 wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot
 - ×5 cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - ×4 period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
@@ -107,7 +105,8 @@
 - ×2 no reliable style card for art direction 'documentary wedding photography, natural light'
 - ×2 cross-cultural wedding brief: confirm which ceremony (traditional / white wedding / both) and whether kente or adinkra is appropriate; the vault has no wedding-ceremony garment cards
 - ×2 no reliable style card for art direction 'clinical realism'
-- ×2 cards document other regions for GAR-0014, GAR-0034, GAR-0041, GAR-0044, GAR-0052, GAR-0056 (requested urban china); cross-region borrowing is flagged, not silently accepted
+- ×2 period evidence is approximate/none for GAR-0071 (requested contemporary); treat these as era-level hypotheses, not exact period matches
+- ×2 cards document other regions for GAR-0014, GAR-0034, GAR-0041, GAR-0044, GAR-0056 (requested urban china); cross-region borrowing is flagged, not silently accepted
 - ×2 period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing
 - ×2 cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - ×2 cards document other regions for GAR-0022, GAR-0023, GAR-0042, GAR-0045, GAR-0055 (requested china); cross-region borrowing is flagged, not silently accepted
@@ -154,7 +153,6 @@
 - ×1 period evidence is era-level (century bucket) for GAR-0002, GAR-0013, GAR-0024, GAR-0062; exact-decade cards are missing
 - ×1 the vault has no 'court dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 dance/action scene with heeled or backless footwear GAR-0024 — suggested resolution: choose flat secure shoes; if no card exists, log the safety gap and test the movement
-- ×1 no footwear candidates retrieved
 - ×1 no reliable style card for art direction 'late byzantine court, gold and deep colours'
 - ×1 period evidence is era-level (century bucket) for GAR-0009; exact-decade cards are missing
 - ×1 looks are missing required layers: footwear, outerwear (no invented replacements)
@@ -168,7 +166,6 @@
 - ×1 the vault has no 'newspaper editor and body-modded courier'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 historical fidelity conflicts with science-fiction / body-mod / neon elements in the brief — suggested resolution: split the brief: historical base costume + explicit fictional overlay; or set fidelity_mode=inspired/fictional and declare the anachronism
 - ×1 no reliable style card for art direction 'noir'
-- ×1 brief parser left these fields unknown: season
 - ×1 cards document other regions for GAR-0023, GAR-0042 (requested britain); cross-region borrowing is flagged, not silently accepted
 - ×1 no reliable style card for art direction 'warm documentary kitchen realism'
 - ×1 cards document other regions for GAR-0014, GAR-0023, GAR-0043 (requested italy); cross-region borrowing is flagged, not silently accepted
@@ -177,9 +174,9 @@
 - ×1 period evidence is approximate/none for GAR-0008, GAR-0014, GAR-0022, GAR-0037, GAR-0038, GAR-0039, GAR-0045 (requested 22nd century); treat these as era-level hypotheses, not exact period matches
 - ×1 no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)
 - ×1 no reliable style card for art direction '文人水墨、克制、低饱和'
-- ×1 period evidence is approximate/none for GAR-0013, GAR-0015 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
-- ×1 period evidence is era-level (century bucket) for GAR-0002, GAR-0024, GAR-0028, GAR-0062; exact-decade cards are missing
-- ×1 cards document other regions for GAR-0002, GAR-0013, GAR-0015, GAR-0024, GAR-0028, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
+- ×1 period evidence is approximate/none for GAR-0071 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
+- ×1 period evidence is era-level (century bucket) for GAR-0024, GAR-0028, GAR-0049, GAR-0062; exact-decade cards are missing
+- ×1 cards document other regions for GAR-0024, GAR-0028, GAR-0049, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
 - ×1 the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 no reliable style card for art direction 'theatre period drama'
 - ×1 cards document other regions for GAR-0035, GAR-0058 (requested japan); cross-region borrowing is flagged, not silently accepted

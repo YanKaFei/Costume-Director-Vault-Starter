@@ -899,6 +899,13 @@
       ]
     },
     {
+      "id": "GAR-0072",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 19th_century, 20th_century)"
+      ]
+    },
+    {
       "id": "GAR-0001",
       "slot": "set",
       "reasons": [
@@ -1261,6 +1268,13 @@
       ]
     },
     {
+      "id": "GAR-0071",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 18th_century, 19th_century)"
+      ]
+    },
+    {
       "id": "GAR-0021",
       "slot": "accessory",
       "reasons": [
@@ -1297,6 +1311,20 @@
       "reasons": [
         "historical mode: period mismatch (1580s vs late_19th_century, early_20th_century)",
         "region-specific card incompatible with italy (china)"
+      ]
+    },
+    {
+      "id": "GAR-0073",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1860s, 1870s)"
+      ]
+    },
+    {
+      "id": "GAR-0074",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs early_19th_century, 19th_century)"
       ]
     }
   ],
@@ -1388,6 +1416,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 7,
-    "rejected_count": 62
+    "rejected_count": 66
   }
 }

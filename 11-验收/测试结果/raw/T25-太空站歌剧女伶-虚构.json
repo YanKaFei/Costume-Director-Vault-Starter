@@ -628,6 +628,7 @@
     ],
     "lower_body": [
       "GAR-0014",
+      "GAR-0072",
       "GAR-0010",
       "GAR-0011",
       "GAR-0013"
@@ -653,7 +654,9 @@
     ],
     "accessory": [
       "GAR-0070",
+      "GAR-0074",
       "GAR-0027",
+      "GAR-0073",
       "GAR-0021",
       "GAR-0026",
       "GAR-0028",
@@ -684,6 +687,7 @@
       "GAR-0015",
       "GAR-0056",
       "GAR-0032",
+      "GAR-0071",
       "GAR-0004",
       "GAR-0009",
       "GAR-0029",
@@ -788,8 +792,6 @@
     }
   ],
   "warnings": [
-    "no upper_body candidates retrieved",
-    "no lower_body candidates retrieved",
     "no reliable period/region context card after period/region normalization (requested: 23rd century / orbital opera house)",
     "period evidence is approximate/none for GAR-0005, GAR-0022, GAR-0031, GAR-0063 (requested 23rd century); treat these as era-level hypotheses, not exact period matches",
     "the vault has no 'orbital opera singer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
@@ -854,7 +856,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
-    "warnings_count": 7,
+    "warnings_count": 5,
     "rejected_count": 13
   }
 }

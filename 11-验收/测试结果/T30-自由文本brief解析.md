@@ -1,11 +1,11 @@
 # T30 — 自由文本 --brief：规则化剧本/人物解析
 
-- 运行时间：2026-11-04T03:02:06+08:00
+- 运行时间：2026-11-04T03:13:29+08:00
 - 测试类型：brief_parsing, 1930s_shanghai
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T30-自由文本brief解析.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json`
-- 退出码：**0**（耗时 1.02s）
+- 退出码：**0**（耗时 1.1s）
 
 ## 实际输入
 
@@ -19,12 +19,12 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json` | 0 | 1.02s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s --type garment --limit 6 --json` | 0 | 0.73s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json` | 0 | 1.1s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s --type garment --limit 6 --json` | 0 | 0.76s |
 
 - `query.py` 命中数量：**6**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0031, GAR-0032, GAR-0034, GAR-0035, GAR-0048, GAR-0060
-- `recommend.py` 候选池：accessory=GAR-0066, GAR-0067, GAR-0068, GAR-0021, GAR-0028, GAR-0026, GAR-0070; carried_prop=GAR-0048, GAR-0047; footwear=GAR-0060, GAR-0022, GAR-0058, GAR-0023, GAR-0035; inner_layer=GAR-0012, GAR-0020; lower_body=GAR-0014, GAR-0010, GAR-0011; one_piece=GAR-0031, GAR-0064, GAR-0032, GAR-0063, GAR-0069, GAR-0053, GAR-0055, GAR-0056, GAR-0052, GAR-0054; outerwear=GAR-0045; set=GAR-0065, GAR-0001; upper_body=GAR-0008, GAR-0034, GAR-0007, GAR-0006
+- `recommend.py` 候选池：accessory=GAR-0066, GAR-0067, GAR-0068, GAR-0021, GAR-0028, GAR-0026, GAR-0070, GAR-0074, GAR-0073; carried_prop=GAR-0048, GAR-0047; footwear=GAR-0060, GAR-0022, GAR-0058, GAR-0023, GAR-0035; inner_layer=GAR-0012, GAR-0020; lower_body=GAR-0072, GAR-0014, GAR-0010, GAR-0011; one_piece=GAR-0031, GAR-0064, GAR-0032, GAR-0071, GAR-0063, GAR-0069, GAR-0053, GAR-0055, GAR-0056, GAR-0052, GAR-0054; outerwear=GAR-0045; set=GAR-0065, GAR-0001; upper_body=GAR-0008, GAR-0034, GAR-0007, GAR-0006
 - 三套推荐选中：A: GAR-0031, GAR-0045, GAR-0035, GAR-0047; B: GAR-0031, GAR-0045, GAR-0035, GAR-0048; C: GAR-0031, GAR-0045, GAR-0060
 
 ## 候选造型 A/B/C
@@ -219,13 +219,10 @@ unnamed character, walking, scene: unspecified location, unknown, rain, camera: 
 
 ## 备注
 
-- 脚本警告：no upper_body candidates retrieved
-- 脚本警告：no lower_body candidates retrieved
 - 脚本警告：no reliable style card for art direction 'noir'
 - 脚本警告：period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
 - 脚本警告：cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - 脚本警告：wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot
-- 脚本警告：brief parser left these fields unknown: season
 - 本文件由 `scripts/run_acceptance.py` 依据真实子进程输出生成；PASS/FAIL 只对应上方检查项。
 - 知识库为运行时刻快照；新增卡片后必须重跑本测试。
 

@@ -132,6 +132,15 @@ PROBES = [
 ]
 
 
+def check_sources_csv():
+    """R5 gate: reports/SOURCES.csv must be in sync with 04-来源 cards."""
+    proc = subprocess.run([sys.executable, "scripts/build_sources.py", "--check"],
+                          cwd=str(ROOT), capture_output=True, text=True)
+    tail = [line for line in (proc.stdout or "").strip().splitlines()
+            if line.startswith("RESULT:") or line.startswith("[FAIL]")]
+    return proc.returncode, " | ".join(tail[-2:]) or (proc.stderr or "").strip()[:300]
+
+
 def run_query(args):
     proc = subprocess.run([sys.executable, "scripts/query.py"] + args,
                           cwd=str(ROOT), capture_output=True, text=True)
@@ -377,7 +386,7 @@ def rate(values):
     return round(sum(values) / float(len(values)), 3) if values else None
 
 
-def build_summary(query_metrics, rec_metrics, thresholds):
+def build_summary(query_metrics, rec_metrics, thresholds, csv_check=None):
     n = len(rec_metrics)
     crash_rate = sum(1 for m in rec_metrics if m["crashed"]) / float(n) if n else 0
     example_a_rate = sum(1 for m in rec_metrics if m["example_in_a"]) / float(n) if n else 0
@@ -398,6 +407,7 @@ def build_summary(query_metrics, rec_metrics, thresholds):
     rainwear_false = sum(1 for m in rec_metrics if m["rainwear_false_claim"])
     arctic_indoor = sum(1 for m in rec_metrics if m["arctic_indoor"])
     context_mismatch = sum(1 for m in rec_metrics if not m["context_clean"])
+    csv_ok, csv_detail = csv_check if csv_check else (0, "not checked")
     current = {
         "snapshot_cards": None,
         "query_relevant_at_5": query_metrics["relevant_at_5"],
@@ -418,6 +428,7 @@ def build_summary(query_metrics, rec_metrics, thresholds):
         "rainwear_false_claim_cases": rainwear_false,
         "arctic_indoor_cases": arctic_indoor,
         "context_mismatch_cases": context_mismatch,
+        "sources_csv_sync": 1.0 if csv_ok == 0 else 0.0,
     }
     comparisons = [
         ("query relevant@5 (0-5)", BASELINE["query_relevant_at_5"],
@@ -440,6 +451,7 @@ def build_summary(query_metrics, rec_metrics, thresholds):
         ("false rainwear-missing claims (P3-QA D4)", 2, rainwear_false),
         ("arctic outerwear indoors (P3-QA M6)", 2, arctic_indoor),
         ("context mismatch cases (P3-QA M4)", 1, context_mismatch),
+        ("SOURCES.csv sync gate (R5)", "not gated", "PASS" if csv_ok == 0 else "FAIL"),
     ]
     lines = []
     lines.append("# P3 质量评估 SUMMARY")
@@ -456,6 +468,8 @@ def build_summary(query_metrics, rec_metrics, thresholds):
     lines.append("")
     lines.append("## 当前推荐质量")
     lines.append("")
+    lines.append("- SOURCES.csv 同步（R5 质量门）：%s（`build_sources.py --check` exit=%s；%s）" % (
+        "PASS" if csv_ok == 0 else "FAIL", csv_ok, csv_detail))
     lines.append("- 用例数：%d；崩溃：%d；证据覆盖率：%s；警告覆盖率：%s；A/B/C 全差异率：%s；narrative 覆盖率：%s；context 引用清洁率：%s；预算替代满足率：%s；prompt 串文数：%d；编造违规：%d；职业错配：%d；虚假 rainwear 声明：%d；室内极地派克：%d；context 错配：%d" % (
         n, sum(1 for m in rec_metrics if m["crashed"]), evidence,
         warning_coverage, abc_rate, narrative_rate, context_clean_rate, budget,
@@ -522,8 +536,11 @@ def main(argv=None):
         "rainwear_false_claim_cases": 0,
         "arctic_indoor_cases": 0,
         "context_mismatch_cases": 0,
+        "sources_csv_sync": 1.0,
     }
-    current, summary, passed = build_summary(query_metrics, rec_metrics, thresholds)
+    csv_check = check_sources_csv()
+    current, summary, passed = build_summary(query_metrics, rec_metrics,
+                                             thresholds, csv_check=csv_check)
     current["snapshot_cards"] = len(cards)
     baseline = dict(BASELINE)
     baseline["snapshot_cards"] = 235

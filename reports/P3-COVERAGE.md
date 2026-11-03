@@ -1,7 +1,7 @@
 # P3 覆盖报告（COVERAGE）
 
-- 统计时间：2026-11-04 02:48（Asia/Shanghai，P3.1 复验后）
-- 快照：**328 张卡**（内容 154 + 来源 174）；git HEAD `0345f05` + P3.1 工作区修改；**41 例验收**
+- 统计时间：2026-11-04 03:12（Asia/Shanghai，P3.2 最终复验后）
+- 快照：**328 张卡**（内容 154 + 来源 174）；git HEAD `281e3b1`（P3.2）；**45 例验收**
 - 口径：`01/02/03/04/05/06/07/09` 下带 frontmatter 的 `.md`；`00-系统/`、`10-提示词模板/`、`11-验收/`、`skills/` 不计入
 - 数据来源：本人 frontmatter 全量统计 + `validate.py`（328/328 PASS）+ `build_sources.py`（174/174 一致）
 
@@ -98,3 +98,13 @@
 3. **来源利用**：60/174 来源未引用（AAT 19 张仍未接入），平均引用 1.22 偏低。
 4. **人工复核**：62 张 draft（新增卡多为 draft），需人工复核后方可视为完成。
 5. 报告一致性：SOURCES.csv 已由 QA 重建；后续每次扩卡必须重新生成 CSV（已列入 NEXT-PLAN）。
+
+
+## 6.2 P3.2 最终复验（2026-11-04 03:12）
+
+- 卡片/来源数量不变：**328 卡（内容 154 + 来源 174）**；P3.2 仅改 scripts/tests 与 query 策略，无新增卡片。
+- **测试 41 → 45**：新增 T42 巡警、T43 医师、T44 宇航员、T45 民警同义词职业匹配（`occupation_match`/`no_occupation_mismatch`/`no_cultural_mispick`）。
+- `SOURCES.csv`：P3.2 commit 已同步（`build_sources --check` PASS，174 行）；3 组重复 URL 仍为 canonical 交叉引用。
+- 来源覆盖不变：174 张；被引用 114；未引用 60（含 19 张 AAT）；平均 1.22 来源/verified 内容卡。
+- 缺口不变：pattern 1/11 族、material 4/8 族、garment_part 6/16 族；62 张 draft。
+- 查询层新增：example 卡默认排除（`--include-example` 可恢复）、区域意图加权（和服/旗袍/纱丽/gele 等）——P14 已无 example、P02 无重复和服。

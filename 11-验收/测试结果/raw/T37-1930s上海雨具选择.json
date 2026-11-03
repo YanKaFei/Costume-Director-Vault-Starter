@@ -978,6 +978,7 @@
       "GAR-0006"
     ],
     "lower_body": [
+      "GAR-0072",
       "GAR-0014",
       "GAR-0010",
       "GAR-0011"
@@ -1000,7 +1001,9 @@
       "GAR-0021",
       "GAR-0028",
       "GAR-0026",
-      "GAR-0070"
+      "GAR-0070",
+      "GAR-0074",
+      "GAR-0073"
     ],
     "carried_prop": [
       "GAR-0048",
@@ -1017,6 +1020,7 @@
       "GAR-0031",
       "GAR-0032",
       "GAR-0064",
+      "GAR-0071",
       "GAR-0063",
       "GAR-0069",
       "GAR-0053",
@@ -1248,8 +1252,6 @@
     }
   ],
   "warnings": [
-    "no upper_body candidates retrieved",
-    "no lower_body candidates retrieved",
     "no reliable style card for art direction 'restrained historical noir'",
     "period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing",
     "cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted",
@@ -1329,7 +1331,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": true,
-    "warnings_count": 6,
+    "warnings_count": 4,
     "rejected_count": 31
   }
 }

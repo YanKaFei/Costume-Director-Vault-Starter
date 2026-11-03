@@ -29,110 +29,82 @@
   "looks": [
     {
       "look_ref": "A",
-      "source_look_id": "LOOK-0003",
-      "total": 28.2,
+      "source_look_id": null,
+      "total": 32.6,
       "scores": {
-        "period": 7.6,
+        "period": 12.8,
         "identity": 3.4,
         "environment": 1.8,
         "art": 0.0,
-        "movement": 4.4,
+        "movement": 4.6,
         "arc": 3.5,
         "camera": 6.5
       },
       "missing": [],
-      "cost": 0.477,
-      "cost_total": 1.43,
+      "cost": 0.474,
+      "cost_total": 0.948,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "upper_body": "era",
-        "lower_body": "approximate",
+        "one_piece": "approximate",
         "footwear": "era"
       },
       "region_tiers": {
-        "upper_body": "none",
-        "lower_body": "none",
+        "one_piece": "regional",
         "footwear": "none"
       },
       "colors": [
-        "black",
-        "contrast color",
         "gold",
         "red",
         "silk",
-        "slashed contrast"
+        "white"
       ],
       "style_tags": [
+        "asian",
         "boudoir",
         "court",
-        "elizabethan",
-        "jacobean",
-        "renaissance",
-        "tudor"
+        "court dress",
+        "dress",
+        "mughal",
+        "south",
+        "south asian"
       ],
-      "budget_mode": "cheaper",
-      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "budget_mode": "equivalent_cost",
+      "budget_explanation": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
       "differences": {
-        "a_b": 4,
-        "a_c": 3,
-        "b_c": 3
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 书院教师、江南文人; the 中下 economic register shows through material and finish; formality runs from formal / unknown / formal; the black, contrast color, gold palette controls the emotional temperature; against the arc (朝代更替中保持读书人的体面与犹疑) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 书院教师、江南文人; the 中下 economic register shows through material and finish; formality runs from formal / formal; the gold, red, silk palette controls the emotional temperature; against the arc (朝代更替中保持读书人的体面与犹疑) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "upper_body",
-          "id": "GAR-0002",
-          "name_zh": "达布里特",
-          "name_en": "doublet",
+          "slot": "one_piece",
+          "id": "GAR-0071",
+          "name_zh": "莫卧儿jama",
+          "name_en": "Mughal jama",
           "colors": [
-            "black",
-            "red",
-            "slashed_contrast"
+            "white",
+            "gold",
+            "red"
           ],
           "materials": [
-            "wool",
-            "silk",
-            "linen"
+            "cotton_muslin",
+            "gold_thread",
+            "satin"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0103"
+            "SRC-0450",
+            "SRC-0451",
+            "SRC-0452"
           ],
           "scores": {
-            "period": 0.332,
+            "period": 0.6560000000000001,
             "identity": 0.225,
             "environment": 0.12249999999999998,
             "art": 0.0,
             "movement": 0.5,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0013",
-          "name_zh": "遮阴袋",
-          "name_en": "codpiece",
-          "colors": [
-            "contrast_color",
-            "gold"
-          ],
-          "materials": [
-            "wool",
-            "silk",
-            "velvet"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0114"
-          ],
-          "scores": {
-            "period": 0.2504,
-            "identity": 0.225,
-            "environment": 0.12249999999999998,
-            "art": 0.0,
-            "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
           }
@@ -167,130 +139,71 @@
           }
         }
       ],
-      "parts": [
-        {
-          "id": "STR-0003",
-          "slot": "upper_body",
-          "confidence": "explicit"
-        },
-        {
-          "id": "STR-0005",
-          "slot": "upper_body",
-          "confidence": "explicit"
-        },
-        {
-          "id": "STR-0006",
-          "slot": "lower_body",
-          "confidence": "explicit"
-        },
-        {
-          "id": "STR-0010",
-          "slot": "lower_body",
-          "confidence": "explicit"
-        },
-        {
-          "id": "STR-0001",
-          "slot": "look_card",
-          "confidence": "explicit"
-        }
-      ],
+      "parts": [],
       "materials": [
         {
+          "id": "MAT-0001",
+          "slot": "one_piece"
+        },
+        {
           "id": "MAT-0002",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "lower_body"
-        },
-        {
-          "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 顾砚秋, upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: black, contrast color, gold, red, silk, slashed contrast, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); leg-of-mutton sleeves (STR-0005); stomacher (STR-0006); slashing (STR-0010); Medici collar (STR-0001), continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011 --ar 2:3 --style raw --v 6",
-      "prompt_video": "顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 固定在长袜/裤裆前，行走与坐下时位置明显; 不能在高动作镜头中忽略其体积。; 合体收腰，抬臂时肩袖与后背拉扯明显; 下摆短或带垂片，需与袜带/裤装固定关系。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult 顾砚秋, one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: gold, red, silk, white, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 长袍及膝/及踝、裙摆宽大，快走时下摆展开; 交叉襟与侧系在抬臂时拉扯，需锁定系合位置。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 7.6/25, 摄影/一致性 6.5/10",
-        "上装: GAR-0002 达布里特 (formal)",
-        "下装: GAR-0013 遮阴袋 (unknown)",
+        "highest scoring dimensions: 年代/文化 12.8/25, 摄影/一致性 6.5/10",
+        "连身: GAR-0071 莫卧儿jama (formal)",
         "足部: GAR-0024 穆勒鞋 (formal)",
-        "linked structure cards: STR-0003, STR-0005, STR-0006, STR-0010, STR-0001",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0011",
-        "based on curated vault look card LOOK-0003"
+        "linked material cards: MAT-0001, MAT-0002"
       ],
       "risks": [
-        "region mismatch in GAR-0002, GAR-0013, GAR-0024: cards document their own regions, not jiangnan china",
+        "region mismatch in GAR-0071, GAR-0024: cards document their own regions, not jiangnan china",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0103",
-          "SRC-0114",
+          "SRC-0450",
+          "SRC-0451",
+          "SRC-0452",
           "SRC-0125",
-          "SRC-0133",
-          "SRC-0135",
-          "SRC-0136",
-          "SRC-0140",
-          "SRC-0101",
-          "SRC-0141",
-          "SRC-0142",
-          "SRC-0423"
+          "SRC-0102",
+          "SRC-0141"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0103",
-            "url": "https://fashionhistory.fitnyc.edu/doublet/"
+            "source_id": "SRC-0450",
+            "url": "https://collections.vam.ac.uk/item/O144142/"
           },
           {
-            "source_id": "SRC-0114",
-            "url": "https://fashionhistory.fitnyc.edu/codpiece/"
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0452",
+            "url": "https://collections.vam.ac.uk/item/O438362/"
           },
           {
             "source_id": "SRC-0125",
             "url": "https://fashionhistory.fitnyc.edu/mule/"
           },
           {
-            "source_id": "SRC-0133",
-            "url": "https://fashionhistory.fitnyc.edu/ruff/"
-          },
-          {
-            "source_id": "SRC-0135",
-            "url": "https://fashionhistory.fitnyc.edu/leg-of-mutton-sleeves/"
-          },
-          {
-            "source_id": "SRC-0136",
-            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
-          },
-          {
-            "source_id": "SRC-0140",
-            "url": "https://fashionhistory.fitnyc.edu/slashing/"
-          },
-          {
-            "source_id": "SRC-0101",
-            "url": "https://fashionhistory.fitnyc.edu/medici-collar/"
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0423",
-            "url": "https://collections.vam.ac.uk/item/O315431/"
           }
         ],
         "context_style_ids": [],
         "context_period_ids": [],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0002": "verified",
-          "GAR-0013": "verified",
+          "GAR-0071": "verified",
           "GAR-0024": "verified"
         },
         "missing_urls": []
@@ -298,76 +211,83 @@
     },
     {
       "look_ref": "B",
-      "source_look_id": "LOOK-0001",
-      "total": 28.0,
+      "source_look_id": null,
+      "total": 29.1,
       "scores": {
-        "period": 7.4,
+        "period": 11.5,
         "identity": 3.4,
         "environment": 1.8,
         "art": 0.0,
-        "movement": 4.5,
+        "movement": 4.4,
         "arc": 3.5,
         "camera": 6.5
       },
       "missing": [],
-      "cost": 0.555,
-      "cost_total": 1.665,
+      "cost": 0.508,
+      "cost_total": 2.032,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
         "one_piece": "approximate",
+        "footwear": "era",
         "accessory": "era",
-        "footwear": "era"
+        "carried_prop": "era"
       },
       "region_tiers": {
-        "one_piece": "none",
+        "one_piece": "regional",
+        "footwear": "none",
         "accessory": "none",
-        "footwear": "none"
+        "carried_prop": "none"
       },
       "colors": [
-        "cream",
+        "brown",
         "fur brown",
         "gold",
-        "pastel",
         "red",
         "silk",
-        "silk floral",
         "white"
       ],
       "style_tags": [
+        "accessory",
+        "asian",
         "boudoir",
         "court",
         "court dress",
         "dress",
-        "rococo",
+        "gentleman",
+        "mughal",
+        "south",
+        "south asian",
         "winter"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 书院教师、江南文人; the 中下 economic register shows through material and finish; formality runs from ceremonial / formal / formal; the cream, fur brown, gold palette controls the emotional temperature; against the arc (朝代更替中保持读书人的体面与犹疑) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve 书院教师、江南文人; the 中下 economic register shows through material and finish; formality runs from formal / formal / formal / formal; the brown, fur brown, gold palette controls the emotional temperature; against the arc (朝代更替中保持读书人的体面与犹疑) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "one_piece",
-          "id": "GAR-0015",
-          "name_zh": "法式长袍",
-          "name_en": "robe à la française",
+          "id": "GAR-0071",
+          "name_zh": "莫卧儿jama",
+          "name_en": "Mughal jama",
           "colors": [
-            "pastel",
-            "silk_floral",
-            "cream"
+            "white",
+            "gold",
+            "red"
           ],
           "materials": [
-            "silk",
-            "brocade",
-            "lace"
+            "cotton_muslin",
+            "gold_thread",
+            "satin"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0116"
+            "SRC-0450",
+            "SRC-0451",
+            "SRC-0452"
           ],
           "scores": {
-            "period": 0.2504,
+            "period": 0.6560000000000001,
             "identity": 0.225,
             "environment": 0.12249999999999998,
             "art": 0.0,
@@ -433,83 +353,112 @@
             "arc": 0.35,
             "camera": 0.65
           }
-        }
-      ],
-      "parts": [
-        {
-          "id": "STR-0006",
-          "slot": "one_piece",
-          "confidence": "explicit"
         },
         {
-          "id": "STR-0009",
-          "slot": "one_piece",
-          "confidence": "explicit"
+          "slot": "carried_prop",
+          "id": "GAR-0049",
+          "name_zh": "手杖",
+          "name_en": "walking stick",
+          "colors": [
+            "brown",
+            "gold"
+          ],
+          "materials": [
+            "wood",
+            "metal",
+            "mother_of_pearl"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0409"
+          ],
+          "scores": {
+            "period": 0.332,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.0,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
         }
       ],
+      "parts": [],
       "materials": [
         {
-          "id": "MAT-0002",
+          "id": "MAT-0001",
           "slot": "one_piece"
         },
         {
-          "id": "MAT-0003",
+          "id": "MAT-0002",
           "slot": "footwear"
         },
         {
-          "id": "MAT-0011",
+          "id": "MAT-0003",
           "slot": "accessory"
+        },
+        {
+          "id": "MAT-0004",
+          "slot": "carried_prop"
         }
       ],
-      "prompt_image": "full-body character design of an adult 顾砚秋, one-piece: 18th-century robe à la française, fitted front bodice, loose back with two box pleats falling from shoulders to hem, panniers, silk brocade; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory, palette: cream, fur brown, gold, pastel, red, silk, silk floral, white, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); panniers (STR-0009), continuity lock: GAR-0015 robe à la française [pastel, silk_floral, cream; silk, brocade, lace; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011 --ar 2:3 --style raw --v 6",
-      "prompt_video": "顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: one-piece: 18th-century robe à la française, fitted front bodice, loose back with two box pleats falling from shoulders to hem, panniers, silk brocade; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory, fabric motion: 背部箱褶与裙撑使转身半径大; 快走时裙摆与后褶大幅摆动，需固定裙撑位置。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0015 robe à la française [pastel, silk_floral, cream; silk, brocade, lace; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0015 robe à la française [pastel, silk_floral, cream; silk, brocade, lace; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult 顾砚秋, one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: gentleman’s walking stick, dark wood inlaid with brass wire and mother-of-pearl, gilded metal collar, tall above hand height, carried with authority, palette: brown, fur brown, gold, red, silk, white, setting: 书院讲堂, day, overcast, dry, art direction: 文人水墨、克制、低饱和, lighting: 阴天窗光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0004 --ar 2:3 --style raw --v 6",
+      "prompt_video": "顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: one-piece: Mughal jama, white cotton muslin with gold embroidery, red satin facings at hem and cuffs, courtly South Asian menswear; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: gentleman’s walking stick, dark wood inlaid with brass wire and mother-of-pearl, gilded metal collar, tall above hand height, carried with authority, fabric motion: 长袍及膝/及踝、裙摆宽大，快走时下摆展开; 交叉襟与侧系在抬臂时拉扯，需锁定系合位置。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0071 Mughal jama [white, gold, red; cotton_muslin, gold_thread, satin; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0004",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 7.4/25, 摄影/一致性 6.5/10",
-        "连身: GAR-0015 法式长袍 (ceremonial)",
+        "highest scoring dimensions: 年代/文化 11.5/25, 摄影/一致性 6.5/10",
+        "连身: GAR-0071 莫卧儿jama (formal)",
         "足部: GAR-0024 穆勒鞋 (formal)",
         "配饰: GAR-0028 手笼 (formal)",
-        "linked structure cards: STR-0006, STR-0009",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0011",
-        "based on curated vault look card LOOK-0001"
+        "携带物: GAR-0049 手杖 (formal)",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0003, MAT-0004"
       ],
       "risks": [
-        "low budget: relatively expensive materials",
-        "region mismatch in GAR-0015, GAR-0024, GAR-0028: cards document their own regions, not jiangnan china",
+        "region mismatch in GAR-0071, GAR-0024, GAR-0028, GAR-0049: cards document their own regions, not jiangnan china",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0116",
-          "SRC-0129",
+          "SRC-0450",
+          "SRC-0451",
+          "SRC-0452",
           "SRC-0125",
-          "SRC-0136",
-          "SRC-0139",
+          "SRC-0129",
+          "SRC-0409",
+          "SRC-0102",
           "SRC-0141",
           "SRC-0142",
-          "SRC-0423"
+          "SRC-0143"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0116",
-            "url": "https://fashionhistory.fitnyc.edu/robe-a-la-francaise/"
+            "source_id": "SRC-0450",
+            "url": "https://collections.vam.ac.uk/item/O144142/"
           },
           {
-            "source_id": "SRC-0129",
-            "url": "https://fashionhistory.fitnyc.edu/muff/"
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0452",
+            "url": "https://collections.vam.ac.uk/item/O438362/"
           },
           {
             "source_id": "SRC-0125",
             "url": "https://fashionhistory.fitnyc.edu/mule/"
           },
           {
-            "source_id": "SRC-0136",
-            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+            "source_id": "SRC-0129",
+            "url": "https://fashionhistory.fitnyc.edu/muff/"
           },
           {
-            "source_id": "SRC-0139",
-            "url": "https://fashionhistory.fitnyc.edu/panniers/"
+            "source_id": "SRC-0409",
+            "url": "https://collections.vam.ac.uk/item/O166839/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
             "source_id": "SRC-0141",
@@ -520,17 +469,18 @@
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           },
           {
-            "source_id": "SRC-0423",
-            "url": "https://collections.vam.ac.uk/item/O315431/"
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
           }
         ],
         "context_style_ids": [],
         "context_period_ids": [],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0015": "verified",
+          "GAR-0071": "verified",
+          "GAR-0024": "verified",
           "GAR-0028": "verified",
-          "GAR-0024": "verified"
+          "GAR-0049": "verified"
         },
         "missing_urls": []
       }
@@ -752,21 +702,20 @@
     {
       "code": "period_approximate",
       "severity": "medium",
-      "message": "period evidence is approximate/none for GAR-0013, GAR-0015 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches",
+      "message": "period evidence is approximate/none for GAR-0071 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches",
       "items": [
-        "GAR-0013",
-        "GAR-0015"
+        "GAR-0071"
       ],
       "look": null
     },
     {
       "code": "period_era_level",
       "severity": "low",
-      "message": "period evidence is era-level (century bucket) for GAR-0002, GAR-0024, GAR-0028, GAR-0062; exact-decade cards are missing",
+      "message": "period evidence is era-level (century bucket) for GAR-0024, GAR-0028, GAR-0049, GAR-0062; exact-decade cards are missing",
       "items": [
-        "GAR-0002",
         "GAR-0024",
         "GAR-0028",
+        "GAR-0049",
         "GAR-0062"
       ],
       "look": null
@@ -774,13 +723,11 @@
     {
       "code": "region_mismatch",
       "severity": "medium",
-      "message": "cards document other regions for GAR-0002, GAR-0013, GAR-0015, GAR-0024, GAR-0028, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted",
+      "message": "cards document other regions for GAR-0024, GAR-0028, GAR-0049, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted",
       "items": [
-        "GAR-0002",
-        "GAR-0013",
-        "GAR-0015",
         "GAR-0024",
         "GAR-0028",
+        "GAR-0049",
         "GAR-0062"
       ],
       "look": null
@@ -791,16 +738,23 @@
       "message": "the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
       "items": [],
       "look": null
+    },
+    {
+      "code": "budget_equivalent",
+      "severity": "medium",
+      "message": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "items": [],
+      "look": null
     }
   ],
   "budget_model": {
-    "mode": "cheaper",
-    "a_cost_total": 1.43,
+    "mode": "equivalent_cost",
+    "a_cost_total": 0.948,
     "c_cost_total": 1.085,
     "differences": {
-      "a_b": 4,
-      "a_c": 3,
-      "b_c": 3
+      "a_b": 2,
+      "a_c": 2,
+      "b_c": 4
     }
   },
   "retrieved_ids": {
@@ -833,6 +787,7 @@
       "GAR-0024"
     ],
     "one_piece": [
+      "GAR-0071",
       "GAR-0062",
       "GAR-0015"
     ]
@@ -893,6 +848,13 @@
       "slot": "lower_body",
       "reasons": [
         "historical mode: period mismatch (1644 late Ming early Qing vs 1950s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0072",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs 19th_century, 20th_century)"
       ]
     },
     {
@@ -1240,76 +1202,83 @@
       "reasons": [
         "historical mode: period mismatch (1644 late Ming early Qing vs late_19th_century, early_20th_century)"
       ]
+    },
+    {
+      "id": "GAR-0073",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs 1860s, 1870s)"
+      ]
+    },
+    {
+      "id": "GAR-0074",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs early_19th_century, 19th_century)"
+      ]
     }
   ],
   "warnings": [
     "no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)",
     "no reliable style card for art direction '文人水墨、克制、低饱和'",
-    "period evidence is approximate/none for GAR-0013, GAR-0015 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches",
-    "period evidence is era-level (century bucket) for GAR-0002, GAR-0024, GAR-0028, GAR-0062; exact-decade cards are missing",
-    "cards document other regions for GAR-0002, GAR-0013, GAR-0015, GAR-0024, GAR-0028, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted",
-    "the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
+    "period evidence is approximate/none for GAR-0071 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches",
+    "period evidence is era-level (century bucket) for GAR-0024, GAR-0028, GAR-0049, GAR-0062; exact-decade cards are missing",
+    "cards document other regions for GAR-0024, GAR-0028, GAR-0049, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted",
+    "the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+    "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
   ],
   "sources": [
     {
-      "source_id": "SRC-0103",
-      "url": "https://fashionhistory.fitnyc.edu/doublet/"
+      "source_id": "SRC-0450",
+      "url": "https://collections.vam.ac.uk/item/O144142/"
     },
     {
-      "source_id": "SRC-0114",
-      "url": "https://fashionhistory.fitnyc.edu/codpiece/"
+      "source_id": "SRC-0451",
+      "url": "https://collections.vam.ac.uk/item/O109190/"
+    },
+    {
+      "source_id": "SRC-0452",
+      "url": "https://collections.vam.ac.uk/item/O438362/"
     },
     {
       "source_id": "SRC-0125",
       "url": "https://fashionhistory.fitnyc.edu/mule/"
     },
     {
-      "source_id": "SRC-0133",
-      "url": "https://fashionhistory.fitnyc.edu/ruff/"
-    },
-    {
-      "source_id": "SRC-0135",
-      "url": "https://fashionhistory.fitnyc.edu/leg-of-mutton-sleeves/"
-    },
-    {
-      "source_id": "SRC-0136",
-      "url": "https://fashionhistory.fitnyc.edu/stomacher/"
-    },
-    {
-      "source_id": "SRC-0140",
-      "url": "https://fashionhistory.fitnyc.edu/slashing/"
-    },
-    {
-      "source_id": "SRC-0101",
-      "url": "https://fashionhistory.fitnyc.edu/medici-collar/"
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
     },
     {
       "source_id": "SRC-0141",
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
-      "source_id": "SRC-0142",
-      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-    },
-    {
-      "source_id": "SRC-0423",
-      "url": "https://collections.vam.ac.uk/item/O315431/"
-    },
-    {
-      "source_id": "SRC-0116",
-      "url": "https://fashionhistory.fitnyc.edu/robe-a-la-francaise/"
-    },
-    {
       "source_id": "SRC-0129",
       "url": "https://fashionhistory.fitnyc.edu/muff/"
     },
     {
-      "source_id": "SRC-0139",
-      "url": "https://fashionhistory.fitnyc.edu/panniers/"
+      "source_id": "SRC-0409",
+      "url": "https://collections.vam.ac.uk/item/O166839/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0143",
+      "url": "https://fashionhistory.fitnyc.edu/lurex/"
     },
     {
       "source_id": "SRC-0422",
       "url": "https://collections.vam.ac.uk/item/O74085/"
+    },
+    {
+      "source_id": "SRC-0101",
+      "url": "https://fashionhistory.fitnyc.edu/medici-collar/"
+    },
+    {
+      "source_id": "SRC-0133",
+      "url": "https://fashionhistory.fitnyc.edu/ruff/"
     }
   ],
   "missing_urls": [],
@@ -1332,7 +1301,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
-    "warnings_count": 6,
-    "rejected_count": 55
+    "warnings_count": 7,
+    "rejected_count": 58
   }
 }

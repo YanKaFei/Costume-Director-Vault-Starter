@@ -334,6 +334,13 @@
       ]
     },
     {
+      "id": "GAR-0072",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 19th_century, 20th_century)"
+      ]
+    },
+    {
       "id": "GAR-0001",
       "slot": "set",
       "reasons": [
@@ -716,6 +723,13 @@
       ]
     },
     {
+      "id": "GAR-0071",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 18th_century, 19th_century)"
+      ]
+    },
+    {
       "id": "GAR-0021",
       "slot": "accessory",
       "reasons": [
@@ -760,12 +774,23 @@
         "historical mode: period mismatch (late_byzantine_empire vs late_19th_century, early_20th_century)",
         "region-specific card incompatible with byzantium (china)"
       ]
+    },
+    {
+      "id": "GAR-0073",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs 1860s, 1870s)"
+      ]
+    },
+    {
+      "id": "GAR-0074",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs early_19th_century, 19th_century)"
+      ]
     }
   ],
   "warnings": [
-    "no upper_body candidates retrieved",
-    "no lower_body candidates retrieved",
-    "no footwear candidates retrieved",
     "no reliable style card for art direction 'late byzantine court, gold and deep colours'",
     "period evidence is era-level (century bucket) for GAR-0009; exact-decade cards are missing",
     "looks are missing required layers: footwear, outerwear (no invented replacements)",
@@ -813,7 +838,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
-    "warnings_count": 7,
-    "rejected_count": 70
+    "warnings_count": 4,
+    "rejected_count": 74
   }
 }

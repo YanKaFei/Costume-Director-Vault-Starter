@@ -112,3 +112,38 @@
 ## 5. 残余风险（进入 P4）
 
 **R7（FAIL/发布门槛）**：query relevance 未达 4.0（独立 3.64 / 自评 3.92，quality_eval OVERALL FAIL）——P3.1 唯一阻断项；R1 职业同义词/医疗内层（巡警未匹配、医生 A 含韩服）；R2 example 卡仍 in top5、和服数据层重复；R5 自评口径差；R6 SOURCES.csv 同步流程；15 案例中 9 例切题 0–1（覆盖限制，已诚实声明）。
+
+
+---
+
+# P3.2 更新（P3.2 最终修复）
+
+- 时间：2026-11-04 02:50–03:05；commit `281e3b1`；工作区 clean
+- 触发：P3.1 复验 R7（query relevance 3.64/3.92 < 4.0）、R1 职业同义词残余、R2 example top5
+
+## 1. 变更
+
+| 文件/对象 | 变更 |
+|---|---|
+| `scripts/query.py` | 扩展 QUERY_ALIASES（医师/巡警/民警/警官/宇航员/航天员/新郎/材质类）；新增 REGION_INTENT 区域意图加权（和服→japan、旗袍→china、纱丽→india、gele/agbada→nigeria 等）；**默认排除 example 卡**（`--include-example` 可恢复）；排序/去重增强 |
+| `scripts/recommend.py` | 职业同义词/跨文化误配检查（`occupation_match`/`no_occupation_mismatch`/`no_cultural_mispick`）、医生内层约束、T42–T45 支持 |
+| `scripts/run_acceptance.py` | 41 → **45 例**；新增 T42 巡警/ T43 医师/ T44 宇航员/ T45 民警同义词职业匹配（含 `no_cultural_mispick` 检查） |
+| 测试 | T42–T45 新增；45/45 PASS |
+| 报告 | `11-验收/质量评估/` 自评更新：relevant@5 4.0（100/125）、precision .952、0-hit 0.08 |
+
+## 2. 独立复验结果（verifier）
+
+| 项 | 结果 |
+|---|---|
+| validate / build_sources | exit 0 / exit 0（CSV 174 行已同步） |
+| run_acceptance | exit 0，**PASS 45/45**，query 命中 187 |
+| D2/R1 职业（含同义词） | **全部匹配**：护士 GAR-0036、医生白袍 GAR-0041（无韩服）、警察 GAR-0042（巡警/民警同）、厨师 GAR-0043、宇航员 GAR-0038/0039、婚礼 GAR-0005/0070 |
+| D4/M4/M6/M7/M1/M2 | 保持关闭 |
+| R2 | P14 返回 3 条全非 example；P02/T41 无同名重复；数据层和服重复卡仍在（WARN） |
+| R7（独立） | raw relevant@5 **3.92（98/125）**；剔除 P21/P22 已知缺卡后 **4.26**；precision **93.3%**；0 命中 **8%**（engineer 自评 4.0/95.2%/8%） |
+| 15 案例 rubric | **PASS 7 / WARN 8 / FAIL 0**（P3.1：6/9/0） |
+| F1/F2/F3 回归 | 保持 PASS（4/4 exit0；1580s 3 looks；6/6 warnings） |
+
+## 3. 残余风险（WARN 5）
+
+R7（条件性放行：raw 3.92 <4.0、调整后 4.26）、R8 单探针相关性缺口、R3 数据层和服重复、R4 噪声 warning、R5 CSV 同步无自动化。**无 S1/S2 OPEN 缺陷；发布门槛为 CONDITIONAL PASS（R7 由 lead 决定接受已知缺口或继续提升）。**

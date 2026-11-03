@@ -1,9 +1,9 @@
 {
   "summary": {
-    "snapshot_cards": 328,
-    "query_relevant_at_5": 4.0,
-    "query_precision": 0.952,
-    "query_zero_hit_rate": 0.08,
+    "snapshot_cards": 343,
+    "query_relevant_at_5": 4.16,
+    "query_precision": 0.945,
+    "query_zero_hit_rate": 0.0,
     "recommend_crash_rate": 0.0,
     "example_in_a_rate": 0.0,
     "warning_coverage_rate": 1.0,
@@ -18,7 +18,8 @@
     "occupation_forbidden_items": 0,
     "rainwear_false_claim_cases": 0,
     "arctic_indoor_cases": 0,
-    "context_mismatch_cases": 0
+    "context_mismatch_cases": 0,
+    "sources_csv_sync": 1.0
   },
   "queries": {
     "probes": [
@@ -55,17 +56,17 @@
         "relevant": 5,
         "ids": [
           "GAR-0001",
+          "GAR-0065",
           "GAR-0066",
           "SRC-0009",
-          "SRC-0028",
-          "SRC-0049"
+          "SRC-0028"
         ],
         "relevant_ids": [
           "GAR-0001",
+          "GAR-0065",
           "GAR-0066",
           "SRC-0009",
-          "SRC-0028",
-          "SRC-0049"
+          "SRC-0028"
         ]
       },
       {
@@ -241,17 +242,17 @@
         "relevant": 5,
         "ids": [
           "GAR-0001",
+          "GAR-0065",
           "GAR-0066",
           "SRC-0028",
-          "SRC-0100",
-          "GAR-0064"
+          "SRC-0100"
         ],
         "relevant_ids": [
           "GAR-0001",
+          "GAR-0065",
           "GAR-0066",
           "SRC-0028",
-          "SRC-0100",
-          "GAR-0064"
+          "SRC-0100"
         ]
       },
       {
@@ -490,10 +491,17 @@
           "Mughal"
         ],
         "exit": 0,
-        "hits": 0,
-        "relevant": 0,
-        "ids": [],
-        "relevant_ids": []
+        "hits": 3,
+        "relevant": 2,
+        "ids": [
+          "GAR-0071",
+          "SRC-0450",
+          "GAR-0072"
+        ],
+        "relevant_ids": [
+          "GAR-0071",
+          "SRC-0450"
+        ]
       },
       {
         "id": "P22",
@@ -501,10 +509,16 @@
           "mourning jewelry"
         ],
         "exit": 0,
-        "hits": 0,
-        "relevant": 0,
-        "ids": [],
-        "relevant_ids": []
+        "hits": 2,
+        "relevant": 2,
+        "ids": [
+          "GAR-0073",
+          "GAR-0074"
+        ],
+        "relevant_ids": [
+          "GAR-0073",
+          "GAR-0074"
+        ]
       },
       {
         "id": "P23",
@@ -575,12 +589,12 @@
         ]
       }
     ],
-    "relevant_at_5": 4.0,
-    "precision": 0.952,
-    "zero_hit_rate": 0.08,
+    "relevant_at_5": 4.16,
+    "precision": 0.945,
+    "zero_hit_rate": 0.0,
     "example_in_top2_rate": 0.0,
-    "total_relevant": 100,
-    "total_returned": 105
+    "total_relevant": 104,
+    "total_returned": 110
   },
   "recommendations": [
     {
@@ -635,6 +649,7 @@
       "warnings": [
         "context_gap",
         "region_mismatch",
+        "occupation_coverage_gap",
         "conflict_weather_vs_material"
       ],
       "expected_warnings": [],
@@ -646,7 +661,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:journalist",
+      "occupation_category": "generic:writer",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -953,7 +968,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:merchant",
+      "occupation_category": "generic:clerk",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -1671,6 +1686,7 @@
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch"
       ],
       "expected_warnings": [],
@@ -1902,9 +1918,9 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 4,
-        "a_c": 3,
-        "b_c": 3
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
       },
       "warnings": [
         "context_gap",
@@ -1912,7 +1928,8 @@
         "period_approximate",
         "period_era_level",
         "region_mismatch",
-        "occupation_coverage_gap"
+        "occupation_coverage_gap",
+        "budget_equivalent"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
@@ -1921,7 +1938,7 @@
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "cheaper",
+      "budget_mode": "equivalent_cost",
       "budget_cheaper_or_explained": false,
       "occupation_category": "generic:教师",
       "occupation_forbidden": [],
@@ -2048,6 +2065,7 @@
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch"
       ],
       "expected_warnings": [],

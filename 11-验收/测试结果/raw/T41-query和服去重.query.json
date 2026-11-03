@@ -13,6 +13,19 @@
     "score": 8.6
   },
   {
+    "id": "GAR-0065",
+    "path": "01-服装单品/专门类型/GAR-0065-和服.md",
+    "name_zh": "出口和服",
+    "name_en": "export kimono",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0426"
+    ],
+    "snippet": "# 出口和服 / export kimono ## 定义 出口和服（export kimono）是 1910–1930 年面向出口市场的日本和服变体。本卡聚焦**…",
+    "score": 8.6
+  },
+  {
     "id": "GAR-0066",
     "path": "01-服装单品/配饰/GAR-0066-和服腰带.md",
     "name_zh": "和服腰带",
@@ -45,17 +58,6 @@
     "evidence_status": "verified",
     "source_ids": [],
     "snippet": "# met 藏品（api）：和服 ca. 1910 **来源**：kimono **发布者**：the metropolitan museum of art — costume in…",
-    "score": 7.68
-  },
-  {
-    "id": "SRC-0049",
-    "path": "04-来源/SRC-0049-khalili-collection-of-kimono-kx158-jpg.md",
-    "name_zh": "Wikimedia Commons 文件：Khalili 和服藏品 KX158（CC BY-SA 4.0）",
-    "name_en": "Khalili Collection of Kimono KX158.jpg",
-    "type": "source",
-    "evidence_status": "verified",
-    "source_ids": [],
-    "snippet": "# wikimedia commons 文件：khalili 和服藏品 kx158（cc by-sa 4.0） **来源**：file:khalili collection of kimono kx158.jpg -…",
     "score": 7.68
   }
 ]
