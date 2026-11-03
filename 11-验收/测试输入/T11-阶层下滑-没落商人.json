@@ -1,0 +1,49 @@
+{
+  "_test": {
+    "id": "T11",
+    "title": "阶层变化（下行）：富商之家到没落绅士（1890s，class change）",
+    "types": [
+      "class_change",
+      "historical_accuracy"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "fidelity_matches",
+      "historical_verified",
+      "prompts"
+    ],
+    "pair_with": "T10",
+    "pair_check": "class_pair",
+    "query": [
+      "1890s coat muff",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "沈砚",
+    "occupation": "student then clerk",
+    "economic_status": "high",
+    "arc": "decline from a wealthy merchant household to genteel poverty"
+  },
+  "scene": {
+    "scene_id": "S9",
+    "time": "evening",
+    "weather": "indoor",
+    "action": "receiving guests in a drawing room",
+    "location": "merchant drawing room"
+  },
+  "period": "1890s",
+  "region": "united_states",
+  "season": "autumn",
+  "art_direction": "genteel period drama",
+  "lighting": "warm candlelight and firelight",
+  "camera": "medium full-body shot",
+  "budget": "high",
+  "fidelity_mode": "historical",
+  "tool": "midjourney"
+}

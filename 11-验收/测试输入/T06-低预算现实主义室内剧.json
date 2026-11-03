@@ -1,0 +1,48 @@
+{
+  "_test": {
+    "id": "T06",
+    "title": "低预算现实主义室内剧：复用单品、保留角色弧线",
+    "types": [
+      "low_budget",
+      "modern_realism"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "budget_alternative",
+      "prompts"
+    ],
+    "query": [
+      "cotton shirt trousers",
+      "--type",
+      "garment",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Wu",
+    "occupation": "night-shift hospital orderly",
+    "economic_status": "low",
+    "arc": "quiet endurance across one long week"
+  },
+  "scene": {
+    "scene_id": "S6",
+    "time": "night",
+    "weather": "indoor",
+    "action": "making tea and sitting on a worn sofa",
+    "location": "small apartment"
+  },
+  "period": "contemporary",
+  "region": "east_asia",
+  "season": "winter",
+  "art_direction": "naturalistic low-budget realism",
+  "lighting": "single warm practical lamp",
+  "camera": "static medium shot",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

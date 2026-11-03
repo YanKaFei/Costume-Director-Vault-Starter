@@ -1,0 +1,46 @@
+{
+  "_test": {
+    "id": "T13",
+    "title": "低预算年代剧：有限置装量下的复用与美术替代",
+    "types": [
+      "low_budget",
+      "historical_vs_stylisation"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "budget_alternative",
+      "prompts"
+    ],
+    "query": [
+      "1890s blouse coat",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "沈砚",
+    "occupation": "clerk",
+    "economic_status": "low",
+    "arc": "keeping up appearances"
+  },
+  "scene": {
+    "scene_id": "S11",
+    "time": "day",
+    "weather": "cold overcast",
+    "action": "waiting on a bench",
+    "location": "office corridor"
+  },
+  "period": "1890s",
+  "region": "united_states",
+  "season": "winter",
+  "art_direction": "intimate low-budget period drama",
+  "lighting": "soft window daylight",
+  "camera": "medium shot",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

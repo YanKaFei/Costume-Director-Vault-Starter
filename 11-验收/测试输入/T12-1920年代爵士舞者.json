@@ -1,0 +1,46 @@
+{
+  "_test": {
+    "id": "T12",
+    "title": "1920 年代爵士舞者：年代 + 舞蹈动作可行性",
+    "types": [
+      "historical_accuracy",
+      "dance_movement"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "dance_safe",
+      "prompts"
+    ],
+    "query": [
+      "1920s dancer",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Mabel",
+    "occupation": "jazz dancer",
+    "economic_status": "middle",
+    "arc": "stepping out of a small town"
+  },
+  "scene": {
+    "scene_id": "S10",
+    "time": "night",
+    "weather": "indoor, hot",
+    "action": "fast jazz dance with spins and kicks",
+    "location": "1920s dance hall"
+  },
+  "period": "1920s",
+  "region": "north_america",
+  "season": "summer",
+  "art_direction": "1920s dance-hall glamour",
+  "lighting": "warm stage spotlights with mirror-ball highlights",
+  "camera": "full body tracking",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney"
+}

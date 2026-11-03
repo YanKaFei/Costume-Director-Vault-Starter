@@ -1,0 +1,49 @@
+{
+  "_test": {
+    "id": "T05",
+    "title": "未来虚构城市信使：明确虚构、不伪造史料（fictional）",
+    "types": [
+      "fictional_world"
+    ],
+    "mode": "standard",
+    "expected_mode": "fictional",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "fidelity_matches",
+      "fictional_phrasing",
+      "no_fake_sources",
+      "prompts"
+    ],
+    "query": [
+      "fictional future",
+      "--type",
+      "style",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Nara",
+    "occupation": "courier",
+    "economic_status": "low",
+    "arc": "discovering the city's hidden order"
+  },
+  "scene": {
+    "scene_id": "S5",
+    "time": "night",
+    "weather": "smog and neon drizzle",
+    "action": "sprinting across rooftops",
+    "location": "vertical megacity"
+  },
+  "period": "future_fictional",
+  "region": "fictional city",
+  "season": "unknown",
+  "art_direction": "fictional dystopian noir with functional streetwear layers",
+  "lighting": "neon magenta and cyan against deep shadow",
+  "camera": "dynamic tracking shot",
+  "budget": "medium",
+  "fidelity_mode": "fictional",
+  "tool": "midjourney"
+}

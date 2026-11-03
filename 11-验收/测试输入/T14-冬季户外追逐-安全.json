@@ -1,0 +1,47 @@
+{
+  "_test": {
+    "id": "T14",
+    "title": "冬季户外追逐：保暖、行动自由与鞋履安全",
+    "types": [
+      "action_movement",
+      "warm_cool_lighting"
+    ],
+    "mode": "standard",
+    "expected_mode": "fictional",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "outerwear",
+      "safe_footwear",
+      "prompts"
+    ],
+    "query": [
+      "winter coat boots",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Kade",
+    "occupation": "bounty hunter",
+    "economic_status": "low",
+    "arc": "one last job"
+  },
+  "scene": {
+    "scene_id": "S12",
+    "time": "predawn",
+    "weather": "snow, freezing wind",
+    "action": "sprinting through a market alley, vaulting crates",
+    "location": "northern port town"
+  },
+  "period": "contemporary",
+  "region": "northern europe",
+  "season": "winter",
+  "art_direction": "cold naturalistic thriller",
+  "lighting": "blue hour, cold key light with warm market bulbs",
+  "camera": "handheld tracking",
+  "budget": "medium",
+  "fidelity_mode": "fictional",
+  "tool": "sora"
+}

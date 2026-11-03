@@ -1,0 +1,49 @@
+{
+  "_test": {
+    "id": "T10",
+    "title": "阶层变化（上行）：寒门职员到体面绅士（1890s，class change）",
+    "types": [
+      "class_change",
+      "historical_accuracy"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "fidelity_matches",
+      "historical_verified",
+      "prompts"
+    ],
+    "pair_with": "T11",
+    "pair_check": "class_pair",
+    "query": [
+      "1890s blouse",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "沈砚",
+    "occupation": "student then clerk",
+    "economic_status": "low",
+    "arc": "rise from a poor student to a salaried clerk"
+  },
+  "scene": {
+    "scene_id": "S9",
+    "time": "afternoon",
+    "weather": "rain",
+    "action": "carrying parcels up narrow tenement stairs",
+    "location": "tenement courtyard"
+  },
+  "period": "1890s",
+  "region": "united_states",
+  "season": "autumn",
+  "art_direction": "naturalistic tenement period drama",
+  "lighting": "cold grey daylight",
+  "camera": "medium full-body shot",
+  "budget": "low",
+  "fidelity_mode": "historical",
+  "tool": "midjourney"
+}

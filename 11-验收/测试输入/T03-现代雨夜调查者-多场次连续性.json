@@ -1,0 +1,81 @@
+{
+  "_test": {
+    "id": "T03",
+    "title": "现代雨夜调查者：雨前 / 雨中 / 室内三场连续性（fictional）",
+    "types": [
+      "modern_realism",
+      "multi_scene_continuity",
+      "rain_wet_clothes"
+    ],
+    "mode": "continuity",
+    "expected_mode": "fictional",
+    "criteria": [
+      "continuity_pass",
+      "fidelity_matches",
+      "rain_outerwear",
+      "prompts"
+    ],
+    "query": [
+      "rain investigator overcoat",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Lin",
+    "occupation": "private investigator",
+    "economic_status": "low",
+    "arc": "holding on to a case that costs everything"
+  },
+  "period": "contemporary",
+  "region": "unspecified modern city",
+  "season": "autumn",
+  "art_direction": "restrained urban noir",
+  "lighting": "cool moonlight with warm sodium practicals",
+  "camera": "medium tracking shot",
+  "budget": "low",
+  "fidelity_mode": "fictional",
+  "tool": "sora",
+  "scenes": [
+    {
+      "scene_id": "S1",
+      "story_day": 1,
+      "time": "evening",
+      "weather": "overcast, dry",
+      "action": "walking to the meeting",
+      "scene": "city street",
+      "state": {
+        "wetness": "dry",
+        "damage": "none",
+        "dirt": "none"
+      }
+    },
+    {
+      "scene_id": "S2",
+      "story_day": 1,
+      "time": "night",
+      "weather": "heavy rain",
+      "action": "running under an awning",
+      "scene": "rain-soaked street",
+      "state": {
+        "wetness": "wet",
+        "damage": "none",
+        "dirt": "none"
+      }
+    },
+    {
+      "scene_id": "S3",
+      "story_day": 1,
+      "time": "late night",
+      "weather": "indoor",
+      "action": "searching a desk",
+      "scene": "dim office",
+      "state": {
+        "wetness": "drying",
+        "damage": "none",
+        "dirt": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "_test": {
+    "id": "T01",
+    "title": "1930 年代上海知识分子：历史准确（historical）",
+    "types": [
+      "historical_accuracy"
+    ],
+    "mode": "standard",
+    "expected_mode": "historical",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "fidelity_matches",
+      "historical_verified",
+      "region_evidence",
+      "rain_outerwear",
+      "prompts"
+    ],
+    "query": [
+      "1930s 上海",
+      "--type",
+      "garment",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "沈砚",
+    "occupation": "journalist and writer",
+    "economic_status": "middle",
+    "arc": "preserve dignity under pressure"
+  },
+  "scene": {
+    "scene_id": "S1",
+    "time": "night",
+    "weather": "rain",
+    "action": "walking to the newspaper office",
+    "location": "shanghai street"
+  },
+  "period": "1930s",
+  "region": "shanghai",
+  "season": "autumn",
+  "art_direction": "restrained urban period drama",
+  "lighting": "cool moonlight with warm practicals",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "dry",
+    "damage": "none",
+    "dirt": "none"
+  }
+}

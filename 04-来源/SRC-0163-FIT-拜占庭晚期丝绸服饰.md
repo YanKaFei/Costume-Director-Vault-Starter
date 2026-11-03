@@ -20,7 +20,7 @@ publisher: Fashion Institute of Technology, Fashion History Timeline
 date_accessed: 2026-11-04
 rights_statement: "Written commentary, research and analysis are licensed CC BY-NC-SA 4.0 per the site footer; images are not covered by that license unless specifically noted."
 source_kind: academic_reference
-note: "实测 2026-11-04 curl -sS -m 10 -L HTTP 200，页面内容与所支撑断言一致；文字许可为 CC BY-NC-SA 4.0，图像不随文字许可。"
+note: "实测 2026-11-04 curl -sS -m 10 -L HTTP 200，页面内容与所支撑断言一致；文字许可为 CC BY-NC-SA 4.0，图像不随文字许可。；本卡与 researcher 的 SRC-0022 为同一 URL，canonical 以 SRC-0022 登记，本卡保留作重复交叉引用"
 tags: [costume, source, fit, fit_garment_analysis]
 ---
 # SRC-0163 15世纪拜占庭晚期丝绸锦缎连衣裙与塔夫绸内衫

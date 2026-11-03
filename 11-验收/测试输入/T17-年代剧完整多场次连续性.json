@@ -1,0 +1,94 @@
+{
+  "_test": {
+    "id": "T17",
+    "title": "完整多场次服装连续性（4 场：干→湿→阴干→次日，含破损）",
+    "types": [
+      "multi_scene_continuity",
+      "historical_accuracy",
+      "rain_wet_clothes"
+    ],
+    "mode": "continuity",
+    "expected_mode": "historical",
+    "criteria": [
+      "continuity_pass",
+      "fidelity_matches",
+      "rain_outerwear",
+      "prompts"
+    ],
+    "query": [
+      "1890s rain coat",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "沈砚",
+    "occupation": "journalist and writer",
+    "economic_status": "middle",
+    "arc": "a story that puts everything at risk"
+  },
+  "period": "1890s",
+  "region": "united_states",
+  "season": "autumn",
+  "art_direction": "restrained urban period drama",
+  "lighting": "cool moonlight with warm practicals",
+  "camera": "medium tracking shot",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "sora",
+  "scenes": [
+    {
+      "scene_id": "S1",
+      "story_day": 2,
+      "time": "evening",
+      "weather": "overcast, dry",
+      "action": "walking to the archive",
+      "scene": "new york street",
+      "state": {
+        "wetness": "dry",
+        "damage": "none",
+        "dirt": "none"
+      }
+    },
+    {
+      "scene_id": "S2",
+      "story_day": 2,
+      "time": "night",
+      "weather": "heavy rain",
+      "action": "running under an awning",
+      "scene": "rain-soaked street",
+      "state": {
+        "wetness": "wet",
+        "damage": "none",
+        "dirt": "none"
+      }
+    },
+    {
+      "scene_id": "S3",
+      "story_day": 2,
+      "time": "late night",
+      "weather": "indoor, damp",
+      "action": "searching a desk drawer",
+      "scene": "archive office",
+      "state": {
+        "wetness": "drying",
+        "damage": "none",
+        "dirt": "none"
+      }
+    },
+    {
+      "scene_id": "S4",
+      "story_day": 3,
+      "time": "morning",
+      "weather": "indoor cold",
+      "action": "reading a letter",
+      "scene": "archive office",
+      "state": {
+        "wetness": "dry",
+        "damage": "minor tear on left cuff",
+        "dirt": "ink stain"
+      }
+    }
+  ]
+}

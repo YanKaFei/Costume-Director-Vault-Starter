@@ -1,0 +1,48 @@
+{
+  "_test": {
+    "id": "T16",
+    "title": "表现主义黑色电影：美术风格驱动 vs 现实主义的冲突（inspired）",
+    "types": [
+      "historical_vs_stylisation",
+      "art_direction"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "fidelity_matches",
+      "prompts"
+    ],
+    "query": [
+      "expressionist noir",
+      "--type",
+      "style",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Elias",
+    "occupation": "stage magician",
+    "economic_status": "low",
+    "arc": "losing the audience"
+  },
+  "scene": {
+    "scene_id": "S14",
+    "time": "night",
+    "weather": "indoor",
+    "action": "performing on a tilted stage",
+    "location": "expressionist theatre"
+  },
+  "period": "1940s",
+  "region": "central europe",
+  "season": "autumn",
+  "art_direction": "expressionist noir, distorted shadows, stark geometry",
+  "lighting": "hard directional key light with deep chiaroscuro",
+  "camera": "low angle wide shot",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney"
+}

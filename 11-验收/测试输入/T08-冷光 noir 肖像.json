@@ -1,0 +1,50 @@
+{
+  "_test": {
+    "id": "T08",
+    "title": "冷光肖像：同一角色的冷暖光对照（cool lighting）",
+    "types": [
+      "warm_cool_lighting"
+    ],
+    "mode": "standard",
+    "expected_mode": "fictional",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "fidelity_matches",
+      "prompts"
+    ],
+    "pair_with": "T07",
+    "pair_check": "lighting_pair",
+    "query": [
+      "noir coat",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Lin",
+    "occupation": "private investigator",
+    "economic_status": "low",
+    "arc": "closing in on the truth"
+  },
+  "scene": {
+    "scene_id": "S7",
+    "time": "night",
+    "weather": "dry",
+    "action": "standing still under a streetlamp",
+    "location": "empty street"
+  },
+  "period": "contemporary",
+  "region": "unspecified city",
+  "season": "autumn",
+  "art_direction": "restrained urban noir",
+  "lighting": "cool blue moonlight, cyan neon rim light, low saturation",
+  "camera": "close-up",
+  "budget": "low",
+  "fidelity_mode": "fictional",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "dry"
+  }
+}

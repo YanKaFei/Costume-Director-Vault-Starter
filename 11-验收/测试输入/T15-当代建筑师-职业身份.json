@@ -1,0 +1,47 @@
+{
+  "_test": {
+    "id": "T15",
+    "title": "当代建筑师：职业身份与正式度（modern realism）",
+    "types": [
+      "modern_realism",
+      "character_identity"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "prompts"
+    ],
+    "query": [
+      "tailored coat",
+      "--type",
+      "garment",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Rui",
+    "occupation": "architect",
+    "economic_status": "middle",
+    "arc": "learning to delegate"
+  },
+  "scene": {
+    "scene_id": "S13",
+    "time": "morning",
+    "weather": "indoor",
+    "action": "presenting a model to a client",
+    "location": "design studio"
+  },
+  "period": "contemporary",
+  "region": "east_asia",
+  "season": "spring",
+  "art_direction": "clean minimalist realism",
+  "lighting": "cool daylight through glass",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}

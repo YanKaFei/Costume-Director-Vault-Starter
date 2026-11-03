@@ -1,0 +1,47 @@
+{
+  "_test": {
+    "id": "T04",
+    "title": "当代舞者：动作空间、鞋底防滑、衣物扫动（dance movement）",
+    "types": [
+      "dance_movement"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "dance_safe",
+      "prompts"
+    ],
+    "query": [
+      "dance movement",
+      "--type",
+      "garment",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Qiao",
+    "occupation": "contemporary dancer",
+    "economic_status": "low",
+    "arc": "rehearsal to first solo"
+  },
+  "scene": {
+    "scene_id": "S4",
+    "time": "afternoon",
+    "weather": "indoor",
+    "action": "contemporary dance rehearsal with floor work and spins",
+    "location": "rehearsal studio"
+  },
+  "period": "contemporary",
+  "region": "unspecified city",
+  "season": "spring",
+  "art_direction": "minimal rehearsal realism",
+  "lighting": "soft cool studio light",
+  "camera": "full body wide shot",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney"
+}

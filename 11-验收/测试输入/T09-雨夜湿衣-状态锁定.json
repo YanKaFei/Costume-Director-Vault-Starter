@@ -1,0 +1,53 @@
+{
+  "_test": {
+    "id": "T09",
+    "title": "雨夜湿衣特写：wetness 状态显式锁定",
+    "types": [
+      "rain_wet_clothes"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "rain_outerwear",
+      "wet_state_lock",
+      "prompts"
+    ],
+    "query": [
+      "wool coat rain",
+      "--type",
+      "garment",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Shen",
+    "occupation": "courier",
+    "economic_status": "low",
+    "arc": "one bad night"
+  },
+  "scene": {
+    "scene_id": "S8",
+    "time": "night",
+    "weather": "heavy rain",
+    "action": "standing at a phone booth, soaked",
+    "location": "street corner"
+  },
+  "period": "contemporary",
+  "region": "east_asia",
+  "season": "autumn",
+  "art_direction": "gritty urban realism",
+  "lighting": "sodium streetlight, rain backlit",
+  "camera": "close-up on collar and shoulders",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "wet",
+    "damage": "none",
+    "dirt": "rain-soaked"
+  }
+}

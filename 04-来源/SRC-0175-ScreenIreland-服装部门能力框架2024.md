@@ -20,7 +20,7 @@ publisher: Fís Éireann/Screen Ireland
 date_accessed: 2026-11-04
 rights_statement: "Copyright © 2022 Fís Éireann/Screen Ireland. All rights reserved."
 source_kind: industry_framework
-note: "实测 2026-11-04 curl -sS -m 10 -L HTTP 200 application/pdf，2840367 bytes；用 pypdf 提取正文核对以下条目：continuity records 与 measurements 文书、continuity system/bible、story days 与 schedule、standby costume assistant、演员冷/暖/湿天气需求、costume breakdown 与 line-up。PDF 为行业能力框架，不是历史服装史来源。"
+note: "实测 2026-11-04 curl -sS -m 10 -L HTTP 200 application/pdf，2840367 bytes；用 pypdf 提取正文核对以下条目：continuity records 与 measurements 文书、continuity system/bible、story days 与 schedule、standby costume assistant、演员冷/暖/湿天气需求、costume breakdown 与 line-up。PDF 为行业能力框架，不是历史服装史来源。；本卡与 researcher 的 SRC-0036 为同一 PDF，canonical 以 SRC-0036 登记，本卡保留作重复交叉引用"
 tags: [costume, source, industry, continuity]
 ---
 # SRC-0175 爱尔兰银幕服装部门能力框架 2024

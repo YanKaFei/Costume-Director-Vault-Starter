@@ -1,0 +1,54 @@
+{
+  "_test": {
+    "id": "T02",
+    "title": "1930 年代上海知识分子：艺术化再造（inspired，与 T01 对照）",
+    "types": [
+      "historical_vs_stylisation"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "fidelity_matches",
+      "prompts"
+    ],
+    "pair_with": "T01",
+    "pair_check": "stylisation_pair",
+    "query": [
+      "1930s 上海",
+      "--type",
+      "look",
+      "--limit",
+      "6",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "沈砚",
+    "occupation": "journalist and writer",
+    "economic_status": "middle",
+    "arc": "preserve dignity under pressure"
+  },
+  "scene": {
+    "scene_id": "S1",
+    "time": "night",
+    "weather": "rain",
+    "action": "walking to the newspaper office",
+    "location": "shanghai street"
+  },
+  "period": "1930s",
+  "region": "shanghai",
+  "season": "autumn",
+  "art_direction": "stylised period drama, heightened contrast and saturated accents",
+  "lighting": "warm amber practicals with deep shadow",
+  "camera": "low angle full body",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "dry",
+    "damage": "none",
+    "dirt": "none"
+  }
+}

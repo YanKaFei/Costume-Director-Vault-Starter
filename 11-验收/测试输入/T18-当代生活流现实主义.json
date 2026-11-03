@@ -1,0 +1,46 @@
+{
+  "_test": {
+    "id": "T18",
+    "title": "当代生活流现实主义：日常场景的可信度（modern realism）",
+    "types": [
+      "modern_realism"
+    ],
+    "mode": "standard",
+    "expected_mode": "inspired",
+    "criteria": [
+      "three_looks",
+      "ids_exist",
+      "prompts"
+    ],
+    "query": [
+      "knitwear trousers",
+      "--type",
+      "garment",
+      "--limit",
+      "8",
+      "--json"
+    ]
+  },
+  "character": {
+    "name": "Mei",
+    "occupation": "primary school teacher",
+    "economic_status": "middle",
+    "arc": "deciding whether to stay"
+  },
+  "scene": {
+    "scene_id": "S15",
+    "time": "evening",
+    "weather": "indoor",
+    "action": "cooking dinner while talking on the phone",
+    "location": "small kitchen"
+  },
+  "period": "contemporary",
+  "region": "east_asia",
+  "season": "autumn",
+  "art_direction": "naturalistic slice-of-life realism",
+  "lighting": "warm kitchen overhead light",
+  "camera": "static medium shot",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "generic"
+}
