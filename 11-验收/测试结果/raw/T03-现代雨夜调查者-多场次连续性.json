@@ -312,6 +312,7 @@
       "GAR-0008",
       "GAR-0007",
       "GAR-0002",
+      "GAR-0034",
       "GAR-0003"
     ],
     "lower_body": [
@@ -326,7 +327,8 @@
     ],
     "outerwear": [
       "GAR-0019",
-      "GAR-0017"
+      "GAR-0017",
+      "GAR-0033"
     ],
     "accessory": [
       "GAR-0021",
@@ -337,9 +339,11 @@
     "footwear": [
       "GAR-0022",
       "GAR-0023",
-      "GAR-0024"
+      "GAR-0035"
     ],
     "one_piece": [
+      "GAR-0031",
+      "GAR-0032",
       "GAR-0029",
       "GAR-0015"
     ]
@@ -388,6 +392,13 @@
       ]
     },
     {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "rain: open footwear is unsafe/wet"
+      ]
+    },
+    {
       "id": "GAR-0004",
       "slot": "one_piece",
       "reasons": [
@@ -433,8 +444,12 @@
       "url": "https://fashionhistory.fitnyc.edu/bloomers/"
     },
     {
-      "source_id": "SRC-0118",
-      "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0155",
+      "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
     },
     {
       "source_id": "SRC-0124",

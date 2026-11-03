@@ -213,7 +213,9 @@ def load_cards(root=None, dirs=None, required=True):
         card = parse_card(path)
         meta = card["meta"]
         if not meta.get("id"):
-            if card["error"]:
+            # Docs such as 04-来源/README.md legitimately have no frontmatter;
+            # only warn about files that look like cards but fail to parse.
+            if card["error"] and card["error"] != "missing frontmatter":
                 errors.append({"path": card["rel"], "error": card["error"]})
             continue
         if card["error"]:

@@ -33,98 +33,74 @@
     {
       "look_ref": "A",
       "source_look_id": null,
-      "total": 36.6,
+      "total": 50.5,
       "scores": {
-        "period": 6.5,
-        "identity": 3.9,
-        "environment": 8.9,
-        "art": 3.8,
+        "period": 18.2,
+        "identity": 4.1,
+        "environment": 8.4,
+        "art": 5.2,
         "movement": 4.3,
-        "arc": 3.8,
-        "camera": 7.5
+        "arc": 3.5,
+        "camera": 7.8
       },
       "missing": [],
-      "cost": 0.352,
+      "cost": 0.351,
       "colors": [
         "beaded contrast",
         "black",
-        "cream",
-        "dark",
-        "embroidered",
-        "gold",
+        "mid blue",
         "natural hide",
+        "orange red",
+        "pink",
         "red",
-        "silk",
+        "silver",
         "white"
       ],
       "style_tags": [
+        "1930s",
         "arctic",
-        "athletic",
-        "boudoir",
-        "court",
-        "dandy",
+        "art",
+        "art deco",
+        "deco",
+        "era",
         "functional",
-        "menswear",
-        "suffragist",
-        "victorian"
+        "modern",
+        "republican",
+        "republican era",
+        "shanghai",
+        "shanghai modern"
       ],
       "items": [
         {
-          "slot": "upper_body",
-          "id": "GAR-0008",
-          "name_zh": "马甲",
-          "name_en": "waistcoat",
-          "colors": [
-            "black",
-            "cream",
-            "embroidered"
-          ],
-          "materials": [
-            "wool",
-            "silk",
-            "cotton"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0109"
-          ],
-          "scores": {
-            "period": 0.26,
-            "identity": 0.27083333333333337,
-            "environment": 0.5774999999999999,
-            "art": 0.24836601307189543,
-            "movement": 0.5,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0010",
-          "name_zh": "灯笼裤",
-          "name_en": "bloomers",
+          "slot": "one_piece",
+          "id": "GAR-0031",
+          "name_zh": "旗袍",
+          "name_en": "qipao",
           "colors": [
             "white",
-            "black",
-            "dark"
+            "orange_red",
+            "pink",
+            "mid_blue"
           ],
           "materials": [
-            "cotton",
-            "wool",
-            "linen"
+            "silk",
+            "synthetic_velvet",
+            "crepe",
+            "silk_damask"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0111"
+            "SRC-0200",
+            "SRC-0201"
           ],
           "scores": {
-            "period": 0.26,
+            "period": 1.0,
             "identity": 0.27083333333333337,
-            "environment": 0.5774999999999999,
-            "art": 0.26862745098039215,
+            "environment": 0.5135,
+            "art": 0.4858108108108108,
             "movement": 0.4,
-            "arc": 0.48,
-            "camera": 0.65
+            "arc": 0.35,
+            "camera": 0.8500000000000001
           }
         },
         {
@@ -151,7 +127,7 @@
             "period": 0.26,
             "identity": 0.27083333333333337,
             "environment": 0.6774999999999999,
-            "art": 0.24084967320261436,
+            "art": 0.236003861003861,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -159,29 +135,31 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0024",
-          "name_zh": "穆勒鞋",
-          "name_en": "mule",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
           "colors": [
+            "black",
             "red",
-            "silk",
-            "gold"
+            "silver"
           ],
           "materials": [
-            "leather",
+            "lace",
+            "sequins",
             "silk",
-            "velvet"
+            "metallic_brocade"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0125"
+            "SRC-0205",
+            "SRC-0206"
           ],
           "scores": {
-            "period": 0.26,
-            "identity": 0.225,
-            "environment": 0.5319999999999999,
-            "art": 0.24836601307189543,
-            "movement": 0.4,
+            "period": 0.9400000000000001,
+            "identity": 0.27083333333333337,
+            "environment": 0.49074999999999996,
+            "art": 0.2992277992277992,
+            "movement": 0.5,
             "arc": 0.35,
             "camera": 0.8500000000000001
           }
@@ -189,85 +167,90 @@
       ],
       "parts": [
         {
-          "id": "STR-0006",
-          "slot": "upper_body",
+          "id": "STR-0011",
+          "slot": "one_piece",
           "confidence": "explicit"
         }
       ],
       "materials": [
         {
           "id": "MAT-0002",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0001",
-          "slot": "upper_body"
+          "slot": "one_piece"
         },
         {
           "id": "MAT-0003",
-          "slot": "lower_body"
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0001",
+          "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, worn between shirt and jacket, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: beaded contrast, black, cream, dark, embroidered, gold, natural hide, red, silk, white, setting: S1, night, rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "沈砚, walking to the newspaper office, scene: S1, night, rain, camera: medium shot, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, worn between shirt and jacket, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起；双排扣款对动作更敏感，需锁定扣合状态。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003",
+      "prompt_image": "full-body character design of an adult 沈砚, one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: beaded contrast, black, mid blue, natural hide, orange red, pink, red, silver, white, setting: S1, night, rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_video": "沈砚, walking to the newspaper office, scene: S1, night, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 侧衩限制步幅，跨步/上下楼梯时最明显；贴身剪裁在坐姿时前襟与腰腹起皱；长紧袖款限制手腕动作；右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001",
       "reasons": [
-        "highest scoring dimensions: 环境气候 8.9/15, 摄影/一致性 7.5/10",
-        "上装: GAR-0008 马甲 (business)",
-        "下装: GAR-0010 灯笼裤 (casual)",
+        "highest scoring dimensions: 年代/文化 18.2/25, 环境气候 8.4/15",
+        "连身: GAR-0031 旗袍 (smart_casual)",
         "外层: GAR-0019 派克大衣 (functional)",
-        "足部: GAR-0024 穆勒鞋 (formal)",
-        "linked structure cards: STR-0006",
-        "linked material cards: MAT-0002, MAT-0001, MAT-0003"
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0001",
+        "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
-        "region mismatch in GAR-0008, GAR-0010, GAR-0019, GAR-0024: cards document their own regions, not shanghai",
+        "region mismatch in GAR-0019, GAR-0035: cards document their own regions, not shanghai",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0109",
-          "SRC-0111",
+          "SRC-0200",
+          "SRC-0201",
           "SRC-0120",
-          "SRC-0125",
-          "SRC-0136",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0202",
           "SRC-0141",
-          "SRC-0102",
-          "SRC-0142"
+          "SRC-0142",
+          "SRC-0102"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0109",
-            "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
-            "source_id": "SRC-0111",
-            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
             "source_id": "SRC-0120",
             "url": "https://fashionhistory.fitnyc.edu/anorak/"
           },
           {
-            "source_id": "SRC-0125",
-            "url": "https://fashionhistory.fitnyc.edu/mule/"
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
           },
           {
-            "source_id": "SRC-0136",
-            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
           }
         ],
         "context_style_ids": [
@@ -275,16 +258,15 @@
           "STY-EXAMPLE-001"
         ],
         "context_period_ids": [
-          "PRD-0005"
+          "PRD-0011"
         ],
         "context_scene_ids": [
           "SCN-0001"
         ],
         "item_evidence": {
-          "GAR-0008": "verified",
-          "GAR-0010": "verified",
+          "GAR-0031": "verified",
           "GAR-0019": "verified",
-          "GAR-0024": "verified"
+          "GAR-0035": "verified"
         },
         "missing_urls": []
       }
@@ -292,282 +274,35 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 36.0,
+      "total": 45.8,
       "scores": {
-        "period": 6.5,
-        "identity": 3.7,
-        "environment": 8.8,
-        "art": 3.6,
-        "movement": 4.0,
-        "arc": 3.5,
-        "camera": 7.9
-      },
-      "missing": [],
-      "cost": 0.364,
-      "colors": [
-        "beaded contrast",
-        "brown",
-        "cream",
-        "earth",
-        "gold",
-        "natural hide",
-        "red",
-        "silk",
-        "striped",
-        "tweed grey",
-        "white"
-      ],
-      "style_tags": [
-        "arctic",
-        "boudoir",
-        "country",
-        "court",
-        "edwardian",
-        "functional",
-        "sportswear",
-        "victorian"
-      ],
-      "items": [
-        {
-          "slot": "upper_body",
-          "id": "GAR-0007",
-          "name_zh": "衬衫式女衫",
-          "name_en": "shirtwaist",
-          "colors": [
-            "white",
-            "cream",
-            "striped"
-          ],
-          "materials": [
-            "cotton",
-            "silk",
-            "linen"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0108"
-          ],
-          "scores": {
-            "period": 0.26,
-            "identity": 0.225,
-            "environment": 0.5774999999999999,
-            "art": 0.24084967320261436,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0011",
-          "name_zh": "尼克裤",
-          "name_en": "knickerbockers",
-          "colors": [
-            "tweed_grey",
-            "brown",
-            "earth"
-          ],
-          "materials": [
-            "wool",
-            "tweed"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0112"
-          ],
-          "scores": {
-            "period": 0.26,
-            "identity": 0.27083333333333337,
-            "environment": 0.5319999999999999,
-            "art": 0.22058823529411764,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
-          }
-        },
-        {
-          "slot": "outerwear",
-          "id": "GAR-0019",
-          "name_zh": "派克大衣",
-          "name_en": "anorak",
-          "colors": [
-            "white",
-            "natural_hide",
-            "beaded_contrast"
-          ],
-          "materials": [
-            "seal_skin",
-            "caribou_fur",
-            "wool",
-            "cotton"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0120"
-          ],
-          "scores": {
-            "period": 0.26,
-            "identity": 0.27083333333333337,
-            "environment": 0.6774999999999999,
-            "art": 0.24084967320261436,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "footwear",
-          "id": "GAR-0024",
-          "name_zh": "穆勒鞋",
-          "name_en": "mule",
-          "colors": [
-            "red",
-            "silk",
-            "gold"
-          ],
-          "materials": [
-            "leather",
-            "silk",
-            "velvet"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0125"
-          ],
-          "scores": {
-            "period": 0.26,
-            "identity": 0.225,
-            "environment": 0.5319999999999999,
-            "art": 0.24836601307189543,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
-          }
-        }
-      ],
-      "parts": [],
-      "materials": [
-        {
-          "id": "MAT-0001",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0002",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "outerwear"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: beaded contrast, brown, cream, earth, gold, natural hide, red, silk, striped, tweed grey, white, setting: S1, night, rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "沈砚, walking to the newspaper office, scene: S1, night, rain, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
-      "reasons": [
-        "highest scoring dimensions: 环境气候 8.8/15, 摄影/一致性 7.9/10",
-        "上装: GAR-0007 衬衫式女衫 (smart_casual)",
-        "下装: GAR-0011 尼克裤 (casual)",
-        "外层: GAR-0019 派克大衣 (functional)",
-        "足部: GAR-0024 穆勒鞋 (formal)",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0003"
-      ],
-      "risks": [
-        "region mismatch in GAR-0007, GAR-0011, GAR-0019, GAR-0024: cards document their own regions, not shanghai",
-        "character psychology is a directorial interpretation, not a clothing-history fact",
-        "all images remain external links; no third-party images are embedded in the vault"
-      ],
-      "evidence": {
-        "source_ids": [
-          "SRC-0108",
-          "SRC-0112",
-          "SRC-0120",
-          "SRC-0125",
-          "SRC-0102",
-          "SRC-0141",
-          "SRC-0142"
-        ],
-        "source_urls": [
-          {
-            "source_id": "SRC-0108",
-            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
-          },
-          {
-            "source_id": "SRC-0112",
-            "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
-          },
-          {
-            "source_id": "SRC-0120",
-            "url": "https://fashionhistory.fitnyc.edu/anorak/"
-          },
-          {
-            "source_id": "SRC-0125",
-            "url": "https://fashionhistory.fitnyc.edu/mule/"
-          },
-          {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          }
-        ],
-        "context_style_ids": [
-          "STY-0010",
-          "STY-EXAMPLE-001"
-        ],
-        "context_period_ids": [
-          "PRD-0005"
-        ],
-        "context_scene_ids": [
-          "SCN-0001"
-        ],
-        "item_evidence": {
-          "GAR-0007": "verified",
-          "GAR-0011": "verified",
-          "GAR-0019": "verified",
-          "GAR-0024": "verified"
-        },
-        "missing_urls": []
-      }
-    },
-    {
-      "look_ref": "C",
-      "source_look_id": null,
-      "total": 36.2,
-      "scores": {
-        "period": 6.5,
-        "identity": 3.7,
-        "environment": 8.9,
+        "period": 14.8,
+        "identity": 4.1,
+        "environment": 8.6,
         "art": 3.7,
-        "movement": 4.0,
-        "arc": 3.8,
-        "camera": 7.5
+        "movement": 4.5,
+        "arc": 4.1,
+        "camera": 7.0
       },
       "missing": [],
-      "cost": 0.33,
+      "cost": 0.327,
       "colors": [
         "beaded contrast",
         "black",
-        "cream",
         "dark",
-        "gold",
         "natural hide",
         "red",
-        "silk",
-        "striped",
+        "silver",
         "white"
       ],
       "style_tags": [
+        "1930s",
         "arctic",
+        "art",
+        "art deco",
         "athletic",
-        "boudoir",
-        "court",
-        "edwardian",
+        "casual",
+        "deco",
         "functional",
         "suffragist",
         "victorian"
@@ -575,31 +310,26 @@
       "items": [
         {
           "slot": "upper_body",
-          "id": "GAR-0007",
-          "name_zh": "衬衫式女衫",
-          "name_en": "shirtwaist",
-          "colors": [
-            "white",
-            "cream",
-            "striped"
-          ],
+          "id": "GAR-0034",
+          "name_zh": "针织背心",
+          "name_en": "knitted vest",
+          "colors": [],
           "materials": [
-            "cotton",
-            "silk",
-            "linen"
+            "wool"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0108"
+            "SRC-0203",
+            "SRC-0155"
           ],
           "scores": {
-            "period": 0.26,
-            "identity": 0.225,
-            "environment": 0.5774999999999999,
-            "art": 0.24084967320261436,
-            "movement": 0.4,
-            "arc": 0.35,
-            "camera": 0.8500000000000001
+            "period": 0.9400000000000001,
+            "identity": 0.27083333333333337,
+            "environment": 0.5319999999999999,
+            "art": 0.19864864864864865,
+            "movement": 0.5,
+            "arc": 0.48,
+            "camera": 0.65
           }
         },
         {
@@ -625,7 +355,7 @@
             "period": 0.26,
             "identity": 0.27083333333333337,
             "environment": 0.5774999999999999,
-            "art": 0.26862745098039215,
+            "art": 0.25386100386100385,
             "movement": 0.4,
             "arc": 0.48,
             "camera": 0.65
@@ -655,7 +385,7 @@
             "period": 0.26,
             "identity": 0.27083333333333337,
             "environment": 0.6774999999999999,
-            "art": 0.24084967320261436,
+            "art": 0.236003861003861,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -663,35 +393,319 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0024",
-          "name_zh": "穆勒鞋",
-          "name_en": "mule",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
           "colors": [
+            "black",
             "red",
-            "silk",
-            "gold"
+            "silver"
           ],
           "materials": [
-            "leather",
+            "lace",
+            "sequins",
             "silk",
-            "velvet"
+            "metallic_brocade"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0125"
+            "SRC-0205",
+            "SRC-0206"
           ],
           "scores": {
-            "period": 0.26,
-            "identity": 0.225,
-            "environment": 0.5319999999999999,
-            "art": 0.24836601307189543,
-            "movement": 0.4,
+            "period": 0.9400000000000001,
+            "identity": 0.27083333333333337,
+            "environment": 0.49074999999999996,
+            "art": 0.2992277992277992,
+            "movement": 0.5,
             "arc": 0.35,
             "camera": 0.8500000000000001
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "upper_body",
+          "confidence": "suggested"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1930s man’s knitted wool vest, jersey knit, V-neck, sleeveless, ribbed hem, worn under a suit jacket or a changshan, muted colour; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: beaded contrast, black, dark, natural hide, red, silver, white, setting: S1, night, rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0034 knitted vest [unspecified; wool; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "沈砚, walking to the newspaper office, scene: S1, night, rain, camera: medium shot, costume: upper body: 1930s man’s knitted wool vest, jersey knit, V-neck, sleeveless, ribbed hem, worn under a suit jacket or a changshan, muted colour; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 针织有弹性、贴合躯干；抬臂时下摆与袖笼处易上移/变形，连续镜头需锁定长度与领口位置。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0034 knitted vest [unspecified; wool; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0034 knitted vest [unspecified; wool; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 14.8/25, 环境气候 8.6/15",
+        "上装: GAR-0034 针织背心 (casual)",
+        "下装: GAR-0010 灯笼裤 (casual)",
+        "外层: GAR-0019 派克大衣 (functional)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+      ],
+      "risks": [
+        "region mismatch in GAR-0034, GAR-0010, GAR-0019, GAR-0035: cards document their own regions, not shanghai",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0203",
+          "SRC-0155",
+          "SRC-0111",
+          "SRC-0120",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0200",
+          "SRC-0202",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0141"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0203",
+            "url": "https://collections.vam.ac.uk/item/O235319/"
+          },
+          {
+            "source_id": "SRC-0155",
+            "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
+          },
+          {
+            "source_id": "SRC-0111",
+            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+          },
+          {
+            "source_id": "SRC-0120",
+            "url": "https://fashionhistory.fitnyc.edu/anorak/"
+          },
+          {
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0010",
+          "STY-EXAMPLE-001"
+        ],
+        "context_period_ids": [
+          "PRD-0011"
+        ],
+        "context_scene_ids": [
+          "SCN-0001"
+        ],
+        "item_evidence": {
+          "GAR-0034": "verified",
+          "GAR-0010": "verified",
+          "GAR-0019": "verified",
+          "GAR-0035": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 41.5,
+      "scores": {
+        "period": 10.5,
+        "identity": 3.9,
+        "environment": 8.8,
+        "art": 3.9,
+        "movement": 4.2,
+        "arc": 3.8,
+        "camera": 7.5
+      },
+      "missing": [],
+      "cost": 0.293,
+      "colors": [
+        "beaded contrast",
+        "black",
+        "cream",
+        "dark",
+        "natural hide",
+        "red",
+        "silver",
+        "striped",
+        "white"
+      ],
+      "style_tags": [
+        "1930s",
+        "arctic",
+        "art",
+        "art deco",
+        "athletic",
+        "deco",
+        "edwardian",
+        "functional",
+        "suffragist",
+        "victorian"
+      ],
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-0007",
+          "name_zh": "衬衫式女衫",
+          "name_en": "shirtwaist",
+          "colors": [
+            "white",
+            "cream",
+            "striped"
+          ],
+          "materials": [
+            "cotton",
+            "silk",
+            "linen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0108"
+          ],
+          "scores": {
+            "period": 0.26,
+            "identity": 0.225,
+            "environment": 0.5774999999999999,
+            "art": 0.25386100386100385,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0010",
+          "name_zh": "灯笼裤",
+          "name_en": "bloomers",
+          "colors": [
+            "white",
+            "black",
+            "dark"
+          ],
+          "materials": [
+            "cotton",
+            "wool",
+            "linen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0111"
+          ],
+          "scores": {
+            "period": 0.26,
+            "identity": 0.27083333333333337,
+            "environment": 0.5774999999999999,
+            "art": 0.25386100386100385,
+            "movement": 0.4,
+            "arc": 0.48,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0019",
+          "name_zh": "派克大衣",
+          "name_en": "anorak",
+          "colors": [
+            "white",
+            "natural_hide",
+            "beaded_contrast"
+          ],
+          "materials": [
+            "seal_skin",
+            "caribou_fur",
+            "wool",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0120"
+          ],
+          "scores": {
+            "period": 0.26,
+            "identity": 0.27083333333333337,
+            "environment": 0.6774999999999999,
+            "art": 0.236003861003861,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
+          "colors": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "materials": [
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0205",
+            "SRC-0206"
+          ],
+          "scores": {
+            "period": 0.9400000000000001,
+            "identity": 0.27083333333333337,
+            "environment": 0.49074999999999996,
+            "art": 0.2992277992277992,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "upper_body",
+          "confidence": "suggested"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0001",
@@ -706,19 +720,20 @@
           "slot": "lower_body"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: beaded contrast, black, cream, dark, gold, natural hide, red, silk, striped, white, setting: S1, night, rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "沈砚, walking to the newspaper office, scene: S1, night, rain, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: beaded contrast, black, cream, dark, natural hide, red, silver, striped, white, setting: S1, night, rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "沈砚, walking to the newspaper office, scene: S1, night, rain, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
       "reasons": [
-        "highest scoring dimensions: 环境气候 8.9/15, 摄影/一致性 7.5/10",
+        "highest scoring dimensions: 年代/文化 10.5/25, 环境气候 8.8/15",
         "上装: GAR-0007 衬衫式女衫 (smart_casual)",
         "下装: GAR-0010 灯笼裤 (casual)",
         "外层: GAR-0019 派克大衣 (functional)",
-        "足部: GAR-0024 穆勒鞋 (formal)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "linked structure cards: STR-0011",
         "linked material cards: MAT-0001, MAT-0002, MAT-0003"
       ],
       "risks": [
-        "region mismatch in GAR-0007, GAR-0010, GAR-0019, GAR-0024: cards document their own regions, not shanghai",
+        "region mismatch in GAR-0007, GAR-0010, GAR-0019, GAR-0035: cards document their own regions, not shanghai",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
@@ -727,7 +742,10 @@
           "SRC-0108",
           "SRC-0111",
           "SRC-0120",
-          "SRC-0125",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0200",
+          "SRC-0202",
           "SRC-0102",
           "SRC-0141",
           "SRC-0142"
@@ -746,8 +764,20 @@
             "url": "https://fashionhistory.fitnyc.edu/anorak/"
           },
           {
-            "source_id": "SRC-0125",
-            "url": "https://fashionhistory.fitnyc.edu/mule/"
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
             "source_id": "SRC-0102",
@@ -767,7 +797,7 @@
           "STY-EXAMPLE-001"
         ],
         "context_period_ids": [
-          "PRD-0005"
+          "PRD-0011"
         ],
         "context_scene_ids": [
           "SCN-0001"
@@ -776,7 +806,7 @@
           "GAR-0007": "verified",
           "GAR-0010": "verified",
           "GAR-0019": "verified",
-          "GAR-0024": "verified"
+          "GAR-0035": "verified"
         },
         "missing_urls": []
       }
@@ -788,7 +818,7 @@
       "STY-EXAMPLE-001"
     ],
     "period_refs": [
-      "PRD-0005"
+      "PRD-0011"
     ],
     "scene_refs": [
       "SCN-0001"
@@ -796,6 +826,7 @@
   },
   "retrieved_ids": {
     "upper_body": [
+      "GAR-0034",
       "GAR-0008",
       "GAR-0007"
     ],
@@ -807,7 +838,11 @@
       "GAR-0019"
     ],
     "footwear": [
-      "GAR-0024"
+      "GAR-0035"
+    ],
+    "one_piece": [
+      "GAR-0031",
+      "GAR-0032"
     ]
   },
   "rejected": [
@@ -912,6 +947,13 @@
       ]
     },
     {
+      "id": "GAR-0033",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 1940s)"
+      ]
+    },
+    {
       "id": "GAR-0025",
       "slot": "accessory",
       "reasons": [
@@ -944,6 +986,13 @@
       "slot": "footwear",
       "reasons": [
         "historical mode: period mismatch (1930s vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "rain: open footwear is unsafe/wet"
       ]
     },
     {
@@ -993,44 +1042,56 @@
   "warnings": [],
   "sources": [
     {
-      "source_id": "SRC-0109",
-      "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
     },
     {
-      "source_id": "SRC-0111",
-      "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
     },
     {
       "source_id": "SRC-0120",
       "url": "https://fashionhistory.fitnyc.edu/anorak/"
     },
     {
-      "source_id": "SRC-0125",
-      "url": "https://fashionhistory.fitnyc.edu/mule/"
+      "source_id": "SRC-0205",
+      "url": "https://collections.vam.ac.uk/item/O350849/"
     },
     {
-      "source_id": "SRC-0136",
-      "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+      "source_id": "SRC-0206",
+      "url": "https://collections.vam.ac.uk/item/O350850/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
     },
     {
       "source_id": "SRC-0141",
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
-      "source_id": "SRC-0102",
-      "url": "https://fashionhistory.fitnyc.edu/muslin/"
-    },
-    {
       "source_id": "SRC-0142",
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
-      "source_id": "SRC-0108",
-      "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
     },
     {
-      "source_id": "SRC-0112",
-      "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
+      "source_id": "SRC-0203",
+      "url": "https://collections.vam.ac.uk/item/O235319/"
+    },
+    {
+      "source_id": "SRC-0155",
+      "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
+    },
+    {
+      "source_id": "SRC-0111",
+      "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+    },
+    {
+      "source_id": "SRC-0108",
+      "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
     }
   ],
   "missing_urls": [],

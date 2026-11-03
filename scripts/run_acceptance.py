@@ -303,17 +303,21 @@ def pair_check(name, first, second):
         return ("PASS" if ok else "FAIL",
                 "A item overlap=%d, prompts differ=%s" % (overlap, differs))
     if name == "class_pair":
+        def id_text(values):
+            # Avoid "[[" sequences: Obsidian must never parse them as wikilinks.
+            return ", ".join(sorted(values)) if values else "none"
+
         a_symmetric = ids(looks1[0]) ^ ids(looks2[0])
         total_symmetric = 0
         per_look = []
         for idx in range(min(len(looks1), len(looks2))):
             diff = ids(looks1[idx]) ^ ids(looks2[idx])
-            per_look.append(sorted(diff))
+            per_look.append(id_text(diff))
             total_symmetric += len(diff)
         ok = len(a_symmetric) >= 2 or (len(a_symmetric) >= 1 and total_symmetric >= 4)
         return ("PASS" if ok else "FAIL",
-                "A diff=%s; per-look symmetric differences=%s" % (
-                    sorted(a_symmetric), per_look))
+                "A missing/extra ids: %s; per-look differences: %s" % (
+                    id_text(a_symmetric), " | ".join(per_look)))
     return "NOT_TESTED", "unknown pair check %r" % name
 
 

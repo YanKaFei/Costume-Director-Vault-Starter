@@ -554,41 +554,41 @@
     },
     {
       "look_ref": "C",
-      "source_look_id": "LOOK-EXAMPLE-001",
-      "total": 45.9,
+      "source_look_id": null,
+      "total": 47.5,
       "scores": {
-        "period": 18.7,
-        "identity": 3.9,
-        "environment": 3.4,
+        "period": 17.1,
+        "identity": 4.0,
+        "environment": 3.0,
         "art": 5.0,
-        "movement": 5.4,
-        "arc": 6.4,
-        "camera": 8.1
+        "movement": 5.0,
+        "arc": 6.2,
+        "camera": 8.2
       },
-      "missing": [
-        "outerwear"
-      ],
-      "cost": 0.237,
+      "missing": [],
+      "cost": 0.244,
       "colors": [
+        "beaded contrast",
         "black",
-        "blue black",
         "brown",
-        "indigo",
-        "off white"
+        "dark",
+        "natural hide",
+        "off white",
+        "white"
       ],
       "style_tags": [
-        "class",
+        "arctic",
+        "athletic",
         "contemporary",
         "country",
         "fictional",
         "fictional noir",
+        "functional",
         "military",
         "minimal",
         "noir",
-        "rockabilly",
-        "working",
-        "working class",
-        "youth"
+        "suffragist",
+        "victorian"
       ],
       "items": [
         {
@@ -616,28 +616,60 @@
         },
         {
           "slot": "lower_body",
-          "id": "GAR-0014",
-          "name_zh": "牛仔裤",
-          "name_en": "jeans",
+          "id": "GAR-0010",
+          "name_zh": "灯笼裤",
+          "name_en": "bloomers",
           "colors": [
-            "indigo",
-            "blue_black"
+            "white",
+            "black",
+            "dark"
           ],
           "materials": [
-            "denim",
+            "cotton",
+            "wool",
+            "linen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0111"
+          ],
+          "scores": {
+            "period": 0.46,
+            "identity": 0.30523611111111115,
+            "environment": 0.12249999999999998,
+            "art": 0.32954545454545453,
+            "movement": 0.4,
+            "arc": 0.675,
+            "camera": 0.8500000000000001
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0019",
+          "name_zh": "派克大衣",
+          "name_en": "anorak",
+          "colors": [
+            "white",
+            "natural_hide",
+            "beaded_contrast"
+          ],
+          "materials": [
+            "seal_skin",
+            "caribou_fur",
+            "wool",
             "cotton"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0115"
+            "SRC-0120"
           ],
           "scores": {
             "period": 0.8600000000000001,
-            "identity": 0.244125,
+            "identity": 0.23175,
             "environment": 0.12249999999999998,
-            "art": 0.24621212121212122,
+            "art": 0.2606060606060606,
             "movement": 0.4,
-            "arc": 0.675,
+            "arc": 0.5666666666666667,
             "camera": 0.8500000000000001
           }
         },
@@ -680,36 +712,40 @@
           "slot": "lower_body"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue black, brown, indigo, off white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "prompt_image": "full-body character design of an adult Lin, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, brown, dark, natural hide, off white, white, setting: S7, night, dry, art direction: restrained urban noir, lighting: cool blue moonlight, cyan neon rim light, low saturation, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 18.7/25, 摄影/一致性 8.1/10",
+        "highest scoring dimensions: 年代/文化 17.1/25, 摄影/一致性 8.2/10",
         "上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)",
-        "下装: GAR-0014 牛仔裤 (casual)",
+        "下装: GAR-0010 灯笼裤 (casual)",
+        "外层: GAR-0019 派克大衣 (functional)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0003",
-        "based on curated vault look card LOOK-EXAMPLE-001"
+        "linked material cards: MAT-0001, MAT-0003"
       ],
       "risks": [
-        "incomplete look, missing: outerwear (knowledge-base gap, do not invent items)",
         "look includes example cards, not historical evidence",
         "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0014, GAR-0022: cards document their own regions, not unspecified city",
+        "region mismatch in GAR-0010, GAR-0019, GAR-0022: cards document their own regions, not unspecified city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0115",
+          "SRC-0111",
+          "SRC-0120",
           "SRC-0123",
           "SRC-0102",
           "SRC-0142"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0115",
-            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+            "source_id": "SRC-0111",
+            "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+          },
+          {
+            "source_id": "SRC-0120",
+            "url": "https://fashionhistory.fitnyc.edu/anorak/"
           },
           {
             "source_id": "SRC-0123",
@@ -734,7 +770,8 @@
         ],
         "item_evidence": {
           "GAR-EXAMPLE-001": "example",
-          "GAR-0014": "verified",
+          "GAR-0010": "verified",
+          "GAR-0019": "verified",
           "GAR-0022": "verified"
         },
         "missing_urls": []
@@ -758,7 +795,8 @@
       "GAR-0008",
       "GAR-0002",
       "GAR-0007",
-      "GAR-0003"
+      "GAR-0003",
+      "GAR-0034"
     ],
     "lower_body": [
       "GAR-0014",
@@ -774,7 +812,8 @@
       "GAR-0019",
       "GAR-0018",
       "GAR-0017",
-      "GAR-0016"
+      "GAR-0016",
+      "GAR-0033"
     ],
     "accessory": [
       "GAR-0021",
@@ -785,9 +824,12 @@
     "footwear": [
       "GAR-0022",
       "GAR-0023",
+      "GAR-0035",
       "GAR-0024"
     ],
     "one_piece": [
+      "GAR-0031",
+      "GAR-0032",
       "GAR-0015",
       "GAR-0029"
     ]

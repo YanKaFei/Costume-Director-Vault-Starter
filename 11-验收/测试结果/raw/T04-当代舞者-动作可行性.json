@@ -213,43 +213,44 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 38.5,
+      "total": 39.1,
       "scores": {
-        "period": 16.0,
-        "identity": 3.3,
-        "environment": 1.8,
-        "art": 3.0,
-        "movement": 4.7,
+        "period": 13.7,
+        "identity": 3.4,
+        "environment": 2.8,
+        "art": 3.3,
+        "movement": 4.8,
         "arc": 4.5,
-        "camera": 7.6
+        "camera": 8.0
       },
       "missing": [],
       "cost": 0.285,
       "colors": [
-        "beaded",
         "beaded contrast",
         "black",
-        "buckskin",
         "dark",
         "multicolor",
         "natural hide",
         "navy",
         "printed",
+        "red",
+        "silver",
         "solid color",
-        "tan",
         "white"
       ],
       "style_tags": [
+        "1930s",
         "afrocentric",
         "arctic",
+        "art",
+        "art deco",
         "athletic",
         "black",
         "black pride",
         "counterculture",
-        "craft",
+        "deco",
         "domestic",
         "functional",
-        "indigenous",
         "pride",
         "suffragist",
         "victorian"
@@ -343,31 +344,33 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0023",
-          "name_zh": "莫卡辛鞋",
-          "name_en": "moccasins",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
           "colors": [
-            "tan",
-            "buckskin",
-            "beaded"
+            "black",
+            "red",
+            "silver"
           ],
           "materials": [
-            "leather",
-            "beads",
-            "silk_ribbon"
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0124"
+            "SRC-0205",
+            "SRC-0206"
           ],
           "scores": {
-            "period": 0.78,
-            "identity": 0.210375,
-            "environment": 0.12249999999999998,
-            "art": 0.16714285714285715,
-            "movement": 0.4857142857142857,
+            "period": 0.33999999999999997,
+            "identity": 0.244125,
+            "environment": 0.4225,
+            "art": 0.2773809523809524,
+            "movement": 0.5,
             "arc": 0.35,
-            "camera": 0.65
+            "camera": 0.8500000000000001
           }
         },
         {
@@ -420,21 +423,21 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Qiao, upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, floral beadwork and silk ribbon ties, no separate heel; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, palette: beaded, beaded contrast, black, buckskin, dark, multicolor, natural hide, navy, printed, solid color, tan, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, floral beadwork and silk ribbon ties, no separate heel; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 宽松套头，手臂活动自由；下摆与袖口在动作中易上移，需确认长度。, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult Qiao, upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, palette: beaded contrast, black, dark, multicolor, natural hide, navy, printed, red, silver, solid color, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: loose bloomers gathered below the knee or at the ankle, worn under a knee-length skirt, white cotton or dark wool, full trouser legs; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: sleeveless pinafore apron over a dress, ruffled hem curving up at the sides, white cotton or printed fabric, tied at the back, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起；骑行时需确认不会卷入车轮。; 宽松套头，手臂活动自由；下摆与袖口在动作中易上移，需确认长度。, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 16.0/25, 摄影/一致性 7.6/10",
+        "highest scoring dimensions: 年代/文化 13.7/25, 摄影/一致性 8.0/10",
         "上装: GAR-0006 达希基套衫 (casual)",
         "下装: GAR-0010 灯笼裤 (casual)",
         "外层: GAR-0019 派克大衣 (functional)",
-        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "配饰: GAR-0021 围裙裙 (casual)",
         "linked structure cards: STR-0003",
         "linked material cards: MAT-0001, MAT-0003, MAT-0002"
       ],
       "risks": [
-        "region mismatch in GAR-0006, GAR-0010, GAR-0019, GAR-0023, GAR-0021: cards document their own regions, not unspecified city",
+        "region mismatch in GAR-0006, GAR-0010, GAR-0019, GAR-0035, GAR-0021: cards document their own regions, not unspecified city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
@@ -443,7 +446,8 @@
           "SRC-0107",
           "SRC-0111",
           "SRC-0120",
-          "SRC-0124",
+          "SRC-0205",
+          "SRC-0206",
           "SRC-0122",
           "SRC-0133",
           "SRC-0102",
@@ -464,8 +468,12 @@
             "url": "https://fashionhistory.fitnyc.edu/anorak/"
           },
           {
-            "source_id": "SRC-0124",
-            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
           },
           {
             "source_id": "SRC-0122",
@@ -500,7 +508,7 @@
           "GAR-0006": "verified",
           "GAR-0010": "verified",
           "GAR-0019": "verified",
-          "GAR-0023": "verified",
+          "GAR-0035": "verified",
           "GAR-0021": "verified"
         },
         "missing_urls": []
@@ -707,6 +715,7 @@
       "GAR-0002",
       "GAR-0008",
       "GAR-0007",
+      "GAR-0034",
       "GAR-0003"
     ],
     "lower_body": [
@@ -723,7 +732,8 @@
       "GAR-0019",
       "GAR-0018",
       "GAR-0017",
-      "GAR-0016"
+      "GAR-0016",
+      "GAR-0033"
     ],
     "accessory": [
       "GAR-0021",
@@ -734,9 +744,12 @@
     "footwear": [
       "GAR-0022",
       "GAR-0023",
+      "GAR-0035",
       "GAR-0024"
     ],
     "one_piece": [
+      "GAR-0031",
+      "GAR-0032",
       "GAR-0029",
       "GAR-0015"
     ]
@@ -816,8 +829,12 @@
       "url": "https://fashionhistory.fitnyc.edu/anorak/"
     },
     {
-      "source_id": "SRC-0124",
-      "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+      "source_id": "SRC-0205",
+      "url": "https://collections.vam.ac.uk/item/O350849/"
+    },
+    {
+      "source_id": "SRC-0206",
+      "url": "https://collections.vam.ac.uk/item/O350850/"
     },
     {
       "source_id": "SRC-0122",

@@ -581,7 +581,8 @@ def is_open_footwear(card):
     name = lib.norm_text(lib.get_str(card["meta"], "name_en") + " " +
                          lib.get_str(card["meta"], "name_zh"))
     return any(x in sub + " " + name for x in
-               ["sandal", "flip", "slipper", "凉鞋", "拖鞋"])
+               ["sandal", "flip", "slipper", "mule", "backless", "clog",
+                "凉鞋", "拖鞋", "穆勒"])
 
 
 # ---------------------------------------------------------------------------
@@ -1079,6 +1080,27 @@ def build_pools(cards, ctx):
             continue
         item = score_item(card, slot, ctx)
         pools.setdefault(slot, []).append(item)
+    # If a required layer has no candidates because a weather safety rule removed
+    # every option (e.g. no 1930s waterproof shoe in the vault), fall back to the
+    # least-bad footwear and flag it instead of returning a look without shoes.
+    if not pools.get("footwear"):
+        relaxed = []
+        for card in cards:
+            if lib.norm_text(card["meta"].get("type")) != "garment":
+                continue
+            if classify_slot(card) != "footwear":
+                continue
+            reasons = hard_filter(card, "footwear", ctx)
+            if reasons and all(("open footwear" in reason) for reason in reasons):
+                item = score_item(card, "footwear", ctx)
+                pools.setdefault("footwear", []).append(item)
+                relaxed.append({"id": item["id"], "reasons": reasons})
+        if relaxed:
+            ctx["relaxed"] = relaxed
+            for entry in relaxed:
+                rejected.append({"id": entry["id"], "slot": "footwear",
+                                 "reasons": entry["reasons"] + [
+                                     "relaxed fallback: no weather-appropriate footwear"]})
     for slot in pools:
         pools[slot].sort(key=lambda item: (-item["total"], item["id"]))
     ctx["rejected"] = rejected
@@ -1742,6 +1764,12 @@ def build_explanations(look, ctx):
         if any(look["items"].get(slot) and is_heels(look["items"][slot]["card"])
                for slot in ("footwear",)):
             risks.append("dance: heeled footwear in the look")
+    footwear = look["items"].get("footwear")
+    if footwear and (weather & WET_TOKENS or weather & COLD_TOKENS):
+        if is_open_footwear(footwear["card"]):
+            risks.append("weather: open/heelless footwear selected (%s); the vault "
+                         "has no period-appropriate waterproof boot for this look, "
+                         "treat as a continuity/production risk" % footwear["id"])
     want_region_labels = labels([inp["region"]])
     region_mismatch = []
     for slot in SLOT_ORDER:
@@ -2100,6 +2128,11 @@ def make_result(inp, cards, sources):
         "warnings": [],
         "checks": {},
     }
+    if ctx.get("relaxed"):
+        result["warnings"].append(
+            "weather/footwear constraint relaxed: no waterproof footwear in vault; "
+            "open footwear kept as least-bad option with risk note (%s)" %
+            ", ".join(entry["id"] for entry in ctx["relaxed"]))
     if not looks:
         result["warnings"].append("no wardrobe candidates: check card coverage for %s" % (
             "period " + inp["period"] if inp["fidelity_mode"] == "historical" else "required slots"))

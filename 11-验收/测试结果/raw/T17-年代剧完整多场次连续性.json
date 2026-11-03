@@ -232,6 +232,11 @@
           "id": "STR-0004",
           "slot": "upper_body",
           "confidence": "suggested"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "lower_body",
+          "confidence": "suggested"
         }
       ],
       "materials": [
@@ -244,7 +249,7 @@
           "slot": "upper_body"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: unspecified location, unknown, overcast, dry heavy rain indoor, damp indoor cold, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: unspecified location, unknown, overcast, dry heavy rain indoor, damp indoor cold, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
       "prompt_video": "沈砚, walking to the archive running under an awning searching a desk drawer reading a letter, scene: unspecified location, unknown, overcast, dry heavy rain indoor, damp indoor cold, camera: medium tracking shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝裙摆限制大步跑动；转身时下摆展开，需检查后开衩与纽扣状态。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
       "reasons": [
@@ -253,7 +258,7 @@
         "下装: GAR-0011 尼克裤 (casual)",
         "外层: GAR-0017 夫罗克大衣 (formal)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0004",
+        "linked structure cards: STR-0004, STR-0011",
         "linked material cards: MAT-0001, MAT-0002"
       ],
       "risks": [
@@ -268,6 +273,8 @@
           "SRC-0118",
           "SRC-0123",
           "SRC-0134",
+          "SRC-0200",
+          "SRC-0202",
           "SRC-0102",
           "SRC-0141"
         ],
@@ -291,6 +298,14 @@
           {
             "source_id": "SRC-0134",
             "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
             "source_id": "SRC-0102",
@@ -382,6 +397,13 @@
       ]
     },
     {
+      "id": "GAR-0034",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs 1930s)"
+      ]
+    },
+    {
       "id": "GAR-EXAMPLE-001",
       "slot": "upper_body",
       "reasons": [
@@ -448,6 +470,13 @@
       ]
     },
     {
+      "id": "GAR-0033",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs 1940s)"
+      ]
+    },
+    {
       "id": "GAR-0025",
       "slot": "accessory",
       "reasons": [
@@ -465,7 +494,16 @@
       "id": "GAR-0024",
       "slot": "footwear",
       "reasons": [
-        "historical mode: period mismatch (1890s vs 16th_century, 17th_century, 18th_century, 20th_century)"
+        "historical mode: period mismatch (1890s vs 16th_century, 17th_century, 18th_century, 20th_century)",
+        "rain: open footwear is unsafe/wet",
+        "cold: open footwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0035",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs 1930s)"
       ]
     },
     {
@@ -496,6 +534,20 @@
       "reasons": [
         "historical mode: period mismatch (1890s vs roman_republic, roman_empire)"
       ]
+    },
+    {
+      "id": "GAR-0031",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs 1930s, republican_era)"
+      ]
+    },
+    {
+      "id": "GAR-0032",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs 1930s, republican_era)"
+      ]
     }
   ],
   "warnings": [],
@@ -519,6 +571,14 @@
     {
       "source_id": "SRC-0134",
       "url": "https://fashionhistory.fitnyc.edu/gigot-sleeve/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
     },
     {
       "source_id": "SRC-0102",
@@ -590,7 +650,7 @@
           "dirt": "none",
           "accessories": []
         },
-        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: new york street, evening, overcast, dry, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: new york street, evening, overcast, dry, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
         "prompt_video": "沈砚, walking to the archive, scene: new york street, evening, overcast, dry, camera: medium tracking shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝裙摆限制大步跑动；转身时下摆展开，需检查后开衩与纽扣状态。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories"
       },
       {
@@ -607,7 +667,7 @@
           "dirt": "none",
           "accessories": []
         },
-        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: rain-soaked street, night, heavy rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: rain-soaked street, night, heavy rain, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
         "prompt_video": "沈砚, running under an awning, scene: rain-soaked street, night, heavy rain, camera: medium tracking shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝裙摆限制大步跑动；转身时下摆展开，需检查后开衩与纽扣状态。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition"
       },
       {
@@ -624,7 +684,7 @@
           "dirt": "none",
           "accessories": []
         },
-        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: archive office, late night, indoor, damp, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: archive office, late night, indoor, damp, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
         "prompt_video": "沈砚, searching a desk drawer, scene: archive office, late night, indoor, damp, camera: medium tracking shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝裙摆限制大步跑动；转身时下摆展开，需检查后开衩与纽扣状态。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories"
       },
       {
@@ -641,7 +701,7 @@
           "dirt": "ink stain",
           "accessories": []
         },
-        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: archive office, morning, indoor cold, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=minor tear on left cuff; dirt=ink stain; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+        "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, cream, dark grey, earth, navy, striped, tweed grey, white, setting: archive office, morning, indoor cold, art direction: restrained urban period drama, lighting: cool moonlight with warm practicals, camera: medium tracking shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: gigot sleeve (STR-0004); frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=minor tear on left cuff; dirt=ink stain; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
         "prompt_video": "沈砚, reading a letter, scene: archive office, morning, indoor cold, camera: medium tracking shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm, tucked into skirt waistband; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及膝裙摆限制大步跑动；转身时下摆展开，需检查后开衩与纽扣状态。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出；高领限制颈部转动。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=minor tear on left cuff; dirt=ink stain; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories"
       }
     ]
