@@ -16,9 +16,11 @@
       "prompts"
     ],
     "query": [
-      "winter coat boots",
+      "boots",
+      "--type",
+      "garment",
       "--limit",
-      "8",
+      "6",
       "--json"
     ]
   },

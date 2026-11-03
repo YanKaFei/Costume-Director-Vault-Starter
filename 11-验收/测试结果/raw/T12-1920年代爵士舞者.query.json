@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "STY-0003",
+    "path": "05-风格体系/STY-0003-爵士时代摩登风格.md",
+    "name_zh": "爵士时代摩登风格",
+    "name_en": "Jazz Age modernism style",
+    "type": "style",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0154"
+    ],
+    "snippet": "# 爵士时代摩登风格 / jazz age modernism style ## 定义 1920 年代以美国与西欧为中心的现代女性着装取向，以简化层叠、方便活…",
+    "score": 8.0
+  },
+  {
+    "id": "PRD-0004",
+    "path": "06-时代地域/PRD-0004-1920年代美国与西欧.md",
+    "name_zh": "1920 年代美国与西欧",
+    "name_en": "1920s United States and Western Europe",
+    "type": "period_region",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0154"
+    ],
+    "snippet": "…装吸收网球与运动元素，整体轻便。 ## 适用条件 1920s 都市、舞会、夜宴与网球场景；爵士乐与夜生活题材；战后女性独立与消费文化叙事。 ## 不适用条件 1930s 的斜裁贴身长裙；1950s 的收腰大裙；把 flapper 简化为流苏与羽…",
+    "score": 7.0
+  },
+  {
+    "id": "SRC-0154",
+    "path": "04-来源/SRC-0154-FIT-1920年代概览.md",
+    "name_zh": "1920至1929年 FIT 年代概览",
+    "name_en": "FIT 1920-1929 decade overview",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "…tp 200，内容与 note 所述范围一致） ## 相关卡片 - [[sty-0003-爵士时代摩登风格]] - [[prd-0004-1920年代美国与西欧]] - [[src-0155-fit-1930年代概览]]",
+    "score": 1.0
+  },
+  {
+    "id": "STY-0004",
+    "path": "05-风格体系/STY-0004-好莱坞魅惑造型.md",
+    "name_zh": "好莱坞魅惑造型",
+    "name_en": "Hollywood glamour styling",
+    "type": "style",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0155"
+    ],
+    "snippet": "…卡片 - [[prd-0005-1930年代美国好莱坞语境]] - [[sty-0003-爵士时代摩登风格]] - [[sty-0005-黑色电影造型]] - [[mat-0002-尚蒂伊蕾丝]] - [[gar-0024-穆勒鞋]] 1930…",
+    "score": 1.0
+  },
+  {
+    "id": "STY-0008",
+    "path": "05-风格体系/STY-0008-九十年代极简主义.md",
+    "name_zh": "九十年代极简主义",
+    "name_en": "1990s minimalism",
+    "type": "style",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0161",
+      "SRC-0160"
+    ],
+    "snippet": "…代伦敦与美国]] - [[sty-0007-朋克亚文化风格]] - [[sty-0003-爵士时代摩登风格]] - [[gar-0014-牛仔裤]] - [[gar-0007-衬衫式女衫]] 1990s minimalism, clean-li…",
+    "score": 1.0
+  }
+]

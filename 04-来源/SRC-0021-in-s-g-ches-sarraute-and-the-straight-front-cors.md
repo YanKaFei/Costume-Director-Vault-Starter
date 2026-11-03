@@ -7,7 +7,7 @@ title: "Inès Gâches-Sarraute and the Straight-Front Corset | Fashion History T
 publisher: "Fashion Institute of Technology (FIT), SUNY"
 url: "https://fashionhistory.fitnyc.edu/ines-gaches-sarraute-corset/"
 date_accessed: "2026-11-04"
-source_kind: thematic_essay
+source_kind: reference_work
 rights_statement: "© Fashion Institute of Technology；作者 Kenna Libes；仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, thematic_essay, corset, underwear, 1900s]
 
 **发布者**：Fashion Institute of Technology (FIT), SUNY
 
-**来源类型**：thematic_essay
+**来源类型**：reference_work
 
 **URL**：https://fashionhistory.fitnyc.edu/ines-gaches-sarraute-corset/
 

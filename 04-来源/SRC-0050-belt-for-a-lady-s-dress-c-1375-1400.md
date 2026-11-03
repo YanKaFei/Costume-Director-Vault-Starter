@@ -7,7 +7,7 @@ title: "Belt for a Lady's Dress"
 publisher: "Cleveland Museum of Art"
 url: "https://openaccess-api.clevelandart.org/api/artworks/112320"
 date_accessed: "2026-11-04"
-source_kind: museum_object_record
+source_kind: museum_collection
 rights_statement: "克利夫兰艺术博物馆开放数据 API 记录 share_license_status=CC0；本卡仅存链接与元数据，不下载图像"
 license_status: cc0
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, museum_object, cma, accessory, medieval]
 
 **发布者**：Cleveland Museum of Art
 
-**来源类型**：museum_object_record
+**来源类型**：museum_collection
 
 **URL**：https://openaccess-api.clevelandart.org/api/artworks/112320
 

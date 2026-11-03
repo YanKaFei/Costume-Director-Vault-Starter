@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "GAR-0028",
+    "path": "01-服装单品/配饰/GAR-0028-手笼.md",
+    "name_zh": "手笼",
+    "name_en": "muff",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0129"
+    ],
+    "snippet": "# 手笼 / muff ## 定义 手笼（muff）是 16 世纪起欧洲男女使用的筒状毛皮/织物手暖，双手从两端插入；17—18 世纪为贵族冬季配饰，19 世纪随女装外套演…",
+    "score": 8.0
+  },
+  {
+    "id": "SRC-0129",
+    "path": "04-来源/SRC-0129-FIT-muff.md",
+    "name_zh": "FIT：muff（手笼）",
+    "name_en": "muff | Fashion History Timeline",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0129 fit：muff（手笼） ## 定义 fit fashion history timeline 术语/年代条目：muff（手笼） ## 结构要点 - 发布机构：fas…",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-0001",
+    "path": "09-造型组合/LOOK-0001-洛可可沙龙女主人.md",
+    "name_zh": "洛可可沙龙女主人",
+    "name_en": "rococo salon hostess look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0150"
+    ],
+    "snippet": "…]]（stomacher）填补前襟并拉长躯干。 - 配饰：[[gar-0028-手笼]]（muff）与 [[mat-0002-尚蒂伊蕾丝]] 领口/袖口边缘。 - 足部：[[gar-0024-穆勒鞋]]（mule），室内场景使用，符合无后帮鞋的行走…",
+    "score": 3.0
+  },
+  {
+    "id": "SRC-0053",
+    "path": "04-来源/SRC-0053-scarves-costume-accessories.md",
+    "name_zh": "AAT 词条：scarves（围巾/披巾）",
+    "name_en": "scarves (costume accessories)",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "…统（如 keffiyeh、dupatta），需另引来源。 - 与 shawl、stole、muffler 的边界需按 aat 具体词条判断。 - 复用需署名 getty research institute。 - 引用时保留原始页面标题与发布者；不…",
+    "score": 1.0
+  }
+]

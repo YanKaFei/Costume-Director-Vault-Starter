@@ -3,7 +3,8 @@
 
 Usage examples
 --------------
-    python3 scripts/query.py "立领 shirt" 
+    python3 scripts/query.py "立领 shirt"            # -> AND(立领, shirt)
+    python3 scripts/query.py "stand collar" --phrase  # exact phrase
     python3 scripts/query.py "rain" --type look,style --limit 5
     python3 scripts/query.py --type garment --category outerwear --style-tag noir --json
     python3 scripts/query.py "羊毛" --period 1930s --region shanghai --evidence verified
@@ -12,8 +13,11 @@ Usage examples
 Semantics
 ---------
 * Positional QUERY terms are case-insensitive substrings matched against
-  frontmatter text fields and body text.  Default is AND (every term must hit
-  at least one field); use --match any for OR.
+  frontmatter text fields and body text.  Whitespace inside a positional term
+  is split into separate AND terms (so "立领 shirt" means 立领 AND shirt).
+  Use --phrase to keep each positional argument as one exact phrase.
+  Default across all terms is AND (every term must hit at least one field);
+  use --match any for OR.
 * Field hits are weighted (name/id/tags beat body text).
 * --json prints a JSON array with exactly the contract keys plus "score":
   id, path, name_zh, name_en, type, evidence_status, source_ids, snippet.
@@ -158,7 +162,13 @@ def run_query(args):
     for err in errors:
         print("WARN skipped card %s: %s" % (err["path"], err["error"]),
               file=sys.stderr)
-    terms = [t for t in args.terms if t and t.strip()]
+    raw_terms = [t for t in args.terms if t and t.strip()]
+    if args.phrase:
+        terms = raw_terms
+    else:
+        terms = []
+        for raw in raw_terms:
+            terms.extend(part for part in raw.split() if part.strip())
     results = []
     for card in cards:
         if not apply_filter(card, args):
@@ -199,8 +209,12 @@ def render_text(results, args):
     if not results:
         print("No matching cards.")
         return
+    if args.phrase:
+        display_terms = list(args.terms)
+    else:
+        display_terms = [part for raw in args.terms for part in raw.split()]
     print("%d result(s)%s" % (
-        len(results), "" if not args.terms else " for: " + " ".join(args.terms)))
+        len(results), "" if not display_terms else " for: " + " ".join(display_terms)))
     print("")
     for idx, row in enumerate(results, 1):
         print("[%d] %s  %s / %s" % (
@@ -218,7 +232,11 @@ def render_text(results, args):
 def main(argv=None):
     parser = argparse.ArgumentParser(
         description="Keyword + field search over Costume Director vault cards.")
-    parser.add_argument("terms", nargs="*", help="search terms (default AND)")
+    parser.add_argument("terms", nargs="*",
+                        help="search terms; whitespace is split into AND words "
+                             "(use --phrase for exact phrases)")
+    parser.add_argument("--phrase", action="store_true",
+                        help="treat each positional argument as one exact phrase")
     parser.add_argument("--type", action="append", default=[],
                         help="filter by card type (garment|garment_part|material|style|period_region|look|scene|source); repeatable")
     parser.add_argument("--category", action="append", default=[],

@@ -105,6 +105,11 @@ def collect_sources():
         if not source_id:
             errors.append(f"{path.name}: 缺 id")
             continue
+        note = str(meta.get("note") or "").strip()
+        canonical = None
+        match = re.search(r"canonical[^。；\n]*?(SRC-\d{4})", note, re.I)
+        if match:
+            canonical = match.group(1)
         rows.append({
             "source_id": source_id,
             "title": str(meta.get("title") or meta.get("name_zh") or "").strip(),
@@ -113,7 +118,8 @@ def collect_sources():
             "accessed_at": norm_date(meta.get("date_accessed")),
             "source_kind": str(meta.get("source_kind") or "").strip(),
             "rights_statement": str(meta.get("rights_statement") or "").strip(),
-            "note": str(meta.get("note") or "").strip(),
+            "note": note,
+            "_canonical": canonical,
             "_file": path.name,
         })
     rows.sort(key=lambda r: (r["source_id"].split("-")[0], int(re.sub(r"\D", "", r["source_id"]) or 0)))
@@ -175,8 +181,14 @@ def main():
     for r in rows:
         if r["url"]:
             url_groups[normalize_url(r["url"])].append(r["source_id"])
-    dup_urls = {u: sorted(ids) for u, ids in url_groups.items()
-                if len(set(ids)) > 1}
+    canonical_by_id = {r["source_id"]: r["_canonical"] for r in rows}
+    dup_urls = {}
+    for u, ids in url_groups.items():
+        ids = sorted(set(ids))
+        if len(ids) > 1:
+            pointers = {canonical_by_id.get(i) for i in ids}
+            canonical = sorted(p for p in pointers if p and p in ids)
+            dup_urls[u] = {"ids": ids, "canonical": canonical}
 
     # ID gaps / ranges
     numeric = sorted({int(re.sub(r"\D", "", sid)) for sid in id_counts if re.match(r"^SRC-\d{4}$", sid)})
@@ -270,7 +282,8 @@ def main():
         ],
         "duplicate_ids": dup_ids,
         "duplicate_urls": [
-            {"url": u, "source_ids": ids} for u, ids in sorted(dup_urls.items())
+            {"url": u, "source_ids": info["ids"], "canonical": info["canonical"]}
+            for u, info in sorted(dup_urls.items())
         ],
         "id_gaps": gaps,
         "id_ranges": [{"from": f"SRC-{a:04d}", "to": f"SRC-{b:04d}", "count": b - a + 1} for a, b in ranges],
@@ -322,8 +335,10 @@ def main():
     for sid, n in dup_ids.items():
         print(f"    {sid}: {n} 张卡")
     print(f"[{'WARN' if dup_urls else 'PASS'}] 重复 URL: {len(dup_urls)} 组")
-    for url, ids in sorted(dup_urls.items()):
-        print(f"    {url} -> {', '.join(ids)}")
+    for url, info in sorted(dup_urls.items()):
+        canonical = info["canonical"]
+        tag = ("canonical=" + ",".join(canonical)) if canonical else "canonical=未标注"
+        print(f"    {url} -> {', '.join(info['ids'])}（{tag}）")
     print(f"[INFO] SRC 编号缺口: {', '.join(gaps) if gaps else '无'}")
     print("[INFO] 连续编号段: " + "; ".join(
         f"SRC-{a:04d}..SRC-{b:04d}({b - a + 1})" for a, b in ranges))

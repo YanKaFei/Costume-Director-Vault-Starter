@@ -7,7 +7,7 @@ title: "1869 – Red Silk Dress | Fashion History Timeline"
 publisher: "Fashion Institute of Technology (FIT), SUNY"
 url: "https://fashionhistory.fitnyc.edu/1869-red-silk-dress/"
 date_accessed: "2026-11-04"
-source_kind: garment_analysis
+source_kind: academic_reference
 rights_statement: "© Fashion Institute of Technology；作者 Nicole Druzhinsky；仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, garment_analysis, dress, bustle, 1860s]
 
 **发布者**：Fashion Institute of Technology (FIT), SUNY
 
-**来源类型**：garment_analysis
+**来源类型**：academic_reference
 
 **URL**：https://fashionhistory.fitnyc.edu/1869-red-silk-dress/
 

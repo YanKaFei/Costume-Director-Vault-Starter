@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "GAR-0007",
+    "path": "01-服装单品/上装/GAR-0007-衬衫式女衫.md",
+    "name_zh": "衬衫式女衫",
+    "name_en": "shirtwaist",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0108"
+    ],
+    "snippet": "# 衬衫式女衫 / shirtwaist ## 定义 衬衫式女衫（shirtwaist）是 1890 年代起流行的女性上衣，模仿男式衬衫：前开纽扣、翻领、可有高领与领结，通常塞入裙腰。 ## 结构要点 - 前开纽扣门襟 + 翻领/立领；可有可拆卸领子与领结。 - 衣身合体，前片可打褶并收进腰头；18",
+    "score": 4.0
+  },
+  {
+    "id": "SRC-0006",
+    "path": "04-来源/SRC-0006-shirts-main-garments.md",
+    "name_zh": "AAT 词条：shirts（衬衫）",
+    "name_en": "shirts (main garments)",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "…，最初总贴身穿着。 - 可用于服装史中「内衣—外衣」功能转换的术语说明，以及衬衫 vs. blouse、chemise 的区分。 ## 验证记录 - 验证命令：`curl -ss -m 10 -l -o /tmp/src.html -w '%{http…",
+    "score": 1.0
+  }
+]

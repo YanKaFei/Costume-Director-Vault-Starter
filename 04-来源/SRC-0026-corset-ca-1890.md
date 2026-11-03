@@ -7,7 +7,7 @@ title: "Corset"
 publisher: "The Metropolitan Museum of Art — Costume Institute"
 url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/158100"
 date_accessed: "2026-11-04"
-source_kind: museum_object_record
+source_kind: museum_collection
 rights_statement: "Met Open Access：API 返回 isPublicDomain=true；本卡仅存链接与元数据"
 license_status: cc0
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, museum_object, met, corset, underwear]
 
 **发布者**：The Metropolitan Museum of Art — Costume Institute
 
-**来源类型**：museum_object_record
+**来源类型**：museum_collection
 
 **URL**：https://collectionapi.metmuseum.org/public/collection/v1/objects/158100
 

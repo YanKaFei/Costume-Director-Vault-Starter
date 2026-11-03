@@ -167,6 +167,17 @@ def criterion(name, record, card_index, source_ids):
                 "history_evidence=%s verified/item=%s missing_source_ids=%s has_source_ids=%s" % (
                     checks.get("history_evidence"), verified_counts,
                     missing_urls, has_sources))
+    if name == "query_hits":
+        if record.get("query") is None:
+            return "FAIL", "no query.py step configured for this scenario"
+        hits = record.get("query_data")
+        count = len(hits) if isinstance(hits, list) else 0
+        ids = [row.get("id") for row in (hits or []) if isinstance(row, dict)]
+        ok = record["query"]["returncode"] == 0 and count >= 1
+        return ("PASS" if ok else "FAIL",
+                "query.py exit=%s, hits=%d, ids=%s" % (
+                    record["query"]["returncode"], count,
+                    ", ".join(ids[:6]) + ("…" if len(ids) > 6 else "") if ids else "(none)"))
     if name == "region_evidence":
         region = (data or {}).get("input", {}).get("region", "")
         want = rec.labels([region])
@@ -376,6 +387,7 @@ def render_result(record, pair_results):
     lines.append("")
     query_ids = [row.get("id") for row in (record["query_data"] or [])
                  if isinstance(row, dict) and row.get("id")]
+    lines.append("- `query.py` 命中数量：**%s**（验收要求 ≥1）" % record.get("query_hits", 0))
     lines.append("- `query.py` 命中卡片 ID：%s" % (", ".join(query_ids) if query_ids else "(none)"))
     retrieved = (data or {}).get("retrieved_ids", {})
     lines.append("- `recommend.py` 候选池：" + "; ".join(
@@ -539,8 +551,8 @@ def render_summary(records, errors, vault_stats):
     lines.append("")
     lines.append("## 逐例结果")
     lines.append("")
-    lines.append("| 用例 | 标题 | 模式 | recommend exit | query exit | VERDICT | 失败项 |")
-    lines.append("| --- | --- | --- | --- | --- | --- | --- |")
+    lines.append("| 用例 | 标题 | 模式 | recommend exit | query exit | query hits | VERDICT | 失败项 |")
+    lines.append("| --- | --- | --- | --- | --- | --- | --- | --- |")
     pass_count = fail_count = 0
     for record in records:
         verdict = record["verdict"]
@@ -552,17 +564,26 @@ def render_summary(records, errors, vault_stats):
                   if check["status"] != "PASS"]
         failed += [name for name, status, _detail in record["pair_results"]
                    if status != "PASS"]
-        lines.append("| %s | %s | %s | %s | %s | %s | %s |" % (
+        lines.append("| %s | %s | %s | %s | %s | %s | %s | %s |" % (
             record["meta"].get("id"), record["meta"].get("title", ""),
             record["meta"].get("mode", "standard"),
             record["recommend"]["returncode"],
             record["query"]["returncode"] if record["query"] else "-",
+            record.get("query_hits", 0),
             verdict, ", ".join(failed) or "-"))
     lines.append("")
     lines.append("## 统计")
     lines.append("")
     lines.append("- PASS：%d / %d" % (pass_count, len(records)))
     lines.append("- FAIL：%d / %d" % (fail_count, len(records)))
+    hit_counts = [(record["meta"].get("id"), record.get("query_hits", 0))
+                  for record in records if record.get("query") is not None]
+    total_hits = sum(count for _tid, count in hit_counts)
+    zero_hits = [tid for tid, count in hit_counts if count == 0]
+    lines.append("- query.py 命中总数：%d（逐例：%s）" % (
+        total_hits, ", ".join("%s=%d" % (tid, count) for tid, count in hit_counts)))
+    lines.append("- 每个场景 query 步骤均返回 ≥1 命中：%s" % (
+        "是" if hit_counts and not zero_hits else "否（%s）" % (", ".join(zero_hits) or "无 query 步骤")))
     lines.append("")
     lines.append("## 失败明细")
     lines.append("")
@@ -673,11 +694,15 @@ def main(argv=None):
             "query": query,
             "data": data,
             "query_data": query_data,
+            "query_hits": len(query_data) if isinstance(query_data, list) else 0,
             "timestamp": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
             "checks": [],
             "pair_results": [],
         }
-        for name in meta.get("criteria", []):
+        criteria = list(meta.get("criteria", []))
+        if query is not None and "query_hits" not in criteria:
+            criteria.append("query_hits")
+        for name in criteria:
             status, detail = criterion(name, record, card_index, source_ids)
             record["checks"].append({"name": name, "status": status, "detail": detail})
         records.append(record)

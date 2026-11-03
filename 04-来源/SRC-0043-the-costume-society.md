@@ -7,7 +7,7 @@ title: "The Costume Society"
 publisher: "The Costume Society (UK)"
 url: "https://costumesociety.org.uk/"
 date_accessed: "2026-11-04"
-source_kind: scholarly_society
+source_kind: academic_reference
 rights_statement: "© The Costume Society；仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, scholarly_society, research_network, costume_society]
 
 **发布者**：The Costume Society (UK)
 
-**来源类型**：scholarly_society
+**来源类型**：academic_reference
 
 **URL**：https://costumesociety.org.uk/
 

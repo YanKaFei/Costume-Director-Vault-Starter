@@ -7,7 +7,7 @@ title: "15th century – Late Byzantine Silk Damask Dress and Taffeta Tunic | Fa
 publisher: "Fashion Institute of Technology (FIT), SUNY"
 url: "https://fashionhistory.fitnyc.edu/late-byzantine-silk-damask-dress/"
 date_accessed: "2026-11-04"
-source_kind: garment_analysis
+source_kind: academic_reference
 rights_statement: "© Fashion Institute of Technology；作者 Sonia Tournier；仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, garment_analysis, byzantine, archaeology, 15th_century]
 
 **发布者**：Fashion Institute of Technology (FIT), SUNY
 
-**来源类型**：garment_analysis
+**来源类型**：academic_reference
 
 **URL**：https://fashionhistory.fitnyc.edu/late-byzantine-silk-damask-dress/
 

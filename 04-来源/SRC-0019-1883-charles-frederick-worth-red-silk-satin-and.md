@@ -7,7 +7,7 @@ title: "1883 – Charles Frederick Worth, red silk satin and velvet dinner dress
 publisher: "Fashion Institute of Technology (FIT), SUNY"
 url: "https://fashionhistory.fitnyc.edu/1883-worth-red-dinner-dress/"
 date_accessed: "2026-11-04"
-source_kind: garment_analysis
+source_kind: academic_reference
 rights_statement: "© Fashion Institute of Technology；作者 Colleen O'Rourke；仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, garment_analysis, dress, worth, 1880s]
 
 **发布者**：Fashion Institute of Technology (FIT), SUNY
 
-**来源类型**：garment_analysis
+**来源类型**：academic_reference
 
 **URL**：https://fashionhistory.fitnyc.edu/1883-worth-red-dinner-dress/
 

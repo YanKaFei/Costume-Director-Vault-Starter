@@ -7,7 +7,7 @@ title: "Undressed Archives • V&A Blog"
 publisher: "Victoria and Albert Museum"
 url: "https://www.vam.ac.uk/blog/undressed"
 date_accessed: "2026-11-04"
-source_kind: exhibition_page
+source_kind: other
 rights_statement: "© Victoria and Albert Museum；展览页与图像仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, underwear, exhibition, vam, history]
 
 **发布者**：Victoria and Albert Museum
 
-**来源类型**：exhibition_page
+**来源类型**：other
 
 **URL**：https://www.vam.ac.uk/blog/undressed
 

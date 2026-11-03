@@ -7,7 +7,7 @@ title: "Fashionpedia"
 publisher: "Fashionpedia Consortium"
 url: "https://fashionpedia.github.io/home/index.html"
 date_accessed: "2026-11-04"
-source_kind: ontology_dataset
+source_kind: dataset
 rights_statement: "注释、本体与网站内容按页面声明采用 Creative Commons Attribution 4.0（CC BY 4.0）；数据集内图像版权归原始图库（Flickr/Unsplash/Burst/Freestock/Kaboompics/Pexels），不得复制"
 license_status: cc_by
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, ontology, terminology, fashionpedia]
 
 **发布者**：Fashionpedia Consortium
 
-**来源类型**：ontology_dataset
+**来源类型**：dataset
 
 **URL**：https://fashionpedia.github.io/home/index.html
 

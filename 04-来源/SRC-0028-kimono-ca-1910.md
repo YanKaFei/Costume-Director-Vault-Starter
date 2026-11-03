@@ -7,7 +7,7 @@ title: "Kimono"
 publisher: "The Metropolitan Museum of Art — Costume Institute"
 url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/155980"
 date_accessed: "2026-11-04"
-source_kind: museum_object_record
+source_kind: museum_collection
 rights_statement: "Met API 返回 isPublicDomain=false；图像不在开放数据范围，本卡仅存链接"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, museum_object, met, kimono, japan]
 
 **发布者**：The Metropolitan Museum of Art — Costume Institute
 
-**来源类型**：museum_object_record
+**来源类型**：museum_collection
 
 **URL**：https://collectionapi.metmuseum.org/public/collection/v1/objects/155980
 

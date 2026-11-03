@@ -1,8 +1,9 @@
 # 覆盖情况（COVERAGE）— 实际数量 vs P0/P1/P2/P3 目标
 
-- 统计时间：2026-11-04 01:44（Asia/Shanghai）
+- 统计时间：2026-11-04 01:51（Asia/Shanghai，修复后复验轮）
 - 快照：**235 张卡**（内容卡 93 + 来源卡 142）；数据来源：`scripts/validate.py --json`、`scripts/build_sources.py --json` 与逐卡 frontmatter 统计
 - 统计口径：`01/02/03/04/05/06/07/09` 八个知识目录下带 YAML frontmatter 的 `.md`；`00-系统/`、`10-提示词模板/`、`11-验收/`、`skills/` 不计入卡片数
+- 修复轮变化：49 张来源卡 `source_kind` 已归一化（枚举 100% 合法）；`query.py` 多词检索已修；GAR-0034 从属断言已修；卡片模板已同步字典 v1.1；`reports/SOURCES.csv` 已从 142 张来源卡重建
 
 ## 1. 卡片总量与类型分布
 
@@ -21,24 +22,24 @@
 
 - `unverified`：0；`review_status: draft` 37 张（全部 PRD/STY/LOOK/SCN 与 example 卡），`reviewed` 198 张。
 - `license_status`：`not_applicable` 95、`link_only` 82、`other_permission` 41、`cc0` 14、`cc_by` 3；`unknown` 0。
-- 每张 verified 内容卡平均引用 1.33 个来源（共 76 张 verified 内容卡、126 条引用）。
+- 每张 verified 内容卡平均引用 1.32 个来源（共 76 张 verified 内容卡、125 条引用）。
 
 ## 2. 与 P0/P1/P2/P3 目标对照
 
 | 阶段目标 | 目标值 | 实际 | 结论 | 备注 |
 |---|---|---|---|---|
-| P0 架构：字典/模板/索引/来源规范/来源登记/检索工具/最小测试/≥5 卡 | 全部 | 字典 v1.1、模板、索引、来源规范、来源登记 142、validate/query/recommend、18 例测试、235 卡 | **PASS** | 模板未同步 v1.1（见 QA §6.6） |
+| P0 架构：字典/模板/索引/来源规范/来源登记/检索工具/最小测试/≥5 卡 | 全部 | 字典 v1.1、模板（已同步 v1.1）、索引、来源规范、来源登记 142、validate/query/recommend、18 例测试、235 卡 | **PASS** | `来源规范.md` 仍未记录 SRC-0200..0299 段位（见 QA §7.7） |
 | P1 高质量卡总数 | ≥80 | 235（内容卡 93 + 来源 142） | **PASS** | 只计内容卡 93 亦 ≥80 |
 | P1 单品 | ≥30 | **36**（35 正式 + 1 example） | **PASS** | +20% |
 | P1 结构 | ≥10 | **11** | **PASS** | |
 | P1 材质/纹样 | ≥10 | **10**（7 material + 3 pattern） | **PASS**（数量） | 族系覆盖窄，见 §3.C |
 | P1 风格 | ≥10 | **10** 正式（9 verified + 1 interpretive）+ 1 example | **PASS** | 6 个 style_family 全覆盖 |
-| P1 时代/地域 | ≥10 | **11** | **PASS** | 1930s 上海民国新增 |
-| P1 Look/场景 | ≥10 | **14**（10 look + 4 scene） | **PASS**（数量） | 完整拆解口径见 §4 |
-| P2 query/recommend/三模板/≥15 例测试 | 全部 | query.py + recommend.py + 3 模板（另 1 汇总页）+ **18 例** | **PASS** | 18/18 PASS，exit 0；query 多词 bug 见 QA §4.3 |
+| P1 时代/地域 | ≥10 | **11** | **PASS** | 含 1930s 上海民国 |
+| P1 Look/场景 | ≥10 | **14**（10 look + 4 scene） | **PASS**（数量） | 完整拆解口径见 §3.F |
+| P2 query/recommend/三模板/≥15 例测试 | 全部 | query.py（多词已修）+ recommend.py + 3 模板（另 1 汇总页）+ **18 例**，query 命中逐例 ≥1（合计 53） | **PASS** | 18/18 PASS，exit 0 |
 | P2 多场次连续性 | ≥1 | T03（3 场）、T17（4 场） | **PASS** | `same_item_ids=True`、`locks_in_every_prompt=True` |
 | P2 skills 调用说明 | 1 | `skills/costume-director/SKILL.md`（13 KB） | **PASS** | |
-| P3 有效卡片 250+ | ≥250 | **235 总卡**（内容卡 93） | **PARTIAL** | 按总卡数差 15；按“内容卡”口径差 157；来源卡 142 是否计入 250+ 需 lead 裁定 |
+| P3 有效卡片 250+ | ≥250 | **235 总卡**（内容卡 93） | **PARTIAL** | 按总卡数差 15；按“内容卡”口径差 157；来源卡 142 是否计入需 lead 裁定 |
 | P3 高价值薄弱分支扩充 | — | 部分 | **PARTIAL** | 见 §3 缺口 |
 
 ## 3. 分类维度 A–F 细分覆盖
@@ -89,7 +90,7 @@
 
 ### E. 时代/地域（11 张 period_region 卡；全库 periods/regions 标签）
 
-- 全库 `periods` 标签 55 个：19th_century 19、16th_century 12、contemporary 12、20th_century 12、18th_century 15、17th_century 10、1930s 10、1890s 7、republican_era 7 等；**1930s 上海/民国**由 `GAR-0031..0035`、`PRD-0011`、`LOOK-0008/0009`、`SCN-0004` 补入。
+- 全库 `periods` 标签 55 个：19th_century 19、16th_century 12、contemporary 12、20th_century 12、18th_century 15、17th_century 10、1930s 10、1890s 7、republican_era 7 等。
 - 全库 `regions` 标签 41 个：欧洲/英美为主（europe 38、united_states 31、britain 24、france 14、england 7），东亚仅 japan 3、china 7、hong_kong 1；**南美、撒哈拉以南非洲（除 west_africa/senegal/mali/ghana）、南亚（1）、大洋洲为缺口**。
 - 11 张 period_region 卡覆盖：1770s、1790–1810、1890s、1920s、1930s、1940s、1950s、1960s、奥斯曼晚期、拜占庭晚期、1930s 上海民国。
 
@@ -124,49 +125,51 @@
 
 | 段位 | 数量 | 建立者/用途 |
 |---|---|---|
-| SRC-0001..0060 | 60 | researcher 来源包（含 19 张 Getty AAT、Met 对象、FIT 等） |
+| SRC-0001..0060 | 60 | researcher 来源包（含 19 张 Getty AAT、Met 对象、FIT 等；`source_kind` 已归一化） |
 | SRC-0100..0149 | 50 | P1 单品/结构/材质自建 |
 | SRC-0150..0175（缺 0164） | 25 | P1 风格/时代/Look 自建 |
 | SRC-0200..0206 | 7 | 1930s 上海民国补卡（P3/P4 段位） |
 
-- 被内容卡引用：**83 张 / 142（58.5%）**；**59 张未被引用（41.5%）**，其中包含**全部 19 张 Getty AAT 来源卡**与多数 FIT 个案/Met 对象卡（researcher 来源包未接入内容卡证据链）。
-- 引用次数：126；平均每张 verified 内容卡 1.33 个来源。
-- 重复 URL 3 组（3 组共 6 张卡去重后应为 139 个唯一页面）：`SRC-0115/SRC-0157`、`SRC-0036/SRC-0175`、`SRC-0022/SRC-0163`；后两组各有一张未被引用。
-- `source_kind` 分布：`academic_reference` 72、`controlled_vocabulary` 19（非法值）、`museum_collection` 13、`museum_object_record` 11（非法值）、`institutional_blog` 6（非法值）、`image_repository` 5、`garment_analysis` 4（非法值）、其他 12。→ 49 张越界（见 QA §1.3）。
+- 被内容卡引用：**82 张 / 142（57.7%）**；**60 张未被引用（42.3%）**，其中包含**全部 19 张 Getty AAT 来源卡**与多数 FIT 个案/Met 对象卡。
+- 引用次数：125；平均每张 verified 内容卡 1.32 个来源。
+- **`source_kind`：全部合法**——`academic_reference` 78、`museum_collection` 24、`vocabulary` 19、`other` 8、`industry_framework` 5、`image_repository` 5、`dataset` 2、`reference_work` 1。
+- 重复 URL 3 组（均已标 canonical）：
+  - `SRC-0115`(canonical)/`SRC-0157`，引用 2/0；
+  - `SRC-0022`(canonical)/`SRC-0163`，引用 1/0；
+  - `SRC-0036`(canonical)/`SRC-0175`，引用 2/0。
 - SRC 编号缺口：`SRC-0164` 缺失（不连续）；`0061..0099`、`0176..0199` 为段位预留空档。
 
 ## 5. 测试与模板覆盖（P2）
 
 | 项 | 状态 |
 |---|---|
-| `scripts/query.py` | 存在；单词/字段过滤可用；**引号多词恒 0 命中**（QA §4.3） |
+| `scripts/query.py` | 存在；单词/多词/`--phrase`/字段过滤均可用（多词 `"1930s 上海"` 5 命中、docstring 示例 7 命中） |
 | `scripts/recommend.py` | 存在；3 套 Look + 评分 + prompt + 风险 + 证据；historical/inspired/fictional 区分 |
-| `scripts/validate.py` / `scripts/build_sources.py` | 本轮新增，见 QA §1–§2 |
+| `scripts/validate.py` / `scripts/build_sources.py` | 本轮复验使用；validate 17/17 PASS，build --check exit 0 |
 | `10-提示词模板/` | `01-角色设计模板.md`、`02-静态生图提示词模板.md`、`03-视频提示词模板.md`（3 个必需）+ `人物与视频模板.md`（重复汇总页，建议合并或标注） |
-| `11-验收/测试结果/` | 18 个用例 MD + 36 个 raw JSON + SUMMARY（18/18 PASS） |
+| `11-验收/测试结果/` | 18 个用例 MD + 36 个 raw JSON + SUMMARY（18/18 PASS；query 命中合计 53、逐例 ≥1） |
 | 测试类型覆盖 | 历史准确 T01、艺术化对照 T02/T16、现代现实主义 T15/T18、阶层变化 T10/T11、舞蹈动作 T04/T12、雨夜湿衣 T03/T09、冷暖光 T07/T08、多场次连续性 T03/T17、低预算 T06/T13、虚构 T05、冬季安全 T14、1920s 爵士 T12、年代剧复用 T13 —— TASK §5 P2 要求类型全部覆盖 |
 | `skills/costume-director/SKILL.md` | 存在（13 KB，含脚本用法） |
 
 ## 6. 结论：达标与缺口
 
 **达标**
-- P0/P1/P2 的数量型目标全部达到；18 例测试 PASS；多场次连续性、证据抽查、SOURCES.csv 重建通过。
-- 235 张卡中 218 张 verified、0 unverified；0 YAML 错误、0 重复 ID、0 坏链、0 内嵌图片。
+- P0/P1/P2 的数量型目标全部达到；18 例测试 PASS（query 逐例 ≥1 命中）；多场次连续性、证据抽查（19/19 PASS）、SOURCES.csv 重建通过。
+- 235 张卡中 218 张 verified、0 unverified；0 YAML 错误、0 重复 ID、0 坏链、0 内嵌图片、0 枚举违规、0 类型警告。
 
 **缺口（按价值排序）**
 1. **P3 250+ 目标未达**：总卡 235（差 15）；若按内容卡口径 93（差 157）。
-2. **来源 ↔ 内容卡证据链**：59/142 来源卡未被引用（含全部 AAT 卡），researcher 来源包与内容卡未打通。
+2. **来源 ↔ 内容卡证据链**：60/142 来源卡未被引用（含全部 AAT 卡），researcher 来源包与内容卡未打通。
 3. **分类缺口**：`carried_prop` 0；结构 10 个族系为 0；材质/纹样族系窄（material 仅 4/8、pattern 仅 1/11）。
 4. **Look 完整拆解**：严格五槽 0/10，四槽 5/10；「至少 6 套」需口径裁定。
 5. **人工复核缺口**：37 张 `review_status: draft`（全部 PRD/STY/LOOK/SCN）。
-6. **来源卡 schema 不一致**：49 张 `source_kind` 越界；3 处列表数字未加引号；模板未同步字典 v1.1。
-7. **query.py 多词检索缺陷**：引号多词 0 命中，18 例验收的 query 证据为空。
+6. **文档/版本收口**：`00-系统/来源规范.md` 未更新段位；`SRC-0204` 改名未提交；3 组重复 URL 保留为交叉引用（已标 canonical）。
 
 ## 7. 下一步建议（按优先级）
 
-1. 修复 `query.py` 多词 split 并在验收中增加「query 命中 ≥1」断言后重跑 18 例。
-2. 统一 `source_kind`（字典扩枚举或归一并回写 49 张卡）；同步更新 `00-系统/卡片模板.md` 到 v1.1。
-3. 把 19 张 AAT 与高价值未被引用来源接入相应内容卡（或标注「保留备用」），提高来源利用率。
-4. 补 `carried_prop`（包袋/伞/手杖）与结构族系（领口/肩线/口袋/腰线/褶裥/缝线/长度）卡片。
-5. 明确 Look「完整拆解」验收口径，补齐缺失槽位或调整目标。
-6. 人工复核 37 张 draft 卡后改 `review_status`。
+1. 把 19 张 AAT 与高价值未被引用来源接入相应内容卡（或标注「保留备用」），提高来源利用率。
+2. 补 `carried_prop`（包袋/伞/手杖）与结构族系（领口/肩线/口袋/腰线/褶裥/缝线/长度）卡片；扩充材质/纹样族系。
+3. 明确 Look「完整拆解」验收口径，补齐缺失槽位或调整目标。
+4. 人工复核 37 张 draft 卡后改 `review_status`；在有 GUI 环境完成 Obsidian 打开与 wikilink 跳转实测。
+5. lead 版本收口：提交 2 个脚本、6 张新增卡、SRC-0204 改名、3 组重复 URL canonical 标注与 4 份 reports。
+6. 更新 `00-系统/来源规范.md`（SRC 段位 0200..0299）。

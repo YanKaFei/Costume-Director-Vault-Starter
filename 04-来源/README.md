@@ -16,20 +16,14 @@
 
 | source_kind | 数量 |
 | --- | --- |
-| academic_reference | 3 |
-| controlled_vocabulary | 19 |
-| exhibition_page | 1 |
-| garment_analysis | 4 |
+| academic_reference | 9 |
+| dataset | 2 |
 | image_repository | 5 |
-| industry_framework | 2 |
-| institutional_blog | 6 |
-| license_document | 1 |
-| museum_collection | 1 |
-| museum_object_record | 11 |
-| ontology_dataset | 2 |
-| professional_guild | 2 |
-| scholarly_society | 2 |
-| thematic_essay | 1 |
+| industry_framework | 4 |
+| museum_collection | 12 |
+| other | 8 |
+| reference_work | 1 |
+| vocabulary | 19 |
 
 ## 3. 来源 → 卡片主题映射
 

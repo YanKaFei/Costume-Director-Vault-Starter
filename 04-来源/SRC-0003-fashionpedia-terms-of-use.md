@@ -7,7 +7,7 @@ title: "Fashionpedia"
 publisher: "Fashionpedia Consortium"
 url: "https://fashionpedia.github.io/home/data_license.html"
 date_accessed: "2026-11-04"
-source_kind: license_document
+source_kind: other
 rights_statement: "页面明文宣布：注释、本体与网站内容采用 Creative Commons Attribution 4.0（CC BY 4.0）许可；软件为 BSD 风格许可；图像版权不属于 Fashionpedia"
 license_status: cc_by
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, license, fashionpedia, cc_by]
 
 **发布者**：Fashionpedia Consortium
 
-**来源类型**：license_document
+**来源类型**：other
 
 **URL**：https://fashionpedia.github.io/home/data_license.html
 

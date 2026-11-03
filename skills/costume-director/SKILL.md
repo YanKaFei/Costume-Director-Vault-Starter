@@ -34,7 +34,10 @@
 cd /Users/coffee/Desktop/Costume-Director-Vault-Starter
 
 # 关键词（默认 AND；中英文子串、大小写不敏感）
+# 位置参数中的空格会拆成多个 AND 词："立领 shirt" = 立领 AND shirt
 python3 scripts/query.py "立领 shirt"
+# 需要精确短语时用 --phrase
+python3 scripts/query.py "stand collar" --phrase
 python3 scripts/query.py "rain" --limit 5
 
 # 字段过滤（可重复/逗号分隔）
@@ -55,7 +58,7 @@ python3 scripts/query.py "领" --limit 0 --json --out /tmp/collars.json
 
 | 参数 | 说明 |
 |---|---|
-| `terms` | 位置参数，检索词；默认 AND（每个词都要命中某个字段），`--match any` 改 OR |
+| `terms` | 位置参数，检索词；词内空格按 AND 拆分；`--match any` 改 OR；`--phrase` 把每个参数当作精确短语 |
 | `--type` | 卡片类型（garment/garment_part/material/pattern/style/period_region/look/scene/source），可重复 |
 | `--category` | 同时匹配 category 与 subcategory |
 | `--subcategory` | 匹配 subcategory |
@@ -64,6 +67,7 @@ python3 scripts/query.py "领" --limit 0 --json --out /tmp/collars.json
 | `--evidence` | evidence_status（verified/interpretive/example/unverified） |
 | `--tag` / `--id` | 命中 tags / 精确 ID |
 | `--limit` | 返回上限，默认 10；`0` 表示全部 |
+| `--phrase` | 每个位置参数作为完整短语（不拆词） |
 | `--json` | 输出 JSON 数组；每项含契约字段 + `score` |
 | `--verbose` | 文本模式显示命中字段 |
 
@@ -274,7 +278,8 @@ python3 scripts/run_acceptance.py --no-write # 只看判定
 ```
 
 - 定义见 `11-验收/测试场景.md`；结果见 `11-验收/测试结果/SUMMARY.md` 与逐例文件。
-- 每个用例记录实际命令、退出码、检索 ID、A/B/C、评分、Prompt、风险、PASS/FAIL。
+- 每个用例记录实际命令、退出码、`query.py` 命中数量与 ID、A/B/C、评分、Prompt、风险、PASS/FAIL。
+- 验收断言：每个场景的 `query.py` 步骤必须退出码 0 且命中 ≥1 张卡（`query_hits` 检查项）；SUMMARY 汇总每例命中数。
 - `run_acceptance.py` 退出码：0 全部 PASS；1 至少一项 FAIL。
 
 ---

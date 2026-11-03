@@ -7,7 +7,7 @@ title: "Home | Costume Society of America"
 publisher: "Costume Society of America"
 url: "https://www.costumesocietyamerica.com/"
 date_accessed: "2026-11-04"
-source_kind: scholarly_society
+source_kind: academic_reference
 rights_statement: "© Costume Society of America；仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, scholarly_society, research_network, csa]
 
 **发布者**：Costume Society of America
 
-**来源类型**：scholarly_society
+**来源类型**：academic_reference
 
 **URL**：https://www.costumesocietyamerica.com/
 

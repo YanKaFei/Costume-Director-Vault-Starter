@@ -1,1 +1,81 @@
-[]
+[
+  {
+    "id": "GAR-0023",
+    "path": "01-服装单品/足部/GAR-0023-莫卡辛鞋.md",
+    "name_zh": "莫卡辛鞋",
+    "name_en": "moccasins",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0124"
+    ],
+    "snippet": "# 莫卡辛鞋 / moccasins ## 定义 莫卡辛鞋（moccasins）是北美原住民的软质无跟便鞋，鞋面皮革自下向上包裹脚部；可有珠绣花草、羽毛、树叶纹，…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-0024",
+    "path": "01-服装单品/足部/GAR-0024-穆勒鞋.md",
+    "name_zh": "穆勒鞋",
+    "name_en": "mule",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0125"
+    ],
+    "snippet": "# 穆勒鞋 / mule ## 定义 穆勒鞋（mule）是无后帮的拖鞋/便鞋，仅有前帮与鞋面；起源中东，古希腊罗马人使用，16 世纪法国女性作室内鞋，17 世纪…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-0035",
+    "path": "01-服装单品/足部/GAR-0035-女式皮鞋.md",
+    "name_zh": "女式皮鞋",
+    "name_en": "1930s women’s shoes",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0205",
+      "SRC-0206"
+    ],
+    "snippet": "# 女式皮鞋 / 1930s women’s shoes ## 定义 1930 年代女式皮鞋的两类 v&a 实例：黑色蕾丝覆面平底便鞋（benefit，缀粉绿小亮…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-0022",
+    "path": "01-服装单品/足部/GAR-0022-威灵顿靴.md",
+    "name_zh": "威灵顿靴",
+    "name_en": "wellington boot",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0123"
+    ],
+    "snippet": "…boot pulls）。 - 防泼水皮革、橡木鞣底、橡胶跟；现代版多为橡胶一体成型。 - 鞋头圆润、鞋面有长舌状结构。 - 与马术、乡间、军事及雨天场景相关。 ## 视觉辨识 靴筒直上、脚踝接缝明显；皮革/橡胶表面有高光；湿泥附着在鞋底与靴筒…",
+    "score": 2.0
+  },
+  {
+    "id": "GAR-0016",
+    "path": "01-服装单品/外层/GAR-0016-班扬袍.md",
+    "name_zh": "班扬袍",
+    "name_en": "banyan",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0117"
+    ],
+    "snippet": "…## 视觉辨识 长袍式轮廓、宽袖、交叠前襟与腰带；布料图案通常比正装更花；搭配室内便帽与拖鞋。 ## 适用条件 18 世纪绅士居家/书房/殖民地题材；需要“私密、松弛、异域感”的角色；文学改编。 ## 不适用条件 正式社交场合；户外雨戏；不要…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-0019",
+    "path": "01-服装单品/外层/GAR-0019-派克大衣.md",
+    "name_zh": "派克大衣",
+    "name_en": "anorak",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0120"
+    ],
+    "snippet": "…## 相关卡片 - [[gar-0022-威灵顿靴]] - [[gar-0023-莫卡辛鞋]] - [[gar-0014-牛仔裤]] - [[mat-0004-卢勒克斯金属线]] arctic anorak parka, hooded, m…",
+    "score": 1.0
+  }
+]

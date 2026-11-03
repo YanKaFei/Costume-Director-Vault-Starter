@@ -16,7 +16,9 @@
       "prompts"
     ],
     "query": [
-      "1890s rain coat",
+      "1890s",
+      "--type",
+      "garment",
       "--limit",
       "8",
       "--json"

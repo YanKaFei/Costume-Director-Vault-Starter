@@ -7,7 +7,7 @@ title: "Art & Architecture Thesaurus Full Record Display (Getty Research)"
 publisher: "Getty Research Institute — Art & Architecture Thesaurus (AAT)"
 url: "https://vocab.getty.edu/page/aat/300046065"
 date_accessed: "2026-11-04"
-source_kind: controlled_vocabulary
+source_kind: vocabulary
 rights_statement: "Getty AAT 数据按 ODC-BY 1.0 发布，需署名；图像与页面文字另受 Getty 条款约束"
 license_status: other_permission
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, aat, terminology, shoes, footwear]
 
 **发布者**：Getty Research Institute — Art & Architecture Thesaurus (AAT)
 
-**来源类型**：controlled_vocabulary
+**来源类型**：vocabulary
 
 **URL**：https://vocab.getty.edu/page/aat/300046065
 

@@ -7,7 +7,7 @@ title: "Design Details - Costume Designers Guild, I.A.T.S.E. Local 892"
 publisher: "Costume Designers Guild, I.A.T.S.E. Local 892"
 url: "https://costumedesignersguild.com/design-details/"
 date_accessed: "2026-11-04"
-source_kind: professional_guild
+source_kind: industry_framework
 rights_statement: "© Costume Designers Guild, I.A.T.S.E. Local 892；仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, costume_practice, craft, millinery, beading]
 
 **发布者**：Costume Designers Guild, I.A.T.S.E. Local 892
 
-**来源类型**：professional_guild
+**来源类型**：industry_framework
 
 **URL**：https://costumedesignersguild.com/design-details/
 

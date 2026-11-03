@@ -1,11 +1,11 @@
 # T07 — 暖光肖像：同一角色的冷暖光对照（warm lighting）
 
-- 运行时间：2026-11-04T01:38:03+08:00
+- 运行时间：2026-11-04T01:49:16+08:00
 - 测试类型：warm_cool_lighting
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T07-暖光 noir 肖像.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T07-暖光 noir 肖像.json --json`
-- 退出码：**0**（耗时 0.68s）
+- 退出码：**0**（耗时 0.66s）
 
 ## 实际输入
 
@@ -43,10 +43,11 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T07-暖光 noir 肖像.json --json` | 0 | 0.68s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.62s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T07-暖光 noir 肖像.json --json` | 0 | 0.66s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.51s |
 
-- `query.py` 命中卡片 ID：(none)
+- `query.py` 命中数量：**4**（验收要求 ≥1）
+- `query.py` 命中卡片 ID：STY-0005, STY-EXAMPLE-001, LOOK-EXAMPLE-001, LOOK-0007
 - `recommend.py` 候选池：accessory=GAR-0021, GAR-0026, GAR-0025, GAR-0028; footwear=GAR-0022, GAR-0023, GAR-0035, GAR-0024; inner_layer=GAR-0020, GAR-0012; lower_body=GAR-0014, GAR-0010, GAR-0011, GAR-0013; one_piece=GAR-0031, GAR-0032, GAR-0015, GAR-0029; outerwear=GAR-0019, GAR-0033, GAR-0018, GAR-0017, GAR-0016; upper_body=GAR-EXAMPLE-001, GAR-0006, GAR-0008, GAR-0002, GAR-0007, GAR-0003, GAR-0034
 - 三套推荐选中：A: GAR-EXAMPLE-001, GAR-0014, GAR-0019, GAR-0022; B: GAR-0006, GAR-0010, GAR-0033, GAR-0023, GAR-0021; C: GAR-0006, GAR-0014, GAR-0019, GAR-0022
 
@@ -219,6 +220,7 @@ Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up,
 | ids_exist | PASS | all garment ids resolvable: True |
 | fidelity_matches | PASS | expected=fictional got=fictional |
 | prompts | PASS | all prompts complete |
+| query_hits | PASS | query.py exit=0, hits=4, ids=STY-0005, STY-EXAMPLE-001, LOOK-EXAMPLE-001, LOOK-0007 |
 | lighting_pair（pair） | PASS | A item overlap=4, prompts differ=True |
 
 **VERDICT: PASS**

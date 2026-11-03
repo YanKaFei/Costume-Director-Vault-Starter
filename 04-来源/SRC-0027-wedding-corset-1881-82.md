@@ -7,7 +7,7 @@ title: "Wedding corset"
 publisher: "The Metropolitan Museum of Art — Costume Institute"
 url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/157935"
 date_accessed: "2026-11-04"
-source_kind: museum_object_record
+source_kind: museum_collection
 rights_statement: "Met API 返回 isPublicDomain=false；该对象图像不在开放数据范围，本卡仅存链接与元数据，不复制图像"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, museum_object, met, corset, wedding]
 
 **发布者**：The Metropolitan Museum of Art — Costume Institute
 
-**来源类型**：museum_object_record
+**来源类型**：museum_collection
 
 **URL**：https://collectionapi.metmuseum.org/public/collection/v1/objects/157935
 

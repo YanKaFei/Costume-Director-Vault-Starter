@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "GAR-0008",
+    "path": "01-服装单品/上装/GAR-0008-马甲.md",
+    "name_zh": "马甲",
+    "name_en": "waistcoat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0109"
+    ],
+    "snippet": "# 马甲 / waistcoat ## 定义 马甲（waistcoat，美式称 vest）是源自 doublet 的无袖、有衬里、及腰外套，穿在衬衫与外套之间，单排或双排扣。 ##…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-0017",
+    "path": "01-服装单品/外层/GAR-0017-夫罗克大衣.md",
+    "name_zh": "夫罗克大衣",
+    "name_en": "frock coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0118"
+    ],
+    "snippet": "# 夫罗克大衣 / frock coat ## 定义 夫罗克大衣（frock coat）是及膝男式外套，扣至腰线、裙摆丰满，单排或双排扣；1816 至 19 世纪末为重要正式外套，后成为要员…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-0015",
+    "path": "01-服装单品/连身/GAR-0015-法式长袍.md",
+    "name_zh": "法式长袍",
+    "name_en": "robe à la française",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0116"
+    ],
+    "snippet": "…hem, open front revealing stomacher and petticoat, panniers, silk brocade` - 中文造型说明：十八世纪法式长袍，前身合体，背部箱形褶垂至地面，前开露出胸衣插片与衬裙，丝绸织锦…",
+    "score": 3.0
+  },
+  {
+    "id": "GAR-0033",
+    "path": "01-服装单品/外层/GAR-0033-西式休闲西装.md",
+    "name_zh": "西式休闲西装",
+    "name_en": "lounge suit",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0204",
+      "SRC-0155"
+    ],
+    "snippet": "…1930 年代后期马甲逐渐减少（src-0155 亦载 1930 年代男装舍弃 waistcoat/vest）。 - 本卡实证实例为 1940—49 年英国西装，不证明 1930 年代制作；民国上海城市男性采用西式套装属 interpretive，…",
+    "score": 3.0
+  },
+  {
+    "id": "GAR-0034",
+    "path": "01-服装单品/上装/GAR-0034-针织背心.md",
+    "name_zh": "针织背心",
+    "name_en": "knitted vest",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0203"
+    ],
+    "snippet": "…后领至下摆 70 cm、背宽 40 cm（馆方实测）。 - 针织背心与正装马甲（waistcoat，梭织、有衬里）结构不同；本卡不把“针织背心取代正装马甲”当作已证事实（若需要该因果叙事，应标 interpretive 并另找直接来源）。 - 上海…",
+    "score": 1.0
+  }
+]

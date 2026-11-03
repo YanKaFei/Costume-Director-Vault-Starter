@@ -7,7 +7,7 @@ title: "Dress"
 publisher: "The Metropolitan Museum of Art — Costume Institute"
 url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/159244"
 date_accessed: "2026-11-04"
-source_kind: museum_object_record
+source_kind: museum_collection
 rights_statement: "Met Open Access 记录：API 返回 isPublicDomain=true，按 Met Open Access 政策该馆藏图像与记录数据以 CC0 提供；本卡仅存链接与元数据，不嵌入图像"
 license_status: cc0
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, museum_object, met, dress, 1850s]
 
 **发布者**：The Metropolitan Museum of Art — Costume Institute
 
-**来源类型**：museum_object_record
+**来源类型**：museum_collection
 
 **URL**：https://collectionapi.metmuseum.org/public/collection/v1/objects/159244
 

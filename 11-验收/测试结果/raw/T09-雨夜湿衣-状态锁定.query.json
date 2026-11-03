@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "id": "GAR-0008",
+    "path": "01-服装单品/上装/GAR-0008-马甲.md",
+    "name_zh": "马甲",
+    "name_en": "waistcoat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0109"
+    ],
+    "snippet": "# 马甲 / waistcoat ## 定义 马甲（waistcoat，美式称 vest）是源自 doublet 的无袖、有衬里、及腰外套，穿在衬衫与外套之间，单排或双排扣。 ##…",
+    "score": 6.0
+  },
+  {
+    "id": "GAR-0017",
+    "path": "01-服装单品/外层/GAR-0017-夫罗克大衣.md",
+    "name_zh": "夫罗克大衣",
+    "name_en": "frock coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0118"
+    ],
+    "snippet": "…ist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat` - 中文造型说明：十九世纪黑色精纺羊毛夫罗克大衣，及膝，扣至腰线，下摆展开，后开…",
+    "score": 6.0
+  },
+  {
+    "id": "GAR-0033",
+    "path": "01-服装单品/外层/GAR-0033-西式休闲西装.md",
+    "name_zh": "西式休闲西装",
+    "name_en": "lounge suit",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0204",
+      "SRC-0155"
+    ],
+    "snippet": "…1930 年代后期马甲逐渐减少（src-0155 亦载 1930 年代男装舍弃 waistcoat/vest）。 - 本卡实证实例为 1940—49 年英国西装，不证明 1930 年代制作；民国上海城市男性采用西式套装属 interpretive，…",
+    "score": 3.5
+  },
+  {
+    "id": "GAR-0034",
+    "path": "01-服装单品/上装/GAR-0034-针织背心.md",
+    "name_zh": "针织背心",
+    "name_en": "knitted vest",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0203"
+    ],
+    "snippet": "…运动背心替代。 ## 提示词短语 - 生图片段：`1930s man’s knitted wool vest, jersey knit, v-neck, sleeveless, ribbed hem, worn under a suit jacke…",
+    "score": 2.5
+  }
+]

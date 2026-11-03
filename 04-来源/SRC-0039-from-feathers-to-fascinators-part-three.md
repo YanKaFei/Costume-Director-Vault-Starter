@@ -7,7 +7,7 @@ title: "From Feathers to Fascinators: Part Three • V&A Blog"
 publisher: "Victoria and Albert Museum"
 url: "https://www.vam.ac.uk/blog/textiles-and-fashion/from-feathers-to-fascinators-part-three"
 date_accessed: "2026-11-04"
-source_kind: institutional_blog
+source_kind: other
 rights_statement: "© Victoria and Albert Museum；博客文字与图像仅链接引用"
 license_status: link_only
 evidence_status: verified
@@ -22,7 +22,7 @@ tags: [source, millinery, hats, vam, feathers]
 
 **发布者**：Victoria and Albert Museum
 
-**来源类型**：institutional_blog
+**来源类型**：other
 
 **URL**：https://www.vam.ac.uk/blog/textiles-and-fashion/from-feathers-to-fascinators-part-three
 

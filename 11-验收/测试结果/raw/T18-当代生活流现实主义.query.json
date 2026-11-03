@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "GAR-0014",
+    "path": "01-服装单品/下装/GAR-0014-牛仔裤.md",
+    "name_zh": "牛仔裤",
+    "name_en": "jeans",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0115"
+    ],
+    "snippet": "# 牛仔裤 / jeans ## 定义 牛仔裤（jeans）是以丹宁斜纹棉布制成的裤装；本卡以 1950 年代美国青年文化中的牛仔裤为核验重点——它从工装/户外劳动服转变为日常青年穿着。 ## 结构要点 - 丹宁斜纹棉布、五袋结构、铆钉与腰头裤袢为经典结构（工艺常识，非本来源逐条支撑）。 - 195",
+    "score": 4.0
+  },
+  {
+    "id": "GAR-0032",
+    "path": "01-服装单品/连身/GAR-0032-长衫.md",
+    "name_zh": "长衫",
+    "name_en": "changshan",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0202"
+    ],
+    "snippet": "…s, side slits, unlined, worn over jacket and trousers` - 中文造型说明：1930 年代男式长衫，米白提花罗，小立领，右襟五枚盘扣，长而紧的袖，两侧开衩，无里衬，穿在短上衣与长裤外。 ## 来源链接 -…",
+    "score": 3.0
+  },
+  {
+    "id": "GAR-0033",
+    "path": "01-服装单品/外层/GAR-0033-西式休闲西装.md",
+    "name_zh": "西式休闲西装",
+    "name_en": "lounge suit",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0204",
+      "SRC-0155"
+    ],
+    "snippet": "…ounge suit, single-breasted jacket with wide trousers, brown herringbone tweed, generous cut, worn with shirt and tie, no waistc…",
+    "score": 3.0
+  }
+]

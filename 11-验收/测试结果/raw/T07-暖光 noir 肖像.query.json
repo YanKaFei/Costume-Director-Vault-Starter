@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "STY-0005",
+    "path": "05-风格体系/STY-0005-黑色电影造型.md",
+    "name_zh": "黑色电影造型",
+    "name_en": "film noir styling",
+    "type": "style",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0156"
+    ],
+    "snippet": "# 黑色电影造型 / film noir styling ## 定义 本卡把“黑色电影（film noir）”作为电影类型与摄影风格的造型语汇来处理：深色硬挺的西装/外套、克制的内层与强阴影…",
+    "score": 5.5
+  },
+  {
+    "id": "STY-EXAMPLE-001",
+    "path": "05-风格体系/STY-EXAMPLE-001-克制的都市黑色电影.md",
+    "name_zh": "克制的都市黑色电影造型",
+    "name_en": "restrained urban noir costume styling",
+    "type": "style",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "# 克制的都市黑色电影造型 / restrained urban noir costume styling ## 定义 原创美术方向样例，用来演示“克制型都市黑色电影”风格如何用层次、对比与质感而非泛用关键词“film no…",
+    "score": 5.5
+  },
+  {
+    "id": "LOOK-EXAMPLE-001",
+    "path": "09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md",
+    "name_zh": "雨夜调查者",
+    "name_en": "rainy-night investigator",
+    "type": "look",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "…investigator, charcoal knee-length wool overcoat, off-white stand-collar cotton shirt, straight dark trousers, worn black l…",
+    "score": 4.0
+  },
+  {
+    "id": "LOOK-0007",
+    "path": "09-造型组合/LOOK-0007-当代雨夜调查者连续性.md",
+    "name_zh": "当代雨夜调查者连续性造型",
+    "name_en": "contemporary rain investigator continuity look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0036"
+    ],
+    "snippet": "…costume change without continuity event, no coat drying between rain shots, no added bag or umbrella, no color shift, no cl…",
+    "score": 3.0
+  }
+]

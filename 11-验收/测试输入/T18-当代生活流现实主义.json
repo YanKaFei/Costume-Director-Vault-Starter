@@ -13,11 +13,11 @@
       "prompts"
     ],
     "query": [
-      "knitwear trousers",
+      "trousers",
       "--type",
       "garment",
       "--limit",
-      "8",
+      "6",
       "--json"
     ]
   },

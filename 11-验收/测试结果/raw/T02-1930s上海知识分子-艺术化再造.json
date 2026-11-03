@@ -313,8 +313,7 @@
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0203",
-            "SRC-0155"
+            "SRC-0203"
           ],
           "scores": {
             "period": 0.78,
@@ -481,7 +480,6 @@
       "evidence": {
         "source_ids": [
           "SRC-0203",
-          "SRC-0155",
           "SRC-0111",
           "SRC-0118",
           "SRC-0123",
@@ -496,10 +494,6 @@
           {
             "source_id": "SRC-0203",
             "url": "https://collections.vam.ac.uk/item/O235319/"
-          },
-          {
-            "source_id": "SRC-0155",
-            "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
           },
           {
             "source_id": "SRC-0111",
