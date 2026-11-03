@@ -1,0 +1,36 @@
+{
+  "_case": {
+    "id": "C10",
+    "title": "1930s 上海 + 赛博朋克义体（冲突约束）",
+    "types": [
+      "conflicting_constraints",
+      "historical_plus_sci_fi"
+    ],
+    "mode": "standard"
+  },
+  "character": {
+    "name": "周玖",
+    "occupation": "报馆编辑（地下义体改造者）",
+    "economic_status": "middle",
+    "arc": "隐藏义体身份，在殖民都市里传递消息"
+  },
+  "period": "1930s",
+  "region": "shanghai",
+  "season": "autumn",
+  "scene": "雨夜报馆后巷",
+  "time": "night",
+  "weather": "rain",
+  "action": "快速穿巷、义体手臂发力推开铁门",
+  "location": "Shanghai newspaper alley",
+  "art_direction": "历史黑色电影 + 霓虹义体，历史与科幻并置",
+  "lighting": "低照度霓虹 + 湿地面反光",
+  "camera": "medium close handheld",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "sora",
+  "state": {
+    "wetness": "wet",
+    "damage": "none",
+    "dirt": "none"
+  }
+}

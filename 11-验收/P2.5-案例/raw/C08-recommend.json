@@ -1,0 +1,306 @@
+{
+  "input": {
+    "character_name": "伊莎贝拉",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "宫廷舞者",
+    "economic_status": "court attendant",
+    "period": "1580s",
+    "region": "italy",
+    "season": "spring",
+    "scene": "宫廷舞会",
+    "time": "night",
+    "weather": "indoor",
+    "action": "旋转、跳跃、快速换位、屈膝礼",
+    "arc": "以舞蹈争取 patron 的青睐",
+    "art_direction": "文艺复兴宫廷、烛光与织锦",
+    "lighting": "candlelight and warm practicals",
+    "camera": "medium full-body tracking",
+    "budget": "medium",
+    "fidelity_mode": "historical",
+    "tool": "sora",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {
+      "wetness": "dry",
+      "damage": "none",
+      "dirt": "none"
+    },
+    "notes": ""
+  },
+  "fidelity_mode": "historical",
+  "looks": [],
+  "context": {
+    "style_refs": [],
+    "period_refs": [],
+    "scene_refs": [
+      "SCN-0001"
+    ]
+  },
+  "retrieved_ids": {},
+  "rejected": [
+    {
+      "id": "GAR-0002",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 14th_century, 15th_century, 16th_century, 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0003",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0006",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1960s, 1970s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0007",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1890s, edwardian_era, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0008",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 17th_century, 18th_century, 19th_century, 20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0034",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-EXAMPLE-001",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: example card is not historical evidence"
+      ]
+    },
+    {
+      "id": "GAR-0010",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1850s, late_19th_century, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0011",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs mid_19th_century, late_19th_century, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0013",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0014",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1950s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 19th_century, early_20th_century)",
+        "region-specific card incompatible with italy (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 19th_century, 20th_century, contemporary)",
+        "region-specific card incompatible with italy (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs pre_columbian, colonial_era, 20th_century)",
+        "region-specific card incompatible with italy (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0012",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs early_19th_century, mid_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0020",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0016",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs late_17th_century, 18th_century, early_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0017",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 18th_century, 19th_century, victorian_era)"
+      ]
+    },
+    {
+      "id": "GAR-0018",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1790s, 1810s, regency_era)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 19th_century, 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0033",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0025",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 18th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0026",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 19th_century, 20th_century)",
+        "region-specific card incompatible with italy (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0022",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0023",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 16th_century, 17th_century, 18th_century, 20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0035",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs islamic_empire, 19th_century, 20th_century)",
+        "region-specific card incompatible with italy (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs late_antiquity, byzantine_era, middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0015",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 18th_century, rococo)"
+      ]
+    },
+    {
+      "id": "GAR-0029",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs roman_republic, roman_empire)"
+      ]
+    },
+    {
+      "id": "GAR-0031",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1930s, republican_era)"
+      ]
+    },
+    {
+      "id": "GAR-0032",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1930s, republican_era)"
+      ]
+    },
+    {
+      "id": "GAR-0021",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0028",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 16th_century, 17th_century, 18th_century, 19th_century)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no wardrobe candidates: check card coverage for period 1580s"
+  ],
+  "sources": [],
+  "missing_urls": [],
+  "checks": {}
+}

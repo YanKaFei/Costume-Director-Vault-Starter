@@ -1,0 +1,127 @@
+[
+  {
+    "id": "SRC-0174",
+    "path": "04-来源/SRC-0174-FIT-Pingat黑色日装.md",
+    "name_zh": "1891至1893年 Pingat 黑色日装",
+    "name_en": "1891-1893 Emile Pingat black day dress",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0174 1891至1893年 pingat 黑色日装 ## 定义 fashion institute of technology（fit）fashion history timeline 的学术参考…",
+    "score": 8.0
+  },
+  {
+    "id": "SRC-0205",
+    "path": "04-来源/SRC-0205-V&A-1930年代女式蕾丝便鞋.md",
+    "name_zh": "V&A：1930 年代女式黑色蕾丝平底鞋",
+    "name_en": "V&A: women’s black lace flat pumps, 1930s",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0205 v&a：1930 年代女式黑色蕾丝平底鞋 ## 定义 v&a 馆藏对象记录（collections api + 对象页），含对象类型、年代、材质工艺、尺寸、制作地与详细形制描述。…",
+    "score": 8.0
+  },
+  {
+    "id": "STY-0005",
+    "path": "05-风格体系/STY-0005-黑色电影造型.md",
+    "name_zh": "黑色电影造型",
+    "name_en": "film noir styling",
+    "type": "style",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0156"
+    ],
+    "snippet": "# 黑色电影造型 / film noir styling ## 定义 本卡把“黑色电影（film noir）”作为电影类型与摄影风格的造型语汇来处理：深色硬挺…",
+    "score": 8.0
+  },
+  {
+    "id": "STY-EXAMPLE-001",
+    "path": "05-风格体系/STY-EXAMPLE-001-克制的都市黑色电影.md",
+    "name_zh": "克制的都市黑色电影造型",
+    "name_en": "restrained urban noir costume styling",
+    "type": "style",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "# 克制的都市黑色电影造型 / restrained urban noir costume styling ## 定义 原创美术方向样例，用来演示“克制型都市黑色电影”…",
+    "score": 8.0
+  },
+  {
+    "id": "STY-0002",
+    "path": "05-风格体系/STY-0002-维多利亚丧服风格.md",
+    "name_zh": "维多利亚丧服风格",
+    "name_en": "Victorian mourning dress style",
+    "type": "style",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0170",
+      "SRC-0171",
+      "SRC-0174"
+    ],
+    "snippet": "…色女装类型，通常以长裙、封闭领口与长袖覆盖身体。它是社会礼仪语境中的着装类别，不等于“所有黑色裙装”；具体单品与结构需另行引用 gar/str 卡。 ## 结构要点 - met 藏美国丧服 1982.256（约 1867 年，棉与丝）：高领、长…",
+    "score": 7.0
+  },
+  {
+    "id": "GAR-0035",
+    "path": "01-服装单品/足部/GAR-0035-女式皮鞋.md",
+    "name_zh": "女式皮鞋",
+    "name_en": "1930s women’s shoes",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0205",
+      "SRC-0206"
+    ],
+    "snippet": "…0s women’s shoes ## 定义 1930 年代女式皮鞋的两类 v&a 实例：黑色蕾丝覆面平底便鞋（benefit，缀粉绿小亮片）与红银花卉织锦晚宴鞋（debonair，银色扣饰），均英国 1930 年代制造。 ## 结构要点 -…",
+    "score": 2.0
+  },
+  {
+    "id": "GAR-0017",
+    "path": "01-服装单品/外层/GAR-0017-夫罗克大衣.md",
+    "name_zh": "夫罗克大衣",
+    "name_en": "frock coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0118"
+    ],
+    "snippet": "…orn with waistcoat and top hat` - 中文造型说明：十九世纪黑色精纺羊毛夫罗克大衣，及膝，扣至腰线，下摆展开，后开衩，配马甲与高顶礼帽。 ## 来源链接 - `src-0118` fit：frock coat（夫罗…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-0025",
+    "path": "01-服装单品/头部/GAR-0025-三角帽.md",
+    "name_zh": "三角帽",
+    "name_en": "tricorne hat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0126"
+    ],
+    "snippet": "…at 取代。 ## 结构要点 - 宽檐毡帽，三处向上翻折并以扣/线固定成三角形。 - 通常黑色或深棕；檐边有窄饰带、金属扣或羽毛。 - 与假发（powdered wig）配合，帽体相对头部比例大。 - bicorne 为更扁的两角帽，19 世纪…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-0027",
+    "path": "01-服装单品/头部/GAR-0027-费兹帽.md",
+    "name_zh": "费兹帽",
+    "name_en": "fez",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0128"
+    ],
+    "snippet": "…r, early 20th century` - 中文造型说明：红色费兹帽，圆柱无边毡帽，黑色流苏，奥斯曼官员或军人，二十世纪初。 ## 来源链接 - `src-0128` fit：fez（费兹帽） — https://fashionhisto…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-EXAMPLE-001",
+    "path": "01-服装单品/上装/GAR-EXAMPLE-001-白色立领衬衫.md",
+    "name_zh": "白色立领衬衫",
+    "name_en": "white stand-collar shirt",
+    "type": "garment",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "…直身轮廓在侧光下显出肩线与细褶；褶皱集中在下摆与肘部。 ## 适用条件 - 虚构现代都市/黑色电影语境（见 [[sty-example-001-克制的都市黑色电影]]）。 - 需要“整洁但略失序”质感的男性或中性角色。 - 中近景、低饱和调色、…",
+    "score": 1.0
+  }
+]

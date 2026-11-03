@@ -1,0 +1,37 @@
+{
+  "_case": {
+    "id": "C09",
+    "title": "低预算科幻网剧试播集（复用与预算替代）",
+    "types": [
+      "low_budget",
+      "sci_fi",
+      "reuse"
+    ],
+    "mode": "standard"
+  },
+  "character": {
+    "name": "凯",
+    "occupation": "空间站维修工",
+    "economic_status": "working class",
+    "arc": "发现空间站被遗弃的真相"
+  },
+  "period": "22nd century",
+  "region": "derelict space station",
+  "season": "controlled indoor",
+  "scene": "废弃走廊与维修舱",
+  "time": "ship night cycle",
+  "weather": "indoor, cold",
+  "action": "爬检修管道、拖拽工具包",
+  "location": "derelict station corridor",
+  "art_direction": "极简舞台化科幻、少道具、靠灯光与剪影",
+  "lighting": "single cold work light and practicals",
+  "camera": "handheld medium",
+  "budget": "micro low",
+  "fidelity_mode": "fictional",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "dry",
+    "damage": "slight",
+    "dirt": "grease"
+  }
+}

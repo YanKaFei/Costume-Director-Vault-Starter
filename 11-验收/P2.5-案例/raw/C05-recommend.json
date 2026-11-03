@@ -1,0 +1,658 @@
+{
+  "input": {
+    "character_name": "沈曼卿",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "银行家之妻，战后难民",
+    "economic_status": "wealthy to destitute",
+    "period": "1930s",
+    "region": "shanghai",
+    "season": "autumn",
+    "scene": "",
+    "time": "unknown",
+    "weather": "indoor, dry heavy rain, bombing nearby cold, overcast",
+    "action": "参加银行家晚宴，举杯寒暄 逃离被炸毁的住宅，抱着一只皮箱 在难民收容所排队领粥",
+    "arc": "从体面富太到失去一切的难民",
+    "art_direction": "克制年代剧，阶级反差",
+    "lighting": "从暖色吊灯到阴冷自然光",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "historical",
+    "tool": "sora",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "",
+    "scenes": [
+      {
+        "scene_id": "S1",
+        "story_day": 1,
+        "time": "evening",
+        "weather": "indoor, dry",
+        "action": "参加银行家晚宴，举杯寒暄",
+        "scene": "银行家公馆宴会厅",
+        "state": {
+          "wetness": "dry",
+          "damage": "none",
+          "dirt": "none"
+        }
+      },
+      {
+        "scene_id": "S2",
+        "story_day": 2,
+        "time": "night",
+        "weather": "heavy rain, bombing nearby",
+        "action": "逃离被炸毁的住宅，抱着一只皮箱",
+        "scene": "上海街头废墟",
+        "state": {
+          "wetness": "wet",
+          "damage": "slight",
+          "dirt": "soot and dust"
+        }
+      },
+      {
+        "scene_id": "S3",
+        "story_day": 5,
+        "time": "day",
+        "weather": "cold, overcast",
+        "action": "在难民收容所排队领粥",
+        "scene": "难民收容所",
+        "state": {
+          "wetness": "drying",
+          "damage": "damaged",
+          "dirt": "heavy"
+        }
+      }
+    ]
+  },
+  "fidelity_mode": "historical",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 51.3,
+      "scores": {
+        "period": 18.2,
+        "identity": 3.9,
+        "environment": 9.0,
+        "art": 5.5,
+        "movement": 4.3,
+        "arc": 3.5,
+        "camera": 7.8
+      },
+      "missing": [],
+      "cost": 0.351,
+      "colors": [
+        "beaded contrast",
+        "black",
+        "mid blue",
+        "natural hide",
+        "orange red",
+        "pink",
+        "red",
+        "silver",
+        "white"
+      ],
+      "style_tags": [
+        "1930s",
+        "arctic",
+        "art",
+        "art deco",
+        "deco",
+        "era",
+        "functional",
+        "modern",
+        "republican",
+        "republican era",
+        "shanghai",
+        "shanghai modern"
+      ],
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0031",
+          "name_zh": "旗袍",
+          "name_en": "qipao",
+          "colors": [
+            "white",
+            "orange_red",
+            "pink",
+            "mid_blue"
+          ],
+          "materials": [
+            "silk",
+            "synthetic_velvet",
+            "crepe",
+            "silk_damask"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0200",
+            "SRC-0201"
+          ],
+          "scores": {
+            "period": 1.0,
+            "identity": 0.210375,
+            "environment": 0.5589999999999999,
+            "art": 0.532258064516129,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0019",
+          "name_zh": "派克大衣",
+          "name_en": "anorak",
+          "colors": [
+            "white",
+            "natural_hide",
+            "beaded_contrast"
+          ],
+          "materials": [
+            "seal_skin",
+            "caribou_fur",
+            "wool",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0120"
+          ],
+          "scores": {
+            "period": 0.26,
+            "identity": 0.23175,
+            "environment": 0.6774999999999999,
+            "art": 0.21935483870967742,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
+          "colors": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "materials": [
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0205",
+            "SRC-0206"
+          ],
+          "scores": {
+            "period": 0.9400000000000001,
+            "identity": 0.36634722222222227,
+            "environment": 0.5589999999999999,
+            "art": 0.34112903225806446,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        }
+      ],
+      "parts": [
+        {
+          "id": "STR-0011",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        }
+      ],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0001",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult 沈曼卿, one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: beaded contrast, black, mid blue, natural hide, orange red, pink, red, silver, white, setting: unspecified location, unknown, indoor, dry heavy rain, bombing nearby cold, overcast, art direction: 克制年代剧，阶级反差, lighting: 从暖色吊灯到阴冷自然光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001",
+      "prompt_video": "沈曼卿, 参加银行家晚宴，举杯寒暄 逃离被炸毁的住宅，抱着一只皮箱 在难民收容所排队领粥, scene: unspecified location, unknown, indoor, dry heavy rain, bombing nearby cold, overcast, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 侧衩限制步幅，跨步/上下楼梯时最明显；贴身剪裁在坐姿时前襟与腰腹起皱；长紧袖款限制手腕动作；右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: 从暖色吊灯到阴冷自然光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 18.2/25, 环境气候 9.0/15",
+        "连身: GAR-0031 旗袍 (smart_casual)",
+        "外层: GAR-0019 派克大衣 (functional)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "linked structure cards: STR-0011",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0001",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "region mismatch in GAR-0019, GAR-0035: cards document their own regions, not shanghai",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0200",
+          "SRC-0201",
+          "SRC-0120",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0202",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0102"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0120",
+            "url": "https://fashionhistory.fitnyc.edu/anorak/"
+          },
+          {
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0004"
+        ],
+        "context_period_ids": [
+          "PRD-0011"
+        ],
+        "context_scene_ids": [
+          "SCN-0001"
+        ],
+        "item_evidence": {
+          "GAR-0031": "verified",
+          "GAR-0019": "verified",
+          "GAR-0035": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [
+      "STY-0004"
+    ],
+    "period_refs": [
+      "PRD-0011"
+    ],
+    "scene_refs": [
+      "SCN-0001"
+    ]
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0034",
+      "GAR-0008",
+      "GAR-0007"
+    ],
+    "lower_body": [
+      "GAR-0011",
+      "GAR-0010"
+    ],
+    "outerwear": [
+      "GAR-0019"
+    ],
+    "footwear": [
+      "GAR-0035"
+    ],
+    "one_piece": [
+      "GAR-0031",
+      "GAR-0032"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0002",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 14th_century, 15th_century, 16th_century, 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0003",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0006",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 1960s, 1970s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-EXAMPLE-001",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: example card is not historical evidence"
+      ]
+    },
+    {
+      "id": "GAR-0013",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0014",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 1950s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with shanghai (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with shanghai (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with shanghai (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0012",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs early_19th_century, mid_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0020",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0016",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs late_17th_century, 18th_century, early_19th_century)",
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0017",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 18th_century, 19th_century, victorian_era)"
+      ]
+    },
+    {
+      "id": "GAR-0018",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 1790s, 1810s, regency_era)",
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0033",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0025",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 18th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0026",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with shanghai (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0022",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0023",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "rain: open footwear is unsafe/wet",
+        "cold: open footwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with shanghai (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs late_antiquity, byzantine_era, middle_ages)",
+        "region-specific card incompatible with shanghai (europe, byzantium)"
+      ]
+    },
+    {
+      "id": "GAR-0015",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 18th_century, rococo)"
+      ]
+    },
+    {
+      "id": "GAR-0029",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs roman_republic, roman_empire)"
+      ]
+    },
+    {
+      "id": "GAR-0021",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0028",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs 16th_century, 17th_century, 18th_century, 19th_century)"
+      ]
+    }
+  ],
+  "warnings": [],
+  "sources": [
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0120",
+      "url": "https://fashionhistory.fitnyc.edu/anorak/"
+    },
+    {
+      "source_id": "SRC-0205",
+      "url": "https://collections.vam.ac.uk/item/O350849/"
+    },
+    {
+      "source_id": "SRC-0206",
+      "url": "https://collections.vam.ac.uk/item/O350850/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0203",
+      "url": "https://collections.vam.ac.uk/item/O235319/"
+    },
+    {
+      "source_id": "SRC-0112",
+      "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
+    },
+    {
+      "source_id": "SRC-0108",
+      "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+    },
+    {
+      "source_id": "SRC-0111",
+      "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "historical",
+    "history_evidence": true,
+    "continuity_verdict": "PASS"
+  },
+  "continuity": {
+    "verdict": "PASS",
+    "issues": [],
+    "scenes": [
+      {
+        "scene_id": "S1",
+        "item_ids": [
+          "GAR-0031",
+          "GAR-0019",
+          "GAR-0035"
+        ],
+        "state": {
+          "wetness": "dry",
+          "damage": "none",
+          "dirt": "none",
+          "accessories": []
+        },
+        "prompt_image": "full-body character design of an adult 沈曼卿, one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: beaded contrast, black, mid blue, natural hide, orange red, pink, red, silver, white, setting: 银行家公馆宴会厅, evening, indoor, dry, art direction: 克制年代剧，阶级反差, lighting: 从暖色吊灯到阴冷自然光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001",
+        "prompt_video": "沈曼卿, 参加银行家晚宴，举杯寒暄, scene: 银行家公馆宴会厅, evening, indoor, dry, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 侧衩限制步幅，跨步/上下楼梯时最明显；贴身剪裁在坐姿时前襟与腰腹起皱；长紧袖款限制手腕动作；右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: 从暖色吊灯到阴冷自然光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories"
+      },
+      {
+        "scene_id": "S2",
+        "item_ids": [
+          "GAR-0031",
+          "GAR-0019",
+          "GAR-0035"
+        ],
+        "state": {
+          "wetness": "wet",
+          "damage": "slight",
+          "dirt": "soot and dust",
+          "accessories": []
+        },
+        "prompt_image": "full-body character design of an adult 沈曼卿, one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: beaded contrast, black, mid blue, natural hide, orange red, pink, red, silver, white, setting: 上海街头废墟, night, heavy rain, bombing nearby, art direction: 克制年代剧，阶级反差, lighting: 从暖色吊灯到阴冷自然光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=wet; damage=slight; dirt=soot and dust; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001",
+        "prompt_video": "沈曼卿, 逃离被炸毁的住宅，抱着一只皮箱, scene: 上海街头废墟, night, heavy rain, bombing nearby, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 侧衩限制步幅，跨步/上下楼梯时最明显；贴身剪裁在坐姿时前襟与腰腹起皱；长紧袖款限制手腕动作；右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: 从暖色吊灯到阴冷自然光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=wet; damage=slight; dirt=soot and dust; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition"
+      },
+      {
+        "scene_id": "S3",
+        "item_ids": [
+          "GAR-0031",
+          "GAR-0019",
+          "GAR-0035"
+        ],
+        "state": {
+          "wetness": "drying",
+          "damage": "damaged",
+          "dirt": "heavy",
+          "accessories": []
+        },
+        "prompt_image": "full-body character design of an adult 沈曼卿, one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: beaded contrast, black, mid blue, natural hide, orange red, pink, red, silver, white, setting: 难民收容所, day, cold, overcast, art direction: 克制年代剧，阶级反差, lighting: 从暖色吊灯到阴冷自然光, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=drying; damage=damaged; dirt=heavy; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001",
+        "prompt_video": "沈曼卿, 在难民收容所排队领粥, scene: 难民收容所, day, cold, overcast, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, full-length fitted sheath dress, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins; alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 侧衩限制步幅，跨步/上下楼梯时最明显；贴身剪裁在坐姿时前襟与腰腹起皱；长紧袖款限制手腕动作；右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: 从暖色吊灯到阴冷自然光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=drying; damage=damaged; dirt=heavy; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories"
+      }
+    ]
+  }
+}

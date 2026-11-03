@@ -1,0 +1,127 @@
+[
+  {
+    "id": "LOOK-0007",
+    "path": "09-造型组合/LOOK-0007-当代雨夜调查者连续性.md",
+    "name_zh": "当代雨夜调查者连续性造型",
+    "name_en": "contemporary rain investigator continuity look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0036"
+    ],
+    "snippet": "# look-0007 当代雨夜调查者连续性造型 / contemporary rain investigator continuity look ## 定义 当代虚构都市调查者的…",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-EXAMPLE-001",
+    "path": "09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md",
+    "name_zh": "雨夜调查者",
+    "name_en": "rainy-night investigator",
+    "type": "look",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "# look-example-001 雨夜调查者 / rainy-night investigator ## 定义 原创虚构角色的完整造型样本：现代都市调查人员，夜间户外、情绪紧张、生活略显…",
+    "score": 8.0
+  },
+  {
+    "id": "SCN-0001",
+    "path": "07-剧情场景/SCN-0001-雨夜追查.md",
+    "name_zh": "雨夜追查",
+    "name_en": "rainy-night pursuit scene",
+    "type": "scene",
+    "evidence_status": "example",
+    "source_ids": [
+      "SRC-0036"
+    ],
+    "snippet": "# scn-0001 雨夜追查 / rainy-night pursuit scene ## 定义 一个当代虚构的雨夜追查场次，用于测试同一 look 在“雨前—雨中—室内”…",
+    "score": 8.0
+  },
+  {
+    "id": "SRC-0059",
+    "path": "04-来源/SRC-0059-a-very-brief-history-of-staying-dry.md",
+    "name_zh": "V&A 博客：保持干燥简史（防雨与伞）",
+    "name_en": "A very brief history of staying dry",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# v&a 博客：保持干燥简史（防雨与伞） **来源**：a very brief history of staying dry • v&a blog **发布者**：victoria…",
+    "score": 8.0
+  },
+  {
+    "id": "GAR-0012",
+    "path": "01-服装单品/内层/GAR-0012-衬裤.md",
+    "name_zh": "衬裤",
+    "name_en": "pantalettes",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0113"
+    ],
+    "snippet": "…逻辑；需要“白色细节从裙下露出”的画面。 ## 不适用条件 作为外裤直接穿；现代内裤场景；雨戏（湿后贴身且透明）。 ## 提示词短语 - 生图片段：`white linen pantalettes, ankle-length drawers…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-0016",
+    "path": "01-服装单品/外层/GAR-0016-班扬袍.md",
+    "name_zh": "班扬袍",
+    "name_en": "banyan",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0117"
+    ],
+    "snippet": "…地题材；需要“私密、松弛、异域感”的角色；文学改编。 ## 不适用条件 正式社交场合；户外雨戏；不要与浴袍或现代晨衣等同（年代与结构不同）。 ## 提示词短语 - 生图片段：`18th-century gentleman’s banyan,…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-0022",
+    "path": "01-服装单品/足部/GAR-0022-威灵顿靴.md",
+    "name_zh": "威灵顿靴",
+    "name_en": "wellington boot",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0123"
+    ],
+    "snippet": "…胶跟；现代版多为橡胶一体成型。 - 鞋头圆润、鞋面有长舌状结构。 - 与马术、乡间、军事及雨天场景相关。 ## 视觉辨识 靴筒直上、脚踝接缝明显；皮革/橡胶表面有高光；湿泥附着在鞋底与靴筒下段。 ## 适用条件 19 世纪英国乡间/军事；雨天…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-0035",
+    "path": "01-服装单品/足部/GAR-0035-女式皮鞋.md",
+    "name_zh": "女式皮鞋",
+    "name_en": "1930s women’s shoes",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0205",
+      "SRC-0206"
+    ],
+    "snippet": "…近景/全身。 ## 不适用条件 乡村/劳动场景；1930 年代前或 1950 年代后鞋型；雨天泥地；不要默认所有女性都穿蕾丝/织锦鞋。 ## 提示词短语 - 生图片段：`1930s women’s shoes, black lace over…",
+    "score": 1.0
+  },
+  {
+    "id": "GAR-EXAMPLE-001",
+    "path": "01-服装单品/上装/GAR-EXAMPLE-001-白色立领衬衫.md",
+    "name_zh": "白色立领衬衫",
+    "name_en": "white stand-collar shirt",
+    "type": "garment",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "…作为任何历史衬衫的证据引用（`evidence_status: example`）。 - 雨戏不能直接沿用干态：需另设 wet 状态，明确领口、袖口、下摆的湿度与贴身程度。 - 大幅动作/打斗镜头需先确认下摆固定与纽扣状态。 ## 提示词短语…",
+    "score": 1.0
+  },
+  {
+    "id": "MAT-0001",
+    "path": "03-材质纹样/材料/MAT-0001-平纹细布.md",
+    "name_zh": "平纹细布",
+    "name_en": "muslin",
+    "type": "material",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0102"
+    ],
+    "snippet": "…光、易皱”质感的场景；低预算可替代更贵薄纱。 ## 不适用条件 需要强垂坠或高光泽的晚装；雨戏（湿后贴身且易透）；严寒场景单穿不合逻辑。 ## 提示词短语 - 生图片段：`fine white muslin, plain-weave cott…",
+    "score": 1.0
+  }
+]

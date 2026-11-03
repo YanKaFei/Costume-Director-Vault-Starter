@@ -1,0 +1,573 @@
+{
+  "input": {
+    "character_name": "阿凯",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "同城急送骑手",
+    "economic_status": "working class",
+    "period": "contemporary",
+    "region": "urban china",
+    "season": "autumn",
+    "scene": "",
+    "time": "unknown",
+    "weather": "overcast, dry heavy rain indoor, damp light rain",
+    "action": "在站点检查包裹、戴头盔 骑行穿过积水路段 在楼道里拧干衣角、检查文件 摔倒后扶起电动车，继续送件",
+    "arc": "暴雨夜送一份不能迟到的文件",
+    "art_direction": "都市夜雨、霓虹与水泥地",
+    "lighting": "低照度霓虹 + 手机屏光",
+    "camera": "手持跟拍",
+    "budget": "low",
+    "fidelity_mode": "fictional",
+    "tool": "sora",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "",
+    "scenes": [
+      {
+        "scene_id": "S1",
+        "story_day": 1,
+        "time": "21:00",
+        "weather": "overcast, dry",
+        "action": "在站点检查包裹、戴头盔",
+        "scene": "配送站",
+        "state": {
+          "wetness": "dry",
+          "damage": "none",
+          "dirt": "none"
+        }
+      },
+      {
+        "scene_id": "S2",
+        "story_day": 1,
+        "time": "22:10",
+        "weather": "heavy rain",
+        "action": "骑行穿过积水路段",
+        "scene": "城市主干道",
+        "state": {
+          "wetness": "wet",
+          "damage": "none",
+          "dirt": "road splash"
+        }
+      },
+      {
+        "scene_id": "S3",
+        "story_day": 1,
+        "time": "23:30",
+        "weather": "indoor, damp",
+        "action": "在楼道里拧干衣角、检查文件",
+        "scene": "老楼楼梯间",
+        "state": {
+          "wetness": "drying",
+          "damage": "none",
+          "dirt": "muddy"
+        }
+      },
+      {
+        "scene_id": "S4",
+        "story_day": 2,
+        "time": "00:40",
+        "weather": "light rain",
+        "action": "摔倒后扶起电动车，继续送件",
+        "scene": "巷口",
+        "state": {
+          "wetness": "wet",
+          "damage": "damaged",
+          "dirt": "mud"
+        }
+      }
+    ]
+  },
+  "fidelity_mode": "fictional",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": "LOOK-0007",
+      "total": 54.8,
+      "scores": {
+        "period": 19.5,
+        "identity": 3.4,
+        "environment": 10.2,
+        "art": 3.8,
+        "movement": 4.3,
+        "arc": 3.5,
+        "camera": 8.2
+      },
+      "missing": [],
+      "cost": 0.244,
+      "colors": [
+        "beaded contrast",
+        "black",
+        "blue black",
+        "brown",
+        "indigo",
+        "natural hide",
+        "off white",
+        "white"
+      ],
+      "style_tags": [
+        "arctic",
+        "class",
+        "contemporary",
+        "country",
+        "fictional",
+        "fictional noir",
+        "functional",
+        "military",
+        "minimal",
+        "noir",
+        "rockabilly",
+        "working",
+        "working class",
+        "youth"
+      ],
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-EXAMPLE-001",
+          "name_zh": "白色立领衬衫",
+          "name_en": "white stand-collar shirt",
+          "colors": [
+            "off_white"
+          ],
+          "materials": [
+            "cotton"
+          ],
+          "evidence_status": "example",
+          "source_ids": [],
+          "scores": {
+            "period": 0.54,
+            "identity": 0.210375,
+            "environment": 0.8775,
+            "art": 0.31666666666666665,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.7500000000000001
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0014",
+          "name_zh": "牛仔裤",
+          "name_en": "jeans",
+          "colors": [
+            "indigo",
+            "blue_black"
+          ],
+          "materials": [
+            "denim",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0115"
+          ],
+          "scores": {
+            "period": 0.8600000000000001,
+            "identity": 0.244125,
+            "environment": 0.5774999999999999,
+            "art": 0.24583333333333332,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0019",
+          "name_zh": "派克大衣",
+          "name_en": "anorak",
+          "colors": [
+            "white",
+            "natural_hide",
+            "beaded_contrast"
+          ],
+          "materials": [
+            "seal_skin",
+            "caribou_fur",
+            "wool",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0120"
+          ],
+          "scores": {
+            "period": 0.8600000000000001,
+            "identity": 0.23175,
+            "environment": 0.6774999999999999,
+            "art": 0.22916666666666666,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.8600000000000001,
+            "identity": 0.210375,
+            "environment": 0.5774999999999999,
+            "art": 0.22083333333333333,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "lower_body"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult 阿凯, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, blue black, brown, indigo, natural hide, off white, white, setting: unspecified location, unknown, overcast, dry heavy rain indoor, damp light rain, art direction: 都市夜雨、霓虹与水泥地, lighting: 低照度霓虹 + 手机屏光, camera: 手持跟拍, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "prompt_video": "阿凯, 在站点检查包裹、戴头盔 骑行穿过积水路段 在楼道里拧干衣角、检查文件 摔倒后扶起电动车，继续送件, scene: unspecified location, unknown, overcast, dry heavy rain indoor, damp light rain, camera: 手持跟拍, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: 低照度霓虹 + 手机屏光, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 19.5/25, 环境气候 10.2/15",
+        "上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)",
+        "下装: GAR-0014 牛仔裤 (casual)",
+        "外层: GAR-0019 派克大衣 (functional)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0003",
+        "based on curated vault look card LOOK-0007"
+      ],
+      "risks": [
+        "look includes example cards, not historical evidence",
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0014, GAR-0019, GAR-0022: cards document their own regions, not urban china",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0120",
+          "SRC-0115",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0120",
+            "url": "https://fashionhistory.fitnyc.edu/anorak/"
+          },
+          {
+            "source_id": "SRC-0115",
+            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-EXAMPLE-001",
+          "STY-0005"
+        ],
+        "context_period_ids": [
+          "PRD-0011"
+        ],
+        "context_scene_ids": [
+          "SCN-0001"
+        ],
+        "item_evidence": {
+          "GAR-0019": "verified",
+          "GAR-0014": "verified",
+          "GAR-0022": "verified",
+          "GAR-EXAMPLE-001": "example"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [
+      "STY-EXAMPLE-001",
+      "STY-0005"
+    ],
+    "period_refs": [
+      "PRD-0011"
+    ],
+    "scene_refs": [
+      "SCN-0001"
+    ]
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0006",
+      "GAR-EXAMPLE-001",
+      "GAR-0007",
+      "GAR-0008",
+      "GAR-0002",
+      "GAR-0034",
+      "GAR-0003"
+    ],
+    "lower_body": [
+      "GAR-0014",
+      "GAR-0010",
+      "GAR-0011",
+      "GAR-0013"
+    ],
+    "inner_layer": [
+      "GAR-0012",
+      "GAR-0020"
+    ],
+    "outerwear": [
+      "GAR-0019",
+      "GAR-0017",
+      "GAR-0033"
+    ],
+    "accessory": [
+      "GAR-0021",
+      "GAR-0028",
+      "GAR-0025",
+      "GAR-0026"
+    ],
+    "footwear": [
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0035"
+    ],
+    "one_piece": [
+      "GAR-0031",
+      "GAR-0032",
+      "GAR-0029",
+      "GAR-0015"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with urban china (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with urban china (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with urban china (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0016",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0018",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with urban china (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "rain: open footwear is unsafe/wet"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with urban china (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with urban china (europe, byzantium)"
+      ]
+    }
+  ],
+  "warnings": [],
+  "sources": [
+    {
+      "source_id": "SRC-0120",
+      "url": "https://fashionhistory.fitnyc.edu/anorak/"
+    },
+    {
+      "source_id": "SRC-0115",
+      "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0107",
+      "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+    },
+    {
+      "source_id": "SRC-0111",
+      "url": "https://fashionhistory.fitnyc.edu/bloomers/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0155",
+      "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
+    },
+    {
+      "source_id": "SRC-0124",
+      "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+    },
+    {
+      "source_id": "SRC-0122",
+      "url": "https://fashionhistory.fitnyc.edu/pinafore/"
+    },
+    {
+      "source_id": "SRC-0133",
+      "url": "https://fashionhistory.fitnyc.edu/ruff/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "fictional",
+    "history_evidence": true,
+    "continuity_verdict": "PASS"
+  },
+  "continuity": {
+    "verdict": "PASS",
+    "issues": [],
+    "scenes": [
+      {
+        "scene_id": "S1",
+        "item_ids": [
+          "GAR-0019",
+          "GAR-0014",
+          "GAR-0022",
+          "GAR-EXAMPLE-001"
+        ],
+        "state": {
+          "wetness": "dry",
+          "damage": "none",
+          "dirt": "none",
+          "accessories": []
+        },
+        "prompt_image": "full-body character design of an adult 阿凯, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, blue black, brown, indigo, natural hide, off white, white, setting: 配送站, 21:00, overcast, dry, art direction: 都市夜雨、霓虹与水泥地, lighting: 低照度霓虹 + 手机屏光, camera: 手持跟拍, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+        "prompt_video": "阿凯, 在站点检查包裹、戴头盔, scene: 配送站, 21:00, overcast, dry, camera: 手持跟拍, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: 低照度霓虹 + 手机屏光, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
+      },
+      {
+        "scene_id": "S2",
+        "item_ids": [
+          "GAR-0019",
+          "GAR-0014",
+          "GAR-0022",
+          "GAR-EXAMPLE-001"
+        ],
+        "state": {
+          "wetness": "wet",
+          "damage": "none",
+          "dirt": "road splash",
+          "accessories": []
+        },
+        "prompt_image": "full-body character design of an adult 阿凯, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, blue black, brown, indigo, natural hide, off white, white, setting: 城市主干道, 22:10, heavy rain, art direction: 都市夜雨、霓虹与水泥地, lighting: 低照度霓虹 + 手机屏光, camera: 手持跟拍, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=road splash; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+        "prompt_video": "阿凯, 骑行穿过积水路段, scene: 城市主干道, 22:10, heavy rain, camera: 手持跟拍, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: 低照度霓虹 + 手机屏光, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=road splash; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
+      },
+      {
+        "scene_id": "S3",
+        "item_ids": [
+          "GAR-0019",
+          "GAR-0014",
+          "GAR-0022",
+          "GAR-EXAMPLE-001"
+        ],
+        "state": {
+          "wetness": "drying",
+          "damage": "none",
+          "dirt": "muddy",
+          "accessories": []
+        },
+        "prompt_image": "full-body character design of an adult 阿凯, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, blue black, brown, indigo, natural hide, off white, white, setting: 老楼楼梯间, 23:30, indoor, damp, art direction: 都市夜雨、霓虹与水泥地, lighting: 低照度霓虹 + 手机屏光, camera: 手持跟拍, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=muddy; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+        "prompt_video": "阿凯, 在楼道里拧干衣角、检查文件, scene: 老楼楼梯间, 23:30, indoor, damp, camera: 手持跟拍, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: 低照度霓虹 + 手机屏光, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=muddy; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
+      },
+      {
+        "scene_id": "S4",
+        "item_ids": [
+          "GAR-0019",
+          "GAR-0014",
+          "GAR-0022",
+          "GAR-EXAMPLE-001"
+        ],
+        "state": {
+          "wetness": "wet",
+          "damage": "damaged",
+          "dirt": "mud",
+          "accessories": []
+        },
+        "prompt_image": "full-body character design of an adult 阿凯, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beaded contrast, black, blue black, brown, indigo, natural hide, off white, white, setting: 巷口, 00:40, light rain, art direction: 都市夜雨、霓虹与水泥地, lighting: 低照度霓虹 + 手机屏光, camera: 手持跟拍, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=damaged; dirt=mud; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+        "prompt_video": "阿凯, 摔倒后扶起电动车，继续送件, scene: 巷口, 00:40, light rain, camera: 手持跟拍, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: 低照度霓虹 + 手机屏光, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=damaged; dirt=mud; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
+      }
+    ]
+  }
+}

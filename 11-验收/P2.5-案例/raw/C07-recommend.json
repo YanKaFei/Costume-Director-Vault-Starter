@@ -1,0 +1,844 @@
+{
+  "input": {
+    "character_name": "Ama",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "建筑师",
+    "economic_status": "middle",
+    "period": "contemporary",
+    "region": "london and accra",
+    "season": "summer",
+    "scene": "婚礼仪式与晚宴",
+    "time": "afternoon to evening",
+    "weather": "warm, outdoor ceremony",
+    "action": "行礼、被祝福、跳舞",
+    "arc": "在加纳家族传统与伦敦生活之间协商自我",
+    "art_direction": "纪实婚礼摄影、自然光、真实家庭氛围",
+    "lighting": "late afternoon sun + warm string lights",
+    "camera": "documentary medium and close",
+    "budget": "medium",
+    "fidelity_mode": "inspired",
+    "tool": "midjourney",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {
+      "wetness": "dry",
+      "damage": "none",
+      "dirt": "none"
+    },
+    "notes": ""
+  },
+  "fidelity_mode": "inspired",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": "LOOK-EXAMPLE-001",
+      "total": 44.9,
+      "scores": {
+        "period": 16.3,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 4.8,
+        "movement": 4.4,
+        "arc": 3.5,
+        "camera": 6.8
+      },
+      "missing": [],
+      "cost": 0.237,
+      "colors": [
+        "black",
+        "blue black",
+        "brown",
+        "indigo",
+        "off white"
+      ],
+      "style_tags": [
+        "class",
+        "contemporary",
+        "country",
+        "fictional",
+        "fictional noir",
+        "military",
+        "minimal",
+        "noir",
+        "rockabilly",
+        "working",
+        "working class",
+        "youth"
+      ],
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-EXAMPLE-001",
+          "name_zh": "白色立领衬衫",
+          "name_en": "white stand-collar shirt",
+          "colors": [
+            "off_white"
+          ],
+          "materials": [
+            "cotton"
+          ],
+          "evidence_status": "example",
+          "source_ids": [],
+          "scores": {
+            "period": 0.42000000000000004,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.48750000000000004,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.55
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0014",
+          "name_zh": "牛仔裤",
+          "name_en": "jeans",
+          "colors": [
+            "indigo",
+            "blue_black"
+          ],
+          "materials": [
+            "denim",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0115"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.22499999999999998,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.22499999999999998,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "lower_body"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ama, upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue black, brown, indigo, off white, setting: 婚礼仪式与晚宴, afternoon to evening, warm, outdoor ceremony, art direction: 纪实婚礼摄影、自然光、真实家庭氛围, lighting: late afternoon sun + warm string lights, camera: documentary medium and close, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Ama, 行礼、被祝福、跳舞, scene: 婚礼仪式与晚宴, afternoon to evening, warm, outdoor ceremony, camera: documentary medium and close, costume: upper body: off-white cotton stand-collar shirt, straight fit, slightly wrinkled fabric; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 抬臂时肩背与袖山出现拉扯褶皱；下摆易从裤腰滑出，连续镜头需锁定塞入状态。, lighting: late afternoon sun + warm string lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-EXAMPLE-001 white stand-collar shirt [off_white; cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 16.3/25, 摄影/一致性 6.8/10",
+        "上装: GAR-EXAMPLE-001 白色立领衬衫 (smart_casual)",
+        "下装: GAR-0014 牛仔裤 (casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0003",
+        "based on curated vault look card LOOK-EXAMPLE-001"
+      ],
+      "risks": [
+        "look includes example cards, not historical evidence",
+        "region mismatch in GAR-0014, GAR-0022: cards document their own regions, not london and accra",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0115",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0115",
+            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-EXAMPLE-001"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [
+          "SCN-0003"
+        ],
+        "item_evidence": {
+          "GAR-EXAMPLE-001": "example",
+          "GAR-0014": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 37.5,
+      "scores": {
+        "period": 16.0,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 3.5,
+        "movement": 4.2,
+        "arc": 3.5,
+        "camera": 7.6
+      },
+      "missing": [],
+      "cost": 0.37,
+      "colors": [
+        "beaded",
+        "beaded contrast",
+        "brown",
+        "buckskin",
+        "earth",
+        "fur brown",
+        "multicolor",
+        "natural hide",
+        "silk",
+        "solid color",
+        "tan",
+        "tweed grey",
+        "white"
+      ],
+      "style_tags": [
+        "afrocentric",
+        "arctic",
+        "black",
+        "black pride",
+        "counterculture",
+        "country",
+        "court",
+        "craft",
+        "functional",
+        "indigenous",
+        "pride",
+        "sportswear",
+        "winter"
+      ],
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-0006",
+          "name_zh": "达希基套衫",
+          "name_en": "dashiki",
+          "colors": [
+            "multicolor",
+            "solid_color"
+          ],
+          "materials": [
+            "cotton",
+            "printed_cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0107"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.1875,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0011",
+          "name_zh": "尼克裤",
+          "name_en": "knickerbockers",
+          "colors": [
+            "tweed_grey",
+            "brown",
+            "earth"
+          ],
+          "materials": [
+            "wool",
+            "tweed"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0112"
+          ],
+          "scores": {
+            "period": 0.33999999999999997,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.1875,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0019",
+          "name_zh": "派克大衣",
+          "name_en": "anorak",
+          "colors": [
+            "white",
+            "natural_hide",
+            "beaded_contrast"
+          ],
+          "materials": [
+            "seal_skin",
+            "caribou_fur",
+            "wool",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0120"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3125,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
+          "colors": [
+            "tan",
+            "buckskin",
+            "beaded"
+          ],
+          "materials": [
+            "leather",
+            "beads",
+            "silk_ribbon"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0124"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.1875,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0028",
+          "name_zh": "手笼",
+          "name_en": "muff",
+          "colors": [
+            "fur_brown",
+            "white",
+            "silk"
+          ],
+          "materials": [
+            "fur",
+            "silk",
+            "wool"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0129"
+          ],
+          "scores": {
+            "period": 0.33999999999999997,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3125,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "footwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ama, upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, floral beadwork and silk ribbon ties, no separate heel; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory, palette: beaded, beaded contrast, brown, buckskin, earth, fur brown, multicolor, natural hide, silk, solid color, tan, tweed grey, white, setting: 婚礼仪式与晚宴, afternoon to evening, warm, outdoor ceremony, art direction: 纪实婚礼摄影、自然光、真实家庭氛围, lighting: late afternoon sun + warm string lights, camera: documentary medium and close, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Ama, 行礼、被祝福、跳舞, scene: 婚礼仪式与晚宴, afternoon to evening, warm, outdoor ceremony, camera: documentary medium and close, costume: upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: wool tweed knickerbockers, loose breeches gathered and buckled below the knee, worn with wool socks and country jacket; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof, worn in snow; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, floral beadwork and silk ribbon ties, no separate heel; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory, fabric motion: 厚重兽皮限制大幅动作；毛边在风雪中会结冰，镜头间需保持湿润/结冰状态一致。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限；裤腿宽松，跑动时有鼓动。; 宽松套头，手臂活动自由；下摆与袖口在动作中易上移，需确认长度。, lighting: late afternoon sun + warm string lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 16.0/25, 摄影/一致性 7.6/10",
+        "上装: GAR-0006 达希基套衫 (casual)",
+        "下装: GAR-0011 尼克裤 (casual)",
+        "外层: GAR-0019 派克大衣 (functional)",
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "配饰: GAR-0028 手笼 (formal)",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+      ],
+      "risks": [
+        "region mismatch in GAR-0006, GAR-0011, GAR-0019, GAR-0023, GAR-0028: cards document their own regions, not london and accra",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0107",
+          "SRC-0112",
+          "SRC-0120",
+          "SRC-0124",
+          "SRC-0129",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0141"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0107",
+            "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+          },
+          {
+            "source_id": "SRC-0112",
+            "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
+          },
+          {
+            "source_id": "SRC-0120",
+            "url": "https://fashionhistory.fitnyc.edu/anorak/"
+          },
+          {
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0129",
+            "url": "https://fashionhistory.fitnyc.edu/muff/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-EXAMPLE-001"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [
+          "SCN-0003"
+        ],
+        "item_evidence": {
+          "GAR-0006": "verified",
+          "GAR-0011": "verified",
+          "GAR-0019": "verified",
+          "GAR-0023": "verified",
+          "GAR-0028": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 40.9,
+      "scores": {
+        "period": 19.5,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 3.2,
+        "movement": 4.4,
+        "arc": 3.5,
+        "camera": 7.1
+      },
+      "missing": [],
+      "cost": 0.237,
+      "colors": [
+        "black",
+        "blue black",
+        "brown",
+        "indigo",
+        "multicolor",
+        "solid color"
+      ],
+      "style_tags": [
+        "afrocentric",
+        "black",
+        "black pride",
+        "class",
+        "counterculture",
+        "country",
+        "military",
+        "pride",
+        "rockabilly",
+        "working",
+        "working class",
+        "youth"
+      ],
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-0006",
+          "name_zh": "达希基套衫",
+          "name_en": "dashiki",
+          "colors": [
+            "multicolor",
+            "solid_color"
+          ],
+          "materials": [
+            "cotton",
+            "printed_cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0107"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.1875,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0014",
+          "name_zh": "牛仔裤",
+          "name_en": "jeans",
+          "colors": [
+            "indigo",
+            "blue_black"
+          ],
+          "materials": [
+            "denim",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0115"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.22499999999999998,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.78,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.22499999999999998,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.8500000000000001
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "upper_body"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Ama, upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue black, brown, indigo, multicolor, solid color, setting: 婚礼仪式与晚宴, afternoon to evening, warm, outdoor ceremony, art direction: 纪实婚礼摄影、自然光、真实家庭氛围, lighting: late afternoon sun + warm string lights, camera: documentary medium and close, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Ama, 行礼、被祝福、跳舞, scene: 婚礼仪式与晚宴, afternoon to evening, warm, outdoor ceremony, camera: documentary medium and close, costume: upper body: loose pullover dashiki shirt, colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, worn with a white t-shirt and leather jacket, working-class youth styling, visible wear at knees; footwear: calf-length Wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕；旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由；下摆与袖口在动作中易上移，需确认长度。, lighting: late afternoon sun + warm string lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 19.5/25, 摄影/一致性 7.1/10",
+        "上装: GAR-0006 达希基套衫 (casual)",
+        "下装: GAR-0014 牛仔裤 (casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0003"
+      ],
+      "risks": [
+        "region mismatch in GAR-0006, GAR-0014, GAR-0022: cards document their own regions, not london and accra",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0107",
+          "SRC-0115",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0107",
+            "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+          },
+          {
+            "source_id": "SRC-0115",
+            "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-EXAMPLE-001"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [
+          "SCN-0003"
+        ],
+        "item_evidence": {
+          "GAR-0006": "verified",
+          "GAR-0014": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [
+      "STY-EXAMPLE-001"
+    ],
+    "period_refs": [],
+    "scene_refs": [
+      "SCN-0003"
+    ]
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0006",
+      "GAR-EXAMPLE-001",
+      "GAR-0007",
+      "GAR-0002",
+      "GAR-0008",
+      "GAR-0003",
+      "GAR-0034"
+    ],
+    "lower_body": [
+      "GAR-0014",
+      "GAR-0011",
+      "GAR-0013",
+      "GAR-0010"
+    ],
+    "inner_layer": [
+      "GAR-0020",
+      "GAR-0012"
+    ],
+    "outerwear": [
+      "GAR-0019",
+      "GAR-0018",
+      "GAR-0033",
+      "GAR-0016",
+      "GAR-0017"
+    ],
+    "accessory": [
+      "GAR-0028",
+      "GAR-0021",
+      "GAR-0025",
+      "GAR-0026"
+    ],
+    "footwear": [
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0035",
+      "GAR-0024"
+    ],
+    "one_piece": [
+      "GAR-0031",
+      "GAR-0032",
+      "GAR-0015",
+      "GAR-0029"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with london and accra (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with london and accra (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with london and accra (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with london and accra (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with london and accra (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with london and accra (europe, byzantium)"
+      ]
+    }
+  ],
+  "warnings": [],
+  "sources": [
+    {
+      "source_id": "SRC-0115",
+      "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0107",
+      "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+    },
+    {
+      "source_id": "SRC-0112",
+      "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
+    },
+    {
+      "source_id": "SRC-0120",
+      "url": "https://fashionhistory.fitnyc.edu/anorak/"
+    },
+    {
+      "source_id": "SRC-0124",
+      "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+    },
+    {
+      "source_id": "SRC-0129",
+      "url": "https://fashionhistory.fitnyc.edu/muff/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "inspired",
+    "history_evidence": true
+  }
+}

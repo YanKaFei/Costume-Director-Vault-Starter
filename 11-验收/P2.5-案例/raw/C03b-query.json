@@ -1,0 +1,74 @@
+[
+  {
+    "id": "STY-0009",
+    "path": "05-风格体系/STY-0009-复古未来主义科幻街头.md",
+    "name_zh": "复古未来主义科幻街头",
+    "name_en": "retro-futurist sci-fi street style",
+    "type": "style",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0166"
+    ],
+    "snippet": "# 复古未来主义科幻街头 / retro-futurist sci-fi street style ## 定义 一种虚构未来世界的造型方法：不凭空发明“未来服装”…",
+    "score": 8.0
+  },
+  {
+    "id": "LOOK-0007",
+    "path": "09-造型组合/LOOK-0007-当代雨夜调查者连续性.md",
+    "name_zh": "当代雨夜调查者连续性造型",
+    "name_en": "contemporary rain investigator continuity look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0036"
+    ],
+    "snippet": "…颜色变深、表面有水珠与反光；室内干燥后出现水痕、褶皱与靴面泛白。 ## 适用条件 当代/近未来都市悬疑；雨夜与室内转场；需要同一角色跨镜头一致性与低预算复用的制作。 ## 不适用条件 历史年代剧；需要多套换装的社交场次；把“雨湿状态”与“室内干…",
+    "score": 1.0
+  },
+  {
+    "id": "LOOK-EXAMPLE-001",
+    "path": "09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md",
+    "name_zh": "雨夜调查者",
+    "name_en": "rainy-night investigator",
+    "type": "look",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "…头之间保持同一套轮廓与配色，只允许状态（湿度、褶皱、污渍）变化。 ## 适用条件 现代/近未来都市悬疑与调查题材；夜景与低照度摄影；需要跨场次一致性与低预算复用。 ## 不适用条件 历史年代剧；高饱和商业片；需要多套换装的社交场合；把本示例当作…",
+    "score": 1.0
+  },
+  {
+    "id": "MAT-0005",
+    "path": "03-材质纹样/纹样/MAT-0005-肯特布.md",
+    "name_zh": "肯特布",
+    "name_en": "kente cloth",
+    "type": "pattern",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0144"
+    ],
+    "snippet": "…对比强。 ## 适用条件 加纳/西非仪式与节庆；需要“色块+条带拼接”的布料质感；当代非洲未来主义造型。 ## 不适用条件 日常劳作（高等级 kente 不适合）；随意切割图案；把不同命名纹样混贴造成误用。 ## 提示词短语 - 生图片段：`g…",
+    "score": 1.0
+  },
+  {
+    "id": "SRC-0166",
+    "path": "04-来源/SRC-0166-FIT-1997第五元素.md",
+    "name_zh": "1997年 Besson 第五元素",
+    "name_en": "1997 Besson The Fifth Element film analysis",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "…200，内容与 note 所述范围一致） ## 相关卡片 - [[sty-0009-复古未来主义科幻街头]] - [[gar-0019-派克大衣]] - [[mat-0004-卢勒克斯金属线]]",
+    "score": 1.0
+  },
+  {
+    "id": "STY-EXAMPLE-001",
+    "path": "05-风格体系/STY-EXAMPLE-001-克制的都市黑色电影.md",
+    "name_zh": "克制的都市黑色电影造型",
+    "name_en": "restrained urban noir costume styling",
+    "type": "style",
+    "evidence_status": "example",
+    "source_ids": [],
+    "snippet": "…哑光、边缘有使用痕迹；画面信息集中在轮廓与领口，不靠花纹与高光。 ## 适用条件 现代或近未来的都市悬疑、调查题材；夜景与低照度摄影；需要克制、可信、低预算的角色造型。 ## 不适用条件 彩色高饱和商业片；历史年代剧（本卡不含年代考据）；把“n…",
+    "score": 1.0
+  }
+]

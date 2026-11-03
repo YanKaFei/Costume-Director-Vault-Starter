@@ -1,0 +1,80 @@
+{
+  "_case": {
+    "id": "C06",
+    "title": "当代夜班信使 4 场干湿破损连续性",
+    "types": [
+      "multi_scene_continuity",
+      "contemporary_realism"
+    ],
+    "mode": "continuity"
+  },
+  "character": {
+    "name": "阿凯",
+    "occupation": "同城急送骑手",
+    "economic_status": "working class",
+    "arc": "暴雨夜送一份不能迟到的文件"
+  },
+  "period": "contemporary",
+  "region": "urban china",
+  "season": "autumn",
+  "art_direction": "都市夜雨、霓虹与水泥地",
+  "lighting": "低照度霓虹 + 手机屏光",
+  "camera": "手持跟拍",
+  "budget": "low",
+  "fidelity_mode": "fictional",
+  "tool": "sora",
+  "scenes": [
+    {
+      "scene_id": "S1",
+      "story_day": 1,
+      "time": "21:00",
+      "weather": "overcast, dry",
+      "action": "在站点检查包裹、戴头盔",
+      "scene": "配送站",
+      "state": {
+        "wetness": "dry",
+        "damage": "none",
+        "dirt": "none"
+      }
+    },
+    {
+      "scene_id": "S2",
+      "story_day": 1,
+      "time": "22:10",
+      "weather": "heavy rain",
+      "action": "骑行穿过积水路段",
+      "scene": "城市主干道",
+      "state": {
+        "wetness": "wet",
+        "damage": "none",
+        "dirt": "road splash"
+      }
+    },
+    {
+      "scene_id": "S3",
+      "story_day": 1,
+      "time": "23:30",
+      "weather": "indoor, damp",
+      "action": "在楼道里拧干衣角、检查文件",
+      "scene": "老楼楼梯间",
+      "state": {
+        "wetness": "drying",
+        "damage": "none",
+        "dirt": "muddy"
+      }
+    },
+    {
+      "scene_id": "S4",
+      "story_day": 2,
+      "time": "00:40",
+      "weather": "light rain",
+      "action": "摔倒后扶起电动车，继续送件",
+      "scene": "巷口",
+      "state": {
+        "wetness": "wet",
+        "damage": "damaged",
+        "dirt": "mud"
+      }
+    }
+  ]
+}

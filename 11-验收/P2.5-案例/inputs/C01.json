@@ -1,0 +1,36 @@
+{
+  "_case": {
+    "id": "C01",
+    "title": "明末清初江南文人（历史薄弱年代/地域）",
+    "types": [
+      "historical_weak_coverage",
+      "evidence_gap"
+    ],
+    "mode": "standard"
+  },
+  "character": {
+    "name": "顾砚秋",
+    "occupation": "书院教师、江南文人",
+    "economic_status": "中下",
+    "arc": "朝代更替中保持读书人的体面与犹疑"
+  },
+  "period": "1644 late Ming early Qing",
+  "region": "jiangnan china",
+  "season": "spring",
+  "scene": "书院讲堂",
+  "time": "day",
+  "weather": "overcast, dry",
+  "action": "讲学、整理书箱",
+  "location": "江南书院",
+  "art_direction": "文人水墨、克制、低饱和",
+  "lighting": "阴天窗光",
+  "camera": "medium shot",
+  "budget": "low",
+  "fidelity_mode": "historical",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "dry",
+    "damage": "none",
+    "dirt": "none"
+  }
+}

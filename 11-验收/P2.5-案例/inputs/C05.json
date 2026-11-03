@@ -1,0 +1,68 @@
+{
+  "_case": {
+    "id": "C05",
+    "title": "1930s 上海银行家之妻到难民（身份下滑，多场次）",
+    "types": [
+      "identity_transformation",
+      "multi_scene_continuity",
+      "historical"
+    ],
+    "mode": "continuity"
+  },
+  "character": {
+    "name": "沈曼卿",
+    "occupation": "银行家之妻，战后难民",
+    "economic_status": "wealthy to destitute",
+    "arc": "从体面富太到失去一切的难民"
+  },
+  "period": "1930s",
+  "region": "shanghai",
+  "season": "autumn",
+  "art_direction": "克制年代剧，阶级反差",
+  "lighting": "从暖色吊灯到阴冷自然光",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "sora",
+  "scenes": [
+    {
+      "scene_id": "S1",
+      "story_day": 1,
+      "time": "evening",
+      "weather": "indoor, dry",
+      "action": "参加银行家晚宴，举杯寒暄",
+      "scene": "银行家公馆宴会厅",
+      "state": {
+        "wetness": "dry",
+        "damage": "none",
+        "dirt": "none"
+      }
+    },
+    {
+      "scene_id": "S2",
+      "story_day": 2,
+      "time": "night",
+      "weather": "heavy rain, bombing nearby",
+      "action": "逃离被炸毁的住宅，抱着一只皮箱",
+      "scene": "上海街头废墟",
+      "state": {
+        "wetness": "wet",
+        "damage": "slight",
+        "dirt": "soot and dust"
+      }
+    },
+    {
+      "scene_id": "S3",
+      "story_day": 5,
+      "time": "day",
+      "weather": "cold, overcast",
+      "action": "在难民收容所排队领粥",
+      "scene": "难民收容所",
+      "state": {
+        "wetness": "drying",
+        "damage": "damaged",
+        "dirt": "heavy"
+      }
+    }
+  ]
+}

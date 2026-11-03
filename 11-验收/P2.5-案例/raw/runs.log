@@ -1,0 +1,28 @@
+C01	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C01.json --json	exit=3
+C02	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C02.json --json	exit=0
+C03	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C03.json --json	exit=0
+C04	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C04.json --json	exit=0
+C05	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C05.json --json	exit=0
+C06	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C06.json --json	exit=0
+C07	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C07.json --json	exit=0
+C08	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C08.json --json	exit=3
+C09	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C09.json --json	exit=0
+C10	recommend	cmd=python3 scripts/recommend.py 11-验收/P2.5-案例/inputs/C10.json --json	exit=0
+C01	query_strict	cmd=python3 scripts/query.py 明末 江南 --json	exit=0	hits=0	ids=
+C02	query_strict	cmd=python3 scripts/query.py 护士 医院 --json	exit=0	hits=0	ids=
+C03	query_strict	cmd=python3 scripts/query.py 太空 歌剧 --json	exit=0	hits=0	ids=
+C04	query_strict	cmd=python3 scripts/query.py 表现主义 --json	exit=0	hits=0	ids=
+C05	query_strict	cmd=python3 scripts/query.py 1930s 上海 --type garment --limit 8 --json	exit=0	hits=5	ids=GAR-0035,GAR-0034,GAR-0031,GAR-0032,GAR-0033
+C06	query_strict	cmd=python3 scripts/query.py 信使 雨 --json	exit=0	hits=0	ids=
+C07	query_strict	cmd=python3 scripts/query.py adinkra 婚礼 --json	exit=0	hits=0	ids=
+C08	query_strict	cmd=python3 scripts/query.py 宫廷 舞 --json	exit=0	hits=1	ids=GAR-0009
+C09	query_strict	cmd=python3 scripts/query.py 科幻 维修 --json	exit=0	hits=0	ids=
+C10	query_strict	cmd=python3 scripts/query.py 义体 上海 --json	exit=0	hits=0	ids=
+C01	query_broad	cmd=python3 scripts/query.py 清代 --json	exit=0	hits=1	ids=PRD-0011
+C02	query_broad	cmd=python3 scripts/query.py 工作服 --json	exit=0	hits=0	ids=
+C03	query_broad	cmd=python3 scripts/query.py 未来 --json	exit=0	hits=6	ids=STY-0009,LOOK-0007,LOOK-EXAMPLE-001,MAT-0005,SRC-0166,STY-EXAMPLE-001
+C04	query_broad	cmd=python3 scripts/query.py 黑色 --json	exit=0	hits=10	ids=SRC-0174,SRC-0205,STY-0005,STY-EXAMPLE-001,STY-0002,GAR-0035,GAR-0017,GAR-0025,GAR-0027,GAR-EXAMPLE-001
+C06	query_broad	cmd=python3 scripts/query.py 雨 --json	exit=0	hits=10	ids=LOOK-0007,LOOK-EXAMPLE-001,SCN-0001,SRC-0059,GAR-0012,GAR-0016,GAR-0022,GAR-0035,GAR-EXAMPLE-001,MAT-0001
+C07	query_broad	cmd=python3 scripts/query.py adinkra --json	exit=0	hits=3	ids=MAT-0006,SRC-0145,SRC-0016
+C09	query_broad	cmd=python3 scripts/query.py 太空 --json	exit=0	hits=1	ids=PRD-0007
+C10	query_broad	cmd=python3 scripts/query.py 霓虹 --json	exit=0	hits=2	ids=SCN-0001,STY-0005

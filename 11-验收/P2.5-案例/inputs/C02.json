@@ -1,0 +1,36 @@
+{
+  "_case": {
+    "id": "C02",
+    "title": "当代急诊科护士夜班（现代职业服缺失）",
+    "types": [
+      "contemporary_realism",
+      "occupational"
+    ],
+    "mode": "standard"
+  },
+  "character": {
+    "name": "林悦",
+    "occupation": "急诊科护士",
+    "economic_status": "working class",
+    "arc": "连续 12 小时夜班后的疲惫与专业尊严"
+  },
+  "period": "contemporary",
+  "region": "urban china shanghai",
+  "season": "summer",
+  "scene": "急诊抢救区",
+  "time": "02:40 night",
+  "weather": "indoor air-conditioned, rain outside",
+  "action": "快速走动、弯腰、抬担架、戴手套",
+  "location": "hospital emergency department",
+  "art_direction": "手持纪录感、冷白荧光、真实医院质地",
+  "lighting": "cool fluorescent",
+  "camera": "handheld close and medium",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "dry",
+    "damage": "none",
+    "dirt": "blood and sweat stains? unknown"
+  }
+}

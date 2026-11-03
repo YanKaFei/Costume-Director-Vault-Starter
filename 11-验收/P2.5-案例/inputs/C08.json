@@ -1,0 +1,37 @@
+{
+  "_case": {
+    "id": "C08",
+    "title": "1580s 意大利宫廷舞者（历史 + 动作安全冲突）",
+    "types": [
+      "historical_accuracy",
+      "dance_movement",
+      "safety_conflict"
+    ],
+    "mode": "standard"
+  },
+  "character": {
+    "name": "伊莎贝拉",
+    "occupation": "宫廷舞者",
+    "economic_status": "court attendant",
+    "arc": "以舞蹈争取 patron 的青睐"
+  },
+  "period": "1580s",
+  "region": "italy",
+  "season": "spring",
+  "scene": "宫廷舞会",
+  "time": "night",
+  "weather": "indoor",
+  "action": "旋转、跳跃、快速换位、屈膝礼",
+  "location": "Italian ducal palace",
+  "art_direction": "文艺复兴宫廷、烛光与织锦",
+  "lighting": "candlelight and warm practicals",
+  "camera": "medium full-body tracking",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "sora",
+  "state": {
+    "wetness": "dry",
+    "damage": "none",
+    "dirt": "none"
+  }
+}

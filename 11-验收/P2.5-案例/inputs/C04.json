@@ -1,0 +1,36 @@
+{
+  "_case": {
+    "id": "C04",
+    "title": "德国表现主义默片梦游者（艺术片）",
+    "types": [
+      "expressionist",
+      "art_film"
+    ],
+    "mode": "standard"
+  },
+  "character": {
+    "name": "梦游者",
+    "occupation": "催眠表演中的梦游者",
+    "economic_status": "unknown",
+    "arc": "从被操控的表演者走向觉醒"
+  },
+  "period": "1920s",
+  "region": "germany",
+  "season": "winter",
+  "scene": "倾斜的阁楼舞台",
+  "time": "night",
+  "weather": "indoor, cold",
+  "action": "僵硬行走、缓慢抬手、被牵引",
+  "location": "expressionist attic stage",
+  "art_direction": "德国表现主义、倾斜布景、锯齿线条、强阴影",
+  "lighting": "高对比硬光、底光、夸张阴影",
+  "camera": "低角度、扭曲透视、长镜头",
+  "budget": "low",
+  "fidelity_mode": "inspired",
+  "tool": "sora",
+  "state": {
+    "wetness": "dry",
+    "damage": "none",
+    "dirt": "none"
+  }
+}
