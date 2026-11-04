@@ -1,0 +1,272 @@
+{
+  "C01": {
+    "title": "PG76299 / English Costume book terms",
+    "coverage": "books",
+    "checks": {
+      "events": true,
+      "skill_called": true,
+      "scripts": [
+        "query.py"
+      ],
+      "answer": true,
+      "turn_end": "completed",
+      "quota_blocked": false,
+      "required_terms_missing": [],
+      "ids": [
+        "GAR-0008",
+        "GAR-0014",
+        "GAR-0017",
+        "GAR-0033",
+        "SRC-0005",
+        "SRC-0007",
+        "SRC-0010",
+        "SRC-0029",
+        "SRC-0030",
+        "SRC-0066",
+        "SRC-0109",
+        "SRC-0115",
+        "SRC-0118"
+      ],
+      "missing_ids": [],
+      "src_ids": [
+        "SRC-0005",
+        "SRC-0007",
+        "SRC-0010",
+        "SRC-0029",
+        "SRC-0030",
+        "SRC-0066",
+        "SRC-0109",
+        "SRC-0115",
+        "SRC-0118"
+      ],
+      "visual_ids": [],
+      "pass": true
+    },
+    "reasons": []
+  },
+  "C02": {
+    "title": "v1.2 structures STR-0012/13/14",
+    "coverage": "structures",
+    "checks": {
+      "events": true,
+      "skill_called": true,
+      "scripts": [
+        "query.py"
+      ],
+      "answer": true,
+      "turn_end": "completed",
+      "quota_blocked": false,
+      "required_terms_missing": [],
+      "ids": [
+        "SRC-0118",
+        "SRC-0406",
+        "SRC-0412",
+        "SRC-0484",
+        "STR-0012",
+        "STR-0013",
+        "STR-0014"
+      ],
+      "missing_ids": [],
+      "src_ids": [
+        "SRC-0118",
+        "SRC-0406",
+        "SRC-0412",
+        "SRC-0484"
+      ],
+      "visual_ids": [],
+      "pass": true
+    },
+    "reasons": []
+  },
+  "C03": {
+    "title": "accessories GAR-0083..0087",
+    "coverage": "accessories",
+    "checks": {
+      "events": true,
+      "skill_called": true,
+      "scripts": [
+        "query.py"
+      ],
+      "answer": true,
+      "turn_end": "completed",
+      "quota_blocked": false,
+      "required_terms_missing": [],
+      "ids": [
+        "GAR-0083",
+        "GAR-0084",
+        "GAR-0085",
+        "GAR-0086",
+        "GAR-0087",
+        "SRC-0408",
+        "SRC-0459",
+        "SRC-0522",
+        "SRC-0523",
+        "SRC-0524"
+      ],
+      "missing_ids": [],
+      "src_ids": [
+        "SRC-0408",
+        "SRC-0459",
+        "SRC-0522",
+        "SRC-0523",
+        "SRC-0524"
+      ],
+      "visual_ids": [],
+      "pass": true
+    },
+    "reasons": []
+  },
+  "C04": {
+    "title": "outfit composer / full look",
+    "coverage": "outfit",
+    "checks": {
+      "events": true,
+      "skill_called": true,
+      "scripts": [
+        "outfit.py",
+        "query.py"
+      ],
+      "answer": true,
+      "turn_end": "completed",
+      "quota_blocked": false,
+      "required_terms_missing": [],
+      "ids": [
+        "GAR-0070",
+        "GAR-0075",
+        "GAR-0076",
+        "GAR-0079",
+        "GAR-0080",
+        "GAR-0081",
+        "GAR-0082",
+        "PRD-0010",
+        "SRC-0480",
+        "SRC-0482",
+        "SRC-0487",
+        "SRC-0488",
+        "SRC-0489",
+        "SRC-0490"
+      ],
+      "missing_ids": [],
+      "src_ids": [
+        "SRC-0480",
+        "SRC-0482",
+        "SRC-0487",
+        "SRC-0488",
+        "SRC-0489",
+        "SRC-0490"
+      ],
+      "visual_ids": [],
+      "pass": true
+    },
+    "reasons": []
+  },
+  "C05": {
+    "title": "bilingual term search",
+    "coverage": "bilingual",
+    "checks": {
+      "events": true,
+      "skill_called": true,
+      "scripts": [
+        "query.py"
+      ],
+      "answer": true,
+      "turn_end": "completed",
+      "quota_blocked": false,
+      "required_terms_missing": [],
+      "ids": [
+        "GAR-0001",
+        "GAR-0002",
+        "GAR-0007",
+        "GAR-0031",
+        "GAR-0032",
+        "GAR-0040",
+        "GAR-0041",
+        "GAR-0057",
+        "GAR-0066",
+        "GAR-0075",
+        "GAR-0076",
+        "GAR-0080",
+        "LOOK-0003",
+        "LOOK-0008",
+        "LOOK-0009",
+        "LOOK-0019",
+        "PRD-0011",
+        "SRC-0050",
+        "SRC-0100",
+        "SRC-0101",
+        "SRC-0103",
+        "SRC-0200",
+        "SRC-0201",
+        "SRC-0202",
+        "SRC-0427",
+        "SRC-0482",
+        "SRC-0487",
+        "SRC-0488",
+        "STR-0001",
+        "STR-0011",
+        "STR-0016"
+      ],
+      "missing_ids": [],
+      "src_ids": [
+        "SRC-0050",
+        "SRC-0100",
+        "SRC-0101",
+        "SRC-0103",
+        "SRC-0200",
+        "SRC-0201",
+        "SRC-0202",
+        "SRC-0427",
+        "SRC-0482",
+        "SRC-0487",
+        "SRC-0488"
+      ],
+      "visual_ids": [],
+      "pass": true
+    },
+    "reasons": []
+  },
+  "C06": {
+    "title": "visual index reference",
+    "coverage": "visual",
+    "checks": {
+      "events": true,
+      "skill_called": true,
+      "scripts": [
+        "query.py"
+      ],
+      "answer": true,
+      "turn_end": "completed",
+      "quota_blocked": false,
+      "required_terms_missing": [],
+      "ids": [
+        "GAR-0001",
+        "PRD-0003",
+        "SRC-0021",
+        "SRC-0025",
+        "SRC-0031",
+        "SRC-0100",
+        "SRC-0137",
+        "SRC-0153",
+        "SRC-0174",
+        "STR-0007"
+      ],
+      "missing_ids": [],
+      "src_ids": [
+        "SRC-0021",
+        "SRC-0025",
+        "SRC-0031",
+        "SRC-0100",
+        "SRC-0137",
+        "SRC-0153",
+        "SRC-0174"
+      ],
+      "visual_ids": [
+        "VIS-0001",
+        "VIS-0003",
+        "VIS-0005"
+      ],
+      "pass": true
+    },
+    "reasons": []
+  }
+}

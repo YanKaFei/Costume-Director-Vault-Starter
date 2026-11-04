@@ -1,0 +1,1 @@
+请使用 costume-director skill：读取 11-验收/P4-BOOKS/extracted/76299.json 和 11-验收/P4-BOOKS/TERMS-GLOSSARY.md，说明 PG76299《A dictionary of men's wear》/English Costume 中 blazer、waistcoat、trousers、frock coat 的术语差异；调用 python3 scripts/query.py 找出对应真实卡片 ID 与 SRC；区分书籍事实、知识库证据和推断。回答控制在 700 字内。
