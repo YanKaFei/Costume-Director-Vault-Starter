@@ -1,6 +1,6 @@
 # 覆盖情况（COVERAGE）— R1.1 终态
 
-- 更新时间：2026-11-05 00:33；快照 **400 卡**（内容 189 + 来源 211）；**45 例验收（PASS 45/45）**；git HEAD `70261e9`
+- 更新时间：2026-11-05 01:03；快照 **400 卡**（内容 189 + 来源 211）；**45 例验收（PASS 45/45）**；git HEAD **`567ec8b`**
 - 完整报告：[P3-COVERAGE.md](P3-COVERAGE.md)；P4/R1.1 差异：[R1.1-KNOWLEDGE-REPO.md](R1.1-KNOWLEDGE-REPO.md)；本页为摘要
 
 
@@ -58,7 +58,7 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 
 ## 6. R1.1 更新（2026-11-05 00:55）
 
-- 卡片/来源：**400 卡（内容 189 + 来源 211）**；`SOURCES.csv` 212 行；KQ-01 迁移新增 STR-0026（手袋结构），GAR-0087 改为迁移存根（仍 type=garment，缺 deprecated/superseded_by 字段 → PARTIAL）。
+- 卡片/来源：**400 卡（内容 189 + 来源 211）**；`SOURCES.csv` 212 行；KQ-01 迁移新增 STR-0026（手袋结构），GAR-0087 改为迁移存根（`deprecated: 'true'`/`superseded_by: STR-0026`/`canonical_id: GAR-0048` → **PASS**）。
 - KQ-05 许可拆分：来源卡新增 `content_license`/`image_license`（SRC-0001/0002/0417 已改）；KQ-06：45/45 T md 含「已知/假设/unknown/风险/证据」。
 - 快照：索引 + STATUS/COVERAGE/QA 已到 400/189/211；Skill canonical 291 行 + mirror 293 行（同步 MATCH）。
 - 缺口不变/新增：pattern 3/11、material 细化不足、62 draft（KQ-13/H4 BLOCKED）、AAT 未接入；v1.2 可选字段仍未接入检索（SCHEMA-03）；11 张新卡缺 movement/lighting（SCHEMA-06）。

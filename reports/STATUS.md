@@ -1,7 +1,7 @@
 # 运行状态（STATUS）— Costume Director Knowledge System（R1.1 快照）
 
 - 更新时间：2026-11-05 00:33（Asia/Shanghai）；R1.1-G（task-56）快照
-- 快照：**400 张卡**（内容 189 + 来源 211）；**45 例验收，PASS 45/45**；git HEAD `70261e9`
+- 快照：**400 张卡**（内容 189 + 来源 211）；**45 例验收，PASS 45/45**；git HEAD **`567ec8b`**（R1.1 已提交）
 - 外观：**PASS 24 / WARN 4 / FAIL 0 / HUMAN_UAT_PENDING 4（32 项）**（沿用 P3.3 外观结论，未重评）
 - **发布门槛：技术/数据/质量门 PASS**；发布仍需完成 HUMAN_UAT_PENDING 4 项（H1 GUI / H2 逐图授权 / H3 15 例语义 / H4 62 张 draft 签核）
 - R1.1 报告：[R1.1-KNOWLEDGE-REPO.md](R1.1-KNOWLEDGE-REPO.md) · [KNOWLEDGE-QUALITY-AUDIT.md](KNOWLEDGE-QUALITY-AUDIT.md) · [DRAFT-SIGNOFF-R1.1.md](DRAFT-SIGNOFF-R1.1.md)
@@ -123,10 +123,10 @@
 
 ## 11. R1.1 最终整合验收（2026-11-05 00:55，task-58）
 
-- **HEAD**：`70261e9`；快照 **400 卡**（内容 189 + 来源 211）；45 acceptance；9 workflow；9 composer；11 Macbeth。
-- **独立验收**：安全 10/10 BLOCKED（A05 读取阻断）；跨时代 blocked/declared、Override 记录、A/B/C 单件 gaming、Look Bible tests 6/6；Skill `sync_skill` MATCH + official/overlay 各 3/3（C03/C04 NOT_RUN）；KQ-05/06 PASS，KQ-01 PARTIAL，KQ-13/H4 BLOCKED；index/STATUS/COVERAGE/QA 400/189/211。
+- **HEAD**：**`567ec8b`**（R1.1 commit）；快照 **400 卡**（内容 189 + 来源 211）；45 acceptance；9 workflow；9 composer；11 Macbeth。
+- **独立验收**：安全 10/10 BLOCKED（A05 读取阻断）；跨时代 blocked/declared、Override 记录、A/B/C 单件 gaming、Look Bible tests 6/6；Skill `sync_skill` MATCH + official/overlay 各 3/3（C03/C04 NOT_RUN）；KQ-01/05/06 PASS，KQ-13/H4 BLOCKED；index/STATUS/COVERAGE/QA 400/189/211。
 - **回归**：validate 400/400、build 211/211、acceptance 45/45、quality_eval 17/17（relevant@5 4.16、precision 92.9%、0-hit 0）、workflow 9/9、composer 9/9、Macbeth 11/11；新测试 lookbook 6/6、cd 7/7、security 7/7、skill-sync 3/3、human-closeout 3/3；**backup PASS（7/7；修复后真实仓库 1438 文件 backup/verify/restore 全 0）**。
 - **R1-F1**：受保护文件 `11-验收/P4-MACBETH/HUMAN-CLOSEOUT.md` hash 稳定、人工签名 PENDING。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；HUMAN_UAT_PENDING 4 项未执行、未代填。
-- **重要**：R1.1 修复全部未提交（HEAD 仍 70261e9；149 项 working-tree 改动），需 lead 提交后方可作为发布基线。
+- **重要**：R1.1 修复已提交为 `567ec8b`；工作区仅剩报告类编辑与可再生成 sandbox（未跟踪）。
 - 详见 `reports/R1.1-REPORT.md`、`R1.1-DEFECT-CLOSURE.md`、`R1.1-SECURITY.md`、`R1.1-SKILL-INTEGRATION.md`、`R1.1-REGRESSION.md`、`R1.1-DATA-SAFETY.md`。

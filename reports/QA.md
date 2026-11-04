@@ -1,6 +1,6 @@
 # QA 报告（R1.1 快照索引）
 
-- 更新时间：2026-11-05 00:33；快照 **400 卡 / 211 来源 / 45 例验收（PASS 45/45）**；git HEAD `70261e9`
+- 更新时间：2026-11-05 01:03；快照 **400 卡 / 211 来源 / 45 例验收（PASS 45/45）**；git HEAD **`567ec8b`**（R1.1 已提交）
 - 详细独立验收：[P3-QA.md](P3-QA.md)；缺陷：[P3-DEFECTS.md](P3-DEFECTS.md)；R1.1 修复证据：[R1.1-KNOWLEDGE-REPO.md](R1.1-KNOWLEDGE-REPO.md)；知识质量审计：[KNOWLEDGE-QUALITY-AUDIT.md](KNOWLEDGE-QUALITY-AUDIT.md)
 
 
@@ -70,9 +70,9 @@
 
 ## 6. R1.1 最终验收（2026-11-05 00:55，task-58）
 
-- 快照：400 卡（189 内容 + 211 来源）；HEAD `70261e9`（R1.1 修复未提交）。
+- 快照：400 卡（189 内容 + 211 来源）；HEAD **`567ec8b`**（R1.1 已提交）。
 - **机械门禁**：validate **PASS** 400/400；build **PASS** 211/211；acceptance **PASS 45/45**；quality_eval **PASS 17/17**（relevant@5 4.16、precision 0.929、0-hit 0）。
-- **R1.1 专项**：安全 path_guard 7/7 + A01–A10 全 BLOCKED；跨时代 blocked/declared + Override + A/B/C 单件 gaming；Look Bible 6/6；Skill 同步 MATCH + 官方/overlay 3/3；KQ-05/06 PASS、KQ-01 PARTIAL、KQ-13/H4 BLOCKED；R1-F1 受保护 hash 稳定。
+- **R1.1 专项**：安全 path_guard 7/7 + A01–A10 全 BLOCKED；跨时代 blocked/declared + Override + A/B/C 单件 gaming；Look Bible 6/6；Skill 同步 MATCH + 官方/overlay 3/3；KQ-01/05/06 PASS、KQ-13/H4 BLOCKED；R1-F1 受保护 hash 稳定。
 - **回归**：workflow 9/9、composer 9/9、Macbeth 11/11；新测试 5 套 PASS；**backup PASS（7/7；真实仓库 1438 文件 backup/verify/restore 全 0）**。
 - **门禁**：PRIVATE-USE = YES（WARN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；HUMAN_UAT_PENDING 4 项未执行。
 - 详见 `reports/R1.1-REPORT.md` / `R1.1-REGRESSION.md` / `R1.1-DEFECT-CLOSURE.md`。

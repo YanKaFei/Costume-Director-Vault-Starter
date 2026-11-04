@@ -1,9 +1,9 @@
 # 发布门禁报告（RELEASE GATE）
 
 - 生成时间：2026-11-04 13:55；**R1.1 复核 2026-11-05 00:55（task-58）**
-- 快照：**400 卡**（内容 189 + 来源 211）；45 例验收；9 workflow + 9 composer + 11 Macbeth；git HEAD `70261e9`（**R1.1 修复在 working tree，未提交**）
+- 快照：**400 卡**（内容 189 + 来源 211）；45 例验收；9 workflow + 9 composer + 11 Macbeth；git HEAD **`567ec8b`**（R1.1 修复已提交）
 - 注：本报告基于 `d56b05d` 快照；复核期间工作区出现其他成员 WIP（architect 新卡 GAR-0075..0082/SRC-0480..0491、engineer `scripts/workflow.py`/`tests/`），**不属于本次门禁评估范围**，门禁结论以该 commit 快照为准。
-- 结论（2026-11-05 00:57 R1.1 复核）：**PRIVATE-READY / PRIVATE-USE = YES（技术层，附 WARN：修复未提交、人工门禁未执行；备份已修复 PASS）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**
+- 结论（2026-11-05 01:02 R1.1 复核）：**PRIVATE-READY / PRIVATE-USE = YES（技术层，附 WARN：人工门禁未执行；R1.1 已提交 567ec8b、备份修复 PASS、KQ-01 PASS）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**
 - P4 证据：许可审计 20 源（PASS 15/WARN 2/RESTRICTED 3）；9 本 PD 书/31 结论（15 verified）；结构 v1.2（42 字段、22 新卡、旧卡 0 破坏）；composer 9/9（独立 3 例）；视觉 28 条 CC0 / 27 关联 / 0 下载；Macbeth 11/11；8 套回归全 PASS（precision 94.5%→92.9% 记为 WARN）
 - P3.6 证据：Skill 安装并可原生调用（2 次独立 headless 请求均 exit 0，事件含 `skill(costume-director)` + `scripts/query.py` bash 调用）；10/10 e2e 独立审计通过（ID/SRC 0 缺失、无错误）；KB 安全（纯新增 commit、projects 隔离、未推送、无许可改动）；validate 363/363、build_sources 197/197、acceptance 45/45、quality_eval OVERALL PASS（17/17）、workflow tests 9/9；**D1–D5 全部 CLOSED**
 - 依据：技术/数据/质量门在 P3.3 已 PASS（`reports/P3-QA.md`），本轮补完 WARN 处置、62 张 draft 复核、GUI 清单、人工评分表、版权矩阵；**4 项人工门禁仍未执行**。
@@ -128,13 +128,13 @@
 | A/B/C 单件替换 | **PASS** | abc_eval：`one_item_swap_gaming=true`、`all_pairs_meaningful=false`；held-out + 7/7 tests |
 | Look Bible | **PASS** | 版本/状态机/审批/禁自批/hard anchors/diff；tests 6/6；composer 消费 approved_anchors |
 | Skill 集成 | **PASS（E2E 3/3 each）** | `sync_skill.py --check` MATCH；official/overlay C02/C05/C06 3/3；C03/C04 NOT_RUN |
-| KQ/快照 | **PASS（残留）** | KQ-05/06 PASS；KQ-01 PARTIAL；KQ-13/H4 BLOCKED；索引/STATUS/COVERAGE/QA 400/189/211 |
+| KQ/快照 | **PASS（残留）** | KQ-01/05/06 PASS；KQ-13/H4 BLOCKED；KQ-02/03/04/07/08 OPEN；索引/STATUS/COVERAGE/QA 400/189/211 |
 | 全回归 | **PASS** | validate 400/400、build 211/211、45/45、quality 17/17、workflow 9/9、composer 9/9、Macbeth 11/11 |
 
-**P1 残留**：~~备份 FAIL~~ → PASS（已修复）；KQ-13/H4 人工签核 BLOCKED；R1.1 修复未提交（HEAD 仍 70261e9，153 项 working-tree 改动；lead 将提交）；KQ-01 PARTIAL；SCHEMA-03（v1.2 未接入检索）。
+**P1 残留**：~~备份 FAIL~~ → PASS；~~KQ-01 PARTIAL~~ → **PASS**（deprecated/superseded_by/canonical_id）；KQ-13/H4 人工签核 BLOCKED；R1.1 修复已提交 `567ec8b`；SCHEMA-03（v1.2 未接入检索）。
 **WARN**：composer `--md` 对 declared_mismatch 打印「status=blocked」文案；C03 answer 空/C04 未完成（NOT_RUN）；precision 0.929（↓1.6pp，≥0.8）。
 
-**R1.1 结论**：R1 三项 P0（AUD-001/002/003）均已 PASS；安全、Skill、回归、数据安全备份均 PASS（原唯一回归失败已修复）。**PRIVATE-USE = YES（技术层，附 WARN：修复未提交、人工门禁未执行）；PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6）**；HUMAN_UAT_PENDING 4 项未执行。本复核未解除任何门禁。
+**R1.1 结论**：R1 三项 P0（AUD-001/002/003）均已 PASS；安全、Skill、回归、数据安全备份、KQ-01 均 PASS（原唯一回归失败已修复）。**PRIVATE-USE = YES（技术层，附 WARN：人工门禁未执行）；PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6）**；HUMAN_UAT_PENDING 4 项未执行。本复核未解除任何门禁。
 
 ## 5. 门禁结论
 
