@@ -25,7 +25,10 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_TYPES = {"appears_in_look", "uses_material", "may_have_part",
                  "ensemble_with", "context_includes", "in_style",
-                 "look_appears_in_scene", "claim_supported_by"}
+                 "look_appears_in_scene", "claim_supported_by",
+                 "style_interpretation"}
+DESIGN_MEDIUM_TYPES = {"style_interpretation", "uses_material",
+                       "may_have_part", "ensemble_with"}
 ALLOWED_EVIDENCE = {"verified", "interpretive", "example"}
 ALLOWED_CONFIDENCE = {"high", "medium", "low"}
 REL_RE = re.compile(
@@ -58,8 +61,17 @@ def parse_relations(meta):
     return result
 
 
+CODE_SPAN = re.compile(r"`[^`\n]*`")
+FENCED = re.compile(r"(?ms)^```.*?^```")
+
+
+def obsidian_visible(body):
+    """Ignore fenced/inline code; only real Obsidian-visible wikilinks count."""
+    return FENCED.sub("", CODE_SPAN.sub("", body))
+
+
 def visible_links(body):
-    return re.findall(r"\[\[([^\]]+)\]\]", body)
+    return re.findall(r"\[\[([^\]]+)\]\]", obsidian_visible(body))
 
 
 CORRECTIONS = None
@@ -140,7 +152,16 @@ def check(root=ROOT):
             if confidence not in ALLOWED_CONFIDENCE:
                 errors.append({"code": "invalid_confidence", "card": cid,
                                "target": target, "confidence": confidence})
-            if confidence != "high" and (cid, target, rtype) not in allowed_downgrades:
+            review_status = str(card["meta"].get("review_status") or "").strip()
+            design_ok = (rtype in DESIGN_MEDIUM_TYPES and
+                         confidence == "medium" and
+                         evidence in ("interpretive", "verified") and
+                         bool(review_status))
+            if rtype == "style_interpretation" and confidence != "medium":
+                errors.append({"code": "invalid_design_confidence", "card": cid,
+                               "target": target, "confidence": confidence})
+            if (confidence != "high" and not design_ok and
+                    (cid, target, rtype) not in allowed_downgrades):
                 errors.append({"code": "low_confidence_in_body", "card": cid,
                                "target": target, "confidence": confidence})
             if target not in cards and target not in sources:
@@ -155,7 +176,8 @@ def check(root=ROOT):
                     errors.append({"code": "missing_visible_wikilink", "card": cid,
                                    "target": target})
         # cited-source marker must have a matching claim_supported_by relation
-        cited = re.findall(r"\[\[(SRC-\d{3,4})-[^\]]+\]\] — cited source", card["body"])
+        cited = re.findall(r"\[\[(SRC-\d{3,4})-[^\]]+\]\] — cited source",
+                           obsidian_visible(card["body"]))
         for sid in cited:
             if not any(r["target"] == sid and r["type"] == "claim_supported_by"
                        and r["confidence"] == "high"

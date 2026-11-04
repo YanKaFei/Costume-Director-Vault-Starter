@@ -60,6 +60,30 @@ class RelationConsistencyTests(unittest.TestCase):
         self.assertIn("duplicate_relation",
                       [e["code"] for e in report["errors"]])
 
+    def test_medium_design_allowed_with_review(self):
+        import tempfile
+        from pathlib import Path
+        tmp = Path(tempfile.mkdtemp())
+        (tmp / "01-服装单品").mkdir(parents=True)
+        (tmp / "04-来源").mkdir(parents=True)
+        (tmp / "00-系统/MOC").mkdir(parents=True)
+        (tmp / "04-来源/SRC-0001-test.md").write_text(SOURCE, encoding="utf-8")
+        (tmp / "09-造型组合").mkdir(parents=True)
+        (tmp / "09-造型组合/LOOK-0001.md").write_text(
+            card(["id: LOOK-0001", "type: look", "evidence_status: interpretive",
+                  "review_status: reviewed"], ""), encoding="utf-8")
+        rel = "relations: [\"target=LOOK-0001; type=style_interpretation; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0001; rule=R-CURATED-DESIGN\"]"
+        (tmp / "01-服装单品/GAR-0001.md").write_text(
+            card(BASE + ["review_status: reviewed", rel], "design note"), encoding="utf-8")
+        report = rc.check(tmp)
+        self.assertEqual(report["error_count"], 0, report["errors"])
+
+    def test_high_style_interpretation_rejected(self):
+        rel = "relations: [\"target=SRC-0001; type=style_interpretation; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0001; rule=R-CURATED-DESIGN\"]"
+        report = rc.check(self.make_root("## 来源链接\n- [[SRC-0001-test]]\n", rel))
+        self.assertIn("invalid_design_confidence",
+                      [e["code"] for e in report["errors"]])
+
     def test_low_confidence_in_body(self):
         rel = "relations: [\"target=SRC-0001; type=claim_supported_by; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0001; rule=R-SOURCE-IDS\"]"
         report = rc.check(self.make_root("## 来源链接\n- [[SRC-0001-test]]\n", rel))

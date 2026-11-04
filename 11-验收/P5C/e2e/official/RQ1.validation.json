@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "GAR-0025",
+    "GAR-0028",
+    "LOOK-0001",
+    "PRD-0001",
+    "PRD-0002",
+    "PRD-0004",
+    "PRD-0005",
+    "PRD-0010",
+    "SRC-0116",
+    "SRC-0125",
+    "SRC-0126",
+    "SRC-0129",
+    "SRC-0136",
+    "SRC-0139",
+    "SRC-0150",
+    "SRC-0151",
+    "SRC-0154",
+    "SRC-0155",
+    "SRC-0167",
+    "SRC-0168",
+    "SRC-0169",
+    "STR-0006",
+    "STR-0009",
+    "STY-0010"
+  ],
+  "final_chars": 5739,
+  "skill_calls": 1,
+  "trace_tool_calls": 5,
+  "completed_tool_results": 15,
+  "final_preview": "## Brief\n- **Command run (exactly, exit 0):** `python3 scripts/relation_trace.py --start GAR-0015 --max-depth 3 --json`\n- **Engine:** read-only (`\"engine\": \"read-only; no card writes\"`), max depth capped at 3, low-confidence edges filtered.\n- **Start card:** `GAR-0015` 法式长袍 / robe à la française — `01-服装单品/连身/GAR-0015-法式长袍.md`, `evidence_status: verified`, own source `SRC-0116`.\n- **Returned:** 12 paths, all depth 3, 19 distinct `related_ids`. **All 12 paths are factual-only** (see §3).\n- Unknow",
+  "pass": true
+}

@@ -175,7 +175,8 @@ REL_RE = re.compile(
     r"confidence=([^;]+); source_ids=([^;]*); rule=([^;']+)")
 RELATION_TYPES = {"appears_in_look", "uses_material", "may_have_part",
                   "ensemble_with", "context_includes", "in_style",
-                  "look_appears_in_scene", "claim_supported_by"}
+                  "look_appears_in_scene", "claim_supported_by",
+                 "style_interpretation"}
 
 
 def parse_card_relations(meta):

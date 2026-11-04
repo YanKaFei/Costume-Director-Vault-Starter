@@ -1,0 +1,10 @@
+test_dry_run_is_read_only (tests.test_link_p5c_sources.LinkP5CTests) ... ok
+test_exact_source_mapping_no_guess (tests.test_link_p5c_sources.LinkP5CTests) ... ok
+test_idempotent_after_apply (tests.test_link_p5c_sources.LinkP5CTests) ... ok
+test_source_visible_rate (tests.test_link_p5c_sources.LinkP5CTests) ... ok
+test_target_set_is_35 (tests.test_link_p5c_sources.LinkP5CTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.114s
+
+OK

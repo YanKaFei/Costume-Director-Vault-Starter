@@ -1,0 +1,2 @@
+Use the costume-director skill. Run exactly: python3 scripts/relation_trace.py --garment GAR-0015 --look-bible projects/_template/look-bible/versions/SAMPLE-M1-A/v5.json --json
+Report the related outfit ID, its complete item IDs/paths, prompts, and the approved anchors. Complete answer only.

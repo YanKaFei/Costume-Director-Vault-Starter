@@ -1,0 +1,2 @@
+Use the costume-director skill. Run exactly: python3 scripts/relation_trace.py --character "沙龙女主人" --json
+Report the complete look (look_id, every item ID with real card path), the image/video prompt(s), conflicts, and approved anchors if any. Complete answer only.

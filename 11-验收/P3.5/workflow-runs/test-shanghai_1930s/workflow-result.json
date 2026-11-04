@@ -5287,12 +5287,12 @@
             {
               "look_ref": "A",
               "source_look_id": "LOOK-0015",
-              "total": 50.6,
+              "total": 49.7,
               "scores": {
                 "period": 14.4,
                 "identity": 3.4,
                 "environment": 8.4,
-                "art": 5.8,
+                "art": 5.0,
                 "movement": 5.0,
                 "arc": 4.7,
                 "camera": 6.9
@@ -5378,7 +5378,7 @@
                     "period": 1.0,
                     "identity": 0.225,
                     "environment": 0.5135,
-                    "art": 0.6531746031746032,
+                    "art": 0.5113636363636364,
                     "movement": 0.5,
                     "arc": 0.61,
                     "camera": 0.69
@@ -5407,7 +5407,7 @@
                     "period": 0.332,
                     "identity": 0.225,
                     "environment": 0.6774999999999999,
-                    "art": 0.23888888888888887,
+                    "art": 0.22272727272727272,
                     "movement": 0.5,
                     "arc": 0.48,
                     "camera": 0.69
@@ -5438,7 +5438,7 @@
                     "period": 0.4000000000000001,
                     "identity": 0.225,
                     "environment": 0.49074999999999996,
-                    "art": 0.319047619047619,
+                    "art": 0.2948051948051948,
                     "movement": 0.5,
                     "arc": 0.35,
                     "camera": 0.69
@@ -5464,7 +5464,7 @@
                     "period": 0.4000000000000001,
                     "identity": 0.225,
                     "environment": 0.5319999999999999,
-                    "art": 0.19444444444444442,
+                    "art": 0.18636363636363634,
                     "movement": 0.5,
                     "arc": 0.35,
                     "camera": 0.65
@@ -5623,7 +5623,9 @@
                     "url": "https://fashionhistory.fitnyc.edu/muslin/"
                   }
                 ],
-                "context_style_ids": [],
+                "context_style_ids": [
+                  "STY-0012"
+                ],
                 "context_period_ids": [
                   "PRD-0011"
                 ],
@@ -5644,12 +5646,12 @@
             {
               "look_ref": "B",
               "source_look_id": "LOOK-0012",
-              "total": 49.9,
+              "total": 49.0,
               "scores": {
                 "period": 14.2,
                 "identity": 3.4,
                 "environment": 7.8,
-                "art": 5.9,
+                "art": 5.1,
                 "movement": 5.0,
                 "arc": 4.7,
                 "camera": 6.9
@@ -5731,7 +5733,7 @@
                     "period": 1.0,
                     "identity": 0.225,
                     "environment": 0.5135,
-                    "art": 0.6531746031746032,
+                    "art": 0.5113636363636364,
                     "movement": 0.5,
                     "arc": 0.61,
                     "camera": 0.69
@@ -5760,7 +5762,7 @@
                     "period": 0.332,
                     "identity": 0.225,
                     "environment": 0.6774999999999999,
-                    "art": 0.23888888888888887,
+                    "art": 0.22272727272727272,
                     "movement": 0.5,
                     "arc": 0.48,
                     "camera": 0.69
@@ -5791,7 +5793,7 @@
                     "period": 0.4000000000000001,
                     "identity": 0.225,
                     "environment": 0.49074999999999996,
-                    "art": 0.319047619047619,
+                    "art": 0.2948051948051948,
                     "movement": 0.5,
                     "arc": 0.35,
                     "camera": 0.69
@@ -5819,7 +5821,7 @@
                     "period": 0.332,
                     "identity": 0.225,
                     "environment": 0.19074999999999998,
-                    "art": 0.23888888888888887,
+                    "art": 0.24058441558441557,
                     "movement": 0.5,
                     "arc": 0.35,
                     "camera": 0.65
@@ -5972,7 +5974,9 @@
                     "url": "https://fashionhistory.fitnyc.edu/muslin/"
                   }
                 ],
-                "context_style_ids": [],
+                "context_style_ids": [
+                  "STY-0012"
+                ],
                 "context_period_ids": [
                   "PRD-0011"
                 ],
@@ -5993,12 +5997,12 @@
             {
               "look_ref": "C",
               "source_look_id": null,
-              "total": 49.1,
+              "total": 48.1,
               "scores": {
                 "period": 14.9,
                 "identity": 3.4,
                 "environment": 8.6,
-                "art": 6.0,
+                "art": 5.0,
                 "movement": 5.0,
                 "arc": 5.3,
                 "camera": 6.9
@@ -6077,7 +6081,7 @@
                     "period": 1.0,
                     "identity": 0.225,
                     "environment": 0.5135,
-                    "art": 0.6531746031746032,
+                    "art": 0.5113636363636364,
                     "movement": 0.5,
                     "arc": 0.61,
                     "camera": 0.69
@@ -6106,7 +6110,7 @@
                     "period": 0.332,
                     "identity": 0.225,
                     "environment": 0.6774999999999999,
-                    "art": 0.23888888888888887,
+                    "art": 0.22272727272727272,
                     "movement": 0.5,
                     "arc": 0.48,
                     "camera": 0.69
@@ -6134,7 +6138,7 @@
                     "period": 0.4000000000000001,
                     "identity": 0.225,
                     "environment": 0.5319999999999999,
-                    "art": 0.26587301587301587,
+                    "art": 0.23993506493506492,
                     "movement": 0.5,
                     "arc": 0.48,
                     "camera": 0.69
@@ -6267,7 +6271,9 @@
                     "url": "https://fashionhistory.fitnyc.edu/muslin/"
                   }
                 ],
-                "context_style_ids": [],
+                "context_style_ids": [
+                  "STY-0012"
+                ],
                 "context_period_ids": [
                   "PRD-0011"
                 ],
@@ -6286,7 +6292,9 @@
             }
           ],
           "context": {
-            "style_refs": [],
+            "style_refs": [
+              "STY-0012"
+            ],
             "period_refs": [
               "PRD-0011"
             ],
@@ -6295,6 +6303,14 @@
             ]
           },
           "context_refs": [
+            {
+              "id": "STY-0012",
+              "type": "style",
+              "score": 0.36,
+              "period_tier": "exact",
+              "region_tier": "exact",
+              "reason": "style tag match"
+            },
             {
               "id": "PRD-0011",
               "type": "period_region",
@@ -6328,13 +6344,6 @@
             }
           ],
           "warnings_detail": [
-            {
-              "code": "context_gap",
-              "severity": "medium",
-              "message": "no reliable style card for art direction 'restrained urban period drama, rain and neon reflections'",
-              "items": [],
-              "look": null
-            },
             {
               "code": "period_era_level",
               "severity": "low",
@@ -6398,8 +6407,8 @@
               "GAR-0011"
             ],
             "set": [
-              "GAR-0065",
-              "GAR-0001"
+              "GAR-0001",
+              "GAR-0065"
             ],
             "inner_layer": [
               "GAR-0012",
@@ -6417,8 +6426,8 @@
               "GAR-0028",
               "GAR-0026",
               "GAR-0086",
-              "GAR-0070",
               "GAR-0074",
+              "GAR-0070",
               "GAR-0073"
             ],
             "carried_prop": [
@@ -6428,8 +6437,8 @@
             ],
             "footwear": [
               "GAR-0060",
-              "GAR-0035",
               "GAR-0022",
+              "GAR-0035",
               "GAR-0058",
               "GAR-0023"
             ],
@@ -6437,8 +6446,8 @@
               "GAR-0031",
               "GAR-0032",
               "GAR-0064",
-              "GAR-0071",
               "GAR-0063",
+              "GAR-0071",
               "GAR-0055",
               "GAR-0069",
               "GAR-0053",
@@ -6739,7 +6748,6 @@
             }
           ],
           "warnings": [
-            "no reliable style card for art direction 'restrained urban period drama, rain and neon reflections'",
             "period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing",
             "cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted",
             "historical fidelity conflicts with science-fiction / body-mod / neon elements in the brief — suggested resolution: split the brief: historical base costume + explicit fictional overlay; or set fidelity_mode=inspired/fictional and declare the anachronism",
@@ -6843,7 +6851,7 @@
             "occupation_match": false,
             "occupation_forbidden_selected": [],
             "rainwear_selected": null,
-            "warnings_count": 5,
+            "warnings_count": 4,
             "rejected_count": 41
           }
         },
@@ -7072,7 +7080,7 @@
             "LOOK-0009",
             "LOOK-0012",
             "LOOK-0015",
-            "PRD-0011"
+            "LOOK-0030"
           ],
           "stderr": ""
         },
@@ -7160,7 +7168,7 @@
             "LOOK-0009",
             "LOOK-0012",
             "LOOK-0015",
-            "PRD-0011"
+            "LOOK-0030"
           ],
           "stderr": ""
         },
@@ -7536,7 +7544,6 @@
     "Mei/alley: wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot",
     "Mei/alley conflict: {'code': 'historical_vs_scifi', 'severity': 'high', 'message': 'historical fidelity conflicts with science-fiction / body-mod / neon elements in the brief', 'resolution': 'split the brief: historical base costume + explicit fictional overlay; or set fidelity_mode=inspired/fictional and declare the anachronism'}",
     "Mei/alley conflict: {'code': 'weather_vs_material', 'severity': 'medium', 'message': 'wet/snow weather with delicate footwear GAR-0035', 'resolution': 'use leather/rubber boots or declare a dry interior shot'}",
-    "Mei/office: no reliable style card for art direction 'restrained urban period drama, rain and neon reflections'",
     "Mei/office: period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing",
     "Mei/office: cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted",
     "Mei/office: historical fidelity conflicts with science-fiction / body-mod / neon elements in the brief — suggested resolution: split the brief: historical base costume + explicit fictional overlay; or set fidelity_mode=inspired/fictional and declare the anachronism",

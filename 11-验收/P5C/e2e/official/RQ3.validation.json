@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "GAR-0028",
+    "LOOK-0001",
+    "MAT-0002",
+    "STR-0006",
+    "STR-0009"
+  ],
+  "final_chars": 1174,
+  "skill_calls": 1,
+  "trace_tool_calls": 1,
+  "completed_tool_results": 3,
+  "final_preview": "## Related outfit\n\n- **Outfit ID:** `LOOK-0001`\n- **Path:** `09-造型组合/LOOK-0001-洛可可沙龙女主人.md`\n- **Name:** 洛可可沙龙女主人\n\n## Complete item IDs / paths\n\n| ID | Path | Name | Evidence |\n| --- | --- | --- | --- |\n| `GAR-0015` | `01-服装单品/连身/GAR-0015-法式长袍.md` | 法式长袍 | verified |\n| `STR-0009` | `02-结构细节/STR-0009-裙侧撑.md` | 裙侧撑 | verified |\n| `STR-0006` | `02-结构细节/STR-0006-胸衣插片.md` | 胸衣插片 | verified |\n| `GAR-0028` | `01-服装单品/配饰/GAR-0028-手笼.md` | 手笼 | verified |\n| `GAR-0024` | `01-服装单品/足部/GAR-0024-穆勒鞋.md` | 穆勒鞋 ",
+  "pass": true
+}

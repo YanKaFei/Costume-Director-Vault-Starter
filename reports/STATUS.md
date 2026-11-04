@@ -159,3 +159,15 @@
 - **回归**：validate 400/400、build 211/211、relation migration 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human closeout 3/3、composer 9/9 **PASS**（当前树）；acceptance **45/45 PASS**（lead 报告后复跑）；quality/workflow/Macbeth 未独立复跑（workflow engineer 9/9），不写 PASS。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN：修正未提交、flag review、GUI NOT_RUN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；**GUI = NOT_RUN/PENDING**。
 - 详见 `reports/P5B-GRAPH-QA.md`、`P5B-FINAL.md`。
+
+
+## 14. P5-C 最终验收（2026-11-05 02:05，task-75）
+
+- **快照**：HEAD `f500289` + P5-C 工作区（未提交）；**458 卡 = 224 内容 + 234 来源**；validate **PASS 458/458**、build **PASS 234/234**；新增 35 内容卡（LOOK 12/STY 5/GAR 4/STR 9/MAT 5）+ 23 来源（SRC-0530..0552）。
+- **PASS**：新增卡/来源/ID/许可/HTTP、12 套 Outfit 硬约束 **12/12**、evidence_type（historical 2/sourced 5/creative 5）诚实、Agent E2E 五项（官方 3/3、overlay 3/3）、relation_trace 6/6、relation_consistency 单测 5/5、security/lookbook/skill-sync/backup、acceptance 45/45/composer 9/9/workflow 9/9（engineer P5-C logs）。
+- **P1 修复后 PASS**：`relation_consistency.py` **0 errors / 265 relations**（修复前 71）；新关系严格抽样 **62/64 = 96.9%（≥95%）**；来源可见率 **352/460 = 76.5%**（修复前 42.6%）；35 张新卡来源链接 **161/161 可见、0 inline-code**；style_interpretation 已为 v3 design-only/medium/factual=false。
+- **覆盖率（同口径）**：garment→outfit 48.9%→**59.8%**、LOOK→narrative 56.5%→**71.4%**；component/material/style 基本持平；relations 201→**265**。
+- **WARN/P2**：`tests/test_validate_outfits.py` FAIL（stale 23 vs 35）；isolates.csv 过时（SRC-0013 已引用，有效 65→64）；source-audit 白名单仍 211；9 本书源仍 0 内容引用；quality_eval/Macbeth/human closeout 本轮 **NOT_RUN**（quality 77.2s 无输出后终止 EXIT -15；Macbeth/human 未启动；不写 PASS）。
+- **65 单点/38 draft/6 flags**：65 文件仍在但有效 64（SRC-0013 已引用）；38 基线 draft 未变（全库 draft 79）；6 flags 仍 review_queue 未确认。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN：残余 P2、quality/Macbeth NOT_RUN、未提交）；PUBLIC-READY = NO（B1–B6 + L1–L6）；**GUI NOT_RUN/PENDING**。
+- 详见 `reports/P5C-RELATION-COVERAGE.md`、`P5C-FINAL.md`。

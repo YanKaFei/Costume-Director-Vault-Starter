@@ -228,7 +228,7 @@
 
 ### Mei — dry newspaper office
 
-#### Look A — score 50.6/100
+#### Look A — score 49.7/100
 
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -253,7 +253,7 @@
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
 
-#### Look B — score 49.9/100
+#### Look B — score 49.0/100
 
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -278,7 +278,7 @@
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
 
-#### Look C — score 49.1/100
+#### Look C — score 48.1/100
 
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |

@@ -1,0 +1,2 @@
+Use the costume-director skill. Run exactly: python3 scripts/relation_trace.py --start GAR-0015 --max-depth 2 --json
+Report two relation paths with real target IDs, SRC IDs, and mark factual vs design. Complete answer only.

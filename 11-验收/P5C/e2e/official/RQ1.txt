@@ -1,0 +1,2 @@
+Use the costume-director skill. Run exactly: python3 scripts/relation_trace.py --start GAR-0015 --max-depth 3 --json
+Report at least two relation paths with real IDs and SRC IDs, and explicitly state which edges are factual vs design/co-occurrence. Complete answer only.

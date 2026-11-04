@@ -149,3 +149,22 @@ python3 /tmp/p5_baseline.py        # 生成 11-验收/P5/source-audit.csv
 python3 scripts/validate.py        # HEAD 基线应为 PASS 400/400
 python3 scripts/build_sources.py   # PASS（CSV 212 行）
 ```
+
+---
+
+## P5-C 刷新（task-78，2026-11-05 02:05）
+
+- **基线推进**：`11-验收/P5/source-audit.csv` 由 211 行扩到 **234 行**（+23 新来源 SRC-0530..0552）。分类：
+  - `whitelist_connected` **167**（原 143 + 23 新来源 + SRC-0013 由 MAT-0018 引用）
+  - `whitelist_independent` **48**（原 49，SRC-0013 转 connected）
+  - `action_should_connect` **7**（SRC-0028/29/30/37/41/50/59，未强制迁移）
+  - `action_needs_citation` **9**（P4 书 SRC-0061..0069）
+  - `blacklist_duplicate` **3**（SRC-0157/0163/0175，canonical 不变）
+- **新增 23 张全部 connected**：10 张 V&A 对象（SRC-0530..0539）+ 13 张 Getty AAT（SRC-0540..0552），均被 P5-C 新内容卡的 `source_ids` 引用（23/23，0 未用来源）。
+- **语义单点刷新**：65 → **有效 64**；SRC-0013（AAT silk）已由 `MAT-0018 丝绸` 引用，从单点列表移除；其余分类保留（legit_reference 33 / future_topic 14 / evidence_missing_expression 16 / no_verifiable_relation 1），见 `11-验收/P5C/isolates.csv`。
+- **9 本 P4 书状态不变**：仍只在 `06-时代地域/书籍研究` 等研究文档被 wikilink 引用，未进内容卡 `source_ids`；保持 `action_needs_citation`，不强制引用（若迁入卡片须 book_fact + 章/段/行，页码 UNCONFIRMED）。
+- **来源可见率口径（单独统计，不与关系覆盖率混算）**：
+  - content 卡 224；有 `source_ids` 的卡 199；`source_ids` 引用对 **346**；
+  - 正文 wikilink 可见对 **196/346 = 56.6%**；正文任意 SRC 文本可见对 **346/346 = 100%**（engineer 链接修复后）；唯一可见来源 **147/167**；零 wikilink 可见卡 **52**（多为 draft LOOK/STY）。
+  - 关系覆盖率（relations 覆盖等）见 `reports/P5C-RELATION-COVERAGE.md`，本 CSV 不混入该指标。
+- 复核：`validate.py` 与 `build_sources.py` 未受影响（本任务只改报表/CSV，不改卡片）。

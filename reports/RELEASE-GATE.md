@@ -164,6 +164,22 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：P5-B 修正未提交、6 flag 待人工、GUI NOT_RUN）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN**。
 
+## 4.11 P5-C 最终验收（2026-11-05 02:05，task-75）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 新增卡/来源 | **PASS** | 458 卡（224 内容+234 来源）；+35 内容/+23 来源；validate 458/458、build 234/234；ID 唯一 |
+| 关系覆盖率（同口径） | **部分改善** | outfit 48.9%→59.8%、narrative 56.5%→71.4%；component/material/style 持平；relations 201→265 |
+| 关系一致性/准确率 | **PASS（修复后）** | relation_consistency **0 errors/265**；新关系严格抽样 **62/64=96.9%（≥95%）**；style_interpretation v3 design-only 合法 |
+| 来源可见率（独立） | **PASS（修复后）** | source_ids 对 460、可见 **352（76.5%）**；可见来源 167/167；新卡 161/161 可见、0 inline-code |
+| Outfit / 证据诚实 | **PASS** | validate_outfits 35（12 pass/23 legacy/0 fail）；evidence_type historical 2/sourced 5/creative 5；`tests/test_validate_outfits.py` 已更新 EXIT 0 |
+| 来源许可/复用 | **PASS（残留）** | 23 新源许可/HTTP 200；23/23 被引用；9 本书源仍 0 内容引用；source-audit 仍 211 |
+| Agent E2E | **PASS** | 官方 3/3、overlay 3/3，五项全满足（events + summary） |
+| 回归 | **PASS（部分 NOT_RUN 明示）** | validate 458、build 234、relation_consistency 0 errors、relation_trace 6/6、consistency 单测 5/5、security/lookbook/skill-sync/backup/human、acceptance 45/45/composer 9/9/workflow 9/9（engineer logs）；quality/Macbeth **NOT_RUN**（不写 PASS） |
+| 65 单点/38 draft/6 flags | **WARN** | 65 文件但 SRC-0013 已引用（有效 64，isolates.csv 过时）；38 基线 draft 未变；6 flags 仍 review_queue 未确认 |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：残余 P2、quality/Macbeth NOT_RUN、P5-C 未提交）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（无截图/签字，不得声称通过）。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**
