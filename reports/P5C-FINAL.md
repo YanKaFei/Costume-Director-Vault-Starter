@@ -1,6 +1,6 @@
 # P5-C 最终验收结论（P5C-FINAL）
 
-- 定稿：2026-11-05 02:05（Asia/Shanghai）；verifier / task-75；快照：HEAD `f500289` + P5-C 工作区（未提交；458 卡/234 来源）
+- 定稿：2026-11-05 02:05（Asia/Shanghai）；verifier / task-75；快照：HEAD `42327d0`（P5-C commit；458 卡/234 来源）
 - 依赖：`P5C-RELATION-COVERAGE`、`P5C-OUTFIT-KNOWLEDGE`、`P5C-STYLE-ACCESSORIES`、`P5C-STRUCTURE-MATERIAL`、`P5C-SOURCE-REUSE`、`P5C-AGENT-REGRESSION`、`P5C-BASELINE`
 - 声明：未改卡片/脚本；GUI 未执行，不得声称通过。
 
@@ -12,7 +12,7 @@
   - **新关系严格抽样：62/64 = 96.9%（≥95%）**（修复前 12.5%）；
   - **来源可见率：352/460 = 76.5%**（修复前 42.6%）；35 张新卡来源链接 161/161 可见、0 inline-code。
 - ✅ **覆盖率改进**：garment→outfit 48.9%→**59.8%**、LOOK→narrative 56.5%→**71.4%**；relations 201→265。
-- ⚠️ **残余（P2/WARN，不阻断重分类）**：`tests/test_validate_outfits.py` 已更新 EXIT 0；isolates.csv 仍 65（SRC-0013 已引用→有效 64；文件未更新）；source-audit 白名单仍 211（23 新源未纳入）；9 本书源仍 0 内容引用；STR-0029→MAT-0001 为唯一 medium 无可见/marker 关系（WARN）；P5-C 修复未提交（工作区）。
+- ⚠️ **残余（P2/WARN，不阻断重分类）**：`tests/test_validate_outfits.py` 已更新 EXIT 0；isolates.csv 64 条有效（SRC-0013 已引用）；source-audit 白名单 234（23 新源已纳入）；9 本书源仍 0 内容引用；STR-0029→MAT-0001 为唯一 medium 无可见/marker 关系（WARN）；P5-C 修复已提交 `42327d0`。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：残余 P2/quality 未跑/未提交）**；PUBLIC-READY = **NO（BLOCKED，B1–B6 + L1–L6）**；GUI = **NOT_RUN**。
 
 ## 1. 新增卡/来源（PASS）
@@ -93,14 +93,14 @@
 3. 9 本书源仍未被内容卡引用（仅研究文档；无强制引用，可接受但未消化）。
 4. quality_eval/Macbeth 本轮修复窗口未完成 → **NOT_RUN**（不写 PASS；P5-A 前次质量 PASS 仅参考）。
 5. STR-0029→MAT-0001 为唯一 medium 无可见/marker 关系（WARN，不阻断）。
-6. P5-C 修复未提交（HEAD 仍 f500289；工作区改动含新卡/链接/测试）。
+6. P5-C 修复已提交 `42327d0`。
 7. GUI（Obsidian）**NOT_RUN/PENDING**；PUBLIC 门禁 B1–B6/L1–L6 未解除。
 
 ## 9. 门禁
 
 | 门禁 | 状态 |
 |---|---|
-| PRIVATE-READY / PRIVATE-USE | **YES（技术层，附 WARN：残余 P2、quality/Macbeth NOT_RUN、未提交）** |
+| PRIVATE-READY / PRIVATE-USE | **YES（技术层，附 WARN：残余 P2、quality/Macbeth NOT_RUN）** |
 | PUBLIC-READY | **NO（BLOCKED）**：B1 GUI NOT_RUN、B2 逐图版权 NOT_RUN、B3 15 案例 NOT_RUN、B4 62 draft、B5、B6；L1–L6 保持 |
 | B7 CSV | CLOSED（234/234） |
 | HUMAN UAT（GUI） | **NOT_RUN / PENDING**（无截图/签字，不得声称通过） |
