@@ -73,7 +73,7 @@
 
 ## 8. 最终收尾（2026-11-04 14:05，task-33）
 
-- **HEAD**：`e30446d`（P3.5 修复 commit）；narrator 的 D5 文档修正（`EVIDENCE.md §3.4`、`CASE.md §4.4`）已随本提交收口。
+- **HEAD**：本地最新提交（P3.5 修复 + 报告同步）；narrator 的 D5 文档修正（`EVIDENCE.md §3.4`、`CASE.md §4.4`）已随本提交收口。
 - **快照一致性核对**：**363 卡**（内容 166 + 来源 197）；**45 例验收**；**9 例 workflow tests**；18 套 Macbeth LOOKS；HUMAN-SCORE 18 行空表；`SOURCES.csv` 198 行（197 + 表头）。
 - **D5 CLOSED（doc-only）**：EVIDENCE §3.4 / CASE §4.4 已准确描述「workflow 支持 S-id 与 act-scene（1-3/1.3/1/3/1_3/Act 1 Scene 3），案例映射 M1→S1/M2→S3/L1→S2/L3→S4」；直接调用 `resolve_scene_ref` 验证全部写法正确（`9-9`→None 触发 warning）；LOOKS md5 `53549992cef442d2d3267a4506b3903b` 未变。
 - **D1–D5 状态**：D1 CLOSED；D2 CLOSED；D3 CLOSED；D4 CLOSED；**D5 CLOSED**。
