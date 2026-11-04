@@ -22,7 +22,32 @@ def iter_cards(root):
         yield path
 
 
+def load_corrections(root):
+    path = Path(root) / "reports/P5B-RELATION-CORRECTIONS.csv"
+    if not path.exists():
+        return set(), {}
+    import csv, re
+    rejected, downgraded = set(), {}
+    with path.open(encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            action = row.get("action")
+            if action not in ("reject_candidate", "remove_relation",
+                              "downgrade_relation", "exclude_from_migration"):
+                continue
+            text = (row.get("old") or "") + " " + (row.get("new") or "")
+            m = re.search(r"target=([^;]+)", text)
+            target = m.group(1).strip() if m else ""
+            key = (row.get("card_id"), target, row.get("relation_type"))
+            if action == "downgrade_relation":
+                down = re.search(r"confidence=(medium|low)", text)
+                downgraded[key] = down.group(1) if down else "medium"
+            else:
+                rejected.add(key)
+    return rejected, downgraded
+
+
 def build_graph(root, queue_path=None):
+    rejected, downgraded = load_corrections(root)
     nodes = {}
     edges = []
     queue = []
@@ -56,6 +81,11 @@ def build_graph(root, queue_path=None):
             if target not in nodes and target not in queue:
                 # target is resolved later; unresolved queued by migration tool
                 pass
+            key = (cid, target, relation_type)
+            if key in rejected:
+                continue
+            if key in downgraded:
+                confidence = downgraded[key]
             edges.append({"source": cid, "target": target,
                           "relation_type": relation_type,
                           "evidence": evidence, "confidence": confidence})

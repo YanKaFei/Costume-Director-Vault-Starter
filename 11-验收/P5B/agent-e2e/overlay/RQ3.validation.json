@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "GAR-0025",
+    "GAR-0028",
+    "LOOK-0001",
+    "MAT-0002",
+    "PRD-0001",
+    "SRC-0116",
+    "SRC-0125",
+    "SRC-0129",
+    "SRC-0136",
+    "SRC-0139",
+    "SRC-0141",
+    "SRC-0150",
+    "STR-0006",
+    "STR-0009"
+  ],
+  "final_chars": 5263,
+  "skill_calls": 1,
+  "bash_calls": 10,
+  "query_tool_calls": 3,
+  "completed_tool_results": 11,
+  "final_preview": "All data gathered and verified on disk. Here is the complete answer.\n\n# Query Results — typed relations in the Costume Director Vault\n\nBoth commands were run from the Vault root (`/Users/coffee/Desktop/Costume-Director-Vault-Starter`) with `--limit 0` (all matches). Every card path below was confirmed to exist on disk.\n\n## Query 1 — `PRD-0001` with `--relation-type context_includes`\n\n**Command:**\n```bash\npython3 scripts/query.py --related-to PRD-0001 --relation-type context_includes --json --lim",
+  "pass": true
+}

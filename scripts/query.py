@@ -26,7 +26,9 @@ Semantics
 """
 
 import argparse
+import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -168,6 +170,159 @@ def list_overlap(card_values, wanted_values):
     return False
 
 
+REL_RE = re.compile(
+    r"target=([^;]+); type=([^;]+); direction=([^;]+); evidence=([^;]+); "
+    r"confidence=([^;]+); source_ids=([^;]*); rule=([^;']+)")
+RELATION_TYPES = {"appears_in_look", "uses_material", "may_have_part",
+                  "ensemble_with", "context_includes", "in_style",
+                  "look_appears_in_scene", "claim_supported_by"}
+
+
+def parse_card_relations(meta):
+    out = []
+    for raw in meta.get("relations") or []:
+        if isinstance(raw, dict):
+            continue
+        match = REL_RE.search(str(raw))
+        if not match:
+            continue
+        target, rtype, direction, evidence, confidence, source_ids, rule = match.groups()
+        out.append({"target": target, "relation_type": rtype,
+                    "direction": direction, "evidence": evidence,
+                    "confidence": confidence, "source_ids": [s for s in source_ids.split(",") if s],
+                    "rule": rule, "origin": "card"})
+    return out
+
+
+_CANDIDATE_CACHE = None
+
+
+def _corrections():
+    path = Path(__file__).resolve().parents[1] / "reports/P5B-RELATION-CORRECTIONS.csv"
+    if not path.exists():
+        return {}, {}
+    import csv
+    rejected = set()
+    downgraded = {}
+    with path.open(encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            action = row.get("action")
+            if action not in ("reject_candidate", "remove_relation",
+                              "downgrade_relation", "exclude_from_migration"):
+                continue
+            text = (row.get("old") or "") + " " + (row.get("new") or "")
+            target = ""
+            m = re.search(r"target=([^;]+)", text)
+            if m:
+                target = m.group(1).strip()
+            if not target:
+                ids = re.findall(r"\b(?:GAR|STR|MAT|STY|PRD|LOOK|SCN|SRC)-\d{3,4}\b", text)
+                target = ids[-1] if ids else ""
+            key = (row.get("card_id"), target, row.get("relation_type"))
+            if action == "downgrade_relation":
+                conf = re.search(r"confidence=(medium|low)", text)
+                ev = re.search(r"evidence=(verified|interpretive|example)", text)
+                downgraded[key] = (conf.group(1) if conf else "medium",
+                                   ev.group(1) if ev else "interpretive")
+            else:
+                rejected.add(key)
+    return rejected, downgraded
+
+
+def load_candidate_relations():
+    global _CANDIDATE_CACHE
+    if _CANDIDATE_CACHE is not None:
+        return _CANDIDATE_CACHE
+    path = Path(__file__).resolve().parents[1] / "11-验收/P5/RELATION-CANDIDATES.csv"
+    rejected, downgraded = _corrections()
+    if not path.exists():
+        return []
+    out = []
+    with path.open(encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            if row.get("review_status") not in ("migration_ready", "review_queue"):
+                continue
+            key = (row.get("subject_id"), row.get("object_id"),
+                   row.get("relation_type"))
+            if key in rejected:
+                continue
+            confidence = row.get("confidence")
+            evidence = row.get("evidence")
+            if key in downgraded:
+                confidence, evidence = downgraded[key]
+            out.append({"subject": row.get("subject_id"),
+                        "target": row.get("object_id"),
+                        "relation_type": row.get("relation_type"),
+                        "direction": row.get("direction", "outgoing"),
+                        "evidence": evidence,
+                        "confidence": confidence,
+                        "source_ids": [s for s in (row.get("source_ids") or "").split(";") if s],
+                        "rule": row.get("rule_id"),
+                        "origin": "candidate",
+                        "review_status": row.get("review_status")})
+    _CANDIDATE_CACHE = out
+    return out
+
+
+def relation_filter_active(args):
+    return bool(getattr(args, "relation_type", None) or
+                getattr(args, "related_to", None) or
+                getattr(args, "confidence", None) or
+                getattr(args, "relation_evidence", None))
+
+
+def relation_matches(relation, args, subject=None):
+    if args.relation_type and relation["relation_type"] not in set(args.relation_type):
+        return False
+    if args.confidence and relation["confidence"] not in set(args.confidence):
+        return False
+    if getattr(args, "relation_evidence", None) and relation["evidence"] not in set(args.relation_evidence):
+        return False
+    if args.related_to:
+        wanted = set(args.related_to)
+        if relation["target"] not in wanted and subject not in wanted:
+            return False
+    return True
+
+
+def relation_rows(card, args, cards_by_id, sources):
+    cid = lib.get_str(card["meta"], "id")
+    rows = []
+    for relation in parse_card_relations(card["meta"]):
+        if relation_matches(relation, args, cid):
+            rows.append(relation)
+    # Candidate CSV is structured relation data (never inferred from wikilinks).
+    if getattr(args, "relations_from", "all") in ("candidates", "all"):
+        for relation in load_candidate_relations():
+            if relation["subject"] != cid:
+                continue
+            if relation_matches(relation, args, cid):
+                rows.append(relation)
+    # dedupe by (type,target,confidence,evidence,origin)
+    seen = set()
+    unique = []
+    for row in rows:
+        key = (row["relation_type"], row["target"], row["confidence"],
+               row["evidence"], row["origin"])
+        if key in seen:
+            continue
+        seen.add(key)
+        target = row["target"]
+        target_card = cards_by_id.get(target)
+        source_path = sources.get(target)
+        row = dict(row)
+        row["target_path"] = (str(target_card["rel"]) if target_card
+                              else str(source_path["rel"]) if source_path else None)
+        row["target_name_zh"] = (lib.get_str(target_card["meta"], "name_zh")
+                                 if target_card else
+                                 lib.get_str(source_path["meta"], "name_zh")
+                                 if source_path else "")
+        row["target_type"] = (lib.get_str(target_card["meta"], "type")
+                              if target_card else "source" if source_path else "unknown")
+        unique.append(row)
+    return unique
+
+
 def apply_filter(card, args):
     meta = card["meta"]
     if args.type:
@@ -231,6 +386,12 @@ def run_query(args):
         for key, regions in REGION_INTENT.items():
             if key in term or lib.norm_text(key) == norm_term:
                 region_intent.update(lib.norm_text(r) for r in regions)
+    cards_by_id = {lib.get_str(c["meta"], "id"): c for c in cards}
+    sources = {}
+    for source_path in sorted(Path(__file__).resolve().parents[1].glob("04-来源/SRC-*.md")):
+        sid = source_path.name.split("-", 2)[0] + "-" + source_path.name.split("-", 2)[1]
+        sources[sid] = {"rel": source_path.relative_to(Path(__file__).resolve().parents[1]),
+                        "meta": {"id": sid, "name_zh": source_path.stem}}
     results = []
     for card in cards:
         if not apply_filter(card, args):
@@ -274,7 +435,15 @@ def run_query(args):
                     score += 0.2
         else:
             score = 0.0
+        if relation_filter_active(args):
+            rows = relation_rows(card, args, cards_by_id, sources)
+            if not rows:
+                continue
+        else:
+            rows = []
         row = card_to_row(card, score)
+        if rows:
+            row["relations"] = rows
         row["snippet"] = make_snippet(card, terms) if terms else lib.safety_line(
             card.get("body", ""))[:150]
         row["_fields"] = [f for f in (field_hits if terms else []) if f]
@@ -361,6 +530,18 @@ def main(argv=None):
                         help="match any tags value")
     parser.add_argument("--id", action="append", default=[],
                         help="exact card id(s)")
+    parser.add_argument("--relation-type", action="append", default=[],
+                        choices=sorted(RELATION_TYPES),
+                        help="filter by typed relation_type (repeatable)")
+    parser.add_argument("--related-to", action="append", default=[],
+                        help="filter cards with a relation to this card/source ID")
+    parser.add_argument("--confidence", action="append", default=[],
+                        help="filter typed relations by confidence (high|medium|low)")
+    parser.add_argument("--relation-evidence", action="append", default=[],
+                        help="filter typed relations by evidence (verified|interpretive|example)")
+    parser.add_argument("--relations-from", choices=["cards", "candidates", "all"],
+                        default="all",
+                        help="typed relation index: card YAML, RELATION-CANDIDATES, or both")
     parser.add_argument("--match", choices=["all", "any"], default="all",
                         help="AND/OR across terms (default all)")
     parser.add_argument("--limit", type=int, default=10,
@@ -379,6 +560,8 @@ def main(argv=None):
         payload = []
         for row in results:
             item = {key: row[key] for key in CONTRACT_KEYS}
+            if "relations" in row:
+                item["relations"] = row["relations"]
             item["score"] = row["score"]
             payload.append(item)
         text = json.dumps(payload, ensure_ascii=False, indent=2)

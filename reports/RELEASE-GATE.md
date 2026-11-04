@@ -150,6 +150,20 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：迁移未提交、workflow 未复跑、Agent 检索不完整、GUI NOT_RUN）**；**PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN / PENDING（无截图/签字，不得声称通过）**。
 
+## 4.10 P5-B 最终验收（2026-11-05 01:38，task-68）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 关系准确率 | **PASS（48/48 = 100%，≥95%）** | 7 域分层抽样：历史地域/结构/面料/鞋履配饰/风格/完整造型/来源 |
+| MISLINK/WEAK | **PASS（关闭/隔离）** | 4 MISLINK：2 closed + 2 rejected；8 WEAK：1 closed + 3 review + 4 design/review + 1 excluded；0 残留正式关系 |
+| 一致性 | **PASS（1 WARN）** | YAML relations 200/201 有可见链接（例外 GAR-0045 medium review）；0 重复/0 双向重复；3 medium 全 review；MOC 仅导航 |
+| 高风险年代/地域 | **WARN（已隔离）** | 6 对冲突移除/替换；6 对 flag review 保留 review_queue，不进入 recommend/outfit，需人工核 |
+| Agent E2E | **PASS（官方 3/3、overlay 5/5）** | 五项齐全：skill/工具/结果/turn_end.completed/完整输出；IDs 0 missing；artifacts 独立解析 |
+| 回归 | **部分 PASS / 部分 NOT_RUN** | validate 400/400、build 211/211、relation 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human closeout 3/3、composer 9/9 **PASS**；acceptance/quality/workflow/Macbeth 本轮 **NOT_RUN**（未完成；P5-A 前次 PASS 仅参考） |
+| 扩建计划 | **PASS（提案，未实施）** | 卡数仍 400；P1 6–8 + P2 4–6 提案有证据；非大规模扩卡 |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：P5-B 修正未提交、6 flag 待人工、GUI NOT_RUN）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN**。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

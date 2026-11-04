@@ -1,0 +1,23 @@
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 3.843s
+
+OK
+{
+  "mode": "dry-run",
+  "content_cards": 189,
+  "changed_cards": 0,
+  "selected": 0,
+  "relations_high": 0,
+  "source_links": 0,
+  "duplicates": 0,
+  "queue": 983,
+  "pilot": 0,
+  "full": true,
+  "non_idempotent": [],
+  "backup": null,
+  "rollback_dir": null,
+  "selected_cards": [],
+  "queue_path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/P5/REVIEW-QUEUE.csv"
+}
+rolled back 1 files

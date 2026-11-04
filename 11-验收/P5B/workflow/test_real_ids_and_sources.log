@@ -1,0 +1,12 @@
+
+---STDERR---
+E
+======================================================================
+ERROR: WorkflowTests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+AttributeError: module 'tests.test_workflow' has no attribute 'WorkflowTests'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

@@ -1,0 +1,149 @@
+{
+  "official": {
+    "RQ1": {
+      "pass": true,
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0008",
+        "SRC-0109"
+      ],
+      "final_chars": 2108,
+      "skill_calls": 1,
+      "query_tool_calls": 2
+    },
+    "RQ2": {
+      "pass": true,
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0002",
+        "GAR-0003",
+        "GAR-0008",
+        "GAR-0024",
+        "SRC-0101",
+        "SRC-0103",
+        "SRC-0125",
+        "STR-0001",
+        "STR-0003",
+        "STR-0005"
+      ],
+      "final_chars": 2597,
+      "skill_calls": 1,
+      "query_tool_calls": 4
+    },
+    "RQ3": {
+      "pass": true,
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0025",
+        "GAR-0028",
+        "LOOK-0001",
+        "MAT-0002",
+        "PRD-0001",
+        "SRC-0116",
+        "SRC-0125",
+        "SRC-0126",
+        "SRC-0129",
+        "SRC-0136",
+        "SRC-0139",
+        "SRC-0141",
+        "SRC-0150",
+        "STR-0006",
+        "STR-0009"
+      ],
+      "final_chars": 8293,
+      "skill_calls": 1,
+      "query_tool_calls": 4
+    }
+  },
+  "overlay": {
+    "RQ1": {
+      "pass": true,
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0008",
+        "SRC-0109"
+      ],
+      "final_chars": 1287,
+      "skill_calls": 1,
+      "query_tool_calls": 1
+    },
+    "RQ2": {
+      "pass": true,
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0002",
+        "GAR-0024",
+        "SRC-0101",
+        "SRC-0103",
+        "SRC-0125",
+        "STR-0001"
+      ],
+      "final_chars": 2607,
+      "skill_calls": 1,
+      "query_tool_calls": 2
+    },
+    "RQ3": {
+      "pass": true,
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0025",
+        "GAR-0028",
+        "LOOK-0001",
+        "MAT-0002",
+        "PRD-0001",
+        "SRC-0116",
+        "SRC-0125",
+        "SRC-0129",
+        "SRC-0136",
+        "SRC-0139",
+        "SRC-0141",
+        "SRC-0150",
+        "STR-0006",
+        "STR-0009"
+      ],
+      "final_chars": 5263,
+      "skill_calls": 1,
+      "query_tool_calls": 3
+    }
+  }
+}

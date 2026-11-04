@@ -1,0 +1,2 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --relation-type may_have_part --confidence medium --limit 2 --json
+Then report the returned card IDs and their relation targets. Complete answer only.

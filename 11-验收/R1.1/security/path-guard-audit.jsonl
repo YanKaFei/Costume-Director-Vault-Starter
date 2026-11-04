@@ -1,30 +1,11 @@
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "private/x", "allowed": false, "reason": "private/sensitive directory"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "private/local-draft-play.txt", "allowed": false, "reason": "private/sensitive directory"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": ".ssh/id_rsa", "allowed": false, "reason": "private/sensitive directory"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "credentials.yaml", "allowed": false, "reason": "sensitive filename credentials.yaml"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "assets/.env", "allowed": false, "reason": "sensitive filename .env"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "../../etc/passwd", "allowed": false, "reason": "path traversal"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "/Users/coffee/.ssh/id_rsa", "allowed": false, "reason": "home-relative path"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "/tmp/outside.txt", "allowed": false, "reason": "outside vault"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "read", "path": "01-服装单品/下装/GAR-0072-帕贾马裤.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "read", "path": "/var/folders/9l/1mlg4d5x3rs6t81m01w1nktc0000gn/T/tmpdgrntx61/secret.txt", "allowed": false, "reason": "outside vault"}
-{"ts": "2026-11-05T01:19:40+0800", "action": "check", "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.1/security/_escape_link/secret.txt", "allowed": false, "reason": "outside vault"}
-{"ts": "2026-11-05T01:19:42+0800", "action": "check", "path": "04-来源/SRC-0103-FIT-doublet.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:19:42+0800", "action": "check", "path": "04-来源/SRC-0524-V&A-1770-89高跟鞋.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:20:05+0800", "action": "check", "path": "01-服装单品/上装/GAR-0003-杰金.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:20:05+0800", "action": "check", "path": "01-服装单品/上装/GAR-0008-马甲.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:20:42+0800", "action": "read", "path": "09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:20:53+0800", "action": "check", "path": "06-时代地域/PRD-0001-1770年代英法服饰语境.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:00+0800", "action": "check", "path": "01-服装单品/足部/GAR-0024-穆勒鞋.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:00+0800", "action": "check", "path": "01-服装单品/足部/GAR-0035-女式皮鞋.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:00+0800", "action": "check", "path": "01-服装单品/足部/GAR-0058-1970年代厚底鞋.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:00+0800", "action": "check", "path": "01-服装单品/配饰/GAR-0083-手套.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:29+0800", "action": "check", "path": "04-来源/SRC-0104-FIT-jerkin.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:29+0800", "action": "check", "path": "04-来源/SRC-0109-FIT-vest-waistcoat.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:29+0800", "action": "check", "path": "04-来源/SRC-0135-FIT-leg-of-mutton-sleeves.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:21:29+0800", "action": "check", "path": "04-来源/SRC-0133-FIT-ruff.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:22:11+0800", "action": "check", "path": "02-结构细节/STR-0010-剪口装饰.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:22:11+0800", "action": "check", "path": "02-结构细节/STR-0013-装袖与插肩袖.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:22:11+0800", "action": "check", "path": "02-结构细节/STR-0021-接缝与省道.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:22:11+0800", "action": "check", "path": "02-结构细节/STR-0001-美第奇领.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T01:22:11+0800", "action": "check", "path": "02-结构细节/STR-0002-垂领.md", "allowed": true, "reason": "allowed"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "private/x", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "private/local-draft-play.txt", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": ".ssh/id_rsa", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "credentials.yaml", "allowed": false, "reason": "sensitive filename credentials.yaml"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "assets/.env", "allowed": false, "reason": "sensitive filename .env"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "../../etc/passwd", "allowed": false, "reason": "path traversal"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "/Users/coffee/.ssh/id_rsa", "allowed": false, "reason": "home-relative path"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "/tmp/outside.txt", "allowed": false, "reason": "outside vault"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "read", "path": "01-服装单品/下装/GAR-0072-帕贾马裤.md", "allowed": true, "reason": "allowed"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "read", "path": "/var/folders/9l/1mlg4d5x3rs6t81m01w1nktc0000gn/T/tmp2eh1hgvj/secret.txt", "allowed": false, "reason": "outside vault"}
+{"ts": "2026-11-05T01:36:24+0800", "action": "check", "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.1/security/_escape_link/secret.txt", "allowed": false, "reason": "outside vault"}

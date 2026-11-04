@@ -147,9 +147,10 @@ def extract_related_ids(body):
     return ids
 
 
-def plan_card(card, sources, cards_by_id, audit_classes, is_pilot=True):
+def plan_card(card, sources, cards_by_id, audit_classes, is_pilot=True, corrections=None):
     """Return plan dict for one content card."""
     meta = card["meta"]
+    corrections = corrections or {}
     cid = str(meta.get("id") or card["path"].stem.split("-")[0])
     source_ids = [str(v) for v in (meta.get("source_ids") or []) if v]
     relations = []
@@ -163,6 +164,13 @@ def plan_card(card, sources, cards_by_id, audit_classes, is_pilot=True):
 
     for sid in source_ids:
         target = DUPLICATE_CANONICAL.get(sid, sid)
+        correction = corrected(corrections, cid, target, "claim_supported_by")
+        if correction and correction["action"] in ("remove_relation", "reject_candidate", "exclude_from_migration"):
+            queue.append({"card_id": cid, "card_path": str(card["path"].relative_to(ROOT)),
+                          "target": target, "relation_type": "claim_supported_by",
+                          "evidence": correction["evidence"], "confidence": "low",
+                          "reason": "suppressed by P5B relation corrections (%s)" % correction["action"]})
+            continue
         if sid in DUPLICATE_CANONICAL:
             duplicates.append({"duplicate": sid, "canonical": target})
         source = sources.get(target)
@@ -176,6 +184,9 @@ def plan_card(card, sources, cards_by_id, audit_classes, is_pilot=True):
         content_evidence = str(meta.get("evidence_status") or "unknown")
         confidence = "high" if (evidence == "verified" and
                                 content_evidence == "verified") else "medium"
+        if correction and correction["action"] == "downgrade_relation":
+            confidence = correction["confidence"]
+            evidence = correction["evidence"]
         relation = {"target": target, "relation_type": "claim_supported_by",
                     "direction": "outgoing", "evidence": evidence,
                     "confidence": confidence,
@@ -270,10 +281,7 @@ def add_section_links(body, additions):
 def append_yaml_relations(fm, relations):
     if not relations:
         return fm
-    # Deterministic YAML block appended at the end of frontmatter; original
-    # fields are preserved verbatim.
-    lines = ["relations:"]
-    for relation in relations:
+    def render(relation):
         parts = ["target=%s" % relation["target"],
                  "type=%s" % relation["relation_type"],
                  "direction=%s" % relation.get("direction", "outgoing"),
@@ -283,8 +291,27 @@ def append_yaml_relations(fm, relations):
                  "rule=%s" % relation.get("rule", "R-MIGRATE")]
         if relation.get("note"):
             parts.append("note=%s" % relation["note"])
-        lines.append("  - %r" % "; ".join(parts))
-    return fm.rstrip() + "\n" + "\n".join(lines) + "\n"
+        return "  - %r" % "; ".join(parts)
+    rendered = [render(relation) for relation in relations]
+    match = re.search(r"(?ms)^relations:\s*\n(.*?)(?=^[A-Za-z_][^:\n]*:|\Z)", fm)
+    if match:
+        # merge into an existing block, avoiding duplicate target/type strings
+        block = match.group(0).rstrip("\n")
+        prefix = fm[:match.start()].rstrip("\n")
+        suffix = fm[match.end():].strip("\n")
+        existing_lines = block.splitlines()[1:]
+        for line in rendered:
+            target = re.search(r"target=([^;]+)", line)
+            rtype = re.search(r"type=([^;]+)", line)
+            if target and rtype and any(target.group(1) in old and rtype.group(1) in old
+                                        for old in existing_lines):
+                continue
+            existing_lines.append(line)
+        merged = "relations:\n" + "\n".join(existing_lines)
+        parts = [part for part in (prefix, merged, suffix) if part]
+        return "\n".join(parts) + "\n"
+    return fm.rstrip() + "\nrelations:\n" + "\n".join(rendered) + "\n"
+
 
 
 def apply_plan(plan):
@@ -323,6 +350,51 @@ def run_backup(dest):
     cmd = [sys.executable, "scripts/backup_restore.py", "backup",
            "--dest", str(dest), "--json"]
     return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
+
+
+CORRECTIONS_PATH = Path(__file__).resolve().parents[1] / "reports/P5B-RELATION-CORRECTIONS.csv"
+
+
+def load_corrections(root=ROOT):
+    path = Path(root) / "reports/P5B-RELATION-CORRECTIONS.csv"
+    rows = []
+    if not path.exists():
+        return rows
+    with path.open(encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle))
+    return rows
+
+
+def correction_map(rows):
+    mapping = {}
+    for row in rows:
+        action = row.get("action")
+        if action not in ("reject_candidate", "remove_relation", "downgrade_relation",
+                          "exclude_from_migration"):
+            continue
+        old = row.get("old") or ""
+        new = row.get("new") or ""
+        target_match = re.search(r"target=([^;]+)", new + " " + old)
+        if not target_match:
+            target_match = re.search(r"(?:->|REL-\d+)\s+(?:[A-Z]{2,4}-\d{3,4})\s*->\s*([A-Z]{2,4}-\d{3,4})", new)
+        target = target_match.group(1).strip() if target_match else ""
+        if not target:
+            ids = re.findall(r"\b(?:GAR|STR|MAT|STY|PRD|LOOK|SCN|SRC)-\d{3,4}\b", new)
+            target = ids[-1] if ids else ""
+        confidence = "medium"
+        m = re.search(r"confidence=(medium|low)", new)
+        if m: confidence = m.group(1)
+        evidence = "interpretive"
+        m = re.search(r"evidence=(verified|interpretive|example)", new)
+        if m: evidence = m.group(1)
+        mapping[(row.get("card_id"), target, row.get("relation_type"))] = {
+            "action": action, "confidence": confidence, "evidence": evidence,
+            "row": row}
+    return mapping
+
+
+def corrected(corrections, cid, target, relation_type):
+    return corrections.get((cid, target, relation_type))
 
 
 def audit_queue_rows(root=ROOT):
@@ -375,11 +447,13 @@ def main(argv=None):
     sources = load_sources(root)
     cards_by_id = {str(c["meta"].get("id")): c for c in cards if c["meta"].get("id")}
     audit_classes = load_audit_classes(root)
+    corrections = correction_map(load_corrections(root))
     plans = []
     for card in cards:
         if str(card["meta"].get("type") or "") == "source":
             continue
-        plans.append(plan_card(card, sources, cards_by_id, audit_classes))
+        plans.append(plan_card(card, sources, cards_by_id, audit_classes,
+                               corrections=corrections))
     changed = [plan for plan in plans if plan["changed"]]
     queue = [row for plan in plans for row in plan["queue"]]
     seen_queue = {(row["card_id"], row["target"], row["relation_type"]) for row in queue}
@@ -440,7 +514,8 @@ def main(argv=None):
         for card in cards2:
             if str(card["meta"].get("type") or "") == "source":
                 continue
-            plans_after.append(plan_card(card, sources, cards_by_id2, audit_classes))
+            plans_after.append(plan_card(card, sources, cards_by_id2, audit_classes,
+                                         corrections=corrections))
         non_idempotent = [p["card_id"] for p in plans_after if p["changed"]]
     else:
         non_idempotent = []

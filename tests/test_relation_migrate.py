@@ -47,13 +47,17 @@ class RelationMigrationTests(unittest.TestCase):
                               "linked source not in source_ids: %s" % card["path"])
 
     def test_flat_typed_relations(self):
+        corr = R.correction_map(R.load_corrections())
+        downgraded = {(k[0], k[1], k[2]) for k, v in corr.items()
+                      if v["action"] == "downgrade_relation"}
         count = 0
         for card in self.content:
             for match in REL_TOKEN.finditer(card["text"]):
                 target, rtype, direction, evidence, confidence, source_ids, rule = match.groups()
                 count += 1
                 self.assertIn(rtype, ALLOWED)
-                self.assertEqual(confidence, "high")
+                if confidence != "high":
+                    self.assertIn((card["meta"].get("id"), target, rtype), downgraded)
                 self.assertIn(direction, ("outgoing", "incoming"))
                 self.assertIn(target, self.sources) if target.startswith("SRC-") else self.assertIn(target, self.by_id)
                 for sid in [s for s in source_ids.split(",") if s]:
@@ -106,6 +110,22 @@ class RelationMigrationTests(unittest.TestCase):
             else:
                 self.assertTrue(current["body"].startswith(old_body.strip()), cid)
         self.assertGreater(checked, 20)
+
+    def test_corrections_cannot_be_readded(self):
+        corrections = R.correction_map(R.load_corrections())
+        for cid, target in (("GAR-0045", "SRC-0405"), ("GAR-0033", "SRC-0155")):
+            plan = R.plan_card(self.by_id[cid], self.sources, self.by_id, {},
+                               corrections=corrections)
+            self.assertFalse(any(r["target"] == target and r["confidence"] == "high"
+                                 for r in plan["relations"]), cid)
+            self.assertFalse(any(target in addition for addition in plan["body_additions"]), cid)
+        # GAR-0045 remains a medium relation in the card after correction.
+        gar45 = self.by_id["GAR-0045"]["meta"].get("relations") or []
+        self.assertTrue(any("target=SRC-0405" in str(r) and "confidence=medium" in str(r)
+                            for r in gar45))
+        gar33_text = self.by_id["GAR-0033"]["text"]
+        self.assertNotIn("target=SRC-0155", gar33_text)
+        self.assertNotIn("[[SRC-0155-", gar33_text)
 
     def test_rollback_roundtrip(self):
         import tempfile, shutil

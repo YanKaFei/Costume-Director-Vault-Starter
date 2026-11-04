@@ -1,0 +1,2 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id GAR-0008 --relation-type claim_supported_by --related-to SRC-0109 --confidence high --json
+Then report the returned relation target and its real 04-来源 path. Complete answer only.

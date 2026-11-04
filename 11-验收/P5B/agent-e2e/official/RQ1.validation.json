@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0008",
+    "SRC-0109"
+  ],
+  "final_chars": 2108,
+  "skill_calls": 1,
+  "bash_calls": 4,
+  "query_tool_calls": 2,
+  "completed_tool_results": 7,
+  "final_preview": "## Query\n\n```bash\npython3 scripts/query.py --id GAR-0008 \\\n  --relation-type claim_supported_by \\\n  --related-to SRC-0109 \\\n  --confidence high\n```\n\nResult: **1 matching card**, `GAR-0008` (`01-服装单品/上装/GAR-0008-马甲.md`).\n\n## Typed relation\n\n| Field | Value |\n|---|---|\n| Subject | `GAR-0008` 马甲 / waistcoat |\n| Relation type | `claim_supported_by` |\n| Direction | `outgoing` |\n| **Target** | **`SRC-0109`** |\n| Target title | FIT：vest/waistcoat（马甲） |\n| Target type | `source` |\n| Evidence | `verified`",
+  "pass": true
+}

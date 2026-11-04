@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0002",
+    "GAR-0024",
+    "SRC-0101",
+    "SRC-0103",
+    "SRC-0125",
+    "STR-0001"
+  ],
+  "final_chars": 2607,
+  "skill_calls": 1,
+  "bash_calls": 6,
+  "query_tool_calls": 2,
+  "completed_tool_results": 7,
+  "final_preview": "## GAR-0002 structured relations — complete answer\n\n**Subject card:** `GAR-0002` 达布里特 / doublet — garment, evidence_status `verified`, SRC-0103 — `01-服装单品/上装/GAR-0002-达布里特.md`\n\n**Command run (offline, via `scripts/query.py`):**\n```bash\npython3 scripts/query.py --related-to GAR-0002 \\\n  --relation-type may_have_part --relation-type ensemble_with \\\n  --relations-from all --limit 0 --json\n```\n\n### Returned relations (2 total)\n\n| # | Relation | Target | Target name | Target type | Resolves to real c",
+  "pass": true
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0008",
+    "SRC-0109"
+  ],
+  "final_chars": 1287,
+  "skill_calls": 1,
+  "bash_calls": 2,
+  "query_tool_calls": 1,
+  "completed_tool_results": 4,
+  "final_preview": "## 查询结果\n\n执行命令：\n\n```bash\npython3 scripts/query.py --id GAR-0008 \\\n  --relation-type claim_supported_by \\\n  --related-to SRC-0109 \\\n  --confidence high --json\n```\n\n### 类型化关系\n\n- **主体卡片**：`GAR-0008`（马甲 / waistcoat）\n- **关系类型**：`claim_supported_by`\n- **关系目标**：`SRC-0109`\n- **目标名称**：FIT：vest/waistcoat（马甲）\n- **目标类型**：`source`\n- **证据等级**：`verified`\n- **置信度**：`high`\n- **方向**：`outgoing`（另有一条等价的 `subject_to_object` candidate 记录，`review_status: migration_ready`）\n- **规则来源**：`R-SOURCE-IDS`\n- **来源 ID**：`SRC-0109",
+  "pass": true
+}

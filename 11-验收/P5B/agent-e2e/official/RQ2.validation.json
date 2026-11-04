@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0002",
+    "GAR-0003",
+    "GAR-0008",
+    "GAR-0024",
+    "SRC-0101",
+    "SRC-0103",
+    "SRC-0125",
+    "STR-0001",
+    "STR-0003",
+    "STR-0005"
+  ],
+  "final_chars": 2597,
+  "skill_calls": 1,
+  "bash_calls": 17,
+  "query_tool_calls": 4,
+  "completed_tool_results": 18,
+  "final_preview": "## Query run\n\nFrom the Vault root:\n\n```bash\npython3 scripts/query.py --id GAR-0002 --relation-type may_have_part --json\npython3 scripts/query.py --id GAR-0002 --relation-type ensemble_with --json\n```\n\nI also re-ran both together with `--limit 0` to rule out truncation. Exactly **two** relations were returned.\n\n## Returned relations\n\n| Requested relation | Target | Target resolves to a real card? | Target card | Relation metadata |\n|---|---|---|---|---|\n| `may_have_part` | `STR-0001` | **Yes** | ",
+  "pass": true
+}

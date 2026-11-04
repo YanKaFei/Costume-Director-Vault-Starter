@@ -2137,10 +2137,17 @@
     },
     {
       "source": "GAR-0020",
+      "target": "SRC-0121",
+      "relation_type": "claim_supported_by",
+      "evidence": "verified",
+      "confidence": "high"
+    },
+    {
+      "source": "GAR-0020",
       "target": "MAT-0001",
       "relation_type": "uses_material",
       "evidence": "verified",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "source": "GAR-0078",
@@ -2185,13 +2192,6 @@
       "confidence": "high"
     },
     {
-      "source": "GAR-0033",
-      "target": "SRC-0155",
-      "relation_type": "claim_supported_by",
-      "evidence": "verified",
-      "confidence": "high"
-    },
-    {
       "source": "GAR-0037",
       "target": "SRC-0401",
       "relation_type": "claim_supported_by",
@@ -2209,8 +2209,8 @@
       "source": "GAR-0045",
       "target": "SRC-0405",
       "relation_type": "claim_supported_by",
-      "evidence": "verified",
-      "confidence": "high"
+      "evidence": "interpretive",
+      "confidence": "medium"
     },
     {
       "source": "GAR-0046",
@@ -3260,7 +3260,7 @@
       "target": "MAT-0001",
       "relation_type": "uses_material",
       "evidence": "verified",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "source": "PRD-0003",

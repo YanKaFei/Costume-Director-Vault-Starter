@@ -144,3 +144,18 @@
 - **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN：迁移未提交、workflow 未复跑、Agent 检索未完成、GUI NOT_RUN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；**Obsidian GUI UAT = NOT_RUN**（不得声称通过）。
 - 详见 `reports/P5-GRAPH-AFTER.md`、`P5-GRAPH-QA.md`、`P5-COVERAGE-GAPS.md`、`P5-HUMAN-UAT.md`。
 - **P0 事故记录**：迁移首轮产生 29 张坏 frontmatter（closing fence 缺换行），validate 371/400；未提交，已从备份恢复并重跑，当前 validate 400/400 PASS（详见 P5-RELATION-MIGRATION §0）。
+
+
+## 13. P5-B 最终验收（2026-11-05 01:38，task-68）
+
+- **快照**：HEAD `afcd9ec`（P5-A commit）+ P5-B 修正（工作区未提交）；**400 卡（189 内容 + 211 来源）**；validate **PASS 400/400**、build_sources PASS。
+- **关系抽样准确率**：48 条/7 域（历史地域 8、结构 6、面料 6、鞋履配饰 6、风格 6、完整造型 6、来源 10）→ **48/48 = 100%**（目标 ≥95%）。
+- **4 MISLINK**：2 closed（PRD-0007 移除 GAR-0006；PRD-0010 替换 MAT-0011）+ 2 rejected（物性卡 token、codpiece→collar 共现）→ **0 残留正式关系**。
+- **8 WEAK**：1 closed（GAR-0033→SRC-0155 移除）、3 降 medium/review、4 候选 review/design、1 example 排除 → **全部处置合理**；3 条 medium 全在 review_queue，formal 198 high/verified。
+- **一致性**：YAML relations 200/201 有可见链接（唯一例外 GAR-0045→SRC-0405 medium review）；0 重复 relation、0 双向同类型重复事实、MOC 9 页仅导航（无 frontmatter/relations）。
+- **高风险年代/地域**：6 对冲突已移除/替换；6 对 flag review 保留（review_queue，recommend/outfit 不读 key_garments，不进正式推荐主路径）→ WARN 待人工。
+- **Agent E2E**：官方 RQ1–3 **3/3 PASS**、overlay RQ1–5 **5/5 PASS**（skill/工具/结果/turn_end.completed/完整输出五项，独立事件解析，IDs 0 missing）。
+- **After 指标**：内容零链接 0/189；来源可见（含 MOC）0/211 零链接；source_ids 可见 **191/299（63.9%）**；有 source_ids 无可见来源链接的卡 **40/181（22.1%，全 draft + WEAK-07 连带）**；typed 无可见 **123/480**；语义分量 **66（335+65，不变）**；65 单点分类 34 legit_reference/16 evidence_missing_expression/14 future_topic/1 no_verifiable。
+- **回归**：validate 400/400、build 211/211、relation migration 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human closeout 3/3、composer 9/9 **PASS**（当前树）；acceptance/quality/workflow/Macbeth 本轮 **NOT_RUN**（当前树批处理未完成；P5-A 前次分别 45/45、17/17、9/9、11/11，仅参考不写 PASS）。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN：修正未提交、flag review、GUI NOT_RUN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；**GUI = NOT_RUN/PENDING**。
+- 详见 `reports/P5B-GRAPH-QA.md`、`P5B-FINAL.md`。
