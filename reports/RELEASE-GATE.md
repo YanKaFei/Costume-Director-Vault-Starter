@@ -159,7 +159,7 @@
 | 一致性 | **PASS（1 WARN）** | YAML relations 200/201 有可见链接（例外 GAR-0045 medium review）；0 重复/0 双向重复；3 medium 全 review；MOC 仅导航 |
 | 高风险年代/地域 | **WARN（已隔离）** | 6 对冲突移除/替换；6 对 flag review 保留 review_queue，不进入 recommend/outfit，需人工核 |
 | Agent E2E | **PASS（官方 3/3、overlay 5/5）** | 五项齐全：skill/工具/结果/turn_end.completed/完整输出；IDs 0 missing；artifacts 独立解析 |
-| 回归 | **部分 PASS / 部分 NOT_RUN** | validate 400/400、build 211/211、relation 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human closeout 3/3、composer 9/9 **PASS**；acceptance/quality/workflow/Macbeth 本轮 **NOT_RUN**（未完成；P5-A 前次 PASS 仅参考） |
+| 回归 | **部分 PASS / 部分 NOT_RUN** | validate 400/400、build 211/211、relation 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human closeout 3/3、composer 9/9 **PASS**；acceptance **45/45 PASS**（lead 复跑）；quality/workflow/Macbeth 未独立复跑（workflow engineer 9/9） |
 | 扩建计划 | **PASS（提案，未实施）** | 卡数仍 400；P1 6–8 + P2 4–6 提案有证据；非大规模扩卡 |
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：P5-B 修正未提交、6 flag 待人工、GUI NOT_RUN）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN**。

@@ -156,6 +156,6 @@
 - **高风险年代/地域**：6 对冲突已移除/替换；6 对 flag review 保留（review_queue，recommend/outfit 不读 key_garments，不进正式推荐主路径）→ WARN 待人工。
 - **Agent E2E**：官方 RQ1–3 **3/3 PASS**、overlay RQ1–5 **5/5 PASS**（skill/工具/结果/turn_end.completed/完整输出五项，独立事件解析，IDs 0 missing）。
 - **After 指标**：内容零链接 0/189；来源可见（含 MOC）0/211 零链接；source_ids 可见 **191/299（63.9%）**；有 source_ids 无可见来源链接的卡 **40/181（22.1%，全 draft + WEAK-07 连带）**；typed 无可见 **123/480**；语义分量 **66（335+65，不变）**；65 单点分类 34 legit_reference/16 evidence_missing_expression/14 future_topic/1 no_verifiable。
-- **回归**：validate 400/400、build 211/211、relation migration 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human closeout 3/3、composer 9/9 **PASS**（当前树）；acceptance/quality/workflow/Macbeth 本轮 **NOT_RUN**（当前树批处理未完成；P5-A 前次分别 45/45、17/17、9/9、11/11，仅参考不写 PASS）。
+- **回归**：validate 400/400、build 211/211、relation migration 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human closeout 3/3、composer 9/9 **PASS**（当前树）；acceptance **45/45 PASS**（lead 报告后复跑）；quality/workflow/Macbeth 未独立复跑（workflow engineer 9/9），不写 PASS。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN：修正未提交、flag review、GUI NOT_RUN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；**GUI = NOT_RUN/PENDING**。
 - 详见 `reports/P5B-GRAPH-QA.md`、`P5B-FINAL.md`。

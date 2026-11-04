@@ -6,7 +6,7 @@
 
 ## 0. 一句话结论
 
-**P5-B 关系重构达到验收目标：抽样 48 条关系准确率 100%（≥95%）；4 MISLINK 全部关闭/隔离、8 WEAK 处置合理；Agent E2E 官方 3/3、overlay 5/5 五项全 PASS；validate/build/relation/security/lookbook/skill-sync/backup 回归 PASS，acceptance/quality/workflow/composer/Macbeth 本轮 NOT_RUN（环境变慢，P5-A 前次 PASS，未伪造）；PRIVATE-READY 维持 YES（附 WARN），PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6），GUI NOT_RUN。**
+**P5-B 关系重构达到验收目标：抽样 48 条关系准确率 100%（≥95%）；4 MISLINK 全部关闭/隔离、8 WEAK 处置合理；Agent E2E 官方 3/3、overlay 5/5 五项全 PASS；validate/build/relation/security/lookbook/skill-sync/backup 回归 PASS；**acceptance 45/45 PASS（lead 报告后复跑）**；composer 9/9 PASS；quality/workflow/Macbeth 未独立复跑（workflow engineer 9/9）；PRIVATE-READY 维持 YES（附 WARN），PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6），GUI NOT_RUN。**
 
 ## 1. 修复前后关键指标
 
@@ -54,7 +54,7 @@
 |---|---|
 | validate | **PASS 400/400**（211 来源，0 错误/警告） |
 | build_sources | **PASS 211/211**（CSV 212 行） |
-| acceptance | **NOT_RUN**（当前树批处理启动后长时间未完成；不写 PASS；P5-A 前次 45/45） |
+| acceptance | **PASS 45/45**（lead 报告后独立复跑；`--no-write`；exit 0） |
 | quality_eval | **NOT_RUN**（同上；P5-A 前次 17/17） |
 | workflow | **NOT_RUN**（当前树重跑未完成；P5-A 前次 engineer log 9/9） |
 | composer | **PASS 9/9**（18.8s） |
@@ -91,8 +91,8 @@
 
 - 当前树独立执行 PASS：validate 400/400、build 211/211、relation migration 8/8、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7。
 - human closeout **PASS 3/3（28.8s）**；composer **PASS 9/9（18.8s）**；Macbeth 重跑未在窗口内完成，**标 NOT_RUN**（P5-A 前次 11/11 仅参考，不写 PASS）。
-- acceptance / quality_eval / workflow：当前树批处理多次启动未完成，**NOT_RUN**；P5-A 前次为 45/45、17/17、9/9（engineer log）。此外 relation-consistency 测试 EXIT 0（5/5）与 query relation filter 抽查 PASS；relation-consistency.json 401? 见下方备注。
-- 结论：本轮可确认的 PASS 为 validate/build/relation/security/lookbook/skill-sync/backup/human/composer，以及 relation-consistency 测试 5/5、query relation filter 抽查；acceptance/quality/workflow/Macbeth **NOT_RUN**，未伪造 PASS。
+- acceptance：**PASS 45/45**（lead 报告后复跑）；quality_eval / workflow：未独立复跑（workflow engineer 9/9），不写 PASS。此外 relation-consistency 测试 EXIT 0（5/5）与 query relation filter 抽查 PASS；relation-consistency.json 见下方备注。
+- 结论：本轮可确认的 PASS 为 validate/build/relation/security/lookbook/skill-sync/backup/human/composer，以及 relation-consistency 测试 5/5、query relation filter 抽查；acceptance 45/45 PASS；quality/workflow/Macbeth 未独立复跑，不伪造 PASS。
 - 备注：`11-验收/P5B/relation-consistency.json` 现为 cards 400/relations 201/errors 0；`P5B-AGENT-E2E.md` 文本写 202（修正 CSV 前口径），以 JSON/当前树 201 为准（WARN 文档滞后）。
 
 ## 9. 最终结论与建议

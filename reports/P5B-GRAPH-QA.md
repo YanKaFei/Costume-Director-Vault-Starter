@@ -113,7 +113,7 @@
 | human closeout | **PASS 3/3**（28.8s） | `/tmp/p5b_heavy.out` |
 | composer | **PASS 9/9**（18.8s） | `/tmp/p5b_heavy.out` |
 | Macbeth | **NOT_RUN**（重跑进程在验收窗口内未完成，已终止；不写 PASS） | `/tmp/p5b_heavy.out` |
-| acceptance / quality_eval / workflow | **NOT_RUN（当前树批处理多次启动后长时间未完成；按规则不写 PASS）**。参考：P5-A 最终快照（P5-B 修正前）acceptance 45/45、quality 17/17、workflow 9/9（engineer log）；P5-B 只改关系/key_garments frontmatter，未改脚本 | `/tmp/p5b_tests*.out` |
+| acceptance / quality_eval / workflow | acceptance **PASS 45/45**（lead 报告后复跑，`--no-write`）；quality_eval/workflow 未独立复跑（workflow engineer 9/9），不写 PASS | `/tmp/accept_p5b.log` |
 
 ## 6. 扩建计划审查（P5B-EXPANSION-PLAN）
 
