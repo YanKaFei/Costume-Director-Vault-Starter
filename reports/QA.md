@@ -23,3 +23,17 @@
 ## 3. 结论
 
 **技术/数据/质量门 PASS**（R7 关闭、R1–R5 关闭、45/45 验收、validate/build/quality_eval 全 PASS）。发布仍需完成 **HUMAN_UAT_PENDING 4 项**（Obsidian GUI、逐图版权、语义评分签核、62 draft 复核）；完成前不得对外宣布「全量 PASS」。
+
+
+---
+
+## 4. P3.6 Skill 原生调用验收（2026-11-04 15:56，task-37）
+
+- 快照：363 卡（内容 166 + 来源 197）；45 例验收；9 workflow tests；HEAD `7afe02b`。
+- **机械验收**：validate **PASS**（363/363，17/17）；build_sources **PASS**（197/197，CSV 198 行）；acceptance **PASS 45/45**；quality_eval **OVERALL PASS（17/17）**；workflow tests **9/9 OK**。
+- **Skill 原生调用**：独立 2 次 Vault-cwd headless 请求 exit 0，事件含 `skill(costume-director)` + `<skill_content>` + bash `scripts/query.py`；答案 ID/SRC 全解析、0 编造。
+- **10 例 e2e**：10/10 通过（skill+脚本调用、ID/SRC 0 缺失、无 stderr/错误；T07 同会话、T08 缺口诚实、T09 冲突拒绝、T10 连续性与 prompts）。
+- **安全**：commit 纯新增（无既有卡/脚本修改）；projects 隔离；未推送（ahead 22）；无许可改动；注入策略有文档但未运行时验证。
+- **导演材料**：18/18 审阅完整；评分表 18×7 NOT_SCORED（无数字分）；OBSIDIAN-UAT 为 HUMAN_UAT_PENDING/NOT_TESTED。
+- **结论**：**PRIVATE-USE VERIFIED = YES；PUBLIC-READY = NO（BLOCKED，B1–B6）**；HUMAN_UAT_PENDING 4 项未变；兼容性 caveat（DeepSeek 402 / Doubao overlay）已披露。
+- 详见 `reports/P3.6-REPORT.md`。

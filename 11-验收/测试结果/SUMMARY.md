@@ -1,6 +1,6 @@
 # P2 验收测试 SUMMARY
 
-- 运行时间：2026-11-04T14:03:36+08:00
+- 运行时间：2026-11-04T15:51:45+08:00
 - Python：3.9.6
 - 测试数：45
 - 结果目录：`11-验收/测试结果/`
@@ -89,6 +89,7 @@
 - ×5 cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - ×4 period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
 - ×4 fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins
+- ×3 the vault has no 'journalist and writer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×3 no reliable style card for art direction 'restrained urban noir'
 - ×3 the vault has no 'private investigator'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×3 no reliable style card for art direction 'gritty urban realism'
@@ -96,7 +97,6 @@
 - ×3 period evidence is approximate/none for GAR-0079, GAR-0082 (requested contemporary); treat these as era-level hypotheses, not exact period matches
 - ×3 no reliable style card for art direction 'restrained historical noir'
 - ×2 no reliable style card for art direction 'restrained urban period drama'
-- ×2 the vault has no 'journalist and writer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×2 the vault has no 'courier'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×2 period evidence is approximate/none for GAR-0045 (requested 1890s); treat these as era-level hypotheses, not exact period matches
 - ×2 the vault has no 'student then clerk'-specific garment cards; generic pieces are used and no other profession's uniform is substituted

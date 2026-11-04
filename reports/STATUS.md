@@ -80,3 +80,18 @@
 - **门禁**：PRIVATE-READY = YES；PUBLIC-READY = NO（BLOCKED，B1–B6；B7 已 CLOSED）。
 - **HUMAN_UAT_PENDING 4**：Obsidian GUI / 逐图版权 / 15 案例人工评分 / 62 draft 复核；均未执行，未编造 PASS 或分数。
 - 详见 `reports/P3.5-REPORT.md` 与 `reports/RELEASE-GATE.md`。
+
+
+## 9. P3.6 Skill 原生调用验收（2026-11-04 15:56，task-37）
+
+- **HEAD**：`7afe02b`（P3.6 commit：native costume-director skill、10 headless e2e、director materials）。
+- **快照一致性**：**363 卡**（内容 166 + 来源 197）；**45 例验收**；**9 例 workflow tests**；18 套 Macbeth LOOKS；HUMAN-SCORE 18 行空表；`SOURCES.csv` 198 行。
+- **Skill 安装与发现**：`.dsh/skills/costume-director/SKILL.md`（264 行）；provider `skill`/`skill-filesystem`/`tool-skill` 已挂载。
+- **原生调用（独立验证）**：2 次 Vault-cwd `dsh --profile headless --json` 均 exit 0；事件含 `skill(costume-director)` + `tool_result <skill_content>` + bash `scripts/query.py`；答案 ID/SRC 全部解析、0 编造。
+- **10 例 E2E**：10/10 通过（skill + 脚本调用、ID/SRC 0 缺失、无错误；T07 同会话、T08 缺口诚实、T09 冲突拒绝、T10 连续性与 prompts；写盘仅 projects/）。
+- **KB 安全**：commit 纯新增 69 文件（无既有卡/脚本修改）；`projects/` gitignore；`main` ahead 22（未推送）；既有 license 未改；外部文本注入策略在 SKILL.md（运行时未测）。
+- **导演材料**：18/18 审阅完整；评分表 18×7 全 NOT_SCORED（无数字）；OBSIDIAN-UAT 明确 HUMAN_UAT_PENDING/NOT_TESTED。
+- **回归**：validate 363/363；build 197/197；acceptance **45/45**；quality_eval **OVERALL PASS（17/17）**；workflow tests **9/9**。
+- **兼容性 caveat**：DeepSeek 官方路由曾 402 QUOTA（smoke）；e2e 用 Doubao 临时 overlay（无 profile 改动）；我的原生验证需从 credentials store 注入 key。**不声称 DeepSeek 官方路由已完成 10 例长会话。**
+- **门禁**：**PRIVATE-USE VERIFIED = YES；PUBLIC-READY = NO（BLOCKED，B1–B6）**；HUMAN_UAT_PENDING 4 项保持（未执行、未代填分数）。
+- 详见 `reports/P3.6-REPORT.md`。

@@ -25,3 +25,11 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 - 来源 185：被引用 125、未引用 60（含 19 张 AAT）；`SOURCES.csv` 186 行（R5 质量门有效）。
 - 测试 45：T31–T45 覆盖职业匹配（含同义词）、雨具、室内派克、context、查询排序/去重/example 排除。
 - Look 23（全部 ≥3 具体 ID）、scene 16；身份弧线/连续性由 warning 声明未建模。
+
+
+## 4. P3.6 更新（2026-11-04 15:56）
+
+- 卡片/来源覆盖不变：**363 卡（内容 166 + 来源 197）**；`reports/SOURCES.csv` 198 行。
+- 新增与验收相关资产（不计入卡片覆盖）：`.dsh/skills/costume-director/SKILL.md`、`docs/SKILL-USAGE.md`、`projects/` 用户隔离区、`11-验收/P3.6/`（smoke/e2e/导演材料）、`scripts/check_skill_e2e.py`。
+- 验收用例保持 **45**；workflow tests **9**；e2e **10**（T01–T10，全部通过独立审计）。
+- 覆盖缺口不变：pattern 1/11 族、material 4/8 族、garment_part 6/16 族；62 draft（45 REVIEWED-CANDIDATE / 17 STAY_DRAFT）。
