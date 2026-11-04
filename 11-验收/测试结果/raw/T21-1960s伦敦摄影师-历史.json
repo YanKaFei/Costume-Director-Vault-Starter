@@ -654,10 +654,12 @@
     "lower_body": [
       "GAR-0010",
       "GAR-0011",
+      "GAR-0077",
       "GAR-0014",
       "GAR-0072"
     ],
     "inner_layer": [
+      "GAR-0078",
       "GAR-0012",
       "GAR-0020"
     ],
@@ -668,6 +670,7 @@
       "GAR-0046",
       "GAR-0017",
       "GAR-0016",
+      "GAR-0076",
       "GAR-0018"
     ],
     "accessory": [
@@ -824,10 +827,24 @@
       ]
     },
     {
+      "id": "GAR-0082",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs late_middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0044",
       "slot": "footwear",
       "reasons": [
         "occupational mismatch: the look is for 'photographer'"
+      ]
+    },
+    {
+      "id": "GAR-0081",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs late_middle_ages)"
       ]
     },
     {
@@ -916,6 +933,20 @@
       ]
     },
     {
+      "id": "GAR-0075",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs late_antiquity, early_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0079",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0050",
       "slot": "accessory",
       "reasons": [
@@ -941,6 +972,13 @@
       "slot": "accessory",
       "reasons": [
         "region-specific card incompatible with britain (china)"
+      ]
+    },
+    {
+      "id": "GAR-0080",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs early_middle_ages, early_modern)"
       ]
     }
   ],
@@ -1012,6 +1050,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 3,
-    "rejected_count": 34
+    "rejected_count": 39
   }
 }

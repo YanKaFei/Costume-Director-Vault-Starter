@@ -1037,7 +1037,8 @@
       "GAR-0072",
       "GAR-0014",
       "GAR-0010",
-      "GAR-0011"
+      "GAR-0011",
+      "GAR-0077"
     ],
     "set": [
       "GAR-0065",
@@ -1045,6 +1046,7 @@
     ],
     "inner_layer": [
       "GAR-0012",
+      "GAR-0078",
       "GAR-0020"
     ],
     "outerwear": [
@@ -1179,6 +1181,13 @@
       ]
     },
     {
+      "id": "GAR-0076",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
       "id": "GAR-0025",
       "slot": "accessory",
       "reasons": [
@@ -1207,6 +1216,13 @@
       ]
     },
     {
+      "id": "GAR-0082",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs late_middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0024",
       "slot": "footwear",
       "reasons": [
@@ -1218,6 +1234,13 @@
       "slot": "footwear",
       "reasons": [
         "occupational mismatch: the look is for 'journalist / editor'"
+      ]
+    },
+    {
+      "id": "GAR-0081",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs late_middle_ages)"
       ]
     },
     {
@@ -1293,6 +1316,20 @@
       ]
     },
     {
+      "id": "GAR-0075",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs late_antiquity, early_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0079",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0050",
       "slot": "accessory",
       "reasons": [
@@ -1304,6 +1341,13 @@
       "slot": "accessory",
       "reasons": [
         "occupational mismatch: the look is for 'journalist / editor'"
+      ]
+    },
+    {
+      "id": "GAR-0080",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1930s vs early_middle_ages, early_modern)"
       ]
     }
   ],
@@ -1388,6 +1432,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": true,
     "warnings_count": 4,
-    "rejected_count": 31
+    "rejected_count": 37
   }
 }

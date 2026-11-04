@@ -78,6 +78,8 @@
       "id": "S1",
       "body": "Rain falls. LIN stands under an awning, watching a doorway. ASH steps out of the shadows.\nLIN: You're late. Did anyone follow you?\nASH: No. The rain covers everything.\nLIN: Then talk. What did you find in the office?\nASH: The files were moved. Someone cleaned the room before dawn.\n",
       "preamble": "",
+      "act_number": null,
+      "scene_number": 1,
       "environment": {
         "weather": [
           "rain"
@@ -123,6 +125,8 @@
       "id": "S2",
       "body": "The room is empty. LIN opens a drawer; ASH keeps watch at the door.\nLIN: The drawer is empty. They took everything.\nASH: Except this envelope. It has your name on it.\nLIN: Then we are already too late.",
       "preamble": "",
+      "act_number": null,
+      "scene_number": 2,
       "environment": {
         "weather": [],
         "time": [
@@ -262,6 +266,9 @@
     {
       "id": "street",
       "label": "street / rain",
+      "refs": [
+        "S1"
+      ],
       "scenes": [
         "S1"
       ]
@@ -269,15 +276,39 @@
     {
       "id": "office",
       "label": "office / dry interior",
+      "refs": [
+        "S2"
+      ],
       "scenes": [
         "S2"
       ]
     }
   ],
+  "stage_mapping": {
+    "street": {
+      "refs": [
+        "S1"
+      ],
+      "scenes": [
+        "S1"
+      ]
+    },
+    "office": {
+      "refs": [
+        "S2"
+      ],
+      "scenes": [
+        "S2"
+      ]
+    }
+  },
   "stages": [
     {
       "id": "street",
       "label": "street / rain",
+      "refs": [
+        "S1"
+      ],
       "scenes": [
         "S1"
       ]
@@ -285,6 +316,9 @@
     {
       "id": "office",
       "label": "office / dry interior",
+      "refs": [
+        "S2"
+      ],
       "scenes": [
         "S2"
       ]

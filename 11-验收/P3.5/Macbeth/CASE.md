@@ -94,7 +94,7 @@
 
 完整输出见 `kb/query-hits.txt`（原始命令与命中 ID）。
 
-### 4.4 workflow.py — 剧本驱动管线（exit 0，但场景/阶段解析退化）
+### 4.4 workflow.py — 剧本驱动管线（重生成，exit 0）
 
 命令：
 
@@ -107,9 +107,10 @@ python3 scripts/workflow.py \
 ```
 
 - 输入：公共领域《麦克白》短摘录（1.3 荒原、1.5 读信、2.2 弑君后、5.1 梦游）+ meta（11th century Scotland / scotland / historical / 角色与阶段）。
-- 退出码：**0**；输出目录 `workflow-run/` 含 `character-dossier.md`、`scene-costume-table.md`、`full-looks.md`、`prompts.md`、`fact-evidence-inference.md`、`workflow-result.json`。
-- 结果：识别 6 个角色（Macbeth、Lady Macbeth、三女巫、Banquo），但场景解析把 `ACT I` 与 `SCENE III` 拆成两个 scene，导致 stage 映射退化为 `unassigned`；`recommend.py` 每角色只产出 GAR-0077 的不完整 look（`checks.looks_produced=true`、`ids_exist=true`，但 `continuity_issues=6`）。`design_conflicts` 正确记录“no reliable period/region context card (11th century Scotland)”“cross-region borrowing flagged”等。
-- 结论：workflow.py 的**缺口声明与 ID 真实性**可用；但**场景/阶段切分**需要更稳的 heading 规则（`ACT` 与 `SCENE` 不应各自成为 scene），否则 18 套人工策展无法由它直接生成。原始输出：`kb/workflow-run.json`、`workflow-run/`。
+- 退出码：**0**；输出 `workflow-run/`（dossier、scene table、full-looks、prompts、fact-evidence-inference、workflow-result.json）。
+- 重生成结果：**scenes=4**（ACT/SCENE heading 已合并），**stage 映射 M1→S1、M2→S3、L1→S2、L3→S4**，不再全 unassigned；6 角色 / 9 个 character-stage 行，每行 exit 0；但 11 世纪苏格兰硬约束下仅 A 套 GAR-0077（B/C 空），`checks.ids_exist/evidence_complete/source_ids_resolve=true`，`design_conflicts=52`、`unknowns=29`、`continuity_issues=6`。
+- 残余工具缺口：`build_stages` 只按 scene id 精确匹配，原 meta 的 `1-3/1-5/2-2/5-1` refs 不会自动映射到 S-id；本次将 meta refs 更新为 S1–S4 后映射成功（原 refs 的运行结果另存 `kb/workflow-run-unmapped.json`）。
+- 18 套人工 LOOKS 未受影响（`LOOKS.md` md5 重跑前后一致，18 套不变）。原始输出：`kb/workflow-run.json`、`workflow-run/`。
 
 ## 5. 文件索引
 

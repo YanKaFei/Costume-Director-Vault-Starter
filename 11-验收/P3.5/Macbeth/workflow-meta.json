@@ -3,17 +3,52 @@
   "region": "scotland",
   "fidelity_mode": "historical",
   "art_direction": "medieval Scottish court, wool, leather, iron; film-historical interpretation",
-  "environment": {"weather": "storm, wind", "location": "heath and castle"},
+  "environment": {
+    "weather": "storm, wind",
+    "location": "heath and castle"
+  },
   "characters": [
-    {"name": "Macbeth", "occupation": "thane and king’s general", "economic_status": "elite",
-     "arc": "ambition, guilt, tyranny, downfall"},
-    {"name": "Lady Macbeth", "occupation": "thane’s wife", "economic_status": "elite",
-     "arc": "ambition, guilt, sleepwalking death"}
+    {
+      "name": "Macbeth",
+      "occupation": "thane and king’s general",
+      "economic_status": "elite",
+      "arc": "ambition, guilt, tyranny, downfall"
+    },
+    {
+      "name": "Lady Macbeth",
+      "occupation": "thane’s wife",
+      "economic_status": "elite",
+      "arc": "ambition, guilt, sleepwalking death"
+    }
   ],
   "stages": [
-    {"id": "M1", "label": "Macbeth rise", "scenes": ["1-3"]},
-    {"id": "M2", "label": "Macbeth guilt", "scenes": ["2-2"]},
-    {"id": "L1", "label": "Lady Macbeth rise", "scenes": ["1-5"]},
-    {"id": "L3", "label": "Lady Macbeth downfall", "scenes": ["5-1"]}
+    {
+      "id": "M1",
+      "label": "Macbeth rise",
+      "scenes": [
+        "S1"
+      ]
+    },
+    {
+      "id": "M2",
+      "label": "Macbeth guilt",
+      "scenes": [
+        "S3"
+      ]
+    },
+    {
+      "id": "L1",
+      "label": "Lady Macbeth rise",
+      "scenes": [
+        "S2"
+      ]
+    },
+    {
+      "id": "L3",
+      "label": "Lady Macbeth downfall",
+      "scenes": [
+        "S4"
+      ]
+    }
   ]
 }

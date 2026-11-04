@@ -36,6 +36,8 @@
       "id": "S1",
       "body": "A FIGURE stands in the dark, holding an unread letter.\nFIGURE: I remember nothing of the way here.\nA VOICE: You have been here before.\nFIGURE: Then I will walk until I remember.",
       "preamble": "",
+      "act_number": null,
+      "scene_number": 1,
       "environment": {
         "weather": [],
         "time": [],
@@ -164,15 +166,31 @@
     {
       "id": "only",
       "label": "only scene",
+      "refs": [
+        "S1"
+      ],
       "scenes": [
         "S1"
       ]
     }
   ],
+  "stage_mapping": {
+    "only": {
+      "refs": [
+        "S1"
+      ],
+      "scenes": [
+        "S1"
+      ]
+    }
+  },
   "stages": [
     {
       "id": "only",
       "label": "only scene",
+      "refs": [
+        "S1"
+      ],
       "scenes": [
         "S1"
       ]

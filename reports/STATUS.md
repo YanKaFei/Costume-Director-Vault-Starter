@@ -40,3 +40,18 @@
 ## 5. 下一步
 
 完成 4 项 HUMAN_UAT_PENDING → 发布清单签字；P4 可选改进见 NEXT-PLAN（W1–W4 与覆盖扩展）。
+
+
+---
+
+## 6. P3.5 最终验证（2026-11-04 14:00，task-28）
+
+- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；git HEAD `04778f8`（工作区 clean）。
+- 技术门禁：`validate.py` PASS（363/363）；`run_acceptance.py` **45/45 PASS**；`tests/test_workflow.py` **8/8 PASS**；`build_sources --check` **FAIL（缺 12 行 SRC-0480..0491）**；`quality_eval` **OVERALL FAIL（仅 sources_csv_sync=0）**。
+- workflow：fixture Macbeth scenes=3、stages rise/fall 分配、IDs/SRC 真实、exit 0；**真实案例 meta 的 `"1-3"` 引用导致 stage 全 unassigned（D2）**，S-id 修正后分配正确。
+- LOOK 修复：**7 张**（LOOK-0011/0013/0016/0017/0018/0021/0022）来源已对齐、URL 200；`reports/DRAFT-REVIEW.csv` 更新为 **45 REVIEWED-CANDIDATE / 17 STAY_DRAFT**（4 example + 13 虚构 SCN）；未改任何卡片。
+- Macbeth 案例：18 套（2 角色×3 阶段×A/B/C）、50 引用 ID 0 缺失、EVIDENCE 18 行 + 8 缺口、HUMAN-SCORE 18 行空白（0 预填）、6 组抽样 SRC 200；产物 workflow-run 旧版需重生成（D2）。
+- **发布门禁：PRIVATE-READY = YES（条件：先修 D1 CSV）；PUBLIC-READY = NO（BLOCKED）**。
+- 阻断项：**B7 CSV 同步（新）**、B1 GUI UAT、B2 逐图版权、B3 人工评分签核、B4 draft 复核、B5 WARN 披露、B6 许可/法务。
+- HUMAN_UAT_PENDING 4 项保持：Obsidian GUI / 逐图版权 / 15 案例人工评分 / 62 draft 复核。
+- 详见 `reports/P3.5-REPORT.md`。

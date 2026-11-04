@@ -86,20 +86,25 @@ done
 | `samite` | 4 | MAT-0011, SRC-0423, GAR-0061, GAR-0062 |
 | `wool` / `linen` | 10 / 10 | GAR-0002, GAR-0003, GAR-0008, GAR-0009 / GAR-0002, GAR-0007, GAR-0010… |
 
-### 3.4 workflow.py — 剧本驱动管线
+### 3.4 workflow.py — 剧本驱动管线（重生成，exit 0，stages 已映射）
 
-命令：
+命令（项目根目录执行）：
 
 ```bash
-python3 scripts/workflow.py --script "11-验收/P3.5/Macbeth/macbeth-excerpt.txt" \
+python3 scripts/workflow.py \
+  --script "11-验收/P3.5/Macbeth/macbeth-excerpt.txt" \
   --meta "11-验收/P3.5/Macbeth/workflow-meta.json" \
   --out "11-验收/P3.5/Macbeth/workflow-run" --json \
   > "11-验收/P3.5/Macbeth/kb/workflow-run.json"
 ```
 
-- 退出码 **0**；输出 `workflow-run/`（dossier、scene table、full-looks、prompts、fact-evidence-inference、workflow-result.json）。
-- 识别 6 角色；`ACT`/`SCENE` heading 解析成两个 scene，stage 退化为 `unassigned`；每角色仅 GAR-0077 的不完整 look；`checks.ids_exist=true`、`looks_produced=true`，但 `continuity_issues=6`，`design_conflicts` 正确列出 11th-century Scotland 缺口与跨区借用警告。
-- 结论：ID 与缺口声明可核验；场景/阶段切分需修复，不能直接产出 18 套。
+- **退出码 0**；输出 `workflow-run/`（`character-dossier.md`、`scene-costume-table.md/csv`、`full-looks.md`、`prompts.md`、`fact-evidence-inference.md`、`workflow-result.json`）。
+- **场景数 = 4**（engineer 修复后 `ACT I`/`SCENE III` 合为一个 scene，不再拆出空的 ACT fragment）：S1 = ACT I — SCENE III. A heath；S2 = ACT I — SCENE V. Inverness；S3 = ACT II — SCENE II. The same；S4 = ACT V — SCENE I. Dunsinane。
+- **Stage 映射（本次重跑）**：M1 → S1；M2 → S3；L1 → S2；L3 → S4（stage_list 中不再有 `unassigned`）。
+- 角色/阶段推荐：识别 6 角色（Macbeth、Lady Macbeth、三女巫、Banquo），共 9 个 character-stage 行；Macbeth: M1/M2；Lady Macbeth: L1/M2/L3；三女巫与 Banquo: M1。每行 `recommend.py` exit 0，但因 11 世纪苏格兰硬约束只产出 A 套 GAR-0077（B/C 为空），`checks.ids_exist=true`、`evidence_complete=true`、`source_ids_resolve=true`；`design_conflicts=52`（11th-century Scotland 无 context/style 卡、跨区借用等）、`unknowns=29`、`continuity_issues=6`。
+- **ID/SRC 真实性**：推荐中的 GAR-0077 与 SRC-0484/0485（紧身长袜）、SRC-0141（材料关联）均能在 01–04 解析；未出现虚构 ID/来源。
+- **原 meta 兼容性（残余工具缺口）**：原 `workflow-meta.json` 的 stage refs 为 `1-3 / 1-5 / 2-2 / 5-1`，`build_stages` 只做 scene id 精确匹配，不自动解析 act-scene 文本；用原 refs 重跑时 scenes=4 但 stages 仍全 unassigned（原始结果另存 `kb/workflow-run-unmapped.json`）。本次把 meta refs 更新为 `S1/S2/S3/S4` 后再跑，映射成功。**结论**：heading 修复已生效；meta refs 仍需人/工具映射到 S-id（工作流未自动完成）。
+- 18 套人工 LOOKS 不受影响：`LOOKS.md` md5 = `53549992cef442d2d3267a4506b3903b`（重跑前后一致），18 个 `##` 造型条目不变。
 
 ## 4. 引用统计
 

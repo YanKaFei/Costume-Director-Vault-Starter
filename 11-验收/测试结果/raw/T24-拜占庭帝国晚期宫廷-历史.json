@@ -30,38 +30,44 @@
     {
       "look_ref": "A",
       "source_look_id": null,
-      "total": 40.0,
+      "total": 43.5,
       "scores": {
-        "period": 22.2,
+        "period": 19.8,
         "identity": 3.4,
-        "environment": 8.7,
-        "art": 5.2,
-        "movement": 4.0,
+        "environment": 7.1,
+        "art": 4.0,
+        "movement": 5.6,
         "arc": 4.6,
         "camera": 6.9
       },
       "missing": [
-        "footwear",
-        "outerwear"
+        "footwear"
       ],
-      "cost": 0.58,
-      "cost_total": 0.58,
+      "cost": 0.506,
+      "cost_total": 1.013,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "one_piece": "era"
+        "one_piece": "era",
+        "outerwear": "unknown"
       },
       "region_tiers": {
-        "one_piece": "exact"
+        "one_piece": "exact",
+        "outerwear": "regional"
       },
       "colors": [
+        "crimson",
         "gold",
         "purple",
         "white"
       ],
       "style_tags": [
+        "analogue",
         "byzantine",
-        "ecclesiastical"
+        "early",
+        "early modern",
+        "ecclesiastical",
+        "modern"
       ],
       "budget_mode": "none",
       "budget_explanation": "Only one/two distinct combinations were available.",
@@ -70,7 +76,7 @@
         "a_c": null,
         "b_c": null
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve court attendant; the elite economic register shows through material and finish; formality runs from ceremonial; the gold, purple, white palette controls the emotional temperature; against the arc (surviving a shift in imperial favour) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve court attendant; the elite economic register shows through material and finish; formality runs from ceremonial / formal; the crimson, gold, purple palette controls the emotional temperature; against the arc (surviving a shift in imperial favour) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
       "items": [
         {
           "slot": "one_piece",
@@ -100,6 +106,36 @@
             "arc": 0.4583333333333333,
             "camera": 0.69
           }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0076",
+          "name_zh": "斗篷与披风",
+          "name_en": "cloak and mantle",
+          "colors": [
+            "crimson",
+            "white"
+          ],
+          "materials": [
+            "satin",
+            "silk",
+            "linen",
+            "metal_thread"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0482",
+            "SRC-0483"
+          ],
+          "scores": {
+            "period": 0.69,
+            "identity": 0.225,
+            "environment": 0.359,
+            "art": 0.1875,
+            "movement": 0.74,
+            "arc": 0.4583333333333333,
+            "camera": 0.69
+          }
         }
       ],
       "parts": [
@@ -122,35 +158,52 @@
         {
           "id": "MAT-0003",
           "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0011",
+          "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Theodora, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs, palette: gold, purple, white, setting: palace reception hall, evening, indoor, cold, art direction: late byzantine court, gold and deep colours, lighting: candlelight and gold reflections, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
-      "prompt_video": "Theodora, standing in attendance, carrying a candle, scene: palace reception hall, evening, indoor, cold, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs, fabric motion: 宽身长袍，手臂活动时宽袖与侧衩提供空间; 饰边与重料会限制快走。, lighting: candlelight and gold reflections, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Theodora, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar, palette: crimson, gold, purple, white, setting: palace reception hall, evening, indoor, cold, art direction: late byzantine court, gold and deep colours, lighting: candlelight and gold reflections, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "prompt_video": "Theodora, standing in attendance, carrying a candle, scene: palace reception hall, evening, indoor, cold, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 宽身长袍，手臂活动时宽袖与侧衩提供空间; 饰边与重料会限制快走。, lighting: candlelight and gold reflections, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 22.2/25, 环境气候 8.7/15",
+        "highest scoring dimensions: 年代/文化 19.8/25, 环境气候 7.1/15",
         "连身: GAR-0009 达尔马提亚长袍 (ceremonial)",
+        "外层: GAR-0076 斗篷与披风 (formal)",
         "linked structure cards: STR-0005, STR-0010",
-        "linked material cards: MAT-0002, MAT-0003",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0011",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
-        "incomplete look, missing: footwear, outerwear (knowledge-base gap, do not invent items)",
+        "incomplete look, missing: footwear (knowledge-base gap, do not invent items)",
+        "region mismatch in GAR-0076: cards document their own regions, not byzantium",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
           "SRC-0110",
+          "SRC-0482",
+          "SRC-0483",
           "SRC-0135",
           "SRC-0140",
           "SRC-0141",
-          "SRC-0142"
+          "SRC-0142",
+          "SRC-0423"
         ],
         "source_urls": [
           {
             "source_id": "SRC-0110",
             "url": "https://fashionhistory.fitnyc.edu/dalmatic-tunic/"
+          },
+          {
+            "source_id": "SRC-0482",
+            "url": "https://collections.vam.ac.uk/item/O77731/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0135",
@@ -167,6 +220,10 @@
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
           }
         ],
         "context_style_ids": [],
@@ -175,7 +232,8 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0009": "verified"
+          "GAR-0009": "verified",
+          "GAR-0076": "verified"
         },
         "missing_urls": []
       }
@@ -220,7 +278,7 @@
     {
       "code": "knowledge_gap_slots",
       "severity": "high",
-      "message": "looks are missing required layers: footwear, outerwear (no invented replacements)",
+      "message": "looks are missing required layers: footwear (no invented replacements)",
       "items": [],
       "look": null
     },
@@ -234,7 +292,7 @@
   ],
   "budget_model": {
     "mode": "none",
-    "a_cost_total": 0.58,
+    "a_cost_total": 1.013,
     "c_cost_total": null,
     "differences": {
       "a_b": null,
@@ -243,6 +301,15 @@
     }
   },
   "retrieved_ids": {
+    "lower_body": [
+      "GAR-0077"
+    ],
+    "inner_layer": [
+      "GAR-0078"
+    ],
+    "outerwear": [
+      "GAR-0076"
+    ],
     "one_piece": [
       "GAR-0009"
     ]
@@ -532,6 +599,13 @@
       ]
     },
     {
+      "id": "GAR-0082",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0022",
       "slot": "footwear",
       "reasons": [
@@ -580,6 +654,13 @@
       "slot": "footwear",
       "reasons": [
         "historical mode: period mismatch (late_byzantine_empire vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0081",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_middle_ages)"
       ]
     },
     {
@@ -730,6 +811,20 @@
       ]
     },
     {
+      "id": "GAR-0075",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs late_antiquity, early_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0079",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0021",
       "slot": "accessory",
       "reasons": [
@@ -788,18 +883,33 @@
       "reasons": [
         "historical mode: period mismatch (late_byzantine_empire vs early_19th_century, 19th_century)"
       ]
+    },
+    {
+      "id": "GAR-0080",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (late_byzantine_empire vs early_middle_ages, early_modern)"
+      ]
     }
   ],
   "warnings": [
     "no reliable style card for art direction 'late byzantine court, gold and deep colours'",
     "period evidence is era-level (century bucket) for GAR-0009; exact-decade cards are missing",
-    "looks are missing required layers: footwear, outerwear (no invented replacements)",
+    "looks are missing required layers: footwear (no invented replacements)",
     "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
   ],
   "sources": [
     {
       "source_id": "SRC-0110",
       "url": "https://fashionhistory.fitnyc.edu/dalmatic-tunic/"
+    },
+    {
+      "source_id": "SRC-0482",
+      "url": "https://collections.vam.ac.uk/item/O77731/"
+    },
+    {
+      "source_id": "SRC-0483",
+      "url": "https://collections.vam.ac.uk/item/O356064/"
     },
     {
       "source_id": "SRC-0135",
@@ -816,6 +926,10 @@
     {
       "source_id": "SRC-0142",
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
     }
   ],
   "missing_urls": [],
@@ -839,6 +953,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 4,
-    "rejected_count": 74
+    "rejected_count": 79
   }
 }

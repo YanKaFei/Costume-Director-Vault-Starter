@@ -764,13 +764,16 @@
       "GAR-0003"
     ],
     "lower_body": [
+      "GAR-0077",
       "GAR-0013"
     ],
     "inner_layer": [
+      "GAR-0078",
       "GAR-0020"
     ],
     "outerwear": [
       "GAR-0016",
+      "GAR-0076",
       "GAR-0017",
       "GAR-0018"
     ],
@@ -998,6 +1001,13 @@
       ]
     },
     {
+      "id": "GAR-0082",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs late_middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0022",
       "slot": "footwear",
       "reasons": [
@@ -1038,6 +1048,13 @@
       "slot": "footwear",
       "reasons": [
         "historical mode: period mismatch (1644 late Ming early Qing vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0081",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs late_middle_ages)"
       ]
     },
     {
@@ -1174,6 +1191,20 @@
       ]
     },
     {
+      "id": "GAR-0075",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs late_antiquity, early_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0079",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0050",
       "slot": "accessory",
       "reasons": [
@@ -1215,6 +1246,13 @@
       "slot": "accessory",
       "reasons": [
         "historical mode: period mismatch (1644 late Ming early Qing vs early_19th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0080",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1644 late Ming early Qing vs early_middle_ages, early_modern)"
       ]
     }
   ],
@@ -1302,6 +1340,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 7,
-    "rejected_count": 58
+    "rejected_count": 63
   }
 }

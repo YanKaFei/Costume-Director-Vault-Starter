@@ -1,11 +1,11 @@
 # T39 — 明末清初：context_refs 不得引用 1770s/维多利亚等无关卡
 
-- 运行时间：2026-11-04T03:17:37+08:00
+- 运行时间：2026-11-04T13:54:31+08:00
 - 测试类型：historical_weak_coverage, context, M4
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T39-明末清初context清洁.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json`
-- 退出码：**0**（耗时 0.88s）
+- 退出码：**0**（耗时 0.97s）
 
 ## 实际输入
 
@@ -38,12 +38,12 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json` | 0 | 0.88s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py china --limit 6 --json` | 0 | 0.8s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json` | 0 | 0.97s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py china --limit 6 --json` | 0 | 0.85s |
 
 - `query.py` 命中数量：**6**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0031, GAR-0032, GAR-0067, LOOK-0008, LOOK-0009, LOOK-0012
-- `recommend.py` 候选池：accessory=GAR-0028, GAR-0021, GAR-0025, GAR-0026; carried_prop=GAR-0049; footwear=GAR-0024; inner_layer=GAR-0020; lower_body=GAR-0013; one_piece=GAR-0071, GAR-0062, GAR-0015; outerwear=GAR-0016, GAR-0017, GAR-0018; upper_body=GAR-0002, GAR-0008, GAR-0003
+- `recommend.py` 候选池：accessory=GAR-0028, GAR-0021, GAR-0025, GAR-0026; carried_prop=GAR-0049; footwear=GAR-0024; inner_layer=GAR-0078, GAR-0020; lower_body=GAR-0077, GAR-0013; one_piece=GAR-0071, GAR-0062, GAR-0015; outerwear=GAR-0016, GAR-0076, GAR-0017, GAR-0018; upper_body=GAR-0002, GAR-0008, GAR-0003
 - 三套推荐选中：A: GAR-0071, GAR-0024; B: GAR-0071, GAR-0024, GAR-0028, GAR-0049; C: GAR-0062, GAR-0024
 
 ## 候选造型 A/B/C

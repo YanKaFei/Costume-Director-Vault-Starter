@@ -78,6 +78,8 @@
       "id": "S1",
       "body": "SHEN walks quickly under a broken umbrella. MEI waits in a doorway.\nSHEN: The office was searched again. We cannot stay here.\nMEI: Then we finish the story tonight, or not at all.\nSHEN: The rain will cover the sound of the presses.\n",
       "preamble": "",
+      "act_number": null,
+      "scene_number": 1,
       "environment": {
         "weather": [
           "rain"
@@ -117,6 +119,8 @@
       "id": "S2",
       "body": "MEI lays the pages on the desk. SHEN checks the door.\nMEI: If we print this, they will close the paper.\nSHEN: Then we print it before they can.",
       "preamble": "",
+      "act_number": null,
+      "scene_number": 2,
       "environment": {
         "weather": [],
         "time": [
@@ -253,6 +257,9 @@
     {
       "id": "alley",
       "label": "rain-soaked alley",
+      "refs": [
+        "S1"
+      ],
       "scenes": [
         "S1"
       ]
@@ -260,15 +267,39 @@
     {
       "id": "office",
       "label": "dry newspaper office",
+      "refs": [
+        "S2"
+      ],
       "scenes": [
         "S2"
       ]
     }
   ],
+  "stage_mapping": {
+    "alley": {
+      "refs": [
+        "S1"
+      ],
+      "scenes": [
+        "S1"
+      ]
+    },
+    "office": {
+      "refs": [
+        "S2"
+      ],
+      "scenes": [
+        "S2"
+      ]
+    }
+  },
   "stages": [
     {
       "id": "alley",
       "label": "rain-soaked alley",
+      "refs": [
+        "S1"
+      ],
       "scenes": [
         "S1"
       ]
@@ -276,6 +307,9 @@
     {
       "id": "office",
       "label": "dry newspaper office",
+      "refs": [
+        "S2"
+      ],
       "scenes": [
         "S2"
       ]

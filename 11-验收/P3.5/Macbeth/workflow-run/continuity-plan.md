@@ -9,12 +9,13 @@
 
 | Stage | Scenes | Look A items |
 | --- | --- | --- |
-| unassigned scenes | S2, S6 | GAR-0077 |
+| Macbeth rise | S1 | GAR-0077 |
+| Macbeth guilt | S3 | GAR-0077 |
 
 | Scene | Wetness | Damage | Dirt |
 | --- | --- | --- | --- |
-| S2 | unknown | unknown | unknown |
-| S6 | unknown | unknown | unknown |
+| S1 | unknown | unknown | unknown |
+| S3 | unknown | unknown | unknown |
 
 - Continuity note: character 'Macbeth' continuity states contain unknown values (not invented; mark for production review)
 
@@ -24,13 +25,15 @@
 
 | Stage | Scenes | Look A items |
 | --- | --- | --- |
-| unassigned scenes | S4, S6, S8 | GAR-0077 |
+| Macbeth guilt | S3 | GAR-0077 |
+| Lady Macbeth rise | S2 | GAR-0077 |
+| Lady Macbeth downfall | S4 | GAR-0077 |
 
 | Scene | Wetness | Damage | Dirt |
 | --- | --- | --- | --- |
+| S2 | unknown | unknown | unknown |
+| S3 | unknown | unknown | unknown |
 | S4 | unknown | unknown | unknown |
-| S6 | unknown | unknown | unknown |
-| S8 | unknown | unknown | unknown |
 
 - Continuity note: character 'Lady Macbeth' continuity states contain unknown values (not invented; mark for production review)
 
@@ -40,11 +43,11 @@
 
 | Stage | Scenes | Look A items |
 | --- | --- | --- |
-| unassigned scenes | S2 | GAR-0077 |
+| Macbeth rise | S1 | GAR-0077 |
 
 | Scene | Wetness | Damage | Dirt |
 | --- | --- | --- | --- |
-| S2 | unknown | unknown | unknown |
+| S1 | unknown | unknown | unknown |
 
 - Continuity note: character 'First Witch' continuity states contain unknown values (not invented; mark for production review)
 
@@ -54,11 +57,11 @@
 
 | Stage | Scenes | Look A items |
 | --- | --- | --- |
-| unassigned scenes | S2 | GAR-0077 |
+| Macbeth rise | S1 | GAR-0077 |
 
 | Scene | Wetness | Damage | Dirt |
 | --- | --- | --- | --- |
-| S2 | unknown | unknown | unknown |
+| S1 | unknown | unknown | unknown |
 
 - Continuity note: character 'Second Witch' continuity states contain unknown values (not invented; mark for production review)
 
@@ -68,11 +71,11 @@
 
 | Stage | Scenes | Look A items |
 | --- | --- | --- |
-| unassigned scenes | S2 | GAR-0077 |
+| Macbeth rise | S1 | GAR-0077 |
 
 | Scene | Wetness | Damage | Dirt |
 | --- | --- | --- | --- |
-| S2 | unknown | unknown | unknown |
+| S1 | unknown | unknown | unknown |
 
 - Continuity note: character 'Third Witch' continuity states contain unknown values (not invented; mark for production review)
 
@@ -82,11 +85,11 @@
 
 | Stage | Scenes | Look A items |
 | --- | --- | --- |
-| unassigned scenes | S2 | GAR-0077 |
+| Macbeth rise | S1 | GAR-0077 |
 
 | Scene | Wetness | Damage | Dirt |
 | --- | --- | --- | --- |
-| S2 | unknown | unknown | unknown |
+| S1 | unknown | unknown | unknown |
 
 - Continuity note: character 'Banquo' continuity states contain unknown values (not invented; mark for production review)
 

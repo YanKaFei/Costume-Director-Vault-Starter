@@ -68,8 +68,8 @@
         "military",
         "traditional"
       ],
-      "budget_mode": "equivalent_cost",
-      "budget_explanation": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
       "differences": {
         "a_b": 2,
         "a_c": 2,
@@ -353,85 +353,69 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 45.6,
+      "total": 47.1,
       "scores": {
-        "period": 15.0,
+        "period": 23.0,
         "identity": 3.4,
-        "environment": 4.4,
-        "art": 7.8,
+        "environment": 1.8,
+        "art": 3.1,
         "movement": 4.0,
         "arc": 5.1,
-        "camera": 6.9
+        "camera": 6.7
       },
       "missing": [],
-      "cost": 0.296,
-      "cost_total": 0.593,
+      "cost": 0.248,
+      "cost_total": 0.495,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "one_piece": "era",
+        "one_piece": "none",
         "footwear": "era"
       },
       "region_tiers": {
-        "one_piece": "regional",
+        "one_piece": "none",
         "footwear": "none"
       },
       "colors": [
         "black",
         "brown",
-        "mid blue",
-        "orange red",
-        "pink",
-        "white"
+        "linen",
+        "wool"
       ],
       "style_tags": [
-        "art",
-        "art deco",
+        "analogue",
         "country",
-        "deco",
-        "era",
-        "military",
-        "modern",
-        "republican",
-        "republican era",
-        "shanghai",
-        "shanghai modern"
+        "medieval",
+        "military"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve architect; the middle economic register shows through material and finish; formality runs from smart_casual / smart_casual; the black, brown, mid blue palette controls the emotional temperature; against the arc (learning to delegate) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve architect; the middle economic register shows through material and finish; formality runs from functional / smart_casual; the black, brown, linen palette controls the emotional temperature; against the arc (learning to delegate) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "one_piece",
-          "id": "GAR-0031",
-          "name_zh": "旗袍",
-          "name_en": "qipao",
+          "id": "GAR-0079",
+          "name_zh": "基尔特长袍",
+          "name_en": "kirtle",
           "colors": [
-            "white",
-            "orange_red",
-            "pink",
-            "mid_blue"
+            "wool",
+            "linen"
           ],
           "materials": [
-            "silk",
-            "synthetic_velvet",
-            "crepe",
-            "silk_damask"
+            "wool",
+            "linen"
           ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0200",
-            "SRC-0201"
-          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
           "scores": {
-            "period": 0.35100000000000003,
+            "period": 0.92,
             "identity": 0.225,
-            "environment": 0.4225,
-            "art": 0.7878151260504201,
+            "environment": 0.12249999999999998,
+            "art": 0.22058823529411764,
             "movement": 0.4,
             "arc": 0.5125,
-            "camera": 0.69
+            "camera": 0.65
           }
         },
         {
@@ -462,71 +446,29 @@
           }
         }
       ],
-      "parts": [
-        {
-          "id": "STR-0011",
-          "slot": "one_piece",
-          "confidence": "explicit"
-        }
-      ],
-      "materials": [
-        {
-          "id": "MAT-0002",
-          "slot": "one_piece"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "one_piece"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult Rui, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, mid blue, orange red, pink, white, setting: S13, morning, indoor, art direction: clean minimalist realism, lighting: cool daylight through glass, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
-      "prompt_video": "Rui, presenting a model to a client, scene: S13, morning, indoor, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: cool daylight through glass, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "parts": [],
+      "materials": [],
+      "prompt_image": "full-body character design of an adult Rui, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, linen, wool, setting: S13, morning, indoor, art direction: clean minimalist realism, lighting: cool daylight through glass, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots",
+      "prompt_video": "Rui, presenting a model to a client, scene: S13, morning, indoor, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool daylight through glass, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 15.0/25, 美术方向 7.8/15",
-        "连身: GAR-0031 旗袍 (smart_casual)",
-        "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0002, MAT-0003"
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
+        "连身: GAR-0079 基尔特长袍 (functional)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)"
       ],
       "risks": [
-        "region mismatch in GAR-0022: cards document their own regions, not east_asia",
+        "region mismatch in GAR-0079, GAR-0022: cards document their own regions, not east_asia",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0200",
-          "SRC-0201",
-          "SRC-0123",
-          "SRC-0202",
-          "SRC-0141",
-          "SRC-0142"
+          "SRC-0123"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
-          },
-          {
-            "source_id": "SRC-0201",
-            "url": "https://collections.vam.ac.uk/item/O107537/"
-          },
-          {
             "source_id": "SRC-0123",
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
-          },
-          {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           }
         ],
         "context_style_ids": [],
@@ -535,7 +477,7 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0031": "verified",
+          "GAR-0079": "interpretive",
           "GAR-0022": "verified"
         },
         "missing_urls": []
@@ -570,12 +512,22 @@
       "look": null
     },
     {
+      "code": "period_approximate",
+      "severity": "medium",
+      "message": "period evidence is approximate/none for GAR-0079 (requested contemporary); treat these as era-level hypotheses, not exact period matches",
+      "items": [
+        "GAR-0079"
+      ],
+      "look": null
+    },
+    {
       "code": "region_mismatch",
       "severity": "medium",
-      "message": "cards document other regions for GAR-0022, GAR-0069 (requested east_asia); cross-region borrowing is flagged, not silently accepted",
+      "message": "cards document other regions for GAR-0022, GAR-0069, GAR-0079 (requested east_asia); cross-region borrowing is flagged, not silently accepted",
       "items": [
         "GAR-0022",
-        "GAR-0069"
+        "GAR-0069",
+        "GAR-0079"
       ],
       "look": null
     },
@@ -585,19 +537,12 @@
       "message": "the vault has no 'architect'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
       "items": [],
       "look": null
-    },
-    {
-      "code": "budget_equivalent",
-      "severity": "medium",
-      "message": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
-      "items": [],
-      "look": null
     }
   ],
   "budget_model": {
-    "mode": "equivalent_cost",
+    "mode": "cheaper",
     "a_cost_total": 0.643,
-    "c_cost_total": 0.593,
+    "c_cost_total": 0.495,
     "differences": {
       "a_b": 2,
       "a_c": 2,
@@ -615,6 +560,7 @@
       "GAR-0003"
     ],
     "lower_body": [
+      "GAR-0077",
       "GAR-0014",
       "GAR-0072",
       "GAR-0010",
@@ -626,10 +572,12 @@
       "GAR-0065"
     ],
     "inner_layer": [
+      "GAR-0078",
       "GAR-0012",
       "GAR-0020"
     ],
     "outerwear": [
+      "GAR-0076",
       "GAR-0045",
       "GAR-0057",
       "GAR-0017",
@@ -639,6 +587,7 @@
       "GAR-0046"
     ],
     "accessory": [
+      "GAR-0080",
       "GAR-0070",
       "GAR-0066",
       "GAR-0067",
@@ -651,6 +600,7 @@
       "GAR-0025"
     ],
     "carried_prop": [
+      "GAR-0082",
       "GAR-0048",
       "GAR-0047",
       "GAR-0049"
@@ -661,11 +611,13 @@
       "GAR-0035",
       "GAR-0060",
       "GAR-0024",
+      "GAR-0081",
       "GAR-0058"
     ],
     "one_piece": [
       "GAR-0064",
       "GAR-0069",
+      "GAR-0079",
       "GAR-0031",
       "GAR-0063",
       "GAR-0032",
@@ -677,6 +629,7 @@
       "GAR-0015",
       "GAR-0062",
       "GAR-0029",
+      "GAR-0075",
       "GAR-0054"
     ]
   },
@@ -817,9 +770,9 @@
   ],
   "warnings": [
     "no reliable style card for art direction 'clean minimalist realism'",
-    "cards document other regions for GAR-0022, GAR-0069 (requested east_asia); cross-region borrowing is flagged, not silently accepted",
-    "the vault has no 'architect'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
-    "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
+    "period evidence is approximate/none for GAR-0079 (requested contemporary); treat these as era-level hypotheses, not exact period matches",
+    "cards document other regions for GAR-0022, GAR-0069, GAR-0079 (requested east_asia); cross-region borrowing is flagged, not silently accepted",
+    "the vault has no 'architect'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
   ],
   "sources": [
     {
@@ -841,22 +794,6 @@
     {
       "source_id": "SRC-0430",
       "url": "https://collections.vam.ac.uk/item/O1678646/"
-    },
-    {
-      "source_id": "SRC-0200",
-      "url": "https://collections.vam.ac.uk/item/O1151302/"
-    },
-    {
-      "source_id": "SRC-0201",
-      "url": "https://collections.vam.ac.uk/item/O107537/"
-    },
-    {
-      "source_id": "SRC-0202",
-      "url": "https://collections.vam.ac.uk/item/O80590/"
-    },
-    {
-      "source_id": "SRC-0142",
-      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     }
   ],
   "missing_urls": [],

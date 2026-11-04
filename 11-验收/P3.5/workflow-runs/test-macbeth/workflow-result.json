@@ -100,6 +100,8 @@
       "id": "S1",
       "body": "Thunder and lightning. Enter three Witches.\nFIRST WITCH. When shall we three meet again?\nIn thunder, lightning, or in rain?\nSECOND WITCH. When the hurlyburly's done,\nWhen the battle's lost and won.\nTHIRD WITCH. That will be ere the set of sun.\nALL. Fair is foul, and foul is fair:\nHover through the fog and filthy air.\n",
       "preamble": "MACBETH (public-domain excerpt from William Shakespeare's Macbeth)\n",
+      "act_number": 1,
+      "scene_number": 1,
       "environment": {
         "weather": [
           "rain",
@@ -143,6 +145,8 @@
       "id": "S2",
       "body": "Thunder. Enter the three Witches.\nFIRST WITCH. Where hast thou been, sister?\nSECOND WITCH. Killing swine.\nTHIRD WITCH. Sister, where thou?\nMACBETH. So foul and fair a day I have not seen.\nBANQUO. How far is't called to Forres?\nMACBETH. Speak, if you can: what are you?\nFIRST WITCH. All hail, Macbeth! hail to thee, thane of Glamis!\nBANQUO. Good sir, why do you start; and seem to fear\nThings that do sound so fair?\n",
       "preamble": "",
+      "act_number": 1,
+      "scene_number": 2,
       "environment": {
         "weather": [
           "storm"
@@ -193,6 +197,8 @@
       "id": "S3",
       "body": "Enter MACBETH, alone, with a dagger.\nMACBETH. Is this a dagger which I see before me,\nThe handle toward my hand? Come, let me clutch thee.\nI see thee still, and on thy blade and dudgeon gouts of blood,\nWhich was not so before. There's no such thing.",
       "preamble": "",
+      "act_number": 1,
+      "scene_number": 3,
       "environment": {
         "weather": [],
         "time": [
@@ -380,6 +386,10 @@
     {
       "id": "rise",
       "label": "thane / prophecy (heath)",
+      "refs": [
+        "S1",
+        "S2"
+      ],
       "scenes": [
         "S1",
         "S2"
@@ -388,15 +398,42 @@
     {
       "id": "fall",
       "label": "tyrant / dagger (castle)",
+      "refs": [
+        "S3"
+      ],
       "scenes": [
         "S3"
       ]
     }
   ],
+  "stage_mapping": {
+    "rise": {
+      "refs": [
+        "S1",
+        "S2"
+      ],
+      "scenes": [
+        "S1",
+        "S2"
+      ]
+    },
+    "fall": {
+      "refs": [
+        "S3"
+      ],
+      "scenes": [
+        "S3"
+      ]
+    }
+  },
   "stages": [
     {
       "id": "rise",
       "label": "thane / prophecy (heath)",
+      "refs": [
+        "S1",
+        "S2"
+      ],
       "scenes": [
         "S1",
         "S2"
@@ -405,6 +442,9 @@
     {
       "id": "fall",
       "label": "tyrant / dagger (castle)",
+      "refs": [
+        "S3"
+      ],
       "scenes": [
         "S3"
       ]

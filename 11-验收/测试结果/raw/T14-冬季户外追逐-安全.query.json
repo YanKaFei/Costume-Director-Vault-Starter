@@ -1,5 +1,18 @@
 [
   {
+    "id": "GAR-0081",
+    "path": "01-服装单品/足部/GAR-0081-皮靴.md",
+    "name_zh": "皮靴",
+    "name_en": "leather boots",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0489"
+    ],
+    "snippet": "# 皮靴 / leather boots ## 定义 皮靴是中世纪欧洲的实用鞋履：皮革鞋底+鞋面、圆头、toggle/系带固定；考古出土实例多见踝靴。本卡为欧洲中世纪 analogue，不是…",
+    "score": 8.4
+  },
+  {
     "id": "GAR-0022",
     "path": "01-服装单品/足部/GAR-0022-威灵顿靴.md",
     "name_zh": "威灵顿靴",
@@ -11,6 +24,20 @@
     ],
     "snippet": "…设定）。 ## 提示词短语 - 生图片段：`calf-length wellington boots, water-repellent leather, seam at the ankle, boot pulls at the top, oak-ta…",
     "score": 4.2
+  },
+  {
+    "id": "GAR-0077",
+    "path": "01-服装单品/下装/GAR-0077-紧身长袜.md",
+    "name_zh": "紧身长袜",
+    "name_en": "hose",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0484",
+      "SRC-0485"
+    ],
+    "snippet": "…rge boot tops, worn with doublet and leather boots` - 中文造型说明：早期近代 hose：蓬起 slashed trunk hose 配丝长袜；或蓝白针织 boot hose 大靴口，配 doubl…",
+    "score": 3.15
   },
   {
     "id": "GAR-0057",

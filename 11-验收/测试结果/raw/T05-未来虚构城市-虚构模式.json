@@ -30,6 +30,279 @@
     {
       "look_ref": "A",
       "source_look_id": null,
+      "total": 48.0,
+      "scores": {
+        "period": 23.0,
+        "identity": 2.6,
+        "environment": 3.0,
+        "art": 3.3,
+        "movement": 7.4,
+        "arc": 4.0,
+        "camera": 6.7
+      },
+      "missing": [],
+      "cost": 0.286,
+      "cost_total": 1.143,
+      "contains_example": false,
+      "evidence_tier": "unknown",
+      "period_tiers": {
+        "upper_body": "none",
+        "lower_body": "unknown",
+        "outerwear": "none",
+        "footwear": "none"
+      },
+      "region_tiers": {
+        "upper_body": "unknown",
+        "lower_body": "unknown",
+        "outerwear": "unknown",
+        "footwear": "unknown"
+      },
+      "colors": [
+        "beige",
+        "black",
+        "blue",
+        "brown",
+        "khaki",
+        "lavender",
+        "multicolor",
+        "oyster",
+        "solid color",
+        "white"
+      ],
+      "style_tags": [
+        "afrocentric",
+        "analogue",
+        "black",
+        "black pride",
+        "burberry",
+        "classic",
+        "counterculture",
+        "country",
+        "early",
+        "early modern",
+        "gabardine",
+        "military",
+        "modern",
+        "pride"
+      ],
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 2,
+        "a_c": 3,
+        "b_c": 3
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve courier; the low economic register shows through material and finish; formality runs from casual / formal / smart_casual / smart_casual; the beige, black, blue palette controls the emotional temperature; against the arc (discovering the city's hidden order) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "upper_body",
+          "id": "GAR-0006",
+          "name_zh": "达希基套衫",
+          "name_en": "dashiki",
+          "colors": [
+            "multicolor",
+            "solid_color"
+          ],
+          "materials": [
+            "cotton",
+            "printed_cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0107"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.19800000000000004,
+            "environment": 0.175,
+            "art": 0.1760869565217391,
+            "movement": 0.9,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "lower_body",
+          "id": "GAR-0077",
+          "name_zh": "紧身长袜",
+          "name_en": "hose",
+          "colors": [
+            "oyster",
+            "blue",
+            "white"
+          ],
+          "materials": [
+            "silk",
+            "wool",
+            "linen",
+            "baleen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0484",
+            "SRC-0485"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.068090625,
+            "environment": 0.175,
+            "art": 0.2385869565217391,
+            "movement": 0.8,
+            "arc": 0.4583333333333333,
+            "camera": 0.69
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
+          "colors": [
+            "khaki",
+            "beige",
+            "lavender"
+          ],
+          "materials": [
+            "gabardine",
+            "cotton",
+            "lace"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.19800000000000004,
+            "environment": 0.275,
+            "art": 0.1760869565217391,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.210375,
+            "environment": 0.175,
+            "art": 0.2907608695652174,
+            "movement": 0.8,
+            "arc": 0.4583333333333333,
+            "camera": 0.69
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "upper_body"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "lower_body"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Nara, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 动作可行 7.4/10",
+        "上装: GAR-0006 达希基套衫 (casual)",
+        "下装: GAR-0077 紧身长袜 (formal)",
+        "外层: GAR-0045 风衣 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0006, GAR-0077, GAR-0045, GAR-0022: cards document their own regions, not fictional city",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0107",
+          "SRC-0484",
+          "SRC-0485",
+          "SRC-0405",
+          "SRC-0123",
+          "SRC-0102",
+          "SRC-0142",
+          "SRC-0141"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0107",
+            "url": "https://fashionhistory.fitnyc.edu/dashiki/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0485",
+            "url": "https://collections.vam.ac.uk/item/O107795/"
+          },
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0006": "verified",
+          "GAR-0077": "verified",
+          "GAR-0045": "verified",
+          "GAR-0022": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
       "total": 47.9,
       "scores": {
         "period": 23.0,
@@ -85,13 +358,9 @@
         "working class",
         "youth"
       ],
-      "budget_mode": "cheaper",
-      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
-      "differences": {
-        "a_b": 3,
-        "a_c": 3,
-        "b_c": 2
-      },
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve courier; the low economic register shows through material and finish; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (discovering the city's hidden order) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
@@ -292,84 +561,79 @@
       }
     },
     {
-      "look_ref": "B",
+      "look_ref": "C",
       "source_look_id": null,
-      "total": 46.3,
+      "total": 46.5,
       "scores": {
         "period": 23.0,
-        "identity": 2.2,
+        "identity": 3.1,
         "environment": 3.1,
-        "art": 3.5,
-        "movement": 5.9,
+        "art": 3.3,
+        "movement": 5.5,
         "arc": 3.8,
-        "camera": 6.8
+        "camera": 6.6
       },
       "missing": [],
-      "cost": 0.299,
-      "cost_total": 0.897,
+      "cost": 0.25,
+      "cost_total": 0.75,
       "contains_example": false,
       "evidence_tier": "none",
       "period_tiers": {
-        "set": "none",
+        "one_piece": "none",
         "outerwear": "none",
         "footwear": "none"
       },
       "region_tiers": {
-        "set": "unknown",
+        "one_piece": "unknown",
         "outerwear": "unknown",
         "footwear": "unknown"
       },
       "colors": [
         "beige",
         "black",
-        "blue",
         "brown",
-        "indigo",
         "khaki",
         "lavender",
-        "white"
+        "linen",
+        "wool"
       ],
       "style_tags": [
-        "african",
+        "analogue",
         "burberry",
         "classic",
         "country",
         "gabardine",
-        "military",
-        "west",
-        "west african"
+        "medieval",
+        "military"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve courier; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual / smart_casual; the beige, black, blue palette controls the emotional temperature; against the arc (discovering the city's hidden order) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve courier; the low economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (discovering the city's hidden order) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
-          "slot": "set",
-          "id": "GAR-0005",
-          "name_zh": "布布长袍",
-          "name_en": "boubou",
+          "slot": "one_piece",
+          "id": "GAR-0079",
+          "name_zh": "基尔特长袍",
+          "name_en": "kirtle",
           "colors": [
-            "indigo",
-            "white",
-            "blue"
+            "wool",
+            "linen"
           ],
           "materials": [
-            "cotton",
-            "indigo_dyed_cotton"
+            "wool",
+            "linen"
           ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0106"
-          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
           "scores": {
             "period": 0.92,
-            "identity": 0.047334375000000005,
+            "identity": 0.21937500000000001,
             "environment": 0.175,
-            "art": 0.2385869565217391,
-            "movement": 0.5,
+            "art": 0.20217391304347826,
+            "movement": 0.4,
             "arc": 0.35,
-            "camera": 0.69
+            "camera": 0.65
           }
         },
         {
@@ -433,230 +697,6 @@
       "materials": [
         {
           "id": "MAT-0001",
-          "slot": "set"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "set"
-        },
-        {
-          "id": "MAT-0002",
-          "slot": "outerwear"
-        }
-      ],
-      "prompt_image": "full-body character design of an adult Nara, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
-      "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.8/10",
-        "成套: GAR-0005 布布长袍 (ceremonial)",
-        "外层: GAR-0045 风衣 (smart_casual)",
-        "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
-      ],
-      "risks": [
-        "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0005, GAR-0045, GAR-0022: cards document their own regions, not fictional city",
-        "character psychology is a directorial interpretation, not a clothing-history fact",
-        "all images remain external links; no third-party images are embedded in the vault"
-      ],
-      "evidence": {
-        "source_ids": [
-          "SRC-0106",
-          "SRC-0405",
-          "SRC-0123",
-          "SRC-0102",
-          "SRC-0142",
-          "SRC-0141"
-        ],
-        "source_urls": [
-          {
-            "source_id": "SRC-0106",
-            "url": "https://fashionhistory.fitnyc.edu/boubou/"
-          },
-          {
-            "source_id": "SRC-0405",
-            "url": "https://collections.vam.ac.uk/item/O1295635/"
-          },
-          {
-            "source_id": "SRC-0123",
-            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
-          },
-          {
-            "source_id": "SRC-0102",
-            "url": "https://fashionhistory.fitnyc.edu/muslin/"
-          },
-          {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
-          },
-          {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          }
-        ],
-        "context_style_ids": [
-          "STY-0009"
-        ],
-        "context_period_ids": [],
-        "context_scene_ids": [],
-        "item_evidence": {
-          "GAR-0005": "verified",
-          "GAR-0045": "verified",
-          "GAR-0022": "verified"
-        },
-        "missing_urls": []
-      }
-    },
-    {
-      "look_ref": "C",
-      "source_look_id": null,
-      "total": 42.5,
-      "scores": {
-        "period": 16.5,
-        "identity": 3.1,
-        "environment": 3.1,
-        "art": 3.8,
-        "movement": 7.3,
-        "arc": 3.8,
-        "camera": 6.8
-      },
-      "missing": [],
-      "cost": 0.218,
-      "cost_total": 0.655,
-      "contains_example": false,
-      "evidence_tier": "none",
-      "period_tiers": {
-        "one_piece": "none",
-        "outerwear": "none",
-        "footwear": "none"
-      },
-      "region_tiers": {
-        "one_piece": "unknown",
-        "outerwear": "unknown",
-        "footwear": "unknown"
-      },
-      "colors": [
-        "beige",
-        "black",
-        "brown",
-        "khaki",
-        "lavender",
-        "magenta",
-        "orange",
-        "pink",
-        "white"
-      ],
-      "style_tags": [
-        "1960s",
-        "burberry",
-        "classic",
-        "country",
-        "gabardine",
-        "military",
-        "mod",
-        "psychedelic"
-      ],
-      "budget_mode": null,
-      "budget_explanation": null,
-      "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve courier; the low economic register shows through material and finish; formality runs from casual / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (discovering the city's hidden order) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
-      "items": [
-        {
-          "slot": "one_piece",
-          "id": "GAR-0056",
-          "name_zh": "1960 年代迷你裙",
-          "name_en": "1960s mini-dress",
-          "colors": [
-            "white",
-            "orange",
-            "pink",
-            "magenta"
-          ],
-          "materials": [
-            "printed_polyester"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0416"
-          ],
-          "scores": {
-            "period": 0.21825000000000003,
-            "identity": 0.210375,
-            "environment": 0.175,
-            "art": 0.3010869565217391,
-            "movement": 0.9,
-            "arc": 0.35,
-            "camera": 0.69
-          }
-        },
-        {
-          "slot": "outerwear",
-          "id": "GAR-0045",
-          "name_zh": "风衣",
-          "name_en": "trench coat",
-          "colors": [
-            "khaki",
-            "beige",
-            "lavender"
-          ],
-          "materials": [
-            "gabardine",
-            "cotton",
-            "lace"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0405"
-          ],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.19800000000000004,
-            "environment": 0.275,
-            "art": 0.1760869565217391,
-            "movement": 0.5,
-            "arc": 0.35,
-            "camera": 0.65
-          }
-        },
-        {
-          "slot": "footwear",
-          "id": "GAR-0022",
-          "name_zh": "威灵顿靴",
-          "name_en": "wellington boot",
-          "colors": [
-            "black",
-            "brown"
-          ],
-          "materials": [
-            "leather",
-            "rubber"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0123"
-          ],
-          "scores": {
-            "period": 0.92,
-            "identity": 0.210375,
-            "environment": 0.175,
-            "art": 0.2907608695652174,
-            "movement": 0.8,
-            "arc": 0.4583333333333333,
-            "camera": 0.69
-          }
-        }
-      ],
-      "parts": [
-        {
-          "id": "STR-0003",
-          "slot": "one_piece",
-          "confidence": "explicit"
-        }
-      ],
-      "materials": [
-        {
-          "id": "MAT-0001",
           "slot": "outerwear"
         },
         {
@@ -664,37 +704,30 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Nara, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, magenta, orange, pink, white, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 超短裙摆限制坐姿与跨步; 泡泡袖/荷叶边在动作中翻动。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+      "prompt_image": "full-body character design of an adult Nara, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 16.5/25, 动作可行 7.3/10",
-        "连身: GAR-0056 1960 年代迷你裙 (casual)",
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.6/10",
+        "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0003",
         "linked material cards: MAT-0001, MAT-0002"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
-        "region mismatch in GAR-0056, GAR-0045, GAR-0022: cards document their own regions, not fictional city",
+        "region mismatch in GAR-0079, GAR-0045, GAR-0022: cards document their own regions, not fictional city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0416",
           "SRC-0405",
           "SRC-0123",
-          "SRC-0133",
           "SRC-0102",
           "SRC-0141"
         ],
         "source_urls": [
-          {
-            "source_id": "SRC-0416",
-            "url": "https://collections.vam.ac.uk/item/O130915/"
-          },
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
@@ -702,10 +735,6 @@
           {
             "source_id": "SRC-0123",
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
-          },
-          {
-            "source_id": "SRC-0133",
-            "url": "https://fashionhistory.fitnyc.edu/ruff/"
           },
           {
             "source_id": "SRC-0102",
@@ -722,7 +751,7 @@
         "context_period_ids": [],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0056": "verified",
+          "GAR-0079": "interpretive",
           "GAR-0045": "verified",
           "GAR-0022": "verified"
         },
@@ -760,14 +789,13 @@
     {
       "code": "period_approximate",
       "severity": "medium",
-      "message": "period evidence is approximate/none for GAR-0005, GAR-0006, GAR-0014, GAR-0022, GAR-0045, GAR-0056 (requested future_fictional); treat these as era-level hypotheses, not exact period matches",
+      "message": "period evidence is approximate/none for GAR-0006, GAR-0014, GAR-0022, GAR-0045, GAR-0079 (requested future_fictional); treat these as era-level hypotheses, not exact period matches",
       "items": [
-        "GAR-0005",
         "GAR-0006",
         "GAR-0014",
         "GAR-0022",
         "GAR-0045",
-        "GAR-0056"
+        "GAR-0079"
       ],
       "look": null
     },
@@ -788,12 +816,12 @@
   ],
   "budget_model": {
     "mode": "cheaper",
-    "a_cost_total": 0.965,
-    "c_cost_total": 0.655,
+    "a_cost_total": 1.143,
+    "c_cost_total": 0.75,
     "differences": {
-      "a_b": 3,
+      "a_b": 2,
       "a_c": 3,
-      "b_c": 2
+      "b_c": 3
     }
   },
   "retrieved_ids": {
@@ -807,6 +835,7 @@
       "GAR-0003"
     ],
     "lower_body": [
+      "GAR-0077",
       "GAR-0014",
       "GAR-0010",
       "GAR-0072",
@@ -820,6 +849,7 @@
       "GAR-0030"
     ],
     "inner_layer": [
+      "GAR-0078",
       "GAR-0020",
       "GAR-0012"
     ],
@@ -827,6 +857,7 @@
       "GAR-0045"
     ],
     "accessory": [
+      "GAR-0080",
       "GAR-0070",
       "GAR-0021",
       "GAR-0074",
@@ -840,6 +871,7 @@
       "GAR-0066"
     ],
     "carried_prop": [
+      "GAR-0082",
       "GAR-0048",
       "GAR-0047",
       "GAR-0049"
@@ -849,9 +881,11 @@
       "GAR-0023",
       "GAR-0058",
       "GAR-0035",
-      "GAR-0060"
+      "GAR-0060",
+      "GAR-0081"
     ],
     "one_piece": [
+      "GAR-0079",
       "GAR-0063",
       "GAR-0069",
       "GAR-0064",
@@ -865,6 +899,7 @@
       "GAR-0004",
       "GAR-0009",
       "GAR-0032",
+      "GAR-0075",
       "GAR-0053",
       "GAR-0015",
       "GAR-0054",
@@ -916,6 +951,13 @@
     },
     {
       "id": "GAR-0046",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0076",
       "slot": "outerwear",
       "reasons": [
         "rain: suede/silk outer layer unsuitable"
@@ -987,7 +1029,7 @@
   ],
   "warnings": [
     "no reliable period/region context card after period/region normalization (requested: future_fictional / fictional city)",
-    "period evidence is approximate/none for GAR-0005, GAR-0006, GAR-0014, GAR-0022, GAR-0045, GAR-0056 (requested future_fictional); treat these as era-level hypotheses, not exact period matches",
+    "period evidence is approximate/none for GAR-0006, GAR-0014, GAR-0022, GAR-0045, GAR-0079 (requested future_fictional); treat these as era-level hypotheses, not exact period matches",
     "the vault has no 'courier'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
     "fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins"
   ],
@@ -997,8 +1039,12 @@
       "url": "https://fashionhistory.fitnyc.edu/dashiki/"
     },
     {
-      "source_id": "SRC-0115",
-      "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0485",
+      "url": "https://collections.vam.ac.uk/item/O107795/"
     },
     {
       "source_id": "SRC-0405",
@@ -1021,16 +1067,8 @@
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
-      "source_id": "SRC-0106",
-      "url": "https://fashionhistory.fitnyc.edu/boubou/"
-    },
-    {
-      "source_id": "SRC-0416",
-      "url": "https://collections.vam.ac.uk/item/O130915/"
-    },
-    {
-      "source_id": "SRC-0133",
-      "url": "https://fashionhistory.fitnyc.edu/ruff/"
+      "source_id": "SRC-0115",
+      "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
     }
   ],
   "missing_urls": [],
@@ -1054,6 +1092,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": true,
     "warnings_count": 4,
-    "rejected_count": 16
+    "rejected_count": 17
   }
 }

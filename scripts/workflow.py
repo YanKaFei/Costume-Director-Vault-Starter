@@ -94,6 +94,27 @@ def english_only(text):
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
+def roman_to_int(value):
+    if value is None:
+        return None
+    text = str(value).strip().upper()
+    if text.isdigit():
+        return int(text)
+    numerals = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+    if not text or any(char not in numerals for char in text):
+        return None
+    total = 0
+    previous = 0
+    for char in reversed(text):
+        current = numerals[char]
+        if current < previous:
+            total -= current
+        else:
+            total += current
+            previous = current
+    return total
+
+
 def write_text(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text + ("\n" if text and not text.endswith("\n") else ""),
@@ -206,6 +227,10 @@ def split_scenes(text):
         scene["id"] = "S%d" % index
         scene["body"] = "\n".join(scene.pop("lines"))
         scene["preamble"] = "\n".join(preamble) if index == 1 else ""
+        act_match = re.search(r"ACT\s+([IVXLC0-9]+)", scene["title"], re.IGNORECASE)
+        scene_match = re.search(r"SCENE\s+([IVXLC0-9]+)", scene["title"], re.IGNORECASE)
+        scene["act_number"] = roman_to_int(act_match.group(1)) if act_match else None
+        scene["scene_number"] = roman_to_int(scene_match.group(1)) if scene_match else None
     return scenes
 
 
@@ -392,6 +417,36 @@ def build_characters(scenes, meta):
     return characters, warnings
 
 
+def resolve_scene_ref(ref, scenes):
+    """Resolve a meta stage scene reference to a parsed S-id.
+
+    Supported forms (S-id compatibility first):
+      S1, s1, S01
+      1-3, 1.3, 1/3, 1_3          (act-scene)
+      Act 1 Scene 3, act I scene iii, 1 scene 3
+    """
+    ref = str(ref or "").strip()
+    if not ref:
+        return None
+    sid_match = re.fullmatch(r"[Ss]0*(\d+)", ref)
+    if sid_match:
+        sid = "S%d" % int(sid_match.group(1))
+        return sid if any(scene["id"] == sid for scene in scenes) else None
+    match = re.match(
+        r"^\s*(?:act\s*)?([0-9]+|[ivxlcdm]+)\s*[,.;:/_ -]*\s*"
+        r"(?:scene\s*)?([0-9]+|[ivxlcdm]+)\s*$", ref, re.IGNORECASE)
+    if not match:
+        return None
+    act = roman_to_int(match.group(1))
+    scene_no = roman_to_int(match.group(2))
+    if act is None or scene_no is None:
+        return None
+    for scene in scenes:
+        if scene.get("act_number") == act and scene.get("scene_number") == scene_no:
+            return scene["id"]
+    return None
+
+
 def build_stages(scenes, meta):
     raw = meta.get("stages")
     stage_list = []
@@ -399,27 +454,44 @@ def build_stages(scenes, meta):
         for index, item in enumerate(raw, 1):
             if isinstance(item, str):
                 stage_list.append({"id": "stage-%d" % index, "label": item,
-                                   "scenes": []})
+                                   "refs": [], "scenes": []})
             elif isinstance(item, dict):
                 stage_list.append({
                     "id": s(item.get("id"), "stage-%d" % index),
                     "label": s(item.get("label") or item.get("name"), "stage %d" % index),
-                    "scenes": [s(x) for x in as_list(item.get("scenes")) if x],
+                    "refs": [str(x) for x in as_list(item.get("scenes")) if x],
+                    "scenes": [],
                 })
     if not stage_list:
         stage_list = [{"id": "whole", "label": "whole excerpt",
+                       "refs": [scene["id"] for scene in scenes],
                        "scenes": [scene["id"] for scene in scenes]}]
     scene_ids = [scene["id"] for scene in scenes]
+    mapping = {}
+    warnings = []
     assigned = set()
     for stage in stage_list:
-        valid = [sid for sid in stage["scenes"] if sid in scene_ids]
-        stage["scenes"] = valid
-        assigned.update(valid)
+        resolved = []
+        for ref in stage["refs"]:
+            sid = resolve_scene_ref(ref, scenes)
+            if sid:
+                if sid not in resolved:
+                    resolved.append(sid)
+            else:
+                warnings.append("stage %r scene ref %r could not be mapped to a parsed "
+                                "S-id; supported forms are S1 or act-scene (1-3)" %
+                                (stage["id"], ref))
+        stage["scenes"] = resolved
+        mapping[stage["id"]] = {"refs": stage["refs"], "scenes": resolved}
+        assigned.update(resolved)
     unassigned = [sid for sid in scene_ids if sid not in assigned]
     if unassigned:
         stage_list.append({"id": "unassigned", "label": "unassigned scenes",
-                           "scenes": unassigned})
-    return stage_list
+                           "refs": unassigned, "scenes": unassigned})
+        mapping["unassigned"] = {"refs": unassigned, "scenes": unassigned}
+        warnings.append("scenes %s are not referenced by any meta stage; they were "
+                        "placed in an explicit 'unassigned' stage" % ", ".join(unassigned))
+    return stage_list, mapping, warnings
 
 
 def stage_for_scene(stage_list, scene_id):
@@ -1026,7 +1098,7 @@ def run_workflow(script_path, meta_path, out_dir):
     if not characters:
         return {
             "title": s(meta.get("title"), script_file.stem),
-            "meta": meta, "stage_list": [], "retrieval": {},
+            "meta": meta, "stage_list": [], "stage_mapping": {}, "retrieval": {},
             "recommendations": {}, "evidence": {"notes": [], "checks": {},
                                                 "source_ids": []},
             "continuity": {"plan": {}, "issues": []},
@@ -1038,11 +1110,11 @@ def run_workflow(script_path, meta_path, out_dir):
             "warnings": character_warnings + ["no characters detected in script/meta"],
             "unknowns": ["characters"], "checks": {"characters": False},
         }
-    stage_list = build_stages(scenes, meta)
+    stage_list, stage_mapping, stage_warnings = build_stages(scenes, meta)
     by_id, sources = card_inventory()
     recommendations = {}
     retrieval = {}
-    warnings = list(character_warnings)
+    warnings = list(character_warnings) + stage_warnings
     design_conflicts = []
     unknowns = []
     for character in characters:
@@ -1145,6 +1217,7 @@ def run_workflow(script_path, meta_path, out_dir):
         "needs": {character["name"]: character_needs(character, scenes, stage_list, meta)
                   for character in characters},
         "stage_list": stage_list,
+        "stage_mapping": stage_mapping,
         "stages": stage_list,
         "recommendations": recommendations,
         "retrieval": retrieval,
@@ -1229,6 +1302,15 @@ def main(argv=None):
         DEFAULT_OUT_ROOT / slug(script_path.stem))
     if not out_dir.is_absolute():
         out_dir = ROOT / out_dir
+    out_dir = out_dir.expanduser()
+    # D3: never write outside the vault.  This is checked before any KB call
+    # or directory creation, so a rejected --out leaves no partial files.
+    try:
+        out_dir.resolve().relative_to(ROOT.resolve())
+    except ValueError:
+        print("ERROR: --out must be inside the vault (%s); refusing to write "
+              "outside. No files were created." % ROOT, file=sys.stderr)
+        return 2
     try:
         result = run_workflow(args.script, args.meta, out_dir)
     except FileNotFoundError as exc:

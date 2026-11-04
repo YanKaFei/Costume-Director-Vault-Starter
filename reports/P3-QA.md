@@ -127,3 +127,17 @@ python3 scripts/quality_eval_audit.py --quick
 ```
 - 原始证据：`/tmp/p33_query.json`、`/tmp/p33cases/`、`/tmp/p33_acc.log`、`/tmp/p33_qeval.txt`、`/tmp/ev33/results.tsv`（11 URL）。
 - 版本：v1.4（2026-11-04，verifier/task-22，P3.3 最终复验）。
+
+
+---
+
+## 10. P3.5 最终验证补记（2026-11-04 14:00，task-28）
+
+- 快照 363 卡（内容 166 + 来源 197）；HEAD `04778f8`。
+- `validate.py` PASS（363/363）；`run_acceptance.py` **45/45 PASS**；`tests/test_workflow.py` **8/8 PASS**；
+  **`build_sources.py --check` FAIL：缺 12 行 SRC-0480..SRC-0491**；**`quality_eval` OVERALL FAIL，仅 `sources_csv_sync=0` FAIL**（其余 16 项 PASS：relevant@5 4.16、precision 0.945、0-hit 0、evidence_coverage 0.868……）。
+- workflow：fixture Macbeth 通过（scenes=3、stages rise/fall、IDs 真实、exit 0）；真实案例 meta `"1-3"` 引用导致 stage 全 unassigned（D2，S-id 修正后分配正确）；案例 workflow-run 为旧产物。
+- LOOK 修复 7 张（非 9）：LOOK-0011/0013/0016/0017/0018/0021/0022；URL 抽验 26/26 200；DRAFT-REVIEW 更新 45/17；未改卡片。
+- Macbeth 案例：18 套 × 2 角色 × 3 阶段 × A/B/C；50 ID 0 缺失；EVIDENCE 18 行 + 8 缺口；HUMAN-SCORE 18 行全空；6 组 SRC 抽样 200。
+- **发布门禁：PRIVATE-READY = YES（条件修 D1）；PUBLIC-READY = NO（BLOCKED）**；HUMAN_UAT_PENDING 4 项不变。
+- 详细报告：`reports/P3.5-REPORT.md`；门禁：`reports/RELEASE-GATE.md`。

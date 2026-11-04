@@ -91,6 +91,20 @@ class WorkflowRegression(unittest.TestCase):
             self.assertEqual(proc.returncode, 2)
         finally:
             bad_meta.unlink(missing_ok=True)
+        # exit 2: --out outside the vault is rejected before any write (D3)
+        outside = Path("/tmp") / ("costume-workflow-outside-%d" % os.getpid())
+        if outside.exists():
+            import shutil
+            shutil.rmtree(outside)
+        try:
+            proc, _, _ = run_workflow("macbeth", out=outside)
+            self.assertEqual(proc.returncode, 2)
+            self.assertIn("inside the vault", proc.stderr)
+            self.assertFalse(outside.exists(), "workflow wrote outside the vault")
+        finally:
+            if outside.exists():
+                import shutil
+                shutil.rmtree(outside)
         # exit 3: no characters anywhere
         proc, result, _ = run_workflow("no_characters",
                                        out=RUN_DIR / "test-no-characters")
@@ -214,6 +228,32 @@ class WorkflowRegression(unittest.TestCase):
                             self.assertGreater(len(prompt.split()), 8)
 
     # ------------------------------------------------------------------
+    def test_act_scene_stage_mapping(self):
+        PROC, result, out = run_workflow(
+            "macbeth_actscene", out=RUN_DIR / "test-macbeth-actscene")
+        self.assertIn(PROC.returncode, (0, 3))
+        self.assertEqual([scene["id"] for scene in result["scenes"]],
+                         ["S1", "S2", "S3", "S4"])
+        self.assertEqual([(scene["act_number"], scene["scene_number"])
+                          for scene in result["scenes"]],
+                         [(1, 3), (1, 5), (2, 2), (5, 1)])
+        mapping = {stage["id"]: stage["scenes"] for stage in result["stage_list"]}
+        self.assertEqual(mapping.get("M1"), ["S1"])
+        self.assertEqual(mapping.get("M2"), ["S3"])
+        self.assertEqual(mapping.get("L1"), ["S2"])
+        self.assertEqual(mapping.get("L3"), ["S4"])
+        self.assertNotIn("unassigned", mapping)
+        self.assertEqual(result["stage_mapping"]["M1"]["refs"], ["1-3"])
+        self.assertEqual(result["stage_mapping"]["M2"]["refs"], ["2-2"])
+        # S-id compatibility + direct resolver forms
+        parsed = workflow.split_scenes(
+            (ROOT / "tests/fixtures/macbeth_actscene.txt").read_text(encoding="utf-8"))
+        self.assertEqual(workflow.resolve_scene_ref("S1", parsed), "S1")
+        self.assertEqual(workflow.resolve_scene_ref("1-3", parsed), "S1")
+        self.assertEqual(workflow.resolve_scene_ref("2.2", parsed), "S3")
+        self.assertEqual(workflow.resolve_scene_ref("Act 5 Scene 1", parsed), "S4")
+        self.assertIsNone(workflow.resolve_scene_ref("9-9", parsed))
+
     def test_macbeth_public_domain_and_english_prompt(self):
         result = self.runs["macbeth"]["result"]
         self.assertIn("Macbeth", result["title"])

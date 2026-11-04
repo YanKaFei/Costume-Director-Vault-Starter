@@ -19,6 +19,10 @@ python3 scripts/workflow.py \
 # 单场剧本 / 没有 scene heading 的片段也可以
 python3 scripts/workflow.py --script path/to/single-scene.txt --meta path/to/meta.json
 
+# --out 必须在 Vault 内；Vault 外路径会被安全拒绝（exit 2，不写任何文件）
+python3 scripts/workflow.py --script tests/fixtures/macbeth.txt \
+  --meta tests/fixtures/macbeth_meta.json --out /tmp/outside-dir   # exit 2
+
 # 只打印机器可读结果（文件仍会写入 --out）
 python3 scripts/workflow.py --script tests/fixtures/macbeth.txt \
   --meta tests/fixtures/macbeth_meta.json --json
@@ -32,7 +36,7 @@ python3 scripts/workflow.py --script tests/fixtures/macbeth.txt \
 | 退出码 | 含义 |
 | --- | --- |
 | `0` | 成功：解析到人物，并至少为一个人物/阶段生成可用 A/B/C 造型 |
-| `2` | 调用/输入错误：脚本文件不存在、脚本为空、meta JSON 非法/不是对象、未知文件不可读 |
+| `2` | 调用/输入错误：脚本文件不存在、脚本为空、meta JSON 非法/不是对象、未知文件不可读；`--out` 指向 Vault 外（安全拒绝，保证不写外部路径） |
 | `3` | 覆盖不足：未检测到人物，或所有人物/阶段都没有可用造型（知识库缺口）；仍会写结构化 partial 输出，`workflow-result.json` 里保留 warnings/unknowns |
 
 `3` 不是崩溃：它表示“真实调用完成，但库内没有足够的实体卡支撑造型”，此时不要伪造 ID，
@@ -47,6 +51,7 @@ python3 scripts/workflow.py --script tests/fixtures/macbeth.txt \
   `SCENE I. ...`、`INT./EXT.`、`第 N 场`、`内景/外景` 等 heading；
 - `ACT I` 单独一行时作为 act 上下文，不制造空 fragment 场景；下一行 `SCENE ...` 才是场景边界；
 - 没有 heading 时，整个文件作为单场；
+- 每个 scene 同时记录 `act_number`/`scene_number`，供 meta 的 act-scene 引用映射；
 - 场次 ID 固定为 `S1...Sn`，人物只从“实际出现的 speaker / 明确名字”提取，不虚构人物。
 
 ### `--meta`（可选 JSON）
@@ -74,7 +79,7 @@ python3 scripts/workflow.py --script tests/fixtures/macbeth.txt \
   ],
   "stages": [
     {"id": "rise", "label": "thane / prophecy", "scenes": ["S1", "S2"]},
-    {"id": "fall", "label": "tyrant / dagger", "scenes": ["S3"]}
+    {"id": "fall", "label": "tyrant / dagger", "scenes": ["1-3", "2-2"]}
   ],
   "scene_states": {
     "S1": {"wetness": "wet", "damage": "none", "dirt": "none"},
@@ -85,7 +90,13 @@ python3 scripts/workflow.py --script tests/fixtures/macbeth.txt \
 
 - 缺失字段保持 `unknown`，并在输出 `unknowns` 中列出；**不会自动补成具体时代/职业/地区**。
 - `characters` 可省略：script speaker 会被识别，但 occupation/class/arc 保持 `unknown`。
-- `stages` 可省略：整段作为一个 stage（`whole`）；若 stage 引用了不存在的 scene，会明确标记/归入 unassigned。
+- `stages` 可省略：整段作为一个 stage（`whole`）。`scenes` 引用同时接受：
+  - 解析后的 S-id（`S1`、`s2`、`S01`）；
+  - act-scene 形式（`1-3`、`1.3`、`1/3`、`Act 1 Scene 3`、`I-III`），
+    workflow 会依据 `ACT/SCENE` heading 解析结果映射到真实 S-id。
+  例：`1-3 → S1`、`2-2 → S3`、`1-5 → S2`、`5-1 → S4`（Macbeth 四场 case）。
+  无法映射的引用、未被任何 stage 引用的场景都会写入 warnings，并进入显式 `unassigned`
+  stage；不会静默丢失场景。
 - `scene_states` 是明确制作设定；未提供的 wetness/damage/dirt 保持 `unknown`，不推断“干净/脏”。
 - 关系、职业、时代、地域等只作为输入事实/假设，不会写进“事实”栏冒充剧本原文。
 
@@ -168,6 +179,21 @@ python3 scripts/workflow.py \
   无编造 ID。
 - `fact-evidence-inference.md` 明确分栏：script facts / real card+SRC evidence / inference；
   continuity 明确 S2 wet、S3 dry+damage present（来自 `scene_states`）。
+
+## 6b. Act-scene stage mapping（D2 验证）
+
+用真实 Macbeth excerpt + `workflow-meta` 的 act-scene 引用（`1-3`/`2-2`/`1-5`/`5-1`）重跑：
+
+| Stage | Meta refs | Parsed scene | Scene heading |
+| --- | --- | --- | --- |
+| M1 | `1-3` | `S1` | ACT I — SCENE III. A heath. |
+| M2 | `2-2` | `S3` | ACT II — SCENE II. The same. |
+| L1 | `1-5` | `S2` | ACT I — SCENE V. Inverness. A room in Macbeth's castle. |
+| L3 | `5-1` | `S4` | ACT V — SCENE I. Dunsinane. A room in the castle. |
+
+结果目录：`11-验收/P3.5/workflow-runs/macbeth-case-actscene/out/`
+（同时保留 `macbeth-case/` 的 S-id 兼容性运行；两种引用均映射到同一组 S1–S4，无 unassigned stage）。
+回归测试 `test_act_scene_stage_mapping` 和 `test_exit_codes_0_2_3_and_outputs` 覆盖 D2/D3。
 
 ## 7. 已知限制
 

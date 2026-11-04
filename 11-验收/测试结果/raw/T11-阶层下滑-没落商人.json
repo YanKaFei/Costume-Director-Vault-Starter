@@ -966,18 +966,21 @@
       "GAR-0010",
       "GAR-0011",
       "GAR-0014",
-      "GAR-0072"
+      "GAR-0072",
+      "GAR-0077"
     ],
     "set": [
       "GAR-0030"
     ],
     "inner_layer": [
       "GAR-0020",
-      "GAR-0012"
+      "GAR-0012",
+      "GAR-0078"
     ],
     "outerwear": [
       "GAR-0017",
       "GAR-0016",
+      "GAR-0076",
       "GAR-0018",
       "GAR-0045",
       "GAR-0033",
@@ -1126,10 +1129,24 @@
       ]
     },
     {
+      "id": "GAR-0082",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs late_middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0044",
       "slot": "footwear",
       "reasons": [
         "occupational mismatch: the look is for 'student then clerk'"
+      ]
+    },
+    {
+      "id": "GAR-0081",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs late_middle_ages)"
       ]
     },
     {
@@ -1212,6 +1229,20 @@
       ]
     },
     {
+      "id": "GAR-0075",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs late_antiquity, early_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0079",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs middle_ages, early_modern)"
+      ]
+    },
+    {
       "id": "GAR-0050",
       "slot": "accessory",
       "reasons": [
@@ -1237,6 +1268,13 @@
       "slot": "accessory",
       "reasons": [
         "region-specific card incompatible with united_states (china)"
+      ]
+    },
+    {
+      "id": "GAR-0080",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1890s vs early_middle_ages, early_modern)"
       ]
     }
   ],
@@ -1321,6 +1359,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 4,
-    "rejected_count": 31
+    "rejected_count": 36
   }
 }

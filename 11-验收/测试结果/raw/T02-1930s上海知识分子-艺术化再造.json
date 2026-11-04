@@ -986,6 +986,7 @@
       "GAR-0072",
       "GAR-0010",
       "GAR-0014",
+      "GAR-0077",
       "GAR-0011",
       "GAR-0013"
     ],
@@ -995,7 +996,8 @@
     ],
     "inner_layer": [
       "GAR-0012",
-      "GAR-0020"
+      "GAR-0020",
+      "GAR-0078"
     ],
     "outerwear": [
       "GAR-0045"
@@ -1006,6 +1008,7 @@
       "GAR-0068",
       "GAR-0021",
       "GAR-0028",
+      "GAR-0080",
       "GAR-0025",
       "GAR-0026",
       "GAR-0074",
@@ -1015,14 +1018,16 @@
     "carried_prop": [
       "GAR-0048",
       "GAR-0047",
-      "GAR-0049"
+      "GAR-0049",
+      "GAR-0082"
     ],
     "footwear": [
       "GAR-0035",
       "GAR-0060",
       "GAR-0058",
       "GAR-0022",
-      "GAR-0023"
+      "GAR-0023",
+      "GAR-0081"
     ],
     "one_piece": [
       "GAR-0031",
@@ -1036,6 +1041,8 @@
       "GAR-0056",
       "GAR-0015",
       "GAR-0029",
+      "GAR-0075",
+      "GAR-0079",
       "GAR-0052",
       "GAR-0054",
       "GAR-0062"
@@ -1100,6 +1107,13 @@
     },
     {
       "id": "GAR-0046",
+      "slot": "outerwear",
+      "reasons": [
+        "rain: suede/silk outer layer unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0076",
       "slot": "outerwear",
       "reasons": [
         "rain: suede/silk outer layer unsuitable"
@@ -1278,6 +1292,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": true,
     "warnings_count": 4,
-    "rejected_count": 22
+    "rejected_count": 23
   }
 }

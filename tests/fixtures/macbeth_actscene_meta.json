@@ -1,0 +1,21 @@
+{
+  "title": "Macbeth act-scene mapping fixture",
+  "period": "medieval",
+  "region": "europe",
+  "culture": "medieval Scottish court",
+  "art_direction": "stark medieval tragedy",
+  "lighting": "torchlight",
+  "weather": "storm",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "characters": [
+    {"name": "Macbeth", "occupation": "thane and general", "economic_status": "high", "arc": "loyal thane to tyrant"},
+    {"name": "Lady Macbeth", "occupation": "thane's wife", "economic_status": "high", "arc": "ambition, guilt, downfall"}
+  ],
+  "stages": [
+    {"id": "M1", "label": "Macbeth rise", "scenes": ["1-3"]},
+    {"id": "M2", "label": "Macbeth guilt", "scenes": ["2-2"]},
+    {"id": "L1", "label": "Lady Macbeth rise", "scenes": ["1-5"]},
+    {"id": "L3", "label": "Lady Macbeth downfall", "scenes": ["5-1"]}
+  ]
+}
