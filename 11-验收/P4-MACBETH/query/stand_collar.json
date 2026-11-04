@@ -1,0 +1,115 @@
+[
+  {
+    "id": "LOOK-0019",
+    "path": "09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md",
+    "name_zh": "伦敦美术馆晚宴上的中国云肩与旗袍（东亚跨文化）",
+    "name_en": "Chinese cloud collar and qipao at a London gallery gala (East Asian cross-cultural)",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0428",
+      "SRC-0205"
+    ],
+    "snippet": "…allery gala, mid-blue silk-damask qipao with stand collar and frog closures, detachable embroidered cloud collar over the sho…",
+    "score": 5.5
+  },
+  {
+    "id": "STR-0001",
+    "path": "02-结构细节/STR-0001-美第奇领.md",
+    "name_zh": "美第奇领",
+    "name_en": "Medici collar",
+    "type": "garment_part",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0101"
+    ],
+    "snippet": "…门支撑结构）；现代题材；不要与现代高领或衬衫立领混淆。 ## 提示词短语 - 生图片段：`standing lace medici collar, high at the back, low décolletage at the front, wir…",
+    "score": 5.5
+  },
+  {
+    "id": "GAR-0031",
+    "path": "01-服装单品/连身/GAR-0031-旗袍.md",
+    "name_zh": "旗袍",
+    "name_en": "qipao",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201"
+    ],
+    "snippet": "…实例为十枚（领口四枚）；1930 年代末实例另见侧缝隐形拉链与按扣。 - 立领：高而硬的 stand-up collar（上海实例），或小立领（1930 年代末实例）。 - 袖型从短袖（肘上）到长而紧的袖；里衬可用真丝斜纹、毛皮等，视季节与场合。 -…",
+    "score": 3.15
+  },
+  {
+    "id": "GAR-0032",
+    "path": "01-服装单品/连身/GAR-0032-长衫.md",
+    "name_zh": "长衫",
+    "name_en": "changshan",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0202"
+    ],
+    "snippet": "…h cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tigh…",
+    "score": 3.15
+  },
+  {
+    "id": "GAR-0076",
+    "path": "01-服装单品/外层/GAR-0076-斗篷与披风.md",
+    "name_zh": "斗篷与披风",
+    "name_en": "cloak and mantle",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0482",
+      "SRC-0483"
+    ],
+    "snippet": "…linen mantle with whitework and needlelace, standing collar, worn over doublet and hose or a gown` - 中文造型说明：早期近代斗篷/披肩：深红缎半圆男…",
+    "score": 3.15
+  },
+  {
+    "id": "LOOK-0003",
+    "path": "09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md",
+    "name_zh": "十六世纪欧洲宫廷男装",
+    "name_en": "16th-century European court menswear look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0101",
+      "SRC-0103"
+    ],
+    "snippet": "…an court gentleman, fitted silk doublet with standing collar and front lacing, leather jerkin with shoulder wings, codpiece,…",
+    "score": 3.0
+  },
+  {
+    "id": "LOOK-0008",
+    "path": "09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md",
+    "name_zh": "1930 年代上海长衫知识分子",
+    "name_en": "1930s Shanghai changshan intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0202",
+      "SRC-0203"
+    ],
+    "snippet": "…cream-white gauze-silk changshan with small stand collar and five silk frog closures, long tight sleeves, side slits, muted…",
+    "score": 3.0
+  },
+  {
+    "id": "LOOK-0009",
+    "path": "09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md",
+    "name_zh": "1930 年代上海旗袍女性知识分子",
+    "name_en": "1930s Shanghai qipao woman intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "…fitted qipao in mid-blue silk damask, small stand collar, two shou-shaped frog closures, long tight sleeves, side slits, bla…",
+    "score": 3.0
+  }
+]

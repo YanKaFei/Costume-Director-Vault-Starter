@@ -1,0 +1,99 @@
+[
+  {
+    "id": "GAR-0080",
+    "path": "01-服装单品/配饰/GAR-0080-腰带.md",
+    "name_zh": "腰带",
+    "name_en": "belt",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0487",
+      "SRC-0488"
+    ],
+    "snippet": "# 腰带 / belt ## 定义 腰带（belt/girdle）是中世纪—早期近代固定衣物、挂载工具/匕首/袋的核心配饰；带扣可极尽装饰。本卡为欧洲中世纪/早期近代 an…",
+    "score": 8.4
+  },
+  {
+    "id": "SRC-0050",
+    "path": "04-来源/SRC-0050-belt-for-a-lady-s-dress-c-1375-1400.md",
+    "name_zh": "克利夫兰艺术博物馆（API）：贵妇礼服腰带 c. 1375–1400",
+    "name_en": "Belt for a Lady's Dress, c. 1375–1400",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# 克利夫兰艺术博物馆（api）：贵妇礼服腰带 c. 1375–1400 **来源**：belt for a lady's dress **发布者**：cleveland museum of art **来源类型**：museum_collect…",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0487",
+    "path": "04-来源/SRC-0487-V&A-7世纪腰带扣.md",
+    "name_zh": "V&A：7 世纪 Merovingian 铁腰带扣",
+    "name_en": "V&A: Merovingian belt buckle, 7th century",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# SRC-0487 V&A：7 世纪 Merovingian 铁腰带扣 ## 定义 V&A 馆藏对象记录（对象页 + Collections API），含对象类型、年代、材质工艺与形制描述。 ## 结构要点 - 发布机构：Victoria and Albert Museum, London - 来",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0488",
+    "path": "04-来源/SRC-0488-V&A-1500-1600腰带扣.md",
+    "name_zh": "V&A：挪威 1500–1600 银鎏金腰带扣与带尾",
+    "name_en": "V&A: silver-gilt buckle and belt end, Norway, 1500–1600",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "…iligree 装饰、寓意人物；挪威 1500–1600；原属北欧婚带（marriage belt）；摘要：中世纪/文艺复兴式婚带在挪威传统服装中长期使用，19 世纪仍在用；元素常被误认为更早原型。 ## 不适用条件 不能支撑：该对象未载明的其他年…",
+    "score": 7.68
+  },
+  {
+    "id": "GAR-0066",
+    "path": "01-服装单品/配饰/GAR-0066-和服腰带.md",
+    "name_zh": "和服腰带",
+    "name_en": "obi",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0427"
+    ],
+    "snippet": "# 和服腰带 / obi ## 定义 和服腰带（obi）是固定和服、塑造轮廓的宽腰带，也是重要装饰面；V&A 藏 1930–45 年飞机飞越中国纹样腰带是核验实例。 ## 结构要点 - V&A 实例：平纹丝女性腰带，型染（kata-yūzen）与丝/金属线刺绣，图案为飞机飞越中国（长城、上海、南京、",
+    "score": 4.2
+  },
+  {
+    "id": "GAR-0040",
+    "path": "01-服装单品/外层/GAR-0040-军装外套.md",
+    "name_zh": "军装外套",
+    "name_en": "military coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0404"
+    ],
+    "snippet": "…ry wool coat, olive drab, double-breasted or belted, brass buttons, epaulettes, heavy winter service coat` - 中文造型说明：1941 年美军…",
+    "score": 3.15
+  },
+  {
+    "id": "GAR-0042",
+    "path": "01-服装单品/连身/GAR-0042-警察制服.md",
+    "name_zh": "警察制服",
+    "name_en": "police uniform",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [],
+    "snippet": "…and trousers, peaked cap, badge and number, belt with equipment, polished shoes, high-visibility variant` - 中文造型说明：深蓝警察制服，外…",
+    "score": 3.15
+  },
+  {
+    "id": "GAR-0045",
+    "path": "01-服装单品/外层/GAR-0045-风衣.md",
+    "name_zh": "风衣",
+    "name_en": "trench coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0405"
+    ],
+    "snippet": "…提示词短语 - 生图片段：`trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki…",
+    "score": 3.15
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "GAR-0066",
+    "path": "01-服装单品/配饰/GAR-0066-和服腰带.md",
+    "name_zh": "和服腰带",
+    "name_en": "obi",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0427"
+    ],
+    "snippet": "# 和服腰带 / obi ## 定义 和服腰带（obi）是固定和服、塑造轮廓的宽腰带，也是重要装饰面；v&a 藏 1930–45 年飞机飞越中国纹样腰带是核验实例…",
+    "score": 8.4
+  },
+  {
+    "id": "GAR-0080",
+    "path": "01-服装单品/配饰/GAR-0080-腰带.md",
+    "name_zh": "腰带",
+    "name_en": "belt",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0487",
+      "SRC-0488"
+    ],
+    "snippet": "# 腰带 / belt ## 定义 腰带（belt/girdle）是中世纪—早期近代固定衣物、挂载工具/匕首/袋的核心配饰；带扣可极尽装饰。本卡为欧洲中世纪/…",
+    "score": 8.4
+  },
+  {
+    "id": "SRC-0050",
+    "path": "04-来源/SRC-0050-belt-for-a-lady-s-dress-c-1375-1400.md",
+    "name_zh": "克利夫兰艺术博物馆（API）：贵妇礼服腰带 c. 1375–1400",
+    "name_en": "Belt for a Lady's Dress, c. 1375–1400",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# 克利夫兰艺术博物馆（api）：贵妇礼服腰带 c. 1375–1400 **来源**：belt for a lady's dress **发布者**：cleveland museum of ar…",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0427",
+    "path": "04-来源/SRC-0427-V&A-1930s腰带obi.md",
+    "name_zh": "V&A：1930–45 年日本宣传纹样腰带（obi）",
+    "name_en": "V&A: obi with planes over China, 1930–45",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0427 v&a：1930–45 年日本宣传纹样腰带（obi） ## 定义 v&a 馆藏对象记录（对象页 + collections api），含对象类型、年代、材质工艺与形制描述。 ## 结构要点 -…",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0487",
+    "path": "04-来源/SRC-0487-V&A-7世纪腰带扣.md",
+    "name_zh": "V&A：7 世纪 Merovingian 铁腰带扣",
+    "name_en": "V&A: Merovingian belt buckle, 7th century",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0487 v&a：7 世纪 merovingian 铁腰带扣 ## 定义 v&a 馆藏对象记录（对象页 + collections api），含对象类型、年代、材质工艺与形制描述。 ## 结构要点 - 发布机…",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0488",
+    "path": "04-来源/SRC-0488-V&A-1500-1600腰带扣.md",
+    "name_zh": "V&A：挪威 1500–1600 银鎏金腰带扣与带尾",
+    "name_en": "V&A: silver-gilt buckle and belt end, Norway, 1500–1600",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0488 v&a：挪威 1500–1600 银鎏金腰带扣与带尾 ## 定义 v&a 馆藏对象记录（对象页 + collections api），含对象类型、年代、材质工艺与形制描述。 ## 结构要点 -…",
+    "score": 7.68
+  },
+  {
+    "id": "GAR-0001",
+    "path": "01-服装单品/专门类型/GAR-0001-和服.md",
+    "name_zh": "和服",
+    "name_en": "kimono",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0100"
+    ],
+    "snippet": "…1930 年出口款和服见 [[gar-0065-和服|出口和服]]（两卡按年代、市场用途、腰带与标签区分）。 ## 结构要点 - 直线裁剪、t 形平面结构：衣身与袖多以矩形布片拼接，穿着时通过归拔与腰带塑形，而不是靠省道。 - 前襟左右交叠（右…",
+    "score": 2.1
+  },
+  {
+    "id": "GAR-0040",
+    "path": "01-服装单品/外层/GAR-0040-军装外套.md",
+    "name_zh": "军装外套",
+    "name_en": "military coat",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0404"
+    ],
+    "snippet": "…costume institute 藏（1996.492.6a–c）。 - 通常为双排扣或腰带式长外套，配肩章、袖口军衔与铜扣。 - 羊毛呢提供保暖与挺括；内衬与口袋按军规配置。 - 不同军种/国家差异大；本卡只确认该实例的基本属性（metad…",
+    "score": 2.1
+  }
+]

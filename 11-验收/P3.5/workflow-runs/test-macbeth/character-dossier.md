@@ -52,4 +52,4 @@
 
 | Stage | A | B | C | Evidence tier |
 | --- | --- | --- | --- | --- |
-| thane / prophecy (heath) | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `C` / GAR-0079, GAR-0045, GAR-0081, GAR-0048 | era |
+| thane / prophecy (heath) | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `C` / GAR-0079, GAR-0045, GAR-0081, GAR-0087 | era |

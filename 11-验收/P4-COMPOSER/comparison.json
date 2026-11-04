@@ -1,0 +1,29 @@
+{
+  "macbeth": {
+    "legacy_slots": 4,
+    "composer_slots": 5,
+    "slot_gain": 1,
+    "legacy_min_pair_diff": 2,
+    "composer_min_pair_diff": 2,
+    "legacy_three_looks": true,
+    "composer_three_looks": true
+  },
+  "cross_cultural_ghana": {
+    "legacy_slots": 4,
+    "composer_slots": 4,
+    "slot_gain": 0,
+    "legacy_min_pair_diff": 2,
+    "composer_min_pair_diff": 2,
+    "legacy_three_looks": true,
+    "composer_three_looks": true
+  },
+  "occupation_nurse": {
+    "legacy_slots": 5,
+    "composer_slots": 5,
+    "slot_gain": 0,
+    "legacy_min_pair_diff": 2,
+    "composer_min_pair_diff": 2,
+    "legacy_three_looks": true,
+    "composer_three_looks": true
+  }
+}

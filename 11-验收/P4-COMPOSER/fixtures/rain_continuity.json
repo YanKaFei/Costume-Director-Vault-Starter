@@ -1,0 +1,57 @@
+{
+  "character": {
+    "name": "Shen",
+    "occupation": "journalist",
+    "economic_status": "middle",
+    "arc": "publish the truth"
+  },
+  "scene": {
+    "scene_id": "S1",
+    "time": "night",
+    "weather": "rain",
+    "action": "walking to the newspaper office",
+    "location": "shanghai street"
+  },
+  "period": "1930s",
+  "region": "shanghai",
+  "season": "autumn",
+  "art_direction": "restrained urban period drama",
+  "lighting": "cool moonlight with warm practicals",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "midjourney",
+  "state": {
+    "wetness": "dry",
+    "damage": "none",
+    "dirt": "none"
+  },
+  "scenes": [
+    {
+      "id": "S1",
+      "wetness": "wet",
+      "damage": "none",
+      "dirt": "none"
+    },
+    {
+      "id": "S2",
+      "wetness": "dry",
+      "damage": "none",
+      "dirt": "none"
+    }
+  ],
+  "scene_states": [
+    {
+      "id": "S1",
+      "wetness": "wet",
+      "damage": "none",
+      "dirt": "none"
+    },
+    {
+      "id": "S2",
+      "wetness": "dry",
+      "damage": "none",
+      "dirt": "none"
+    }
+  ]
+}

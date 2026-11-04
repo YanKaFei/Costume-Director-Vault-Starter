@@ -1,0 +1,119 @@
+[
+  {
+    "id": "GAR-0031",
+    "path": "01-服装单品/连身/GAR-0031-旗袍.md",
+    "name_zh": "旗袍",
+    "name_en": "qipao",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201"
+    ],
+    "snippet": "…义 旗袍（qipao，粤语称 cheongsam）是民国时期成型的现代中国女装：全长贴身、立领、右衽盘扣、侧衩。v&a 记录称其随 1911 年民国建立而风行，保留满族旗装的基本形制，装饰与剪裁变化象征对“封建过去”的推翻，是传统中国形制与西方…",
+    "score": 3.15
+  },
+  {
+    "id": "GAR-0032",
+    "path": "01-服装单品/连身/GAR-0032-长衫.md",
+    "name_zh": "长衫",
+    "name_en": "changshan",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0202"
+    ],
+    "snippet": "…shan ## 定义 长衫（changshan）是民国男性穿着的全长中式长袍：右衽盘扣、小立领、长而紧的袖、两侧开衩。v&a 记录称其作为正式外袍穿在短上衣与长裤外，薄纱罗（luo）材质受学者与城市精英喜爱，竹纹象征君子品格。 ## 结构要点…",
+    "score": 3.15
+  },
+  {
+    "id": "LOOK-0008",
+    "path": "09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md",
+    "name_zh": "1930 年代上海长衫知识分子",
+    "name_en": "1930s Shanghai changshan intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0202",
+      "SRC-0203"
+    ],
+    "snippet": "…理。 ## 结构要点 - 主袍：[[gar-0032-长衫]]，米白薄纱罗丝、直身长袍、小立领、长而紧的袖、直袖口、两侧开衩；v&a 实例肩宽 149 cm、总长 133 cm（馆方实测，src-0202）。 - 内层：[[gar-0034-针…",
+    "score": 3.0
+  },
+  {
+    "id": "LOOK-0009",
+    "path": "09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md",
+    "name_zh": "1930 年代上海旗袍女性知识分子",
+    "name_en": "1930s Shanghai qipao woman intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "…境为设计推理。 ## 结构要点 - 主裙：[[gar-0031-旗袍]]，踝长直身/收腰、立领、右衽盘扣、侧衩。两个可核验版本： - 约 1930 年上海新新公司版：白色合成丝绒印红花、机械织造、art deco 蕾丝细节；右衽十枚盘扣、领口四…",
+    "score": 3.0
+  },
+  {
+    "id": "LOOK-0012",
+    "path": "09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md",
+    "name_zh": "1930 年代上海雨夜女记者",
+    "name_en": "1930s Shanghai rainy-night woman journalist look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "…点 - 连身：[[gar-0031-旗袍]]，1930 年代上海新新公司/丝花缎实物形制，立领、右衽盘扣、侧衩。 - 外层：[[gar-0045-风衣]]，卡其 gabardine、双排扣、腰带、肩覆片；20 世纪英国卡，上海穿着为 inter…",
+    "score": 3.0
+  },
+  {
+    "id": "LOOK-0019",
+    "path": "09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md",
+    "name_zh": "伦敦美术馆晚宴上的中国云肩与旗袍（东亚跨文化）",
+    "name_en": "Chinese cloud collar and qipao at a London gallery gala (East Asian cross-cultural)",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0428",
+      "SRC-0205"
+    ],
+    "snippet": "…，附明确文化边界。 ## 结构要点 - 连身：[[gar-0031-旗袍]]，中蓝丝花缎、立领、右衽盘扣、侧衩。 - 结构：[[str-0011-盘扣]]，旗袍右衽成对布扣。 - 配饰：[[gar-0067-云肩]]，晚清可拆卸云形领饰，缎地刺…",
+    "score": 3.0
+  },
+  {
+    "id": "PRD-0011",
+    "path": "06-时代地域/PRD-0011-1930年代上海民国语境.md",
+    "name_zh": "1930 年代上海民国语境",
+    "name_en": "1930s Shanghai Republican-era context",
+    "type": "period_region",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0202",
+      "SRC-0204",
+      "SRC-0205"
+    ],
+    "snippet": "…与西方现代影响的结合（src-0200）。 - 旗袍结构：1930 年代末实例为踝长直身、立领、右衽两枚盘扣（领口与锁骨位，作“寿”字造型 huaniu），侧缝隐形拉链与按扣，袖口按扣，两侧约 30 cm 开衩，通身奶油色毛皮衬里（src-02…",
+    "score": 3.0
+  },
+  {
+    "id": "GAR-0002",
+    "path": "01-服装单品/上装/GAR-0002-达布里特.md",
+    "name_zh": "达布里特",
+    "name_en": "doublet",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0103"
+    ],
+    "snippet": "…达布里特（doublet）是 14—17 世纪欧洲男性穿在衬衫外的合体上身外套，长袖、常有立领、前中系带或纽扣，早期收腰并带短下摆。 ## 结构要点 - 立领（standing neckband）+ 前中闭合（系带或纽扣）为基础结构。 - 衣身…",
+    "score": 1.05
+  }
+]

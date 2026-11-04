@@ -1,0 +1,119 @@
+[
+  {
+    "id": "GAR-0031",
+    "path": "01-服装单品/连身/GAR-0031-旗袍.md",
+    "name_zh": "旗袍",
+    "name_en": "qipao",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201"
+    ],
+    "snippet": "# 旗袍 / qipao ## 定义 旗袍（qipao，粤语称 cheongsam）是民国时期成型的现代中国女装：全长贴身、立领、右衽盘扣、侧衩。v&a 记录…",
+    "score": 8.6
+  },
+  {
+    "id": "LOOK-0009",
+    "path": "09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md",
+    "name_zh": "1930 年代上海旗袍女性知识分子",
+    "name_en": "1930s Shanghai qipao woman intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "# look-0009 1930 年代上海旗袍女性知识分子 / 1930s shanghai qipao woman intellectual look ## 定义 1930 年代上海女性知识分子…",
+    "score": 8.2
+  },
+  {
+    "id": "LOOK-0019",
+    "path": "09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md",
+    "name_zh": "伦敦美术馆晚宴上的中国云肩与旗袍（东亚跨文化）",
+    "name_en": "Chinese cloud collar and qipao at a London gallery gala (East Asian cross-cultural)",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0428",
+      "SRC-0205"
+    ],
+    "snippet": "# 伦敦美术馆晚宴上的中国云肩与旗袍 / chinese cloud collar and qipao at a london gallery gala ## 定义 在伦敦美术馆晚宴上穿…",
+    "score": 8.2
+  },
+  {
+    "id": "SRC-0200",
+    "path": "04-来源/SRC-0200-V&A-上海新新公司旗袍1930.md",
+    "name_zh": "V&A：上海新新公司制旗袍（约 1930）",
+    "name_en": "V&A: qipao made by Sun Sun Company, Shanghai, ca. 1930",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0200 v&a：上海新新公司制旗袍（约 1930） ## 定义 v&a 馆藏对象记录（collections api + 对象页），含对象类型、年代、材质工艺、尺寸、制作地与详细形制描…",
+    "score": 7.68
+  },
+  {
+    "id": "SRC-0201",
+    "path": "04-来源/SRC-0201-V&A-1930年代末旗袍.md",
+    "name_zh": "V&A：1930 年代末中国丝绸花缎旗袍",
+    "name_en": "V&A: Chinese silk-damask qipao, late 1930s",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "# src-0201 v&a：1930 年代末中国丝绸花缎旗袍 ## 定义 v&a 馆藏对象记录（collections api + 对象页），含对象类型、年代、材质工艺、尺寸、制作地与详细形制描述。 ## 结构…",
+    "score": 7.68
+  },
+  {
+    "id": "LOOK-0012",
+    "path": "09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md",
+    "name_zh": "1930 年代上海雨夜女记者",
+    "name_en": "1930s Shanghai rainy-night woman journalist look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "…rnalist look ## 定义 1930 年代上海女记者（虚构角色）的五槽雨夜造型：旗袍 + 风衣 + 皮鞋 + 雨伞 + 手袋。`interpretive` 搭配，用于 t01/p2.5 之后对“上海雨夜”类场景的正式知识补充。 ##…",
+    "score": 7.2
+  },
+  {
+    "id": "LOOK-0015",
+    "path": "09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md",
+    "name_zh": "上海银行家之妻：从晚宴到难民（身份下滑）",
+    "name_en": "Shanghai banker’s wife: ballroom to refugee (identity descent)",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205",
+      "SRC-0412",
+      "SRC-0405",
+      "SRC-0407"
+    ],
+    "snippet": "…同一只手袋作为跨阶段锚点。 ## 结构要点 - **s0 晚宴**：[[gar-0031-旗袍]] + [[gar-0035-女式皮鞋]] + [[gar-0048-手提包]]；中蓝丝花缎、立领盘扣、低跟鞋。 - **s1 逃难**：保留旗袍与…",
+    "score": 3.2
+  },
+  {
+    "id": "PRD-0011",
+    "path": "06-时代地域/PRD-0011-1930年代上海民国语境.md",
+    "name_zh": "1930 年代上海民国语境",
+    "name_en": "1930s Shanghai Republican-era context",
+    "type": "period_region",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0202",
+      "SRC-0204",
+      "SRC-0205"
+    ],
+    "snippet": "…ntext ## 定义 本卡覆盖 1930 年代以上海为中心的民国都市服饰语境：女性以改良旗袍为主，男性在长衫与西式套装之间选择，上海的商业裁缝与进口面料塑造了中西混合的都市外观。年代以 1930 年代与“民国时期”表述，场馆实物分别来自上海与…",
+    "score": 3.0
+  }
+]

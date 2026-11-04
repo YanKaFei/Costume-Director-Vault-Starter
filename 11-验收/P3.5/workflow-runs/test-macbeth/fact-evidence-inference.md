@@ -27,10 +27,10 @@
 
 | Character | Stage | Evidence tier | Item IDs | Source IDs |
 | --- | --- | --- | --- | --- |
-| Macbeth | thane / prophecy (heath) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0035 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0102, SRC-0141, SRC-0490, SRC-0491, SRC-0205, SRC-0206, SRC-0142 |
-| Macbeth | tyrant / dagger (castle) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0048 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0102, SRC-0141, SRC-0490, SRC-0491, SRC-0408 |
-| Banquo | thane / prophecy (heath) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0009 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0490, SRC-0491, SRC-0102, SRC-0141, SRC-0110, SRC-0135, SRC-0140, SRC-0142 |
-| Witches | thane / prophecy (heath) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0048 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0102, SRC-0141, SRC-0490, SRC-0491, SRC-0408 |
+| Macbeth | thane / prophecy (heath) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0035 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0202, SRC-0201, SRC-0486, SRC-0412, SRC-0200, SRC-0102, SRC-0483, SRC-0141, SRC-0490, SRC-0491, SRC-0205, SRC-0206, SRC-0521, SRC-0520, SRC-0142, SRC-0143, SRC-0423 |
+| Macbeth | tyrant / dagger (castle) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0048 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0202, SRC-0201, SRC-0486, SRC-0412, SRC-0200, SRC-0102, SRC-0483, SRC-0141, SRC-0490, SRC-0491, SRC-0408 |
+| Banquo | thane / prophecy (heath) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0009 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0490, SRC-0491, SRC-0202, SRC-0201, SRC-0486, SRC-0412, SRC-0200, SRC-0102, SRC-0483, SRC-0141, SRC-0110, SRC-0135, SRC-0140, SRC-0142 |
+| Witches | thane / prophecy (heath) | era | GAR-0079, GAR-0045, GAR-0081, GAR-0080, GAR-0082, GAR-0087 | SRC-0405, SRC-0489, SRC-0487, SRC-0488, SRC-0202, SRC-0201, SRC-0486, SRC-0412, SRC-0200, SRC-0102, SRC-0483, SRC-0141, SRC-0490, SRC-0491, SRC-0408, SRC-0413 |
 
 ### Evidence status notes
 
@@ -66,7 +66,7 @@
 - Banquo/rise: period evidence is approximate/none for GAR-0045 (requested medieval); treat these as era-level hypotheses, not exact period matches
 - Witches/rise: no reliable period/region context card after period/region normalization (requested: medieval / europe)
 - Witches/rise: no reliable style card for art direction 'stark medieval tragedy, torchlight and fog'
-- Witches/rise: period evidence is approximate/none for GAR-0045, GAR-0048 (requested medieval); treat these as era-level hypotheses, not exact period matches
+- Witches/rise: period evidence is approximate/none for GAR-0045, GAR-0087 (requested medieval); treat these as era-level hypotheses, not exact period matches
 
 ## 4. Unknowns / gaps (not invented)
 

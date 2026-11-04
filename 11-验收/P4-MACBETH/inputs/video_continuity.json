@@ -1,0 +1,42 @@
+{
+  "character": {
+    "name": "Macbeth",
+    "occupation": "thane and king's general",
+    "economic_status": "high",
+    "arc": "loyal thane to tyrant"
+  },
+  "period": "medieval",
+  "region": "europe",
+  "season": "autumn",
+  "scene": "three-shot continuity",
+  "time": "night",
+  "weather": "storm, cold",
+  "action": "walking from heath to castle",
+  "location": "heath near Forres",
+  "art_direction": "stark medieval tragedy",
+  "lighting": "torchlight, cold moonlight",
+  "camera": "medium shot",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic",
+  "scenes": [
+    {
+      "id": "S1",
+      "wetness": "wet",
+      "damage": "none",
+      "dirt": "none"
+    },
+    {
+      "id": "S2",
+      "wetness": "dry",
+      "damage": "none",
+      "dirt": "none"
+    },
+    {
+      "id": "S3",
+      "wetness": "dry",
+      "damage": "present",
+      "dirt": "none"
+    }
+  ]
+}

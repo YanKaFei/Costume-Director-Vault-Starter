@@ -18,8 +18,8 @@
 
 | Stage | A | B | C | Evidence tier |
 | --- | --- | --- | --- | --- |
-| Macbeth rise | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `C` / GAR-0079, GAR-0045, GAR-0022, GAR-0080 | era |
-| Macbeth guilt | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `C` / GAR-0079, GAR-0045, GAR-0022, GAR-0080 | era |
+| Macbeth rise | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `C` / GAR-0079, GAR-0045, GAR-0084 | era |
+| Macbeth guilt | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `C` / GAR-0079, GAR-0045, GAR-0084 | era |
 
 ## Lady Macbeth
 
@@ -35,5 +35,5 @@
 
 | Stage | A | B | C | Evidence tier |
 | --- | --- | --- | --- | --- |
-| Lady Macbeth rise | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `C` / GAR-0079, GAR-0045, GAR-0035 | era |
-| Lady Macbeth downfall | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `C` / GAR-0079, GAR-0045, GAR-0035 | era |
+| Lady Macbeth rise | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `C` / GAR-0079, GAR-0045, GAR-0084 | era |
+| Lady Macbeth downfall | `A` / GAR-0079, GAR-0045, GAR-0081, GAR-0080 | `B` / GAR-0079, GAR-0045, GAR-0081, GAR-0082 | `C` / GAR-0079, GAR-0045, GAR-0084 | era |
