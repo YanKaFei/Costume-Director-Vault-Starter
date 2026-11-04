@@ -1,0 +1,982 @@
+card_id,card_path,target,relation_type,evidence,confidence,reason
+GAR-0002,01-服装单品/上装/GAR-0002-达布里特.md,GAR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0002,01-服装单品/上装/GAR-0002-达布里特.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0002,01-服装单品/上装/GAR-0002-达布里特.md,STR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0002,01-服装单品/上装/GAR-0002-达布里特.md,STR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0003,01-服装单品/上装/GAR-0003-杰金.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0003,01-服装单品/上装/GAR-0003-杰金.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0003,01-服装单品/上装/GAR-0003-杰金.md,STR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0003,01-服装单品/上装/GAR-0003-杰金.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0006,01-服装单品/上装/GAR-0006-达希基套衫.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0006,01-服装单品/上装/GAR-0006-达希基套衫.md,GAR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0006,01-服装单品/上装/GAR-0006-达希基套衫.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0006,01-服装单品/上装/GAR-0006-达希基套衫.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0007,01-服装单品/上装/GAR-0007-衬衫式女衫.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0007,01-服装单品/上装/GAR-0007-衬衫式女衫.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0007,01-服装单品/上装/GAR-0007-衬衫式女衫.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0007,01-服装单品/上装/GAR-0007-衬衫式女衫.md,GAR-0021,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0008,01-服装单品/上装/GAR-0008-马甲.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0008,01-服装单品/上装/GAR-0008-马甲.md,GAR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0008,01-服装单品/上装/GAR-0008-马甲.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0008,01-服装单品/上装/GAR-0008-马甲.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0034,01-服装单品/上装/GAR-0034-针织背心.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0034,01-服装单品/上装/GAR-0034-针织背心.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0034,01-服装单品/上装/GAR-0034-针织背心.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0034,01-服装单品/上装/GAR-0034-针织背心.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0043,01-服装单品/上装/GAR-0043-厨师服.md,GAR-0038,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0043,01-服装单品/上装/GAR-0043-厨师服.md,GAR-0044,footwear,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0043,01-服装单品/上装/GAR-0043-厨师服.md,GAR-0036,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0043,01-服装单品/上装/GAR-0043-厨师服.md,GAR-0021,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-EXAMPLE-001,01-服装单品/上装/GAR-EXAMPLE-001-白色立领衬衫.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-EXAMPLE-001,01-服装单品/上装/GAR-EXAMPLE-001-白色立领衬衫.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0010,01-服装单品/下装/GAR-0010-灯笼裤.md,GAR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0010,01-服装单品/下装/GAR-0010-灯笼裤.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0010,01-服装单品/下装/GAR-0010-灯笼裤.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0010,01-服装单品/下装/GAR-0010-灯笼裤.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0011,01-服装单品/下装/GAR-0011-尼克裤.md,GAR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0011,01-服装单品/下装/GAR-0011-尼克裤.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0011,01-服装单品/下装/GAR-0011-尼克裤.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0013,01-服装单品/下装/GAR-0013-遮阴袋.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0013,01-服装单品/下装/GAR-0013-遮阴袋.md,STR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0013,01-服装单品/下装/GAR-0013-遮阴袋.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0013,01-服装单品/下装/GAR-0013-遮阴袋.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0014,01-服装单品/下装/GAR-0014-牛仔裤.md,GAR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0014,01-服装单品/下装/GAR-0014-牛仔裤.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0014,01-服装单品/下装/GAR-0014-牛仔裤.md,GAR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0014,01-服装单品/下装/GAR-0014-牛仔裤.md,GAR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0072,01-服装单品/下装/GAR-0072-帕贾马裤.md,GAR-0071,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0072,01-服装单品/下装/GAR-0072-帕贾马裤.md,GAR-0063,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0072,01-服装单品/下装/GAR-0072-帕贾马裤.md,GAR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0072,01-服装单品/下装/GAR-0072-帕贾马裤.md,GAR-0059,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0077,01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0077,01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0077,01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0077,01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0077,01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0076,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0077,01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0081,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0077,01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0079,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0001,01-服装单品/专门类型/GAR-0001-和服.md,GAR-0065,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0001,01-服装单品/专门类型/GAR-0001-和服.md,STR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0001,01-服装单品/专门类型/GAR-0001-和服.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0001,01-服装单品/专门类型/GAR-0001-和服.md,GAR-0029,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0001,01-服装单品/专门类型/GAR-0001-和服.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0005,01-服装单品/专门类型/GAR-0005-布布长袍.md,GAR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0005,01-服装单品/专门类型/GAR-0005-布布长袍.md,GAR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0005,01-服装单品/专门类型/GAR-0005-布布长袍.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0005,01-服装单品/专门类型/GAR-0005-布布长袍.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0030,01-服装单品/专门类型/GAR-0030-惠皮尔.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0030,01-服装单品/专门类型/GAR-0030-惠皮尔.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0030,01-服装单品/专门类型/GAR-0030-惠皮尔.md,GAR-0023,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0030,01-服装单品/专门类型/GAR-0030-惠皮尔.md,GAR-0029,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0065,01-服装单品/专门类型/GAR-0065-和服.md,GAR-0066,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0065,01-服装单品/专门类型/GAR-0065-和服.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0065,01-服装单品/专门类型/GAR-0065-和服.md,GAR-0064,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0065,01-服装单品/专门类型/GAR-0065-和服.md,MAT-0008,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0012,01-服装单品/内层/GAR-0012-衬裤.md,GAR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0012,01-服装单品/内层/GAR-0012-衬裤.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0012,01-服装单品/内层/GAR-0012-衬裤.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0012,01-服装单品/内层/GAR-0012-衬裤.md,STR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0020,01-服装单品/内层/GAR-0020-假衬衣.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0020,01-服装单品/内层/GAR-0020-假衬衣.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0020,01-服装单品/内层/GAR-0020-假衬衣.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0078,01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0078,01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0078,01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0078,01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0079,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0078,01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0075,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0078,01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0077,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0078,01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0020,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0016,01-服装单品/外层/GAR-0016-班扬袍.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0016,01-服装单品/外层/GAR-0016-班扬袍.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0016,01-服装单品/外层/GAR-0016-班扬袍.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0016,01-服装单品/外层/GAR-0016-班扬袍.md,GAR-0027,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0017,01-服装单品/外层/GAR-0017-夫罗克大衣.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0017,01-服装单品/外层/GAR-0017-夫罗克大衣.md,GAR-0016,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0017,01-服装单品/外层/GAR-0017-夫罗克大衣.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0017,01-服装单品/外层/GAR-0017-夫罗克大衣.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0018,01-服装单品/外层/GAR-0018-斯宾塞短夹克.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0018,01-服装单品/外层/GAR-0018-斯宾塞短夹克.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0018,01-服装单品/外层/GAR-0018-斯宾塞短夹克.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0018,01-服装单品/外层/GAR-0018-斯宾塞短夹克.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0019,01-服装单品/外层/GAR-0019-派克大衣.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0019,01-服装单品/外层/GAR-0019-派克大衣.md,GAR-0023,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0019,01-服装单品/外层/GAR-0019-派克大衣.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0019,01-服装单品/外层/GAR-0019-派克大衣.md,MAT-0004,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0033,01-服装单品/外层/GAR-0033-西式休闲西装.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0033,01-服装单品/外层/GAR-0033-西式休闲西装.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0033,01-服装单品/外层/GAR-0033-西式休闲西装.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0033,01-服装单品/外层/GAR-0033-西式休闲西装.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0037,01-服装单品/外层/GAR-0037-消防防护外套.md,GAR-0038,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0037,01-服装单品/外层/GAR-0037-消防防护外套.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0037,01-服装单品/外层/GAR-0037-消防防护外套.md,GAR-0040,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0037,01-服装单品/外层/GAR-0037-消防防护外套.md,MAT-0009,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0040,01-服装单品/外层/GAR-0040-军装外套.md,GAR-0037,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0040,01-服装单品/外层/GAR-0040-军装外套.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0040,01-服装单品/外层/GAR-0040-军装外套.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0040,01-服装单品/外层/GAR-0040-军装外套.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0041,01-服装单品/外层/GAR-0041-医生白袍.md,GAR-0036,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0041,01-服装单品/外层/GAR-0041-医生白袍.md,GAR-0044,footwear,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0041,01-服装单品/外层/GAR-0041-医生白袍.md,GAR-0042,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0041,01-服装单品/外层/GAR-0041-医生白袍.md,GAR-0038,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0045,01-服装单品/外层/GAR-0045-风衣.md,GAR-0046,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0045,01-服装单品/外层/GAR-0045-风衣.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0045,01-服装单品/外层/GAR-0045-风衣.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0045,01-服装单品/外层/GAR-0045-风衣.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0046,01-服装单品/外层/GAR-0046-雨衣.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0046,01-服装单品/外层/GAR-0046-雨衣.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0046,01-服装单品/外层/GAR-0046-雨衣.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0046,01-服装单品/外层/GAR-0046-雨衣.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0057,01-服装单品/外层/GAR-0057-1960年代Courrèges外套.md,GAR-0056,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0057,01-服装单品/外层/GAR-0057-1960年代Courrèges外套.md,GAR-0039,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0057,01-服装单品/外层/GAR-0057-1960年代Courrèges外套.md,GAR-0058,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0057,01-服装单品/外层/GAR-0057-1960年代Courrèges外套.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0076,01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0076,01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0076,01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0076,01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0075,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0076,01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0077,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0076,01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0082,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0076,01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0079,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0025,01-服装单品/头部/GAR-0025-三角帽.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0025,01-服装单品/头部/GAR-0025-三角帽.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0025,01-服装单品/头部/GAR-0025-三角帽.md,GAR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0025,01-服装单品/头部/GAR-0025-三角帽.md,GAR-0027,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0026,01-服装单品/头部/GAR-0026-波克帽.md,GAR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0026,01-服装单品/头部/GAR-0026-波克帽.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0026,01-服装单品/头部/GAR-0026-波克帽.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0026,01-服装单品/头部/GAR-0026-波克帽.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0027,01-服装单品/头部/GAR-0027-费兹帽.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0027,01-服装单品/头部/GAR-0027-费兹帽.md,GAR-0026,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0027,01-服装单品/头部/GAR-0027-费兹帽.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0027,01-服装单品/头部/GAR-0027-费兹帽.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0039,01-服装单品/头部/GAR-0039-安全头盔.md,GAR-0038,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0039,01-服装单品/头部/GAR-0039-安全头盔.md,GAR-0057,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0039,01-服装单品/头部/GAR-0039-安全头盔.md,GAR-0058,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0039,01-服装单品/头部/GAR-0039-安全头盔.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0068,01-服装单品/头部/GAR-0068-婚礼头纱.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0068,01-服装单品/头部/GAR-0068-婚礼头纱.md,GAR-0067,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0068,01-服装单品/头部/GAR-0068-婚礼头纱.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0068,01-服装单品/头部/GAR-0068-婚礼头纱.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0070,01-服装单品/头部/GAR-0070-头巾.md,GAR-0069,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0070,01-服装单品/头部/GAR-0070-头巾.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0070,01-服装单品/头部/GAR-0070-头巾.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0070,01-服装单品/头部/GAR-0070-头巾.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0085,01-服装单品/头部/GAR-0085-帽子结构.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0085,01-服装单品/头部/GAR-0085-帽子结构.md,GAR-0026,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0085,01-服装单品/头部/GAR-0085-帽子结构.md,GAR-0027,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0085,01-服装单品/头部/GAR-0085-帽子结构.md,GAR-0076,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0047,01-服装单品/携带物/GAR-0047-雨伞.md,GAR-0046,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0047,01-服装单品/携带物/GAR-0047-雨伞.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0047,01-服装单品/携带物/GAR-0047-雨伞.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0047,01-服装单品/携带物/GAR-0047-雨伞.md,GAR-0049,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0048,01-服装单品/携带物/GAR-0048-手提包.md,STR-0026,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0048,01-服装单品/携带物/GAR-0048-手提包.md,GAR-0087,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0048,01-服装单品/携带物/GAR-0048-手提包.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0048,01-服装单品/携带物/GAR-0048-手提包.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0049,01-服装单品/携带物/GAR-0049-手杖.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0049,01-服装单品/携带物/GAR-0049-手杖.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0049,01-服装单品/携带物/GAR-0049-手杖.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0049,01-服装单品/携带物/GAR-0049-手杖.md,GAR-0046,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0082,01-服装单品/携带物/GAR-0082-匕首.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0082,01-服装单品/携带物/GAR-0082-匕首.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0082,01-服装单品/携带物/GAR-0082-匕首.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0082,01-服装单品/携带物/GAR-0082-匕首.md,GAR-0080,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0082,01-服装单品/携带物/GAR-0082-匕首.md,GAR-0076,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0082,01-服装单品/携带物/GAR-0082-匕首.md,GAR-0075,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0082,01-服装单品/携带物/GAR-0082-匕首.md,GAR-0049,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0087,01-服装单品/携带物/GAR-0087-手袋结构.md,STR-0026,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0087,01-服装单品/携带物/GAR-0087-手袋结构.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0087,01-服装单品/携带物/GAR-0087-手袋结构.md,STR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0087,01-服装单品/携带物/GAR-0087-手袋结构.md,GAR-0083,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0022,01-服装单品/足部/GAR-0022-威灵顿靴.md,GAR-0023,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0022,01-服装单品/足部/GAR-0022-威灵顿靴.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0022,01-服装单品/足部/GAR-0022-威灵顿靴.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0022,01-服装单品/足部/GAR-0022-威灵顿靴.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0023,01-服装单品/足部/GAR-0023-莫卡辛鞋.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0023,01-服装单品/足部/GAR-0023-莫卡辛鞋.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0023,01-服装单品/足部/GAR-0023-莫卡辛鞋.md,GAR-0030,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0023,01-服装单品/足部/GAR-0023-莫卡辛鞋.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0024,01-服装单品/足部/GAR-0024-穆勒鞋.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0024,01-服装单品/足部/GAR-0024-穆勒鞋.md,GAR-0023,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0024,01-服装单品/足部/GAR-0024-穆勒鞋.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0024,01-服装单品/足部/GAR-0024-穆勒鞋.md,GAR-0028,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0035,01-服装单品/足部/GAR-0035-女式皮鞋.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0035,01-服装单品/足部/GAR-0035-女式皮鞋.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0035,01-服装单品/足部/GAR-0035-女式皮鞋.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0035,01-服装单品/足部/GAR-0035-女式皮鞋.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0044,01-服装单品/足部/GAR-0044-医疗工作鞋.md,GAR-0036,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0044,01-服装单品/足部/GAR-0044-医疗工作鞋.md,GAR-0041,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0044,01-服装单品/足部/GAR-0044-医疗工作鞋.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0044,01-服装单品/足部/GAR-0044-医疗工作鞋.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0058,01-服装单品/足部/GAR-0058-1970年代厚底鞋.md,GAR-0056,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0058,01-服装单品/足部/GAR-0058-1970年代厚底鞋.md,GAR-0059,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0058,01-服装单品/足部/GAR-0058-1970年代厚底鞋.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0058,01-服装单品/足部/GAR-0058-1970年代厚底鞋.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0060,01-服装单品/足部/GAR-0060-1930年代男式皮鞋.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0060,01-服装单品/足部/GAR-0060-1930年代男式皮鞋.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0060,01-服装单品/足部/GAR-0060-1930年代男式皮鞋.md,GAR-0064,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0060,01-服装单品/足部/GAR-0060-1930年代男式皮鞋.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0081,01-服装单品/足部/GAR-0081-皮靴.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0081,01-服装单品/足部/GAR-0081-皮靴.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0081,01-服装单品/足部/GAR-0081-皮靴.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0081,01-服装单品/足部/GAR-0081-皮靴.md,GAR-0077,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0081,01-服装单品/足部/GAR-0081-皮靴.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0081,01-服装单品/足部/GAR-0081-皮靴.md,GAR-0082,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0081,01-服装单品/足部/GAR-0081-皮靴.md,GAR-0080,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0084,01-服装单品/足部/GAR-0084-高跟鞋.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0084,01-服装单品/足部/GAR-0084-高跟鞋.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0084,01-服装单品/足部/GAR-0084-高跟鞋.md,GAR-0058,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0084,01-服装单品/足部/GAR-0084-高跟鞋.md,GAR-0083,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0004,01-服装单品/连身/GAR-0004-卡夫坦长袍.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0004,01-服装单品/连身/GAR-0004-卡夫坦长袍.md,GAR-0029,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0004,01-服装单品/连身/GAR-0004-卡夫坦长袍.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0004,01-服装单品/连身/GAR-0004-卡夫坦长袍.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0009,01-服装单品/连身/GAR-0009-达尔马提亚长袍.md,GAR-0029,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0009,01-服装单品/连身/GAR-0009-达尔马提亚长袍.md,STR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0009,01-服装单品/连身/GAR-0009-达尔马提亚长袍.md,STR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0009,01-服装单品/连身/GAR-0009-达尔马提亚长袍.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0015,01-服装单品/连身/GAR-0015-法式长袍.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0015,01-服装单品/连身/GAR-0015-法式长袍.md,STR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0015,01-服装单品/连身/GAR-0015-法式长袍.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0015,01-服装单品/连身/GAR-0015-法式长袍.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0029,01-服装单品/连身/GAR-0029-托加袍.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0029,01-服装单品/连身/GAR-0029-托加袍.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0029,01-服装单品/连身/GAR-0029-托加袍.md,GAR-0030,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0029,01-服装单品/连身/GAR-0029-托加袍.md,STR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0031,01-服装单品/连身/GAR-0031-旗袍.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0031,01-服装单品/连身/GAR-0031-旗袍.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0031,01-服装单品/连身/GAR-0031-旗袍.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0031,01-服装单品/连身/GAR-0031-旗袍.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0031,01-服装单品/连身/GAR-0031-旗袍.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0032,01-服装单品/连身/GAR-0032-长衫.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0032,01-服装单品/连身/GAR-0032-长衫.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0032,01-服装单品/连身/GAR-0032-长衫.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0032,01-服装单品/连身/GAR-0032-长衫.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0036,01-服装单品/连身/GAR-0036-护士制服.md,GAR-0044,footwear,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0036,01-服装单品/连身/GAR-0036-护士制服.md,GAR-0050,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0036,01-服装单品/连身/GAR-0036-护士制服.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0038,01-服装单品/连身/GAR-0038-连体工作服.md,GAR-0037,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0038,01-服装单品/连身/GAR-0038-连体工作服.md,GAR-0069,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0038,01-服装单品/连身/GAR-0038-连体工作服.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0038,01-服装单品/连身/GAR-0038-连体工作服.md,GAR-0044,footwear,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0042,01-服装单品/连身/GAR-0042-警察制服.md,GAR-0040,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0042,01-服装单品/连身/GAR-0042-警察制服.md,GAR-0050,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0042,01-服装单品/连身/GAR-0042-警察制服.md,GAR-0036,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0042,01-服装单品/连身/GAR-0042-警察制服.md,GAR-0044,footwear,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0052,01-服装单品/连身/GAR-0052-Utility连衣裙.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0052,01-服装单品/连身/GAR-0052-Utility连衣裙.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0052,01-服装单品/连身/GAR-0052-Utility连衣裙.md,MAT-0010,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0052,01-服装单品/连身/GAR-0052-Utility连衣裙.md,GAR-0054,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0053,01-服装单品/连身/GAR-0053-Utility裙套装.md,GAR-0052,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0053,01-服装单品/连身/GAR-0053-Utility裙套装.md,GAR-0054,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0053,01-服装单品/连身/GAR-0053-Utility裙套装.md,GAR-0040,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0053,01-服装单品/连身/GAR-0053-Utility裙套装.md,MAT-0010,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0054,01-服装单品/连身/GAR-0054-1950年代鸡尾酒裙.md,GAR-0052,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0054,01-服装单品/连身/GAR-0054-1950年代鸡尾酒裙.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0054,01-服装单品/连身/GAR-0054-1950年代鸡尾酒裙.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0054,01-服装单品/连身/GAR-0054-1950年代鸡尾酒裙.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0055,01-服装单品/连身/GAR-0055-1950年代儿童印花裙.md,GAR-0052,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0055,01-服装单品/连身/GAR-0055-1950年代儿童印花裙.md,GAR-0054,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0055,01-服装单品/连身/GAR-0055-1950年代儿童印花裙.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0055,01-服装单品/连身/GAR-0055-1950年代儿童印花裙.md,GAR-0056,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0056,01-服装单品/连身/GAR-0056-1960年代迷你裙.md,GAR-0057,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0056,01-服装单品/连身/GAR-0056-1960年代迷你裙.md,GAR-0055,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0056,01-服装单品/连身/GAR-0056-1960年代迷你裙.md,GAR-0058,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0056,01-服装单品/连身/GAR-0056-1960年代迷你裙.md,MAT-0004,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0059,01-服装单品/连身/GAR-0059-1970年代牛仔背带裤.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0059,01-服装单品/连身/GAR-0059-1970年代牛仔背带裤.md,GAR-0058,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0059,01-服装单品/连身/GAR-0059-1970年代牛仔背带裤.md,GAR-0051,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0059,01-服装单品/连身/GAR-0059-1970年代牛仔背带裤.md,MAT-0004,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0061,01-服装单品/连身/GAR-0061-科普特束腰长袍.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0061,01-服装单品/连身/GAR-0061-科普特束腰长袍.md,GAR-0029,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0061,01-服装单品/连身/GAR-0061-科普特束腰长袍.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0061,01-服装单品/连身/GAR-0061-科普特束腰长袍.md,MAT-0011,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0062,01-服装单品/连身/GAR-0062-意大利文艺复兴长袍.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0062,01-服装单品/连身/GAR-0062-意大利文艺复兴长袍.md,STR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0062,01-服装单品/连身/GAR-0062-意大利文艺复兴长袍.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0062,01-服装单品/连身/GAR-0062-意大利文艺复兴长袍.md,MAT-0011,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0063,01-服装单品/连身/GAR-0063-纱丽.md,GAR-0064,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0063,01-服装单品/连身/GAR-0063-纱丽.md,GAR-0065,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0063,01-服装单品/连身/GAR-0063-纱丽.md,GAR-0066,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0063,01-服装单品/连身/GAR-0063-纱丽.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0064,01-服装单品/连身/GAR-0064-韩服.md,GAR-0065,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0064,01-服装单品/连身/GAR-0064-韩服.md,GAR-0066,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0064,01-服装单品/连身/GAR-0064-韩服.md,GAR-0068,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0064,01-服装单品/连身/GAR-0064-韩服.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0069,01-服装单品/连身/GAR-0069-阿格巴达.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0069,01-服装单品/连身/GAR-0069-阿格巴达.md,GAR-0070,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0069,01-服装单品/连身/GAR-0069-阿格巴达.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0069,01-服装单品/连身/GAR-0069-阿格巴达.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0071,01-服装单品/连身/GAR-0071-莫卧儿jama.md,GAR-0072,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0071,01-服装单品/连身/GAR-0071-莫卧儿jama.md,GAR-0063,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0071,01-服装单品/连身/GAR-0071-莫卧儿jama.md,GAR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0071,01-服装单品/连身/GAR-0071-莫卧儿jama.md,GAR-0030,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0075,01-服装单品/连身/GAR-0075-束腰长袍.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0075,01-服装单品/连身/GAR-0075-束腰长袍.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0075,01-服装单品/连身/GAR-0075-束腰长袍.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0075,01-服装单品/连身/GAR-0075-束腰长袍.md,GAR-0076,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0075,01-服装单品/连身/GAR-0075-束腰长袍.md,GAR-0080,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0079,01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0079,01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0079,01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0079,01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0078,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0079,01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0076,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0079,01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0021,01-服装单品/配饰/GAR-0021-围裙裙.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0021,01-服装单品/配饰/GAR-0021-围裙裙.md,GAR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0021,01-服装单品/配饰/GAR-0021-围裙裙.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0021,01-服装单品/配饰/GAR-0021-围裙裙.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0028,01-服装单品/配饰/GAR-0028-手笼.md,GAR-0026,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0028,01-服装单品/配饰/GAR-0028-手笼.md,GAR-0016,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0028,01-服装单品/配饰/GAR-0028-手笼.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0028,01-服装单品/配饰/GAR-0028-手笼.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0050,01-服装单品/配饰/GAR-0050-制服徽章.md,GAR-0040,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0050,01-服装单品/配饰/GAR-0050-制服徽章.md,GAR-0036,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0050,01-服装单品/配饰/GAR-0050-制服徽章.md,GAR-0051,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0050,01-服装单品/配饰/GAR-0050-制服徽章.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0051,01-服装单品/配饰/GAR-0051-朋克徽章.md,GAR-0050,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0051,01-服装单品/配饰/GAR-0051-朋克徽章.md,GAR-0059,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0051,01-服装单品/配饰/GAR-0051-朋克徽章.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0051,01-服装单品/配饰/GAR-0051-朋克徽章.md,GAR-0028,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0066,01-服装单品/配饰/GAR-0066-和服腰带.md,GAR-0065,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0066,01-服装单品/配饰/GAR-0066-和服腰带.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0066,01-服装单品/配饰/GAR-0066-和服腰带.md,MAT-0008,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0066,01-服装单品/配饰/GAR-0066-和服腰带.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0067,01-服装单品/配饰/GAR-0067-云肩.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0067,01-服装单品/配饰/GAR-0067-云肩.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0067,01-服装单品/配饰/GAR-0067-云肩.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+GAR-0067,01-服装单品/配饰/GAR-0067-云肩.md,GAR-0068,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0073,01-服装单品/配饰/GAR-0073-维多利亚哀悼珠宝.md,GAR-0074,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0073,01-服装单品/配饰/GAR-0073-维多利亚哀悼珠宝.md,STY-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0073,01-服装单品/配饰/GAR-0073-维多利亚哀悼珠宝.md,GAR-0068,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0073,01-服装单品/配饰/GAR-0073-维多利亚哀悼珠宝.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+GAR-0074,01-服装单品/配饰/GAR-0074-哀悼戒指与胸针.md,GAR-0073,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0074,01-服装单品/配饰/GAR-0074-哀悼戒指与胸针.md,STY-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0074,01-服装单品/配饰/GAR-0074-哀悼戒指与胸针.md,GAR-0068,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0074,01-服装单品/配饰/GAR-0074-哀悼戒指与胸针.md,GAR-0028,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0080,01-服装单品/配饰/GAR-0080-腰带.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0080,01-服装单品/配饰/GAR-0080-腰带.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0080,01-服装单品/配饰/GAR-0080-腰带.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0080,01-服装单品/配饰/GAR-0080-腰带.md,GAR-0082,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0080,01-服装单品/配饰/GAR-0080-腰带.md,GAR-0077,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0080,01-服装单品/配饰/GAR-0080-腰带.md,GAR-0075,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0080,01-服装单品/配饰/GAR-0080-腰带.md,GAR-0079,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0083,01-服装单品/配饰/GAR-0083-手套.md,GAR-0028,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0083,01-服装单品/配饰/GAR-0083-手套.md,GAR-0074,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0083,01-服装单品/配饰/GAR-0083-手套.md,STR-0023,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0083,01-服装单品/配饰/GAR-0083-手套.md,GAR-0086,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0086,01-服装单品/配饰/GAR-0086-胸针结构.md,GAR-0074,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0086,01-服装单品/配饰/GAR-0086-胸针结构.md,GAR-0073,accessory,verified,medium,relation caps at medium or evidence not verified
+GAR-0086,01-服装单品/配饰/GAR-0086-胸针结构.md,STR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+GAR-0086,01-服装单品/配饰/GAR-0086-胸针结构.md,GAR-0083,accessory,verified,medium,relation caps at medium or evidence not verified
+STR-0001,02-结构细节/STR-0001-美第奇领.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0001,02-结构细节/STR-0001-美第奇领.md,STR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0001,02-结构细节/STR-0001-美第奇领.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0001,02-结构细节/STR-0001-美第奇领.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0002,02-结构细节/STR-0002-垂领.md,STR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0002,02-结构细节/STR-0002-垂领.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0002,02-结构细节/STR-0002-垂领.md,GAR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0002,02-结构细节/STR-0002-垂领.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0003,02-结构细节/STR-0003-拉夫领.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0003,02-结构细节/STR-0003-拉夫领.md,STR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0003,02-结构细节/STR-0003-拉夫领.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0003,02-结构细节/STR-0003-拉夫领.md,STR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0004,02-结构细节/STR-0004-羊腿袖（19世纪）.md,STR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0004,02-结构细节/STR-0004-羊腿袖（19世纪）.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0004,02-结构细节/STR-0004-羊腿袖（19世纪）.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0004,02-结构细节/STR-0004-羊腿袖（19世纪）.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+STR-0005,02-结构细节/STR-0005-十六世纪羊腿袖.md,STR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0005,02-结构细节/STR-0005-十六世纪羊腿袖.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0005,02-结构细节/STR-0005-十六世纪羊腿袖.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0005,02-结构细节/STR-0005-十六世纪羊腿袖.md,STR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0006,02-结构细节/STR-0006-胸衣插片.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0006,02-结构细节/STR-0006-胸衣插片.md,STR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0006,02-结构细节/STR-0006-胸衣插片.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0006,02-结构细节/STR-0006-胸衣插片.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0007,02-结构细节/STR-0007-臀垫.md,STR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0007,02-结构细节/STR-0007-臀垫.md,STR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0007,02-结构细节/STR-0007-臀垫.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0007,02-结构细节/STR-0007-臀垫.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0008,02-结构细节/STR-0008-笼式裙撑.md,STR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0008,02-结构细节/STR-0008-笼式裙撑.md,STR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0008,02-结构细节/STR-0008-笼式裙撑.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0008,02-结构细节/STR-0008-笼式裙撑.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0009,02-结构细节/STR-0009-裙侧撑.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0009,02-结构细节/STR-0009-裙侧撑.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0009,02-结构细节/STR-0009-裙侧撑.md,STR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0009,02-结构细节/STR-0009-裙侧撑.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0010,02-结构细节/STR-0010-剪口装饰.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0010,02-结构细节/STR-0010-剪口装饰.md,GAR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0010,02-结构细节/STR-0010-剪口装饰.md,GAR-0013,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0010,02-结构细节/STR-0010-剪口装饰.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+STR-0011,02-结构细节/STR-0011-盘扣.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0011,02-结构细节/STR-0011-盘扣.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0011,02-结构细节/STR-0011-盘扣.md,GAR-0030,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0011,02-结构细节/STR-0011-盘扣.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0012,02-结构细节/STR-0012-翻领与驳领.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0012,02-结构细节/STR-0012-翻领与驳领.md,STR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0012,02-结构细节/STR-0012-翻领与驳领.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0012,02-结构细节/STR-0012-翻领与驳领.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0013,02-结构细节/STR-0013-装袖与插肩袖.md,STR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0013,02-结构细节/STR-0013-装袖与插肩袖.md,STR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0013,02-结构细节/STR-0013-装袖与插肩袖.md,GAR-0046,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0013,02-结构细节/STR-0013-装袖与插肩袖.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0014,02-结构细节/STR-0014-肩线与肩垫.md,STR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0014,02-结构细节/STR-0014-肩线与肩垫.md,STR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0014,02-结构细节/STR-0014-肩线与肩垫.md,GAR-0052,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0014,02-结构细节/STR-0014-肩线与肩垫.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0015,02-结构细节/STR-0015-腰线.md,STR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0015,02-结构细节/STR-0015-腰线.md,STR-0022,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0015,02-结构细节/STR-0015-腰线.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0015,02-结构细节/STR-0015-腰线.md,GAR-0052,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0016,02-结构细节/STR-0016-衣摆与开衩.md,STR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0016,02-结构细节/STR-0016-衣摆与开衩.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0016,02-结构细节/STR-0016-衣摆与开衩.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0016,02-结构细节/STR-0016-衣摆与开衩.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0017,02-结构细节/STR-0017-门襟.md,STR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0017,02-结构细节/STR-0017-门襟.md,STR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0017,02-结构细节/STR-0017-门襟.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0017,02-结构细节/STR-0017-门襟.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0018,02-结构细节/STR-0018-纽扣与扣眼.md,STR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0018,02-结构细节/STR-0018-纽扣与扣眼.md,STR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0018,02-结构细节/STR-0018-纽扣与扣眼.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0018,02-结构细节/STR-0018-纽扣与扣眼.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0019,02-结构细节/STR-0019-拉链.md,STR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0019,02-结构细节/STR-0019-拉链.md,STR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0019,02-结构细节/STR-0019-拉链.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0019,02-结构细节/STR-0019-拉链.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0020,02-结构细节/STR-0020-裁片与拼片.md,STR-0016,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0020,02-结构细节/STR-0020-裁片与拼片.md,GAR-0071,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0020,02-结构细节/STR-0020-裁片与拼片.md,GAR-0072,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0020,02-结构细节/STR-0020-裁片与拼片.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0021,02-结构细节/STR-0021-接缝与省道.md,STR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0021,02-结构细节/STR-0021-接缝与省道.md,STR-0020,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0021,02-结构细节/STR-0021-接缝与省道.md,STR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0021,02-结构细节/STR-0021-接缝与省道.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0022,02-结构细节/STR-0022-腰头.md,STR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0022,02-结构细节/STR-0022-腰头.md,STR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0022,02-结构细节/STR-0022-腰头.md,GAR-0072,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0022,02-结构细节/STR-0022-腰头.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0023,02-结构细节/STR-0023-袖口.md,STR-0013,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0023,02-结构细节/STR-0023-袖口.md,STR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0023,02-结构细节/STR-0023-袖口.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0023,02-结构细节/STR-0023-袖口.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0024,02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md,STR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0024,02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md,STR-0013,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0024,02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md,STR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0024,02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md,STR-0016,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0025,02-结构细节/STR-0025-松量与版型.md,STR-0013,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0025,02-结构细节/STR-0025-松量与版型.md,STR-0021,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0025,02-结构细节/STR-0025-松量与版型.md,STR-0024,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0025,02-结构细节/STR-0025-松量与版型.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0026,02-结构细节/STR-0026-手袋结构.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+STR-0026,02-结构细节/STR-0026-手袋结构.md,GAR-0087,accessory,verified,medium,relation caps at medium or evidence not verified
+STR-0026,02-结构细节/STR-0026-手袋结构.md,STR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+STR-0026,02-结构细节/STR-0026-手袋结构.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+MAT-0001,03-材质纹样/材料/MAT-0001-平纹细布.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0001,03-材质纹样/材料/MAT-0001-平纹细布.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0001,03-材质纹样/材料/MAT-0001-平纹细布.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0001,03-材质纹样/材料/MAT-0001-平纹细布.md,GAR-0021,accessory,verified,medium,relation caps at medium or evidence not verified
+MAT-0002,03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0002,03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0002,03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md,GAR-0020,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0002,03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0003,03-材质纹样/材料/MAT-0003-装饰绦带.md,GAR-0016,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0003,03-材质纹样/材料/MAT-0003-装饰绦带.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0003,03-材质纹样/材料/MAT-0003-装饰绦带.md,STR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0003,03-材质纹样/材料/MAT-0003-装饰绦带.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0004,03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0004,03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0004,03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md,GAR-0016,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0004,03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md,GAR-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0008,03-材质纹样/材料/MAT-0008-型染.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0008,03-材质纹样/材料/MAT-0008-型染.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0008,03-材质纹样/材料/MAT-0008-型染.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0008,03-材质纹样/材料/MAT-0008-型染.md,MAT-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0009,03-材质纹样/材料/MAT-0009-胭脂虫红染料.md,MAT-0010,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0009,03-材质纹样/材料/MAT-0009-胭脂虫红染料.md,GAR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0009,03-材质纹样/材料/MAT-0009-胭脂虫红染料.md,GAR-0029,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0009,03-材质纹样/材料/MAT-0009-胭脂虫红染料.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0010,03-材质纹样/材料/MAT-0010-苯胺染料.md,MAT-0009,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0010,03-材质纹样/材料/MAT-0010-苯胺染料.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0010,03-材质纹样/材料/MAT-0010-苯胺染料.md,MAT-0004,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0010,03-材质纹样/材料/MAT-0010-苯胺染料.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0011,03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0011,03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0011,03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md,GAR-0062,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0011,03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0012,03-材质纹样/材料/MAT-0012-织物组织.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0012,03-材质纹样/材料/MAT-0012-织物组织.md,MAT-0011,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0012,03-材质纹样/材料/MAT-0012-织物组织.md,MAT-0013,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0012,03-材质纹样/材料/MAT-0012-织物组织.md,GAR-0061,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0013,03-材质纹样/材料/MAT-0013-克重与垂坠.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0013,03-材质纹样/材料/MAT-0013-克重与垂坠.md,MAT-0012,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0013,03-材质纹样/材料/MAT-0013-克重与垂坠.md,MAT-0014,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0013,03-材质纹样/材料/MAT-0013-克重与垂坠.md,GAR-0078,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0014,03-材质纹样/材料/MAT-0014-反光与金属线.md,MAT-0004,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0014,03-材质纹样/材料/MAT-0014-反光与金属线.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0014,03-材质纹样/材料/MAT-0014-反光与金属线.md,MAT-0012,uses_material,verified,medium,relation caps at medium or evidence not verified
+MAT-0014,03-材质纹样/材料/MAT-0014-反光与金属线.md,GAR-0058,footwear,verified,medium,relation caps at medium or evidence not verified
+MAT-0005,03-材质纹样/纹样/MAT-0005-肯特布.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0005,03-材质纹样/纹样/MAT-0005-肯特布.md,GAR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0005,03-材质纹样/纹样/MAT-0005-肯特布.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0005,03-材质纹样/纹样/MAT-0005-肯特布.md,GAR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0006,03-材质纹样/纹样/MAT-0006-阿丁克拉纹样.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0006,03-材质纹样/纹样/MAT-0006-阿丁克拉纹样.md,MAT-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0006,03-材质纹样/纹样/MAT-0006-阿丁克拉纹样.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0006,03-材质纹样/纹样/MAT-0006-阿丁克拉纹样.md,GAR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0007,03-材质纹样/纹样/MAT-0007-泥染布纹样.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0007,03-材质纹样/纹样/MAT-0007-泥染布纹样.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0007,03-材质纹样/纹样/MAT-0007-泥染布纹样.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+MAT-0007,03-材质纹样/纹样/MAT-0007-泥染布纹样.md,GAR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0001,05-风格体系/STY-0001-新古典主义着装.md,PRD-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0001,05-风格体系/STY-0001-新古典主义着装.md,PRD-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0001,05-风格体系/STY-0001-新古典主义着装.md,STY-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0001,05-风格体系/STY-0001-新古典主义着装.md,LOOK-0002,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0001,05-风格体系/STY-0001-新古典主义着装.md,GAR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0002,05-风格体系/STY-0002-维多利亚丧服风格.md,PRD-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0002,05-风格体系/STY-0002-维多利亚丧服风格.md,STY-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0002,05-风格体系/STY-0002-维多利亚丧服风格.md,LOOK-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0003,05-风格体系/STY-0003-爵士时代摩登风格.md,PRD-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0003,05-风格体系/STY-0003-爵士时代摩登风格.md,STY-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0003,05-风格体系/STY-0003-爵士时代摩登风格.md,STY-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0003,05-风格体系/STY-0003-爵士时代摩登风格.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+STY-0003,05-风格体系/STY-0003-爵士时代摩登风格.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0004,05-风格体系/STY-0004-好莱坞魅惑造型.md,PRD-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0004,05-风格体系/STY-0004-好莱坞魅惑造型.md,STY-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0004,05-风格体系/STY-0004-好莱坞魅惑造型.md,STY-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0004,05-风格体系/STY-0004-好莱坞魅惑造型.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+STY-0004,05-风格体系/STY-0004-好莱坞魅惑造型.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+STY-0005,05-风格体系/STY-0005-黑色电影造型.md,SRC-0156,claim_supported_by,verified,medium,content or source evidence is not verified
+STY-0005,05-风格体系/STY-0005-黑色电影造型.md,PRD-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0005,05-风格体系/STY-0005-黑色电影造型.md,STY-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0005,05-风格体系/STY-0005-黑色电影造型.md,STY-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0005,05-风格体系/STY-0005-黑色电影造型.md,LOOK-0007,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0006,05-风格体系/STY-0006-军装制服风.md,PRD-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0006,05-风格体系/STY-0006-军装制服风.md,PRD-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0006,05-风格体系/STY-0006-军装制服风.md,STY-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0006,05-风格体系/STY-0006-军装制服风.md,LOOK-0004,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0006,05-风格体系/STY-0006-军装制服风.md,GAR-0027,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0007,05-风格体系/STY-0007-朋克亚文化风格.md,PRD-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0007,05-风格体系/STY-0007-朋克亚文化风格.md,STY-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0007,05-风格体系/STY-0007-朋克亚文化风格.md,STY-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0007,05-风格体系/STY-0007-朋克亚文化风格.md,LOOK-0006,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0007,05-风格体系/STY-0007-朋克亚文化风格.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0008,05-风格体系/STY-0008-九十年代极简主义.md,PRD-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0008,05-风格体系/STY-0008-九十年代极简主义.md,STY-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0008,05-风格体系/STY-0008-九十年代极简主义.md,STY-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0008,05-风格体系/STY-0008-九十年代极简主义.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0008,05-风格体系/STY-0008-九十年代极简主义.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0009,05-风格体系/STY-0009-复古未来主义科幻街头.md,STY-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0009,05-风格体系/STY-0009-复古未来主义科幻街头.md,STY-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0009,05-风格体系/STY-0009-复古未来主义科幻街头.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0009,05-风格体系/STY-0009-复古未来主义科幻街头.md,MAT-0004,uses_material,verified,medium,relation caps at medium or evidence not verified
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,STY-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,STY-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,PRD-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,PRD-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,LOOK-0001,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,LOOK-0003,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,LOOK-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-EXAMPLE-001,05-风格体系/STY-EXAMPLE-001-克制的都市黑色电影.md,STY-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+STY-EXAMPLE-001,05-风格体系/STY-EXAMPLE-001-克制的都市黑色电影.md,LOOK-0007,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+PRD-0001,06-时代地域/PRD-0001-1770年代英法服饰语境.md,PRD-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0001,06-时代地域/PRD-0001-1770年代英法服饰语境.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0001,06-时代地域/PRD-0001-1770年代英法服饰语境.md,STR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0001,06-时代地域/PRD-0001-1770年代英法服饰语境.md,GAR-0025,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0002,06-时代地域/PRD-0002-1790到1810英法新古典时代.md,PRD-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0002,06-时代地域/PRD-0002-1790到1810英法新古典时代.md,STY-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0002,06-时代地域/PRD-0002-1790到1810英法新古典时代.md,GAR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0002,06-时代地域/PRD-0002-1790到1810英法新古典时代.md,GAR-0020,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0003,06-时代地域/PRD-0003-1890年代英美服饰语境.md,STY-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0003,06-时代地域/PRD-0003-1890年代英美服饰语境.md,PRD-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0003,06-时代地域/PRD-0003-1890年代英美服饰语境.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0003,06-时代地域/PRD-0003-1890年代英美服饰语境.md,STR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0003,06-时代地域/PRD-0003-1890年代英美服饰语境.md,GAR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0004,06-时代地域/PRD-0004-1920年代美国与西欧.md,STY-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0004,06-时代地域/PRD-0004-1920年代美国与西欧.md,PRD-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0004,06-时代地域/PRD-0004-1920年代美国与西欧.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0004,06-时代地域/PRD-0004-1920年代美国与西欧.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+PRD-0005,06-时代地域/PRD-0005-1930年代美国好莱坞语境.md,PRD-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0005,06-时代地域/PRD-0005-1930年代美国好莱坞语境.md,STY-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+PRD-0005,06-时代地域/PRD-0005-1930年代美国好莱坞语境.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0005,06-时代地域/PRD-0005-1930年代美国好莱坞语境.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+PRD-0006,06-时代地域/PRD-0006-1940年代英美战时语境.md,STY-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+PRD-0006,06-时代地域/PRD-0006-1940年代英美战时语境.md,PRD-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0006,06-时代地域/PRD-0006-1940年代英美战时语境.md,GAR-0017,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0006,06-时代地域/PRD-0006-1940年代英美战时语境.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+PRD-0007,06-时代地域/PRD-0007-1950年代美英战后语境.md,PRD-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0007,06-时代地域/PRD-0007-1950年代美英战后语境.md,PRD-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0007,06-时代地域/PRD-0007-1950年代美英战后语境.md,STY-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0007,06-时代地域/PRD-0007-1950年代美英战后语境.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0007,06-时代地域/PRD-0007-1950年代美英战后语境.md,GAR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0008,06-时代地域/PRD-0008-1960年代伦敦与美国.md,PRD-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0008,06-时代地域/PRD-0008-1960年代伦敦与美国.md,STY-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0008,06-时代地域/PRD-0008-1960年代伦敦与美国.md,PRD-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0008,06-时代地域/PRD-0008-1960年代伦敦与美国.md,GAR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0008,06-时代地域/PRD-0008-1960年代伦敦与美国.md,MAT-0004,uses_material,verified,medium,relation caps at medium or evidence not verified
+PRD-0009,06-时代地域/PRD-0009-奥斯曼帝国晚期.md,PRD-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0009,06-时代地域/PRD-0009-奥斯曼帝国晚期.md,STY-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0009,06-时代地域/PRD-0009-奥斯曼帝国晚期.md,GAR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0009,06-时代地域/PRD-0009-奥斯曼帝国晚期.md,GAR-0027,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0009,06-时代地域/PRD-0009-奥斯曼帝国晚期.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+PRD-0010,06-时代地域/PRD-0010-拜占庭帝国晚期.md,PRD-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0010,06-时代地域/PRD-0010-拜占庭帝国晚期.md,STY-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0010,06-时代地域/PRD-0010-拜占庭帝国晚期.md,GAR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0010,06-时代地域/PRD-0010-拜占庭帝国晚期.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+PRD-0011,06-时代地域/PRD-0011-1930年代上海民国语境.md,LOOK-0008,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+PRD-0011,06-时代地域/PRD-0011-1930年代上海民国语境.md,SCN-0004,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+PRD-0011,06-时代地域/PRD-0011-1930年代上海民国语境.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0011,06-时代地域/PRD-0011-1930年代上海民国语境.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0011,06-时代地域/PRD-0011-1930年代上海民国语境.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0011,06-时代地域/PRD-0011-1930年代上海民国语境.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+PRD-0011,06-时代地域/PRD-0011-1930年代上海民国语境.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+SCN-0001,07-剧情场景/SCN-0001-雨夜追查.md,SRC-0036,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0001,07-剧情场景/SCN-0001-雨夜追查.md,LOOK-0021,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0001,07-剧情场景/SCN-0001-雨夜追查.md,LOOK-0007,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0001,07-剧情场景/SCN-0001-雨夜追查.md,STY-0005,in_style,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0002,07-剧情场景/SCN-0002-1900庄园早餐.md,SRC-0167,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0002,07-剧情场景/SCN-0002-1900庄园早餐.md,LOOK-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0002,07-剧情场景/SCN-0002-1900庄园早餐.md,STY-0010,in_style,verified,medium,relation caps at medium or evidence not verified
+SCN-0002,07-剧情场景/SCN-0002-1900庄园早餐.md,PRD-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0003,07-剧情场景/SCN-0003-1977银禧河船.md,SRC-0165,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0003,07-剧情场景/SCN-0003-1977银禧河船.md,LOOK-0006,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0003,07-剧情场景/SCN-0003-1977银禧河船.md,STY-0007,in_style,verified,medium,relation caps at medium or evidence not verified
+SCN-0003,07-剧情场景/SCN-0003-1977银禧河船.md,PRD-0008,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,SRC-0201,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,SRC-0202,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,LOOK-0008,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,LOOK-0009,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,PRD-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0004,07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0005,07-剧情场景/SCN-0005-急诊夜班抢救.md,SRC-0400,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0005,07-剧情场景/SCN-0005-急诊夜班抢救.md,LOOK-0010,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0005,07-剧情场景/SCN-0005-急诊夜班抢救.md,GAR-0036,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0005,07-剧情场景/SCN-0005-急诊夜班抢救.md,GAR-0041,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0005,07-剧情场景/SCN-0005-急诊夜班抢救.md,GAR-0044,footwear,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0006,07-剧情场景/SCN-0006-废弃空间站维修.md,SRC-0402,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0006,07-剧情场景/SCN-0006-废弃空间站维修.md,SRC-0403,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0006,07-剧情场景/SCN-0006-废弃空间站维修.md,LOOK-0011,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0006,07-剧情场景/SCN-0006-废弃空间站维修.md,GAR-0038,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0006,07-剧情场景/SCN-0006-废弃空间站维修.md,GAR-0039,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0006,07-剧情场景/SCN-0006-废弃空间站维修.md,STY-0009,in_style,verified,medium,relation caps at medium or evidence not verified
+SCN-0007,07-剧情场景/SCN-0007-上海雨夜后巷.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0007,07-剧情场景/SCN-0007-上海雨夜后巷.md,SRC-0201,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0007,07-剧情场景/SCN-0007-上海雨夜后巷.md,LOOK-0012,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0007,07-剧情场景/SCN-0007-上海雨夜后巷.md,LOOK-0009,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0007,07-剧情场景/SCN-0007-上海雨夜后巷.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0007,07-剧情场景/SCN-0007-上海雨夜后巷.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0007,07-剧情场景/SCN-0007-上海雨夜后巷.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,SRC-0106,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,SRC-0431,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,SRC-0144,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,SRC-0145,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,LOOK-0013,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,GAR-0070,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0008,07-剧情场景/SCN-0008-加纳英国婚礼.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,SRC-0412,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,SRC-0413,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,SRC-0405,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,SRC-0406,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,LOOK-0014,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,LOOK-0022,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,GAR-0046,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0009,07-剧情场景/SCN-0009-1940年代战后通勤.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+SCN-0010,07-剧情场景/SCN-0010-伦敦美术馆晚宴.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0010,07-剧情场景/SCN-0010-伦敦美术馆晚宴.md,SRC-0428,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0010,07-剧情场景/SCN-0010-伦敦美术馆晚宴.md,LOOK-0019,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0010,07-剧情场景/SCN-0010-伦敦美术馆晚宴.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0010,07-剧情场景/SCN-0010-伦敦美术馆晚宴.md,GAR-0067,accessory,verified,medium,relation caps at medium or evidence not verified
+SCN-0010,07-剧情场景/SCN-0010-伦敦美术馆晚宴.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0011,07-剧情场景/SCN-0011-伦敦南亚家庭庆典.md,SRC-0424,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0011,07-剧情场景/SCN-0011-伦敦南亚家庭庆典.md,SRC-0102,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0011,07-剧情场景/SCN-0011-伦敦南亚家庭庆典.md,LOOK-0020,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0011,07-剧情场景/SCN-0011-伦敦南亚家庭庆典.md,GAR-0063,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0011,07-剧情场景/SCN-0011-伦敦南亚家庭庆典.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+SCN-0011,07-剧情场景/SCN-0011-伦敦南亚家庭庆典.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,SRC-0106,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,SRC-0431,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,SRC-0144,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,SRC-0145,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,LOOK-0018,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0012,07-剧情场景/SCN-0012-阿克拉家庭庆典.md,GAR-0070,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0013,07-剧情场景/SCN-0013-上海银行家晚宴.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0013,07-剧情场景/SCN-0013-上海银行家晚宴.md,SRC-0201,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0013,07-剧情场景/SCN-0013-上海银行家晚宴.md,LOOK-0015,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0013,07-剧情场景/SCN-0013-上海银行家晚宴.md,SCN-0014,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0013,07-剧情场景/SCN-0013-上海银行家晚宴.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0013,07-剧情场景/SCN-0013-上海银行家晚宴.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+SCN-0013,07-剧情场景/SCN-0013-上海银行家晚宴.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+SCN-0014,07-剧情场景/SCN-0014-上海难民收容所.md,SRC-0412,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0014,07-剧情场景/SCN-0014-上海难民收容所.md,LOOK-0015,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0014,07-剧情场景/SCN-0014-上海难民收容所.md,SCN-0013,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0014,07-剧情场景/SCN-0014-上海难民收容所.md,GAR-0052,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0014,07-剧情场景/SCN-0014-上海难民收容所.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+SCN-0014,07-剧情场景/SCN-0014-上海难民收容所.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+SCN-0015,07-剧情场景/SCN-0015-1940年代复员站台.md,SRC-0409,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0015,07-剧情场景/SCN-0015-1940年代复员站台.md,SRC-0414,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0015,07-剧情场景/SCN-0015-1940年代复员站台.md,LOOK-0016,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0015,07-剧情场景/SCN-0015-1940年代复员站台.md,GAR-0040,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0015,07-剧情场景/SCN-0015-1940年代复员站台.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0015,07-剧情场景/SCN-0015-1940年代复员站台.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+SCN-0015,07-剧情场景/SCN-0015-1940年代复员站台.md,GAR-0050,accessory,verified,medium,relation caps at medium or evidence not verified
+SCN-0016,07-剧情场景/SCN-0016-1980年代设计工作室.md,SRC-0155,claim_supported_by,verified,medium,content or source evidence is not verified
+SCN-0016,07-剧情场景/SCN-0016-1980年代设计工作室.md,LOOK-0017,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+SCN-0016,07-剧情场景/SCN-0016-1980年代设计工作室.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0016,07-剧情场景/SCN-0016-1980年代设计工作室.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+SCN-0016,07-剧情场景/SCN-0016-1980年代设计工作室.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,SRC-0150,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,GAR-0015,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,STR-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,STR-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,GAR-0028,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,PRD-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,STY-0010,in_style,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,SRC-0152,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,SRC-0169,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,GAR-0018,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,GAR-0020,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,GAR-0026,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,PRD-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0002,09-造型组合/LOOK-0002-摄政时期乡间日装.md,STY-0001,in_style,verified,medium,relation caps at medium or evidence not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,SRC-0101,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,SRC-0103,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,GAR-0002,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,GAR-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,GAR-0013,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,STR-0001,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0003,09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,STY-0010,in_style,verified,medium,relation caps at medium or evidence not verified
+LOOK-0004,09-造型组合/LOOK-0004-奥斯曼晚期官员.md,SRC-0162,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0004,09-造型组合/LOOK-0004-奥斯曼晚期官员.md,GAR-0027,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0004,09-造型组合/LOOK-0004-奥斯曼晚期官员.md,GAR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0004,09-造型组合/LOOK-0004-奥斯曼晚期官员.md,MAT-0003,uses_material,verified,medium,relation caps at medium or evidence not verified
+LOOK-0004,09-造型组合/LOOK-0004-奥斯曼晚期官员.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0004,09-造型组合/LOOK-0004-奥斯曼晚期官员.md,PRD-0009,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0004,09-造型组合/LOOK-0004-奥斯曼晚期官员.md,STY-0006,in_style,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,SRC-0167,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,SRC-0153,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,GAR-0007,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,STR-0004,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,GAR-0012,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,GAR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,GAR-0026,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,GAR-0024,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,MAT-0002,uses_material,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,PRD-0003,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,STY-0010,in_style,verified,medium,relation caps at medium or evidence not verified
+LOOK-0005,09-造型组合/LOOK-0005-1900南方庄园女主人.md,SCN-0002,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,SRC-0165,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,SRC-0159,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,SRC-0173,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,STR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,STY-0007,in_style,verified,medium,relation caps at medium or evidence not verified
+LOOK-0006,09-造型组合/LOOK-0006-1977伦敦朋克青年.md,SCN-0003,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0007,09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,SRC-0036,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0007,09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0007,09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0007,09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0007,09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,SCN-0001,garment_part,example,medium,relation caps at medium or evidence not verified
+LOOK-0007,09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,STY-0005,in_style,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0007,09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,LOOK-0021,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,SRC-0202,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,SRC-0203,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,GAR-0032,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,PRD-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0008,09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,SCN-0004,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,SRC-0201,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,PRD-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,SCN-0004,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0009,09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,LOOK-0008,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0010,09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,SRC-0400,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0010,09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,GAR-0036,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0010,09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,GAR-0041,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0010,09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,GAR-0044,footwear,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0010,09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,GAR-0050,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0010,09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0010,09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,SCN-0005,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,SRC-0402,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,SRC-0401,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,SRC-0123,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,SRC-0410,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,GAR-0038,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,GAR-0037,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,GAR-0039,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,GAR-0050,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0011,09-造型组合/LOOK-0011-废弃空间站维修工.md,SCN-0006,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,SRC-0201,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0012,09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,SCN-0007,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,SRC-0106,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,SRC-0431,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,SRC-0408,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,SRC-0144,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,SRC-0145,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,GAR-0070,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0013,09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,SCN-0008,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,SRC-0412,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,SRC-0413,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,SRC-0405,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,SRC-0407,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,GAR-0053,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0014,09-造型组合/LOOK-0014-1940年代战后通勤女装.md,SCN-0009,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SRC-0201,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SRC-0412,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SRC-0405,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SRC-0407,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,GAR-0052,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,LOOK-0009,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SCN-0013,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0015,09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,SCN-0014,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0404,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0123,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0410,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0204,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0420,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0203,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0405,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SRC-0407,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0040,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0050,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,LOOK-0014,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SCN-0015,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0016,09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,SCN-0009,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,SRC-0165,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,SRC-0159,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,SRC-0173,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0019,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0051,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,STR-0010,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,LOOK-0006,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,SCN-0003,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0017,09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,SCN-0016,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,SRC-0106,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,SRC-0431,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,SRC-0144,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,SRC-0145,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,GAR-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,GAR-0070,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,MAT-0005,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,MAT-0006,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,SCN-0012,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0018,09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,LOOK-0013,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,SRC-0200,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,SRC-0201,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,SRC-0428,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,GAR-0031,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,STR-0011,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,GAR-0067,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0019,09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,SCN-0010,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,SRC-0424,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,SRC-0102,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,SRC-0205,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,GAR-0063,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,MAT-0001,uses_material,verified,medium,relation caps at medium or evidence not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,GAR-0035,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,GAR-0048,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,SCN-0011,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0020,09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,LOOK-0013,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,SRC-0405,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,SRC-0407,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,SRC-0123,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,LOOK-0007,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,GAR-0045,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0021,09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,SCN-0001,garment_part,example,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,SRC-0204,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,SRC-0406,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,SRC-0420,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,SRC-0203,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,SRC-0407,claim_supported_by,verified,medium,content or source evidence is not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,GAR-0033,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,GAR-0046,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,GAR-0034,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,GAR-0060,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,GAR-0047,accessory,verified,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,LOOK-0014,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,LOOK-0016,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,SCN-0009,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-0022,09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,SCN-0015,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+LOOK-EXAMPLE-001,09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md,GAR-0014,garment_part,verified,medium,relation caps at medium or evidence not verified
+LOOK-EXAMPLE-001,09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md,GAR-0022,footwear,verified,medium,relation caps at medium or evidence not verified
+LOOK-EXAMPLE-001,09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md,LOOK-0007,garment_part,interpretive,medium,relation caps at medium or evidence not verified
+GAR-0001,,SRC-0028,claim_supported_by,should-connect,medium,"source-audit action_should_connect; candidate only, no card link until curated: GAR-0001：和服卡以 Met 19 世纪和服为锚点并说明 1910–30 出口款另卡；Met ca.1910 和服可作为早期 20 世纪通用和服实例（注意 isPublicDomain=false）"
+GAR-0008,,SRC-0029,claim_supported_by,should-connect,medium,"source-audit action_should_connect; candidate only, no card link until curated: GAR-0008：马甲卡写 17—18 世纪马甲形制；Met 1615-20 马甲实物提供该时段实例（与卡内 FIT 定义来源互补）"
+GAR-0008,,SRC-0030,claim_supported_by,should-connect,medium,"source-audit action_should_connect; candidate only, no card link until curated: GAR-0008：马甲卡写 18 世纪盛行刺绣；Met 1780-1800 丝+棉马甲提供 18 世纪末实例"
+GAR-0045,,SRC-0037,claim_supported_by,should-connect,medium,"source-audit action_should_connect; candidate only, no card link until curated: GAR-0045：风衣卡正文写 Burberry gabardine 历史；V&A 博文明确讲 gabardine 防水原理与 trench coat 主题（非仅关键词）"
+GAR-0063,,SRC-0041,claim_supported_by,should-connect,low,"source-audit action_should_connect; candidate only, no card link until curated: GAR-0063：纱丽卡写南亚缠绕穿法；V&A kantha 走针博文以 tussar 纱丽为例说明刺绣工艺——仅工艺语境，非形制证据，建议 review 而非直接迁移"
+GAR-0080,,SRC-0050,claim_supported_by,should-connect,medium,"source-audit action_should_connect; candidate only, no card link until curated: GAR-0080：腰带卡把腰带定义为中世纪—早期近代配饰并以带扣装饰为例；CMA 1375-1400 银鎏金腰带带扣实物直接支撑该时段实例"
+GAR-0047,,SRC-0059,claim_supported_by,should-connect,medium,"source-audit action_should_connect; candidate only, no card link until curated: GAR-0047：雨伞卡写雨伞为携带式防雨工具与身份配饰；V&A『保持干燥简史』提供防雨/伞的历史语境（1929 地铁海报例）"

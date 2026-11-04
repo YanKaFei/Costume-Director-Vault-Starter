@@ -1,11 +1,11 @@
 # T40 — query 排序：1930s 上海 top5 必须含 GAR-0031 且无 example
 
-- 运行时间：2026-11-05T00:45:46+08:00
+- 运行时间：2026-11-05T01:20:07+08:00
 - 测试类型：query_ranking, M8
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T40-query排序1930s上海.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json`
-- 退出码：**0**（耗时 1.27s）
+- 退出码：**0**（耗时 1.3s）
 
 ## 实际输入
 
@@ -75,8 +75,8 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json` | 0 | 1.27s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s 上海 --limit 5 --json` | 0 | 0.94s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json` | 0 | 1.3s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s 上海 --limit 5 --json` | 0 | 0.99s |
 
 - `query.py` 命中数量：**5**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0031, LOOK-0008, LOOK-0009, LOOK-0012, LOOK-0015

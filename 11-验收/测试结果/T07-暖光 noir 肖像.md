@@ -1,6 +1,6 @@
 # T07 — 暖光肖像：同一角色的冷暖光对照（warm lighting）
 
-- 运行时间：2026-11-05T00:44:25+08:00
+- 运行时间：2026-11-05T01:18:43+08:00
 - 测试类型：warm_cool_lighting
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T07-暖光 noir 肖像.json`
@@ -82,7 +82,7 @@
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
 | `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T07-暖光 noir 肖像.json --json` | 0 | 1.77s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.93s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.97s |
 
 - `query.py` 命中数量：**3**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：STY-0005, LOOK-0021, LOOK-0007

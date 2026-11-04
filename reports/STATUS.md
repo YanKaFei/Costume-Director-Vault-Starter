@@ -130,3 +130,17 @@
 - **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；HUMAN_UAT_PENDING 4 项未执行、未代填。
 - **重要**：R1.1 修复已提交为 `567ec8b`；工作区仅剩报告类编辑与可再生成 sandbox（未跟踪）。
 - 详见 `reports/R1.1-REPORT.md`、`R1.1-DEFECT-CLOSURE.md`、`R1.1-SECURITY.md`、`R1.1-SKILL-INTEGRATION.md`、`R1.1-REGRESSION.md`、`R1.1-DATA-SAFETY.md`。
+
+
+## 12. P5-A 图谱验收（2026-11-05 01:25，task-63）
+
+- **快照**：最终工作区（P5 关系迁移后；HEAD 仍 `1acb4d3`，迁移 174 项未提交）；400 卡（189 内容 + 211 来源）；validate **PASS 400/400**。
+- **After 指标（vs HEAD 1acb4d3 基线）**：内容卡零可见链接 0→0；来源可见引用 2→**143**（100% 机器引用来源）；source_ids 可见 2/299→**193/299（64.5%）**；有 source_ids 无可见来源链接的卡 180→**38（全部 draft）**；typed 无可见 313→**122**；导航可见边 24→**494**（MOC 9 页 + 关系类型页）；语义分量仍 **66（335 主 + 65 source 单点）**。
+- **迁移产物**：142 卡 / **201 条 relations**（claim 191、style 8、material 2；全 high+verified）；新增可见 SRC 链接 **191**；卡片 diff **+536/−0**，无 evidence_status/type/source_ids 改动。
+- **抽样**：26 条关系回真实卡/源 **26/26 PASS**（结构化字段匹配 + 可见链接 + target 存在）；relation migration tests **8/8 PASS**；迁移备份恢复 0 mismatch（1455 文件）。
+- **回归**：validate 400/400、build 211/211、acceptance 45/45、quality_eval 17/17（relevant@5 4.16、precision 0.929、0-hit 0）、composer 9/9、Macbeth 11/11、lookbook 6/6、cd 7/7、security 7/7、skill-sync 3/3、backup 7/7、human 3/3 全 PASS；**workflow 当前树重跑未完成（慢/挂起）→ NOT_RUN（迁移前基线 9/9）**。
+- **Agent 关系检索（headless）**：官方/overlay 均 `skill=1` + 工具调用并产生 final，但均无 `turn_end`（官方 final 可核声明与真实数据一致：GAR-0002→SRC-0103、GAR-0084→SRC-0524、LOOK-0003 含 GAR-0002）；**判 PARTIAL/BLOCKED，不写 PASS**。
+- **剩余孤岛/原因**：65 个 source 语义单点（28 无关系、27 背景/字典、9 P4 书源仅研究文档、1 书源）；68 个未被内容引用来源（vocabulary 19、museum 12、academic 10、reference 9、other 8、image 5、industry 4、dataset 1）；38 draft 卡未迁移（106 source_ids 不可见）。属**真实独立/待接入**，非链接 bug。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN：迁移未提交、workflow 未复跑、Agent 检索未完成、GUI NOT_RUN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；**Obsidian GUI UAT = NOT_RUN**（不得声称通过）。
+- 详见 `reports/P5-GRAPH-AFTER.md`、`P5-GRAPH-QA.md`、`P5-COVERAGE-GAPS.md`、`P5-HUMAN-UAT.md`。
+- **P0 事故记录**：迁移首轮产生 29 张坏 frontmatter（closing fence 缺换行），validate 371/400；未提交，已从备份恢复并重跑，当前 validate 400/400 PASS（详见 P5-RELATION-MIGRATION §0）。

@@ -23,6 +23,8 @@ movement_notes: 硬挺羊毛外套限制抬臂；及膝裙限制跨步；衬衫�
 lighting_notes: 灰色人字纹羊毛在侧光下纹理清晰；金属 CC41 纽扣有局部高光。
 prompt_en: '1942 CC41 Utility skirt suit, grey herringbone wool jacket and skirt, short-sleeved blouse, utility buttons stamped CC41, tailored wartime silhouette'
 tags: [costume, garment, 1940s, utility, tailoring]
+relations:
+  - 'target=SRC-0413; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0413; rule=R-SOURCE-IDS'
 ---
 # Utility 裙套装 / Utility skirt suit
 
@@ -57,3 +59,4 @@ Utility 裙套装是 1942 年英国 CC41 民用服装方案下的节省布料套
 - [[GAR-0054-1950年代鸡尾酒裙]]
 - [[GAR-0040-军装外套]]
 - [[MAT-0010-苯胺染料]]
+- [[SRC-0413-V&A-1942Utility裙套装]] — cited source (exact source_ids; no URL guessing)

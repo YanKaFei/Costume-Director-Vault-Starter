@@ -23,6 +23,8 @@ movement_notes: 垫肩与省道限制抬臂；下摆长度受配给限制，跨�
 lighting_notes: 人造丝 crepe 有柔和光泽、垂坠好；猩红在暖光下饱和、冷光下偏暗。
 prompt_en: '1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut'
 tags: [costume, garment, 1940s, utility, womenswear]
+relations:
+  - 'target=SRC-0412; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0412; rule=R-SOURCE-IDS'
 ---
 # Utility 连衣裙 / Utility day dress
 
@@ -57,3 +59,4 @@ Utility 连衣裙是 1942 年英国战时 Utility 方案下的简化女装：限
 - [[GAR-0048-手提包]]
 - [[MAT-0010-苯胺染料]]
 - [[GAR-0054-1950年代鸡尾酒裙]]
+- [[SRC-0412-V&A-1942Utility连衣裙]] — cited source (exact source_ids; no URL guessing)

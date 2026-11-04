@@ -20,6 +20,8 @@ structural_notes: Fashionpedia 本体把服装类别（categories）与属性（
 construction_era: []
 prompt_en: 'ontology-aligned costume description: category (garment type), part (collar/sleeve/waist/hem), attribute (shape, length, closure, material)'
 tags: [costume, construction, taxonomy, ontology]
+relations:
+  - 'target=SRC-0001; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0001; rule=R-SOURCE-IDS'
 ---
 # 结构属性词表（Fashionpedia） / structure attribute taxonomy (Fashionpedia)
 
@@ -54,3 +56,4 @@ tags: [costume, construction, taxonomy, ontology]
 - [[STR-0013-装袖与插肩袖]]
 - [[STR-0015-腰线]]
 - [[STR-0016-衣摆与开衩]]
+- [[SRC-0001-fashionpedia]] — cited source (exact source_ids; no URL guessing)

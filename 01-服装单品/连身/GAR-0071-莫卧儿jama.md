@@ -23,6 +23,10 @@ movement_notes: 长袍及膝/及踝、裙摆宽大，快走时下摆展开；交
 lighting_notes: 白棉细布哑光，金线/金箔在侧光下闪耀；红缎衬里在开襟与下摆处形成暗红边缘。
 prompt_en: 'Mughal jama, white cotton muslin with gold embroidery, crossover front tied at the side, flared full skirt, red satin facings at hem and cuffs, courtly South Asian menswear'
 tags: [costume, garment, south_asia, mughal, menswear]
+relations:
+  - 'target=SRC-0450; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0450; rule=R-SOURCE-IDS'
+  - 'target=SRC-0451; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0451; rule=R-SOURCE-IDS'
+  - 'target=SRC-0452; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0452; rule=R-SOURCE-IDS'
 ---
 # 莫卧儿jama / Mughal jama
 
@@ -59,3 +63,6 @@ jama 是莫卧儿/南亚男性的交叉襟长袍：胸前交叉、侧边系合�
 - [[GAR-0063-纱丽]]
 - [[GAR-0004-卡夫坦长袍]]
 - [[GAR-0030-惠皮尔]]
+- [[SRC-0450-V&A-莫卧儿jama18世纪]] — cited source (exact source_ids; no URL guessing)
+- [[SRC-0451-V&A-1855jama]] — cited source (exact source_ids; no URL guessing)
+- [[SRC-0452-V&A-勒克瑙angarkha]] — cited source (exact source_ids; no URL guessing)

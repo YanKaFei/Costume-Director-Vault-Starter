@@ -1,0 +1,573 @@
+{
+  "created": "20261105-011701",
+  "root": "/Users/coffee/Desktop/Costume-Director-Vault-Starter",
+  "backup_dir": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/P5/rollback-20261105-011701",
+  "rollback_dir": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/P5/rollback-20261105-011701",
+  "files": [
+    {
+      "card_id": "GAR-0020",
+      "path": "01-服装单品/内层/GAR-0020-假衬衣.md",
+      "original_sha256": "168ce6e8d3765c5cfd76f31de791735a8e76b963c8e3d4cc3d347f182fda21a5"
+    },
+    {
+      "card_id": "GAR-0025",
+      "path": "01-服装单品/头部/GAR-0025-三角帽.md",
+      "original_sha256": "f89de4f3e4256d1bc85568b5f0c2480f936abf63898301180c0aa5fba4c3752d"
+    },
+    {
+      "card_id": "GAR-0026",
+      "path": "01-服装单品/头部/GAR-0026-波克帽.md",
+      "original_sha256": "73c235e3e8e62854089b78cb31f082f2259cc0303098224ad9869fab59e8a100"
+    },
+    {
+      "card_id": "GAR-0027",
+      "path": "01-服装单品/头部/GAR-0027-费兹帽.md",
+      "original_sha256": "3f0639c7562f056ad2e66943abfef4ddfd53fc2030ffa64acc7d886b02af3ddd"
+    },
+    {
+      "card_id": "GAR-0039",
+      "path": "01-服装单品/头部/GAR-0039-安全头盔.md",
+      "original_sha256": "396926d0c29258373e7b7e4acc23c68ad2c7816b3b14664dbe9140998f147ab6"
+    },
+    {
+      "card_id": "GAR-0068",
+      "path": "01-服装单品/头部/GAR-0068-婚礼头纱.md",
+      "original_sha256": "b2033f209dc323c3e5828b2f68b94551634aa75c8c82bd099ead4bd9f49f8530"
+    },
+    {
+      "card_id": "GAR-0070",
+      "path": "01-服装单品/头部/GAR-0070-头巾.md",
+      "original_sha256": "75a8be5de890b8a2ce59f155b49b72a26ff9544a36dd4a73175f33d9f1d5b2d7"
+    },
+    {
+      "card_id": "GAR-0085",
+      "path": "01-服装单品/头部/GAR-0085-帽子结构.md",
+      "original_sha256": "c13fa2e6f6b39d1cc4cd9a167548b0a6a28c8124eacc34617fc0d90165895386"
+    },
+    {
+      "card_id": "GAR-0047",
+      "path": "01-服装单品/携带物/GAR-0047-雨伞.md",
+      "original_sha256": "a8fb7d4d81ca4b599a00bc1d16fb3ef0e027e3fc6d5f5aabee9ace357a8bdfa8"
+    },
+    {
+      "card_id": "GAR-0048",
+      "path": "01-服装单品/携带物/GAR-0048-手提包.md",
+      "original_sha256": "3f5371bbcc5867be88579544bb2b5190504129a618ebe4ed9293315f3fe25f1c"
+    },
+    {
+      "card_id": "GAR-0049",
+      "path": "01-服装单品/携带物/GAR-0049-手杖.md",
+      "original_sha256": "77231182461e380f249dc77387985588e8a39d7ce2be156f2c3ff56b71cb08ae"
+    },
+    {
+      "card_id": "GAR-0082",
+      "path": "01-服装单品/携带物/GAR-0082-匕首.md",
+      "original_sha256": "2d1f399e62fcae5f031a39f42068a43653be34d590b82619b4f4870f196ab556"
+    },
+    {
+      "card_id": "GAR-0087",
+      "path": "01-服装单品/携带物/GAR-0087-手袋结构.md",
+      "original_sha256": "84b3bc39d1d4a1a6fe9f2ac9e1b7a13b644dba2312b16b2b5c9405151ceab7c8"
+    },
+    {
+      "card_id": "GAR-0022",
+      "path": "01-服装单品/足部/GAR-0022-威灵顿靴.md",
+      "original_sha256": "e5ad336321868bdba6765867773a0c57c2cee0071c1d05c974a048abd665114e"
+    },
+    {
+      "card_id": "GAR-0023",
+      "path": "01-服装单品/足部/GAR-0023-莫卡辛鞋.md",
+      "original_sha256": "b193531d0d93695addea2735991e1abe4650911693f1418b1f0ca4570cb514f2"
+    },
+    {
+      "card_id": "GAR-0024",
+      "path": "01-服装单品/足部/GAR-0024-穆勒鞋.md",
+      "original_sha256": "4b62132c0800c5af096aaab3089bac62314f018e2659e6b3fdc0c94948c9156d"
+    },
+    {
+      "card_id": "GAR-0035",
+      "path": "01-服装单品/足部/GAR-0035-女式皮鞋.md",
+      "original_sha256": "cf86defd579a51f1c50c21c3bcee3df72a3644733d8840d2c7436da87ef5b4bd"
+    },
+    {
+      "card_id": "GAR-0058",
+      "path": "01-服装单品/足部/GAR-0058-1970年代厚底鞋.md",
+      "original_sha256": "4643c1c04e1d2f565a4801345fbe0c3e8559073bcfd06b9b99130d693a5c9da9"
+    },
+    {
+      "card_id": "GAR-0060",
+      "path": "01-服装单品/足部/GAR-0060-1930年代男式皮鞋.md",
+      "original_sha256": "33117e9a0bff0487e29d4705d1cb87ab550254f445b032027c436ebf4fd84109"
+    },
+    {
+      "card_id": "GAR-0081",
+      "path": "01-服装单品/足部/GAR-0081-皮靴.md",
+      "original_sha256": "3fc638a44ed16feb5cc354a59ac6b616c6741cc9302b273268fe8fdaf3fb8f90"
+    },
+    {
+      "card_id": "GAR-0084",
+      "path": "01-服装单品/足部/GAR-0084-高跟鞋.md",
+      "original_sha256": "212788613a66d4a095f7ebe0a54fac17909d73047ff01280b63f4339358412c1"
+    },
+    {
+      "card_id": "GAR-0004",
+      "path": "01-服装单品/连身/GAR-0004-卡夫坦长袍.md",
+      "original_sha256": "b35bdb9cdfaebc724a68f8041b60bdd880af2bd5b10e1fa76abadfc175215ef5"
+    },
+    {
+      "card_id": "GAR-0009",
+      "path": "01-服装单品/连身/GAR-0009-达尔马提亚长袍.md",
+      "original_sha256": "a5b26270c5e8b8338773fc4a358c646d835a8d2428a2d1c5754f20ded9cc2da7"
+    },
+    {
+      "card_id": "GAR-0015",
+      "path": "01-服装单品/连身/GAR-0015-法式长袍.md",
+      "original_sha256": "363c331baf549cb46de777f9953508e7f74a12727d21123dd114e397ab9ecf43"
+    },
+    {
+      "card_id": "GAR-0029",
+      "path": "01-服装单品/连身/GAR-0029-托加袍.md",
+      "original_sha256": "6f992a8d9123c9919bbb1c65c7ee0f17ad91ab12b95599d42866600d97b42903"
+    },
+    {
+      "card_id": "GAR-0031",
+      "path": "01-服装单品/连身/GAR-0031-旗袍.md",
+      "original_sha256": "f0ed920f70714afd5d5c9004086bfd5925b3a7eb8aa3f5c43d685937cde843d9"
+    },
+    {
+      "card_id": "GAR-0032",
+      "path": "01-服装单品/连身/GAR-0032-长衫.md",
+      "original_sha256": "0c5cc3993d5c2d478a4671b4aa64dbe22fed94cee59bd395a8bd58d90be7606d"
+    },
+    {
+      "card_id": "GAR-0036",
+      "path": "01-服装单品/连身/GAR-0036-护士制服.md",
+      "original_sha256": "a610e2417148b7cb8e7e514e43c4ee4bb4e31d2fe43202e44973b4a9efd887f5"
+    },
+    {
+      "card_id": "GAR-0038",
+      "path": "01-服装单品/连身/GAR-0038-连体工作服.md",
+      "original_sha256": "e8f2e00cd3cdf059b7ceb89d0f875edbac9738a5902cf23f508e19ed32916d28"
+    },
+    {
+      "card_id": "GAR-0052",
+      "path": "01-服装单品/连身/GAR-0052-Utility连衣裙.md",
+      "original_sha256": "c02a4738de2f4f2c77488fb8e1a01339e029dc73f14832f520c389a517a15dd4"
+    },
+    {
+      "card_id": "GAR-0053",
+      "path": "01-服装单品/连身/GAR-0053-Utility裙套装.md",
+      "original_sha256": "9b5937c49e5ee20ee13ff3765f66dc3726db0ba1ad1fb09f0e50561b10b6b6a9"
+    },
+    {
+      "card_id": "GAR-0054",
+      "path": "01-服装单品/连身/GAR-0054-1950年代鸡尾酒裙.md",
+      "original_sha256": "46b8d5aa100a2dfc259417c36a4f9d69d6aa30f590fa1a10a2abdfb014d496c9"
+    },
+    {
+      "card_id": "GAR-0055",
+      "path": "01-服装单品/连身/GAR-0055-1950年代儿童印花裙.md",
+      "original_sha256": "93d19e302bab39469dee1b33864ce6ea4e415cabf67049f8a5473ca18bfec2b9"
+    },
+    {
+      "card_id": "GAR-0056",
+      "path": "01-服装单品/连身/GAR-0056-1960年代迷你裙.md",
+      "original_sha256": "d7f80397b21e2b3ac51970afe85c7f993910792e4b6cab6c1cfc9b3f2c5697ce"
+    },
+    {
+      "card_id": "GAR-0059",
+      "path": "01-服装单品/连身/GAR-0059-1970年代牛仔背带裤.md",
+      "original_sha256": "2beb398a9ee40a73660ec34c478165e573e75e35104e8ef8b81bb1cd5ec8ef2e"
+    },
+    {
+      "card_id": "GAR-0061",
+      "path": "01-服装单品/连身/GAR-0061-科普特束腰长袍.md",
+      "original_sha256": "1a9b39348941a944e9642ac261954ee51e77d61c0792ecfa8083d85537d7741c"
+    },
+    {
+      "card_id": "GAR-0062",
+      "path": "01-服装单品/连身/GAR-0062-意大利文艺复兴长袍.md",
+      "original_sha256": "b9ccd9babf9a1b73adcb064c401b5092aa3f6bf48ad57ed1a4f60f72f5b27e8c"
+    },
+    {
+      "card_id": "GAR-0063",
+      "path": "01-服装单品/连身/GAR-0063-纱丽.md",
+      "original_sha256": "c599832950040b159aee08fbbb09f7438b142add8337bc75404b1301e20d5bac"
+    },
+    {
+      "card_id": "GAR-0064",
+      "path": "01-服装单品/连身/GAR-0064-韩服.md",
+      "original_sha256": "8b54e2242e6cc3d78fad41784328c95e5745a65494f49549d163d9dd960d856f"
+    },
+    {
+      "card_id": "GAR-0069",
+      "path": "01-服装单品/连身/GAR-0069-阿格巴达.md",
+      "original_sha256": "a517a481e3dc66af7c18b2c883cd1927e39918cd653e97b85ccec94d92e5bbf4"
+    },
+    {
+      "card_id": "GAR-0071",
+      "path": "01-服装单品/连身/GAR-0071-莫卧儿jama.md",
+      "original_sha256": "e863878367b09923ff71712d088cba05bb1ee9f85e0c6e0942498474b411ee9a"
+    },
+    {
+      "card_id": "GAR-0075",
+      "path": "01-服装单品/连身/GAR-0075-束腰长袍.md",
+      "original_sha256": "5c1596eb070d747c4684ea0c26e56370bd9c597489e464ec6ea8937f424f16d5"
+    },
+    {
+      "card_id": "GAR-0021",
+      "path": "01-服装单品/配饰/GAR-0021-围裙裙.md",
+      "original_sha256": "d3b0942ffe0b031ce2d7206e8019c5bc629057f0d23db45f616f06c3c58bfbac"
+    },
+    {
+      "card_id": "GAR-0028",
+      "path": "01-服装单品/配饰/GAR-0028-手笼.md",
+      "original_sha256": "ef5d0470e3955803bd145e68513e4d5293c72531b610287a83f8f2f5320368e6"
+    },
+    {
+      "card_id": "GAR-0050",
+      "path": "01-服装单品/配饰/GAR-0050-制服徽章.md",
+      "original_sha256": "1032182064ed285f8b9bebda3cf11f30bd0efece323abab4ba899f9776693cbf"
+    },
+    {
+      "card_id": "GAR-0051",
+      "path": "01-服装单品/配饰/GAR-0051-朋克徽章.md",
+      "original_sha256": "227647cf95813d5d593f0f6a00f489a0d56bd46c48d65724769a4ed5c62e09e3"
+    },
+    {
+      "card_id": "GAR-0066",
+      "path": "01-服装单品/配饰/GAR-0066-和服腰带.md",
+      "original_sha256": "c62e93848fcb3567b70a86a50262c678f8100e2e86bb3c042bed67c7c234ca22"
+    },
+    {
+      "card_id": "GAR-0067",
+      "path": "01-服装单品/配饰/GAR-0067-云肩.md",
+      "original_sha256": "e5cdf160a5a810c772df47beea2975801e52ea4c7f1b6e68c36d7213903ce6b1"
+    },
+    {
+      "card_id": "GAR-0073",
+      "path": "01-服装单品/配饰/GAR-0073-维多利亚哀悼珠宝.md",
+      "original_sha256": "1cf594858c1bf991bdb41286dbd621197e555656f60e119340c7b3c78d8804b8"
+    },
+    {
+      "card_id": "GAR-0074",
+      "path": "01-服装单品/配饰/GAR-0074-哀悼戒指与胸针.md",
+      "original_sha256": "39e1507bbf48ac3ed786109a7e79b154df47b5ca700411e7cd5040d3e43d96a9"
+    },
+    {
+      "card_id": "GAR-0080",
+      "path": "01-服装单品/配饰/GAR-0080-腰带.md",
+      "original_sha256": "f6b55e8d8b2b4447f599507006542f8d59192bfeeb0cfdb83d42ccd7a34aef67"
+    },
+    {
+      "card_id": "GAR-0083",
+      "path": "01-服装单品/配饰/GAR-0083-手套.md",
+      "original_sha256": "fe8669a49dc87bd1ddf42273e39d385109164a8a348e00fcfe1b3ffc387de395"
+    },
+    {
+      "card_id": "GAR-0086",
+      "path": "01-服装单品/配饰/GAR-0086-胸针结构.md",
+      "original_sha256": "0272ebaa782911f338fd52ac711550a0d7dd855a07d2dca57db54e2d623cb34b"
+    },
+    {
+      "card_id": "STR-0001",
+      "path": "02-结构细节/STR-0001-美第奇领.md",
+      "original_sha256": "b720eba78dde95c7098ba421ae6f799e69511ccf53b63c89143c0638db614995"
+    },
+    {
+      "card_id": "STR-0002",
+      "path": "02-结构细节/STR-0002-垂领.md",
+      "original_sha256": "8ce634484042385115c15c2942b6b85be99e1897e29975015e0aec37a409fe7d"
+    },
+    {
+      "card_id": "STR-0003",
+      "path": "02-结构细节/STR-0003-拉夫领.md",
+      "original_sha256": "edfea3a2d2f07b74da9b8cbc6f618a78a9fca7d970a0e73c17f444dc3e05ab73"
+    },
+    {
+      "card_id": "STR-0004",
+      "path": "02-结构细节/STR-0004-羊腿袖（19世纪）.md",
+      "original_sha256": "bb424a118c8d13c65742d8d153f1245c4234c097fd747a5e17c5dec54d22d392"
+    },
+    {
+      "card_id": "STR-0005",
+      "path": "02-结构细节/STR-0005-十六世纪羊腿袖.md",
+      "original_sha256": "1d0408d7a8b9d3d0946ae5d88b6091ae15c29f2502d5fb526284ef06e317df1c"
+    },
+    {
+      "card_id": "STR-0006",
+      "path": "02-结构细节/STR-0006-胸衣插片.md",
+      "original_sha256": "c4f9850849038138fe2f307cb917b64b94929429055395eaaa63da51ad8f5b6e"
+    },
+    {
+      "card_id": "STR-0007",
+      "path": "02-结构细节/STR-0007-臀垫.md",
+      "original_sha256": "2832570002225737c5eb4744b2effaabdca24ab09f33443ee36e72a7788a4d81"
+    },
+    {
+      "card_id": "STR-0008",
+      "path": "02-结构细节/STR-0008-笼式裙撑.md",
+      "original_sha256": "f087b4e102b609a756ac9195360510fb63182a15a96cebcff6f77836e1c0cb42"
+    },
+    {
+      "card_id": "STR-0009",
+      "path": "02-结构细节/STR-0009-裙侧撑.md",
+      "original_sha256": "05efd8bd24fe51c159a6832967430798f24cac7141bdf461da0b6fc0d58bf508"
+    },
+    {
+      "card_id": "STR-0010",
+      "path": "02-结构细节/STR-0010-剪口装饰.md",
+      "original_sha256": "d0f3b2c24de48c7efbbb086ce4831588a506862384a6306667300e8163bb428f"
+    },
+    {
+      "card_id": "STR-0011",
+      "path": "02-结构细节/STR-0011-盘扣.md",
+      "original_sha256": "8b88d31f5fa7dd3c78f0c0c51c53d45d52790e4aaca2968220837af11d8836b0"
+    },
+    {
+      "card_id": "STR-0012",
+      "path": "02-结构细节/STR-0012-翻领与驳领.md",
+      "original_sha256": "cbc188478d73694d0600965132ed1653c670289467c3f57e54064e0e2550e675"
+    },
+    {
+      "card_id": "STR-0013",
+      "path": "02-结构细节/STR-0013-装袖与插肩袖.md",
+      "original_sha256": "4cdc478c0fc436efc62a7298c813a38f45d9c8ae0f1b4a04e9a77a7b5370eb0f"
+    },
+    {
+      "card_id": "STR-0014",
+      "path": "02-结构细节/STR-0014-肩线与肩垫.md",
+      "original_sha256": "c6ef0be90aa1e941d696c2c25f762f5e04bc04c76899911772851f15d255cfaf"
+    },
+    {
+      "card_id": "STR-0015",
+      "path": "02-结构细节/STR-0015-腰线.md",
+      "original_sha256": "b6a410a9ddb18937877f0a359da41a718f009dad9a95e48970375f8aa940f8b0"
+    },
+    {
+      "card_id": "STR-0016",
+      "path": "02-结构细节/STR-0016-衣摆与开衩.md",
+      "original_sha256": "867d4776784c08391cc165ea98b1dd7e866c2918819e76026a9de47d53808efe"
+    },
+    {
+      "card_id": "STR-0017",
+      "path": "02-结构细节/STR-0017-门襟.md",
+      "original_sha256": "0467e5201b2e4193bb3f97bb980cd8729f8ccba210a38f18a9a1497924688b0e"
+    },
+    {
+      "card_id": "STR-0018",
+      "path": "02-结构细节/STR-0018-纽扣与扣眼.md",
+      "original_sha256": "086a7378e3bd38581c381ad7af7fdae761922e9010eca01fcf1e88f01f663e2c"
+    },
+    {
+      "card_id": "STR-0019",
+      "path": "02-结构细节/STR-0019-拉链.md",
+      "original_sha256": "fb82709eb11364c5044c0c82f87de41ead5a701f0a54f389c555660b576ce673"
+    },
+    {
+      "card_id": "STR-0020",
+      "path": "02-结构细节/STR-0020-裁片与拼片.md",
+      "original_sha256": "5ed6b42f0e61e9d4f7d8ee8b6caa9bb1f5f71d8222efdcfbd39e7f87e4c3bc63"
+    },
+    {
+      "card_id": "STR-0021",
+      "path": "02-结构细节/STR-0021-接缝与省道.md",
+      "original_sha256": "9bda165eb8e81da37ba511a97b6176614013067744fe793ef3560e2044e28a9c"
+    },
+    {
+      "card_id": "STR-0022",
+      "path": "02-结构细节/STR-0022-腰头.md",
+      "original_sha256": "741c912fde929e5ebafbae2934247ab8938ecc09c22ff1e2170422d96387514d"
+    },
+    {
+      "card_id": "STR-0023",
+      "path": "02-结构细节/STR-0023-袖口.md",
+      "original_sha256": "63d91d21870e034fe280eca3eca6e3f97beb3127a76fb334d5f099054b85e603"
+    },
+    {
+      "card_id": "STR-0024",
+      "path": "02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md",
+      "original_sha256": "eb0a813ec0f6f9a53b04d5d134b25c7a9b374b3d0c000311a1bb77c75ff2c722"
+    },
+    {
+      "card_id": "STR-0025",
+      "path": "02-结构细节/STR-0025-松量与版型.md",
+      "original_sha256": "e3199b1534df21c17ea9e5c9cd84f28daa31fe374f1272fad8bfe3effdd025c8"
+    },
+    {
+      "card_id": "STR-0026",
+      "path": "02-结构细节/STR-0026-手袋结构.md",
+      "original_sha256": "eee26b6d471fedfb5ab968a4ae5ab21382a4682fafac05f8365ebab6a2d66ae6"
+    },
+    {
+      "card_id": "MAT-0001",
+      "path": "03-材质纹样/材料/MAT-0001-平纹细布.md",
+      "original_sha256": "c974bdcd4e60059c07aad7a3bd21bd438b1692d343eb00285231f6875086c91a"
+    },
+    {
+      "card_id": "MAT-0002",
+      "path": "03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md",
+      "original_sha256": "2a9aeb57271fce2d28021469d0c2f4633fa45c5a28da198952c66803ed7bb197"
+    },
+    {
+      "card_id": "MAT-0003",
+      "path": "03-材质纹样/材料/MAT-0003-装饰绦带.md",
+      "original_sha256": "c8c741d200125a1dfbb1d860d46500b6f7480a7f2436f2f1b0a7924050d0733f"
+    },
+    {
+      "card_id": "MAT-0004",
+      "path": "03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md",
+      "original_sha256": "3814bac118f599ac14886e92d15908709c14f670b850ecf5066fb2a73cfc7e40"
+    },
+    {
+      "card_id": "MAT-0008",
+      "path": "03-材质纹样/材料/MAT-0008-型染.md",
+      "original_sha256": "6d7ce16344659bf9dad8ddf573ed07f5083a0214ecbf3823e43b1829b78e069c"
+    },
+    {
+      "card_id": "MAT-0009",
+      "path": "03-材质纹样/材料/MAT-0009-胭脂虫红染料.md",
+      "original_sha256": "3830a37ca18ca1a6d632a85da46a24082d8303f2164ad0f27fb6ba562cc094aa"
+    },
+    {
+      "card_id": "MAT-0010",
+      "path": "03-材质纹样/材料/MAT-0010-苯胺染料.md",
+      "original_sha256": "8e8020e9f36e38172387e6634073e4118d661080584628c9618bd3d6f1da06a7"
+    },
+    {
+      "card_id": "MAT-0011",
+      "path": "03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md",
+      "original_sha256": "4ac0abd1707122bc2449068e41d0799482680521afd13f4ea345fccc9e403c08"
+    },
+    {
+      "card_id": "MAT-0012",
+      "path": "03-材质纹样/材料/MAT-0012-织物组织.md",
+      "original_sha256": "1aa5f68337bfb18a8e34a2fb2d4c83e13b5a7cca3459c1d50b0298108151ecda"
+    },
+    {
+      "card_id": "MAT-0013",
+      "path": "03-材质纹样/材料/MAT-0013-克重与垂坠.md",
+      "original_sha256": "57aacfba4417321aa8d09d0f4ebf162a8b5f6316f83a4d6d0811332e6eae4d55"
+    },
+    {
+      "card_id": "MAT-0014",
+      "path": "03-材质纹样/材料/MAT-0014-反光与金属线.md",
+      "original_sha256": "e62ac6c91d2b46b3120711c26692dabeb1dd7d71af87e4b0f7734f4326c8a2ca"
+    },
+    {
+      "card_id": "MAT-0005",
+      "path": "03-材质纹样/纹样/MAT-0005-肯特布.md",
+      "original_sha256": "3638b6e3c1d499d610c623f3033177200078962a386f7756ca589e03d861c2da"
+    },
+    {
+      "card_id": "MAT-0006",
+      "path": "03-材质纹样/纹样/MAT-0006-阿丁克拉纹样.md",
+      "original_sha256": "3bbd0da627da49a919a1cd210a7149e079a26bd3f869df5f3ebeade229b58e23"
+    },
+    {
+      "card_id": "MAT-0007",
+      "path": "03-材质纹样/纹样/MAT-0007-泥染布纹样.md",
+      "original_sha256": "f20703fe13c54a4491497fc2802c53c6493dd4da2088859927be3bcfcf900834"
+    },
+    {
+      "card_id": "STY-0001",
+      "path": "05-风格体系/STY-0001-新古典主义着装.md",
+      "original_sha256": "7927792075c0e21528c6c4fd3d69eca6b5e58b80ea11bfdb87a5d616d7ebb8ab"
+    },
+    {
+      "card_id": "STY-0002",
+      "path": "05-风格体系/STY-0002-维多利亚丧服风格.md",
+      "original_sha256": "e4c02441cb0656322ca35e5eb4a054597e8974e29016d58eab2043d6993ccb99"
+    },
+    {
+      "card_id": "STY-0003",
+      "path": "05-风格体系/STY-0003-爵士时代摩登风格.md",
+      "original_sha256": "28c35b91193a0553f32ead3018fa9f5b6d9bac17f0c2e2bfa2038f5669b1e024"
+    },
+    {
+      "card_id": "STY-0004",
+      "path": "05-风格体系/STY-0004-好莱坞魅惑造型.md",
+      "original_sha256": "7ca8cc39865e3b4d784df223b9574e5c5bbf1ed49e3abcec7c3a9c1681514470"
+    },
+    {
+      "card_id": "STY-0006",
+      "path": "05-风格体系/STY-0006-军装制服风.md",
+      "original_sha256": "299835cd314257f21a3739d4bf268257b5dd65271c7cbb3f657a6fc720558c0d"
+    },
+    {
+      "card_id": "STY-0007",
+      "path": "05-风格体系/STY-0007-朋克亚文化风格.md",
+      "original_sha256": "0f10e8f9089d5234cffd7910ce28ba9c98d0d72d75912b681300882edbeac181"
+    },
+    {
+      "card_id": "STY-0008",
+      "path": "05-风格体系/STY-0008-九十年代极简主义.md",
+      "original_sha256": "c53a24e5a696b7b005ccb1d01977d32d45f317adefe237094188a8c326a589a8"
+    },
+    {
+      "card_id": "STY-0009",
+      "path": "05-风格体系/STY-0009-复古未来主义科幻街头.md",
+      "original_sha256": "81e168113f26d9e16f177e64bfde6a03e2b12fc4a8f1c778aefaccd0cc516cbc"
+    },
+    {
+      "card_id": "STY-0010",
+      "path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+      "original_sha256": "368dd7f762613f713c0f88d86cfcdd16a7c87c9af39854a710694b505a750771"
+    },
+    {
+      "card_id": "PRD-0001",
+      "path": "06-时代地域/PRD-0001-1770年代英法服饰语境.md",
+      "original_sha256": "c6dd4b464546e91b4e5f20fa5b8a11fccfb09d1633d4f47e27c07220cefdc17d"
+    },
+    {
+      "card_id": "PRD-0002",
+      "path": "06-时代地域/PRD-0002-1790到1810英法新古典时代.md",
+      "original_sha256": "89e28f01a1086f834c136f107e77f00665fcb51c81c82e75a2ece69b8168956d"
+    },
+    {
+      "card_id": "PRD-0003",
+      "path": "06-时代地域/PRD-0003-1890年代英美服饰语境.md",
+      "original_sha256": "e856ba3fb5460f4e29ed5dbb6d38a056c707c6b1b7f7bfa46dcf452da8d18efc"
+    },
+    {
+      "card_id": "PRD-0004",
+      "path": "06-时代地域/PRD-0004-1920年代美国与西欧.md",
+      "original_sha256": "b5a463c4abec40a769f18c4feb511d5dbbc44246c8c5fc35c71e39a2c2d794dc"
+    },
+    {
+      "card_id": "PRD-0005",
+      "path": "06-时代地域/PRD-0005-1930年代美国好莱坞语境.md",
+      "original_sha256": "42d08f42dbc6acd443cf4904e990d70d3255e1a1f5c4295d3f10559dc8504136"
+    },
+    {
+      "card_id": "PRD-0006",
+      "path": "06-时代地域/PRD-0006-1940年代英美战时语境.md",
+      "original_sha256": "5109dce41bfdb880baf1601e10f56ed70d8c81b5c98d3df36f01514d4dfb34ac"
+    },
+    {
+      "card_id": "PRD-0007",
+      "path": "06-时代地域/PRD-0007-1950年代美英战后语境.md",
+      "original_sha256": "e18aef474fb98b6d9a17b8354beff3c1dab02345f459b3ea0d19533cddb37831"
+    },
+    {
+      "card_id": "PRD-0008",
+      "path": "06-时代地域/PRD-0008-1960年代伦敦与美国.md",
+      "original_sha256": "1b4bb5845adf7b6ae1174f182fd68ebd90ab8ba6aa09bbd301cb19d3c54c3bf6"
+    },
+    {
+      "card_id": "PRD-0009",
+      "path": "06-时代地域/PRD-0009-奥斯曼帝国晚期.md",
+      "original_sha256": "b4215ede257388aa359d9ca917775e65496e0d151e350b85c9594b598900ac02"
+    },
+    {
+      "card_id": "PRD-0010",
+      "path": "06-时代地域/PRD-0010-拜占庭帝国晚期.md",
+      "original_sha256": "143751dad358f0926ad3a76d690eeae045a84da3d64c7179ffb7251cf70970f9"
+    },
+    {
+      "card_id": "PRD-0011",
+      "path": "06-时代地域/PRD-0011-1930年代上海民国语境.md",
+      "original_sha256": "9d09c6818f2e69540a37c074cb17a345fca3cc47d1b6c3fdbd0383b843c2fbe0"
+    }
+  ]
+}

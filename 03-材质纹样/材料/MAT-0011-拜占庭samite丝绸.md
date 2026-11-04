@@ -21,6 +21,8 @@ hand_feel: 斜纹丝织、紧密挺括，有强定向光泽；残片易散边。
 care_notes: 丝蛋白易受光/湿损伤；金属线与染料会褪色；展示需低照度。
 prompt_en: 'Byzantine samite silk, twill-woven, yellow and brown or red and cream, roundel medallion with birds and vines, rich directional sheen, early medieval textile'
 tags: [costume, material, byzantine, silk, textile]
+relations:
+  - 'target=SRC-0423; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0423; rule=R-SOURCE-IDS'
 ---
 # 拜占庭 samite 丝绸 / Byzantine samite silk
 
@@ -55,3 +57,4 @@ samite 是一种斜纹丝织，起源于萨珊波斯，常见于拜占庭/埃及
 - [[GAR-0061-科普特束腰长袍]]
 - [[GAR-0062-意大利文艺复兴长袍]]
 - [[MAT-0003-装饰绦带]]
+- [[SRC-0423-V&A-拜占庭samite丝绸]] — cited source (exact source_ids; no URL guessing)

@@ -1,0 +1,15 @@
+{
+ "ok": true,
+ "dest": "/private/tmp/p5-backup",
+ "count": 1455,
+ "total_bytes": 23890769,
+ "manifest_sha256": "1c66d6322cee5cdbf7eada11c04e6247fa024ecf80f67e82b23abf4e14100791",
+ "git_head": "1acb4d397906b82941cf4debe0a0c58ff8de34b4",
+ "tracked_mode": true,
+ "skipped_unreadable": 0,
+ "excluded": {
+  "projects/": "private",
+  ".obsidian/": "machine config",
+  "sandbox-*": "regenerable copies"
+ }
+}

@@ -136,6 +136,20 @@
 
 **R1.1 结论**：R1 三项 P0（AUD-001/002/003）均已 PASS；安全、Skill、回归、数据安全备份、KQ-01 均 PASS（原唯一回归失败已修复）。**PRIVATE-USE = YES（技术层，附 WARN：人工门禁未执行）；PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6）**；HUMAN_UAT_PENDING 4 项未执行。本复核未解除任何门禁。
 
+## 4.9 P5-A 图谱验收（2026-11-05 01:25，task-63）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 关系迁移 | **PASS（抽样 26/26）** | 142 卡/201 relations（全 high+verified）；diff +536/−0；evidence_status 未改；relation tests 8/8；备份恢复 0 mismatch |
+| 图谱 After | **PASS（显著改善）** | 来源可见引用 2→143；source_ids 可见 2/299→193/299；内容 SRC 不可见 180→38（draft）；typed 不可见 313→122；导航边 24→494（MOC 9） |
+| 语义分量 | **不变（合理）** | 66（335 主 + 65 source 单点）；MOC 属导航层，不计语义分量 |
+| 剩余孤岛 | **真实独立/待接入** | 65 source 单点（28 无关系/27 背景/9 书源/1 书源）；68 未引用来源；38 draft 卡 106 source_ids 不可见 |
+| R1.1 回归 | **PASS（workflow NOT_RUN）** | validate 400、build 211、45/45、quality 17/17、composer 9/9、Macbeth 11/11、R1.1 新测试全 PASS；workflow 当前树 hang → NOT_RUN（迁移前 9/9） |
+| Agent 关系检索 | **PARTIAL/BLOCKED（不写 PASS）** | 官方/overlay 均 skill=1+工具调用+final，但无 turn_end；官方 final 可核声明与真实数据一致 |
+| P0 事故（迁移写入） | **已修复（记录）** | 首轮 29 卡坏 fence → validate 371/400；未提交，备份恢复+重跑后 400/400 PASS；见 P5-RELATION-MIGRATION §0 |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：迁移未提交、workflow 未复跑、Agent 检索不完整、GUI NOT_RUN）**；**PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN / PENDING（无截图/签字，不得声称通过）**。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

@@ -23,6 +23,8 @@ movement_notes: 乙烯基硬挺、弯折有响声；箱形轮廓限制贴身动�
 lighting_notes: 乙烯基高反光、易过曝；深绿在冷光下偏墨绿，暖光下显饱和。
 prompt_en: 'Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style'
 tags: [costume, garment, 1960s, mod, space_age]
+relations:
+  - 'target=SRC-0417; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0417; rule=R-SOURCE-IDS'
 ---
 # 1960 年代 Courrèges 外套 / 1960s Courrèges coat
 
@@ -57,3 +59,4 @@ Courrèges 外套是 1960 年代 Mod/Space Age 风格代表：箱形轮廓、乙
 - [[GAR-0039-安全头盔]]
 - [[GAR-0058-1970年代厚底鞋]]
 - [[GAR-0045-风衣]]
+- [[SRC-0417-FIT-1963-1969Courreges外套]] — cited source (exact source_ids; no URL guessing)
