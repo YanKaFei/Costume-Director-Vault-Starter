@@ -1,0 +1,92 @@
+{
+  "title": "Macbeth — public-domain excerpt (inspired medieval production)",
+  "period": "medieval",
+  "region": "europe",
+  "culture": "medieval Scottish court and heath (European medieval production; no exact 11th-century Scottish cards in KB)",
+  "dramatic_style": "stark medieval tragedy",
+  "art_direction": "stark medieval tragedy, torchlight and fog",
+  "cinematic_style": "theatrical chiaroscuro",
+  "lighting": "torchlight, cold moonlight, fog glow",
+  "camera": "medium shot with full-body inserts",
+  "season": "autumn",
+  "weather": "storm, cold, fog",
+  "budget": "medium",
+  "fidelity_mode": "inspired",
+  "tool": "generic",
+  "characters": [
+    {
+      "name": "Macbeth",
+      "aliases": [
+        "MACBETH"
+      ],
+      "occupation": "thane and general",
+      "economic_status": "high",
+      "arc": "loyal thane to tyrant",
+      "relationships": [
+        "Banquo: comrade",
+        "Witches: prophecy"
+      ]
+    },
+    {
+      "name": "Banquo",
+      "aliases": [
+        "BANQUO"
+      ],
+      "occupation": "thane and general",
+      "economic_status": "high",
+      "arc": "loyal comrade who suspects the prophecy",
+      "relationships": [
+        "Macbeth: comrade"
+      ]
+    },
+    {
+      "name": "Witches",
+      "aliases": [
+        "FIRST WITCH",
+        "SECOND WITCH",
+        "THIRD WITCH",
+        "ALL"
+      ],
+      "occupation": "weird sisters",
+      "economic_status": "unknown",
+      "arc": "agents of prophecy",
+      "relationships": [
+        "Macbeth: prophecy"
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "id": "rise",
+      "label": "thane / prophecy (heath)",
+      "scenes": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "id": "fall",
+      "label": "tyrant / dagger (castle)",
+      "scenes": [
+        "S3"
+      ]
+    }
+  ],
+  "scene_states": {
+    "S1": {
+      "wetness": "wet",
+      "damage": "none",
+      "dirt": "none"
+    },
+    "S2": {
+      "wetness": "wet",
+      "damage": "none",
+      "dirt": "none"
+    },
+    "S3": {
+      "wetness": "dry",
+      "damage": "present",
+      "dirt": "none"
+    }
+  }
+}

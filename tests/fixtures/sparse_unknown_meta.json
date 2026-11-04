@@ -1,0 +1,10 @@
+{
+  "title": "Sparse unknown scene (many unknowns)",
+  "characters": [
+    {"name": "Figure", "aliases": ["FIGURE", "A FIGURE"]},
+    {"name": "Voice", "aliases": ["A VOICE", "VOICE"]}
+  ],
+  "stages": [
+    {"id": "only", "label": "only scene", "scenes": ["S1"]}
+  ]
+}

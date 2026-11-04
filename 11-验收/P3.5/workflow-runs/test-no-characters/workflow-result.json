@@ -1,0 +1,33 @@
+{
+  "title": "No-character exit-3 fixture",
+  "meta": {
+    "title": "No-character exit-3 fixture"
+  },
+  "stage_list": [],
+  "retrieval": {},
+  "recommendations": {},
+  "evidence": {
+    "notes": [],
+    "checks": {}
+  },
+  "continuity": {
+    "plan": {},
+    "issues": []
+  },
+  "script_path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/tests/fixtures/no_characters.txt",
+  "meta_path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/tests/fixtures/no_characters_meta.json",
+  "scenes": [],
+  "characters": [],
+  "needs": {},
+  "stages": [],
+  "warnings": [
+    "no characters detected in script/meta"
+  ],
+  "unknowns": [
+    "characters"
+  ],
+  "checks": {
+    "characters": false
+  },
+  "exit_code": 3
+}

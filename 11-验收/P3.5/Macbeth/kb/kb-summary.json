@@ -1,0 +1,397 @@
+{
+  "M1": {
+    "strict": {
+      "looks": [
+        [
+          "GAR-0077"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+        "no reliable style card for art direction 'medieval Scottish court, wool, leather, iron; film-historical interpretation'",
+        "cards document other regions for GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+        "looks are missing required layers: footwear, outerwear, upper_body+lower_body or one_piece (no invented replacements)",
+        "wet weather look lacks an outerwear card",
+        "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+      ],
+      "checks": {
+        "ids_all_exist": true,
+        "three_looks": false,
+        "all_have_garment": true,
+        "scores_sum_100": true,
+        "looks_distinct": false,
+        "fidelity_mode": "historical",
+        "history_evidence": true,
+        "abc_distinct": false,
+        "no_example_in_a": true,
+        "complete_looks": false,
+        "context_refs_filtered": true,
+        "narrative_present": true,
+        "brief_parsed": false,
+        "conflicts": 0,
+        "occupation_category": "unknown",
+        "occupation_match": false,
+        "occupation_forbidden_selected": [],
+        "rainwear_selected": false,
+        "warnings_count": 6,
+        "rejected_count": 81
+      }
+    },
+    "analogue": {
+      "looks": [
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0082"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0023"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+        "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+        "period evidence is approximate/none for GAR-0022, GAR-0023, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches",
+        "cards document other regions for GAR-0023 (requested europe); cross-region borrowing is flagged, not silently accepted"
+      ]
+    }
+  },
+  "M2": {
+    "strict": {
+      "looks": [
+        [
+          "GAR-0077",
+          "GAR-0076"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+        "no reliable style card for art direction 'medieval Scottish court, wool, leather, iron; film-historical interpretation'",
+        "cards document other regions for GAR-0076, GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+        "looks are missing required layers: footwear, upper_body+lower_body or one_piece (no invented replacements)",
+        "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+      ],
+      "checks": {
+        "ids_all_exist": true,
+        "three_looks": false,
+        "all_have_garment": true,
+        "scores_sum_100": true,
+        "looks_distinct": false,
+        "fidelity_mode": "historical",
+        "history_evidence": true,
+        "abc_distinct": false,
+        "no_example_in_a": true,
+        "complete_looks": false,
+        "context_refs_filtered": true,
+        "narrative_present": true,
+        "brief_parsed": false,
+        "conflicts": 0,
+        "occupation_category": "unknown",
+        "occupation_match": false,
+        "occupation_forbidden_selected": [],
+        "rainwear_selected": null,
+        "warnings_count": 5,
+        "rejected_count": 80
+      }
+    },
+    "analogue": {
+      "looks": [
+        [
+          "GAR-0079",
+          "GAR-0076",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0006",
+          "GAR-0077",
+          "GAR-0076",
+          "GAR-0022"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0080"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+        "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+        "period evidence is approximate/none for GAR-0006, GAR-0022, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches",
+        "cards document other regions for GAR-0006 (requested europe); cross-region borrowing is flagged, not silently accepted"
+      ]
+    }
+  },
+  "M3": {
+    "strict": {
+      "looks": [
+        [
+          "GAR-0077",
+          "GAR-0076"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+        "cards document other regions for GAR-0076, GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+        "looks are missing required layers: footwear, upper_body+lower_body or one_piece (no invented replacements)",
+        "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+      ],
+      "checks": {
+        "ids_all_exist": true,
+        "three_looks": false,
+        "all_have_garment": true,
+        "scores_sum_100": true,
+        "looks_distinct": false,
+        "fidelity_mode": "historical",
+        "history_evidence": true,
+        "abc_distinct": false,
+        "no_example_in_a": true,
+        "complete_looks": false,
+        "context_refs_filtered": true,
+        "narrative_present": true,
+        "brief_parsed": false,
+        "conflicts": 0,
+        "occupation_category": "unknown",
+        "occupation_match": false,
+        "occupation_forbidden_selected": [],
+        "rainwear_selected": null,
+        "warnings_count": 4,
+        "rejected_count": 80
+      }
+    },
+    "analogue": {
+      "looks": [
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0076",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0023"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+        "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+        "period evidence is approximate/none for GAR-0022, GAR-0023, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches",
+        "cards document other regions for GAR-0023 (requested europe); cross-region borrowing is flagged, not silently accepted"
+      ]
+    }
+  },
+  "L1": {
+    "strict": {
+      "looks": [
+        [
+          "GAR-0077"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+        "no reliable style card for art direction 'medieval Scottish court, wool, leather, iron; film-historical interpretation'",
+        "cards document other regions for GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+        "looks are missing required layers: footwear, outerwear, upper_body+lower_body or one_piece (no invented replacements)",
+        "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+      ],
+      "checks": {
+        "ids_all_exist": true,
+        "three_looks": false,
+        "all_have_garment": true,
+        "scores_sum_100": true,
+        "looks_distinct": false,
+        "fidelity_mode": "historical",
+        "history_evidence": true,
+        "abc_distinct": false,
+        "no_example_in_a": true,
+        "complete_looks": false,
+        "context_refs_filtered": true,
+        "narrative_present": true,
+        "brief_parsed": false,
+        "conflicts": 0,
+        "occupation_category": "unknown",
+        "occupation_match": false,
+        "occupation_forbidden_selected": [],
+        "rainwear_selected": null,
+        "warnings_count": 5,
+        "rejected_count": 81
+      }
+    },
+    "analogue": {
+      "looks": [
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0082"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0023"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+        "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+        "period evidence is approximate/none for GAR-0022, GAR-0023, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches",
+        "cards document other regions for GAR-0023 (requested europe); cross-region borrowing is flagged, not silently accepted"
+      ]
+    }
+  },
+  "L2": {
+    "strict": {
+      "looks": [
+        [
+          "GAR-0077",
+          "GAR-0076"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+        "no reliable style card for art direction 'medieval Scottish court, wool, leather, iron; film-historical interpretation'",
+        "cards document other regions for GAR-0076, GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+        "looks are missing required layers: footwear, upper_body+lower_body or one_piece (no invented replacements)",
+        "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+      ],
+      "checks": {
+        "ids_all_exist": true,
+        "three_looks": false,
+        "all_have_garment": true,
+        "scores_sum_100": true,
+        "looks_distinct": false,
+        "fidelity_mode": "historical",
+        "history_evidence": true,
+        "abc_distinct": false,
+        "no_example_in_a": true,
+        "complete_looks": false,
+        "context_refs_filtered": true,
+        "narrative_present": true,
+        "brief_parsed": false,
+        "conflicts": 0,
+        "occupation_category": "unknown",
+        "occupation_match": false,
+        "occupation_forbidden_selected": [],
+        "rainwear_selected": null,
+        "warnings_count": 5,
+        "rejected_count": 80
+      }
+    },
+    "analogue": {
+      "looks": [
+        [
+          "GAR-0079",
+          "GAR-0076",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0076",
+          "GAR-0022",
+          "GAR-0082"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0080"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+        "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+        "period evidence is approximate/none for GAR-0022, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches"
+      ]
+    }
+  },
+  "L3": {
+    "strict": {
+      "looks": [
+        [
+          "GAR-0077",
+          "GAR-0076"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+        "no reliable style card for art direction 'medieval Scottish court, wool, leather, iron; film-historical interpretation'",
+        "cards document other regions for GAR-0076, GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+        "looks are missing required layers: footwear, upper_body+lower_body or one_piece (no invented replacements)",
+        "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+      ],
+      "checks": {
+        "ids_all_exist": true,
+        "three_looks": false,
+        "all_have_garment": true,
+        "scores_sum_100": true,
+        "looks_distinct": false,
+        "fidelity_mode": "historical",
+        "history_evidence": true,
+        "abc_distinct": false,
+        "no_example_in_a": true,
+        "complete_looks": false,
+        "context_refs_filtered": true,
+        "narrative_present": true,
+        "brief_parsed": false,
+        "conflicts": 0,
+        "occupation_category": "unknown",
+        "occupation_match": false,
+        "occupation_forbidden_selected": [],
+        "rainwear_selected": null,
+        "warnings_count": 5,
+        "rejected_count": 80
+      }
+    },
+    "analogue": {
+      "looks": [
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0076",
+          "GAR-0022",
+          "GAR-0080"
+        ],
+        [
+          "GAR-0079",
+          "GAR-0045",
+          "GAR-0023"
+        ]
+      ],
+      "warnings": [
+        "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+        "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+        "period evidence is approximate/none for GAR-0022, GAR-0023, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches",
+        "cards document other regions for GAR-0023 (requested europe); cross-region borrowing is flagged, not silently accepted"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Rain-night investigator (fictional contemporary)",
+  "period": "contemporary",
+  "region": "unspecified modern city",
+  "culture": "contemporary urban",
+  "dramatic_style": "restrained urban noir",
+  "art_direction": "restrained urban noir, wet reflective streets",
+  "cinematic_style": "low-key neo-noir",
+  "lighting": "sodium street light, cool moonlight",
+  "camera": "medium tracking and close inserts",
+  "season": "autumn",
+  "weather": "rain",
+  "budget": "low",
+  "fidelity_mode": "fictional",
+  "tool": "sora",
+  "characters": [
+    {"name": "Lin", "aliases": ["LIN"], "occupation": "private investigator", "economic_status": "low", "arc": "holding on to a case that costs everything", "relationships": ["Ash: informant"]},
+    {"name": "Ash", "aliases": ["ASH"], "occupation": "informant", "economic_status": "unknown", "arc": "trying to leave the city", "relationships": ["Lin: client"]}
+  ],
+  "stages": [
+    {"id": "street", "label": "street / rain", "scenes": ["S1"]},
+    {"id": "office", "label": "office / dry interior", "scenes": ["S2"]}
+  ],
+  "scene_states": {
+    "S1": {"wetness": "wet", "damage": "none", "dirt": "none"},
+    "S2": {"wetness": "dry", "damage": "none", "dirt": "none"}
+  }
+}

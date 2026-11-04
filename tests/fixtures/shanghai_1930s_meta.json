@@ -1,0 +1,28 @@
+{
+  "title": "1930s Shanghai journalists (historical mode)",
+  "period": "1930s",
+  "region": "shanghai",
+  "culture": "Republican-era Shanghai",
+  "dramatic_style": "restrained historical drama",
+  "art_direction": "restrained urban period drama, rain and neon reflections",
+  "cinematic_style": "period noir realism",
+  "lighting": "cool moonlight with warm practicals",
+  "camera": "medium shot",
+  "season": "autumn",
+  "weather": "rain",
+  "budget": "medium",
+  "fidelity_mode": "historical",
+  "tool": "generic",
+  "characters": [
+    {"name": "Shen", "aliases": ["SHEN"], "occupation": "journalist", "economic_status": "middle", "arc": "publishing a dangerous story", "relationships": ["Mei: colleague"]},
+    {"name": "Mei", "aliases": ["MEI"], "occupation": "editor", "economic_status": "middle", "arc": "deciding whether to print", "relationships": ["Shen: colleague"]}
+  ],
+  "stages": [
+    {"id": "alley", "label": "rain-soaked alley", "scenes": ["S1"]},
+    {"id": "office", "label": "dry newspaper office", "scenes": ["S2"]}
+  ],
+  "scene_states": {
+    "S1": {"wetness": "wet", "damage": "none", "dirt": "none"},
+    "S2": {"wetness": "dry", "damage": "none", "dirt": "none"}
+  }
+}

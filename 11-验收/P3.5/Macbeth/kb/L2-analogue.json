@@ -1,0 +1,1134 @@
+{
+  "input": {
+    "character_name": "Lady Macbeth",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "queen (usurper)",
+    "economic_status": "royal",
+    "period": "middle ages",
+    "region": "europe",
+    "season": "autumn",
+    "scene": "banquet hall",
+    "time": "night",
+    "weather": "indoor",
+    "action": "covering for Macbeth, dismissing guests",
+    "arc": "guilt suppressed",
+    "art_direction": "theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction",
+    "lighting": "overcast north light and firelight",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "inspired",
+    "tool": "midjourney",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "",
+    "location": "Forres palace"
+  },
+  "fidelity_mode": "inspired",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 46.6,
+      "scores": {
+        "period": 23.0,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 5.0,
+        "movement": 4.4,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.333,
+      "cost_total": 1.333,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "unknown",
+        "footwear": "none",
+        "accessory": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional"
+      },
+      "colors": [
+        "black",
+        "brown",
+        "crimson",
+        "gold",
+        "iron",
+        "linen",
+        "silver",
+        "white",
+        "wool"
+      ],
+      "style_tags": [
+        "analogue",
+        "country",
+        "early",
+        "early modern",
+        "medieval",
+        "military",
+        "modern"
+      ],
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
+      "differences": {
+        "a_b": 2,
+        "a_c": 2,
+        "b_c": 4
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve queen (usurper); the royal economic register shows through material and finish; formality runs from functional / formal / smart_casual / functional; the black, brown, crimson palette controls the emotional temperature; against the arc (guilt suppressed) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0079",
+          "name_zh": "基尔特长袍",
+          "name_en": "kirtle",
+          "colors": [
+            "wool",
+            "linen"
+          ],
+          "materials": [
+            "wool",
+            "linen"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3136363636363636,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0076",
+          "name_zh": "斗篷与披风",
+          "name_en": "cloak and mantle",
+          "colors": [
+            "crimson",
+            "white"
+          ],
+          "materials": [
+            "satin",
+            "silk",
+            "linen",
+            "metal_thread"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0482",
+            "SRC-0483"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.36818181818181817,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2590909090909091,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0080",
+          "name_zh": "腰带",
+          "name_en": "belt",
+          "colors": [
+            "iron",
+            "silver",
+            "gold"
+          ],
+          "materials": [
+            "iron",
+            "silver",
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0487",
+            "SRC-0488"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.42272727272727273,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: black, brown, crimson, gold, iron, linen, silver, white, wool, setting: banquet hall, night, indoor, art direction: theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction, lighting: overcast north light and firelight, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lady Macbeth, covering for Macbeth, dismissing guests, scene: banquet hall, night, indoor, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: overcast north light and firelight, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.5/10",
+        "连身: GAR-0079 基尔特长袍 (functional)",
+        "外层: GAR-0076 斗篷与披风 (formal)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "配饰: GAR-0080 腰带 (functional)",
+        "linked material cards: MAT-0002, MAT-0003"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0482",
+          "SRC-0483",
+          "SRC-0123",
+          "SRC-0487",
+          "SRC-0488",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0482",
+            "url": "https://collections.vam.ac.uk/item/O77731/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0487",
+            "url": "https://collections.vam.ac.uk/item/O112685/"
+          },
+          {
+            "source_id": "SRC-0488",
+            "url": "https://collections.vam.ac.uk/item/O126654/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0079": "interpretive",
+          "GAR-0076": "verified",
+          "GAR-0022": "verified",
+          "GAR-0080": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "B",
+      "source_look_id": null,
+      "total": 46.4,
+      "scores": {
+        "period": 23.0,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 4.9,
+        "movement": 4.3,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.333,
+      "cost_total": 1.333,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "unknown",
+        "footwear": "none",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "carried_prop": "regional"
+      },
+      "colors": [
+        "black",
+        "brown",
+        "crimson",
+        "ivory",
+        "linen",
+        "silver",
+        "steel",
+        "white",
+        "wool"
+      ],
+      "style_tags": [
+        "analogue",
+        "country",
+        "early",
+        "early modern",
+        "medieval",
+        "military",
+        "modern"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve queen (usurper); the royal economic register shows through material and finish; formality runs from functional / formal / smart_casual / functional; the black, brown, crimson palette controls the emotional temperature; against the arc (guilt suppressed) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0079",
+          "name_zh": "基尔特长袍",
+          "name_en": "kirtle",
+          "colors": [
+            "wool",
+            "linen"
+          ],
+          "materials": [
+            "wool",
+            "linen"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3136363636363636,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0076",
+          "name_zh": "斗篷与披风",
+          "name_en": "cloak and mantle",
+          "colors": [
+            "crimson",
+            "white"
+          ],
+          "materials": [
+            "satin",
+            "silk",
+            "linen",
+            "metal_thread"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0482",
+            "SRC-0483"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.36818181818181817,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2590909090909091,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0082",
+          "name_zh": "匕首",
+          "name_en": "dagger",
+          "colors": [
+            "steel",
+            "ivory",
+            "silver"
+          ],
+          "materials": [
+            "steel",
+            "ivory",
+            "silver",
+            "wood"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0490",
+            "SRC-0491"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.42272727272727273,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: black, brown, crimson, ivory, linen, silver, steel, white, wool, setting: banquet hall, night, indoor, art direction: theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction, lighting: overcast north light and firelight, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lady Macbeth, covering for Macbeth, dismissing guests, scene: banquet hall, night, indoor, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: overcast north light and firelight, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.5/10",
+        "连身: GAR-0079 基尔特长袍 (functional)",
+        "外层: GAR-0076 斗篷与披风 (formal)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "携带物: GAR-0082 匕首 (functional)",
+        "linked material cards: MAT-0002, MAT-0003"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0482",
+          "SRC-0483",
+          "SRC-0123",
+          "SRC-0490",
+          "SRC-0491",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0482",
+            "url": "https://collections.vam.ac.uk/item/O77731/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0490",
+            "url": "https://collections.vam.ac.uk/item/O165105/"
+          },
+          {
+            "source_id": "SRC-0491",
+            "url": "https://collections.vam.ac.uk/item/O97427/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0079": "interpretive",
+          "GAR-0076": "verified",
+          "GAR-0022": "verified",
+          "GAR-0082": "verified"
+        },
+        "missing_urls": []
+      }
+    },
+    {
+      "look_ref": "C",
+      "source_look_id": null,
+      "total": 46.1,
+      "scores": {
+        "period": 23.0,
+        "identity": 3.4,
+        "environment": 1.8,
+        "art": 4.5,
+        "movement": 4.4,
+        "arc": 3.5,
+        "camera": 6.5
+      },
+      "missing": [],
+      "cost": 0.289,
+      "cost_total": 1.155,
+      "contains_example": false,
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "none",
+        "footwear": "none",
+        "accessory": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional"
+      },
+      "colors": [
+        "beige",
+        "black",
+        "brown",
+        "gold",
+        "iron",
+        "khaki",
+        "lavender",
+        "linen",
+        "silver",
+        "wool"
+      ],
+      "style_tags": [
+        "analogue",
+        "burberry",
+        "classic",
+        "country",
+        "gabardine",
+        "medieval",
+        "military"
+      ],
+      "budget_mode": null,
+      "budget_explanation": null,
+      "differences": {},
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve queen (usurper); the royal economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual / functional; the beige, black, brown palette controls the emotional temperature; against the arc (guilt suppressed) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0079",
+          "name_zh": "基尔特长袍",
+          "name_en": "kirtle",
+          "colors": [
+            "wool",
+            "linen"
+          ],
+          "materials": [
+            "wool",
+            "linen"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": [],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.3136363636363636,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0045",
+          "name_zh": "风衣",
+          "name_en": "trench coat",
+          "colors": [
+            "khaki",
+            "beige",
+            "lavender"
+          ],
+          "materials": [
+            "gabardine",
+            "cotton",
+            "lace"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0405"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2590909090909091,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.2590909090909091,
+            "movement": 0.4,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0080",
+          "name_zh": "腰带",
+          "name_en": "belt",
+          "colors": [
+            "iron",
+            "silver",
+            "gold"
+          ],
+          "materials": [
+            "iron",
+            "silver",
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0487",
+            "SRC-0488"
+          ],
+          "scores": {
+            "period": 0.92,
+            "identity": 0.225,
+            "environment": 0.12249999999999998,
+            "art": 0.42272727272727273,
+            "movement": 0.5,
+            "arc": 0.35,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0001",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0002",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, black, brown, gold, iron, khaki, lavender, linen, silver, wool, setting: banquet hall, night, indoor, art direction: theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction, lighting: overcast north light and firelight, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lady Macbeth, covering for Macbeth, dismissing guests, scene: banquet hall, night, indoor, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: overcast north light and firelight, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.5/10",
+        "连身: GAR-0079 基尔特长袍 (functional)",
+        "外层: GAR-0045 风衣 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "配饰: GAR-0080 腰带 (functional)",
+        "linked material cards: MAT-0001, MAT-0002"
+      ],
+      "risks": [
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0405",
+          "SRC-0123",
+          "SRC-0487",
+          "SRC-0488",
+          "SRC-0102",
+          "SRC-0141"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0405",
+            "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0487",
+            "url": "https://collections.vam.ac.uk/item/O112685/"
+          },
+          {
+            "source_id": "SRC-0488",
+            "url": "https://collections.vam.ac.uk/item/O126654/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0079": "interpretive",
+          "GAR-0045": "verified",
+          "GAR-0022": "verified",
+          "GAR-0080": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [],
+    "period_refs": [],
+    "scene_refs": []
+  },
+  "context_refs": [],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "period_approximate",
+      "severity": "medium",
+      "message": "period evidence is approximate/none for GAR-0022, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches",
+      "items": [
+        "GAR-0022",
+        "GAR-0045"
+      ],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "cheaper",
+    "a_cost_total": 1.333,
+    "c_cost_total": 1.155,
+    "differences": {
+      "a_b": 2,
+      "a_c": 2,
+      "b_c": 4
+    }
+  },
+  "retrieved_ids": {
+    "upper_body": [
+      "GAR-0006",
+      "GAR-EXAMPLE-001",
+      "GAR-0003",
+      "GAR-0002",
+      "GAR-0008",
+      "GAR-0034",
+      "GAR-0007"
+    ],
+    "lower_body": [
+      "GAR-0077",
+      "GAR-0014",
+      "GAR-0011",
+      "GAR-0010",
+      "GAR-0013",
+      "GAR-0072"
+    ],
+    "inner_layer": [
+      "GAR-0078",
+      "GAR-0012",
+      "GAR-0020"
+    ],
+    "outerwear": [
+      "GAR-0076",
+      "GAR-0045",
+      "GAR-0016",
+      "GAR-0017",
+      "GAR-0057",
+      "GAR-0018",
+      "GAR-0033",
+      "GAR-0046"
+    ],
+    "accessory": [
+      "GAR-0080",
+      "GAR-0070",
+      "GAR-0025",
+      "GAR-0074",
+      "GAR-0021",
+      "GAR-0028",
+      "GAR-0026",
+      "GAR-0068",
+      "GAR-0073"
+    ],
+    "carried_prop": [
+      "GAR-0082",
+      "GAR-0049",
+      "GAR-0048",
+      "GAR-0047"
+    ],
+    "footwear": [
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0081",
+      "GAR-0035",
+      "GAR-0024",
+      "GAR-0060",
+      "GAR-0058"
+    ],
+    "one_piece": [
+      "GAR-0079",
+      "GAR-0069",
+      "GAR-0031",
+      "GAR-0015",
+      "GAR-0062",
+      "GAR-0009",
+      "GAR-0075",
+      "GAR-0056",
+      "GAR-0032",
+      "GAR-0052",
+      "GAR-0029",
+      "GAR-0053",
+      "GAR-0054",
+      "GAR-0055",
+      "GAR-0071"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with europe (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with europe (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with europe (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "region-specific card incompatible with europe (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "indoor scene: arctic/snow outerwear unsuitable"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with europe (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with europe (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with europe (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with europe (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "region-specific card incompatible with europe (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "occupational mismatch: the look is for 'queen (usurper)'"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with europe (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "region-specific card incompatible with europe (china)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no reliable period/region context card after period/region normalization (requested: middle ages / europe)",
+    "no reliable style card for art direction 'theatrical European medieval and early-modern analogue, not 11th-century Scotland reconstruction'",
+    "period evidence is approximate/none for GAR-0022, GAR-0045 (requested middle ages); treat these as era-level hypotheses, not exact period matches"
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0482",
+      "url": "https://collections.vam.ac.uk/item/O77731/"
+    },
+    {
+      "source_id": "SRC-0483",
+      "url": "https://collections.vam.ac.uk/item/O356064/"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
+    {
+      "source_id": "SRC-0487",
+      "url": "https://collections.vam.ac.uk/item/O112685/"
+    },
+    {
+      "source_id": "SRC-0488",
+      "url": "https://collections.vam.ac.uk/item/O126654/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0490",
+      "url": "https://collections.vam.ac.uk/item/O165105/"
+    },
+    {
+      "source_id": "SRC-0491",
+      "url": "https://collections.vam.ac.uk/item/O97427/"
+    },
+    {
+      "source_id": "SRC-0405",
+      "url": "https://collections.vam.ac.uk/item/O1295635/"
+    },
+    {
+      "source_id": "SRC-0102",
+      "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": true,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": true,
+    "fidelity_mode": "inspired",
+    "history_evidence": true,
+    "abc_distinct": true,
+    "no_example_in_a": true,
+    "complete_looks": true,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "occupation_category": "unknown",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 3,
+    "rejected_count": 24
+  }
+}

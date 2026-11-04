@@ -1,0 +1,932 @@
+{
+  "input": {
+    "character_name": "Macbeth",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "tyrant king",
+    "economic_status": "royal",
+    "period": "11th century Scotland",
+    "region": "scotland",
+    "season": "autumn",
+    "scene": "battlements and final battle",
+    "time": "night to dawn",
+    "weather": "wind, cold",
+    "action": "arming for battle, final duel",
+    "arc": "defiance and downfall",
+    "art_direction": "medieval Scottish court, wool, leather, iron; film-historical interpretation",
+    "lighting": "overcast north light and firelight",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "historical",
+    "tool": "midjourney",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "",
+    "location": "Dunsinane"
+  },
+  "fidelity_mode": "historical",
+  "looks": [
+    {
+      "look_ref": "A",
+      "source_look_id": null,
+      "total": 20.5,
+      "scores": {
+        "period": 6.6,
+        "identity": 4.6,
+        "environment": 7.3,
+        "art": 4.0,
+        "movement": 4.5,
+        "arc": 4.9,
+        "camera": 6.5
+      },
+      "missing": [
+        "upper_body+lower_body or one_piece",
+        "footwear"
+      ],
+      "cost": 0.433,
+      "cost_total": 0.865,
+      "contains_example": false,
+      "evidence_tier": "unknown",
+      "period_tiers": {
+        "lower_body": "unknown",
+        "outerwear": "unknown"
+      },
+      "region_tiers": {
+        "lower_body": "none",
+        "outerwear": "none"
+      },
+      "colors": [
+        "blue",
+        "crimson",
+        "oyster",
+        "white"
+      ],
+      "style_tags": [
+        "analogue",
+        "early",
+        "early modern",
+        "modern"
+      ],
+      "budget_mode": "none",
+      "budget_explanation": "Only one/two distinct combinations were available.",
+      "differences": {
+        "a_b": null,
+        "a_c": null,
+        "b_c": null
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve tyrant king; the royal economic register shows through material and finish; formality runs from formal / formal; the blue, crimson, oyster palette controls the emotional temperature; against the arc (defiance and downfall) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
+      "items": [
+        {
+          "slot": "lower_body",
+          "id": "GAR-0077",
+          "name_zh": "紧身长袜",
+          "name_en": "hose",
+          "colors": [
+            "oyster",
+            "blue",
+            "white"
+          ],
+          "materials": [
+            "silk",
+            "wool",
+            "linen",
+            "baleen"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0484",
+            "SRC-0485"
+          ],
+          "scores": {
+            "period": 0.264,
+            "identity": 0.4083333333333333,
+            "environment": 0.5774999999999999,
+            "art": 0.3013888888888889,
+            "movement": 0.4,
+            "arc": 0.4944444444444444,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "outerwear",
+          "id": "GAR-0076",
+          "name_zh": "斗篷与披风",
+          "name_en": "cloak and mantle",
+          "colors": [
+            "crimson",
+            "white"
+          ],
+          "materials": [
+            "satin",
+            "silk",
+            "linen",
+            "metal_thread"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0482",
+            "SRC-0483"
+          ],
+          "scores": {
+            "period": 0.264,
+            "identity": 0.225,
+            "environment": 0.40449999999999997,
+            "art": 0.23472222222222222,
+            "movement": 0.5,
+            "arc": 0.4944444444444444,
+            "camera": 0.65
+          }
+        }
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "MAT-0002",
+          "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        }
+      ],
+      "prompt_image": "full-body character design of an adult Macbeth, lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar, palette: blue, crimson, oyster, white, setting: battlements and final battle, night to dawn, wind, cold, art direction: medieval Scottish court, wool, leather, iron; film-historical interpretation, lighting: overcast north light and firelight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Macbeth, arming for battle, final duel, scene: battlements and final battle, night to dawn, wind, cold, camera: medium shot, costume: lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。, lighting: overcast north light and firelight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 6.6/25, 环境气候 7.3/15",
+        "下装: GAR-0077 紧身长袜 (formal)",
+        "外层: GAR-0076 斗篷与披风 (formal)",
+        "linked material cards: MAT-0002, MAT-0003"
+      ],
+      "risks": [
+        "incomplete look, missing: upper_body+lower_body or one_piece, footwear (knowledge-base gap, do not invent items)",
+        "region mismatch in GAR-0077, GAR-0076: cards document their own regions, not scotland",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "evidence": {
+        "source_ids": [
+          "SRC-0484",
+          "SRC-0485",
+          "SRC-0482",
+          "SRC-0483",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0485",
+            "url": "https://collections.vam.ac.uk/item/O107795/"
+          },
+          {
+            "source_id": "SRC-0482",
+            "url": "https://collections.vam.ac.uk/item/O77731/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0077": "verified",
+          "GAR-0076": "verified"
+        },
+        "missing_urls": []
+      }
+    }
+  ],
+  "context": {
+    "style_refs": [
+      "STY-0009"
+    ],
+    "period_refs": [],
+    "scene_refs": []
+  },
+  "context_refs": [
+    {
+      "id": "STY-0009",
+      "type": "style",
+      "score": 0.286,
+      "period_tier": "unknown",
+      "region_tier": "unknown",
+      "reason": "style tag match"
+    }
+  ],
+  "brief_parse": null,
+  "conflicts": [],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "region_mismatch",
+      "severity": "medium",
+      "message": "cards document other regions for GAR-0076, GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+      "items": [
+        "GAR-0076",
+        "GAR-0077"
+      ],
+      "look": null
+    },
+    {
+      "code": "knowledge_gap_slots",
+      "severity": "high",
+      "message": "looks are missing required layers: footwear, upper_body+lower_body or one_piece (no invented replacements)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "looks_incomplete",
+      "severity": "high",
+      "message": "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above",
+      "items": [],
+      "look": null
+    }
+  ],
+  "budget_model": {
+    "mode": "none",
+    "a_cost_total": 0.865,
+    "c_cost_total": null,
+    "differences": {
+      "a_b": null,
+      "a_c": null,
+      "b_c": null
+    }
+  },
+  "retrieved_ids": {
+    "lower_body": [
+      "GAR-0077"
+    ],
+    "inner_layer": [
+      "GAR-0078"
+    ],
+    "outerwear": [
+      "GAR-0076"
+    ]
+  },
+  "rejected": [
+    {
+      "id": "GAR-0002",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 14th_century, 15th_century, 16th_century, 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0003",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0006",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1960s, 1970s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0007",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1890s, edwardian_era, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0008",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 17th_century, 18th_century, 19th_century, 20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0034",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0043",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-EXAMPLE-001",
+      "slot": "upper_body",
+      "reasons": [
+        "historical mode: example card is not historical evidence"
+      ]
+    },
+    {
+      "id": "GAR-0010",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1850s, late_19th_century, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0011",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs mid_19th_century, late_19th_century, early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0013",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 15th_century, 16th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0014",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1950s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0072",
+      "slot": "lower_body",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, 20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0001",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, early_20th_century)",
+        "region-specific card incompatible with scotland (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0005",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, 20th_century, contemporary)",
+        "region-specific card incompatible with scotland (west_africa, senegal, mali)"
+      ]
+    },
+    {
+      "id": "GAR-0030",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs pre_columbian, colonial_era, 20th_century)",
+        "region-specific card incompatible with scotland (mesoamerica, mexico, guatemala)"
+      ]
+    },
+    {
+      "id": "GAR-0065",
+      "slot": "set",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1910s, 1920s, 1930s)",
+        "region-specific card incompatible with scotland (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0012",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs early_19th_century, mid_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0020",
+      "slot": "inner_layer",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0016",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_17th_century, 18th_century, early_19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0017",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 18th_century, 19th_century, victorian_era)"
+      ]
+    },
+    {
+      "id": "GAR-0018",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1790s, 1810s, regency_era)"
+      ]
+    },
+    {
+      "id": "GAR-0019",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0033",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0037",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_19th_century)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0040",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1940s)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0041",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0045",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 20th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0046",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs early_20th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0057",
+      "slot": "outerwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1960s)"
+      ]
+    },
+    {
+      "id": "GAR-0025",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 18th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0026",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0027",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, 20th_century)",
+        "region-specific card incompatible with scotland (ottoman_empire, north_africa, middle_east)"
+      ]
+    },
+    {
+      "id": "GAR-0039",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1960s)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0068",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1900s, edwardian_era)"
+      ]
+    },
+    {
+      "id": "GAR-0070",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1980s, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0047",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1920s)"
+      ]
+    },
+    {
+      "id": "GAR-0048",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0049",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0082",
+      "slot": "carried_prop",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_middle_ages, early_modern)"
+      ]
+    },
+    {
+      "id": "GAR-0022",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0023",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0024",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 16th_century, 17th_century, 18th_century, 20th_century)",
+        "cold: open footwear unsuitable",
+        "action: heels unsafe for running/fight action"
+      ]
+    },
+    {
+      "id": "GAR-0035",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0044",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0058",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1970s)"
+      ]
+    },
+    {
+      "id": "GAR-0060",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1930s)"
+      ]
+    },
+    {
+      "id": "GAR-0081",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0004",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs islamic_empire, 19th_century, 20th_century)",
+        "region-specific card incompatible with scotland (arabia, morocco, persia, north_africa)"
+      ]
+    },
+    {
+      "id": "GAR-0009",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_antiquity, byzantine_era, middle_ages)",
+        "region-specific card incompatible with scotland (europe, byzantium)"
+      ]
+    },
+    {
+      "id": "GAR-0015",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 18th_century, rococo)"
+      ]
+    },
+    {
+      "id": "GAR-0029",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs roman_republic, roman_empire)"
+      ]
+    },
+    {
+      "id": "GAR-0031",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1930s, republican_era)"
+      ]
+    },
+    {
+      "id": "GAR-0032",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1930s, republican_era)"
+      ]
+    },
+    {
+      "id": "GAR-0036",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1960s)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0038",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1960s)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0042",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 19th_century, 20th_century, contemporary)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0052",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0053",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0054",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1950s)"
+      ]
+    },
+    {
+      "id": "GAR-0055",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1950s)"
+      ]
+    },
+    {
+      "id": "GAR-0056",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1960s)"
+      ]
+    },
+    {
+      "id": "GAR-0059",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1970s)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0061",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_antiquity)",
+        "region-specific card incompatible with scotland (egypt)"
+      ]
+    },
+    {
+      "id": "GAR-0062",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_16th_century, early_17th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0063",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs early_20th_century, contemporary)",
+        "region-specific card incompatible with scotland (india, mysore)"
+      ]
+    },
+    {
+      "id": "GAR-0064",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1970s, contemporary)",
+        "region-specific card incompatible with scotland (korea)"
+      ]
+    },
+    {
+      "id": "GAR-0069",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs contemporary)"
+      ]
+    },
+    {
+      "id": "GAR-0071",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0075",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_antiquity, early_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0079",
+      "slot": "one_piece",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs middle_ages, early_modern)"
+      ]
+    },
+    {
+      "id": "GAR-0021",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0028",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 16th_century, 17th_century, 18th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0050",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1940s)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0051",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1970s)",
+        "occupational mismatch: the look is for 'tyrant king'"
+      ]
+    },
+    {
+      "id": "GAR-0066",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1930s, 1940s)",
+        "region-specific card incompatible with scotland (japan)"
+      ]
+    },
+    {
+      "id": "GAR-0067",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs late_19th_century, early_20th_century)",
+        "region-specific card incompatible with scotland (china)"
+      ]
+    },
+    {
+      "id": "GAR-0073",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs 1860s, 1870s)"
+      ]
+    },
+    {
+      "id": "GAR-0074",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs early_19th_century, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0080",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (11th century Scotland vs early_middle_ages, early_modern)"
+      ]
+    }
+  ],
+  "warnings": [
+    "no reliable period/region context card after period/region normalization (requested: 11th century Scotland / scotland)",
+    "cards document other regions for GAR-0076, GAR-0077 (requested scotland); cross-region borrowing is flagged, not silently accepted",
+    "looks are missing required layers: footwear, upper_body+lower_body or one_piece (no invented replacements)",
+    "only 1 distinct look(s) could be assembled after hard constraints; inspect the knowledge-base gaps above"
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0485",
+      "url": "https://collections.vam.ac.uk/item/O107795/"
+    },
+    {
+      "source_id": "SRC-0482",
+      "url": "https://collections.vam.ac.uk/item/O77731/"
+    },
+    {
+      "source_id": "SRC-0483",
+      "url": "https://collections.vam.ac.uk/item/O356064/"
+    },
+    {
+      "source_id": "SRC-0141",
+      "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0142",
+      "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    }
+  ],
+  "missing_urls": [],
+  "checks": {
+    "ids_all_exist": true,
+    "three_looks": false,
+    "all_have_garment": true,
+    "scores_sum_100": true,
+    "looks_distinct": false,
+    "fidelity_mode": "historical",
+    "history_evidence": true,
+    "abc_distinct": false,
+    "no_example_in_a": true,
+    "complete_looks": false,
+    "context_refs_filtered": true,
+    "narrative_present": true,
+    "brief_parsed": false,
+    "conflicts": 0,
+    "occupation_category": "unknown",
+    "occupation_match": false,
+    "occupation_forbidden_selected": [],
+    "rainwear_selected": null,
+    "warnings_count": 4,
+    "rejected_count": 80
+  }
+}
