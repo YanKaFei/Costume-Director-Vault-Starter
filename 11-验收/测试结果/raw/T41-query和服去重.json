@@ -140,9 +140,19 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0016",
           "slot": "set",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0017",
+          "slot": "set",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -157,17 +167,21 @@
         {
           "id": "MAT-0011",
           "slot": "footwear"
+        },
+        {
+          "id": "MAT-0014",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Aiko, complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, cream, gold, red, silver, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
-      "prompt_video": "Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Aiko, complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, cream, gold, red, silver, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); placket (STR-0017); ease and fit (STR-0025), continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014",
+      "prompt_video": "Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014",
       "reasons": [
         "highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10",
         "成套: GAR-0065 出口和服 (ceremonial)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0011"
+        "linked structure cards: STR-0016, STR-0017, STR-0025",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0011, MAT-0014"
       ],
       "risks": [
         "region mismatch in GAR-0035: cards document their own regions, not japan",
@@ -179,11 +193,16 @@
           "SRC-0426",
           "SRC-0205",
           "SRC-0206",
-          "SRC-0200",
           "SRC-0202",
+          "SRC-0201",
+          "SRC-0108",
+          "SRC-0412",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0141",
           "SRC-0142",
-          "SRC-0423"
+          "SRC-0423",
+          "SRC-0143"
         ],
         "source_urls": [
           {
@@ -199,12 +218,28 @@
             "url": "https://collections.vam.ac.uk/item/O350850/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
-          },
-          {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0108",
+            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0141",
@@ -217,6 +252,10 @@
           {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
           }
         ],
         "context_style_ids": [],
@@ -350,11 +389,25 @@
           "id": "STR-0011",
           "slot": "one_piece",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0016",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
         {
           "id": "MAT-0002",
+          "slot": "one_piece"
+        },
+        {
+          "id": "MAT-0014",
           "slot": "one_piece"
         },
         {
@@ -366,15 +419,15 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Aiko, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, mid blue, orange red, pink, red, silver, white, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
-      "prompt_video": "Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Aiko, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, mid blue, orange red, pink, red, silver, white, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); ease and fit (STR-0025), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0011",
+      "prompt_video": "Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 13.8/25, 摄影/一致性 6.9/10",
         "连身: GAR-0031 旗袍 (smart_casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0011",
+        "linked structure cards: STR-0011, STR-0016, STR-0025",
+        "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0011",
         "based on curated vault look card LOOK-0009"
       ],
       "risks": [
@@ -389,9 +442,12 @@
           "SRC-0205",
           "SRC-0206",
           "SRC-0202",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0141",
-          "SRC-0142",
-          "SRC-0423"
+          "SRC-0143",
+          "SRC-0423",
+          "SRC-0142"
         ],
         "source_urls": [
           {
@@ -415,16 +471,28 @@
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
-            "source_id": "SRC-0142",
-            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
           },
           {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           }
         ],
         "context_style_ids": [],
@@ -541,9 +609,14 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0016",
           "slot": "set",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0017",
+          "slot": "set",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -560,14 +633,14 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Aiko, complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream, gold, red, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
+      "prompt_image": "full-body character design of an adult Aiko, complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream, gold, red, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); placket (STR-0017), continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
       "prompt_video": "Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "continuity_lock": "continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
       "reasons": [
         "highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10",
         "成套: GAR-0065 出口和服 (ceremonial)",
         "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
-        "linked structure cards: STR-0011",
+        "linked structure cards: STR-0016, STR-0017",
         "linked material cards: MAT-0002, MAT-0003, MAT-0004"
       ],
       "risks": [
@@ -579,8 +652,10 @@
         "source_ids": [
           "SRC-0426",
           "SRC-0418",
-          "SRC-0200",
           "SRC-0202",
+          "SRC-0201",
+          "SRC-0108",
+          "SRC-0412",
           "SRC-0141",
           "SRC-0142",
           "SRC-0143"
@@ -595,12 +670,20 @@
             "url": "https://collections.vam.ac.uk/item/O1380038/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
-          },
-          {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0108",
+            "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
             "source_id": "SRC-0141",
@@ -712,16 +795,20 @@
       "GAR-0066",
       "GAR-0068",
       "GAR-0074",
+      "GAR-0086",
       "GAR-0073",
       "GAR-0070",
       "GAR-0028",
       "GAR-0026",
       "GAR-0080",
       "GAR-0021",
+      "GAR-0083",
+      "GAR-0085",
       "GAR-0025"
     ],
     "carried_prop": [
       "GAR-0048",
+      "GAR-0087",
       "GAR-0049",
       "GAR-0047",
       "GAR-0082"
@@ -733,6 +820,7 @@
       "GAR-0060",
       "GAR-0024",
       "GAR-0023",
+      "GAR-0084",
       "GAR-0081"
     ],
     "one_piece": [
@@ -908,12 +996,28 @@
       "url": "https://collections.vam.ac.uk/item/O350850/"
     },
     {
-      "source_id": "SRC-0200",
-      "url": "https://collections.vam.ac.uk/item/O1151302/"
-    },
-    {
       "source_id": "SRC-0202",
       "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0108",
+      "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0521",
+      "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
     },
     {
       "source_id": "SRC-0141",
@@ -928,16 +1032,16 @@
       "url": "https://collections.vam.ac.uk/item/O315431/"
     },
     {
-      "source_id": "SRC-0201",
-      "url": "https://collections.vam.ac.uk/item/O107537/"
+      "source_id": "SRC-0143",
+      "url": "https://fashionhistory.fitnyc.edu/lurex/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
     },
     {
       "source_id": "SRC-0418",
       "url": "https://collections.vam.ac.uk/item/O1380038/"
-    },
-    {
-      "source_id": "SRC-0143",
-      "url": "https://fashionhistory.fitnyc.edu/lurex/"
     }
   ],
   "missing_urls": [],

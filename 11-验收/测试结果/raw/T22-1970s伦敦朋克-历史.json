@@ -207,7 +207,28 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0012",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0016",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0023",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0002",
@@ -222,20 +243,25 @@
           "slot": "footwear"
         },
         {
+          "id": "MAT-0014",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0011",
           "slot": "carried_prop"
         }
       ],
-      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 CC41 Utility skirt suit, utility buttons stamped CC41, tailored wartime silhouette; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: beige, black, grey herringbone, khaki, lavender, red, silver, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
-      "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 CC41 Utility skirt suit, utility buttons stamped CC41, tailored wartime silhouette; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 硬挺羊毛外套限制抬臂; 及膝裙限制跨步; 衬衫塞入裙腰需锁定。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 CC41 Utility skirt suit, utility buttons stamped CC41, tailored wartime silhouette; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: beige, black, grey herringbone, khaki, lavender, red, silver, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011",
+      "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 CC41 Utility skirt suit, utility buttons stamped CC41, tailored wartime silhouette; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 硬挺羊毛外套限制抬臂; 及膝裙限制跨步; 衬衫塞入裙腰需锁定。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 22.2/25, 摄影/一致性 6.5/10",
         "连身: GAR-0053 Utility 裙套装 (business)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "携带物: GAR-0047 雨伞 (smart_casual)",
-        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+        "linked structure cards: STR-0012, STR-0016, STR-0023, STR-0025",
+        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011",
         "based on curated vault look card LOOK-0014",
         "period/culture score is supported by period-tagged cards"
       ],
@@ -250,9 +276,16 @@
           "SRC-0205",
           "SRC-0206",
           "SRC-0407",
+          "SRC-0118",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0486",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0141",
           "SRC-0102",
           "SRC-0142",
+          "SRC-0143",
           "SRC-0423"
         ],
         "source_urls": [
@@ -277,6 +310,30 @@
             "url": "https://collections.vam.ac.uk/item/O470711/"
           },
           {
+            "source_id": "SRC-0118",
+            "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
@@ -287,6 +344,10 @@
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
           },
           {
             "source_id": "SRC-0423",
@@ -444,7 +505,28 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0018",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0020",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0016",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0002",
@@ -457,17 +539,22 @@
         {
           "id": "MAT-0011",
           "slot": "footwear"
+        },
+        {
+          "id": "MAT-0014",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, red, scarlet, silver, silver grey, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
-      "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 橡胶丝绸较硬、透气性差，动作时折痕明显; 湿后重量增加、内衬返潮。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, red, scarlet, silver, silver grey, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); panels and gores (STR-0020); hem and vents/slits (STR-0016); ease and fit (STR-0025), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014",
+      "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 橡胶丝绸较硬、透气性差，动作时折痕明显; 湿后重量增加、内衬返潮。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014",
       "reasons": [
         "highest scoring dimensions: 年代/文化 22.3/25, 摄影/一致性 6.5/10",
         "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
         "外层: GAR-0046 雨衣 (smart_casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0011",
+        "linked structure cards: STR-0018, STR-0020, STR-0016, STR-0025",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0011, MAT-0014",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -480,9 +567,18 @@
           "SRC-0406",
           "SRC-0205",
           "SRC-0206",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0141",
           "SRC-0142",
-          "SRC-0423"
+          "SRC-0423",
+          "SRC-0143"
         ],
         "source_urls": [
           {
@@ -502,6 +598,38 @@
             "url": "https://collections.vam.ac.uk/item/O350850/"
           },
           {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
@@ -512,6 +640,10 @@
           {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
           }
         ],
         "context_style_ids": [],
@@ -659,7 +791,23 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0018",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0020",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0016",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0002",
@@ -674,7 +822,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, gold, scarlet, silver grey, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
+      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, gold, scarlet, silver grey, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); panels and gores (STR-0020); hem and vents/slits (STR-0016), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
       "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 橡胶丝绸较硬、透气性差，动作时折痕明显; 湿后重量增加、内衬返潮。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
       "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
       "reasons": [
@@ -682,6 +830,7 @@
         "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
         "外层: GAR-0046 雨衣 (smart_casual)",
         "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
+        "linked structure cards: STR-0018, STR-0020, STR-0016",
         "linked material cards: MAT-0002, MAT-0003, MAT-0004",
         "period/culture score is supported by period-tagged cards"
       ],
@@ -694,6 +843,12 @@
           "SRC-0412",
           "SRC-0406",
           "SRC-0418",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0202",
+          "SRC-0201",
           "SRC-0141",
           "SRC-0142",
           "SRC-0143"
@@ -710,6 +865,30 @@
           {
             "source_id": "SRC-0418",
             "url": "https://collections.vam.ac.uk/item/O1380038/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
             "source_id": "SRC-0141",
@@ -833,10 +1012,12 @@
       "GAR-0073",
       "GAR-0074",
       "GAR-0028",
+      "GAR-0086",
       "GAR-0070"
     ],
     "carried_prop": [
       "GAR-0048",
+      "GAR-0087",
       "GAR-0047"
     ],
     "footwear": [
@@ -973,6 +1154,13 @@
       ]
     },
     {
+      "id": "GAR-0085",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1970s vs late_16th_century, 17th_century)"
+      ]
+    },
+    {
       "id": "GAR-0049",
       "slot": "carried_prop",
       "reasons": [
@@ -998,6 +1186,13 @@
       "slot": "footwear",
       "reasons": [
         "historical mode: period mismatch (1970s vs late_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0084",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1970s vs 18th_century)"
       ]
     },
     {
@@ -1133,6 +1328,13 @@
       "reasons": [
         "historical mode: period mismatch (1970s vs early_middle_ages, early_modern)"
       ]
+    },
+    {
+      "id": "GAR-0083",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1970s vs 17th_century)"
+      ]
     }
   ],
   "warnings": [
@@ -1162,6 +1364,30 @@
       "url": "https://collections.vam.ac.uk/item/O470711/"
     },
     {
+      "source_id": "SRC-0118",
+      "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0486",
+      "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0521",
+      "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+    },
+    {
       "source_id": "SRC-0141",
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
@@ -1172,6 +1398,10 @@
     {
       "source_id": "SRC-0142",
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0143",
+      "url": "https://fashionhistory.fitnyc.edu/lurex/"
     },
     {
       "source_id": "SRC-0423",
@@ -1186,12 +1416,20 @@
       "url": "https://collections.vam.ac.uk/item/O361727/"
     },
     {
-      "source_id": "SRC-0418",
-      "url": "https://collections.vam.ac.uk/item/O1380038/"
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
     },
     {
-      "source_id": "SRC-0143",
-      "url": "https://fashionhistory.fitnyc.edu/lurex/"
+      "source_id": "SRC-0451",
+      "url": "https://collections.vam.ac.uk/item/O109190/"
+    },
+    {
+      "source_id": "SRC-0453",
+      "url": "https://collections.vam.ac.uk/item/O163754/"
+    },
+    {
+      "source_id": "SRC-0418",
+      "url": "https://collections.vam.ac.uk/item/O1380038/"
     }
   ],
   "missing_urls": [],
@@ -1215,6 +1453,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 3,
-    "rejected_count": 39
+    "rejected_count": 42
   }
 }

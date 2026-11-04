@@ -37,3 +37,15 @@
 - **导演材料**：18/18 审阅完整；评分表 18×7 NOT_SCORED（无数字分）；OBSIDIAN-UAT 为 HUMAN_UAT_PENDING/NOT_TESTED。
 - **结论**：**PRIVATE-USE VERIFIED = YES；PUBLIC-READY = NO（BLOCKED，B1–B6）**；HUMAN_UAT_PENDING 4 项未变；兼容性 caveat（DeepSeek 402 / Doubao overlay）已披露。
 - 详见 `reports/P3.6-REPORT.md`。
+
+
+---
+
+## 5. P4 最终验收（2026-11-04 16:26，task-45）
+
+- 快照：399 卡（内容 188 + 来源 211）；45 acceptance；9 workflow；9 composer；11 Macbeth；HEAD `7f7a21b`。
+- **机械门禁**：validate **PASS** 399/399（0 错误 0 警告）；build_sources **PASS** 211/211（CSV 212 行）；acceptance **PASS 45/45**；quality_eval **OVERALL PASS（17/17）**。
+- **P4 专项**：许可审计 20 源分流（PASS 15/WARN 2/RESTRICTED 3，无 verified 误标）；9 本 PD 书/31 结论（15 verified，3/3 抽检原文行一致，页码 UNCONFIRMED）；结构 v1.2（42 可选字段、22 新卡、旧卡 0 破坏）；composer 9/9 + 独立 3 例（0 缺失 ID/0 未解析 SRC/A-B-C 差异/连续性）；视觉 28/28 CC0、27 关联、0 下载；Macbeth 11/11 + P3.5 基线对比（looks/avg_items/abc_diff/unique_src 提升）。
+- **回归指标**：relevant@5 4.16 持平、0-hit 0 持平、recommend 指标全持平；**precision 94.5%→92.9%（−1.6pp，仍 ≥0.8）** → WARN 观察，非阻断。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = YES（不变）；PUBLIC-READY = NO（BLOCKED B1–B6 + L1–L6）；HUMAN_UAT_PENDING 4 项未执行、未代填。
+- 详见 `reports/P4-REPORT.md`。

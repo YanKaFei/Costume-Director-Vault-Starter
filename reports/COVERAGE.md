@@ -33,3 +33,13 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 - 新增与验收相关资产（不计入卡片覆盖）：`.dsh/skills/costume-director/SKILL.md`、`docs/SKILL-USAGE.md`、`projects/` 用户隔离区、`11-验收/P3.6/`（smoke/e2e/导演材料）、`scripts/check_skill_e2e.py`。
 - 验收用例保持 **45**；workflow tests **9**；e2e **10**（T01–T10，全部通过独立审计）。
 - 覆盖缺口不变：pattern 1/11 族、material 4/8 族、garment_part 6/16 族；62 draft（45 REVIEWED-CANDIDATE / 17 STAY_DRAFT）。
+
+
+## 5. P4 更新（2026-11-04 16:26）
+
+- 卡片/来源：**399 卡（内容 188 + 来源 211）**；`SOURCES.csv` 212 行；P4 新增 22 内容卡 + 14 来源卡，旧卡 0 修改。
+- 新卡：garment 5（手套/高跟鞋/帽/胸针/手袋结构）、garment_part 14（STR-0012..0025）、material 3（MAT-0012..0014）；v1.2 可选字段 42 个（新卡使用 36 个）。
+- 书籍：9 本 PD 书、31 条结论（15 verified/11 partial/5 candidate）、157 章、12,640 hits、5,391 词典词条；页码 UNCONFIRMED。
+- 视觉：28 条 CC0 索引（28/28 isPublicDomain、27 关联、0 下载/0 内嵌图片）。
+- Composer/Macbeth：9 例 + 11 例验收；P4 相对 P3.5 的槽位/来源覆盖提升。
+- 缺口不变：pattern 3/11 族、material 细化（leather/fur/metal/finish）不足、62 draft、AAT 19 张未接入。

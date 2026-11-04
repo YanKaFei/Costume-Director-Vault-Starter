@@ -70,9 +70,9 @@
       "budget_mode": "cheaper",
       "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
       "differences": {
-        "a_b": 2,
-        "a_c": 2,
-        "b_c": 4
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
       },
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from formal / smart_casual; the black, red, silver palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
@@ -136,9 +136,19 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0014",
           "slot": "one_piece",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0015",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -149,17 +159,21 @@
         {
           "id": "MAT-0003",
           "slot": "footwear"
+        },
+        {
+          "id": "MAT-0014",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Ada, one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, red, silver, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
-      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 合体上身与及膝/小腿长度限制步幅; 蕾丝外裙易勾挂，需控制动作。, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Ada, one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, red, silver, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); waistline (STR-0015); ease and fit (STR-0025), continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
+      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 合体上身与及膝/小腿长度限制步幅; 蕾丝外裙易勾挂，需控制动作。, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
       "reasons": [
         "highest scoring dimensions: 年代/文化 22.2/25, 摄影/一致性 6.5/10",
         "连身: GAR-0054 1950 年代鸡尾酒裙 (formal)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0002, MAT-0003",
+        "linked structure cards: STR-0014, STR-0015, STR-0025",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0014",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -171,10 +185,14 @@
           "SRC-0414",
           "SRC-0205",
           "SRC-0206",
+          "SRC-0412",
           "SRC-0200",
-          "SRC-0202",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0141",
-          "SRC-0142"
+          "SRC-0142",
+          "SRC-0143",
+          "SRC-0423"
         ],
         "source_urls": [
           {
@@ -190,12 +208,20 @@
             "url": "https://collections.vam.ac.uk/item/O350850/"
           },
           {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0141",
@@ -204,6 +230,14 @@
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
           }
         ],
         "context_style_ids": [],
@@ -221,31 +255,34 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 50.0,
+      "total": 50.3,
       "scores": {
-        "period": 23.8,
-        "identity": 3.4,
-        "environment": 3.8,
-        "art": 4.1,
-        "movement": 5.0,
+        "period": 22.5,
+        "identity": 5.0,
+        "environment": 3.4,
+        "art": 4.2,
+        "movement": 5.3,
         "arc": 4.4,
         "camera": 6.5
       },
       "missing": [],
-      "cost": 0.296,
-      "cost_total": 0.593,
+      "cost": 0.378,
+      "cost_total": 1.135,
       "contains_example": false,
       "evidence_tier": "exact",
       "period_tiers": {
         "one_piece": "exact",
-        "footwear": "era"
+        "footwear": "era",
+        "accessory": "approximate"
       },
       "region_tiers": {
         "one_piece": "exact",
-        "footwear": "exact"
+        "footwear": "exact",
+        "accessory": "exact"
       },
       "colors": [
         "black",
+        "gold",
         "magenta",
         "orange",
         "pink",
@@ -259,13 +296,15 @@
         "art",
         "art deco",
         "deco",
+        "jewelry",
         "mod",
-        "psychedelic"
+        "psychedelic",
+        "victorian"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from casual / smart_casual; the black, magenta, orange palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from casual / smart_casual / formal; the black, gold, magenta palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "one_piece",
@@ -325,6 +364,36 @@
             "arc": 0.44285714285714284,
             "camera": 0.65
           }
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0086",
+          "name_zh": "胸针结构",
+          "name_en": "brooch construction",
+          "colors": [
+            "gold",
+            "black",
+            "white"
+          ],
+          "materials": [
+            "gold",
+            "enamel",
+            "photograph",
+            "glass"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0459"
+          ],
+          "scores": {
+            "period": 0.6859999999999999,
+            "identity": 0.775,
+            "environment": 0.12249999999999998,
+            "art": 0.3125,
+            "movement": 0.64,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
         }
       ],
       "parts": [
@@ -334,9 +403,19 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0016",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
           "slot": "footwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0018",
+          "slot": "accessory",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -347,17 +426,22 @@
         {
           "id": "MAT-0003",
           "slot": "footwear"
+        },
+        {
+          "id": "MAT-0014",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Ada, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, palette: black, magenta, orange, pink, red, silver, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); frog closure (STR-0011), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
-      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling, fabric motion: 超短裙摆限制坐姿与跨步; 泡泡袖/荷叶边在动作中翻动。, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Ada, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: circular gold mourning brooch with central photographic portrait, broad matte gold border, black champlevé enamel inscription and floral motifs, pin fitting on reverse, palette: black, gold, magenta, orange, pink, red, silver, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); hem and vents/slits (STR-0016); ease and fit (STR-0025); buttons and buttonholes (STR-0018), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0086 brooch construction [gold, black, white; gold, enamel, photograph, glass; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
+      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: circular gold mourning brooch with central photographic portrait, broad matte gold border, black champlevé enamel inscription and floral motifs, pin fitting on reverse, fabric motion: 超短裙摆限制坐姿与跨步; 泡泡袖/荷叶边在动作中翻动。, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0086 brooch construction [gold, black, white; gold, enamel, photograph, glass; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0086 brooch construction [gold, black, white; gold, enamel, photograph, glass; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.8/25, 摄影/一致性 6.5/10",
+        "highest scoring dimensions: 年代/文化 22.5/25, 摄影/一致性 6.5/10",
         "连身: GAR-0056 1960 年代迷你裙 (casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
-        "linked structure cards: STR-0003, STR-0011",
-        "linked material cards: MAT-0002, MAT-0003",
+        "配饰: GAR-0086 胸针结构 (formal)",
+        "linked structure cards: STR-0003, STR-0016, STR-0025, STR-0018",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0014",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -369,11 +453,18 @@
           "SRC-0416",
           "SRC-0205",
           "SRC-0206",
+          "SRC-0459",
           "SRC-0133",
-          "SRC-0200",
           "SRC-0202",
+          "SRC-0201",
+          "SRC-0521",
+          "SRC-0520",
+          "SRC-0413",
+          "SRC-0200",
           "SRC-0141",
-          "SRC-0142"
+          "SRC-0142",
+          "SRC-0143",
+          "SRC-0423"
         ],
         "source_urls": [
           {
@@ -389,16 +480,36 @@
             "url": "https://collections.vam.ac.uk/item/O350850/"
           },
           {
+            "source_id": "SRC-0459",
+            "url": "https://collections.vam.ac.uk/item/O1816123/"
+          },
+          {
             "source_id": "SRC-0133",
             "url": "https://fashionhistory.fitnyc.edu/ruff/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
-          },
-          {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
             "source_id": "SRC-0141",
@@ -407,6 +518,14 @@
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
           }
         ],
         "context_style_ids": [],
@@ -416,7 +535,8 @@
         "context_scene_ids": [],
         "item_evidence": {
           "GAR-0056": "verified",
-          "GAR-0035": "verified"
+          "GAR-0035": "verified",
+          "GAR-0086": "verified"
         },
         "missing_urls": []
       }
@@ -424,94 +544,137 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 48.6,
+      "total": 49.2,
       "scores": {
-        "period": 22.2,
+        "period": 23.5,
         "identity": 3.4,
-        "environment": 1.8,
-        "art": 4.2,
-        "movement": 4.0,
+        "environment": 3.5,
+        "art": 3.9,
+        "movement": 5.0,
         "arc": 4.4,
         "camera": 6.5
       },
       "missing": [],
-      "cost": 0.371,
-      "cost_total": 0.742,
+      "cost": 0.273,
+      "cost_total": 0.82,
       "contains_example": false,
-      "evidence_tier": "era",
+      "evidence_tier": "exact",
       "period_tiers": {
-        "one_piece": "era",
-        "footwear": "era"
+        "one_piece": "exact",
+        "footwear": "era",
+        "carried_prop": "era"
       },
       "region_tiers": {
         "one_piece": "exact",
-        "footwear": "exact"
+        "footwear": "exact",
+        "carried_prop": "exact"
       },
       "colors": [
         "black",
-        "brown"
+        "magenta",
+        "multicolor",
+        "orange",
+        "pink",
+        "red",
+        "silver",
+        "white"
       ],
       "style_tags": [
-        "1950s",
-        "country",
-        "couture",
-        "evening",
-        "military"
+        "1930s",
+        "1960s",
+        "accessory",
+        "art",
+        "art deco",
+        "deco",
+        "mod",
+        "psychedelic"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from formal / smart_casual; the black, brown palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve photographer; the middle economic register shows through material and finish; formality runs from casual / smart_casual / smart_casual; the black, magenta, multicolor palette controls the emotional temperature; against the arc (finding a visual voice in a changing city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
         {
           "slot": "one_piece",
-          "id": "GAR-0054",
-          "name_zh": "1950 年代鸡尾酒裙",
-          "name_en": "1950s cocktail dress",
+          "id": "GAR-0056",
+          "name_zh": "1960 年代迷你裙",
+          "name_en": "1960s mini-dress",
           "colors": [
-            "black"
+            "white",
+            "orange",
+            "pink",
+            "magenta"
           ],
           "materials": [
-            "silk",
-            "lace"
+            "printed_polyester"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0414"
+            "SRC-0416"
           ],
           "scores": {
-            "period": 0.8900000000000001,
+            "period": 1.0,
             "identity": 0.225,
             "environment": 0.12249999999999998,
-            "art": 0.25,
-            "movement": 0.4,
+            "art": 0.2875,
+            "movement": 0.5,
             "arc": 0.44285714285714284,
             "camera": 0.65
           }
         },
         {
           "slot": "footwear",
-          "id": "GAR-0022",
-          "name_zh": "威灵顿靴",
-          "name_en": "wellington boot",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
           "colors": [
             "black",
-            "brown"
+            "red",
+            "silver"
           ],
           "materials": [
-            "leather",
-            "rubber"
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0123"
+            "SRC-0205",
+            "SRC-0206"
+          ],
+          "scores": {
+            "period": 0.8900000000000001,
+            "identity": 0.225,
+            "environment": 0.4225,
+            "art": 0.25,
+            "movement": 0.5,
+            "arc": 0.44285714285714284,
+            "camera": 0.65
+          }
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0048",
+          "name_zh": "手提包",
+          "name_en": "handbag",
+          "colors": [
+            "multicolor"
+          ],
+          "materials": [
+            "canvas",
+            "wool"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0408"
           ],
           "scores": {
             "period": 0.8900000000000001,
             "identity": 0.225,
             "environment": 0.12249999999999998,
-            "art": 0.32499999999999996,
-            "movement": 0.4,
+            "art": 0.1875,
+            "movement": 0.5,
             "arc": 0.44285714285714284,
             "camera": 0.65
           }
@@ -519,26 +682,50 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0003",
           "slot": "one_piece",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0016",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0019",
+          "slot": "carried_prop",
+          "confidence": "explicit"
         }
       ],
       "materials": [
         {
           "id": "MAT-0002",
-          "slot": "one_piece"
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0014",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Ada, one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002",
-      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 合体上身与及膝/小腿长度限制步幅; 蕾丝外裙易勾挂，需控制动作。, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002",
+      "prompt_image": "full-body character design of an adult Ada, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, magenta, multicolor, orange, pink, red, silver, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); hem and vents/slits (STR-0016); ease and fit (STR-0025); zipper (STR-0019), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
+      "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 超短裙摆限制坐姿与跨步; 泡泡袖/荷叶边在动作中翻动。, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 22.2/25, 摄影/一致性 6.5/10",
-        "连身: GAR-0054 1950 年代鸡尾酒裙 (formal)",
-        "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0002",
+        "highest scoring dimensions: 年代/文化 23.5/25, 摄影/一致性 6.5/10",
+        "连身: GAR-0056 1960 年代迷你裙 (casual)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "携带物: GAR-0048 手提包 (smart_casual)",
+        "linked structure cards: STR-0003, STR-0016, STR-0025, STR-0019",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0014",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -547,32 +734,72 @@
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0414",
-          "SRC-0123",
-          "SRC-0200",
+          "SRC-0416",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0408",
+          "SRC-0133",
           "SRC-0202",
-          "SRC-0141"
+          "SRC-0201",
+          "SRC-0521",
+          "SRC-0520",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0143",
+          "SRC-0423"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0414",
-            "url": "https://collections.vam.ac.uk/item/O50247/"
+            "source_id": "SRC-0416",
+            "url": "https://collections.vam.ac.uk/item/O130915/"
           },
           {
-            "source_id": "SRC-0123",
-            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0408",
+            "url": "https://collections.vam.ac.uk/item/O367714/"
+          },
+          {
+            "source_id": "SRC-0133",
+            "url": "https://fashionhistory.fitnyc.edu/ruff/"
           },
           {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
           }
         ],
         "context_style_ids": [],
@@ -581,8 +808,9 @@
         ],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0054": "verified",
-          "GAR-0022": "verified"
+          "GAR-0056": "verified",
+          "GAR-0035": "verified",
+          "GAR-0048": "verified"
         },
         "missing_urls": []
       }
@@ -616,12 +844,21 @@
       "look": null
     },
     {
+      "code": "period_approximate",
+      "severity": "medium",
+      "message": "period evidence is approximate/none for GAR-0086 (requested 1960s); treat these as era-level hypotheses, not exact period matches",
+      "items": [
+        "GAR-0086"
+      ],
+      "look": null
+    },
+    {
       "code": "period_era_level",
       "severity": "low",
-      "message": "period evidence is era-level (century bucket) for GAR-0022, GAR-0035, GAR-0054; exact-decade cards are missing",
+      "message": "period evidence is era-level (century bucket) for GAR-0035, GAR-0048, GAR-0054; exact-decade cards are missing",
       "items": [
-        "GAR-0022",
         "GAR-0035",
+        "GAR-0048",
         "GAR-0054"
       ],
       "look": null
@@ -637,11 +874,11 @@
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 0.935,
-    "c_cost_total": 0.742,
+    "c_cost_total": 0.82,
     "differences": {
-      "a_b": 2,
-      "a_c": 2,
-      "b_c": 4
+      "a_b": 3,
+      "a_c": 3,
+      "b_c": 2
     }
   },
   "retrieved_ids": {
@@ -674,6 +911,7 @@
       "GAR-0018"
     ],
     "accessory": [
+      "GAR-0086",
       "GAR-0068",
       "GAR-0074",
       "GAR-0073",
@@ -684,6 +922,7 @@
     ],
     "carried_prop": [
       "GAR-0048",
+      "GAR-0087",
       "GAR-0047"
     ],
     "footwear": [
@@ -820,6 +1059,13 @@
       ]
     },
     {
+      "id": "GAR-0085",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs late_16th_century, 17th_century)"
+      ]
+    },
+    {
       "id": "GAR-0049",
       "slot": "carried_prop",
       "reasons": [
@@ -845,6 +1091,13 @@
       "slot": "footwear",
       "reasons": [
         "historical mode: period mismatch (1960s vs late_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0084",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 18th_century)"
       ]
     },
     {
@@ -980,11 +1233,19 @@
       "reasons": [
         "historical mode: period mismatch (1960s vs early_middle_ages, early_modern)"
       ]
+    },
+    {
+      "id": "GAR-0083",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1960s vs 17th_century)"
+      ]
     }
   ],
   "warnings": [
     "no reliable style card for art direction 'swinging sixties youth culture'",
-    "period evidence is era-level (century bucket) for GAR-0022, GAR-0035, GAR-0054; exact-decade cards are missing",
+    "period evidence is approximate/none for GAR-0086 (requested 1960s); treat these as era-level hypotheses, not exact period matches",
+    "period evidence is era-level (century bucket) for GAR-0035, GAR-0048, GAR-0054; exact-decade cards are missing",
     "the vault has no 'photographer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted"
   ],
   "sources": [
@@ -1001,12 +1262,20 @@
       "url": "https://collections.vam.ac.uk/item/O350850/"
     },
     {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
       "source_id": "SRC-0200",
       "url": "https://collections.vam.ac.uk/item/O1151302/"
     },
     {
-      "source_id": "SRC-0202",
-      "url": "https://collections.vam.ac.uk/item/O80590/"
+      "source_id": "SRC-0521",
+      "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
     },
     {
       "source_id": "SRC-0141",
@@ -1017,16 +1286,40 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
+      "source_id": "SRC-0143",
+      "url": "https://fashionhistory.fitnyc.edu/lurex/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
       "source_id": "SRC-0416",
       "url": "https://collections.vam.ac.uk/item/O130915/"
+    },
+    {
+      "source_id": "SRC-0459",
+      "url": "https://collections.vam.ac.uk/item/O1816123/"
     },
     {
       "source_id": "SRC-0133",
       "url": "https://fashionhistory.fitnyc.edu/ruff/"
     },
     {
-      "source_id": "SRC-0123",
-      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0413",
+      "url": "https://collections.vam.ac.uk/item/O15667/"
+    },
+    {
+      "source_id": "SRC-0408",
+      "url": "https://collections.vam.ac.uk/item/O367714/"
     }
   ],
   "missing_urls": [],
@@ -1049,7 +1342,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
-    "warnings_count": 3,
-    "rejected_count": 39
+    "warnings_count": 4,
+    "rejected_count": 42
   }
 }

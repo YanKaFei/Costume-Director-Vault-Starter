@@ -95,3 +95,14 @@
 - **兼容性 caveat**：DeepSeek 官方路由曾 402 QUOTA（smoke）；e2e 用 Doubao 临时 overlay（无 profile 改动）；我的原生验证需从 credentials store 注入 key。**不声称 DeepSeek 官方路由已完成 10 例长会话。**
 - **门禁**：**PRIVATE-USE VERIFIED = YES；PUBLIC-READY = NO（BLOCKED，B1–B6）**；HUMAN_UAT_PENDING 4 项保持（未执行、未代填分数）。
 - 详见 `reports/P3.6-REPORT.md`。
+
+
+## 10. P4 最终验收（2026-11-04 16:26，task-45）
+
+- **HEAD**：`7f7a21b`（P4 commit：source audit、9 PD books、structure v1.2 + 22 cards、outfit composer、visual index、Macbeth validation）。
+- **快照**：**399 卡**（内容 188 + 来源 211）；**45 例验收**；9 workflow tests；9 composer tests；11 Macbeth tests；SOURCES.csv 212 行。
+- **独立验收全部 PASS**：许可审计 20 源（PASS 15/WARN 2/RESTRICTED 3，无 verified 误标）；书籍 9/9/31 结论（15 交叉验证，3/3 抽检原文）；结构 v1.2（42 可选字段、22 新卡、旧卡 0 破坏、validate 399/399）；Composer 9/9 + 独立 3 例（0 缺失 ID/0 未解析 SRC/A-B-C 差异/连续性）；视觉 28 CC0/27 关联/0 下载；Macbeth 11/11 + 基线对比提升。
+- **全回归**：validate/build/45 acceptance/quality_eval(17/17)/9 workflow/9 composer/11 Macbeth 全 PASS；旧 relevant@5 4.16 持平、0-hit 0；**precision 94.5%→92.9%（−1.6pp，仍 PASS）→ WARN 观察**。
+- **发布门禁**：**PRIVATE-READY / PRIVATE-USE = YES（状态不变）**；**PUBLIC-READY = NO（BLOCKED，B1–B6 + P4 L1–L6：DeepFashion2 禁入、FashionStylist 非商业、图片不复制、HF 许可未核实、polyvore 条款不清、open-pose 图片限制）**。
+- **HUMAN_UAT_PENDING 4 项**：Obsidian GUI、逐图版权、15 案例人工评分、62 draft 复核 —— 未执行、未代填分数。
+- 详见 `reports/P4-REPORT.md`、`P4-COVERAGE.md`、`P4-REGRESSION.md`、`CHANGELOG-P4.md`、`NEXT-PLAN-P4.md`。

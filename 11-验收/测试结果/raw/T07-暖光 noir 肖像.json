@@ -207,7 +207,38 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0016",
+          "slot": "upper_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0023",
+          "slot": "upper_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0018",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0022",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0001",
@@ -218,20 +249,29 @@
           "slot": "upper_body"
         },
         {
+          "id": "MAT-0012",
+          "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0013",
+          "slot": "outerwear"
+        },
+        {
           "id": "MAT-0002",
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S7, night, dry, art direction: restrained urban noir, lighting: warm tungsten key light, golden amber practicals, deep shadow, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm tungsten key light, golden amber practicals, deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S7, night, dry, art direction: restrained urban noir, lighting: warm tungsten key light, golden amber practicals, deep shadow, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm tungsten key light, golden amber practicals, deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
         "上装: GAR-0006 达希基套衫 (casual)",
         "下装: GAR-0014 牛仔裤 (casual)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002"
+        "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
@@ -245,8 +285,20 @@
           "SRC-0115",
           "SRC-0405",
           "SRC-0123",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0486",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0454",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0102",
           "SRC-0142",
+          "SRC-0423",
+          "SRC-0483",
           "SRC-0141"
         ],
         "source_urls": [
@@ -267,12 +319,60 @@
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0454",
+            "url": "https://collections.vam.ac.uk/item/O1240056/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0141",
@@ -433,7 +533,23 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0023",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0002",
@@ -444,7 +560,7 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, one-piece: purple silk sari with shocking pink border and pallav, woven gold zari, temple sari, South Indian styling; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, gold, khaki, lavender, pink, purple, setting: S7, night, dry, art direction: restrained urban noir, lighting: warm tungsten key light, golden amber practicals, deep shadow, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0063 sari [purple, pink, gold; silk, gold_thread; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Lin, one-piece: purple silk sari with shocking pink border and pallav, woven gold zari, temple sari, South Indian styling; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, gold, khaki, lavender, pink, purple, setting: S7, night, dry, art direction: restrained urban noir, lighting: warm tungsten key light, golden amber practicals, deep shadow, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0063 sari [purple, pink, gold; silk, gold_thread; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001 --ar 2:3 --style raw --v 6",
       "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: one-piece: purple silk sari with shocking pink border and pallav, woven gold zari, temple sari, South Indian styling; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 长幅布缠绕，行走时需整理褶裥; 金线织边较重、垂坠明显。, lighting: warm tungsten key light, golden amber practicals, deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0063 sari [purple, pink, gold; silk, gold_thread; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "continuity_lock": "continuity lock: GAR-0063 sari [purple, pink, gold; silk, gold_thread; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001",
       "reasons": [
@@ -452,6 +568,7 @@
         "连身: GAR-0063 纱丽 (ceremonial)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0023, STR-0021, STR-0025",
         "linked material cards: MAT-0002, MAT-0001"
       ],
       "risks": [
@@ -465,6 +582,12 @@
           "SRC-0424",
           "SRC-0405",
           "SRC-0123",
+          "SRC-0486",
+          "SRC-0202",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0141",
           "SRC-0102"
         ],
@@ -480,6 +603,30 @@
           {
             "source_id": "SRC-0123",
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0141",
@@ -636,8 +783,33 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0016",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0023",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
+        {
+          "id": "MAT-0013",
+          "slot": "one_piece"
+        },
         {
           "id": "MAT-0001",
           "slot": "outerwear"
@@ -647,15 +819,16 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: S7, night, dry, art direction: restrained urban noir, lighting: warm tungsten key light, golden amber practicals, deep shadow, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: warm tungsten key light, golden amber practicals, deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+      "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: S7, night, dry, art direction: restrained urban noir, lighting: warm tungsten key light, golden amber practicals, deep shadow, camera: close-up, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: warm tungsten key light, golden amber practicals, deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.8/10",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0002"
+        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
+        "linked material cards: MAT-0013, MAT-0001, MAT-0002"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
@@ -667,7 +840,15 @@
         "source_ids": [
           "SRC-0405",
           "SRC-0123",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0486",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0102",
+          "SRC-0483",
           "SRC-0141"
         ],
         "source_urls": [
@@ -680,8 +861,40 @@
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0141",
@@ -805,15 +1018,19 @@
       "GAR-0068",
       "GAR-0074",
       "GAR-0067",
+      "GAR-0086",
       "GAR-0073",
       "GAR-0066",
+      "GAR-0083",
       "GAR-0028",
+      "GAR-0085",
       "GAR-0025"
     ],
     "carried_prop": [
       "GAR-0082",
       "GAR-0047",
       "GAR-0048",
+      "GAR-0087",
       "GAR-0049"
     ],
     "footwear": [
@@ -823,6 +1040,7 @@
       "GAR-0060",
       "GAR-0058",
       "GAR-0024",
+      "GAR-0084",
       "GAR-0081"
     ],
     "one_piece": [
@@ -956,12 +1174,60 @@
       "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
     },
     {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0486",
+      "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0413",
+      "url": "https://collections.vam.ac.uk/item/O15667/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0454",
+      "url": "https://collections.vam.ac.uk/item/O1240056/"
+    },
+    {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+    },
+    {
+      "source_id": "SRC-0521",
+      "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+    },
+    {
       "source_id": "SRC-0102",
       "url": "https://fashionhistory.fitnyc.edu/muslin/"
     },
     {
       "source_id": "SRC-0142",
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0423",
+      "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0483",
+      "url": "https://collections.vam.ac.uk/item/O356064/"
     },
     {
       "source_id": "SRC-0141",

@@ -170,9 +170,29 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0018",
           "slot": "one_piece",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0020",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0015",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -181,7 +201,7 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Elias, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, deep green, green, scarlet, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Elias, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, deep green, green, scarlet, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); panels and gores (STR-0020); waistline (STR-0015); ease and fit (STR-0025); seams and darts (STR-0021), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
       "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
       "reasons": [
@@ -189,7 +209,7 @@
         "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
         "外层: GAR-0057 1960 年代 Courrèges 外套 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0011",
+        "linked structure cards: STR-0018, STR-0020, STR-0015, STR-0025, STR-0021",
         "linked material cards: MAT-0001"
       ],
       "risks": [
@@ -202,8 +222,13 @@
           "SRC-0412",
           "SRC-0417",
           "SRC-0123",
+          "SRC-0413",
           "SRC-0200",
-          "SRC-0202",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0521",
+          "SRC-0520",
+          "SRC-0484",
           "SRC-0102"
         ],
         "source_urls": [
@@ -220,12 +245,32 @@
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
           },
           {
             "source_id": "SRC-0102",
@@ -386,9 +431,24 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0018",
           "slot": "one_piece",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0020",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0015",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "outerwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -401,7 +461,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Elias, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, deep green, gold, green, scarlet, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Elias, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, deep green, gold, green, scarlet, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); panels and gores (STR-0020); waistline (STR-0015); ease and fit (STR-0025), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003 --ar 2:3 --style raw --v 6",
       "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。; 垫肩与省道限制抬臂; 下摆长度受配给限制，跨步时需注意。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "continuity_lock": "continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003",
       "reasons": [
@@ -409,7 +469,7 @@
         "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
         "外层: GAR-0057 1960 年代 Courrèges 外套 (smart_casual)",
         "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
-        "linked structure cards: STR-0011",
+        "linked structure cards: STR-0018, STR-0020, STR-0015, STR-0025",
         "linked material cards: MAT-0001, MAT-0003"
       ],
       "risks": [
@@ -422,8 +482,12 @@
           "SRC-0412",
           "SRC-0417",
           "SRC-0418",
+          "SRC-0413",
           "SRC-0200",
-          "SRC-0202",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0102",
           "SRC-0142"
         ],
@@ -441,12 +505,28 @@
             "url": "https://collections.vam.ac.uk/item/O1380038/"
           },
           {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0102",
@@ -615,9 +695,29 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0016",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0015",
           "slot": "outerwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0018",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -626,7 +726,7 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Elias, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, deep green, green, magenta, orange, pink, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); frog closure (STR-0011), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Elias, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, brown, deep green, green, magenta, orange, pink, white, setting: S14, night, indoor, art direction: expressionist noir, distorted shadows, stark geometry, lighting: hard directional key light with deep chiaroscuro, camera: low angle wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); hem and vents/slits (STR-0016); waistline (STR-0015); buttons and buttonholes (STR-0018); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
       "prompt_video": "Elias, performing on a tilted stage, scene: S14, night, indoor, camera: low angle wide shot, costume: one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; outer layer: Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, high collar, belt at waist, large accessible pockets, worn as coat or dress, space-age mod style; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 乙烯基硬挺、弯折有响声; 箱形轮廓限制贴身动作; 可作外套或连衣裙穿，需锁定穿法。; 超短裙摆限制坐姿与跨步; 泡泡袖/荷叶边在动作中翻动。, lighting: hard directional key light with deep chiaroscuro, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "continuity_lock": "continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0057 1960s Courrèges coat [deep_green, green; vinyl, cotton, polyurethane; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001",
       "reasons": [
@@ -634,7 +734,7 @@
         "连身: GAR-0056 1960 年代迷你裙 (casual)",
         "外层: GAR-0057 1960 年代 Courrèges 外套 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0003, STR-0011",
+        "linked structure cards: STR-0003, STR-0016, STR-0015, STR-0018, STR-0021, STR-0025",
         "linked material cards: MAT-0001"
       ],
       "risks": [
@@ -648,8 +748,14 @@
           "SRC-0417",
           "SRC-0123",
           "SRC-0133",
-          "SRC-0200",
           "SRC-0202",
+          "SRC-0201",
+          "SRC-0412",
+          "SRC-0200",
+          "SRC-0413",
+          "SRC-0484",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0102"
         ],
         "source_urls": [
@@ -670,12 +776,36 @@
             "url": "https://fashionhistory.fitnyc.edu/ruff/"
           },
           {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0102",
@@ -774,12 +904,16 @@
       "GAR-0028",
       "GAR-0073",
       "GAR-0074",
+      "GAR-0086",
       "GAR-0080",
       "GAR-0025",
+      "GAR-0085",
+      "GAR-0083",
       "GAR-0070"
     ],
     "carried_prop": [
       "GAR-0048",
+      "GAR-0087",
       "GAR-0047",
       "GAR-0082",
       "GAR-0049"
@@ -791,6 +925,7 @@
       "GAR-0060",
       "GAR-0024",
       "GAR-0081",
+      "GAR-0084",
       "GAR-0023"
     ],
     "one_piece": [
@@ -998,12 +1133,32 @@
       "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
     },
     {
+      "source_id": "SRC-0413",
+      "url": "https://collections.vam.ac.uk/item/O15667/"
+    },
+    {
       "source_id": "SRC-0200",
       "url": "https://collections.vam.ac.uk/item/O1151302/"
     },
     {
-      "source_id": "SRC-0202",
-      "url": "https://collections.vam.ac.uk/item/O80590/"
+      "source_id": "SRC-0451",
+      "url": "https://collections.vam.ac.uk/item/O109190/"
+    },
+    {
+      "source_id": "SRC-0453",
+      "url": "https://collections.vam.ac.uk/item/O163754/"
+    },
+    {
+      "source_id": "SRC-0521",
+      "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+    },
+    {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
     },
     {
       "source_id": "SRC-0102",
@@ -1024,6 +1179,14 @@
     {
       "source_id": "SRC-0133",
       "url": "https://fashionhistory.fitnyc.edu/ruff/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
     }
   ],
   "missing_urls": [],

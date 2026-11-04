@@ -164,7 +164,28 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0018",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0023",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0001",
@@ -179,7 +200,7 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult PC Hale, one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, navy, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
+      "prompt_image": "full-body character design of an adult PC Hale, one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, navy, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
       "prompt_video": "PC Hale, walking a night patrol, scene: city street, night, rain, camera: medium tracking, costume: one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 硬挺外套与腰带限制弯腰; 警棍/手铐位置影响跑动，需锁定。, lighting: sodium street lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002",
       "reasons": [
@@ -187,6 +208,7 @@
         "连身: GAR-0042 警察制服 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0018, STR-0023, STR-0021, STR-0025",
         "linked material cards: MAT-0001, MAT-0003, MAT-0002"
       ],
       "risks": [
@@ -198,6 +220,14 @@
         "source_ids": [
           "SRC-0405",
           "SRC-0123",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0486",
+          "SRC-0202",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0102",
           "SRC-0142",
           "SRC-0141"
@@ -210,6 +240,38 @@
           {
             "source_id": "SRC-0123",
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0102",
@@ -376,7 +438,23 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0018",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0023",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
         {
           "id": "MAT-0001",
@@ -395,7 +473,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult PC Hale, one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, black, buckskin, khaki, lavender, navy, tan, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011",
+      "prompt_image": "full-body character design of an adult PC Hale, one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, black, buckskin, khaki, lavender, navy, tan, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011",
       "prompt_video": "PC Hale, walking a night patrol, scene: city street, night, rain, camera: medium tracking, costume: one-piece: police uniform, badge and number, belt with equipment, high-visibility variant; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 硬挺外套与腰带限制弯腰; 警棍/手铐位置影响跑动，需锁定。, lighting: sodium street lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0042 police uniform [navy, black; wool, polyester, cotton; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0011",
       "reasons": [
@@ -403,6 +481,7 @@
         "连身: GAR-0042 警察制服 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "linked structure cards: STR-0018, STR-0023, STR-0025",
         "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0011"
       ],
       "risks": [
@@ -414,6 +493,12 @@
         "source_ids": [
           "SRC-0405",
           "SRC-0124",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0486",
+          "SRC-0202",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0102",
           "SRC-0142",
           "SRC-0141",
@@ -427,6 +512,30 @@
           {
             "source_id": "SRC-0124",
             "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0102",
@@ -593,8 +702,33 @@
           }
         }
       ],
-      "parts": [],
+      "parts": [
+        {
+          "id": "STR-0016",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0023",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        }
+      ],
       "materials": [
+        {
+          "id": "MAT-0013",
+          "slot": "one_piece"
+        },
         {
           "id": "MAT-0001",
           "slot": "outerwear"
@@ -604,15 +738,16 @@
           "slot": "outerwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult PC Hale, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
-      "prompt_video": "PC Hale, walking a night patrol, scene: city street, night, rain, camera: medium tracking, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: sodium street lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002",
+      "prompt_image": "full-body character design of an adult PC Hale, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: city street, night, rain, art direction: gritty urban realism, lighting: sodium street lights, camera: medium tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
+      "prompt_video": "PC Hale, walking a night patrol, scene: city street, night, rain, camera: medium tracking, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: sodium street lights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.2/15",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked material cards: MAT-0001, MAT-0002"
+        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
+        "linked material cards: MAT-0013, MAT-0001, MAT-0002"
       ],
       "risks": [
         "region mismatch in GAR-0079: cards document their own regions, not britain",
@@ -623,7 +758,15 @@
         "source_ids": [
           "SRC-0405",
           "SRC-0123",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0486",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0102",
+          "SRC-0483",
           "SRC-0141"
         ],
         "source_urls": [
@@ -636,8 +779,40 @@
             "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0141",
@@ -766,13 +941,17 @@
       "GAR-0050",
       "GAR-0025",
       "GAR-0051",
+      "GAR-0086",
       "GAR-0074",
       "GAR-0073",
-      "GAR-0026"
+      "GAR-0026",
+      "GAR-0083",
+      "GAR-0085"
     ],
     "carried_prop": [
       "GAR-0082",
       "GAR-0048",
+      "GAR-0087",
       "GAR-0047",
       "GAR-0049"
     ],
@@ -782,6 +961,7 @@
       "GAR-0060",
       "GAR-0035",
       "GAR-0058",
+      "GAR-0084",
       "GAR-0081"
     ],
     "one_piece": [
@@ -1050,6 +1230,38 @@
       "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
     },
     {
+      "source_id": "SRC-0413",
+      "url": "https://collections.vam.ac.uk/item/O15667/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0486",
+      "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+    },
+    {
+      "source_id": "SRC-0521",
+      "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+    },
+    {
       "source_id": "SRC-0102",
       "url": "https://fashionhistory.fitnyc.edu/muslin/"
     },
@@ -1068,6 +1280,14 @@
     {
       "source_id": "SRC-0423",
       "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0483",
+      "url": "https://collections.vam.ac.uk/item/O356064/"
     }
   ],
   "missing_urls": [],

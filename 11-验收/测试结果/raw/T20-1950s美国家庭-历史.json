@@ -179,9 +179,24 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0015",
+          "slot": "upper_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0018",
           "slot": "lower_body",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0022",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -202,7 +217,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Ruth, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, blue black, buckskin, cream, embroidered, indigo, tan, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Ruth, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, blue black, buckskin, cream, embroidered, indigo, tan, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); buttons and buttonholes (STR-0018); waistband (STR-0022); ease and fit (STR-0025), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
       "prompt_video": "Ruth, serving breakfast, scene: suburban kitchen, morning, indoor, camera: medium shot, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: soft window daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
       "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
       "reasons": [
@@ -210,7 +225,7 @@
         "上装: GAR-0008 马甲 (business)",
         "下装: GAR-0014 牛仔裤 (casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0006, STR-0011",
+        "linked structure cards: STR-0006, STR-0015, STR-0018, STR-0022, STR-0025",
         "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
         "period/culture score is supported by period-tagged cards"
       ],
@@ -224,8 +239,12 @@
           "SRC-0115",
           "SRC-0124",
           "SRC-0136",
+          "SRC-0412",
           "SRC-0200",
-          "SRC-0202",
+          "SRC-0413",
+          "SRC-0454",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0141",
           "SRC-0102",
           "SRC-0142",
@@ -249,12 +268,28 @@
             "url": "https://fashionhistory.fitnyc.edu/stomacher/"
           },
           {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0454",
+            "url": "https://collections.vam.ac.uk/item/O1240056/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0141",
@@ -430,9 +465,29 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0012",
           "slot": "upper_body",
-          "confidence": "suggested"
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0016",
+          "slot": "upper_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0018",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0022",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -445,6 +500,10 @@
           "slot": "upper_body"
         },
         {
+          "id": "MAT-0013",
+          "slot": "upper_body"
+        },
+        {
           "id": "MAT-0003",
           "slot": "lower_body"
         },
@@ -453,16 +512,16 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Ruth, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, blue black, buckskin, cream, indigo, striped, tan, white, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
-      "prompt_video": "Ruth, serving breakfast, scene: suburban kitchen, morning, indoor, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: soft window daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Ruth, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, blue black, buckskin, cream, indigo, striped, tan, white, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); buttons and buttonholes (STR-0018); waistband (STR-0022); ease and fit (STR-0025), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011",
+      "prompt_video": "Ruth, serving breakfast, scene: suburban kitchen, morning, indoor, camera: medium shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: soft window daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 24.1/25, 摄影/一致性 6.5/10",
         "上装: GAR-0007 衬衫式女衫 (smart_casual)",
         "下装: GAR-0014 牛仔裤 (casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0011",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0003, MAT-0011",
+        "linked structure cards: STR-0012, STR-0016, STR-0018, STR-0022, STR-0025",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -474,10 +533,17 @@
           "SRC-0108",
           "SRC-0115",
           "SRC-0124",
-          "SRC-0200",
+          "SRC-0118",
           "SRC-0202",
+          "SRC-0201",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0454",
+          "SRC-0521",
+          "SRC-0520",
           "SRC-0102",
           "SRC-0141",
+          "SRC-0483",
           "SRC-0142",
           "SRC-0423"
         ],
@@ -495,12 +561,36 @@
             "url": "https://fashionhistory.fitnyc.edu/moccasins/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
+            "source_id": "SRC-0118",
+            "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
           },
           {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0454",
+            "url": "https://collections.vam.ac.uk/item/O1240056/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0102",
@@ -509,6 +599,10 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0142",
@@ -639,8 +733,18 @@
       ],
       "parts": [
         {
-          "id": "STR-0011",
+          "id": "STR-0016",
           "slot": "set",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "set",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0011",
+          "slot": "footwear",
           "confidence": "suggested"
         }
       ],
@@ -658,14 +762,14 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Ruth, complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, buckskin, multicolor, red, tan, white, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011), continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Ruth, complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, buckskin, multicolor, red, tan, white, setting: suburban kitchen, morning, indoor, art direction: 1950s domestic realism, lighting: soft window daylight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); ease and fit (STR-0025); frog closure (STR-0011), continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
       "prompt_video": "Ruth, serving breakfast, scene: suburban kitchen, morning, indoor, camera: medium shot, costume: complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: natural fabric response to the action, gravity and wind, lighting: soft window daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
       "continuity_lock": "continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.8/25, 摄影/一致性 6.5/10",
         "成套: GAR-0030 惠皮尔 (ceremonial)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0011",
+        "linked structure cards: STR-0016, STR-0025, STR-0011",
         "linked material cards: MAT-0001, MAT-0002, MAT-0003",
         "period/culture score is supported by period-tagged cards"
       ],
@@ -678,8 +782,11 @@
         "source_ids": [
           "SRC-0131",
           "SRC-0124",
-          "SRC-0200",
           "SRC-0202",
+          "SRC-0201",
+          "SRC-0521",
+          "SRC-0520",
+          "SRC-0200",
           "SRC-0102",
           "SRC-0141",
           "SRC-0142"
@@ -694,12 +801,24 @@
             "url": "https://fashionhistory.fitnyc.edu/moccasins/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
-          },
-          {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
             "source_id": "SRC-0102",
@@ -825,10 +944,12 @@
       "GAR-0074",
       "GAR-0070",
       "GAR-0073",
+      "GAR-0086",
       "GAR-0028"
     ],
     "carried_prop": [
       "GAR-0048",
+      "GAR-0087",
       "GAR-0047"
     ],
     "footwear": [
@@ -958,6 +1079,13 @@
       ]
     },
     {
+      "id": "GAR-0085",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs late_16th_century, 17th_century)"
+      ]
+    },
+    {
       "id": "GAR-0049",
       "slot": "carried_prop",
       "reasons": [
@@ -983,6 +1111,13 @@
       "slot": "footwear",
       "reasons": [
         "historical mode: period mismatch (1950s vs late_middle_ages)"
+      ]
+    },
+    {
+      "id": "GAR-0084",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 18th_century)"
       ]
     },
     {
@@ -1119,6 +1254,13 @@
       "reasons": [
         "historical mode: period mismatch (1950s vs early_middle_ages, early_modern)"
       ]
+    },
+    {
+      "id": "GAR-0083",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1950s vs 17th_century)"
+      ]
     }
   ],
   "warnings": [
@@ -1143,12 +1285,28 @@
       "url": "https://fashionhistory.fitnyc.edu/stomacher/"
     },
     {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
       "source_id": "SRC-0200",
       "url": "https://collections.vam.ac.uk/item/O1151302/"
     },
     {
-      "source_id": "SRC-0202",
-      "url": "https://collections.vam.ac.uk/item/O80590/"
+      "source_id": "SRC-0413",
+      "url": "https://collections.vam.ac.uk/item/O15667/"
+    },
+    {
+      "source_id": "SRC-0454",
+      "url": "https://collections.vam.ac.uk/item/O1240056/"
+    },
+    {
+      "source_id": "SRC-0521",
+      "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
     },
     {
       "source_id": "SRC-0141",
@@ -1169,6 +1327,22 @@
     {
       "source_id": "SRC-0108",
       "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
+    },
+    {
+      "source_id": "SRC-0118",
+      "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0483",
+      "url": "https://collections.vam.ac.uk/item/O356064/"
     },
     {
       "source_id": "SRC-0131",
@@ -1196,6 +1370,6 @@
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
     "warnings_count": 2,
-    "rejected_count": 38
+    "rejected_count": 41
   }
 }

@@ -20,16 +20,3 @@
 
 - PASS: 11 / 11
 - FAIL: 0 / 11
-
-## movement_action root cause / fix
-- Root cause: the test joined `prompt_outfit` with `" ".join(...)` (iterating characters) and only inspected `risks`, so an existing `prompt_outfit`/`movement_note` was invisible to the assertion.
-- Fix: (a) test now inspects `str(look["prompt_outfit"]).lower()` and `movement_note`; (b) composer now emits an explicit `movement_note` and includes the action adaptation in `prompt_outfit` for action-constrained briefs (`battle, running, riding, climbing stairs`).
-- After fix: `movement_action` PASS; P4-5 11/11.
-
-## Final regression matrix
-| Suite | Result |
-| --- | --- |
-| P4-5 Macbeth validation (`test_macbeth_p4.py`) | PASS 11/11 |
-| P4-3 Outfit Composer (`P4-COMPOSER/test_outfit.py`) | PASS 9/9 |
-| P3 acceptance (`run_acceptance.py --no-write`) | PASS 45/45 |
-| P3.5 workflow (`tests/test_workflow.py`) | 9/9 PASS |

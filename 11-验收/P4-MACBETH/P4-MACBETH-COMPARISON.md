@@ -180,23 +180,3 @@
 | unique SRC | 3 | 15 | 21 |
 
 No regression: P4 retains/increases looks, slots, A/B/C diff and source coverage; evidence gaps are explicit.
-
-## movement_action close-out
-- Original FAIL was a test assertion bug: it joined `prompt_outfit` character-by-character and only checked `risks`; composer output had `movement_note` / action adaptation.
-- Fixed the assertion; composer also now emits `movement_note` and "movement/action adaptation" in `prompt_outfit` for action-constrained briefs.
-- Final: movement_action PASS; P4-5 11/11; Composer 9/9; acceptance 45/45; workflow 9/9.
-
-## P4-5 case result summary
-| Case | Result |
-| --- | --- |
-| stage_changes_Macbeth | PASS (3 stages, all A-look pair diffs >=4 in run) |
-| stage_changes_Lady_Macbeth | PASS (3 stages, all pair diffs >=6) |
-| two_character_relationship | PASS |
-| full_slots_accessories | PASS |
-| historical_evidence_gap | PASS (explicit gap; 1 look) |
-| minimal_vs_complex | PASS |
-| closeup_detail | PASS |
-| movement_action | PASS |
-| video_continuity | PASS |
-| bilingual_term_search | PASS (旗袍/qipao, 立领/stand collar, 腰带/belt) |
-| evidence_insufficient_refusal | PASS |

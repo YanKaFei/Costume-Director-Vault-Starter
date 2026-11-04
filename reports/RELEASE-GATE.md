@@ -3,7 +3,8 @@
 - 生成时间：2026-11-04 13:55；**最终复核 2026-11-04 14:05（task-33 / D5 关闭）**
 - 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；9 例 workflow tests；git HEAD `e30446d`（D5 doc 修正已提交）
 - 注：本报告基于 `d56b05d` 快照；复核期间工作区出现其他成员 WIP（architect 新卡 GAR-0075..0082/SRC-0480..0491、engineer `scripts/workflow.py`/`tests/`），**不属于本次门禁评估范围**，门禁结论以该 commit 快照为准。
-- 结论（2026-11-04 15:56 P3.6 复核）：**PRIVATE-USE VERIFIED = YES；PUBLIC-READY = NO（BLOCKED，B1–B6）**
+- 结论（2026-11-04 16:26 P4 复核）：**PRIVATE-READY / PRIVATE-USE = YES（状态不变）；PUBLIC-READY = NO（BLOCKED，B1–B6 + P4 L1–L6）**
+- P4 证据：许可审计 20 源（PASS 15/WARN 2/RESTRICTED 3）；9 本 PD 书/31 结论（15 verified）；结构 v1.2（42 字段、22 新卡、旧卡 0 破坏）；composer 9/9（独立 3 例）；视觉 28 条 CC0 / 27 关联 / 0 下载；Macbeth 11/11；8 套回归全 PASS（precision 94.5%→92.9% 记为 WARN）
 - P3.6 证据：Skill 安装并可原生调用（2 次独立 headless 请求均 exit 0，事件含 `skill(costume-director)` + `scripts/query.py` bash 调用）；10/10 e2e 独立审计通过（ID/SRC 0 缺失、无错误）；KB 安全（纯新增 commit、projects 隔离、未推送、无许可改动）；validate 363/363、build_sources 197/197、acceptance 45/45、quality_eval OVERALL PASS（17/17）、workflow tests 9/9；**D1–D5 全部 CLOSED**
 - 依据：技术/数据/质量门在 P3.3 已 PASS（`reports/P3-QA.md`），本轮补完 WARN 处置、62 张 draft 复核、GUI 清单、人工评分表、版权矩阵；**4 项人工门禁仍未执行**。
 - 声明：本报告不修改任何卡片/脚本；所有「未执行」均如实标注，**无编造 PASS**。
@@ -91,6 +92,31 @@
 **兼容性 caveat（必须披露）**：原 smoke 在 DeepSeek 官方路由 27 步后 **402 QUOTA**；e2e 改用 **Doubao Seed 2.1 临时 overlay**（`11-验收/P3.6/smoke/dsh-doubao.overlay.yml`，无 profile 改动）；我的独立原生验证需从本机 credentials store 注入 `DEEPSEEK_API_KEY`。**不声称 DeepSeek 官方路由已完成 10 例长会话。**
 
 **P3.6 结论**：**PRIVATE-USE VERIFIED = YES**（Skill 可被 DSH 发现并原生调用、10/10 e2e 可用、KB 安全、无回归）；**PUBLIC-READY 仍为 NO/BLOCKED（B1–B6）**；HUMAN_UAT_PENDING 4 项不变。
+
+## 4.7 P4 复核（2026-11-04 16:26，task-45）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| P4-0 许可审计 | **PASS（20 源，候选分流）** | 20/20 可达；PASS 15 / WARN 2 / RESTRICTED 3；矩阵 20 行；无 verified 误标 |
+| P4-1 书籍 | **PASS** | 9/9 PD 书 HTTP 200；31 结论（15 verified/11 partial/5 candidate）；3/3 抽检原文行一致；页码 UNCONFIRMED |
+| P4-2 结构 v1.2 | **PASS** | 42 可选字段；22 新内容卡 + 14 来源卡；旧卡 0 修改；validate 399/399 |
+| P4-3 Composer | **PASS** | 9/9；独立 3 例：0 缺失 ID、0 未解析 SRC、A/B/C 项差 ≥2、连续性显式；conflict 诚实降级 |
+| P4-4 视觉 CC0 | **PASS** | 28/28 isPublicDomain=true、图像 URL 200、27 关联、**0 下载/0 内嵌** |
+| P4-5 Macbeth | **PASS** | 11/11 exit 0；相对 P3.5 基线 looks/avg_items/abc_diff/unique_src 提升；缺口声明保留 |
+| 全回归 | **PASS** | validate/build/45 acceptance/quality_eval(17/17)/9 workflow/9 composer/11 Macbeth；旧 relevant@5 4.16 持平、0-hit 0；precision 92.9%（↓1.6pp，WARN） |
+
+**P4 新增许可阻断（PUBLIC-READY 追加）**：
+
+| # | 阻断 | 要求 |
+|---|---|---|
+| L1 | DeepFashion2（无 LICENSE/无明示许可+第三方图像） | **禁止导入**数据/图像/标注；仅文献引用 |
+| L2 | FashionStylist（CC BY-NC 4.0） | **仅内部非商业研究**；禁止进入商业发布物 |
+| L3 | 图片不复制/不内嵌 | 所有来源图片仅链接；引图前逐图授权（Vault 现状 0 图片） |
+| L4 | Garments2Look 数据集/LoRA、fashion-clip 权重（HF 不可达） | 许可核实前不得使用 |
+| L5 | polyvore 数据条款不清 | 仅方法论参考；不导入数据/图像 |
+| L6 | open-pose 图片（非商业+禁再分发） | 仅内部非商业；不复制图片 |
+
+**P4 结论**：技术/数据/质量/许可审计全部通过；**PRIVATE-READY/PRIVATE-USE = YES（状态不变）**；**PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6）**；HUMAN_UAT_PENDING 4 项未执行。
 
 ## 5. 门禁结论
 

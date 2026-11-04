@@ -1,6 +1,6 @@
 # P2 验收测试 SUMMARY
 
-- 运行时间：2026-11-04T15:51:45+08:00
+- 运行时间：2026-11-04T16:20:28+08:00
 - Python：3.9.6
 - 测试数：45
 - 结果目录：`11-验收/测试结果/`
@@ -8,17 +8,17 @@
 
 ## 知识库快照
 
-- 卡片总数：363
-  - `garment`: 83
-  - `garment_part`: 11
+- 卡片总数：399
+  - `garment`: 88
+  - `garment_part`: 25
   - `look`: 23
-  - `material`: 8
+  - `material`: 11
   - `pattern`: 3
   - `period_region`: 11
   - `scene`: 16
-  - `source`: 197
+  - `source`: 211
   - `style`: 11
-- 来源卡：197
+- 来源卡：211
 
 ## 逐例结果
 
@@ -89,7 +89,6 @@
 - ×5 cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - ×4 period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
 - ×4 fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins
-- ×3 the vault has no 'journalist and writer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×3 no reliable style card for art direction 'restrained urban noir'
 - ×3 the vault has no 'private investigator'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×3 no reliable style card for art direction 'gritty urban realism'
@@ -97,6 +96,7 @@
 - ×3 period evidence is approximate/none for GAR-0079, GAR-0082 (requested contemporary); treat these as era-level hypotheses, not exact period matches
 - ×3 no reliable style card for art direction 'restrained historical noir'
 - ×2 no reliable style card for art direction 'restrained urban period drama'
+- ×2 the vault has no 'journalist and writer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×2 the vault has no 'courier'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×2 period evidence is approximate/none for GAR-0045 (requested 1890s); treat these as era-level hypotheses, not exact period matches
 - ×2 the vault has no 'student then clerk'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
@@ -144,7 +144,8 @@
 - ×1 no reliable style card for art direction '1950s domestic realism'
 - ×1 period evidence is era-level (century bucket) for GAR-0023; exact-decade cards are missing
 - ×1 no reliable style card for art direction 'swinging sixties youth culture'
-- ×1 period evidence is era-level (century bucket) for GAR-0022, GAR-0035, GAR-0054; exact-decade cards are missing
+- ×1 period evidence is approximate/none for GAR-0086 (requested 1960s); treat these as era-level hypotheses, not exact period matches
+- ×1 period evidence is era-level (century bucket) for GAR-0035, GAR-0048, GAR-0054; exact-decade cards are missing
 - ×1 the vault has no 'photographer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 no reliable style card for art direction '1970s London punk'
 - ×1 period evidence is era-level (century bucket) for GAR-0035, GAR-0045, GAR-0046, GAR-0047, GAR-0052, GAR-0053; exact-decade cards are missing
@@ -176,9 +177,9 @@
 - ×1 period evidence is approximate/none for GAR-0022, GAR-0023, GAR-0037, GAR-0038, GAR-0039, GAR-0045, GAR-0079, GAR-0080 (requested 22nd century); treat these as era-level hypotheses, not exact period matches
 - ×1 no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)
 - ×1 no reliable style card for art direction '文人水墨、克制、低饱和'
-- ×1 period evidence is approximate/none for GAR-0071 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
-- ×1 period evidence is era-level (century bucket) for GAR-0024, GAR-0028, GAR-0049, GAR-0062; exact-decade cards are missing
-- ×1 cards document other regions for GAR-0024, GAR-0028, GAR-0049, GAR-0062 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
+- ×1 period evidence is approximate/none for GAR-0071, GAR-0084 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
+- ×1 period evidence is era-level (century bucket) for GAR-0024, GAR-0062; exact-decade cards are missing
+- ×1 cards document other regions for GAR-0024, GAR-0062, GAR-0084 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
 - ×1 the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 no reliable style card for art direction 'theatre period drama'
 - ×1 cards document other regions for GAR-0035, GAR-0058 (requested japan); cross-region borrowing is flagged, not silently accepted
