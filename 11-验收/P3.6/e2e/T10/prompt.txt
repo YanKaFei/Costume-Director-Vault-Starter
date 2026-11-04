@@ -1,0 +1,1 @@
+请使用 costume-director skill：为一个角色设计三场连续性造型：雨夜街道 → 室内医院 → 夜班结束；每场给 A/B/C 造型、连续性状态链和英文生图/视频 prompt。必须调用 python3 scripts/workflow.py（或 query.py+recommend.py）；引用真实卡 ID 与 SRC；明确 unknown。回答控制在 700 字内。

@@ -1,0 +1,28 @@
+# Temporary one-shot overlay for P3.6 e2e (does not modify user profiles).
+# Doubao Seed 2.1 via the existing pi-ai gateway (OpenAI-compatible).
+- id: llm-pi-ai
+  config:
+    providers:
+      doubao:
+        displayName: 豆包 Seed 2.1
+        apiKeyEnv: DOUBAO_API_KEY
+        api: openai-completions
+        baseURL: https://api.clawhunt.site/v1
+        reasoning: high
+        compat:
+          thinkingFormat: deepseek
+          supportsReasoningEffort: false
+        models:
+          - id: doubao-seed-2.1-pro
+            name: 豆包 Seed 2.1 Pro
+            contextWindow: 1048576
+            maxTokens: 32768
+            input: [ text, image ]
+            reasoningEfforts:
+              "off": disabled
+              high: enabled
+- id: agent-default-model
+  config:
+    provider: doubao
+    model: doubao-seed-2.1-pro
+    reasoningEffort: high

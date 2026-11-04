@@ -1,0 +1,52 @@
+{
+  "case": "T02",
+  "title": "Macbeth - three-stage A/B/C",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "recommend.py",
+      "workflow.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0045",
+      "GAR-0075",
+      "GAR-0076",
+      "GAR-0078",
+      "GAR-0079",
+      "GAR-0080",
+      "GAR-0081",
+      "GAR-0082",
+      "SRC-0123",
+      "SRC-0124",
+      "SRC-0405",
+      "SRC-0480",
+      "SRC-0482",
+      "SRC-0486",
+      "SRC-0487",
+      "SRC-0489",
+      "SRC-0490"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0123",
+      "SRC-0124",
+      "SRC-0405",
+      "SRC-0480",
+      "SRC-0482",
+      "SRC-0486",
+      "SRC-0487",
+      "SRC-0489",
+      "SRC-0490"
+    ],
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 2398
+}

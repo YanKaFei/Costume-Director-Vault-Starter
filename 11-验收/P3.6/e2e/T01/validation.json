@@ -1,0 +1,54 @@
+{
+  "case": "T01",
+  "title": "Macbeth Lady - three-stage contemporary theatre A/B/C",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "recommend.py",
+      "workflow.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0031",
+      "GAR-0071",
+      "GAR-0075",
+      "GAR-0076",
+      "GAR-0078",
+      "GAR-0079",
+      "GAR-0080",
+      "GAR-0081",
+      "MAT-0003",
+      "MAT-0004",
+      "MAT-0009",
+      "MAT-0011",
+      "SRC-0142",
+      "SRC-0143",
+      "SRC-0148",
+      "SRC-0423",
+      "SRC-0480",
+      "SRC-0482",
+      "SRC-0486",
+      "SRC-0487",
+      "SRC-0489"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0142",
+      "SRC-0143",
+      "SRC-0148",
+      "SRC-0423",
+      "SRC-0480",
+      "SRC-0482",
+      "SRC-0486",
+      "SRC-0487",
+      "SRC-0489"
+    ],
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 1848
+}

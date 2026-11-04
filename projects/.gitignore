@@ -1,0 +1,7 @@
+# User production material is private by default. Keep only this file, the
+# README and the template in git; everything else under projects/ is ignored.
+*
+!.gitignore
+!README.md
+!_template/
+!_template/**

@@ -1,0 +1,52 @@
+{
+  "case": "T07",
+  "title": "same-session modification",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "recommend.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0022",
+      "GAR-0031",
+      "GAR-0035",
+      "GAR-0045",
+      "GAR-0046",
+      "GAR-0047",
+      "LOOK-0012",
+      "SRC-0123",
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205",
+      "SRC-0206",
+      "SRC-0405",
+      "SRC-0406",
+      "SRC-0407"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0123",
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205",
+      "SRC-0206",
+      "SRC-0405",
+      "SRC-0406",
+      "SRC-0407"
+    ],
+    "followup_events": true,
+    "followup_skill": false,
+    "followup_scripts": [
+      "query.py"
+    ],
+    "same_session": true,
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 2038
+}

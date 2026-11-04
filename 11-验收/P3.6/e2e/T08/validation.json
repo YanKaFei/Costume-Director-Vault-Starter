@@ -1,0 +1,36 @@
+{
+  "case": "T08",
+  "title": "insufficient historical evidence",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "recommend.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0002",
+      "GAR-0003",
+      "GAR-0009",
+      "GAR-0013",
+      "GAR-0024",
+      "GAR-0062",
+      "MAT-0011",
+      "PRD-0010",
+      "SRC-0022",
+      "SRC-0163"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0022",
+      "SRC-0163"
+    ],
+    "honesty": true,
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 922
+}

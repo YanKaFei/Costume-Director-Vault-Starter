@@ -1,0 +1,49 @@
+{
+  "case": "T03",
+  "title": "1930s Shanghai rainy-night journalist + continuity",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "workflow.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0031",
+      "GAR-0035",
+      "GAR-0045",
+      "GAR-0046",
+      "GAR-0047",
+      "GAR-0048",
+      "GAR-0060",
+      "LOOK-0012",
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205",
+      "SRC-0206",
+      "SRC-0405",
+      "SRC-0406",
+      "SRC-0407",
+      "SRC-0408",
+      "SRC-0420"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205",
+      "SRC-0206",
+      "SRC-0405",
+      "SRC-0406",
+      "SRC-0407",
+      "SRC-0408",
+      "SRC-0420"
+    ],
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 2394
+}

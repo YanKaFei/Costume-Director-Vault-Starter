@@ -1,0 +1,35 @@
+{
+  "case": "T09",
+  "title": "historical+cyberpunk conflict request",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0036",
+      "GAR-0042",
+      "SCN-0007",
+      "SRC-0166",
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0400",
+      "STY-0009"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0166",
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0400"
+    ],
+    "honesty": true,
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 976
+}

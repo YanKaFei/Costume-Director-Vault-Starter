@@ -1,0 +1,55 @@
+{
+  "case": "T06",
+  "title": "Ghana-UK wedding groom",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "recommend.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0004",
+      "GAR-0006",
+      "GAR-0008",
+      "GAR-0022",
+      "GAR-0023",
+      "GAR-0033",
+      "GAR-0069",
+      "GAR-0080",
+      "LOOK-0013",
+      "MAT-0005",
+      "MAT-0006",
+      "SCN-0008",
+      "SRC-0105",
+      "SRC-0107",
+      "SRC-0109",
+      "SRC-0123",
+      "SRC-0124",
+      "SRC-0144",
+      "SRC-0145",
+      "SRC-0204",
+      "SRC-0430",
+      "SRC-0487"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0105",
+      "SRC-0107",
+      "SRC-0109",
+      "SRC-0123",
+      "SRC-0124",
+      "SRC-0144",
+      "SRC-0145",
+      "SRC-0204",
+      "SRC-0430",
+      "SRC-0487"
+    ],
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 2641
+}

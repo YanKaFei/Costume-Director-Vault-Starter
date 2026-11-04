@@ -1,0 +1,41 @@
+{
+  "case": "T05",
+  "title": "space-station mechanic",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "recommend.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0022",
+      "GAR-0037",
+      "GAR-0038",
+      "GAR-0039",
+      "GAR-0050",
+      "LOOK-0011",
+      "SCN-0006",
+      "SRC-0123",
+      "SRC-0401",
+      "SRC-0402",
+      "SRC-0403",
+      "SRC-0410",
+      "STY-0009"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0123",
+      "SRC-0401",
+      "SRC-0402",
+      "SRC-0403",
+      "SRC-0410"
+    ],
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 2256
+}

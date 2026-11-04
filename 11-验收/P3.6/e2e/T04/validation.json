@@ -1,0 +1,39 @@
+{
+  "case": "T04",
+  "title": "ER nurse night shift",
+  "checks": {
+    "events_file": true,
+    "skill_called": true,
+    "script_calls": [
+      "query.py",
+      "recommend.py"
+    ],
+    "answer_present": true,
+    "turn_completed": true,
+    "ids": [
+      "GAR-0022",
+      "GAR-0036",
+      "GAR-0041",
+      "GAR-0044",
+      "GAR-0048",
+      "GAR-0050",
+      "GAR-0079",
+      "LOOK-0010",
+      "SRC-0123",
+      "SRC-0400",
+      "SRC-0408",
+      "SRC-0410"
+    ],
+    "missing_ids": [],
+    "src_resolvable": true,
+    "source_ids": [
+      "SRC-0123",
+      "SRC-0400",
+      "SRC-0408",
+      "SRC-0410"
+    ],
+    "pass": true
+  },
+  "reasons": [],
+  "answer_chars": 2324
+}
