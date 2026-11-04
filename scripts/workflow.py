@@ -103,10 +103,15 @@ def write_text(path, text):
 # ---------------------------------------------------------------------------
 # scenario / script parsing
 # ---------------------------------------------------------------------------
-HEADING_RE = re.compile(
-    r"^\s*(?:ACT\s+[IVXLC0-9]+|SCENE\s+[IVXLC0-9]+\.?|"
+ACT_RE = re.compile(r"^\s*ACT\s+[IVXLC0-9]+\b", re.IGNORECASE)
+SCENE_HEADING_RE = re.compile(
+    r"^\s*(?:SCENE\s+[IVXLC0-9]+\.?|"
     r"第[一二三四五六七八九十0-9]+[场幕]|场[：:]|"
     r"INT\.|EXT\.|内景|外景)\b.*$",
+    re.IGNORECASE,
+)
+COMBINED_RE = re.compile(
+    r"^\s*ACT\s+[IVXLC0-9]+\s*[,.;:]?\s*SCENE\s+[IVXLC0-9]+\.?\b.*$",
     re.IGNORECASE,
 )
 SPEAKER_ALLCAPS_RE = re.compile(
@@ -162,12 +167,31 @@ def split_scenes(text):
     scenes = []
     current = None
     preamble = []
+    current_act = ""
     for raw in lines:
-        line = raw.rstrip()
-        if HEADING_RE.match(line):
+        # tolerate Markdown heading decoration: "## ACT I, SCENE I. ..."
+        line = re.sub(r"^\s*(?:#{1,6}\s*|\*\*|__)+", "", raw.rstrip()).strip()
+        line = re.sub(r"(?:\*\*|__)\s*$", "", line).strip()
+        if not line:
+            if current is not None:
+                current["lines"].append("")
+            else:
+                preamble.append("")
+            continue
+        combined = COMBINED_RE.match(line)
+        act_only = ACT_RE.match(line) and not SCENE_HEADING_RE.match(line) and not combined
+        if act_only:
+            # "ACT I" alone is an act marker, not a scene boundary; keep it as
+            # context for the next SCENE heading (avoids empty fragment scenes).
+            current_act = line.strip()
+            continue
+        if combined or SCENE_HEADING_RE.match(line):
             if current is not None:
                 scenes.append(current)
-            current = {"title": line.strip(), "lines": []}
+            title = line.strip()
+            if current_act and not combined:
+                title = "%s — %s" % (current_act, title)
+            current = {"title": title, "lines": []}
         else:
             if current is None:
                 preamble.append(line)

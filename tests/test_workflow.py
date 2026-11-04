@@ -22,6 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import costume_lib as lib  # noqa: E402
+import workflow  # noqa: E402
 
 FIXTURE_DIR = ROOT / "tests/fixtures"
 RUN_DIR = ROOT / "11-验收/P3.5/workflow-runs"
@@ -216,7 +217,13 @@ class WorkflowRegression(unittest.TestCase):
     def test_macbeth_public_domain_and_english_prompt(self):
         result = self.runs["macbeth"]["result"]
         self.assertIn("Macbeth", result["title"])
-        self.assertEqual(len(result["scenes"]), 3)
+        self.assertGreaterEqual(len(result["scenes"]), 3)
+        self.assertEqual([scene["id"] for scene in result["scenes"]],
+                         ["S1", "S2", "S3"])
+        stage_ids = [stage["id"] for stage in result["stage_list"]]
+        self.assertNotEqual(stage_ids, ["unassigned"])
+        self.assertTrue(any(stage["id"] != "unassigned" and stage["scenes"]
+                            for stage in result["stage_list"]))
         names = [character["name"] for character in result["characters"]]
         self.assertIn("Macbeth", names)
         self.assertIn("Banquo", names)
@@ -224,6 +231,14 @@ class WorkflowRegression(unittest.TestCase):
         for character in result["characters"]:
             if character["present_scenes"]:
                 self.assertTrue(result["recommendations"][character["name"]])
+        # ACT/SCENE headings keep scene boundaries; separate ACT lines do not
+        # create empty fragment scenes or an all-unassigned stage.
+        text = ("ACT I\nSCENE I. A desert place.\nFIRST WITCH: hail\n"
+                "SCENE II. A heath near Forres.\nMACBETH: so foul and fair\n")
+        parsed = workflow.split_scenes(text)
+        self.assertEqual([scene["id"] for scene in parsed], ["S1", "S2"])
+        self.assertTrue(all("ACT I" in scene["title"] for scene in parsed))
+        self.assertFalse(any(not scene["body"].strip() for scene in parsed))
         # saved Macbeth run for the delivery exists
         self.assertTrue((RUN_DIR / "macbeth/workflow-result.json").exists())
 

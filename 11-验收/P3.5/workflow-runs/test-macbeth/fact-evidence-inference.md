@@ -2,23 +2,23 @@
 
 ## 1. Facts (script / meta; no invented claims)
 
-### S1 — SCENE I. A desert place.
-- Scene heading: SCENE I. A desert place.
+### S1 — ACT I, SCENE I. A desert place.
+- Scene heading: ACT I, SCENE I. A desert place.
 - Speakers: Witches
 - Environment (script): weather=rain
 - Environment (script): weather=storm
 - Environment (script): weather=fog
 - Dialogue blocks per speaker: Witches=4
 
-### S2 — SCENE II. A heath near Forres.
-- Scene heading: SCENE II. A heath near Forres.
+### S2 — ACT I, SCENE II. A heath near Forres.
+- Scene heading: ACT I, SCENE II. A heath near Forres.
 - Speakers: Banquo, Macbeth, Witches
 - Environment (script): weather=storm
 - Environment (script): time=day
 - Dialogue blocks per speaker: Witches=4, Macbeth=2, Banquo=2
 
-### S3 — SCENE III. A room in Macbeth's castle. Night.
-- Scene heading: SCENE III. A room in Macbeth's castle. Night.
+### S3 — ACT I, SCENE III. A room in Macbeth's castle. Night.
+- Scene heading: ACT I, SCENE III. A room in Macbeth's castle. Night.
 - Speakers: Macbeth
 - Environment (script): time=night
 - Dialogue blocks per speaker: Macbeth=1
