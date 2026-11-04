@@ -1,11 +1,11 @@
 # T41 — query 去重：同名和服卡不得重复占据 top5
 
-- 运行时间：2026-11-04T13:54:35+08:00
+- 运行时间：2026-11-04T14:03:27+08:00
 - 测试类型：query_dedup, D3
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T41-query和服去重.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json`
-- 退出码：**0**（耗时 1.74s）
+- 退出码：**0**（耗时 1.7s）
 
 ## 实际输入
 
@@ -38,8 +38,8 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json` | 0 | 1.74s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 和服 --limit 5 --json` | 0 | 0.88s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json` | 0 | 1.7s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 和服 --limit 5 --json` | 0 | 0.84s |
 
 - `query.py` 命中数量：**5**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0001, GAR-0065, GAR-0066, SRC-0009, SRC-0028

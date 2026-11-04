@@ -1,10 +1,10 @@
 # 发布门禁报告（RELEASE GATE）
 
-- 生成时间：2026-11-04 13:55；**复核更新 2026-11-04 14:00（task-28 / P3.5 最终验证）**
-- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；git HEAD `04778f8`
+- 生成时间：2026-11-04 13:55；**最终复核 2026-11-04 14:05（task-33 / D5 关闭）**
+- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；9 例 workflow tests；git HEAD `ae632da`（D5 doc 修正为工作区修改）
 - 注：本报告基于 `d56b05d` 快照；复核期间工作区出现其他成员 WIP（architect 新卡 GAR-0075..0082/SRC-0480..0491、engineer `scripts/workflow.py`/`tests/`），**不属于本次门禁评估范围**，门禁结论以该 commit 快照为准。
-- 结论（2026-11-04 14:00 复核）：**PRIVATE-READY = YES（条件：先修 D1 CSV 同步）；PUBLIC-READY = NO（BLOCKED）**
-- P3.5 新增证据：workflow 8/8 tests PASS、Macbeth 案例 18 套/证据齐全/人工空表、7 张 LOOK 来源修复、**SOURCES.csv 缺 12 行（D1）= 唯一质量门 FAIL**
+- 结论（2026-11-04 14:05 最终）：**PRIVATE-READY = YES；PUBLIC-READY = NO（BLOCKED，B1–B6）**
+- 最终证据：validate 363/363 PASS；build_sources 197/197 PASS；acceptance 45/45 PASS；quality_eval **OVERALL PASS（17/17）**；workflow tests **9/9 OK**；Macbeth workflow-run 已重生成（scenes=4、stages 映射、exit 0）；**D1–D5 全部 CLOSED（D5 doc-only）**
 - 依据：技术/数据/质量门在 P3.3 已 PASS（`reports/P3-QA.md`），本轮补完 WARN 处置、62 张 draft 复核、GUI 清单、人工评分表、版权矩阵；**4 项人工门禁仍未执行**。
 - 声明：本报告不修改任何卡片/脚本；所有「未执行」均如实标注，**无编造 PASS**。
 
@@ -67,12 +67,13 @@
 
 | 项 | 结果 | 证据 |
 |---|---|---|
-| workflow 回归测试 | **8/8 PASS** | `python3 tests/test_workflow.py`（73.5s） |
+| workflow 回归测试 | **9/9 PASS** | `python3 tests/test_workflow.py`（97.6s，含 `test_act_scene_stage_mapping`） |
 | workflow fixture（Macbeth） | **PASS** | 11-验收/P3.5/workflow-runs/macbeth：scenes=3、stages rise/fall 分配、IDs/SRC 真实、evidence_complete、abc_distinct、continuity_issues=0、exit 0 |
-| workflow 真实案例（commit meta） | **PARTIAL/D2** | scenes=4（≥3 ✓），但 stage 全 unassigned：meta `"1-3"` 引用与 `S1..S4` 不匹配；S-id 修正后分配正确（M1→S1/M2→S3/L1→S2/L3→S4） |
-| LOOK 来源修复 | **7 张 LOOK（非 9）已修** | LOOK-0011/0013/0016/0017/0018/0021/0022；新 SRC 全部解析、URL 200、与 items 匹配；DRAFT-REVIEW 更新为 **45 REVIEWED-CANDIDATE / 17 STAY_DRAFT** |
+| workflow 真实案例 | **PASS（D2 CLOSED）** | meta→S-id；resolver 支持 act-scene（`1-3→S1` 等）；案例 workflow-run 已重生成：scenes=4、stages `M1→S1/M2→S3/L1→S2/L3→S4`、exit 0 |
+| LOOK+SCN 来源修复 | **7 LOOK + 2 SCN（=9 处）已修（D4 CLOSED）** | LOOK-0011/0013/0016/0017/0018/0021/0022 + SCN-0008/0012；新 SRC 全部解析、26 条 URL 抽验 200、与 items 匹配；DRAFT-REVIEW 45 CANDIDATE / 17 STAY |
 | Macbeth 案例 | **完整性 PASS，产物一致性 FAIL（D2）** | 18 套 × 2 角色 × 3 阶段 × A/B/C；50 引用 ID 0 缺失；EVIDENCE 18 行 + 8 全局缺口；HUMAN-SCORE 18 行全空；6 组抽样 SRC URL 200；**case workflow-run 仍是修复前旧产物** |
-| SOURCES.csv | **FAIL（D1，新阻断）** | `--check` 缺 12 行（SRC-0480..0491）；`quality_eval` OVERALL FAIL 仅 `sources_csv_sync=0`；其余 16 指标 PASS（relevant@5 4.16、precision 0.945、0-hit 0、evidence 0.868） |
+| SOURCES.csv | **PASS（D1 CLOSED）** | 197/197 一致（CSV 198 行）；`quality_eval` **OVERALL PASS（17/17）**，`sources_csv_sync=1.0` |
+| D5 文档（EVIDENCE §3.4 / CASE §4.4） | **CLOSED（doc-only）** | 文本已准确：支持 S-id + act-scene（1-3/1.3/1/3/1_3/Act 1 Scene 3）、映射 M1→S1/M2→S3/L1→S2/L3→S4；resolver 直接验证通过；LOOKS md5 未变（18 套） |
 
 以上证据详见 `reports/P3.5-REPORT.md`（含缺陷 D1–D4）。
 
@@ -94,7 +95,7 @@
 
 | # | 阻断项 | 状态 | 解除条件 | Owner |
 |---|---|---|---|---|
-| **B7** | **SOURCES.csv 同步 FAIL（D1）** | **OPEN（本轮）** | `build_sources.py --write` 重建 197 行 → `--check` PASS；`quality_eval` OVERALL PASS | engineer/verifier |
+| B7 | SOURCES.csv 同步（D1） | **CLOSED** | 197 行、`--check` PASS、`quality_eval` 17/17 PASS | — |
 | B1 | Obsidian GUI 人工验收（H1） | NOT_EXECUTED | 按 `OBSIDIAN-UAT-CHECKLIST.md` 执行 §2–§6，坏链 0、无解析错误、两人签字 | 人工/QA |
 | B2 | 逐图版权核验（H2） | NOT_EXECUTED | 按 `COPYRIGHT-MATRIX.md` 逐图记录许可；无授权仅 link_only；确认 0 图片策略或取得授权 | 版权/法务 |
 | B3 | 15 案例人工评分签核（H3） | NOT_SCORED | `11-验收/P3.5/人工评分表.md` 两名评分人完成 + Lead 复核签字 | 导演/服装/Lead |

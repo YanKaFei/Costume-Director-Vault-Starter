@@ -103,7 +103,8 @@ python3 scripts/workflow.py \
 - **Stage 映射（本次重跑）**：M1 → S1；M2 → S3；L1 → S2；L3 → S4（stage_list 中不再有 `unassigned`）。
 - 角色/阶段推荐：识别 6 角色（Macbeth、Lady Macbeth、三女巫、Banquo），共 9 个 character-stage 行；Macbeth: M1/M2；Lady Macbeth: L1/M2/L3；三女巫与 Banquo: M1。每行 `recommend.py` exit 0，但因 11 世纪苏格兰硬约束只产出 A 套 GAR-0077（B/C 为空），`checks.ids_exist=true`、`evidence_complete=true`、`source_ids_resolve=true`；`design_conflicts=52`（11th-century Scotland 无 context/style 卡、跨区借用等）、`unknowns=29`、`continuity_issues=6`。
 - **ID/SRC 真实性**：推荐中的 GAR-0077 与 SRC-0484/0485（紧身长袜）、SRC-0141（材料关联）均能在 01–04 解析；未出现虚构 ID/来源。
-- **原 meta 兼容性（残余工具缺口）**：原 `workflow-meta.json` 的 stage refs 为 `1-3 / 1-5 / 2-2 / 5-1`，`build_stages` 只做 scene id 精确匹配，不自动解析 act-scene 文本；用原 refs 重跑时 scenes=4 但 stages 仍全 unassigned（原始结果另存 `kb/workflow-run-unmapped.json`）。本次把 meta refs 更新为 `S1/S2/S3/S4` 后再跑，映射成功。**结论**：heading 修复已生效；meta refs 仍需人/工具映射到 S-id（工作流未自动完成）。
+- **meta 场景引用支持（S-id 与 act-scene 两种写法）**：`scripts/workflow.py` 的 `resolve_scene_ref` 现同时支持 S-id 与 act-scene 引用（实测：`S1`、`1-3`、`1.3`、`1/3`、`1_3`、`Act 1 Scene 3`、`act I scene iii` 均可解析；无法映射的 ref 会写入 stage warnings）。本案例 `workflow-meta.json` 当前使用 S-id，映射为 M1→S1、M2→S3、L1→S2、L3→S4。
+- **历史记录（保留作对照）**：在 workflow 支持 act-scene 解析之前（旧版本/首轮运行），原 meta 的 `1-3 / 1-5 / 2-2 / 5-1` refs 因只做 scene id 精确匹配而全部 unassigned，原始结果另存 `kb/workflow-run-unmapped.json`；修复后 act-scene 与 S-id 两种引用都可直接映射，无需人工改 meta（本案例 meta 现采用 S-id 写法）。
 - 18 套人工 LOOKS 不受影响：`LOOKS.md` md5 = `53549992cef442d2d3267a4506b3903b`（重跑前后一致），18 个 `##` 造型条目不变。
 
 ## 4. 引用统计

@@ -109,7 +109,8 @@ python3 scripts/workflow.py \
 - 输入：公共领域《麦克白》短摘录（1.3 荒原、1.5 读信、2.2 弑君后、5.1 梦游）+ meta（11th century Scotland / scotland / historical / 角色与阶段）。
 - 退出码：**0**；输出 `workflow-run/`（dossier、scene table、full-looks、prompts、fact-evidence-inference、workflow-result.json）。
 - 重生成结果：**scenes=4**（ACT/SCENE heading 已合并），**stage 映射 M1→S1、M2→S3、L1→S2、L3→S4**，不再全 unassigned；6 角色 / 9 个 character-stage 行，每行 exit 0；但 11 世纪苏格兰硬约束下仅 A 套 GAR-0077（B/C 空），`checks.ids_exist/evidence_complete/source_ids_resolve=true`，`design_conflicts=52`、`unknowns=29`、`continuity_issues=6`。
-- 残余工具缺口：`build_stages` 只按 scene id 精确匹配，原 meta 的 `1-3/1-5/2-2/5-1` refs 不会自动映射到 S-id；本次将 meta refs 更新为 S1–S4 后映射成功（原 refs 的运行结果另存 `kb/workflow-run-unmapped.json`）。
+- meta 引用支持：`workflow.py` 的 `resolve_scene_ref` 现同时支持 S-id 与 act-scene 写法（`S1`、`1-3`、`1.3`、`1/3`、`1_3`、`Act 1 Scene 3`、`act I scene iii`；无法映射时给 warning）。本案例 `workflow-meta.json` 当前使用 S-id，映射 M1→S1、M2→S3、L1→S2、L3→S4。
+- 历史记录：修复前旧版本只按 scene id 精确匹配，原 act-scene refs（`1-3/1-5/2-2/5-1`）曾导致 stages 全 unassigned，结果保留在 `kb/workflow-run-unmapped.json`；修复后两种写法均可直接映射，无需人工修改 meta。
 - 18 套人工 LOOKS 未受影响（`LOOKS.md` md5 重跑前后一致，18 套不变）。原始输出：`kb/workflow-run.json`、`workflow-run/`。
 
 ## 5. 文件索引

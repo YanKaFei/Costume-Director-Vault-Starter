@@ -55,3 +55,28 @@
 - 阻断项：**B7 CSV 同步（新）**、B1 GUI UAT、B2 逐图版权、B3 人工评分签核、B4 draft 复核、B5 WARN 披露、B6 许可/法务。
 - HUMAN_UAT_PENDING 4 项保持：Obsidian GUI / 逐图版权 / 15 案例人工评分 / 62 draft 复核。
 - 详见 `reports/P3.5-REPORT.md`。
+
+
+---
+
+## 7. P3.5 收尾复验（2026-11-04 14:05，task-31）
+
+- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；git HEAD `ae632da`（工作区 clean）。
+- 门禁全部重跑：`validate.py` **PASS**（363/363，17/17）；`build_sources --check` **PASS**（197/197，CSV 198 行）；`run_acceptance` **45/45 PASS**；`quality_eval --no-write` **OVERALL PASS（17/17，sources_csv_sync=1.0）**；`tests/test_workflow.py` **9/9 OK**（97.6s）。
+- workflow：案例 meta→S-id；resolver 支持 act-scene（1-3→S1 等）；Macbeth `workflow-run/` 已重生成（scenes=4、M1→S1/M2→S3/L1→S2/L3→S4、exit 0）；独立复跑一致。
+- LOOK+SCN：**7 LOOK + 2 SCN（SCN-0008/0012）= 9 处来源修正**，URL 抽验 200；DRAFT-REVIEW 45 REVIEWED-CANDIDATE / 17 STAY_DRAFT；未改卡片。
+- Macbeth 案例：18 套 × 2 角色 × 3 阶段 × A/B/C；50 引用 ID 0 缺失；HUMAN-SCORE 18 行全空（0 预填）。
+- 缺陷：**D1–D4 全部 CLOSED**；D5（EVIDENCE §3.4 过时措辞）当时 OPEN（doc，非阻断）→ **已于 §8 关闭（CLOSED，doc-only）**。
+- **发布门禁：PRIVATE-READY = YES；PUBLIC-READY = NO（BLOCKED）**；阻断 B1 GUI UAT、B2 逐图版权、B3 人工评分、B4 draft 复核、B5 WARN 披露、B6 许可/法务；**HUMAN_UAT_PENDING 4 项**保持。
+- 详见 `reports/P3.5-REPORT.md`。
+
+
+## 8. 最终收尾（2026-11-04 14:05，task-33）
+
+- **HEAD**：`ae632da`（P3.5 修复 commit）；narrator 的 D5 文档修正（`EVIDENCE.md §3.4`、`CASE.md §4.4`）当前为工作区修改，lead 提交后 HEAD 前进、内容不变。
+- **快照一致性核对**：**363 卡**（内容 166 + 来源 197）；**45 例验收**；**9 例 workflow tests**；18 套 Macbeth LOOKS；HUMAN-SCORE 18 行空表；`SOURCES.csv` 198 行（197 + 表头）。
+- **D5 CLOSED（doc-only）**：EVIDENCE §3.4 / CASE §4.4 已准确描述「workflow 支持 S-id 与 act-scene（1-3/1.3/1/3/1_3/Act 1 Scene 3），案例映射 M1→S1/M2→S3/L1→S2/L3→S4」；直接调用 `resolve_scene_ref` 验证全部写法正确（`9-9`→None 触发 warning）；LOOKS md5 `53549992cef442d2d3267a4506b3903b` 未变。
+- **D1–D5 状态**：D1 CLOSED；D2 CLOSED；D3 CLOSED；D4 CLOSED；**D5 CLOSED**。
+- **门禁**：PRIVATE-READY = YES；PUBLIC-READY = NO（BLOCKED，B1–B6；B7 已 CLOSED）。
+- **HUMAN_UAT_PENDING 4**：Obsidian GUI / 逐图版权 / 15 案例人工评分 / 62 draft 复核；均未执行，未编造 PASS 或分数。
+- 详见 `reports/P3.5-REPORT.md` 与 `reports/RELEASE-GATE.md`。
