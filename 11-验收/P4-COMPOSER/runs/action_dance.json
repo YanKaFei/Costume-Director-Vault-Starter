@@ -231,6 +231,18 @@
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "none",
+        "footwear": "era",
+        "accessory": "none",
+        "carried_prop": "none"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "footwear": "unknown",
+        "accessory": "unknown",
+        "carried_prop": "unknown"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0123",
@@ -544,6 +556,18 @@
         "GAR-0047": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "set": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "set": "unknown",
+        "footwear": "unknown",
+        "accessory": "unknown",
+        "carried_prop": "unknown"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0106",
@@ -643,7 +667,7 @@
     },
     {
       "look_ref": "C",
-      "total": 43.3,
+      "total": 40.1,
       "items": [
         {
           "slot": "one_piece",
@@ -666,39 +690,41 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0022",
-          "name_zh": "威灵顿靴",
-          "name_en": "wellington boot",
+          "id": "GAR-0023",
+          "name_zh": "莫卡辛鞋",
+          "name_en": "moccasins",
           "colors": [
-            "black",
-            "brown"
+            "tan",
+            "buckskin",
+            "beaded"
           ],
           "materials": [
             "leather",
-            "rubber"
+            "beads",
+            "silk_ribbon"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0123"
+            "SRC-0124"
           ]
         },
         {
           "slot": "accessory",
-          "id": "GAR-0070",
-          "name_zh": "头巾",
-          "name_en": "gele head-tie",
+          "id": "GAR-0021",
+          "name_zh": "围裙裙",
+          "name_en": "pinafore",
           "colors": [
-            "orange",
-            "green",
-            "red"
+            "white",
+            "printed",
+            "navy"
           ],
           "materials": [
-            "rayon",
-            "jacquard"
+            "cotton",
+            "linen"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0431"
+            "SRC-0122"
           ]
         }
       ],
@@ -710,52 +736,52 @@
       "slot_count": 3,
       "slot_ids": {
         "one_piece": "GAR-0069",
-        "footwear": "GAR-0022",
-        "accessory": "GAR-0070"
+        "footwear": "GAR-0023",
+        "accessory": "GAR-0021"
       },
       "missing_slots": [],
       "palette": {
         "colors": [
-          "black",
-          "brown",
-          "green",
+          "beaded",
+          "buckskin",
           "multicolor",
-          "orange",
-          "red",
-          "striped"
+          "navy",
+          "printed",
+          "striped",
+          "tan",
+          "white"
         ],
         "families": {
-          "other": 2,
+          "other": 5,
           "neutral": 2,
-          "warm": 2,
           "cool": 1
         },
         "dominant_family": "other",
-        "dominant_share": 0.286,
+        "dominant_share": 0.625,
         "harmony": 0.92
       },
       "materials": {
         "materials": [
+          "beads",
           "cotton",
           "embroidery",
-          "jacquard",
           "leather",
-          "rayon",
-          "rubber",
+          "linen",
+          "silk ribbon",
           "velvet"
         ],
         "families": {
-          "cotton": 1,
-          "silk": 1,
+          "cotton": 2,
+          "silk": 2,
           "other": 2,
           "leather": 1,
-          "synthetic": 2
+          "linen": 1
         },
         "distinct": 5,
-        "harmony": 0.95
+        "harmony": 1.0
       },
       "silhouette": {
-        "shape": "H",
+        "shape": "A",
         "proportion": 0.7,
         "has_defined_waist": false,
         "balanced_slots": true,
@@ -768,7 +794,7 @@
         "period_evidence": {
           "one_piece": "era",
           "footwear": "era",
-          "accessory": "era"
+          "accessory": "approximate"
         },
         "region_evidence": {
           "one_piece": "unknown",
@@ -790,38 +816,52 @@
       },
       "source_ids": [
         "SRC-0430",
-        "SRC-0123",
-        "SRC-0431",
+        "SRC-0124",
+        "SRC-0122",
         "SRC-0202",
         "SRC-0201",
         "SRC-0486",
-        "SRC-0484",
-        "SRC-0412",
-        "SRC-0520",
         "SRC-0521",
-        "SRC-0102"
+        "SRC-0520",
+        "SRC-0133",
+        "SRC-0102",
+        "SRC-0141",
+        "SRC-0142",
+        "SRC-0483"
       ],
       "missing_source_ids": [],
       "items_without_source": [],
       "item_evidence": {
         "GAR-0069": "verified",
-        "GAR-0022": "verified",
-        "GAR-0070": "verified"
+        "GAR-0023": "verified",
+        "GAR-0021": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "accessory": "approximate"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "footwear": "unknown",
+        "accessory": "unknown"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0430",
-          "SRC-0123",
-          "SRC-0431",
+          "SRC-0124",
+          "SRC-0122",
           "SRC-0202",
           "SRC-0201",
           "SRC-0486",
-          "SRC-0484",
-          "SRC-0412",
-          "SRC-0520",
           "SRC-0521",
-          "SRC-0102"
+          "SRC-0520",
+          "SRC-0133",
+          "SRC-0102",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0483"
         ],
         "source_urls": [
           {
@@ -829,12 +869,12 @@
             "url": "https://collections.vam.ac.uk/item/O1678646/"
           },
           {
-            "source_id": "SRC-0123",
-            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+            "source_id": "SRC-0124",
+            "url": "https://fashionhistory.fitnyc.edu/moccasins/"
           },
           {
-            "source_id": "SRC-0431",
-            "url": "https://collections.vam.ac.uk/item/O41652/"
+            "source_id": "SRC-0122",
+            "url": "https://fashionhistory.fitnyc.edu/pinafore/"
           },
           {
             "source_id": "SRC-0202",
@@ -849,24 +889,32 @@
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
-            "source_id": "SRC-0484",
-            "url": "https://collections.vam.ac.uk/item/O356786/"
-          },
-          {
-            "source_id": "SRC-0412",
-            "url": "https://collections.vam.ac.uk/item/O15693/"
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0520",
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
-            "source_id": "SRC-0521",
-            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+            "source_id": "SRC-0133",
+            "url": "https://fashionhistory.fitnyc.edu/ruff/"
           },
           {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           }
         ],
         "context_style_ids": [
@@ -878,29 +926,29 @@
         "context_scene_ids": [],
         "item_evidence": {
           "GAR-0069": "verified",
-          "GAR-0022": "verified",
-          "GAR-0070": "verified"
+          "GAR-0023": "verified",
+          "GAR-0021": "verified"
         },
         "missing_urls": []
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual / ceremonial; the black, brown, green palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve contemporary dancer; the low economic register shows through material and finish; formality runs from ceremonial / casual / casual; the beaded, buckskin, multicolor palette controls the emotional temperature; against the arc (rehearsal to first solo) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
+        "highest scoring dimensions: 年代/文化 19.9/25, 摄影/一致性 6.6/10",
         "连身: GAR-0069 阿格巴达 (ceremonial)",
-        "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "配饰: GAR-0070 头巾 (ceremonial)",
-        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
-        "linked material cards: MAT-0001"
+        "足部: GAR-0023 莫卡辛鞋 (casual)",
+        "配饰: GAR-0021 围裙裙 (casual)",
+        "linked structure cards: STR-0016, STR-0023, STR-0025, STR-0003",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0003, MAT-0013"
       ],
       "risks": [
-        "region mismatch in GAR-0069, GAR-0022, GAR-0070: cards document their own regions, not unspecified city",
+        "region mismatch in GAR-0069, GAR-0023, GAR-0021: cards document their own regions, not unspecified city",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Qiao, one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial, palette: black, brown, green, multicolor, orange, red, striped, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; cotton, velvet, embroidery; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0069; footwear GAR-0022; accessory GAR-0070; movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, brown, green, multicolor, orange, red, striped; materials cotton, embroidery, jacquard, leather, rayon, rubber, velvet; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "prompt_image": "full-body character design of an adult Qiao, one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, palette: beaded, buckskin, multicolor, navy, printed, striped, tan, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); ruff (STR-0003), continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0013 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; cotton, velvet, embroidery; one-piece] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, MAT-0013, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0069; footwear GAR-0023; accessory GAR-0021; movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.70; palette beaded, buckskin, multicolor, navy, printed, striped, tan, white; materials beads, cotton, embroidery, leather, linen, silk ribbon, velvet; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion",
       "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
     }
@@ -915,19 +963,19 @@
       ]
     },
     "a_c": {
-      "item_diff": 5,
-      "palette_diff": 12,
+      "item_diff": 7,
+      "palette_diff": 17,
       "silhouette": [
         "A",
-        "H"
+        "A"
       ]
     },
     "b_c": {
-      "item_diff": 3,
-      "palette_diff": 6,
+      "item_diff": 7,
+      "palette_diff": 15,
       "silhouette": [
         "H",
-        "H"
+        "A"
       ]
     },
     "all_pairwise_ge_2": true
@@ -949,9 +997,7 @@
         "source": "not specified"
       }
     ],
-    "anchors": [
-      "GAR-0022"
-    ],
+    "anchors": [],
     "note": "States are explicit input facts; unknown values are never replaced with invented dry/clean/damage-free assumptions.",
     "warnings": [
       "wetness/damage/dirt not specified; left unknown (not invented)"
@@ -979,7 +1025,10 @@
       "SRC-0407",
       "SRC-0142",
       "SRC-0141",
-      "SRC-0430"
+      "SRC-0430",
+      "SRC-0124",
+      "SRC-0122",
+      "SRC-0133"
     ],
     "missing_source_ids": [],
     "source_urls": [
@@ -1066,6 +1115,18 @@
       {
         "source_id": "SRC-0430",
         "url": "https://collections.vam.ac.uk/item/O1678646/"
+      },
+      {
+        "source_id": "SRC-0124",
+        "url": "https://fashionhistory.fitnyc.edu/moccasins/"
+      },
+      {
+        "source_id": "SRC-0122",
+        "url": "https://fashionhistory.fitnyc.edu/pinafore/"
+      },
+      {
+        "source_id": "SRC-0133",
+        "url": "https://fashionhistory.fitnyc.edu/ruff/"
       }
     ]
   },
@@ -1074,9 +1135,11 @@
     "the vault has no 'contemporary dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
     "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
     "no carried_prop candidate in the vault for this brief",
+    "A/B/C structural repair: 2 shared slot(s) replaced in look C",
     "a composed look lacks carried prop (knowledge-base gap)",
     "wetness/damage/dirt not specified; left unknown (not invented)",
-    "items without source_ids: GAR-0079"
+    "items without source_ids: GAR-0079",
+    "design includes declared per-item era/region mismatches; not a historical-accuracy claim"
   ],
   "warnings_detail": [
     {
@@ -1110,6 +1173,379 @@
     "ids_all_exist": true,
     "source_ids_resolve": true,
     "real_ids_only": true,
-    "continuity_states_explicit": false
-  }
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": false
+  },
+  "item_compatibility": [
+    {
+      "slot": "one_piece",
+      "id": "GAR-0079",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early modern",
+        "middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0022",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "set",
+      "id": "GAR-0005",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "mali",
+        "senegal",
+        "west africa"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0022",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0070",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "1980s",
+        "contemporary"
+      ],
+      "region_labels": [
+        "nigeria",
+        "west africa"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0047",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1920s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0069",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "contemporary"
+      ],
+      "region_labels": [
+        "nigeria",
+        "west africa"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0023",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "indigenous america",
+        "north america"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0021",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe",
+        "united states"
+      ],
+      "period_tier": "approximate"
+    }
+  ],
+  "declared_mismatches": [
+    {
+      "look": "A",
+      "slot": "one_piece",
+      "id": "GAR-0079",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early modern",
+        "middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "A",
+      "slot": "footwear",
+      "id": "GAR-0022",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "A",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "B",
+      "slot": "set",
+      "id": "GAR-0005",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "mali",
+        "senegal",
+        "west africa"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "footwear",
+      "id": "GAR-0022",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "accessory",
+      "id": "GAR-0070",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "1980s",
+        "contemporary"
+      ],
+      "region_labels": [
+        "nigeria",
+        "west africa"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "carried_prop",
+      "id": "GAR-0047",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1920s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "one_piece",
+      "id": "GAR-0069",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "contemporary"
+      ],
+      "region_labels": [
+        "nigeria",
+        "west africa"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "footwear",
+      "id": "GAR-0023",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "indigenous america",
+        "north america"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "accessory",
+      "id": "GAR-0021",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe",
+        "united states"
+      ],
+      "period_tier": "approximate"
+    }
+  ],
+  "constraint_violations": [],
+  "status": "declared_mismatch",
+  "historical_accuracy": false
 }

@@ -124,9 +124,9 @@
 
 ## M2-B — Macbeth / M2 罪恶危机 / B 伪装的贵族层（concealment）
 
-**KB 引用**：GAR-0075 束腰长袍；GAR-0076 斗篷与披风；GAR-0077 紧身长袜；GAR-0080 腰带；GAR-0082 匕首；MAT-0011 samite（斗篷内衬/饰边，theatrical）
+**KB 引用**：GAR-0075 束腰长袍；GAR-0076 斗篷与披风；GAR-0077 紧身长袜；GAR-0080 腰带；GAR-0081 皮靴（15 世纪伦敦皮革踝靴，analogue）；GAR-0082 匕首；MAT-0011 samite（斗篷内衬/饰边，theatrical）
 
-**结构与材质**：GAR-0075 长袍 + GAR-0076 深色斗篷（把血袖藏在斗篷下）+ GAR-0077 长袜 + GAR-0080 腰带 + GAR-0082 匕首；samite 仅在斗篷翻开时露出窄边。
+**结构与材质**：GAR-0075 长袍 + GAR-0076 深色斗篷（把血袖藏在斗篷下）+ GAR-0077 长袜 + GAR-0081 皮靴（15 世纪伦敦皮革踝靴，analogue）+ GAR-0080 腰带 + GAR-0082 匕首；samite 仅在斗篷翻开时露出窄边。
 
 **颜色**：炭黑/暗红斗篷 + 土褐长袍；samite 的暗金只在动作中闪现。
 
@@ -134,16 +134,16 @@
 
 **证据三分**：
 - historical：无 11 世纪苏格兰证据；斗篷/长袍/长袜/腰带/匕首均为欧洲中世纪—早期近代类比。
-- evidence（analogue）：GAR-0075（SRC-0480/0481）、GAR-0076（SRC-0482/0483）、GAR-0077（SRC-0484/0485）、GAR-0080（SRC-0487/0488）、GAR-0082（SRC-0490/0491）、MAT-0011（SRC-0423）。
+- evidence（analogue）：GAR-0075（SRC-0480/0481）、GAR-0076（SRC-0482/0483）、GAR-0077（SRC-0484/0485）、GAR-0080（SRC-0487/0488）、GAR-0081（SRC-0489）、GAR-0082（SRC-0490/0491）、MAT-0011（SRC-0423）。
 - theatrical：“遮血斗篷”的调度与 samite 内衬翻出为艺术推断。
 
-**来源 SRC**：SRC-0480/0481、SRC-0482/0483、SRC-0484/0485、SRC-0487/0488、SRC-0490/0491、SRC-0423
+**来源 SRC**：SRC-0480/0481、SRC-0482/0483、SRC-0484/0485、SRC-0487/0488、SRC-0489、SRC-0490/0491、SRC-0423
 
 **风险**：斗篷太新会显得像舞台服装；samite 内衬若过多会变“炫富”，削弱伪装感。
 
-**英文生图 prompt**：`nobleman in earth-brown tunic and dark crimson cloak, fitted hose, leather belt and dagger, one hand hidden under the cloak, samite lining flashing as it moves, stone corridor, low firelight`
+**英文生图 prompt**：`nobleman in earth-brown tunic and dark crimson cloak, fitted hose, leather belt and dagger, leather ankle boots, one hand hidden under the cloak, samite lining flashing as it moves, stone corridor, low firelight`
 
-**英文视频 prompt**：`walking a corridor with cloak drawn over one arm, bloodied hand hidden, samite lining briefly revealed, medium shot, continuity on cloak drape and hidden hand`
+**英文视频 prompt**：`walking a corridor with cloak drawn over one arm, bloodied hand hidden, samite lining briefly revealed, leather ankle boots, medium shot, continuity on cloak drape and hidden hand`
 
 **负向 prompt**：`no visible blood on outer cloak, no crown, no jewellery, no clean new fabric`
 
@@ -443,9 +443,9 @@
 
 ## L3-A — Lady Macbeth / L3 覆灭 / A 梦游基础层（sleepwalking）
 
-**KB 引用**：GAR-0078 亚麻衬衣；GAR-0076 斗篷与披风（夜披类比）；GAR-0024 穆勒鞋
+**KB 引用**：GAR-0078 亚麻衬衣；GAR-0079 基尔特长袍（interpretive，作为 chemise 外的无装饰躯干层）；GAR-0076 斗篷与披风（夜披类比）；GAR-0024 穆勒鞋
 
-**结构与材质**：只穿 GAR-0078 亚麻衬衣作为睡袍，外披 GAR-0076 亚麻/羊毛 mantle 作夜间保暖；脚穿 GAR-0024 穆勒鞋（或赤足，按导演选择，但需连续一致）；无腰带、无珠宝。
+**结构与材质**：以 GAR-0078 亚麻衬衣为内层，外加 GAR-0079 基尔特长袍（interpretive，无装饰躯干层）；外披 GAR-0076 亚麻/羊毛 mantle 作夜间保暖；脚穿 GAR-0024 穆勒鞋（或赤足，按导演选择，但需连续一致）；无腰带、无珠宝。
 
 **颜色**：象牙/灰白 + 蜡烛暖黄；几乎无饱和色。
 
@@ -453,16 +453,16 @@
 
 **证据三分**：
 - historical：无 11 世纪苏格兰证据；衬衣为 1620–40 英国、mantle 为 1590–1610 葡萄牙、穆勒鞋为 16–18 世纪。
-- evidence（analogue）：GAR-0078（SRC-0486）、GAR-0076（SRC-0482/0483）、GAR-0024（SRC-0125）。
+- evidence（analogue）：GAR-0078（SRC-0486）、GAR-0079（interpretive，无 SRC 卡，缺口）、GAR-0076（SRC-0482/0483）、GAR-0024（SRC-0125）。
 - theatrical：赤足/软鞋的选择、蜡烛光源、散乱头发为戏剧化；无中世纪 wimple/coif（gap）。
 
-**来源 SRC**：SRC-0486、SRC-0482/0483、SRC-0125
+**来源 SRC**：SRC-0486、SRC-0482/0483、SRC-0125；GAR-0079 无 SRC（interpretive，缺口见 EVIDENCE.md）
 
 **风险**：亚麻衬衣过薄需考虑演员舒适与镜头尺度；穆勒鞋不跟脚，梦游步态要排练；无中世纪头巾（gap），只能用散发。
 
-**英文生图 prompt**：`sleepwalking Lady Macbeth in a plain ivory linen chemise and a pale mantle, loose hair, soft leather mules, holding a candle, cold stone corridor, filmic analogue`
+**英文生图 prompt**：`sleepwalking Lady Macbeth in a plain ivory linen chemise under a plain undyed kirtle and a pale mantle, loose hair, soft leather mules, holding a candle, cold stone corridor, filmic analogue`
 
-**英文视频 prompt**：`Lady Macbeth sleepwalking with a candle, chemise hem brushing stone, hands rubbing as if washing, mantle slipping, slow handheld tracking, continuity on candle and bare/soft feet`
+**英文视频 prompt**：`Lady Macbeth sleepwalking with a candle, chemise and kirtle hem brushing stone, hands rubbing as if washing, mantle slipping, slow handheld tracking, continuity on candle, kirtle layer and bare/soft feet`
 
 **负向 prompt**：`no blood on hands in this stage, no jewellery, no modern nightgown, no clean pressed linen`
 

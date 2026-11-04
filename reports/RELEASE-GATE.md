@@ -1,9 +1,9 @@
 # 发布门禁报告（RELEASE GATE）
 
-- 生成时间：2026-11-04 13:55；**最终复核 2026-11-04 14:05（task-33 / D5 关闭）**
-- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；9 例 workflow tests；git HEAD `e30446d`（D5 doc 修正已提交）
+- 生成时间：2026-11-04 13:55；**R1.1 复核 2026-11-05 00:55（task-58）**
+- 快照：**400 卡**（内容 189 + 来源 211）；45 例验收；9 workflow + 9 composer + 11 Macbeth；git HEAD `70261e9`（**R1.1 修复在 working tree，未提交**）
 - 注：本报告基于 `d56b05d` 快照；复核期间工作区出现其他成员 WIP（architect 新卡 GAR-0075..0082/SRC-0480..0491、engineer `scripts/workflow.py`/`tests/`），**不属于本次门禁评估范围**，门禁结论以该 commit 快照为准。
-- 结论（2026-11-04 16:26 P4 复核）：**PRIVATE-READY / PRIVATE-USE = YES（状态不变）；PUBLIC-READY = NO（BLOCKED，B1–B6 + P4 L1–L6）**
+- 结论（2026-11-05 00:57 R1.1 复核）：**PRIVATE-READY / PRIVATE-USE = YES（技术层，附 WARN：修复未提交、人工门禁未执行；备份已修复 PASS）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**
 - P4 证据：许可审计 20 源（PASS 15/WARN 2/RESTRICTED 3）；9 本 PD 书/31 结论（15 verified）；结构 v1.2（42 字段、22 新卡、旧卡 0 破坏）；composer 9/9（独立 3 例）；视觉 28 条 CC0 / 27 关联 / 0 下载；Macbeth 11/11；8 套回归全 PASS（precision 94.5%→92.9% 记为 WARN）
 - P3.6 证据：Skill 安装并可原生调用（2 次独立 headless 请求均 exit 0，事件含 `skill(costume-director)` + `scripts/query.py` bash 调用）；10/10 e2e 独立审计通过（ID/SRC 0 缺失、无错误）；KB 安全（纯新增 commit、projects 隔离、未推送、无许可改动）；validate 363/363、build_sources 197/197、acceptance 45/45、quality_eval OVERALL PASS（17/17）、workflow tests 9/9；**D1–D5 全部 CLOSED**
 - 依据：技术/数据/质量门在 P3.3 已 PASS（`reports/P3-QA.md`），本轮补完 WARN 处置、62 张 draft 复核、GUI 清单、人工评分表、版权矩阵；**4 项人工门禁仍未执行**。
@@ -117,6 +117,24 @@
 | L6 | open-pose 图片（非商业+禁再分发） | 仅内部非商业；不复制图片 |
 
 **P4 结论**：技术/数据/质量/许可审计全部通过；**PRIVATE-READY/PRIVATE-USE = YES（状态不变）**；**PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6）**；HUMAN_UAT_PENDING 4 项未执行。
+
+## 4.8 R1.1 复核（2026-11-05 00:55，task-58）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 备份/R1-F1 | **PASS** | HUMAN-CLOSEOUT hash `a00194…` 稳定、`test_human_closeout` 3/3；备份修复后 **7/7**：真实仓库 1438 文件 backup/verify/restore 全 0（manifest sha `e7e576…`；R1/R1.1 sandbox 排除、chmod-000 路径不入备份、不可读文件跳过+warning） |
+| 安全 | **PASS** | path_guard 7/7；A01–A10 **10/10 BLOCKED**、0 BYPASS；A05 读取本身被拒、events 无 secret |
+| 跨时代/Override | **PASS（WARN）** | 严格历史 status=blocked/looks=[]；override 记录 intent/conflicts/historical_accuracy=false；inspired status=declared_mismatch、15/15 声明、无 status=ok 未声明；`--md` 文案 WARN |
+| A/B/C 单件替换 | **PASS** | abc_eval：`one_item_swap_gaming=true`、`all_pairs_meaningful=false`；held-out + 7/7 tests |
+| Look Bible | **PASS** | 版本/状态机/审批/禁自批/hard anchors/diff；tests 6/6；composer 消费 approved_anchors |
+| Skill 集成 | **PASS（E2E 3/3 each）** | `sync_skill.py --check` MATCH；official/overlay C02/C05/C06 3/3；C03/C04 NOT_RUN |
+| KQ/快照 | **PASS（残留）** | KQ-05/06 PASS；KQ-01 PARTIAL；KQ-13/H4 BLOCKED；索引/STATUS/COVERAGE/QA 400/189/211 |
+| 全回归 | **PASS** | validate 400/400、build 211/211、45/45、quality 17/17、workflow 9/9、composer 9/9、Macbeth 11/11 |
+
+**P1 残留**：~~备份 FAIL~~ → PASS（已修复）；KQ-13/H4 人工签核 BLOCKED；R1.1 修复未提交（HEAD 仍 70261e9，153 项 working-tree 改动；lead 将提交）；KQ-01 PARTIAL；SCHEMA-03（v1.2 未接入检索）。
+**WARN**：composer `--md` 对 declared_mismatch 打印「status=blocked」文案；C03 answer 空/C04 未完成（NOT_RUN）；precision 0.929（↓1.6pp，≥0.8）。
+
+**R1.1 结论**：R1 三项 P0（AUD-001/002/003）均已 PASS；安全、Skill、回归、数据安全备份均 PASS（原唯一回归失败已修复）。**PRIVATE-USE = YES（技术层，附 WARN：修复未提交、人工门禁未执行）；PUBLIC-READY 仍 NO/BLOCKED（B1–B6 + L1–L6）**；HUMAN_UAT_PENDING 4 项未执行。本复核未解除任何门禁。
 
 ## 5. 门禁结论
 

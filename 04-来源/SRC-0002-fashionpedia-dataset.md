@@ -8,8 +8,11 @@ publisher: "Fashionpedia Consortium"
 url: "https://fashionpedia.github.io/home/Fashionpedia_download.html"
 date_accessed: "2026-11-04"
 source_kind: dataset
-rights_statement: "页面内容与本体按 Fashionpedia Terms of Use 采用 CC BY 4.0；图像版权归原始图库，不得复制"
+rights_statement: "内容许可 cc_by；图像许可 link_only（未逐图核验）；本项目仅链接引用，不嵌入图片。"
 license_status: cc_by
+content_license: cc_by
+image_license: link_only
+license_verified: partial
 evidence_status: verified
 review_status: reviewed
 note: "数据集构成图说与本体说明：类别/属性分离、与 DeepFashion2、ModaNet 类别映射；下载入口"

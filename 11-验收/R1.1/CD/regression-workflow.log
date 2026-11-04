@@ -1,0 +1,15 @@
+test_abc_distinct (__main__.WorkflowRegression) ... ok
+test_act_scene_stage_mapping (__main__.WorkflowRegression) ... ok
+test_continuity_states (__main__.WorkflowRegression) ... ok
+test_english_prompts (__main__.WorkflowRegression) ... ok
+test_evidence_fields_complete (__main__.WorkflowRegression) ... ok
+test_exit_codes_0_2_3_and_outputs (__main__.WorkflowRegression) ... ok
+test_macbeth_public_domain_and_english_prompt (__main__.WorkflowRegression) ... ok
+test_real_ids_and_sources (__main__.WorkflowRegression) ... ok
+test_unknowns_not_invented (__main__.WorkflowRegression) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 108.528s
+
+OK
+WORKFLOW_EXIT=0

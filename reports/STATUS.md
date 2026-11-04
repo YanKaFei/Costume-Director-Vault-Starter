@@ -1,10 +1,23 @@
-# 运行状态（STATUS）— Costume Director Knowledge System（P3.3 最终复验后）
+# 运行状态（STATUS）— Costume Director Knowledge System（R1.1 快照）
 
-- 更新时间：2026-11-04 03:26（Asia/Shanghai）；P3.3 最终复验（task-22）
-- 快照：**343 张卡**（内容 158 + 来源 185）；**45 例验收**；git HEAD `171efb6`（工作区 clean）
-- 外观：**PASS 24 / WARN 4 / FAIL 0 / HUMAN_UAT_PENDING 4（32 项）**
-- **发布门槛：技术/数据/质量门 PASS**；发布仍需完成 HUMAN_UAT_PENDING 4 项
-- 报告：[P3-QA.md](P3-QA.md) · [P3-DEFECTS.md](P3-DEFECTS.md) · [P3-COVERAGE.md](P3-COVERAGE.md) · [CHANGELOG-P3.md](CHANGELOG-P3.md) · [NEXT-PLAN.md](NEXT-PLAN.md)
+- 更新时间：2026-11-05 00:33（Asia/Shanghai）；R1.1-G（task-56）快照
+- 快照：**400 张卡**（内容 189 + 来源 211）；**45 例验收，PASS 45/45**；git HEAD `70261e9`
+- 外观：**PASS 24 / WARN 4 / FAIL 0 / HUMAN_UAT_PENDING 4（32 项）**（沿用 P3.3 外观结论，未重评）
+- **发布门槛：技术/数据/质量门 PASS**；发布仍需完成 HUMAN_UAT_PENDING 4 项（H1 GUI / H2 逐图授权 / H3 15 例语义 / H4 62 张 draft 签核）
+- R1.1 报告：[R1.1-KNOWLEDGE-REPO.md](R1.1-KNOWLEDGE-REPO.md) · [KNOWLEDGE-QUALITY-AUDIT.md](KNOWLEDGE-QUALITY-AUDIT.md) · [DRAFT-SIGNOFF-R1.1.md](DRAFT-SIGNOFF-R1.1.md)
+- P3/P4 子报告：[P3-QA.md](P3-QA.md) · [P3-DEFECTS.md](P3-DEFECTS.md) · [P3-COVERAGE.md](P3-COVERAGE.md) · [P4-REPORT.md](P4-REPORT.md) · [CHANGELOG-P3.md](CHANGELOG-P3.md) · [NEXT-PLAN.md](NEXT-PLAN.md)
+
+
+## 0. R1.1 快照（2026-11-05，task-56）
+
+| 项 | 值 | 证据 |
+|---|---|---|
+| 卡片 | **400**（内容 189 + 来源 211） | `scripts/validate.py` 400/400 PASS；`run_acceptance.py` SUMMARY 卡片总数 400 |
+| 前缀 | GAR 88（87 正式 + 1 example；GAR-0087 为 deprecated 重定向）/ STR 26 / MAT 14 / LOOK 23 / PRD 11 / SCN 16 / STY 11 / SRC 211 | `scripts/audit_knowledge.py` 加载统计 |
+| 验收 | **45/45 PASS**（生成器重建，含 已知输入/假设/unknown/风险/证据 段） | `python3 scripts/run_acceptance.py` exit 0；`11-验收/测试结果/SUMMARY.md` |
+| 来源对账 | PASS（CSV 212 行 = 表头 + 211） | `python3 scripts/build_sources.py` exit 0 |
+| 质量审计 | KQ-06/KQ-13 修复、AUD-005 声明、索引/快照更新 | `reports/R1.1-KNOWLEDGE-REPO.md` |
+| 仍开放 | H2 逐图授权、H4 62 张 draft 人工签核；P2 项（KQ-02/03/04/08）见知识质量审计 | 本报告第 4 节 + `reports/KNOWLEDGE-QUALITY-AUDIT.md` |
 
 ## 1. 阶段状态
 
@@ -106,3 +119,14 @@
 - **发布门禁**：**PRIVATE-READY / PRIVATE-USE = YES（状态不变）**；**PUBLIC-READY = NO（BLOCKED，B1–B6 + P4 L1–L6：DeepFashion2 禁入、FashionStylist 非商业、图片不复制、HF 许可未核实、polyvore 条款不清、open-pose 图片限制）**。
 - **HUMAN_UAT_PENDING 4 项**：Obsidian GUI、逐图版权、15 案例人工评分、62 draft 复核 —— 未执行、未代填分数。
 - 详见 `reports/P4-REPORT.md`、`P4-COVERAGE.md`、`P4-REGRESSION.md`、`CHANGELOG-P4.md`、`NEXT-PLAN-P4.md`。
+
+
+## 11. R1.1 最终整合验收（2026-11-05 00:55，task-58）
+
+- **HEAD**：`70261e9`；快照 **400 卡**（内容 189 + 来源 211）；45 acceptance；9 workflow；9 composer；11 Macbeth。
+- **独立验收**：安全 10/10 BLOCKED（A05 读取阻断）；跨时代 blocked/declared、Override 记录、A/B/C 单件 gaming、Look Bible tests 6/6；Skill `sync_skill` MATCH + official/overlay 各 3/3（C03/C04 NOT_RUN）；KQ-05/06 PASS，KQ-01 PARTIAL，KQ-13/H4 BLOCKED；index/STATUS/COVERAGE/QA 400/189/211。
+- **回归**：validate 400/400、build 211/211、acceptance 45/45、quality_eval 17/17（relevant@5 4.16、precision 92.9%、0-hit 0）、workflow 9/9、composer 9/9、Macbeth 11/11；新测试 lookbook 6/6、cd 7/7、security 7/7、skill-sync 3/3、human-closeout 3/3；**backup PASS（7/7；修复后真实仓库 1438 文件 backup/verify/restore 全 0）**。
+- **R1-F1**：受保护文件 `11-验收/P4-MACBETH/HUMAN-CLOSEOUT.md` hash 稳定、人工签名 PENDING。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；HUMAN_UAT_PENDING 4 项未执行、未代填。
+- **重要**：R1.1 修复全部未提交（HEAD 仍 70261e9；149 项 working-tree 改动），需 lead 提交后方可作为发布基线。
+- 详见 `reports/R1.1-REPORT.md`、`R1.1-DEFECT-CLOSURE.md`、`R1.1-SECURITY.md`、`R1.1-SKILL-INTEGRATION.md`、`R1.1-REGRESSION.md`、`R1.1-DATA-SAFETY.md`。

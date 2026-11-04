@@ -1,0 +1,75 @@
+{
+  "status": "ok",
+  "three_looks": true,
+  "hard_constraints_passed": true,
+  "override": false,
+  "historical_accuracy": false,
+  "constraint_violations": 0,
+  "all_items_real": true,
+  "source_ids": [
+    "SRC-0106",
+    "SRC-0205",
+    "SRC-0206",
+    "SRC-0408",
+    "SRC-0418",
+    "SRC-0420",
+    "SRC-0430",
+    "SRC-0431"
+  ],
+  "missing_source_ids": [],
+  "source_coverage": 1.0,
+  "all_pairs_meaningful": true,
+  "meaningful_pairs": 3,
+  "gaming_pairs": 0,
+  "one_item_swap_gaming": false,
+  "duplicate_looks": false,
+  "synonym_or_reorder_only": false,
+  "palette_harmony": 0.92,
+  "material_harmony": 1.0,
+  "narrative_present": true,
+  "not_for_director_review": true,
+  "automated_score": 98.8,
+  "automated_score_note": "Heuristic diagnostic only. Not a director score, not a historical accuracy claim; human review remains required.",
+  "pair_metrics": {
+    "a_b": {
+      "item_diff": 4,
+      "slot_diff": 3,
+      "palette_diff": 7,
+      "material_diff": 9,
+      "silhouette_diff": false,
+      "silhouettes": [
+        "H",
+        "H"
+      ],
+      "meaningful": true,
+      "one_item_swap_gaming": false
+    },
+    "a_c": {
+      "item_diff": 5,
+      "slot_diff": 4,
+      "palette_diff": 6,
+      "material_diff": 12,
+      "silhouette_diff": false,
+      "silhouettes": [
+        "H",
+        "H"
+      ],
+      "meaningful": true,
+      "one_item_swap_gaming": false
+    },
+    "b_c": {
+      "item_diff": 3,
+      "slot_diff": 2,
+      "palette_diff": 5,
+      "material_diff": 5,
+      "silhouette_diff": false,
+      "silhouettes": [
+        "H",
+        "H"
+      ],
+      "meaningful": true,
+      "one_item_swap_gaming": false
+    }
+  },
+  "pass": true
+}

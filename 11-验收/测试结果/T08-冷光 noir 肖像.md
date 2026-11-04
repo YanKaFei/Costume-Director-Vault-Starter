@@ -1,11 +1,11 @@
 # T08 — 冷光肖像：同一角色的冷暖光对照（cool lighting）
 
-- 运行时间：2026-11-04T18:12:48+08:00
+- 运行时间：2026-11-05T00:44:28+08:00
 - 测试类型：warm_cool_lighting
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T08-冷光 noir 肖像.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T08-冷光 noir 肖像.json --json`
-- 退出码：**0**（耗时 1.77s）
+- 退出码：**0**（耗时 1.74s）
 
 ## 实际输入
 
@@ -39,12 +39,50 @@
 }
 ```
 
+## 已知输入
+
+以下字段来自测试输入文件，是**已知条件**（不是模型推断）：
+
+- 角色名（`character.name`）："Lin"
+- 职业（`character.occupation`）："private investigator"
+- 经济状态（`character.economic_status`）："low"
+- 人物弧线（`character.arc`）："closing in on the truth"
+- 年代（`period`）："contemporary"
+- 地域（`region`）："unspecified city"
+- 季节（`season`）："autumn"
+- 场次（`scene.scene_id`）："S7"
+- 时间（`scene.time`）："night"
+- 天气（`scene.weather`）："dry"
+- 动作（`scene.action`）："standing still under a streetlamp"
+- 地点（`scene.location`）："empty street"
+- 美术方向（`art_direction`）："restrained urban noir"
+- 摄影光线（`lighting`）："cool blue moonlight, cyan neon rim light, low saturation"
+- 景别（`camera`）："close-up"
+- 预算（`budget`）："low"
+- 严格度模式（`fidelity_mode`）："fictional"
+- 生成工具（`tool`）："midjourney"
+- 湿度状态（`state.wetness`）："dry"
+
+## 假设
+
+- 人物弧线（closing in on the truth）对服装的映射属于导演/设计解释，不是服饰史事实。
+- fictional 模式：不主张历史准确性，只要求内部一致与可拍摄性。
+- 年代/地域匹配为近似层级（脚本警告：period evidence is approximate/none for GAR-0079, GAR-0080 (requested contemporary); treat these as era-level hypotheses, not exact period matches）。
+- 输入未提供的属性保持 unknown，不向服装史或剧作事实补造；本文件的推荐是设计建议而非史料。
+
+## unknown
+
+- 性别呈现（`character.gender_presentation`）：未指定 / unknown，未向生成器发明取值。
+- 年龄（`character.age`）：未指定 / unknown，未向生成器发明取值。
+- 破损状态（`state.damage`）：未指定 / unknown，未向生成器发明取值。
+- 污渍状态（`state.dirt`）：未指定 / unknown，未向生成器发明取值。
+
 ## 检索执行记录
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T08-冷光 noir 肖像.json --json` | 0 | 1.77s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.94s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T08-冷光 noir 肖像.json --json` | 0 | 1.74s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py noir coat --limit 6 --json` | 0 | 0.92s |
 
 - `query.py` 命中数量：**3**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：STY-0005, LOOK-0021, LOOK-0007
@@ -145,21 +183,49 @@ full-body character design of an adult Lin, one-piece: medieval kirtle, side lac
 Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: Arctic anorak parka, hooded, made of layered animal hides with fur inside, geometric beadwork at neckline, windproof; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 厚重兽皮限制大幅动作; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool blue moonlight, cyan neon rim light, low saturation, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0019 anorak [white, natural_hide, beaded_contrast; seal_skin, caribou_fur, wool, cotton; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
 ```
 
-## 风险与证据
+## 风险
 
 ### Look A
 
-- 理由：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10
-- 理由：上装: GAR-0006 达希基套衫 (casual)
-- 理由：下装: GAR-0014 牛仔裤 (casual)
-- 理由：外层: GAR-0045 风衣 (smart_casual)
-- 理由：足部: GAR-0022 威灵顿靴 (smart_casual)
-- 理由：linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025
-- 理由：linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002
 - 风险：fictional mode: no historical claim is made for this design
 - 风险：region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified city
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look B
+
+- 风险：fictional mode: no historical claim is made for this design
+- 风险：region mismatch in GAR-0079, GAR-0045, GAR-0022, GAR-0080: cards document their own regions, not unspecified city
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look C
+
+- 风险：fictional mode: no historical claim is made for this design
+- 风险：region mismatch in GAR-0079, GAR-0019, GAR-0022: cards document their own regions, not unspecified city
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### 脚本级风险与缺口
+
+- [context_gap/medium] no reliable style card for art direction 'restrained urban noir'
+- [period_approximate/medium] period evidence is approximate/none for GAR-0079, GAR-0080 (requested contemporary); treat these as era-level hypotheses, not exact period matches
+- [occupation_coverage_gap/medium] the vault has no 'private investigator'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+- no reliable style card for art direction 'restrained urban noir'
+- period evidence is approximate/none for GAR-0079, GAR-0080 (requested contemporary); treat these as era-level hypotheses, not exact period matches
+- the vault has no 'private investigator'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+
+## 证据
+
+### Look A
+
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10
+- 理由（解释性，不是史实）：上装: GAR-0006 达希基套衫 (casual)
+- 理由（解释性，不是史实）：下装: GAR-0014 牛仔裤 (casual)
+- 理由（解释性，不是史实）：外层: GAR-0045 风衣 (smart_casual)
+- 理由（解释性，不是史实）：足部: GAR-0022 威灵顿靴 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025
+- 理由（解释性，不是史实）：linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002
 - source_ids：SRC-0107, SRC-0115, SRC-0405, SRC-0123, SRC-0202, SRC-0201, SRC-0486, SRC-0413, SRC-0200, SRC-0454, SRC-0484, SRC-0412, SRC-0520, SRC-0521, SRC-0102, SRC-0142, SRC-0423, SRC-0483, SRC-0141
 - 来源链接：SRC-0107 → https://fashionhistory.fitnyc.edu/dashiki/
 - 来源链接：SRC-0115 → https://fashionhistory.fitnyc.edu/1950-1959/
@@ -180,20 +246,17 @@ Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up,
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0483 → https://collections.vam.ac.uk/item/O356064/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
+- 单件证据状态：GAR-0006=verified; GAR-0014=verified; GAR-0045=verified; GAR-0022=verified
 
 ### Look B
 
-- 理由：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10
-- 理由：连身: GAR-0079 基尔特长袍 (functional)
-- 理由：外层: GAR-0045 风衣 (smart_casual)
-- 理由：足部: GAR-0022 威灵顿靴 (smart_casual)
-- 理由：配饰: GAR-0080 腰带 (functional)
-- 理由：linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0015
-- 理由：linked material cards: MAT-0013, MAT-0001, MAT-0002
-- 风险：fictional mode: no historical claim is made for this design
-- 风险：region mismatch in GAR-0079, GAR-0045, GAR-0022, GAR-0080: cards document their own regions, not unspecified city
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10
+- 理由（解释性，不是史实）：连身: GAR-0079 基尔特长袍 (functional)
+- 理由（解释性，不是史实）：外层: GAR-0045 风衣 (smart_casual)
+- 理由（解释性，不是史实）：足部: GAR-0022 威灵顿靴 (smart_casual)
+- 理由（解释性，不是史实）：配饰: GAR-0080 腰带 (functional)
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0015
+- 理由（解释性，不是史实）：linked material cards: MAT-0013, MAT-0001, MAT-0002
 - source_ids：SRC-0405, SRC-0123, SRC-0487, SRC-0488, SRC-0202, SRC-0201, SRC-0486, SRC-0484, SRC-0412, SRC-0520, SRC-0521, SRC-0200, SRC-0102, SRC-0483, SRC-0141
 - 来源链接：SRC-0405 → https://collections.vam.ac.uk/item/O1295635/
 - 来源链接：SRC-0123 → https://fashionhistory.fitnyc.edu/wellington-boot/
@@ -210,19 +273,16 @@ Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up,
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0483 → https://collections.vam.ac.uk/item/O356064/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
+- 单件证据状态：GAR-0079=interpretive; GAR-0045=verified; GAR-0022=verified; GAR-0080=verified
 
 ### Look C
 
-- 理由：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.8/10
-- 理由：连身: GAR-0079 基尔特长袍 (functional)
-- 理由：外层: GAR-0019 派克大衣 (functional)
-- 理由：足部: GAR-0022 威灵顿靴 (smart_casual)
-- 理由：linked structure cards: STR-0016, STR-0023, STR-0025, STR-0021
-- 理由：linked material cards: MAT-0013, MAT-0001
-- 风险：fictional mode: no historical claim is made for this design
-- 风险：region mismatch in GAR-0079, GAR-0019, GAR-0022: cards document their own regions, not unspecified city
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.8/10
+- 理由（解释性，不是史实）：连身: GAR-0079 基尔特长袍 (functional)
+- 理由（解释性，不是史实）：外层: GAR-0019 派克大衣 (functional)
+- 理由（解释性，不是史实）：足部: GAR-0022 威灵顿靴 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0023, STR-0025, STR-0021
+- 理由（解释性，不是史实）：linked material cards: MAT-0013, MAT-0001
 - source_ids：SRC-0120, SRC-0123, SRC-0202, SRC-0201, SRC-0486, SRC-0521, SRC-0520, SRC-0484, SRC-0412, SRC-0102, SRC-0483
 - 来源链接：SRC-0120 → https://fashionhistory.fitnyc.edu/anorak/
 - 来源链接：SRC-0123 → https://fashionhistory.fitnyc.edu/wellington-boot/
@@ -235,6 +295,7 @@ Lin, standing still under a streetlamp, scene: S7, night, dry, camera: close-up,
 - 来源链接：SRC-0412 → https://collections.vam.ac.uk/item/O15693/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0483 → https://collections.vam.ac.uk/item/O356064/
+- 单件证据状态：GAR-0079=interpretive; GAR-0019=verified; GAR-0022=verified
 
 ## 验收判定
 

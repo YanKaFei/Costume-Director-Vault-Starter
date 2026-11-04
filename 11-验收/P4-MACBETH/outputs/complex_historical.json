@@ -300,6 +300,22 @@
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "upper_body": "none",
+        "lower_body": "unknown",
+        "outerwear": "unknown",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "upper_body": "regional",
+        "lower_body": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0104",
@@ -685,6 +701,20 @@
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "unknown",
+        "footwear": "era",
+        "accessory": "none",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0110",
@@ -1043,6 +1073,20 @@
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "none",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0204",
@@ -1373,7 +1417,8 @@
     "no reliable style card for art direction 'complex historical court layers, fur, embroidery, leather'",
     "period evidence is approximate/none for GAR-0003, GAR-0028, GAR-0033 (requested medieval); treat these as era-level hypotheses, not exact period matches",
     "wetness/damage/dirt not specified; left unknown (not invented)",
-    "items without source_ids: GAR-0079"
+    "items without source_ids: GAR-0079",
+    "design includes declared per-item era/region mismatches; not a historical-accuracy claim"
   ],
   "warnings_detail": [
     {
@@ -1409,6 +1454,546 @@
     "ids_all_exist": true,
     "source_ids_resolve": true,
     "real_ids_only": true,
-    "continuity_states_explicit": false
-  }
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": false
+  },
+  "item_compatibility": [
+    {
+      "slot": "upper_body",
+      "id": "GAR-0003",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "15th century",
+        "16th century"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "lower_body",
+      "id": "GAR-0077",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0076",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "portugal"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0076",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "portugal"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0079",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0033",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "1940s"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    }
+  ],
+  "declared_mismatches": [
+    {
+      "look": "A",
+      "slot": "upper_body",
+      "id": "GAR-0003",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "15th century",
+        "16th century"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "A",
+      "slot": "lower_body",
+      "id": "GAR-0077",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "look": "A",
+      "slot": "outerwear",
+      "id": "GAR-0076",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "portugal"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "look": "A",
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "outerwear",
+      "id": "GAR-0076",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "portugal"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "look": "B",
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "B",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "one_piece",
+      "id": "GAR-0079",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "outerwear",
+      "id": "GAR-0033",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "1940s"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "C",
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    }
+  ],
+  "constraint_violations": [],
+  "status": "declared_mismatch",
+  "historical_accuracy": false
 }

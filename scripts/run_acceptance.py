@@ -626,6 +626,137 @@ def fmt_items(look):
     return "\n".join(rows)
 
 
+
+# ---------------------------------------------------------------------------
+# known / assumptions / unknown (R1.1 KQ-06: explicit separation)
+# ---------------------------------------------------------------------------
+INPUT_FIELD_LABELS = [
+    ("character.name", "角色名"),
+    ("character.gender_presentation", "性别呈现"),
+    ("character.age", "年龄"),
+    ("character.occupation", "职业"),
+    ("character.economic_status", "经济状态"),
+    ("character.arc", "人物弧线"),
+    ("period", "年代"),
+    ("region", "地域"),
+    ("season", "季节"),
+    ("scene.scene_id", "场次"),
+    ("scene.time", "时间"),
+    ("scene.weather", "天气"),
+    ("scene.action", "动作"),
+    ("scene.location", "地点"),
+    ("art_direction", "美术方向"),
+    ("lighting", "摄影光线"),
+    ("camera", "景别"),
+    ("budget", "预算"),
+    ("fidelity_mode", "严格度模式"),
+    ("tool", "生成工具"),
+    ("state.wetness", "湿度状态"),
+    ("state.damage", "破损状态"),
+    ("state.dirt", "污渍状态"),
+]
+UNKNOWN_VALUES = {"", "unknown", "none", "null", "n/a", "-", "未指定"}
+
+
+def flatten_mapping(value, prefix=""):
+    flat = {}
+    if isinstance(value, dict):
+        for key, child in value.items():
+            if str(key).startswith("_"):
+                continue
+            flat.update(flatten_mapping(child, prefix + str(key) + "."))
+    elif isinstance(value, list):
+        flat[prefix[:-1]] = value
+    else:
+        flat[prefix[:-1]] = value
+    return flat
+
+
+def is_unknown(value):
+    if value is None:
+        return True
+    if isinstance(value, str):
+        return value.strip().lower() in UNKNOWN_VALUES
+    if isinstance(value, (list, dict)):
+        return len(value) == 0
+    return False
+
+
+def render_known_assumptions_unknown(lines, record):
+    raw = record["raw"]
+    data = record.get("data") or {}
+    flat = flatten_mapping(raw)
+    labels = dict(INPUT_FIELD_LABELS)
+
+    lines.append("## 已知输入")
+    lines.append("")
+    lines.append("以下字段来自测试输入文件，是**已知条件**（不是模型推断）：")
+    lines.append("")
+    known_rows = 0
+    for key, label in INPUT_FIELD_LABELS:
+        value = flat.get(key)
+        if is_unknown(value):
+            continue
+        known_rows += 1
+        lines.append("- %s（`%s`）：%s" % (label, key, json.dumps(value, ensure_ascii=False)))
+    if not known_rows:
+        lines.append("- （输入中没有可用的已知字段）")
+    lines.append("")
+
+    lines.append("## 假设")
+    lines.append("")
+    assumptions = []
+    if raw.get("character", {}).get("arc"):
+        assumptions.append("人物弧线（%s）对服装的映射属于导演/设计解释，不是服饰史事实。" % raw["character"]["arc"])
+    mode = str(raw.get("fidelity_mode") or "standard")
+    if mode == "historical":
+        assumptions.append("historical 模式：年代/文化可行性优先于视觉表现；证据不足时按脚本警告处理，不把推断写成史实。")
+    elif mode == "inspired":
+        assumptions.append("inspired 模式：允许对历史元素做艺术化重构；卡片中的 verified 事实只作为灵感锚点。")
+    elif mode == "fictional":
+        assumptions.append("fictional 模式：不主张历史准确性，只要求内部一致与可拍摄性。")
+    if is_unknown(flat.get("budget")):
+        assumptions.append("预算未在输入中给出：按库内默认成本策略处理，C 套仅作低预算替代提示。")
+    warnings = data.get("warnings") or []
+    for warning in warnings:
+        text = str(warning)
+        if "period evidence is approximate" in text or "period/region context card" in text:
+            assumptions.append("年代/地域匹配为近似层级（脚本警告：%s）。" % text[:160])
+    assumptions.append("输入未提供的属性保持 unknown，不向服装史或剧作事实补造；本文件的推荐是设计建议而非史料。")
+    for item in assumptions:
+        lines.append("- %s" % item)
+    lines.append("")
+
+    lines.append("## unknown")
+    lines.append("")
+    unknown_lines = []
+    for key, label in INPUT_FIELD_LABELS:
+        value = flat.get(key)
+        if is_unknown(value):
+            unknown_lines.append("- %s（`%s`）：未指定 / unknown，未向生成器发明取值。" % (label, key))
+    for key, value in sorted(flat.items()):
+        if key in labels or str(key).startswith(("state.", "scene.", "character.")):
+            continue
+        if is_unknown(value):
+            unknown_lines.append("- `%s`：unknown" % key)
+    missing = []
+    for look in looks_of(data):
+        if look.get("missing"):
+            missing.append("%s 缺口槽位：%s" % (look.get("look_ref"), ", ".join(look["missing"])))
+    if missing:
+        unknown_lines.extend("- " + item for item in missing)
+    for warning in warnings:
+        text = str(warning)
+        if "items without source_ids" in text:
+            unknown_lines.append("- 无来源卡片的单品：%s" % text.split(":", 1)[-1].strip())
+    if record.get("query") is not None and record.get("query_hits", 0) == 0:
+        unknown_lines.append("- `query.py` 在本用例命中 0 张卡片：该查询方向的库内证据为 unknown。")
+    if not unknown_lines:
+        unknown_lines.append("- 本用例输入完整，无显式 unknown 字段。")
+    lines.extend(unknown_lines)
+    lines.append("")
+
+
 def render_result(record, pair_results):
     raw = record["raw"]
     meta = record["meta"]
@@ -649,6 +780,7 @@ def render_result(record, pair_results):
     clean = {key: value for key, value in raw.items() if key != "_test"}
     lines.append(md_json_block(clean))
     lines.append("")
+    render_known_assumptions_unknown(lines, record)
     lines.append("## 检索执行记录")
     lines.append("")
     lines.append("| 命令 | 退出码 | 耗时 |")
@@ -760,20 +892,46 @@ def render_result(record, pair_results):
             lines.append(scene.get("prompt_video", ""))
             lines.append("```")
             lines.append("")
-    lines.append("## 风险与证据")
+    lines.append("## 风险")
+    lines.append("")
+    for look in looks_of(data):
+        lines.append("### Look %s" % look.get("look_ref", "?"))
+        lines.append("")
+        for risk in look.get("risks", []):
+            lines.append("- 风险：%s" % risk)
+        if not look.get("risks"):
+            lines.append("- 无单件/搭配级风险声明。")
+        lines.append("")
+    if data.get("warnings") or data.get("warnings_detail"):
+        lines.append("### 脚本级风险与缺口")
+        lines.append("")
+        for detail in data.get("warnings_detail") or []:
+            if isinstance(detail, dict):
+                lines.append("- [%s/%s] %s" % (detail.get("code"), detail.get("severity"),
+                                               detail.get("message")))
+        for warning in data.get("warnings") or []:
+            lines.append("- %s" % warning)
+        lines.append("")
+    else:
+        lines.append("- 脚本无额外风险警告。")
+        lines.append("")
+
+    lines.append("## 证据")
     lines.append("")
     for look in looks_of(data):
         lines.append("### Look %s" % look.get("look_ref", "?"))
         lines.append("")
         for reason in look.get("reasons", []):
-            lines.append("- 理由：%s" % reason)
-        for risk in look.get("risks", []):
-            lines.append("- 风险：%s" % risk)
+            lines.append("- 理由（解释性，不是史实）：%s" % reason)
         evidence = look.get("evidence", {})
         lines.append("- source_ids：%s" % (
             ", ".join(evidence.get("source_ids", [])) or "(none)"))
         for entry in evidence.get("source_urls", []):
             lines.append("- 来源链接：%s → %s" % (entry.get("source_id"), entry.get("url")))
+        items = look.get("items", [])
+        if items:
+            lines.append("- 单件证据状态：" + "; ".join(
+                "%s=%s" % (item.get("id"), item.get("evidence_status", "-")) for item in items))
         lines.append("")
     lines.append("## 验收判定")
     lines.append("")

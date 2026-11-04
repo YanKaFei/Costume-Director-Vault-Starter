@@ -700,6 +700,11 @@
           "id": "STR-0019",
           "slot": "carried_prop",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0026",
+          "slot": "carried_prop",
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -716,7 +721,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Ada, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, magenta, multicolor, orange, pink, red, silver, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); hem and vents/slits (STR-0016); ease and fit (STR-0025); zipper (STR-0019), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
+      "prompt_image": "full-body character design of an adult Ada, one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, magenta, multicolor, orange, pink, red, silver, white, setting: marylebone studio, afternoon, indoor, art direction: swinging sixties youth culture, lighting: hard window light, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); hem and vents/slits (STR-0016); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
       "prompt_video": "Ada, adjusting a camera and directing a portrait, scene: marylebone studio, afternoon, indoor, camera: medium shot, costume: one-piece: 1960s psychedelic print mini-dress, button-through front, rounded neckline, vibrant floral print, above-knee hem; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 超短裙摆限制坐姿与跨步; 泡泡袖/荷叶边在动作中翻动。, lighting: hard window light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
       "continuity_lock": "continuity lock: GAR-0056 1960s mini-dress [white, orange, pink, magenta; printed_polyester; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0014",
       "reasons": [
@@ -724,7 +729,7 @@
         "连身: GAR-0056 1960 年代迷你裙 (casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0003, STR-0016, STR-0025, STR-0019",
+        "linked structure cards: STR-0003, STR-0016, STR-0025, STR-0019, STR-0026",
         "linked material cards: MAT-0002, MAT-0003, MAT-0014",
         "period/culture score is supported by period-tagged cards"
       ],

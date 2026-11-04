@@ -86,7 +86,9 @@ python3 scripts/audit_knowledge.py --section locators # 单域：书籍定位
 - 修复建议：把 `license_status` 拆为 `content_license_status`（文字/数据）与 `image_license_status`（图像，默认 link_only），或在 rights_statement 使用固定句式：「内容许可 X；图像许可 Y；本项目仅链接」。NC 许可需新增枚举或 `other_permission` + note。
 - 验收：无「同一字段两种权利」歧义；抽查 20 张来源卡，内容/图像许可各自可读；`audit_knowledge.py --section license` 冲突项为 0（或全部带说明白名单）。
 
-### KQ-06（P1，OPEN）推荐/测试输出缺少显式「已知 vs 假设」分离
+### KQ-06（P1，CLOSED-R1.1）推荐/测试输出缺少显式「已知 vs 假设」分离
+
+> **R1.1 状态更新（2026-11-05，task-56）**：KQ-06 已修复。实际修复点在 **`scripts/run_acceptance.py` 的结果生成器**（`render_result()` 新增「已知输入 / 假设 / unknown / 风险 / 证据」五节，并把 reasons 归到「证据」）——不只 recommend/workflow；已用生成器全量重建 45 份 `T*.md`（未手改）。复跑：45/45 文件含五节、PASS 45/45；`audit_knowledge.py --section sep` 的 `missing assumption` 由 41 降为 **0**。证据见 `reports/R1.1-KNOWLEDGE-REPO.md` §1。状态：**CLOSED（R1.1）**。
 
 - 证据：45 份 `11-验收/测试结果/T*.md` 中 **41 份**没有「假设/unknown/假定」标记（有「实际输入」「风险与证据」「来源链接」）；`11-验收/P4-MACBETH/outputs/*.json` 14/14 含 `input`/`evidence{source_ids}`/`risks`/`warnings`，分离良好。
 - 影响：TASK-001 §7 要求「角色与剧情理解（区分已知/假设）」；当前 md 输出把输入当已知，未显式列出 assumed/unknown，人工复核与跨场次复用可能把假设当事实。
@@ -143,6 +145,9 @@ python3 scripts/audit_knowledge.py --section locators # 单域：书籍定位
 - 状态：CLOSED。
 
 ### KQ-13（P1 流程，OPEN）62 张 draft 可追溯，但人工签核未完成（H4）
+
+> **R1.1 状态更新（2026-11-05，task-56）**：已生成 `reports/DRAFT-SIGNOFF-R1.1.md`（62 行逐卡清单 + 45/17 分组 + 人工签字栏；未改任何卡状态、无自动提升）。KQ-13 的人类签核（H4）仍未完成，状态保持 **OPEN（等待人工）**。
+
 
 - 证据：`reports/DRAFT-REVIEW.csv` 62 行 = GAR-EXAMPLE-001、23 LOOK、11 PRD、16 SCN、11 STY；当前 62 卡**全部仍 draft**（reviewed 0），无缺失、无漂移；
   - 结论分布：REVIEWED-CANDIDATE 45 / STAY_DRAFT 17；

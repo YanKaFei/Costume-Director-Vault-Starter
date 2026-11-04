@@ -1,11 +1,11 @@
 # T39 — 明末清初：context_refs 不得引用 1770s/维多利亚等无关卡
 
-- 运行时间：2026-11-04T18:14:04+08:00
+- 运行时间：2026-11-05T00:45:44+08:00
 - 测试类型：historical_weak_coverage, context, M4
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T39-明末清初context清洁.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json`
-- 退出码：**0**（耗时 1.13s）
+- 退出码：**0**（耗时 1.1s）
 
 ## 实际输入
 
@@ -34,11 +34,50 @@
 }
 ```
 
+## 已知输入
+
+以下字段来自测试输入文件，是**已知条件**（不是模型推断）：
+
+- 角色名（`character.name`）："顾砚秋"
+- 职业（`character.occupation`）："书院教师、江南文人"
+- 经济状态（`character.economic_status`）："中下"
+- 人物弧线（`character.arc`）："朝代更替中保持读书人的体面与犹疑"
+- 年代（`period`）："1644 late Ming early Qing"
+- 地域（`region`）："jiangnan china"
+- 季节（`season`）："spring"
+- 美术方向（`art_direction`）："文人水墨、克制、低饱和"
+- 摄影光线（`lighting`）："阴天窗光"
+- 景别（`camera`）："medium shot"
+- 预算（`budget`）："low"
+- 严格度模式（`fidelity_mode`）："historical"
+- 生成工具（`tool`）："midjourney"
+
+## 假设
+
+- 人物弧线（朝代更替中保持读书人的体面与犹疑）对服装的映射属于导演/设计解释，不是服饰史事实。
+- historical 模式：年代/文化可行性优先于视觉表现；证据不足时按脚本警告处理，不把推断写成史实。
+- 年代/地域匹配为近似层级（脚本警告：no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)）。
+- 年代/地域匹配为近似层级（脚本警告：period evidence is approximate/none for GAR-0071, GAR-0084 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches）。
+- 输入未提供的属性保持 unknown，不向服装史或剧作事实补造；本文件的推荐是设计建议而非史料。
+
+## unknown
+
+- 性别呈现（`character.gender_presentation`）：未指定 / unknown，未向生成器发明取值。
+- 年龄（`character.age`）：未指定 / unknown，未向生成器发明取值。
+- 场次（`scene.scene_id`）：未指定 / unknown，未向生成器发明取值。
+- 时间（`scene.time`）：未指定 / unknown，未向生成器发明取值。
+- 天气（`scene.weather`）：未指定 / unknown，未向生成器发明取值。
+- 动作（`scene.action`）：未指定 / unknown，未向生成器发明取值。
+- 地点（`scene.location`）：未指定 / unknown，未向生成器发明取值。
+- 湿度状态（`state.wetness`）：未指定 / unknown，未向生成器发明取值。
+- 破损状态（`state.damage`）：未指定 / unknown，未向生成器发明取值。
+- 污渍状态（`state.dirt`）：未指定 / unknown，未向生成器发明取值。
+
 ## 检索执行记录
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json` | 0 | 1.13s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T39-明末清初context清洁.json --json` | 0 | 1.1s |
 | `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py china --limit 6 --json` | 0 | 0.93s |
 
 - `query.py` 命中数量：**6**（验收要求 ≥1）
@@ -135,18 +174,52 @@ full-body character design of an adult 顾砚秋, one-piece: late Renaissance It
 顾砚秋, 讲学、整理书箱, scene: 书院讲堂, day, overcast, dry, camera: medium shot, costume: one-piece: late Renaissance Italian silk gown, cream brocaded floral motifs, diagonal slashing between motifs, sleeveless open front, small upright back collar, shoulder wings, box-pleated back; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 无袖开襟长袍依赖内层固定; 剪口与金属饰边易勾挂; 长摆限制步幅。, lighting: 阴天窗光, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0062 Italian Renaissance gown [cream, green, pink, yellow, blue; silk, fustian; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories
 ```
 
-## 风险与证据
+## 风险
 
 ### Look A
 
-- 理由：highest scoring dimensions: 年代/文化 12.8/25, 摄影/一致性 6.5/10
-- 理由：连身: GAR-0071 莫卧儿jama (formal)
-- 理由：足部: GAR-0024 穆勒鞋 (formal)
-- 理由：linked structure cards: STR-0016, STR-0017, STR-0025
-- 理由：linked material cards: MAT-0001, MAT-0012, MAT-0002
 - 风险：region mismatch in GAR-0071, GAR-0024: cards document their own regions, not jiangnan china
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look B
+
+- 风险：region mismatch in GAR-0071, GAR-0084: cards document their own regions, not jiangnan china
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look C
+
+- 风险：region mismatch in GAR-0062, GAR-0024: cards document their own regions, not jiangnan china
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### 脚本级风险与缺口
+
+- [context_gap/medium] no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)
+- [context_gap/medium] no reliable style card for art direction '文人水墨、克制、低饱和'
+- [period_approximate/medium] period evidence is approximate/none for GAR-0071, GAR-0084 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
+- [period_era_level/low] period evidence is era-level (century bucket) for GAR-0024, GAR-0062; exact-decade cards are missing
+- [region_mismatch/medium] cards document other regions for GAR-0024, GAR-0062, GAR-0084 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
+- [occupation_coverage_gap/medium] the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+- [budget_equivalent/medium] No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
+- no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)
+- no reliable style card for art direction '文人水墨、克制、低饱和'
+- period evidence is approximate/none for GAR-0071, GAR-0084 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
+- period evidence is era-level (century bucket) for GAR-0024, GAR-0062; exact-decade cards are missing
+- cards document other regions for GAR-0024, GAR-0062, GAR-0084 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
+- the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+- No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
+
+## 证据
+
+### Look A
+
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 12.8/25, 摄影/一致性 6.5/10
+- 理由（解释性，不是史实）：连身: GAR-0071 莫卧儿jama (formal)
+- 理由（解释性，不是史实）：足部: GAR-0024 穆勒鞋 (formal)
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0017, STR-0025
+- 理由（解释性，不是史实）：linked material cards: MAT-0001, MAT-0012, MAT-0002
 - source_ids：SRC-0450, SRC-0451, SRC-0452, SRC-0125, SRC-0202, SRC-0201, SRC-0108, SRC-0412, SRC-0521, SRC-0520, SRC-0102, SRC-0423, SRC-0141
 - 来源链接：SRC-0450 → https://collections.vam.ac.uk/item/O144142/
 - 来源链接：SRC-0451 → https://collections.vam.ac.uk/item/O109190/
@@ -161,17 +234,15 @@ full-body character design of an adult 顾砚秋, one-piece: late Renaissance It
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
+- 单件证据状态：GAR-0071=verified; GAR-0024=verified
 
 ### Look B
 
-- 理由：highest scoring dimensions: 年代/文化 11.9/25, 摄影/一致性 6.5/10
-- 理由：连身: GAR-0071 莫卧儿jama (formal)
-- 理由：足部: GAR-0084 高跟鞋 (formal)
-- 理由：linked structure cards: STR-0016, STR-0017
-- 理由：linked material cards: MAT-0001, MAT-0012, MAT-0002
-- 风险：region mismatch in GAR-0071, GAR-0084: cards document their own regions, not jiangnan china
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 11.9/25, 摄影/一致性 6.5/10
+- 理由（解释性，不是史实）：连身: GAR-0071 莫卧儿jama (formal)
+- 理由（解释性，不是史实）：足部: GAR-0084 高跟鞋 (formal)
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0017
+- 理由（解释性，不是史实）：linked material cards: MAT-0001, MAT-0012, MAT-0002
 - source_ids：SRC-0450, SRC-0451, SRC-0452, SRC-0524, SRC-0202, SRC-0201, SRC-0108, SRC-0412, SRC-0102, SRC-0423, SRC-0141
 - 来源链接：SRC-0450 → https://collections.vam.ac.uk/item/O144142/
 - 来源链接：SRC-0451 → https://collections.vam.ac.uk/item/O109190/
@@ -184,17 +255,15 @@ full-body character design of an adult 顾砚秋, one-piece: late Renaissance It
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
+- 单件证据状态：GAR-0071=verified; GAR-0084=verified
 
 ### Look C
 
-- 理由：highest scoring dimensions: 年代/文化 8.3/25, 摄影/一致性 6.5/10
-- 理由：连身: GAR-0062 意大利文艺复兴长袍 (formal)
-- 理由：足部: GAR-0024 穆勒鞋 (formal)
-- 理由：linked structure cards: STR-0001, STR-0003, STR-0025
-- 理由：linked material cards: MAT-0002, MAT-0003
-- 风险：region mismatch in GAR-0062, GAR-0024: cards document their own regions, not jiangnan china
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 8.3/25, 摄影/一致性 6.5/10
+- 理由（解释性，不是史实）：连身: GAR-0062 意大利文艺复兴长袍 (formal)
+- 理由（解释性，不是史实）：足部: GAR-0024 穆勒鞋 (formal)
+- 理由（解释性，不是史实）：linked structure cards: STR-0001, STR-0003, STR-0025
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0003
 - source_ids：SRC-0422, SRC-0125, SRC-0101, SRC-0133, SRC-0521, SRC-0520, SRC-0141, SRC-0142
 - 来源链接：SRC-0422 → https://collections.vam.ac.uk/item/O74085/
 - 来源链接：SRC-0125 → https://fashionhistory.fitnyc.edu/mule/
@@ -204,6 +273,7 @@ full-body character design of an adult 顾砚秋, one-piece: late Renaissance It
 - 来源链接：SRC-0520 → https://freesewing.dev/howtos/design/seam-allowance/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
+- 单件证据状态：GAR-0062=verified; GAR-0024=verified
 
 ## 验收判定
 

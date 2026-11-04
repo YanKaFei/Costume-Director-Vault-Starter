@@ -1,0 +1,11 @@
+test_agent_self_approval_fails (__main__.LookbookTest) ... ok
+test_approved_hard_anchor_cannot_be_overwritten (__main__.LookbookTest) ... ok
+test_init_add_propose_approve_versioning (__main__.LookbookTest) ... ok
+test_single_item_patch_and_diff (__main__.LookbookTest) ... ok
+test_unauthorized_approve_without_signature_fails (__main__.LookbookTest) ... ok
+test_validate_rejects_bad_status (__main__.LookbookTest) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.374s
+
+OK

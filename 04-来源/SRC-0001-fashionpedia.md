@@ -8,8 +8,11 @@ publisher: "Fashionpedia Consortium"
 url: "https://fashionpedia.github.io/home/index.html"
 date_accessed: "2026-11-04"
 source_kind: dataset
-rights_statement: "注释、本体与网站内容按页面声明采用 Creative Commons Attribution 4.0（CC BY 4.0）；数据集内图像版权归原始图库（Flickr/Unsplash/Burst/Freestock/Kaboompics/Pexels），不得复制"
+rights_statement: "内容许可 cc_by；图像许可 link_only（未逐图核验）；本项目仅链接引用，不嵌入图片。"
 license_status: cc_by
+content_license: cc_by
+image_license: link_only
+license_verified: partial
 evidence_status: verified
 review_status: reviewed
 note: "专家构建的服饰本体：27 个主服装类别、19 个服饰部件、294 个细粒度属性及关系；仅作类别/属性分层参考"

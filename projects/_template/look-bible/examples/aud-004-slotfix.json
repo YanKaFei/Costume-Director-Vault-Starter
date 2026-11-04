@@ -1,0 +1,41 @@
+{
+  "audit_id": "AUD-004",
+  "generated_at": "2026-11-05T00:28:26+08:00",
+  "description": "P3.5 Macbeth 18-look slot gaps fixed with existing cards; narrative unchanged.",
+  "fixes": [
+    {
+      "look_id": "M2-B",
+      "gap": "footwear",
+      "patch": {
+        "slot": "footwear",
+        "card_id": "GAR-0081",
+        "lock": "soft"
+      },
+      "source_cards": [
+        "GAR-0081"
+      ],
+      "note": "皮靴（15 世纪伦敦皮革踝靴，analogue）补足 footwear 槽；M2 叙事不变。"
+    },
+    {
+      "look_id": "L3-A",
+      "gap": "torso",
+      "patch": {
+        "slot": "torso",
+        "card_id": "GAR-0079",
+        "lock": "soft"
+      },
+      "source_cards": [
+        "GAR-0079"
+      ],
+      "note": "基尔特长袍（interpretive）作为 chemise 外的 torso 层；不改变梦游动作/叙事。"
+    }
+  ],
+  "acceptance": [
+    "18/18 looks have torso+footwear slots (or approved waiver)",
+    "M2-B footwear=GAR-0081",
+    "L3-A torso=GAR-0079"
+  ],
+  "status": "applied",
+  "applied_at": "2026-11-05T00:44:20+08:00",
+  "applied_to": "11-验收/P3.5/Macbeth/LOOKS.md"
+}

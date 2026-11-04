@@ -1,0 +1,30 @@
+# P4-5 Macbeth validation — SUMMARY
+
+- Command: `python3 11-验收/P4-MACBETH/test_macbeth_p4.py`
+- Composer: `scripts/outfit.py` (real KB IDs/SRC only)
+- Inputs: `11-验收/P4-MACBETH/inputs/`; outputs: `outputs/`; queries: `query/`
+
+| Case | Result | Detail |
+| --- | --- | --- |
+| historical_gap | FAIL | outfit exit 3: FAIL: no complete outfit candidates
+ |
+| evidence_refusal | FAIL | outfit exit 3: FAIL: no complete outfit candidates
+ |
+| minimal_theatre | FAIL | outfit exit 3: FAIL: no complete outfit candidates
+ |
+| closeup_detail | FAIL | outfit exit 3: FAIL: no complete outfit candidates
+ |
+| stage_changes_Macbeth | PASS | - |
+| stage_changes_Lady_Macbeth | PASS | - |
+| two_character_relationship | PASS | - |
+| full_slots_accessories | PASS | - |
+| historical_evidence_gap | PASS | - |
+| minimal_vs_complex | FAIL | minimal looks !=3 |
+| closeup_detail | FAIL | close-up case looks !=3 |
+| movement_action | PASS | - |
+| video_continuity | PASS | - |
+| bilingual_term_search | PASS | - |
+| evidence_insufficient_refusal | PASS | - |
+
+- PASS: 9 / 15
+- FAIL: 6 / 15

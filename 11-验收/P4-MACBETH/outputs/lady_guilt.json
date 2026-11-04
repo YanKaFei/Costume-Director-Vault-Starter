@@ -267,6 +267,20 @@
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "unknown",
+        "footwear": "none",
+        "accessory": "none",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0110",
@@ -632,6 +646,20 @@
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "none",
+        "footwear": "era",
+        "accessory": "none",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0110",
@@ -753,7 +781,7 @@
     },
     {
       "look_ref": "C",
-      "total": 38.8,
+      "total": 39.0,
       "items": [
         {
           "slot": "one_piece",
@@ -773,23 +801,21 @@
         },
         {
           "slot": "outerwear",
-          "id": "GAR-0076",
-          "name_zh": "斗篷与披风",
-          "name_en": "cloak and mantle",
+          "id": "GAR-0018",
+          "name_zh": "斯宾塞短夹克",
+          "name_en": "spencer jacket",
           "colors": [
-            "crimson",
-            "white"
+            "mustard",
+            "white",
+            "dark_blue"
           ],
           "materials": [
-            "satin",
-            "silk",
-            "linen",
-            "metal_thread"
+            "wool",
+            "silk"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0482",
-            "SRC-0483"
+            "SRC-0119"
           ]
         },
         {
@@ -862,7 +888,7 @@
       "slot_count": 5,
       "slot_ids": {
         "one_piece": "GAR-0079",
-        "outerwear": "GAR-0076",
+        "outerwear": "GAR-0018",
         "footwear": "GAR-0084",
         "accessory": "GAR-0028",
         "carried_prop": "GAR-0082"
@@ -871,10 +897,11 @@
       "palette": {
         "colors": [
           "black",
-          "crimson",
+          "dark blue",
           "fur brown",
           "ivory",
           "linen",
+          "mustard",
           "silk",
           "silver",
           "steel",
@@ -884,10 +911,11 @@
         "families": {
           "other": 4,
           "warm": 1,
-          "neutral": 6
+          "neutral": 6,
+          "cool": 1
         },
         "dominant_family": "neutral",
-        "dominant_share": 0.545,
+        "dominant_share": 0.5,
         "harmony": 0.92
       },
       "materials": {
@@ -896,8 +924,6 @@
           "ivory",
           "leather",
           "linen",
-          "metal thread",
-          "satin",
           "silk",
           "silk satin",
           "silver",
@@ -906,12 +932,12 @@
           "wool"
         ],
         "families": {
-          "wool": 2,
-          "linen": 2,
-          "silk": 4,
-          "metal": 3,
+          "wool": 3,
+          "linen": 1,
+          "silk": 3,
           "leather": 1,
-          "other": 3
+          "other": 3,
+          "metal": 2
         },
         "distinct": 6,
         "harmony": 1.0
@@ -929,7 +955,7 @@
         "culture": null,
         "period_evidence": {
           "one_piece": "era",
-          "outerwear": "unknown",
+          "outerwear": "none",
           "footwear": "none",
           "accessory": "none",
           "carried_prop": "era"
@@ -955,8 +981,7 @@
         "budget_mode": null
       },
       "source_ids": [
-        "SRC-0482",
-        "SRC-0483",
+        "SRC-0119",
         "SRC-0524",
         "SRC-0129",
         "SRC-0490",
@@ -964,13 +989,15 @@
         "SRC-0202",
         "SRC-0201",
         "SRC-0486",
+        "SRC-0412",
+        "SRC-0200",
         "SRC-0521",
         "SRC-0520",
         "SRC-0102",
-        "SRC-0423",
+        "SRC-0483",
         "SRC-0141",
         "SRC-0142",
-        "SRC-0143"
+        "SRC-0423"
       ],
       "missing_source_ids": [],
       "items_without_source": [
@@ -978,16 +1005,29 @@
       ],
       "item_evidence": {
         "GAR-0079": "interpretive",
-        "GAR-0076": "verified",
+        "GAR-0018": "verified",
         "GAR-0084": "verified",
         "GAR-0028": "verified",
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "none",
+        "footwear": "none",
+        "accessory": "none",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "outerwear": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
       "evidence": {
         "source_ids": [
-          "SRC-0482",
-          "SRC-0483",
+          "SRC-0119",
           "SRC-0524",
           "SRC-0129",
           "SRC-0490",
@@ -995,22 +1035,20 @@
           "SRC-0202",
           "SRC-0201",
           "SRC-0486",
+          "SRC-0412",
+          "SRC-0200",
           "SRC-0521",
           "SRC-0520",
           "SRC-0102",
-          "SRC-0423",
+          "SRC-0483",
           "SRC-0141",
           "SRC-0142",
-          "SRC-0143"
+          "SRC-0423"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0482",
-            "url": "https://collections.vam.ac.uk/item/O77731/"
-          },
-          {
-            "source_id": "SRC-0483",
-            "url": "https://collections.vam.ac.uk/item/O356064/"
+            "source_id": "SRC-0119",
+            "url": "https://fashionhistory.fitnyc.edu/spencer-jacket/"
           },
           {
             "source_id": "SRC-0524",
@@ -1041,6 +1079,14 @@
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
@@ -1053,8 +1099,8 @@
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
-            "source_id": "SRC-0423",
-            "url": "https://collections.vam.ac.uk/item/O315431/"
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0141",
@@ -1065,8 +1111,8 @@
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           },
           {
-            "source_id": "SRC-0143",
-            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
           }
         ],
         "context_style_ids": [],
@@ -1074,32 +1120,32 @@
         "context_scene_ids": [],
         "item_evidence": {
           "GAR-0079": "interpretive",
-          "GAR-0076": "verified",
+          "GAR-0018": "verified",
           "GAR-0084": "verified",
           "GAR-0028": "verified",
           "GAR-0082": "verified"
         },
         "missing_urls": []
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife and queen; the high economic register shows through material and finish; formality runs from functional / formal / formal / formal / functional; the black, crimson, fur brown palette controls the emotional temperature; against the arc (ambition, guilt, sleepwalking death) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife and queen; the high economic register shows through material and finish; formality runs from functional / smart_casual / formal / formal / functional; the black, dark blue, fur brown palette controls the emotional temperature; against the arc (ambition, guilt, sleepwalking death) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 15.7/25, 环境气候 6.9/15",
+        "highest scoring dimensions: 年代/文化 14.1/25, 环境气候 8.2/15",
         "连身: GAR-0079 基尔特长袍 (functional)",
-        "外层: GAR-0076 斗篷与披风 (formal)",
+        "外层: GAR-0018 斯宾塞短夹克 (smart_casual)",
         "足部: GAR-0084 高跟鞋 (formal)",
         "配饰: GAR-0028 手笼 (formal)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0025",
-        "linked material cards: MAT-0013, MAT-0012, MAT-0002, MAT-0003, MAT-0011, MAT-0014"
+        "linked structure cards: STR-0016, STR-0023, STR-0015, STR-0025",
+        "linked material cards: MAT-0013, MAT-0002, MAT-0003, MAT-0011"
       ],
       "risks": [
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: 18th-century women’s black silk satin high-heeled shoes, slender heel, pointed tongue, leather sole, buckled or slip-on; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: black, crimson, fur brown, ivory, linen, silk, silver, steel, white, wool, setting: castle hall after the murder, night, cold, indoor, art direction: blood-red silk, gold and shadow, lighting: candlelight, close shadows, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0084 high-heeled shoes [black; silk_satin, leather; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003, MAT-0011, MAT-0014",
-      "prompt_video": "Lady Macbeth, washing hands and pacing, scene: castle hall after the murder, night, cold, indoor, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: 18th-century women’s black silk satin high-heeled shoes, slender heel, pointed tongue, leather sole, buckled or slip-on; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0084 high-heeled shoes [black; silk_satin, leather; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003, MAT-0011, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; outerwear GAR-0076; footwear GAR-0084; accessory GAR-0028; carried prop GAR-0082; movement/action adaptation: washing hands and pacing; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.78; palette black, crimson, fur brown, ivory, linen, silk, silver, steel, white, wool; materials fur, ivory, leather, linen, metal thread, satin, silk, silk satin, silver, steel, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: Regency spencer jacket, very short waist-length jacket, high waistline, long fitted sleeves, lightweight wool or silk; footwear: 18th-century women’s black silk satin high-heeled shoes, slender heel, pointed tongue, leather sole, buckled or slip-on; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: black, dark blue, fur brown, ivory, linen, mustard, silk, silver, steel, white, wool, setting: castle hall after the murder, night, cold, indoor, art direction: blood-red silk, gold and shadow, lighting: candlelight, close shadows, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0018 spencer jacket [mustard, white, dark_blue; wool, silk; outer layer] | GAR-0084 high-heeled shoes [black; silk_satin, leather; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0002, MAT-0003, MAT-0011",
+      "prompt_video": "Lady Macbeth, washing hands and pacing, scene: castle hall after the murder, night, cold, indoor, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: Regency spencer jacket, very short waist-length jacket, high waistline, long fitted sleeves, lightweight wool or silk; footwear: 18th-century women’s black silk satin high-heeled shoes, slender heel, pointed tongue, leather sole, buckled or slip-on; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; wool, linen; one-piece] | GAR-0018 spencer jacket [mustard, white, dark_blue; wool, silk; outer layer] | GAR-0084 high-heeled shoes [black; silk_satin, leather; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; outerwear GAR-0018; footwear GAR-0084; accessory GAR-0028; carried prop GAR-0082; movement/action adaptation: washing hands and pacing; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.78; palette black, dark blue, fur brown, ivory, linen, mustard, silk, silver, steel, white, wool; materials fur, ivory, leather, linen, silk, silk satin, silver, steel, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: washing hands and pacing; preserve range of motion, layer stability and footwear traction in motion",
       "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
     }
@@ -1114,8 +1160,8 @@
       ]
     },
     "a_c": {
-      "item_diff": 2,
-      "palette_diff": 4,
+      "item_diff": 4,
+      "palette_diff": 7,
       "silhouette": [
         "A",
         "A"
@@ -1123,7 +1169,7 @@
     },
     "b_c": {
       "item_diff": 6,
-      "palette_diff": 11,
+      "palette_diff": 12,
       "silhouette": [
         "H",
         "A"
@@ -1181,7 +1227,9 @@
       "SRC-0489",
       "SRC-0108",
       "SRC-0412",
-      "SRC-0486"
+      "SRC-0119",
+      "SRC-0486",
+      "SRC-0200"
     ],
     "missing_source_ids": [],
     "source_urls": [
@@ -1274,8 +1322,16 @@
         "url": "https://collections.vam.ac.uk/item/O15693/"
       },
       {
+        "source_id": "SRC-0119",
+        "url": "https://fashionhistory.fitnyc.edu/spencer-jacket/"
+      },
+      {
         "source_id": "SRC-0486",
         "url": "https://collections.vam.ac.uk/item/O137793/"
+      },
+      {
+        "source_id": "SRC-0200",
+        "url": "https://collections.vam.ac.uk/item/O1151302/"
       }
     ]
   },
@@ -1283,8 +1339,10 @@
     "no reliable period/region context card after period/region normalization (requested: medieval / europe)",
     "no reliable style card for art direction 'blood-red silk, gold and shadow'",
     "period evidence is approximate/none for GAR-0016, GAR-0028, GAR-0084 (requested medieval); treat these as era-level hypotheses, not exact period matches",
+    "A/B/C structural repair: 2 shared slot(s) replaced in look C",
     "wetness/damage/dirt not specified; left unknown (not invented)",
-    "items without source_ids: GAR-0079"
+    "items without source_ids: GAR-0079",
+    "design includes declared per-item era/region mismatches; not a historical-accuracy claim"
   ],
   "warnings_detail": [
     {
@@ -1320,6 +1378,523 @@
     "ids_all_exist": true,
     "source_ids_resolve": true,
     "real_ids_only": true,
-    "continuity_states_explicit": false
-  }
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": false
+  },
+  "item_compatibility": [
+    {
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0076",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "portugal"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0084",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "18th century"
+      ],
+      "region_labels": [
+        "france",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0016",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "18th century",
+        "early 19th century",
+        "late 17th century"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0079",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0018",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "1790s",
+        "1810s",
+        "regency era"
+      ],
+      "region_labels": [
+        "britain",
+        "france"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0084",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "18th century"
+      ],
+      "region_labels": [
+        "france",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    }
+  ],
+  "declared_mismatches": [
+    {
+      "look": "A",
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "outerwear",
+      "id": "GAR-0076",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "portugal"
+      ],
+      "period_tier": "unknown"
+    },
+    {
+      "look": "A",
+      "slot": "footwear",
+      "id": "GAR-0084",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "18th century"
+      ],
+      "region_labels": [
+        "france",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "A",
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "A",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "outerwear",
+      "id": "GAR-0016",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "18th century",
+        "early 19th century",
+        "late 17th century"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "B",
+      "slot": "footwear",
+      "id": "GAR-0081",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "late middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "london"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "B",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "one_piece",
+      "id": "GAR-0079",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "middle ages"
+      ],
+      "region_labels": [
+        "england",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "outerwear",
+      "id": "GAR-0018",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "1790s",
+        "1810s",
+        "regency era"
+      ],
+      "region_labels": [
+        "britain",
+        "france"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "C",
+      "slot": "footwear",
+      "id": "GAR-0084",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "18th century"
+      ],
+      "region_labels": [
+        "france",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "C",
+      "slot": "accessory",
+      "id": "GAR-0028",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "region_labels": [
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "C",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    }
+  ],
+  "constraint_violations": [],
+  "status": "declared_mismatch",
+  "historical_accuracy": false
 }

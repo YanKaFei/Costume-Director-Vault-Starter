@@ -1,0 +1,12 @@
+test_allowed_vault_card (tests.test_r1_1_security.PathGuardTests) ... ok
+test_audit_jsonl (tests.test_r1_1_security.PathGuardTests) ... ok
+test_deny_private_ssh_credentials (tests.test_r1_1_security.PathGuardTests) ... ok
+test_deny_traversal_and_outside (tests.test_r1_1_security.PathGuardTests) ... ok
+test_read_allowed_card (tests.test_r1_1_security.PathGuardTests) ... ok
+test_read_denied_returns_no_content (tests.test_r1_1_security.PathGuardTests) ... ok
+test_symlink_escape (tests.test_r1_1_security.PathGuardTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.410s
+
+OK

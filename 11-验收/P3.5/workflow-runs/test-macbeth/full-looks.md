@@ -128,7 +128,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | carried_prop | `GAR-0048` | 手提包 | multicolor | canvas, wool | verified | SRC-0408 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0019`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0019`, `STR-0026`
 - Material cards: `MAT-0013`, `MAT-0001`, `MAT-0002`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / smart_casual; the beige, brown, khaki palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -137,7 +137,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 携带物: GAR-0048 手提包 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0019
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0019, STR-0026
 - Reason: linked material cards: MAT-0013, MAT-0001, MAT-0002
 - Risk: region mismatch in GAR-0048: cards document their own regions, not europe
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -275,7 +275,7 @@
 | one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive |  |
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
-| carried_prop | `GAR-0087` | 手袋结构 | multicolor | canvas, wool | verified | SRC-0408 |
+| carried_prop | `GAR-0087` | 手袋结构（已迁移） | multicolor | canvas, wool | verified | SRC-0408 |
 
 - Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0019`
 - Material cards: `MAT-0013`, `MAT-0001`, `MAT-0002`
@@ -285,7 +285,7 @@
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
-- Reason: 携带物: GAR-0087 手袋结构 (smart_casual)
+- Reason: 携带物: GAR-0087 手袋结构（已迁移） (smart_casual)
 - Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0019
 - Reason: linked material cards: MAT-0013, MAT-0001, MAT-0002
 - Risk: region mismatch in GAR-0087: cards document their own regions, not europe

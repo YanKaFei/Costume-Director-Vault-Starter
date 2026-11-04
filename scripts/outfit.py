@@ -319,6 +319,8 @@ def composer_look(look, result, cards, sources, ctx):
         "items_without_source": no_src,
         "item_evidence": item_evidence,
         "evidence_tier": look.get("evidence_tier"),
+        "period_tiers": look.get("period_tiers") or {},
+        "region_tiers": look.get("region_tiers") or {},
         "evidence": evidence,
         "narrative_meaning": look.get("narrative_meaning"),
         "reasons": look.get("reasons") or [],
@@ -522,45 +524,58 @@ def build_continuity(inp, looks):
 
 
 def ensure_abc_difference(looks, pools, ctx, cards):
-    """If A/B/C collapse to <2 item differences, swap one shared slot for a real
-    unused candidate.  This changes one ID only, yielding exactly two symmetric
-    differences, while keeping all required slots covered."""
+    """Guarantee A/B/C has >=2 changed items across >=2 slots.
+
+    Swapping one shared accessory (or relying on a silhouette label) is not a
+    meaningful costume direction.  This routine replaces up to two shared slots
+    with real unused candidates and recomputes each look; it never invents IDs.
+    """
     def ids(look):
         return {item["id"] for item in look.get("items", {}).values() if item}
 
     def diff(left, right):
         return len(ids(left).symmetric_difference(ids(right)))
 
+    def slot_diff(left, right):
+        left_slots = left.get("items") or {}
+        right_slots = right.get("items") or {}
+        return sum(1 for slot in set(left_slots) | set(right_slots)
+                   if (left_slots.get(slot) or {}).get("id") !=
+                   (right_slots.get(slot) or {}).get("id"))
+
     warnings = []
-    changed = True
-    rounds = 0
-    while changed and rounds < 4:
+    for _ in range(4):
         changed = False
-        rounds += 1
         for i, j in ((0, 1), (0, 2), (1, 2)):
-            if j >= len(looks) or diff(looks[i], looks[j]) >= 2:
+            if j >= len(looks):
                 continue
             left, target = looks[i], looks[j]
+            if diff(left, target) >= 4 and slot_diff(left, target) >= 2:
+                continue
             used = ids(left) | ids(target)
-            selected = [item for item in target.get("items", {}).values() if item]
-            candidates = []
-            for slot, current in list(target.get("items", {}).items()):
+            replacements = []
+            for slot, current in list((target.get("items") or {}).items()):
                 if not current or current["id"] not in ids(left):
                     continue
                 compatible = []
                 fallback = []
-                for item in pools.get(slot, []):
-                    if item["id"] in used or item.get("evidence_status") == "example":
+                for candidate in pools.get(slot, []):
+                    if candidate["id"] in used or candidate.get("evidence_status") == "example":
                         continue
-                    if candidate_context_compatible(item, selected, ctx.get("input", {})):
-                        compatible.append((slot, item))
+                    if candidate_context_compatible(candidate, [v for v in target.get("items", {}).values() if v], ctx.get("input", {})):
+                        compatible.append(candidate)
                     else:
-                        fallback.append((slot, item))
-                candidates.extend(compatible or fallback)
-            if not candidates:
+                        fallback.append(candidate)
+                choice = (compatible or fallback)
+                if choice:
+                    replacements.append((slot, choice[0]))
+                if len(replacements) >= 2:
+                    break
+            if not replacements:
                 continue
-            slot, replacement = candidates[0]
-            target["items"][slot] = replacement
+            for slot, candidate in replacements[:2]:
+                target["items"][slot] = candidate
+                used.add(candidate["id"])
             rebuilt = recommend.score_look(target["items"], ctx, cards,
                                            source_look_id=target.get("source_look_id"),
                                            full=True)
@@ -569,11 +584,177 @@ def ensure_abc_difference(looks, pools, ctx, cards):
                 rebuilt["curated_occupation_match"] = True
             target.clear()
             target.update(rebuilt)
-            warnings.append("A/B/C difference repaired by swapping %s to %s in look %s" % (
-                slot, replacement["id"], target.get("look_ref")))
+            warnings.append("A/B/C structural repair: %d shared slot(s) replaced in look %s" % (
+                min(2, len(replacements)), target.get("look_ref")))
             changed = True
             break
+        if not changed:
+            break
+    for i, j in ((0, 1), (0, 2), (1, 2)):
+        if j < len(looks) and (diff(looks[i], looks[j]) < 4 or slot_diff(looks[i], looks[j]) < 2):
+            warnings.append("A/B/C could not reach 2 items/2 slots in pair %d/%d (KB candidate gap)" % (i, j))
     return warnings
+
+
+def _tiers_have_evidence(tiers):
+    if not isinstance(tiers, dict) or not tiers:
+        return False
+    return any(str(tier).lower() not in ("none", "unknown", "")
+               for tier in tiers.values())
+
+
+def _valid_creative_override(value):
+    if not isinstance(value, dict):
+        return None, "creative_override must be an object"
+    intent = str(value.get("intent") or "").strip()
+    conflicts = value.get("conflicts")
+    if not intent:
+        return None, "creative_override.intent is required"
+    if not isinstance(conflicts, list) or not conflicts:
+        return None, "creative_override.conflicts must be a non-empty list"
+    if value.get("historical_accuracy") is not False:
+        return None, "creative_override.historical_accuracy must be false"
+    return {"intent": intent, "conflicts": conflicts,
+            "historical_accuracy": False}, None
+
+
+def normalise_composer_input(raw):
+    inp = recommend.normalise_input(raw)
+    for key in ("creative_override", "approved_anchors"):
+        if key in raw:
+            inp[key] = raw[key]
+    return inp
+
+
+def item_compatibility(look, inp, cards):
+    """Declare every item's era/region compatibility, even in inspired mode."""
+    by_id = {lib.get_str(card["meta"], "id"): card for card in cards}
+    period_wanted = recommend.labels([inp.get("period")])
+    region_wanted = recommend.labels([inp.get("region")])
+    entries = []
+    for slot, cid in (look.get("slot_ids") or {}).items():
+        card = by_id.get(cid)
+        if not card:
+            entries.append({"slot": slot, "id": cid, "status": "unknown_item",
+                            "period_ok": False, "region_ok": False})
+            continue
+        p_labels = recommend.card_period_labels(card)
+        r_labels = recommend.card_region_labels(card)
+        p_ok = (not p_labels or not period_wanted or
+                recommend.period_compatible_labels(period_wanted, p_labels))
+        r_ok = (not r_labels or not region_wanted or
+                recommend.region_compatible_labels(region_wanted, r_labels))
+        tier = (look.get("period_tiers") or {}).get(slot)
+        if tier == "none":
+            p_ok = False
+        status = "compatible"
+        if p_labels and period_wanted and not p_ok:
+            status = "period_mismatch"
+        elif r_labels and region_wanted and not r_ok:
+            status = "region_mismatch"
+        elif not p_labels or not r_labels:
+            status = "unknown"
+        entries.append({"slot": slot, "id": cid, "status": status,
+                        "period_ok": bool(p_ok), "region_ok": bool(r_ok),
+                        "period_labels": sorted(p_labels),
+                        "region_labels": sorted(r_labels),
+                        "period_tier": tier})
+    return entries
+
+
+def validate_hard_constraints(payload, inp, cards):
+    by_id = {lib.get_str(card["meta"], "id"): card for card in cards}
+    violations = []
+    looks = payload.get("looks") or []
+    compatibility = []
+    declared_mismatches = []
+    for look in looks:
+        entries = item_compatibility(look, inp, cards)
+        compatibility.extend(entries)
+        for entry in entries:
+            if entry["status"] in ("period_mismatch", "region_mismatch"):
+                declared_mismatches.append({"look": look.get("look_ref"), **entry})
+    payload["item_compatibility"] = compatibility
+    payload["declared_mismatches"] = declared_mismatches
+    strict_occ = recommend.detect_occupation_profile(inp) or {}
+    strict_category = strict_occ.get("category")
+    approved = [str(value) for value in (inp.get("approved_anchors") or [])
+                if str(value)]
+    anchor = payload.get("occupation_anchor")
+    action = lib.norm_text(inp.get("action"))
+    weather = lib.norm_text(inp.get("weather"))
+    indoor = recommend.is_indoor_context({"input": inp})
+    rain = any(word in weather for word in ("rain", "雨", "wet")) and not indoor
+    cold = any(word in weather for word in ("cold", "snow", "storm", "寒", "冬")) and not indoor
+    battle = any(word in action for word in ("battle", "fight", "战斗", "打斗"))
+    dance = any(word in action for word in ("dance", "舞"))
+    if not looks:
+        violations.append({"code": "no_looks", "message": "no composed look"})
+    for look in looks:
+        ref = look.get("look_ref")
+        slot_ids = look.get("slot_ids") or {}
+        all_ids = [item["id"] for item in look.get("items", [])]
+        if len(all_ids) != len(set(all_ids)):
+            violations.append({"code": "duplicate_item", "look": ref, "items": all_ids,
+                               "message": "same item used in multiple slots"})
+        if "one_piece" in slot_ids and ({"upper_body", "lower_body"} & set(slot_ids)):
+            violations.append({"code": "torso_conflict", "look": ref,
+                               "message": "one_piece combined with upper/lower"})
+        if "set" in slot_ids and ({"upper_body", "lower_body", "one_piece"} & set(slot_ids)):
+            violations.append({"code": "torso_conflict", "look": ref,
+                               "message": "set combined with another torso layer"})
+        if not ("one_piece" in slot_ids or "set" in slot_ids or
+                ("upper_body" in slot_ids and "lower_body" in slot_ids)):
+            violations.append({"code": "missing_torso", "look": ref,
+                               "message": "no one_piece/set or top+bottom"})
+        if "footwear" not in slot_ids:
+            violations.append({"code": "missing_footwear", "look": ref,
+                               "message": "no footwear"})
+        for item in look.get("items", []):
+            cid = item["id"]
+            card = by_id.get(cid)
+            if not card:
+                violations.append({"code": "unknown_item", "look": ref, "items": [cid],
+                                   "message": "card ID does not exist"})
+            elif item.get("evidence_status") == "example":
+                violations.append({"code": "example_item", "look": ref, "items": [cid],
+                                   "message": "example card in production look"})
+        if rain:
+            outer = slot_ids.get("outerwear")
+            outer_card = by_id.get(outer) if outer else None
+            if not outer_card or not recommend.is_rainwear_card(outer_card):
+                violations.append({"code": "rain_without_rainwear", "look": ref,
+                                   "items": [outer] if outer else [],
+                                   "message": "rain context without rainwear outer"})
+        if cold and "outerwear" not in slot_ids:
+            violations.append({"code": "cold_without_outer", "look": ref,
+                               "message": "cold/storm context without outerwear"})
+        footwear = slot_ids.get("footwear")
+        shoe = by_id.get(footwear) if footwear else None
+        if shoe and (battle or dance) and inp.get("fidelity_mode") == "historical":
+            if recommend.is_heels(shoe) or recommend.is_open_footwear(shoe):
+                violations.append({"code": "unsafe_action_footwear", "look": ref,
+                                   "items": [footwear],
+                                   "message": "heeled/open footwear in action context"})
+        if strict_category in recommend.OCCUPATIONAL_STRICT:
+            required = [anchor] if anchor else approved
+            if required and not any(cid in all_ids for cid in required):
+                violations.append({"code": "missing_approved_anchor", "look": ref,
+                                   "items": required,
+                                   "message": "strict profession/approved anchor missing"})
+        for cid in approved:
+            if cid not in all_ids:
+                violations.append({"code": "missing_approved_anchor", "look": ref,
+                                   "items": [cid],
+                                   "message": "approved anchor %s missing" % cid})
+        if inp.get("fidelity_mode") == "historical":
+            if not _tiers_have_evidence(look.get("period_tiers")):
+                violations.append({"code": "historical_period_unverified", "look": ref,
+                                   "message": "no period evidence tier in historical mode"})
+            if not _tiers_have_evidence(look.get("region_tiers")):
+                violations.append({"code": "historical_region_unverified", "look": ref,
+                                   "message": "no region evidence tier in historical mode"})
+    return violations
 
 
 def composer_payload(inp, cards, sources):
@@ -638,7 +819,7 @@ def composer_payload(inp, cards, sources):
             warnings.append("items without source_ids: " + ", ".join(look["items_without_source"]))
         if look["evidence_tier"] in (None, "unknown"):
             warnings.append("look %s has no reliable evidence tier" % look["look_ref"])
-    return {
+    payload = {
         "composer": "P4-3 outfit-composer",
         "input": result.get("input"),
         "occupation_anchor": anchor["id"] if anchor else None,
@@ -668,6 +849,46 @@ def composer_payload(inp, cards, sources):
                 state["source"] == "input" for state in continuity["states"]),
         },
     }
+    violations = validate_hard_constraints(payload, inp, cards)
+    declared = payload.get("declared_mismatches") or []
+    override, override_error = _valid_creative_override(inp.get("creative_override"))
+    payload["constraint_violations"] = violations
+    if violations:
+        payload["checks"]["hard_constraints_passed"] = False
+        if override is None:
+            payload["status"] = "blocked"
+            payload["blocked_looks"] = payload["looks"]
+            payload["looks"] = []
+            payload["warnings"].append("blocked by post-composition hard constraints")
+            if override_error:
+                payload["warnings"].append("creative_override invalid: " + override_error)
+        else:
+            payload["status"] = "override"
+            payload["creative_override"] = override
+            payload["historical_accuracy"] = False
+            payload["warnings"].append("creative_override: design shown as override, not historical accuracy")
+    elif declared:
+        payload["checks"]["hard_constraints_passed"] = False
+        if override is None:
+            # Complete looks with only declared per-item mismatches are shown as
+            # declared_mismatch (never as ok / historical accuracy); hard
+            # violations/missing layers still take the blocked branch above.
+            payload["status"] = "declared_mismatch"
+            payload["warnings"].append(
+                "design includes declared per-item era/region mismatches; "
+                "not a historical-accuracy claim")
+        else:
+            payload["status"] = "override"
+            payload["creative_override"] = override
+            payload["historical_accuracy"] = False
+            payload["warnings"].append("creative_override: design shown as override, not historical accuracy")
+    else:
+        payload["checks"]["hard_constraints_passed"] = True
+        payload["status"] = "ok"
+    payload["historical_accuracy"] = bool(
+        inp.get("fidelity_mode") == "historical" and not violations and
+        not declared and payload["status"] == "ok")
+    return payload
 
 
 def render_markdown(payload):
@@ -740,7 +961,7 @@ def main(argv=None):
         print("ERROR: provide --input or --brief/--brief-file", file=sys.stderr)
         return 2
     try:
-        inp = recommend.normalise_input(raw)
+        inp = normalise_composer_input(raw)
     except ValueError as exc:
         print("ERROR: %s" % exc, file=sys.stderr)
         return 2
@@ -755,6 +976,10 @@ def main(argv=None):
         print("wrote %s" % args.out)
     else:
         print(text)
+    if payload.get("status") in ("blocked", "declared_mismatch"):
+        print("BLOCKED: hard constraints or insufficient composition; see constraint_violations "
+              "(status=blocked, no approved looks).", file=sys.stderr)
+        return 0
     if not payload["looks"]:
         print("FAIL: no complete outfit candidates", file=sys.stderr)
         return 3

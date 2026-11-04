@@ -1,0 +1,919 @@
+{
+  "composer": "P4-3 outfit-composer",
+  "input": {
+    "character_name": "unnamed character",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "unknown",
+    "economic_status": "unknown",
+    "period": "1977",
+    "region": "london",
+    "season": "unknown",
+    "scene": "",
+    "time": "unknown",
+    "weather": "indoor",
+    "action": "unknown",
+    "arc": "unknown",
+    "art_direction": "unknown",
+    "lighting": "unknown",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "inspired",
+    "tool": "generic",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "1977 London punk youth, club interior, mixed gender, leather and safety pins",
+    "location": "",
+    "brief": "1977 London punk youth, club interior, mixed gender, leather and safety pins",
+    "brief_parse": {
+      "period": "1977",
+      "region": "london",
+      "occupation": "unknown",
+      "economic_status": "unknown",
+      "weather": "indoor",
+      "season": "unknown",
+      "art_direction": "unknown",
+      "action": "unknown",
+      "budget": "unknown",
+      "fidelity_mode": "unknown",
+      "unknown_fields": [
+        "action",
+        "art_direction",
+        "budget",
+        "economic_status",
+        "fidelity_mode",
+        "occupation",
+        "season"
+      ],
+      "matched_terms": {
+        "period": [
+          "1977"
+        ],
+        "region": [
+          "london"
+        ]
+      },
+      "brief": "1977 London punk youth, club interior, mixed gender, leather and safety pins"
+    }
+  },
+  "occupation_anchor": null,
+  "looks": [
+    {
+      "look_ref": "A",
+      "total": 53.9,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0054",
+          "name_zh": "1950 年代鸡尾酒裙",
+          "name_en": "1950s cocktail dress",
+          "colors": [
+            "black"
+          ],
+          "materials": [
+            "silk",
+            "lace"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0414"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0058",
+          "name_zh": "1970 年代厚底鞋",
+          "name_en": "1970s platform shoe",
+          "colors": [
+            "black",
+            "gold"
+          ],
+          "materials": [
+            "leather",
+            "metal",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0418"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear"
+      ],
+      "slot_count": 2,
+      "slot_ids": {
+        "one_piece": "GAR-0054",
+        "footwear": "GAR-0058"
+      },
+      "missing_slots": [],
+      "palette": {
+        "colors": [
+          "black",
+          "gold"
+        ],
+        "families": {
+          "neutral": 3
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 1.0,
+        "harmony": 0.45
+      },
+      "materials": {
+        "materials": [
+          "lace",
+          "leather",
+          "metal",
+          "rubber",
+          "silk"
+        ],
+        "families": {
+          "silk": 1,
+          "other": 1,
+          "leather": 1,
+          "metal": 1,
+          "synthetic": 1
+        },
+        "distinct": 5,
+        "harmony": 1.0
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.7,
+        "has_defined_waist": false,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "1977",
+        "region": "london",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "era",
+          "footwear": "exact"
+        },
+        "region_evidence": {
+          "one_piece": "exact",
+          "footwear": "exact"
+        },
+        "occupation": "unknown",
+        "occupation_match": false,
+        "class": "unknown",
+        "occasion": null,
+        "weather": "indoor",
+        "action": "unknown",
+        "lighting": "unknown",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": "cheaper"
+      },
+      "source_ids": [
+        "SRC-0414",
+        "SRC-0418",
+        "SRC-0412",
+        "SRC-0200",
+        "SRC-0141",
+        "SRC-0142"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0054": "verified",
+        "GAR-0058": "verified"
+      },
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "exact"
+      },
+      "region_tiers": {
+        "one_piece": "exact",
+        "footwear": "exact"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0414",
+          "SRC-0418",
+          "SRC-0412",
+          "SRC-0200",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0414",
+            "url": "https://collections.vam.ac.uk/item/O50247/"
+          },
+          {
+            "source_id": "SRC-0418",
+            "url": "https://collections.vam.ac.uk/item/O1380038/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [
+          "SCN-0003"
+        ],
+        "item_evidence": {
+          "GAR-0054": "verified",
+          "GAR-0058": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): formality runs from formal / smart_casual; the black, gold palette controls the emotional temperature.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 21.5/25, 角色身份 7.5/15",
+        "连身: GAR-0054 1950 年代鸡尾酒裙 (formal)",
+        "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
+        "linked structure cards: STR-0014, STR-0015",
+        "linked material cards: MAT-0002, MAT-0003"
+      ],
+      "risks": [
+        "region mismatch in GAR-0054, GAR-0058: cards document their own regions, not london",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": "cheaper",
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, gold, setting: unspecified location, unknown, indoor, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); waistline (STR-0015), continuity lock: GAR-0054 1950s cocktail dress [black; silk, lace; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_video": "unnamed character, unknown, scene: unspecified location, unknown, indoor, camera: medium shot, costume: one-piece: late 1950s black silk cocktail dress with sleeveless lace overdress, fitted bodice, defined waist, mid-calf length, elegant evening styling; silk, lace; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0054; footwear GAR-0058; movement/action adaptation: unknown; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, gold; materials lace, leather, metal, rubber, silk; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    },
+    {
+      "look_ref": "B",
+      "total": 53.1,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0052",
+          "name_zh": "Utility 连衣裙",
+          "name_en": "Utility day dress",
+          "colors": [
+            "scarlet"
+          ],
+          "materials": [
+            "rayon_crepe"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0412"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0058",
+          "name_zh": "1970 年代厚底鞋",
+          "name_en": "1970s platform shoe",
+          "colors": [
+            "black",
+            "gold"
+          ],
+          "materials": [
+            "leather",
+            "metal",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0418"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear"
+      ],
+      "slot_count": 2,
+      "slot_ids": {
+        "one_piece": "GAR-0052",
+        "footwear": "GAR-0058"
+      },
+      "missing_slots": [],
+      "palette": {
+        "colors": [
+          "black",
+          "gold",
+          "scarlet"
+        ],
+        "families": {
+          "other": 1,
+          "neutral": 2
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.667,
+        "harmony": 0.78
+      },
+      "materials": {
+        "materials": [
+          "leather",
+          "metal",
+          "rayon crepe",
+          "rubber"
+        ],
+        "families": {
+          "silk": 1,
+          "leather": 1,
+          "metal": 1,
+          "synthetic": 1
+        },
+        "distinct": 4,
+        "harmony": 1.0
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.7,
+        "has_defined_waist": false,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "1977",
+        "region": "london",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "era",
+          "footwear": "exact"
+        },
+        "region_evidence": {
+          "one_piece": "exact",
+          "footwear": "exact"
+        },
+        "occupation": "unknown",
+        "occupation_match": false,
+        "class": "unknown",
+        "occasion": null,
+        "weather": "indoor",
+        "action": "unknown",
+        "lighting": "unknown",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0412",
+        "SRC-0418",
+        "SRC-0413",
+        "SRC-0200",
+        "SRC-0451",
+        "SRC-0453",
+        "SRC-0142"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0052": "verified",
+        "GAR-0058": "verified"
+      },
+      "evidence_tier": "exact",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "exact"
+      },
+      "region_tiers": {
+        "one_piece": "exact",
+        "footwear": "exact"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0412",
+          "SRC-0418",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0418",
+            "url": "https://collections.vam.ac.uk/item/O1380038/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [
+          "SCN-0003"
+        ],
+        "item_evidence": {
+          "GAR-0052": "verified",
+          "GAR-0058": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): formality runs from smart_casual / smart_casual; the black, gold, scarlet palette controls the emotional temperature.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 21.5/25, 角色身份 7.5/15",
+        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
+        "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
+        "linked structure cards: STR-0018, STR-0020",
+        "linked material cards: MAT-0003"
+      ],
+      "risks": [
+        "region mismatch in GAR-0052, GAR-0058: cards document their own regions, not london",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, gold, scarlet, setting: unspecified location, unknown, indoor, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); panels and gores (STR-0020), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0003",
+      "prompt_video": "unnamed character, unknown, scene: unspecified location, unknown, indoor, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; rayon_crepe; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0052; footwear GAR-0058; movement/action adaptation: unknown; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, gold, scarlet; materials leather, metal, rayon crepe, rubber; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    },
+    {
+      "look_ref": "C",
+      "total": 48.7,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0052",
+          "name_zh": "Utility 连衣裙",
+          "name_en": "Utility day dress",
+          "colors": [
+            "scarlet"
+          ],
+          "materials": [
+            "rayon_crepe"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0412"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
+          "colors": [
+            "black",
+            "brown"
+          ],
+          "materials": [
+            "leather",
+            "rubber"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ]
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0074",
+          "name_zh": "哀悼戒指与胸针",
+          "name_en": "mourning ring and brooch",
+          "colors": [
+            "gold",
+            "black",
+            "white"
+          ],
+          "materials": [
+            "gold",
+            "enamel",
+            "human_hair",
+            "diamond",
+            "glass"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0458",
+            "SRC-0459",
+            "SRC-0460"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear",
+        "accessory"
+      ],
+      "slot_count": 3,
+      "slot_ids": {
+        "one_piece": "GAR-0052",
+        "footwear": "GAR-0022",
+        "accessory": "GAR-0074"
+      },
+      "missing_slots": [],
+      "palette": {
+        "colors": [
+          "black",
+          "brown",
+          "gold",
+          "scarlet",
+          "white"
+        ],
+        "families": {
+          "other": 1,
+          "neutral": 5
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.833,
+        "harmony": 0.7
+      },
+      "materials": {
+        "materials": [
+          "diamond",
+          "enamel",
+          "glass",
+          "gold",
+          "human hair",
+          "leather",
+          "rayon crepe",
+          "rubber"
+        ],
+        "families": {
+          "silk": 1,
+          "leather": 1,
+          "synthetic": 1,
+          "metal": 1,
+          "other": 4
+        },
+        "distinct": 5,
+        "harmony": 1.0
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.7,
+        "has_defined_waist": false,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "1977",
+        "region": "london",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "era",
+          "footwear": "era",
+          "accessory": "approximate"
+        },
+        "region_evidence": {
+          "one_piece": "exact",
+          "footwear": "exact",
+          "accessory": "exact"
+        },
+        "occupation": "unknown",
+        "occupation_match": false,
+        "class": "unknown",
+        "occasion": null,
+        "weather": "indoor",
+        "action": "unknown",
+        "lighting": "unknown",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0412",
+        "SRC-0123",
+        "SRC-0458",
+        "SRC-0459",
+        "SRC-0460",
+        "SRC-0413",
+        "SRC-0200",
+        "SRC-0451",
+        "SRC-0453",
+        "SRC-0484",
+        "SRC-0520",
+        "SRC-0521"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0052": "verified",
+        "GAR-0022": "verified",
+        "GAR-0074": "verified"
+      },
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "accessory": "approximate"
+      },
+      "region_tiers": {
+        "one_piece": "exact",
+        "footwear": "exact",
+        "accessory": "exact"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0412",
+          "SRC-0123",
+          "SRC-0458",
+          "SRC-0459",
+          "SRC-0460",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0484",
+          "SRC-0520",
+          "SRC-0521"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+          },
+          {
+            "source_id": "SRC-0458",
+            "url": "https://collections.vam.ac.uk/item/O1771180/"
+          },
+          {
+            "source_id": "SRC-0459",
+            "url": "https://collections.vam.ac.uk/item/O1816123/"
+          },
+          {
+            "source_id": "SRC-0460",
+            "url": "https://collections.vam.ac.uk/item/O78063/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [
+          "PRD-0008"
+        ],
+        "context_scene_ids": [
+          "SCN-0003"
+        ],
+        "item_evidence": {
+          "GAR-0052": "verified",
+          "GAR-0022": "verified",
+          "GAR-0074": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): formality runs from smart_casual / smart_casual / formal; the black, brown, gold palette controls the emotional temperature.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 19.6/25, 角色身份 7.5/15",
+        "连身: GAR-0052 Utility 连衣裙 (smart_casual)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "配饰: GAR-0074 哀悼戒指与胸针 (formal)",
+        "linked structure cards: STR-0018, STR-0020, STR-0021, STR-0025"
+      ],
+      "risks": [
+        "region mismatch in GAR-0052, GAR-0022, GAR-0074: cards document their own regions, not london",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: 19th-century mourning ring or brooch, gold with black enamel, lock of plaited hair under glass, inscription IN MEMORY OF, photographic portrait or diamond bezel, sombre memorial jewellery, palette: black, brown, gold, scarlet, white, setting: unspecified location, unknown, indoor, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: buttons and buttonholes (STR-0018); panels and gores (STR-0020); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0052 Utility day dress [scarlet; rayon_crepe; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0074 mourning ring and brooch [gold, black, white; gold, enamel, human_hair, diamond, glass; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots",
+      "prompt_video": "unnamed character, unknown, scene: unspecified location, unknown, indoor, camera: medium shot, costume: one-piece: 1942 British Utility day dress, scarlet rayon crepe, long sleeves, button front, padded shoulders, simple seamed bodice, knee-length, practical wartime cut; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; rayon_crepe; one-piece] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0074 mourning ring and brooch [gold, black, white; gold, enamel, human_hair, diamond, glass; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0052; footwear GAR-0022; accessory GAR-0074; movement/action adaptation: unknown; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, brown, gold, scarlet, white; materials diamond, enamel, glass, gold, human hair, leather, rayon crepe, rubber; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    }
+  ],
+  "abc_metrics": {
+    "a_b": {
+      "item_diff": 2,
+      "palette_diff": 1,
+      "silhouette": [
+        "H",
+        "H"
+      ]
+    },
+    "a_c": {
+      "item_diff": 5,
+      "palette_diff": 3,
+      "silhouette": [
+        "H",
+        "H"
+      ]
+    },
+    "b_c": {
+      "item_diff": 3,
+      "palette_diff": 2,
+      "silhouette": [
+        "H",
+        "H"
+      ]
+    },
+    "all_pairwise_ge_2": true
+  },
+  "completeness": {
+    "all_have_torso": true,
+    "all_have_footwear": true,
+    "all_have_outerwear": false,
+    "all_have_accessory": false,
+    "all_have_carried_prop": false
+  },
+  "continuity": {
+    "states": [
+      {
+        "scene": "single",
+        "wetness": "unknown",
+        "damage": "unknown",
+        "dirt": "unknown",
+        "source": "not specified"
+      }
+    ],
+    "anchors": [],
+    "note": "States are explicit input facts; unknown values are never replaced with invented dry/clean/damage-free assumptions.",
+    "warnings": [
+      "wetness/damage/dirt not specified; left unknown (not invented)"
+    ]
+  },
+  "evidence": {
+    "source_ids": [
+      "SRC-0414",
+      "SRC-0418",
+      "SRC-0412",
+      "SRC-0200",
+      "SRC-0141",
+      "SRC-0142",
+      "SRC-0413",
+      "SRC-0451",
+      "SRC-0453",
+      "SRC-0123",
+      "SRC-0458",
+      "SRC-0459",
+      "SRC-0460",
+      "SRC-0484",
+      "SRC-0520",
+      "SRC-0521"
+    ],
+    "missing_source_ids": [],
+    "source_urls": [
+      {
+        "source_id": "SRC-0414",
+        "url": "https://collections.vam.ac.uk/item/O50247/"
+      },
+      {
+        "source_id": "SRC-0418",
+        "url": "https://collections.vam.ac.uk/item/O1380038/"
+      },
+      {
+        "source_id": "SRC-0412",
+        "url": "https://collections.vam.ac.uk/item/O15693/"
+      },
+      {
+        "source_id": "SRC-0200",
+        "url": "https://collections.vam.ac.uk/item/O1151302/"
+      },
+      {
+        "source_id": "SRC-0141",
+        "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+      },
+      {
+        "source_id": "SRC-0142",
+        "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+      },
+      {
+        "source_id": "SRC-0413",
+        "url": "https://collections.vam.ac.uk/item/O15667/"
+      },
+      {
+        "source_id": "SRC-0451",
+        "url": "https://collections.vam.ac.uk/item/O109190/"
+      },
+      {
+        "source_id": "SRC-0453",
+        "url": "https://collections.vam.ac.uk/item/O163754/"
+      },
+      {
+        "source_id": "SRC-0123",
+        "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+      },
+      {
+        "source_id": "SRC-0458",
+        "url": "https://collections.vam.ac.uk/item/O1771180/"
+      },
+      {
+        "source_id": "SRC-0459",
+        "url": "https://collections.vam.ac.uk/item/O1816123/"
+      },
+      {
+        "source_id": "SRC-0460",
+        "url": "https://collections.vam.ac.uk/item/O78063/"
+      },
+      {
+        "source_id": "SRC-0484",
+        "url": "https://collections.vam.ac.uk/item/O356786/"
+      },
+      {
+        "source_id": "SRC-0520",
+        "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+      },
+      {
+        "source_id": "SRC-0521",
+        "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+      }
+    ]
+  },
+  "warnings": [
+    "no accessory candidate in the vault for this brief",
+    "no carried_prop candidate in the vault for this brief",
+    "a composed look lacks accessory (knowledge-base gap)",
+    "a composed look lacks carried prop (knowledge-base gap)",
+    "wetness/damage/dirt not specified; left unknown (not invented)"
+  ],
+  "warnings_detail": [
+    {
+      "code": "brief_unknown_fields",
+      "severity": "info",
+      "message": "brief parser left these fields unknown: action, art_direction, budget, economic_status, fidelity_mode, occupation, season",
+      "items": [],
+      "look": null
+    }
+  ],
+  "checks": {
+    "exit_ok": true,
+    "three_looks": true,
+    "abc_pairwise_ge_2": true,
+    "ids_all_exist": true,
+    "source_ids_resolve": true,
+    "real_ids_only": true,
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": true
+  },
+  "constraint_violations": [],
+  "status": "ok",
+  "historical_accuracy": false
+}

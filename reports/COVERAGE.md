@@ -1,7 +1,18 @@
-# 覆盖情况（COVERAGE）— P3.3 终态
+# 覆盖情况（COVERAGE）— R1.1 终态
 
-- 更新时间：2026-11-04 03:26；快照 **343 卡**（内容 158 + 来源 185）；**45 例验收**；git HEAD `fcebf79`
-- 完整报告：[P3-COVERAGE.md](P3-COVERAGE.md)；本页为摘要
+- 更新时间：2026-11-05 00:33；快照 **400 卡**（内容 189 + 来源 211）；**45 例验收（PASS 45/45）**；git HEAD `70261e9`
+- 完整报告：[P3-COVERAGE.md](P3-COVERAGE.md)；P4/R1.1 差异：[R1.1-KNOWLEDGE-REPO.md](R1.1-KNOWLEDGE-REPO.md)；本页为摘要
+
+
+## 0. R1.1 快照（2026-11-05）
+
+| 指标 | P3.3 | **R1.1** | 变化 | 目标 | 结论 |
+|---|---|---|---|---|---|
+| 总卡 | 343 | **400** | +57（P4 +36、R1.1 KQ-01 迁移 +1 结构卡等） | P3 ≥250 / P4 目标 | PASS |
+| 内容卡 | 158 | **189** | +31 | — | PASS |
+| 来源卡 | 185 | **211** | +26 | — | PASS |
+| GAR / STR / MAT | — | **88 / 26 / 14** | GAR-0087 迁移为 STR-0026 后 GAR 87 正式 + 1 example | — | PASS |
+| 验收 | 45/45 | **45/45** | 不变（生成器重建） | P2 ≥15 | PASS |
 
 ## 1. 总量
 
@@ -43,3 +54,11 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 - 视觉：28 条 CC0 索引（28/28 isPublicDomain、27 关联、0 下载/0 内嵌图片）。
 - Composer/Macbeth：9 例 + 11 例验收；P4 相对 P3.5 的槽位/来源覆盖提升。
 - 缺口不变：pattern 3/11 族、material 细化（leather/fur/metal/finish）不足、62 draft、AAT 19 张未接入。
+
+
+## 6. R1.1 更新（2026-11-05 00:55）
+
+- 卡片/来源：**400 卡（内容 189 + 来源 211）**；`SOURCES.csv` 212 行；KQ-01 迁移新增 STR-0026（手袋结构），GAR-0087 改为迁移存根（仍 type=garment，缺 deprecated/superseded_by 字段 → PARTIAL）。
+- KQ-05 许可拆分：来源卡新增 `content_license`/`image_license`（SRC-0001/0002/0417 已改）；KQ-06：45/45 T md 含「已知/假设/unknown/风险/证据」。
+- 快照：索引 + STATUS/COVERAGE/QA 已到 400/189/211；Skill canonical 291 行 + mirror 293 行（同步 MATCH）。
+- 缺口不变/新增：pattern 3/11、material 细化不足、62 draft（KQ-13/H4 BLOCKED）、AAT 未接入；v1.2 可选字段仍未接入检索（SCHEMA-03）；11 张新卡缺 movement/lighting（SCHEMA-06）。

@@ -1,0 +1,1139 @@
+{
+  "composer": "P4-3 outfit-composer",
+  "input": {
+    "character_name": "Macbeth",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "thane and king's general",
+    "economic_status": "high",
+    "period": "medieval",
+    "region": "europe",
+    "season": "autumn",
+    "scene": "heath and castle",
+    "time": "night",
+    "weather": "storm, cold",
+    "action": "walking and fighting",
+    "arc": "loyal thane to tyrant",
+    "art_direction": "restrained linen and wool, earth tones",
+    "lighting": "torchlight, cold moonlight",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "historical",
+    "tool": "generic",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "",
+    "location": "heath near Forres"
+  },
+  "occupation_anchor": null,
+  "looks": [],
+  "abc_metrics": {
+    "a_b": {
+      "item_diff": 2,
+      "palette_diff": 4,
+      "silhouette": [
+        "H",
+        "A"
+      ]
+    },
+    "a_c": {
+      "item_diff": 4,
+      "palette_diff": 9,
+      "silhouette": [
+        "H",
+        "H"
+      ]
+    },
+    "b_c": {
+      "item_diff": 4,
+      "palette_diff": 9,
+      "silhouette": [
+        "A",
+        "H"
+      ]
+    },
+    "all_pairwise_ge_2": true
+  },
+  "completeness": {
+    "all_have_torso": true,
+    "all_have_footwear": true,
+    "all_have_outerwear": false,
+    "all_have_accessory": false,
+    "all_have_carried_prop": false
+  },
+  "continuity": {
+    "states": [
+      {
+        "scene": "single",
+        "wetness": "unknown",
+        "damage": "unknown",
+        "dirt": "unknown",
+        "source": "not specified"
+      }
+    ],
+    "anchors": [
+      "GAR-0081"
+    ],
+    "note": "States are explicit input facts; unknown values are never replaced with invented dry/clean/damage-free assumptions.",
+    "warnings": [
+      "wetness/damage/dirt not specified; left unknown (not invented)"
+    ]
+  },
+  "evidence": {
+    "source_ids": [
+      "SRC-0110",
+      "SRC-0489",
+      "SRC-0487",
+      "SRC-0488",
+      "SRC-0490",
+      "SRC-0491",
+      "SRC-0135",
+      "SRC-0140",
+      "SRC-0412",
+      "SRC-0200",
+      "SRC-0141",
+      "SRC-0142",
+      "SRC-0202",
+      "SRC-0201",
+      "SRC-0486",
+      "SRC-0102",
+      "SRC-0483",
+      "SRC-0480",
+      "SRC-0481",
+      "SRC-0413"
+    ],
+    "missing_source_ids": [],
+    "source_urls": [
+      {
+        "source_id": "SRC-0110",
+        "url": "https://fashionhistory.fitnyc.edu/dalmatic-tunic/"
+      },
+      {
+        "source_id": "SRC-0489",
+        "url": "https://collections.vam.ac.uk/item/O107847/"
+      },
+      {
+        "source_id": "SRC-0487",
+        "url": "https://collections.vam.ac.uk/item/O112685/"
+      },
+      {
+        "source_id": "SRC-0488",
+        "url": "https://collections.vam.ac.uk/item/O126654/"
+      },
+      {
+        "source_id": "SRC-0490",
+        "url": "https://collections.vam.ac.uk/item/O165105/"
+      },
+      {
+        "source_id": "SRC-0491",
+        "url": "https://collections.vam.ac.uk/item/O97427/"
+      },
+      {
+        "source_id": "SRC-0135",
+        "url": "https://fashionhistory.fitnyc.edu/leg-of-mutton-sleeves/"
+      },
+      {
+        "source_id": "SRC-0140",
+        "url": "https://fashionhistory.fitnyc.edu/slashing/"
+      },
+      {
+        "source_id": "SRC-0412",
+        "url": "https://collections.vam.ac.uk/item/O15693/"
+      },
+      {
+        "source_id": "SRC-0200",
+        "url": "https://collections.vam.ac.uk/item/O1151302/"
+      },
+      {
+        "source_id": "SRC-0141",
+        "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+      },
+      {
+        "source_id": "SRC-0142",
+        "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+      },
+      {
+        "source_id": "SRC-0202",
+        "url": "https://collections.vam.ac.uk/item/O80590/"
+      },
+      {
+        "source_id": "SRC-0201",
+        "url": "https://collections.vam.ac.uk/item/O107537/"
+      },
+      {
+        "source_id": "SRC-0486",
+        "url": "https://collections.vam.ac.uk/item/O137793/"
+      },
+      {
+        "source_id": "SRC-0102",
+        "url": "https://fashionhistory.fitnyc.edu/muslin/"
+      },
+      {
+        "source_id": "SRC-0483",
+        "url": "https://collections.vam.ac.uk/item/O356064/"
+      },
+      {
+        "source_id": "SRC-0480",
+        "url": "https://collections.vam.ac.uk/item/O119606/"
+      },
+      {
+        "source_id": "SRC-0481",
+        "url": "https://collections.vam.ac.uk/item/O115594/"
+      },
+      {
+        "source_id": "SRC-0413",
+        "url": "https://collections.vam.ac.uk/item/O15667/"
+      }
+    ]
+  },
+  "warnings": [
+    "no reliable period/region context card after period/region normalization (requested: medieval / europe)",
+    "no reliable style card for art direction 'restrained linen and wool, earth tones'",
+    "period evidence is era-level (century bucket) for GAR-0009, GAR-0075, GAR-0079, GAR-0081; exact-decade cards are missing",
+    "cards document other regions for GAR-0075 (requested europe); cross-region borrowing is flagged, not silently accepted",
+    "looks are missing required layers: outerwear (no invented replacements)",
+    "wet weather look lacks an outerwear card",
+    "no accessory candidate in the vault for this brief",
+    "no carried_prop candidate in the vault for this brief",
+    "a composed look lacks accessory (knowledge-base gap)",
+    "a composed look lacks carried prop (knowledge-base gap)",
+    "wetness/damage/dirt not specified; left unknown (not invented)",
+    "items without source_ids: GAR-0079",
+    "blocked by post-composition hard constraints",
+    "creative_override invalid: creative_override must be an object"
+  ],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable period/region context card after period/region normalization (requested: medieval / europe)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable style card for art direction 'restrained linen and wool, earth tones'",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "period_era_level",
+      "severity": "low",
+      "message": "period evidence is era-level (century bucket) for GAR-0009, GAR-0075, GAR-0079, GAR-0081; exact-decade cards are missing",
+      "items": [
+        "GAR-0009",
+        "GAR-0075",
+        "GAR-0079",
+        "GAR-0081"
+      ],
+      "look": null
+    },
+    {
+      "code": "region_mismatch",
+      "severity": "medium",
+      "message": "cards document other regions for GAR-0075 (requested europe); cross-region borrowing is flagged, not silently accepted",
+      "items": [
+        "GAR-0075"
+      ],
+      "look": null
+    },
+    {
+      "code": "knowledge_gap_slots",
+      "severity": "high",
+      "message": "looks are missing required layers: outerwear (no invented replacements)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "rainwear_gap",
+      "severity": "high",
+      "message": "wet weather look lacks an outerwear card",
+      "items": [],
+      "look": null
+    }
+  ],
+  "checks": {
+    "exit_ok": true,
+    "three_looks": true,
+    "abc_pairwise_ge_2": true,
+    "ids_all_exist": true,
+    "source_ids_resolve": true,
+    "real_ids_only": true,
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": false
+  },
+  "constraint_violations": [
+    {
+      "code": "cold_without_outer",
+      "look": "A",
+      "message": "cold/storm context without outerwear"
+    },
+    {
+      "code": "cold_without_outer",
+      "look": "B",
+      "message": "cold/storm context without outerwear"
+    },
+    {
+      "code": "cold_without_outer",
+      "look": "C",
+      "message": "cold/storm context without outerwear"
+    }
+  ],
+  "status": "blocked",
+  "blocked_looks": [
+    {
+      "look_ref": "A",
+      "total": 36.6,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0009",
+          "name_zh": "达尔马提亚长袍",
+          "name_en": "dalmatic tunic",
+          "colors": [
+            "purple",
+            "gold",
+            "white"
+          ],
+          "materials": [
+            "wool",
+            "silk",
+            "tapestry_trim"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0110"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0081",
+          "name_zh": "皮靴",
+          "name_en": "leather boots",
+          "colors": [
+            "brown",
+            "tan"
+          ],
+          "materials": [
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0489"
+          ]
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0080",
+          "name_zh": "腰带",
+          "name_en": "belt",
+          "colors": [
+            "iron",
+            "silver",
+            "gold"
+          ],
+          "materials": [
+            "iron",
+            "silver",
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0487",
+            "SRC-0488"
+          ]
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0082",
+          "name_zh": "匕首",
+          "name_en": "dagger",
+          "colors": [
+            "steel",
+            "ivory",
+            "silver"
+          ],
+          "materials": [
+            "steel",
+            "ivory",
+            "silver",
+            "wood"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0490",
+            "SRC-0491"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear",
+        "accessory",
+        "carried_prop"
+      ],
+      "slot_count": 4,
+      "slot_ids": {
+        "one_piece": "GAR-0009",
+        "footwear": "GAR-0081",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "missing_slots": [
+        "outerwear"
+      ],
+      "palette": {
+        "colors": [
+          "brown",
+          "gold",
+          "iron",
+          "ivory",
+          "purple",
+          "silver",
+          "steel",
+          "tan",
+          "white"
+        ],
+        "families": {
+          "cool": 1,
+          "neutral": 8,
+          "other": 2
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.727,
+        "harmony": 0.7
+      },
+      "materials": {
+        "materials": [
+          "iron",
+          "ivory",
+          "leather",
+          "silk",
+          "silver",
+          "steel",
+          "tapestry trim",
+          "wood",
+          "wool"
+        ],
+        "families": {
+          "wool": 1,
+          "silk": 1,
+          "other": 3,
+          "leather": 2,
+          "metal": 4
+        },
+        "distinct": 5,
+        "harmony": 1.0
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.85,
+        "has_defined_waist": true,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "medieval",
+        "region": "europe",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "era",
+          "footwear": "era",
+          "accessory": "era",
+          "carried_prop": "era"
+        },
+        "region_evidence": {
+          "one_piece": "regional",
+          "footwear": "regional",
+          "accessory": "regional",
+          "carried_prop": "regional"
+        },
+        "occupation": "unknown",
+        "occupation_match": false,
+        "class": "high",
+        "occasion": null,
+        "weather": "storm, cold",
+        "action": "walking and fighting",
+        "lighting": "torchlight, cold moonlight",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0110",
+        "SRC-0489",
+        "SRC-0487",
+        "SRC-0488",
+        "SRC-0490",
+        "SRC-0491",
+        "SRC-0135",
+        "SRC-0140",
+        "SRC-0412",
+        "SRC-0200",
+        "SRC-0141",
+        "SRC-0142"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0009": "verified",
+        "GAR-0081": "verified",
+        "GAR-0080": "verified",
+        "GAR-0082": "verified"
+      },
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0110",
+          "SRC-0489",
+          "SRC-0487",
+          "SRC-0488",
+          "SRC-0490",
+          "SRC-0491",
+          "SRC-0135",
+          "SRC-0140",
+          "SRC-0412",
+          "SRC-0200",
+          "SRC-0141",
+          "SRC-0142"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0110",
+            "url": "https://fashionhistory.fitnyc.edu/dalmatic-tunic/"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0487",
+            "url": "https://collections.vam.ac.uk/item/O112685/"
+          },
+          {
+            "source_id": "SRC-0488",
+            "url": "https://collections.vam.ac.uk/item/O126654/"
+          },
+          {
+            "source_id": "SRC-0490",
+            "url": "https://collections.vam.ac.uk/item/O165105/"
+          },
+          {
+            "source_id": "SRC-0491",
+            "url": "https://collections.vam.ac.uk/item/O97427/"
+          },
+          {
+            "source_id": "SRC-0135",
+            "url": "https://fashionhistory.fitnyc.edu/leg-of-mutton-sleeves/"
+          },
+          {
+            "source_id": "SRC-0140",
+            "url": "https://fashionhistory.fitnyc.edu/slashing/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0009": "verified",
+          "GAR-0081": "verified",
+          "GAR-0080": "verified",
+          "GAR-0082": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from ceremonial / functional / functional / functional; the brown, gold, iron palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 21.5/25, 环境气候 7.4/15",
+        "连身: GAR-0009 达尔马提亚长袍 (ceremonial)",
+        "足部: GAR-0081 皮靴 (functional)",
+        "配饰: GAR-0080 腰带 (functional)",
+        "携带物: GAR-0082 匕首 (functional)",
+        "linked structure cards: STR-0005, STR-0010, STR-0015",
+        "linked material cards: MAT-0002, MAT-0003",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "incomplete look, missing: outerwear (knowledge-base gap, do not invent items)",
+        "rain/weather exposure without outer layer",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, iron, ivory, purple, silver, steel, tan, white, setting: heath and castle, night, storm, cold, art direction: restrained linen and wool, earth tones, lighting: torchlight, cold moonlight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_video": "Macbeth, walking and fighting, scene: heath and castle, night, storm, cold, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; footwear GAR-0081; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: walking and fighting; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.85; palette brown, gold, iron, ivory, purple, silver, steel, tan, white; materials iron, ivory, leather, silk, silver, steel, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "movement/action adaptation: walking and fighting; preserve range of motion, layer stability and footwear traction in motion",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    },
+    {
+      "look_ref": "B",
+      "total": 36.6,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0079",
+          "name_zh": "基尔特长袍",
+          "name_en": "kirtle",
+          "colors": [
+            "wool",
+            "linen"
+          ],
+          "materials": [
+            "wool",
+            "linen"
+          ],
+          "evidence_status": "interpretive",
+          "source_ids": []
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0081",
+          "name_zh": "皮靴",
+          "name_en": "leather boots",
+          "colors": [
+            "brown",
+            "tan"
+          ],
+          "materials": [
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0489"
+          ]
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0080",
+          "name_zh": "腰带",
+          "name_en": "belt",
+          "colors": [
+            "iron",
+            "silver",
+            "gold"
+          ],
+          "materials": [
+            "iron",
+            "silver",
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0487",
+            "SRC-0488"
+          ]
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0082",
+          "name_zh": "匕首",
+          "name_en": "dagger",
+          "colors": [
+            "steel",
+            "ivory",
+            "silver"
+          ],
+          "materials": [
+            "steel",
+            "ivory",
+            "silver",
+            "wood"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0490",
+            "SRC-0491"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear",
+        "accessory",
+        "carried_prop"
+      ],
+      "slot_count": 4,
+      "slot_ids": {
+        "one_piece": "GAR-0079",
+        "footwear": "GAR-0081",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "missing_slots": [
+        "outerwear"
+      ],
+      "palette": {
+        "colors": [
+          "brown",
+          "gold",
+          "iron",
+          "ivory",
+          "linen",
+          "silver",
+          "steel",
+          "tan",
+          "wool"
+        ],
+        "families": {
+          "other": 4,
+          "neutral": 6
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.6,
+        "harmony": 0.78
+      },
+      "materials": {
+        "materials": [
+          "iron",
+          "ivory",
+          "leather",
+          "linen",
+          "silver",
+          "steel",
+          "wood",
+          "wool"
+        ],
+        "families": {
+          "wool": 1,
+          "linen": 1,
+          "leather": 2,
+          "metal": 4,
+          "other": 2
+        },
+        "distinct": 5,
+        "harmony": 0.95
+      },
+      "silhouette": {
+        "shape": "A",
+        "proportion": 0.85,
+        "has_defined_waist": true,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "medieval",
+        "region": "europe",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "era",
+          "footwear": "era",
+          "accessory": "era",
+          "carried_prop": "era"
+        },
+        "region_evidence": {
+          "one_piece": "regional",
+          "footwear": "regional",
+          "accessory": "regional",
+          "carried_prop": "regional"
+        },
+        "occupation": "unknown",
+        "occupation_match": false,
+        "class": "high",
+        "occasion": null,
+        "weather": "storm, cold",
+        "action": "walking and fighting",
+        "lighting": "torchlight, cold moonlight",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0489",
+        "SRC-0487",
+        "SRC-0488",
+        "SRC-0490",
+        "SRC-0491",
+        "SRC-0202",
+        "SRC-0201",
+        "SRC-0486",
+        "SRC-0412",
+        "SRC-0200",
+        "SRC-0102",
+        "SRC-0483"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [
+        "GAR-0079"
+      ],
+      "item_evidence": {
+        "GAR-0079": "interpretive",
+        "GAR-0081": "verified",
+        "GAR-0080": "verified",
+        "GAR-0082": "verified"
+      },
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "regional",
+        "footwear": "regional",
+        "accessory": "regional",
+        "carried_prop": "regional"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0489",
+          "SRC-0487",
+          "SRC-0488",
+          "SRC-0490",
+          "SRC-0491",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0486",
+          "SRC-0412",
+          "SRC-0200",
+          "SRC-0102",
+          "SRC-0483"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0487",
+            "url": "https://collections.vam.ac.uk/item/O112685/"
+          },
+          {
+            "source_id": "SRC-0488",
+            "url": "https://collections.vam.ac.uk/item/O126654/"
+          },
+          {
+            "source_id": "SRC-0490",
+            "url": "https://collections.vam.ac.uk/item/O165105/"
+          },
+          {
+            "source_id": "SRC-0491",
+            "url": "https://collections.vam.ac.uk/item/O97427/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0486",
+            "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0079": "interpretive",
+          "GAR-0081": "verified",
+          "GAR-0080": "verified",
+          "GAR-0082": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from functional / functional / functional / functional; the brown, gold, iron palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 20.9/25, 环境气候 7.4/15",
+        "连身: GAR-0079 基尔特长袍 (functional)",
+        "足部: GAR-0081 皮靴 (functional)",
+        "配饰: GAR-0080 腰带 (functional)",
+        "携带物: GAR-0082 匕首 (functional)",
+        "linked structure cards: STR-0016, STR-0023, STR-0015",
+        "linked material cards: MAT-0013",
+        "period/culture score is supported by period-tagged cards"
+      ],
+      "risks": [
+        "incomplete look, missing: outerwear (knowledge-base gap, do not invent items)",
+        "rain/weather exposure without outer layer",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, iron, ivory, linen, silver, steel, tan, wool, setting: heath and castle, night, storm, cold, art direction: restrained linen and wool, earth tones, lighting: torchlight, cold moonlight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013",
+      "prompt_video": "Macbeth, walking and fighting, scene: heath and castle, night, storm, cold, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; footwear GAR-0081; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: walking and fighting; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.85; palette brown, gold, iron, ivory, linen, silver, steel, tan, wool; materials iron, ivory, leather, linen, silver, steel, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "movement/action adaptation: walking and fighting; preserve range of motion, layer stability and footwear traction in motion",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    },
+    {
+      "look_ref": "C",
+      "total": 33.5,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0075",
+          "name_zh": "束腰长袍",
+          "name_en": "tunic",
+          "colors": [
+            "natural_wool",
+            "indigo"
+          ],
+          "materials": [
+            "wool",
+            "linen",
+            "cotton"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0480",
+            "SRC-0481"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0081",
+          "name_zh": "皮靴",
+          "name_en": "leather boots",
+          "colors": [
+            "brown",
+            "tan"
+          ],
+          "materials": [
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0489"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear"
+      ],
+      "slot_count": 2,
+      "slot_ids": {
+        "one_piece": "GAR-0075",
+        "footwear": "GAR-0081"
+      },
+      "missing_slots": [
+        "outerwear"
+      ],
+      "palette": {
+        "colors": [
+          "brown",
+          "indigo",
+          "natural wool",
+          "tan"
+        ],
+        "families": {
+          "other": 1,
+          "cool": 1,
+          "neutral": 2
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.5,
+        "harmony": 0.92
+      },
+      "materials": {
+        "materials": [
+          "cotton",
+          "leather",
+          "linen",
+          "wool"
+        ],
+        "families": {
+          "wool": 1,
+          "linen": 1,
+          "cotton": 1,
+          "leather": 1
+        },
+        "distinct": 4,
+        "harmony": 1.0
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.7,
+        "has_defined_waist": false,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "medieval",
+        "region": "europe",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "era",
+          "footwear": "era"
+        },
+        "region_evidence": {
+          "one_piece": "none",
+          "footwear": "regional"
+        },
+        "occupation": "unknown",
+        "occupation_match": false,
+        "class": "high",
+        "occasion": null,
+        "weather": "storm, cold",
+        "action": "walking and fighting",
+        "lighting": "torchlight, cold moonlight",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0480",
+        "SRC-0481",
+        "SRC-0489",
+        "SRC-0202",
+        "SRC-0201",
+        "SRC-0413",
+        "SRC-0200",
+        "SRC-0102",
+        "SRC-0483"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0075": "verified",
+        "GAR-0081": "verified"
+      },
+      "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "none",
+        "footwear": "regional"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0480",
+          "SRC-0481",
+          "SRC-0489",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0413",
+          "SRC-0200",
+          "SRC-0102",
+          "SRC-0483"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0480",
+            "url": "https://collections.vam.ac.uk/item/O119606/"
+          },
+          {
+            "source_id": "SRC-0481",
+            "url": "https://collections.vam.ac.uk/item/O115594/"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
+          }
+        ],
+        "context_style_ids": [],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0075": "verified",
+          "GAR-0081": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from functional / functional; the brown, indigo, natural wool palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 14.1/25, 环境气候 8.4/15",
+        "连身: GAR-0075 束腰长袍 (functional)",
+        "足部: GAR-0081 皮靴 (functional)",
+        "linked structure cards: STR-0016, STR-0018",
+        "linked material cards: MAT-0013, MAT-0001"
+      ],
+      "risks": [
+        "incomplete look, missing: outerwear (knowledge-base gap, do not invent items)",
+        "rain/weather exposure without outer layer",
+        "region mismatch in GAR-0075: cards document their own regions, not europe",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: early medieval tunic, T-shaped or tailored linen/wool body, side gores, separately sewn sleeves, neck slit with loop-and-button, simple belt at waist, muted natural dyes; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole, palette: brown, indigo, natural wool, tan, setting: heath and castle, night, storm, cold, art direction: restrained linen and wool, earth tones, lighting: torchlight, cold moonlight, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); buttons and buttonholes (STR-0018), continuity lock: GAR-0075 tunic [natural_wool, indigo; wool, linen, cotton; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001",
+      "prompt_video": "Macbeth, walking and fighting, scene: heath and castle, night, storm, cold, camera: medium shot, costume: one-piece: early medieval tunic, T-shaped or tailored linen/wool body, side gores, separately sewn sleeves, neck slit with loop-and-button, simple belt at waist, muted natural dyes; wool, linen, cotton; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0075; footwear GAR-0081; movement/action adaptation: walking and fighting; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette brown, indigo, natural wool, tan; materials cotton, leather, linen, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "movement/action adaptation: walking and fighting; preserve range of motion, layer stability and footwear traction in motion",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    }
+  ],
+  "historical_accuracy": false
+}

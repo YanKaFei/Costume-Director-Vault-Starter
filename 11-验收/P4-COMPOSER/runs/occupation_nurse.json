@@ -242,6 +242,20 @@
         "GAR-0048": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "none",
+        "outerwear": "none",
+        "footwear": "none",
+        "accessory": "none",
+        "carried_prop": "none"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0400",
@@ -329,7 +343,7 @@
         "足部: GAR-0044 医疗工作鞋 (functional)",
         "配饰: GAR-0050 制服徽章 (functional)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0025, STR-0012, STR-0016, STR-0019",
+        "linked structure cards: STR-0025, STR-0012, STR-0016, STR-0019, STR-0026",
         "linked material cards: MAT-0001, MAT-0014, MAT-0003",
         "based on curated vault look card LOOK-0010"
       ],
@@ -339,7 +353,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": "cheaper",
-      "prompt_image": "full-body character design of an adult Lin, one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, blue, gold, multicolor, red, white, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ease and fit (STR-0025); turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); zipper (STR-0019), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0014, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Lin, one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, blue, gold, multicolor, red, white, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ease and fit (STR-0025); turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0014, MAT-0003 --ar 2:3 --style raw --v 6",
       "prompt_video": "Lin, fast walking, lifting a stretcher, putting on gloves, scene: emergency room, night, indoor, rain outside, camera: handheld close and medium, costume: one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0014, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0036; outerwear GAR-0041; footwear GAR-0044; accessory GAR-0050; carried prop GAR-0048; movement/action adaptation: fast walking, lifting a stretcher, putting on gloves; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.78; palette black, blue, gold, multicolor, red, white; materials canvas, cloth, cotton, leather, polyester, rubber, synthetic, thread, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: fast walking, lifting a stretcher, putting on gloves; preserve range of motion, layer stability and footwear traction in motion",
@@ -579,6 +593,20 @@
         "GAR-0080": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "outerwear": "era",
+        "footwear": "era",
+        "carried_prop": "none",
+        "one_piece": "era",
+        "accessory": "none"
+      },
+      "region_tiers": {
+        "outerwear": "none",
+        "footwear": "none",
+        "carried_prop": "none",
+        "one_piece": "none",
+        "accessory": "none"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0405",
@@ -703,7 +731,7 @@
     },
     {
       "look_ref": "C",
-      "total": 42.8,
+      "total": 41.5,
       "items": [
         {
           "slot": "outerwear",
@@ -727,26 +755,27 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0044",
-          "name_zh": "医疗工作鞋",
-          "name_en": "medical work shoes",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
           "colors": [
-            "white",
-            "black"
+            "black",
+            "brown"
           ],
           "materials": [
             "leather",
-            "rubber",
-            "synthetic"
+            "rubber"
           ],
-          "evidence_status": "interpretive",
-          "source_ids": []
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0123"
+          ]
         },
         {
           "slot": "carried_prop",
-          "id": "GAR-0048",
-          "name_zh": "手提包",
-          "name_en": "handbag",
+          "id": "GAR-0087",
+          "name_zh": "手袋结构（已迁移）",
+          "name_en": "handbag construction (superseded)",
           "colors": [
             "multicolor"
           ],
@@ -808,8 +837,8 @@
       "slot_count": 5,
       "slot_ids": {
         "outerwear": "GAR-0045",
-        "footwear": "GAR-0044",
-        "carried_prop": "GAR-0048",
+        "footwear": "GAR-0022",
+        "carried_prop": "GAR-0087",
         "one_piece": "GAR-0036",
         "accessory": "GAR-0050"
       },
@@ -819,6 +848,7 @@
           "beige",
           "black",
           "blue",
+          "brown",
           "gold",
           "khaki",
           "lavender",
@@ -846,7 +876,6 @@
           "leather",
           "polyester",
           "rubber",
-          "synthetic",
           "thread",
           "wool"
         ],
@@ -854,7 +883,7 @@
           "other": 4,
           "cotton": 2,
           "leather": 1,
-          "synthetic": 3,
+          "synthetic": 2,
           "wool": 1
         },
         "distinct": 5,
@@ -900,6 +929,7 @@
       },
       "source_ids": [
         "SRC-0405",
+        "SRC-0123",
         "SRC-0408",
         "SRC-0400",
         "SRC-0410",
@@ -907,28 +937,43 @@
         "SRC-0520",
         "SRC-0486",
         "SRC-0202",
+        "SRC-0484",
+        "SRC-0412",
+        "SRC-0413",
+        "SRC-0200",
         "SRC-0201",
         "SRC-0102",
         "SRC-0141",
-        "SRC-0143",
-        "SRC-0423",
         "SRC-0142"
       ],
       "missing_source_ids": [],
-      "items_without_source": [
-        "GAR-0044"
-      ],
+      "items_without_source": [],
       "item_evidence": {
         "GAR-0045": "verified",
-        "GAR-0044": "interpretive",
-        "GAR-0048": "verified",
+        "GAR-0022": "verified",
+        "GAR-0087": "verified",
         "GAR-0036": "verified",
         "GAR-0050": "verified"
       },
       "evidence_tier": "era",
+      "period_tiers": {
+        "outerwear": "era",
+        "footwear": "era",
+        "carried_prop": "era",
+        "one_piece": "era",
+        "accessory": "era"
+      },
+      "region_tiers": {
+        "outerwear": "none",
+        "footwear": "none",
+        "carried_prop": "none",
+        "one_piece": "none",
+        "accessory": "none"
+      },
       "evidence": {
         "source_ids": [
           "SRC-0405",
+          "SRC-0123",
           "SRC-0408",
           "SRC-0400",
           "SRC-0410",
@@ -936,17 +981,23 @@
           "SRC-0520",
           "SRC-0486",
           "SRC-0202",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0413",
+          "SRC-0200",
           "SRC-0201",
           "SRC-0102",
           "SRC-0141",
-          "SRC-0143",
-          "SRC-0423",
           "SRC-0142"
         ],
         "source_urls": [
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
+          },
+          {
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
             "source_id": "SRC-0408",
@@ -977,6 +1028,22 @@
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0413",
+            "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
             "source_id": "SRC-0201",
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
@@ -987,14 +1054,6 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
-          },
-          {
-            "source_id": "SRC-0143",
-            "url": "https://fashionhistory.fitnyc.edu/lurex/"
-          },
-          {
-            "source_id": "SRC-0423",
-            "url": "https://collections.vam.ac.uk/item/O315431/"
           },
           {
             "source_id": "SRC-0142",
@@ -1008,33 +1067,33 @@
         "context_scene_ids": [],
         "item_evidence": {
           "GAR-0045": "verified",
-          "GAR-0044": "interpretive",
-          "GAR-0048": "verified",
+          "GAR-0022": "verified",
+          "GAR-0087": "verified",
           "GAR-0036": "verified",
           "GAR-0050": "verified"
         },
         "missing_urls": []
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve emergency room nurse; the low economic register shows through material and finish; formality runs from smart_casual / functional / smart_casual / functional / functional; the beige, black, blue palette controls the emotional temperature; against the arc (twelve-hour night shift) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve emergency room nurse; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual / functional / functional; the beige, black, blue palette controls the emotional temperature; against the arc (twelve-hour night shift) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "reasons": [
         "highest scoring dimensions: 年代/文化 12.8/25, 摄影/一致性 6.8/10",
         "连身: GAR-0036 护士制服 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
-        "足部: GAR-0044 医疗工作鞋 (functional)",
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "配饰: GAR-0050 制服徽章 (functional)",
-        "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0025, STR-0023, STR-0019",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0014, MAT-0003"
+        "携带物: GAR-0087 手袋结构（已迁移） (smart_casual)",
+        "linked structure cards: STR-0025, STR-0023, STR-0021, STR-0018, STR-0019",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0003"
       ],
       "risks": [
-        "region mismatch in GAR-0036, GAR-0045, GAR-0044, GAR-0050, GAR-0048: cards document their own regions, not urban china shanghai",
+        "region mismatch in GAR-0036, GAR-0045, GAR-0022, GAR-0050, GAR-0087: cards document their own regions, not urban china shanghai",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Lin, one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, blue, gold, khaki, lavender, multicolor, red, white, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ease and fit (STR-0025); cuff (STR-0023); zipper (STR-0019), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0014, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Lin, fast walking, lifting a stretcher, putting on gloves, scene: emergency room, night, indoor, rain outside, camera: handheld close and medium, costume: one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; polyester; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0014, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "prompt_outfit": "complete outfit: one coherent full-body look; outerwear GAR-0045; footwear GAR-0044; carried prop GAR-0048; one-piece / dress GAR-0036; accessory GAR-0050; movement/action adaptation: fast walking, lifting a stretcher, putting on gloves; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.78; palette beige, black, blue, gold, khaki, lavender, multicolor, red, white; materials canvas, cloth, cotton, gabardine, lace, leather, polyester, rubber, synthetic, thread, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "prompt_image": "full-body character design of an adult Lin, one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s small handbag, embroidered canvas with wool cross-stitch, fabric handles or wrist strap, framed or soft body, carried in hand or on wrist, palette: beige, black, blue, brown, gold, khaki, lavender, multicolor, red, white, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ease and fit (STR-0025); cuff (STR-0023); seams and darts (STR-0021); buttons and buttonholes (STR-0018); zipper (STR-0019), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Lin, fast walking, lifting a stretcher, putting on gloves, scene: emergency room, night, indoor, rain outside, camera: handheld close and medium, costume: one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; polyester; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "prompt_outfit": "complete outfit: one coherent full-body look; outerwear GAR-0045; footwear GAR-0022; carried prop GAR-0087; one-piece / dress GAR-0036; accessory GAR-0050; movement/action adaptation: fast walking, lifting a stretcher, putting on gloves; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.78; palette beige, black, blue, brown, gold, khaki, lavender, multicolor, red, white; materials canvas, cloth, cotton, gabardine, lace, leather, polyester, rubber, thread, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: fast walking, lifting a stretcher, putting on gloves; preserve range of motion, layer stability and footwear traction in motion",
       "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
     }
@@ -1049,16 +1108,16 @@
       ]
     },
     "a_c": {
-      "item_diff": 2,
-      "palette_diff": 3,
+      "item_diff": 6,
+      "palette_diff": 4,
       "silhouette": [
         "H",
         "H"
       ]
     },
     "b_c": {
-      "item_diff": 4,
-      "palette_diff": 6,
+      "item_diff": 6,
+      "palette_diff": 7,
       "silhouette": [
         "H",
         "H"
@@ -1084,8 +1143,7 @@
       }
     ],
     "anchors": [
-      "GAR-0036",
-      "GAR-0044"
+      "GAR-0036"
     ],
     "note": "States are explicit input facts; unknown values are never replaced with invented dry/clean/damage-free assumptions.",
     "warnings": [
@@ -1114,7 +1172,10 @@
       "SRC-0486",
       "SRC-0412",
       "SRC-0200",
-      "SRC-0141"
+      "SRC-0141",
+      "SRC-0123",
+      "SRC-0484",
+      "SRC-0413"
     ],
     "missing_source_ids": [],
     "source_urls": [
@@ -1201,6 +1262,18 @@
       {
         "source_id": "SRC-0141",
         "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+      },
+      {
+        "source_id": "SRC-0123",
+        "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+      },
+      {
+        "source_id": "SRC-0484",
+        "url": "https://collections.vam.ac.uk/item/O356786/"
+      },
+      {
+        "source_id": "SRC-0413",
+        "url": "https://collections.vam.ac.uk/item/O15667/"
       }
     ]
   },
@@ -1210,9 +1283,11 @@
     "cards document other regions for GAR-0036, GAR-0041, GAR-0044, GAR-0045, GAR-0048, GAR-0050, GAR-0079, GAR-0082 (requested urban china shanghai); cross-region borrowing is flagged, not silently accepted",
     "occupation anchor GAR-0036 enforced in look B",
     "occupation anchor GAR-0036 enforced in look C",
+    "A/B/C structural repair: 2 shared slot(s) replaced in look C",
     "wetness/damage/dirt not specified; left unknown (not invented)",
     "items without source_ids: GAR-0041, GAR-0044",
-    "items without source_ids: GAR-0044"
+    "items without source_ids: GAR-0044",
+    "design includes declared per-item era/region mismatches; not a historical-accuracy claim"
   ],
   "warnings_detail": [
     {
@@ -1256,6 +1331,479 @@
     "ids_all_exist": true,
     "source_ids_resolve": true,
     "real_ids_only": true,
-    "continuity_states_explicit": false
-  }
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": false
+  },
+  "item_compatibility": [
+    {
+      "slot": "one_piece",
+      "id": "GAR-0036",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1960s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0041",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "global"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0044",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "global"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0050",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1940s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0048",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1930s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0045",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0044",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "global"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0036",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1960s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0045",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "footwear",
+      "id": "GAR-0022",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0087",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1930s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0036",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1960s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0050",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1940s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    }
+  ],
+  "declared_mismatches": [
+    {
+      "look": "A",
+      "slot": "one_piece",
+      "id": "GAR-0036",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1960s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "outerwear",
+      "id": "GAR-0041",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "global"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "footwear",
+      "id": "GAR-0044",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "global"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "accessory",
+      "id": "GAR-0050",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1940s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "carried_prop",
+      "id": "GAR-0048",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1930s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "outerwear",
+      "id": "GAR-0045",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "footwear",
+      "id": "GAR-0044",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "global"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "B",
+      "slot": "one_piece",
+      "id": "GAR-0036",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1960s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "C",
+      "slot": "outerwear",
+      "id": "GAR-0045",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "footwear",
+      "id": "GAR-0022",
+      "status": "region_mismatch",
+      "period_ok": true,
+      "region_ok": false,
+      "period_labels": [
+        "19th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "carried_prop",
+      "id": "GAR-0087",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1930s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "one_piece",
+      "id": "GAR-0036",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1960s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "C",
+      "slot": "accessory",
+      "id": "GAR-0050",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1940s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "era"
+    }
+  ],
+  "constraint_violations": [],
+  "status": "declared_mismatch",
+  "historical_accuracy": false
 }

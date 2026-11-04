@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "project": "demo",
+  "title": "demo",
+  "created_at": "2026-11-05T00:31:03+08:00",
+  "updated_at": "2026-11-05T00:31:04+08:00",
+  "looks": {
+    "MAC-M1-A": {
+      "character_id": "MAC",
+      "look_id": "MAC-M1-A",
+      "status": "Approved",
+      "version": 7,
+      "created_at": "2026-11-05T00:31:03+08:00",
+      "updated_at": "2026-11-05T00:31:04+08:00",
+      "author": "agent",
+      "rationale": "",
+      "sources": [],
+      "scene_changes": [],
+      "slots": {
+        "torso": {
+          "card_id": "GAR-0075",
+          "lock": "hard",
+          "note": ""
+        },
+        "footwear": {
+          "card_id": "GAR-0022",
+          "lock": "soft",
+          "note": "alternative boot"
+        }
+      },
+      "approved_anchors": {
+        "hard": [
+          {
+            "slot": "torso",
+            "card_id": "GAR-0075",
+            "lock": "hard",
+            "approved_by": "human-reviewer",
+            "approved_at": "2026-11-05T00:31:03+08:00"
+          }
+        ],
+        "soft": [
+          {
+            "slot": "footwear",
+            "card_id": "GAR-0081",
+            "lock": "soft",
+            "approved_by": "human-reviewer",
+            "approved_at": "2026-11-05T00:31:03+08:00"
+          }
+        ]
+      },
+      "change_log": [
+        {
+          "version": 2,
+          "at": "2026-11-05T00:31:03+08:00",
+          "actor": "agent",
+          "action": "init",
+          "item_patch": [],
+          "note": "create look"
+        },
+        {
+          "version": 3,
+          "at": "2026-11-05T00:31:03+08:00",
+          "actor": "agent",
+          "action": "add",
+          "item_patch": [
+            {
+              "slot": "torso",
+              "from": null,
+              "to": "GAR-0075"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "version": 4,
+          "at": "2026-11-05T00:31:03+08:00",
+          "actor": "agent",
+          "action": "add",
+          "item_patch": [
+            {
+              "slot": "footwear",
+              "from": null,
+              "to": "GAR-0081"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "version": 5,
+          "at": "2026-11-05T00:31:03+08:00",
+          "actor": "agent",
+          "action": "propose",
+          "item_patch": [],
+          "note": "submit for review"
+        },
+        {
+          "version": 6,
+          "at": "2026-11-05T00:31:03+08:00",
+          "actor": "agent",
+          "action": "approve",
+          "item_patch": [],
+          "note": "reviewer=human-reviewer"
+        },
+        {
+          "version": 7,
+          "at": "2026-11-05T00:31:04+08:00",
+          "actor": "agent",
+          "action": "patch",
+          "item_patch": [
+            {
+              "slot": "footwear",
+              "from": "GAR-0081",
+              "to": "GAR-0022"
+            }
+          ],
+          "note": "alternative boot"
+        }
+      ],
+      "approvals": [
+        {
+          "reviewer": "human-reviewer",
+          "role": "human",
+          "signature_file": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.1/CREATIVE/lookbook-root/human-signature.json",
+          "signature_sha256": "135b39d7d8e32f74e06c246abfb412011a407c779f0ccf7dbe698acaa90b9b7e",
+          "approved_at": "2026-11-05T00:31:03+08:00",
+          "note": ""
+        }
+      ],
+      "proposed_at": "2026-11-05T00:31:03+08:00",
+      "approved_at": "2026-11-05T00:31:03+08:00",
+      "approved_by": "human-reviewer"
+    }
+  }
+}

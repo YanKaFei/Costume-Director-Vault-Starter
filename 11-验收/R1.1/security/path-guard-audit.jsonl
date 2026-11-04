@@ -1,0 +1,14 @@
+{"ts": "2026-11-05T00:44:57+0800", "action": "check", "path": "private/x", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-05T00:44:57+0800", "action": "check", "path": "private/local-draft-play.txt", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "check", "path": ".ssh/id_rsa", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "check", "path": "credentials.yaml", "allowed": false, "reason": "sensitive filename credentials.yaml"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "check", "path": "assets/.env", "allowed": false, "reason": "sensitive filename .env"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "check", "path": "../../etc/passwd", "allowed": false, "reason": "path traversal"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "check", "path": "/Users/coffee/.ssh/id_rsa", "allowed": false, "reason": "home-relative path"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "check", "path": "/tmp/outside.txt", "allowed": false, "reason": "outside vault"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "read", "path": "01-服装单品/下装/GAR-0072-帕贾马裤.md", "allowed": true, "reason": "allowed"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "read", "path": "/var/folders/9l/1mlg4d5x3rs6t81m01w1nktc0000gn/T/tmpk6cijt83/secret.txt", "allowed": false, "reason": "outside vault"}
+{"ts": "2026-11-05T00:44:58+0800", "action": "check", "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.1/security/_escape_link/secret.txt", "allowed": false, "reason": "outside vault"}
+{"ts": "2026-11-05T00:45:05+0800", "action": "check", "path": "private/local-draft-play.txt", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-05T00:45:05+0800", "action": "read", "path": "../../etc/passwd", "allowed": false, "reason": "path traversal"}
+{"ts": "2026-11-05T00:45:05+0800", "action": "check", "path": "/tmp/r11_escape_link", "allowed": false, "reason": "outside vault"}

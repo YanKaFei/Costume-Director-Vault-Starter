@@ -1,0 +1,48 @@
+{
+  "character_id": "X",
+  "look_id": "L1",
+  "status": "Draft",
+  "version": 3,
+  "created_at": "2026-11-05T00:31:04+08:00",
+  "updated_at": "2026-11-05T00:31:04+08:00",
+  "author": "agent",
+  "rationale": "",
+  "sources": [],
+  "scene_changes": [],
+  "slots": {
+    "torso": {
+      "card_id": "GAR-0075",
+      "lock": "soft",
+      "note": ""
+    }
+  },
+  "approved_anchors": {
+    "hard": [],
+    "soft": []
+  },
+  "change_log": [
+    {
+      "version": 2,
+      "at": "2026-11-05T00:31:04+08:00",
+      "actor": "agent",
+      "action": "init",
+      "item_patch": [],
+      "note": "create look"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-05T00:31:04+08:00",
+      "actor": "agent",
+      "action": "add",
+      "item_patch": [
+        {
+          "slot": "torso",
+          "from": null,
+          "to": "GAR-0075"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "approvals": []
+}

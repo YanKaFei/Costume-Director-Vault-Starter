@@ -1,0 +1,67 @@
+{
+  "character_id": "SAMPLE",
+  "look_id": "SAMPLE-M1-A",
+  "status": "Draft",
+  "version": 4,
+  "created_at": "2026-11-05T00:28:38+08:00",
+  "updated_at": "2026-11-05T00:28:38+08:00",
+  "author": "agent",
+  "rationale": "示例：已批准轮廓（模板演示）",
+  "sources": [],
+  "scene_changes": [],
+  "slots": {
+    "torso": {
+      "card_id": "GAR-0075",
+      "lock": "hard",
+      "note": ""
+    },
+    "footwear": {
+      "card_id": "GAR-0081",
+      "lock": "soft",
+      "note": ""
+    }
+  },
+  "approved_anchors": {
+    "hard": [],
+    "soft": []
+  },
+  "change_log": [
+    {
+      "version": 2,
+      "at": "2026-11-05T00:28:38+08:00",
+      "actor": "agent",
+      "action": "init",
+      "item_patch": [],
+      "note": "create look"
+    },
+    {
+      "version": 3,
+      "at": "2026-11-05T00:28:38+08:00",
+      "actor": "agent",
+      "action": "add",
+      "item_patch": [
+        {
+          "slot": "torso",
+          "from": null,
+          "to": "GAR-0075"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "version": 4,
+      "at": "2026-11-05T00:28:38+08:00",
+      "actor": "agent",
+      "action": "add",
+      "item_patch": [
+        {
+          "slot": "footwear",
+          "from": null,
+          "to": "GAR-0081"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "approvals": []
+}

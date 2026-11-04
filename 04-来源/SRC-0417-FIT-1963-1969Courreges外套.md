@@ -15,10 +15,13 @@ source_ids: []
 evidence_status: verified
 review_status: reviewed
 license_status: link_only
+content_license: cc_by_nc_sa
+image_license: link_only
+license_verified: partial
 url: 'https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/'
 publisher: 'Fashion History Timeline, FIT/SUNY'
 date_accessed: 2026-11-04
-rights_statement: '© Fashion History Timeline, Fashion Institute of Technology (FIT), SUNY；文字 CC BY-NC-SA 4.0，图片除外；仅链接引用与转述。'
+rights_statement: "内容许可 cc_by_nc_sa；图像许可 link_only（未逐图核验）；本项目仅链接引用，不嵌入图片。"
 source_kind: academic_reference
 note: curl 实测：HTTP 200（2026-11-04）；可支撑主题见正文。
 tags: [costume, source, fit_timeline]

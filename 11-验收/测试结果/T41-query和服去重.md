@@ -1,11 +1,11 @@
 # T41 — query 去重：同名和服卡不得重复占据 top5
 
-- 运行时间：2026-11-04T18:14:08+08:00
+- 运行时间：2026-11-05T00:45:49+08:00
 - 测试类型：query_dedup, D3
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T41-query和服去重.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json`
-- 退出码：**0**（耗时 1.77s）
+- 退出码：**0**（耗时 1.8s）
 
 ## 实际输入
 
@@ -34,12 +34,49 @@
 }
 ```
 
+## 已知输入
+
+以下字段来自测试输入文件，是**已知条件**（不是模型推断）：
+
+- 角色名（`character.name`）："Aiko"
+- 职业（`character.occupation`）："dancer"
+- 经济状态（`character.economic_status`）："middle"
+- 人物弧线（`character.arc`）："performing in a period drama"
+- 年代（`period`）："1920s"
+- 地域（`region`）："japan"
+- 季节（`season`）："spring"
+- 美术方向（`art_direction`）："theatre period drama"
+- 摄影光线（`lighting`）："warm stage light"
+- 景别（`camera`）："medium shot"
+- 预算（`budget`）："medium"
+- 严格度模式（`fidelity_mode`）："inspired"
+- 生成工具（`tool`）："generic"
+
+## 假设
+
+- 人物弧线（performing in a period drama）对服装的映射属于导演/设计解释，不是服饰史事实。
+- inspired 模式：允许对历史元素做艺术化重构；卡片中的 verified 事实只作为灵感锚点。
+- 输入未提供的属性保持 unknown，不向服装史或剧作事实补造；本文件的推荐是设计建议而非史料。
+
+## unknown
+
+- 性别呈现（`character.gender_presentation`）：未指定 / unknown，未向生成器发明取值。
+- 年龄（`character.age`）：未指定 / unknown，未向生成器发明取值。
+- 场次（`scene.scene_id`）：未指定 / unknown，未向生成器发明取值。
+- 时间（`scene.time`）：未指定 / unknown，未向生成器发明取值。
+- 天气（`scene.weather`）：未指定 / unknown，未向生成器发明取值。
+- 动作（`scene.action`）：未指定 / unknown，未向生成器发明取值。
+- 地点（`scene.location`）：未指定 / unknown，未向生成器发明取值。
+- 湿度状态（`state.wetness`）：未指定 / unknown，未向生成器发明取值。
+- 破损状态（`state.damage`）：未指定 / unknown，未向生成器发明取值。
+- 污渍状态（`state.dirt`）：未指定 / unknown，未向生成器发明取值。
+
 ## 检索执行记录
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json` | 0 | 1.77s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 和服 --limit 5 --json` | 0 | 0.95s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json` | 0 | 1.8s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 和服 --limit 5 --json` | 0 | 0.93s |
 
 - `query.py` 命中数量：**5**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0001, GAR-0065, GAR-0066, SRC-0009, SRC-0028
@@ -135,18 +172,44 @@ full-body character design of an adult Aiko, complete set: early 20th-century Ja
 Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
 ```
 
-## 风险与证据
+## 风险
 
 ### Look A
 
-- 理由：highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10
-- 理由：成套: GAR-0065 出口和服 (ceremonial)
-- 理由：足部: GAR-0035 女式皮鞋 (smart_casual)
-- 理由：linked structure cards: STR-0016, STR-0017, STR-0025
-- 理由：linked material cards: MAT-0002, MAT-0003, MAT-0011, MAT-0014
 - 风险：region mismatch in GAR-0035: cards document their own regions, not japan
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look B
+
+- 风险：region mismatch in GAR-0031, GAR-0035: cards document their own regions, not japan
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look C
+
+- 风险：region mismatch in GAR-0058: cards document their own regions, not japan
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### 脚本级风险与缺口
+
+- [context_gap/medium] no reliable style card for art direction 'theatre period drama'
+- [region_mismatch/medium] cards document other regions for GAR-0035, GAR-0058 (requested japan); cross-region borrowing is flagged, not silently accepted
+- [occupation_coverage_gap/medium] the vault has no 'dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+- no reliable style card for art direction 'theatre period drama'
+- cards document other regions for GAR-0035, GAR-0058 (requested japan); cross-region borrowing is flagged, not silently accepted
+- the vault has no 'dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+
+## 证据
+
+### Look A
+
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10
+- 理由（解释性，不是史实）：成套: GAR-0065 出口和服 (ceremonial)
+- 理由（解释性，不是史实）：足部: GAR-0035 女式皮鞋 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0017, STR-0025
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0003, MAT-0011, MAT-0014
 - source_ids：SRC-0426, SRC-0205, SRC-0206, SRC-0202, SRC-0201, SRC-0108, SRC-0412, SRC-0521, SRC-0520, SRC-0141, SRC-0142, SRC-0423, SRC-0143
 - 来源链接：SRC-0426 → https://collections.vam.ac.uk/item/O25781/
 - 来源链接：SRC-0205 → https://collections.vam.ac.uk/item/O350849/
@@ -161,18 +224,16 @@ Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: m
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0143 → https://fashionhistory.fitnyc.edu/lurex/
+- 单件证据状态：GAR-0065=verified; GAR-0035=verified
 
 ### Look B
 
-- 理由：highest scoring dimensions: 年代/文化 13.8/25, 摄影/一致性 6.9/10
-- 理由：连身: GAR-0031 旗袍 (smart_casual)
-- 理由：足部: GAR-0035 女式皮鞋 (smart_casual)
-- 理由：linked structure cards: STR-0011, STR-0016, STR-0025
-- 理由：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0011
-- 理由：based on curated vault look card LOOK-0009
-- 风险：region mismatch in GAR-0031, GAR-0035: cards document their own regions, not japan
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 13.8/25, 摄影/一致性 6.9/10
+- 理由（解释性，不是史实）：连身: GAR-0031 旗袍 (smart_casual)
+- 理由（解释性，不是史实）：足部: GAR-0035 女式皮鞋 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0025
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0011
+- 理由（解释性，不是史实）：based on curated vault look card LOOK-0009
 - source_ids：SRC-0200, SRC-0201, SRC-0205, SRC-0206, SRC-0202, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
@@ -185,17 +246,15 @@ Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: m
 - 来源链接：SRC-0143 → https://fashionhistory.fitnyc.edu/lurex/
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
+- 单件证据状态：GAR-0031=verified; GAR-0035=verified
 
 ### Look C
 
-- 理由：highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10
-- 理由：成套: GAR-0065 出口和服 (ceremonial)
-- 理由：足部: GAR-0058 1970 年代厚底鞋 (smart_casual)
-- 理由：linked structure cards: STR-0016, STR-0017
-- 理由：linked material cards: MAT-0002, MAT-0003, MAT-0004
-- 风险：region mismatch in GAR-0058: cards document their own regions, not japan
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10
+- 理由（解释性，不是史实）：成套: GAR-0065 出口和服 (ceremonial)
+- 理由（解释性，不是史实）：足部: GAR-0058 1970 年代厚底鞋 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0017
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0003, MAT-0004
 - source_ids：SRC-0426, SRC-0418, SRC-0202, SRC-0201, SRC-0108, SRC-0412, SRC-0141, SRC-0142, SRC-0143
 - 来源链接：SRC-0426 → https://collections.vam.ac.uk/item/O25781/
 - 来源链接：SRC-0418 → https://collections.vam.ac.uk/item/O1380038/
@@ -206,6 +265,7 @@ Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: m
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 - 来源链接：SRC-0143 → https://fashionhistory.fitnyc.edu/lurex/
+- 单件证据状态：GAR-0065=verified; GAR-0058=verified
 
 ## 验收判定
 

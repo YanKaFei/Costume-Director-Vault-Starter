@@ -1,11 +1,11 @@
 # T30 — 自由文本 --brief：规则化剧本/人物解析
 
-- 运行时间：2026-11-04T18:13:42+08:00
+- 运行时间：2026-11-05T00:45:22+08:00
 - 测试类型：brief_parsing, 1930s_shanghai
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T30-自由文本brief解析.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json`
-- 退出码：**0**（耗时 1.24s）
+- 退出码：**0**（耗时 1.27s）
 
 ## 实际输入
 
@@ -15,12 +15,49 @@
 }
 ```
 
+## 已知输入
+
+以下字段来自测试输入文件，是**已知条件**（不是模型推断）：
+
+- （输入中没有可用的已知字段）
+
+## 假设
+
+- 预算未在输入中给出：按库内默认成本策略处理，C 套仅作低预算替代提示。
+- 输入未提供的属性保持 unknown，不向服装史或剧作事实补造；本文件的推荐是设计建议而非史料。
+
+## unknown
+
+- 角色名（`character.name`）：未指定 / unknown，未向生成器发明取值。
+- 性别呈现（`character.gender_presentation`）：未指定 / unknown，未向生成器发明取值。
+- 年龄（`character.age`）：未指定 / unknown，未向生成器发明取值。
+- 职业（`character.occupation`）：未指定 / unknown，未向生成器发明取值。
+- 经济状态（`character.economic_status`）：未指定 / unknown，未向生成器发明取值。
+- 人物弧线（`character.arc`）：未指定 / unknown，未向生成器发明取值。
+- 年代（`period`）：未指定 / unknown，未向生成器发明取值。
+- 地域（`region`）：未指定 / unknown，未向生成器发明取值。
+- 季节（`season`）：未指定 / unknown，未向生成器发明取值。
+- 场次（`scene.scene_id`）：未指定 / unknown，未向生成器发明取值。
+- 时间（`scene.time`）：未指定 / unknown，未向生成器发明取值。
+- 天气（`scene.weather`）：未指定 / unknown，未向生成器发明取值。
+- 动作（`scene.action`）：未指定 / unknown，未向生成器发明取值。
+- 地点（`scene.location`）：未指定 / unknown，未向生成器发明取值。
+- 美术方向（`art_direction`）：未指定 / unknown，未向生成器发明取值。
+- 摄影光线（`lighting`）：未指定 / unknown，未向生成器发明取值。
+- 景别（`camera`）：未指定 / unknown，未向生成器发明取值。
+- 预算（`budget`）：未指定 / unknown，未向生成器发明取值。
+- 严格度模式（`fidelity_mode`）：未指定 / unknown，未向生成器发明取值。
+- 生成工具（`tool`）：未指定 / unknown，未向生成器发明取值。
+- 湿度状态（`state.wetness`）：未指定 / unknown，未向生成器发明取值。
+- 破损状态（`state.damage`）：未指定 / unknown，未向生成器发明取值。
+- 污渍状态（`state.dirt`）：未指定 / unknown，未向生成器发明取值。
+
 ## 检索执行记录
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json` | 0 | 1.24s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s --type garment --limit 6 --json` | 0 | 0.9s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py --brief 1930s Shanghai, a poor journalist in the rain, noir period drama, low budget, historically accurate, walking to the newspaper office --json` | 0 | 1.27s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s --type garment --limit 6 --json` | 0 | 0.93s |
 
 - `query.py` 命中数量：**6**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0031, GAR-0032, GAR-0034, GAR-0035, GAR-0048, GAR-0060
@@ -50,7 +87,7 @@
 | footwear | `GAR-0035` | 女式皮鞋 / 1930s women’s shoes | black, red, silver | lace, sequins, silk, metallic_brocade | verified |
 | carried_prop | `GAR-0048` | 手提包 / handbag | multicolor | canvas, wool | verified |
 
-- 结构卡：STR-0011, STR-0016, STR-0023, STR-0025, STR-0019
+- 结构卡：STR-0011, STR-0016, STR-0023, STR-0025, STR-0019, STR-0026
 - 材质卡：MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
 
 ### Look C（score 48.0/100，cost 0.347，source_look=assembled）
@@ -98,7 +135,7 @@ unnamed character, walking, scene: unspecified location, unknown, rain, camera: 
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult unnamed character, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: unspecified location, unknown, rain, art direction: noir, lighting: unknown, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
+full-body character design of an adult unnamed character, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: unspecified location, unknown, rain, art direction: noir, lighting: unknown, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
 ```
 
 **Video prompt (EN):**
@@ -121,21 +158,50 @@ full-body character design of an adult unnamed character, one-piece: 1930s Shang
 unnamed character, walking, scene: unspecified location, unknown, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: unknown, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition
 ```
 
-## 风险与证据
+## 风险
 
 ### Look A
 
-- 理由：highest scoring dimensions: 年代/文化 14.2/25, 环境气候 7.2/15
-- 理由：连身: GAR-0031 旗袍 (smart_casual)
-- 理由：外层: GAR-0045 风衣 (smart_casual)
-- 理由：足部: GAR-0035 女式皮鞋 (smart_casual)
-- 理由：携带物: GAR-0047 雨伞 (smart_casual)
-- 理由：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025
-- 理由：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012
-- 理由：based on curated vault look card LOOK-0012
 - 风险：region mismatch in GAR-0045, GAR-0035, GAR-0047: cards document their own regions, not shanghai
 - 风险：character psychology is a directorial interpretation, not a clothing-history fact
 - 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look B
+
+- 风险：region mismatch in GAR-0045, GAR-0035, GAR-0048: cards document their own regions, not shanghai
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### Look C
+
+- 风险：region mismatch in GAR-0045, GAR-0060: cards document their own regions, not shanghai
+- 风险：character psychology is a directorial interpretation, not a clothing-history fact
+- 风险：all images remain external links; no third-party images are embedded in the vault
+
+### 脚本级风险与缺口
+
+- [context_gap/medium] no reliable style card for art direction 'noir'
+- [period_era_level/low] period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
+- [region_mismatch/medium] cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
+- [conflict_weather_vs_material/medium] wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot
+- [brief_unknown_fields/info] brief parser left these fields unknown: season
+- no reliable style card for art direction 'noir'
+- period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
+- cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
+- wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot
+
+## 证据
+
+### Look A
+
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 14.2/25, 环境气候 7.2/15
+- 理由（解释性，不是史实）：连身: GAR-0031 旗袍 (smart_casual)
+- 理由（解释性，不是史实）：外层: GAR-0045 风衣 (smart_casual)
+- 理由（解释性，不是史实）：足部: GAR-0035 女式皮鞋 (smart_casual)
+- 理由（解释性，不是史实）：携带物: GAR-0047 雨伞 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012
+- 理由（解释性，不是史实）：based on curated vault look card LOOK-0012
 - source_ids：SRC-0200, SRC-0201, SRC-0405, SRC-0205, SRC-0206, SRC-0407, SRC-0202, SRC-0486, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
@@ -152,20 +218,18 @@ unnamed character, walking, scene: unspecified location, unknown, rain, camera: 
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
+- 单件证据状态：GAR-0031=verified; GAR-0045=verified; GAR-0035=verified; GAR-0047=verified
 
 ### Look B
 
-- 理由：highest scoring dimensions: 年代/文化 14.4/25, 环境气候 8.1/15
-- 理由：连身: GAR-0031 旗袍 (smart_casual)
-- 理由：外层: GAR-0045 风衣 (smart_casual)
-- 理由：足部: GAR-0035 女式皮鞋 (smart_casual)
-- 理由：携带物: GAR-0048 手提包 (smart_casual)
-- 理由：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025, STR-0019
-- 理由：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
-- 理由：based on curated vault look card LOOK-0015
-- 风险：region mismatch in GAR-0045, GAR-0035, GAR-0048: cards document their own regions, not shanghai
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 14.4/25, 环境气候 8.1/15
+- 理由（解释性，不是史实）：连身: GAR-0031 旗袍 (smart_casual)
+- 理由（解释性，不是史实）：外层: GAR-0045 风衣 (smart_casual)
+- 理由（解释性，不是史实）：足部: GAR-0035 女式皮鞋 (smart_casual)
+- 理由（解释性，不是史实）：携带物: GAR-0048 手提包 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025, STR-0019, STR-0026
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
+- 理由（解释性，不是史实）：based on curated vault look card LOOK-0015
 - source_ids：SRC-0200, SRC-0201, SRC-0205, SRC-0206, SRC-0408, SRC-0405, SRC-0202, SRC-0486, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
@@ -182,18 +246,16 @@ unnamed character, walking, scene: unspecified location, unknown, rain, camera: 
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
+- 单件证据状态：GAR-0031=verified; GAR-0045=verified; GAR-0035=verified; GAR-0048=verified
 
 ### Look C
 
-- 理由：highest scoring dimensions: 年代/文化 14.9/25, 环境气候 9.7/15
-- 理由：连身: GAR-0031 旗袍 (smart_casual)
-- 理由：外层: GAR-0045 风衣 (smart_casual)
-- 理由：足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)
-- 理由：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020
-- 理由：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001
-- 风险：region mismatch in GAR-0045, GAR-0060: cards document their own regions, not shanghai
-- 风险：character psychology is a directorial interpretation, not a clothing-history fact
-- 风险：all images remain external links; no third-party images are embedded in the vault
+- 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 14.9/25, 环境气候 9.7/15
+- 理由（解释性，不是史实）：连身: GAR-0031 旗袍 (smart_casual)
+- 理由（解释性，不是史实）：外层: GAR-0045 风衣 (smart_casual)
+- 理由（解释性，不是史实）：足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)
+- 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001
 - source_ids：SRC-0200, SRC-0201, SRC-0405, SRC-0420, SRC-0202, SRC-0486, SRC-0451, SRC-0453, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
@@ -208,6 +270,7 @@ unnamed character, walking, scene: unspecified location, unknown, rain, camera: 
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
+- 单件证据状态：GAR-0031=verified; GAR-0045=verified; GAR-0060=verified
 
 ## 验收判定
 

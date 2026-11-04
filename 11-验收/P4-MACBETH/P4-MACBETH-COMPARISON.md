@@ -58,8 +58,8 @@
 {
   "looks": 3,
   "avg_items": 5.0,
-  "max_abc_diff": 4,
-  "unique_src": 21,
+  "max_abc_diff": 6,
+  "unique_src": 26,
   "checks": {
     "exit_ok": true,
     "three_looks": true,
@@ -67,7 +67,8 @@
     "ids_all_exist": true,
     "source_ids_resolve": true,
     "real_ids_only": true,
-    "continuity_states_explicit": false
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": false
   },
   "bilingual": {
     "旗袍/qipao": {
@@ -176,7 +177,7 @@
 | --- | --- | --- | --- |
 | looks | 9 | 12 | 3 |
 | avg items/look | 1.0 | 4.0 | 5.0 |
-| max A/B/C item diff | 0 | 6 | 4 |
-| unique SRC | 3 | 15 | 21 |
+| max A/B/C item diff | 0 | 6 | 6 |
+| unique SRC | 3 | 15 | 26 |
 
 No regression: P4 retains/increases looks, slots, A/B/C diff and source coverage; evidence gaps are explicit.

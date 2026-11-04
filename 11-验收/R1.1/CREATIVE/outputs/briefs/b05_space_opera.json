@@ -1,0 +1,1210 @@
+{
+  "composer": "P4-3 outfit-composer",
+  "input": {
+    "character_name": "unnamed character",
+    "age": "unknown",
+    "gender_presentation": "unknown",
+    "occupation": "singer / opera performer",
+    "economic_status": "unknown",
+    "period": "sci fi",
+    "region": "unknown",
+    "season": "unknown",
+    "scene": "",
+    "time": "unknown",
+    "weather": "hot",
+    "action": "singing",
+    "arc": "unknown",
+    "art_direction": "unknown",
+    "lighting": "unknown",
+    "camera": "medium shot",
+    "budget": "medium",
+    "fidelity_mode": "fictional",
+    "tool": "generic",
+    "story_day": "1",
+    "gender": "unknown",
+    "state": {},
+    "notes": "zero gravity opera singer, fictional sci-fi, theatrical, single top light",
+    "location": "",
+    "brief": "zero gravity opera singer, fictional sci-fi, theatrical, single top light",
+    "brief_parse": {
+      "period": "sci fi",
+      "region": "unknown",
+      "occupation": "singer / opera performer",
+      "economic_status": "unknown",
+      "weather": "hot",
+      "season": "unknown",
+      "art_direction": "unknown",
+      "action": "singing",
+      "budget": "unknown",
+      "fidelity_mode": "fictional",
+      "unknown_fields": [
+        "art_direction",
+        "budget",
+        "economic_status",
+        "region",
+        "season"
+      ],
+      "matched_terms": {
+        "period": [
+          "sci fi"
+        ]
+      },
+      "brief": "zero gravity opera singer, fictional sci-fi, theatrical, single top light"
+    }
+  },
+  "occupation_anchor": null,
+  "looks": [
+    {
+      "look_ref": "A",
+      "total": 46.7,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0032",
+          "name_zh": "长衫",
+          "name_en": "changshan",
+          "colors": [
+            "cream_white"
+          ],
+          "materials": [
+            "silk",
+            "gauze_silk"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0202"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0084",
+          "name_zh": "高跟鞋",
+          "name_en": "high-heeled shoes",
+          "colors": [
+            "black"
+          ],
+          "materials": [
+            "silk_satin",
+            "leather"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0524"
+          ]
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0067",
+          "name_zh": "云肩",
+          "name_en": "cloud collar",
+          "colors": [
+            "multicolor",
+            "gold"
+          ],
+          "materials": [
+            "satin_silk",
+            "glass_beads",
+            "metal_thread"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0428"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear",
+        "accessory"
+      ],
+      "slot_count": 3,
+      "slot_ids": {
+        "one_piece": "GAR-0032",
+        "footwear": "GAR-0084",
+        "accessory": "GAR-0067"
+      },
+      "missing_slots": [],
+      "palette": {
+        "colors": [
+          "black",
+          "cream white",
+          "gold",
+          "multicolor"
+        ],
+        "families": {
+          "neutral": 3,
+          "other": 1
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.75,
+        "harmony": 0.7
+      },
+      "materials": {
+        "materials": [
+          "gauze silk",
+          "glass beads",
+          "leather",
+          "metal thread",
+          "satin silk",
+          "silk",
+          "silk satin"
+        ],
+        "families": {
+          "silk": 4,
+          "leather": 1,
+          "other": 1,
+          "metal": 1
+        },
+        "distinct": 4,
+        "harmony": 1.0
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.7,
+        "has_defined_waist": false,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "sci fi",
+        "region": "unknown",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "none",
+          "footwear": "none",
+          "accessory": "none"
+        },
+        "region_evidence": {
+          "one_piece": "unknown",
+          "footwear": "unknown",
+          "accessory": "unknown"
+        },
+        "occupation": "generic:singer",
+        "occupation_match": false,
+        "class": "unknown",
+        "occasion": null,
+        "weather": "hot",
+        "action": "singing",
+        "lighting": "unknown",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0202",
+        "SRC-0524",
+        "SRC-0428",
+        "SRC-0200",
+        "SRC-0201",
+        "SRC-0451",
+        "SRC-0453",
+        "SRC-0141",
+        "SRC-0142",
+        "SRC-0423",
+        "SRC-0102",
+        "SRC-0143"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0032": "verified",
+        "GAR-0084": "verified",
+        "GAR-0067": "verified"
+      },
+      "evidence_tier": "none",
+      "period_tiers": {
+        "one_piece": "none",
+        "footwear": "none",
+        "accessory": "none"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "footwear": "unknown",
+        "accessory": "unknown"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0202",
+          "SRC-0524",
+          "SRC-0428",
+          "SRC-0200",
+          "SRC-0201",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0423",
+          "SRC-0102",
+          "SRC-0143"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0524",
+            "url": "https://collections.vam.ac.uk/item/O74856/"
+          },
+          {
+            "source_id": "SRC-0428",
+            "url": "https://collections.vam.ac.uk/item/O127602/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0032": "verified",
+          "GAR-0084": "verified",
+          "GAR-0067": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve singer / opera performer; formality runs from formal / formal / ceremonial; the black, cream white, gold palette controls the emotional temperature.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 12.1/25, 环境气候 10.9/15",
+        "连身: GAR-0032 长衫 (formal)",
+        "足部: GAR-0084 高跟鞋 (formal)",
+        "配饰: GAR-0067 云肩 (ceremonial)",
+        "linked structure cards: STR-0011, STR-0016, STR-0020",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0011, MAT-0012, MAT-0014"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0032, GAR-0084, GAR-0067: cards document their own regions, not unknown",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 18th-century women’s black silk satin high-heeled shoes, slender heel, pointed tongue, leather sole, buckled or slip-on; accessory: Chinese cloud collar (yunjian), detachable, satin silk with silk and metallic thread embroidery, moulded glass beads, ruyi cloud-shaped panels, floral and insect motifs, bridal accessory, palette: black, cream white, gold, multicolor, setting: unspecified location, unknown, hot, art direction: unknown, lighting: unknown, camera: medium shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); panels and gores (STR-0020), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0084 high-heeled shoes [black; silk_satin, leather; footwear] | GAR-0067 cloud collar [multicolor, gold; satin_silk, glass_beads, metal_thread; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0012, MAT-0014",
+      "prompt_video": "unnamed character, singing, scene: unspecified location, unknown, hot, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 18th-century women’s black silk satin high-heeled shoes, slender heel, pointed tongue, leather sole, buckled or slip-on; silk, gauze_silk; one-piece] | GAR-0084 high-heeled shoes [black; silk_satin, leather; footwear] | GAR-0067 cloud collar [multicolor, gold; satin_silk, glass_beads, metal_thread; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0012, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0032; footwear GAR-0084; accessory GAR-0067; movement/action adaptation: singing; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, cream white, gold, multicolor; materials gauze silk, glass beads, leather, metal thread, satin silk, silk, silk satin; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "movement/action adaptation: singing; preserve range of motion, layer stability and footwear traction in motion",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    },
+    {
+      "look_ref": "B",
+      "total": 44.8,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0031",
+          "name_zh": "旗袍",
+          "name_en": "qipao",
+          "colors": [
+            "white",
+            "orange_red",
+            "pink",
+            "mid_blue"
+          ],
+          "materials": [
+            "silk",
+            "synthetic_velvet",
+            "crepe",
+            "silk_damask"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0200",
+            "SRC-0201"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
+          "colors": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "materials": [
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0205",
+            "SRC-0206"
+          ]
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0067",
+          "name_zh": "云肩",
+          "name_en": "cloud collar",
+          "colors": [
+            "multicolor",
+            "gold"
+          ],
+          "materials": [
+            "satin_silk",
+            "glass_beads",
+            "metal_thread"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0428"
+          ]
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0047",
+          "name_zh": "雨伞",
+          "name_en": "umbrella",
+          "colors": [
+            "black",
+            "silver"
+          ],
+          "materials": [
+            "silk",
+            "silver",
+            "wood"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0407"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear",
+        "accessory",
+        "carried_prop"
+      ],
+      "slot_count": 4,
+      "slot_ids": {
+        "one_piece": "GAR-0031",
+        "footwear": "GAR-0035",
+        "accessory": "GAR-0067",
+        "carried_prop": "GAR-0047"
+      },
+      "missing_slots": [],
+      "palette": {
+        "colors": [
+          "black",
+          "gold",
+          "mid blue",
+          "multicolor",
+          "orange red",
+          "pink",
+          "red",
+          "silver",
+          "white"
+        ],
+        "families": {
+          "neutral": 6,
+          "warm": 3,
+          "cool": 1,
+          "other": 1
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.545,
+        "harmony": 0.92
+      },
+      "materials": {
+        "materials": [
+          "crepe",
+          "glass beads",
+          "lace",
+          "metal thread",
+          "metallic brocade",
+          "satin silk",
+          "sequins",
+          "silk",
+          "silk damask",
+          "silver",
+          "synthetic velvet",
+          "wood"
+        ],
+        "families": {
+          "silk": 7,
+          "other": 4,
+          "metal": 3
+        },
+        "distinct": 3,
+        "harmony": 0.95
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.7,
+        "has_defined_waist": false,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "sci fi",
+        "region": "unknown",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "none",
+          "footwear": "none",
+          "accessory": "none",
+          "carried_prop": "none"
+        },
+        "region_evidence": {
+          "one_piece": "unknown",
+          "footwear": "unknown",
+          "accessory": "unknown",
+          "carried_prop": "unknown"
+        },
+        "occupation": "generic:singer",
+        "occupation_match": false,
+        "class": "unknown",
+        "occasion": null,
+        "weather": "hot",
+        "action": "singing",
+        "lighting": "unknown",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0200",
+        "SRC-0201",
+        "SRC-0205",
+        "SRC-0206",
+        "SRC-0428",
+        "SRC-0407",
+        "SRC-0202",
+        "SRC-0521",
+        "SRC-0520",
+        "SRC-0451",
+        "SRC-0453",
+        "SRC-0141",
+        "SRC-0143",
+        "SRC-0423",
+        "SRC-0142",
+        "SRC-0102"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0031": "verified",
+        "GAR-0035": "verified",
+        "GAR-0067": "verified",
+        "GAR-0047": "verified"
+      },
+      "evidence_tier": "none",
+      "period_tiers": {
+        "one_piece": "none",
+        "footwear": "none",
+        "accessory": "none",
+        "carried_prop": "none"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "footwear": "unknown",
+        "accessory": "unknown",
+        "carried_prop": "unknown"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0200",
+          "SRC-0201",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0428",
+          "SRC-0407",
+          "SRC-0202",
+          "SRC-0521",
+          "SRC-0520",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0141",
+          "SRC-0143",
+          "SRC-0423",
+          "SRC-0142",
+          "SRC-0102"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0428",
+            "url": "https://collections.vam.ac.uk/item/O127602/"
+          },
+          {
+            "source_id": "SRC-0407",
+            "url": "https://collections.vam.ac.uk/item/O470711/"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0031": "verified",
+          "GAR-0035": "verified",
+          "GAR-0067": "verified",
+          "GAR-0047": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve singer / opera performer; formality runs from smart_casual / smart_casual / ceremonial / smart_casual; the black, gold, mid blue palette controls the emotional temperature.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 12.1/25, 环境气候 10.9/15",
+        "连身: GAR-0031 旗袍 (smart_casual)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "配饰: GAR-0067 云肩 (ceremonial)",
+        "携带物: GAR-0047 雨伞 (smart_casual)",
+        "linked structure cards: STR-0011, STR-0016, STR-0025, STR-0020",
+        "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0011, MAT-0012",
+        "based on curated vault look card LOOK-0009"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0031, GAR-0035, GAR-0067, GAR-0047: cards document their own regions, not unknown",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: Chinese cloud collar (yunjian), detachable, satin silk with silk and metallic thread embroidery, moulded glass beads, ruyi cloud-shaped panels, floral and insect motifs, bridal accessory; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: black, gold, mid blue, multicolor, orange red, pink, red, silver, white, setting: unspecified location, unknown, hot, art direction: unknown, lighting: unknown, camera: medium shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); ease and fit (STR-0025); panels and gores (STR-0020), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0067 cloud collar [multicolor, gold; satin_silk, glass_beads, metal_thread; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0011, MAT-0012",
+      "prompt_video": "unnamed character, singing, scene: unspecified location, unknown, hot, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: Chinese cloud collar (yunjian), detachable, satin silk with silk and metallic thread embroidery, moulded glass beads, ruyi cloud-shaped panels, floral and insect motifs, bridal accessory; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0067 cloud collar [multicolor, gold; satin_silk, glass_beads, metal_thread; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0011, MAT-0012, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0031; footwear GAR-0035; accessory GAR-0067; carried prop GAR-0047; movement/action adaptation: singing; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, gold, mid blue, multicolor, orange red, pink, red, silver, white; materials crepe, glass beads, lace, metal thread, metallic brocade, satin silk, sequins, silk, silk damask, silver, synthetic velvet, wood; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "movement/action adaptation: singing; preserve range of motion, layer stability and footwear traction in motion",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    },
+    {
+      "look_ref": "C",
+      "total": 44.8,
+      "items": [
+        {
+          "slot": "one_piece",
+          "id": "GAR-0032",
+          "name_zh": "长衫",
+          "name_en": "changshan",
+          "colors": [
+            "cream_white"
+          ],
+          "materials": [
+            "silk",
+            "gauze_silk"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0202"
+          ]
+        },
+        {
+          "slot": "footwear",
+          "id": "GAR-0035",
+          "name_zh": "女式皮鞋",
+          "name_en": "1930s women’s shoes",
+          "colors": [
+            "black",
+            "red",
+            "silver"
+          ],
+          "materials": [
+            "lace",
+            "sequins",
+            "silk",
+            "metallic_brocade"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0205",
+            "SRC-0206"
+          ]
+        },
+        {
+          "slot": "accessory",
+          "id": "GAR-0067",
+          "name_zh": "云肩",
+          "name_en": "cloud collar",
+          "colors": [
+            "multicolor",
+            "gold"
+          ],
+          "materials": [
+            "satin_silk",
+            "glass_beads",
+            "metal_thread"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0428"
+          ]
+        },
+        {
+          "slot": "carried_prop",
+          "id": "GAR-0047",
+          "name_zh": "雨伞",
+          "name_en": "umbrella",
+          "colors": [
+            "black",
+            "silver"
+          ],
+          "materials": [
+            "silk",
+            "silver",
+            "wood"
+          ],
+          "evidence_status": "verified",
+          "source_ids": [
+            "SRC-0407"
+          ]
+        }
+      ],
+      "covered_slots": [
+        "torso",
+        "footwear",
+        "accessory",
+        "carried_prop"
+      ],
+      "slot_count": 4,
+      "slot_ids": {
+        "one_piece": "GAR-0032",
+        "footwear": "GAR-0035",
+        "accessory": "GAR-0067",
+        "carried_prop": "GAR-0047"
+      },
+      "missing_slots": [],
+      "palette": {
+        "colors": [
+          "black",
+          "cream white",
+          "gold",
+          "multicolor",
+          "red",
+          "silver"
+        ],
+        "families": {
+          "neutral": 6,
+          "warm": 1,
+          "other": 1
+        },
+        "dominant_family": "neutral",
+        "dominant_share": 0.75,
+        "harmony": 0.7
+      },
+      "materials": {
+        "materials": [
+          "gauze silk",
+          "glass beads",
+          "lace",
+          "metal thread",
+          "metallic brocade",
+          "satin silk",
+          "sequins",
+          "silk",
+          "silver",
+          "wood"
+        ],
+        "families": {
+          "silk": 5,
+          "other": 4,
+          "metal": 3
+        },
+        "distinct": 3,
+        "harmony": 0.95
+      },
+      "silhouette": {
+        "shape": "H",
+        "proportion": 0.7,
+        "has_defined_waist": false,
+        "balanced_slots": true,
+        "layered": false
+      },
+      "domain_fit": {
+        "period": "sci fi",
+        "region": "unknown",
+        "culture": null,
+        "period_evidence": {
+          "one_piece": "none",
+          "footwear": "none",
+          "accessory": "none",
+          "carried_prop": "none"
+        },
+        "region_evidence": {
+          "one_piece": "unknown",
+          "footwear": "unknown",
+          "accessory": "unknown",
+          "carried_prop": "unknown"
+        },
+        "occupation": "generic:singer",
+        "occupation_match": false,
+        "class": "unknown",
+        "occasion": null,
+        "weather": "hot",
+        "action": "singing",
+        "lighting": "unknown",
+        "camera": "medium shot",
+        "weather_risk": false,
+        "movement_risk": false,
+        "budget": "medium",
+        "budget_mode": null
+      },
+      "source_ids": [
+        "SRC-0202",
+        "SRC-0205",
+        "SRC-0206",
+        "SRC-0428",
+        "SRC-0407",
+        "SRC-0200",
+        "SRC-0201",
+        "SRC-0521",
+        "SRC-0520",
+        "SRC-0451",
+        "SRC-0453",
+        "SRC-0141",
+        "SRC-0142",
+        "SRC-0423",
+        "SRC-0143",
+        "SRC-0102"
+      ],
+      "missing_source_ids": [],
+      "items_without_source": [],
+      "item_evidence": {
+        "GAR-0032": "verified",
+        "GAR-0035": "verified",
+        "GAR-0067": "verified",
+        "GAR-0047": "verified"
+      },
+      "evidence_tier": "none",
+      "period_tiers": {
+        "one_piece": "none",
+        "footwear": "none",
+        "accessory": "none",
+        "carried_prop": "none"
+      },
+      "region_tiers": {
+        "one_piece": "unknown",
+        "footwear": "unknown",
+        "accessory": "unknown",
+        "carried_prop": "unknown"
+      },
+      "evidence": {
+        "source_ids": [
+          "SRC-0202",
+          "SRC-0205",
+          "SRC-0206",
+          "SRC-0428",
+          "SRC-0407",
+          "SRC-0200",
+          "SRC-0201",
+          "SRC-0521",
+          "SRC-0520",
+          "SRC-0451",
+          "SRC-0453",
+          "SRC-0141",
+          "SRC-0142",
+          "SRC-0423",
+          "SRC-0143",
+          "SRC-0102"
+        ],
+        "source_urls": [
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0205",
+            "url": "https://collections.vam.ac.uk/item/O350849/"
+          },
+          {
+            "source_id": "SRC-0206",
+            "url": "https://collections.vam.ac.uk/item/O350850/"
+          },
+          {
+            "source_id": "SRC-0428",
+            "url": "https://collections.vam.ac.uk/item/O127602/"
+          },
+          {
+            "source_id": "SRC-0407",
+            "url": "https://collections.vam.ac.uk/item/O470711/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0142",
+            "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0143",
+            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          },
+          {
+            "source_id": "SRC-0102",
+            "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          }
+        ],
+        "context_style_ids": [
+          "STY-0009"
+        ],
+        "context_period_ids": [],
+        "context_scene_ids": [],
+        "item_evidence": {
+          "GAR-0032": "verified",
+          "GAR-0035": "verified",
+          "GAR-0067": "verified",
+          "GAR-0047": "verified"
+        },
+        "missing_urls": []
+      },
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve singer / opera performer; formality runs from formal / smart_casual / ceremonial / smart_casual; the black, cream white, gold palette controls the emotional temperature.",
+      "reasons": [
+        "highest scoring dimensions: 年代/文化 12.1/25, 环境气候 10.9/15",
+        "连身: GAR-0032 长衫 (formal)",
+        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "配饰: GAR-0067 云肩 (ceremonial)",
+        "携带物: GAR-0047 雨伞 (smart_casual)",
+        "linked structure cards: STR-0011, STR-0016, STR-0025, STR-0020",
+        "linked material cards: MAT-0002, MAT-0003, MAT-0011, MAT-0014, MAT-0012"
+      ],
+      "risks": [
+        "fictional mode: no historical claim is made for this design",
+        "region mismatch in GAR-0032, GAR-0035, GAR-0067, GAR-0047: cards document their own regions, not unknown",
+        "character psychology is a directorial interpretation, not a clothing-history fact",
+        "all images remain external links; no third-party images are embedded in the vault"
+      ],
+      "budget_mode": null,
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: Chinese cloud collar (yunjian), detachable, satin silk with silk and metallic thread embroidery, moulded glass beads, ruyi cloud-shaped panels, floral and insect motifs, bridal accessory; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: black, cream white, gold, multicolor, red, silver, setting: unspecified location, unknown, hot, art direction: unknown, lighting: unknown, camera: medium shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); ease and fit (STR-0025); panels and gores (STR-0020), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0067 cloud collar [multicolor, gold; satin_silk, glass_beads, metal_thread; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014, MAT-0012",
+      "prompt_video": "unnamed character, singing, scene: unspecified location, unknown, hot, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: Chinese cloud collar (yunjian), detachable, satin silk with silk and metallic thread embroidery, moulded glass beads, ruyi cloud-shaped panels, floral and insect motifs, bridal accessory; silk, gauze_silk; one-piece] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0067 cloud collar [multicolor, gold; satin_silk, glass_beads, metal_thread; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0011, MAT-0014, MAT-0012, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0032; footwear GAR-0035; accessory GAR-0067; carried prop GAR-0047; movement/action adaptation: singing; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, cream white, gold, multicolor, red, silver; materials gauze silk, glass beads, lace, metal thread, metallic brocade, satin silk, sequins, silk, silver, wood; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "movement_note": "movement/action adaptation: singing; preserve range of motion, layer stability and footwear traction in motion",
+      "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
+    }
+  ],
+  "abc_metrics": {
+    "a_b": {
+      "item_diff": 5,
+      "palette_diff": 7,
+      "silhouette": [
+        "H",
+        "H"
+      ]
+    },
+    "a_c": {
+      "item_diff": 3,
+      "palette_diff": 2,
+      "silhouette": [
+        "H",
+        "H"
+      ]
+    },
+    "b_c": {
+      "item_diff": 2,
+      "palette_diff": 5,
+      "silhouette": [
+        "H",
+        "H"
+      ]
+    },
+    "all_pairwise_ge_2": true
+  },
+  "completeness": {
+    "all_have_torso": true,
+    "all_have_footwear": true,
+    "all_have_outerwear": false,
+    "all_have_accessory": true,
+    "all_have_carried_prop": false
+  },
+  "continuity": {
+    "states": [
+      {
+        "scene": "single",
+        "wetness": "unknown",
+        "damage": "unknown",
+        "dirt": "unknown",
+        "source": "not specified"
+      }
+    ],
+    "anchors": [
+      "GAR-0067"
+    ],
+    "note": "States are explicit input facts; unknown values are never replaced with invented dry/clean/damage-free assumptions.",
+    "warnings": [
+      "wetness/damage/dirt not specified; left unknown (not invented)"
+    ]
+  },
+  "evidence": {
+    "source_ids": [
+      "SRC-0202",
+      "SRC-0524",
+      "SRC-0428",
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0451",
+      "SRC-0453",
+      "SRC-0141",
+      "SRC-0142",
+      "SRC-0423",
+      "SRC-0102",
+      "SRC-0143",
+      "SRC-0205",
+      "SRC-0206",
+      "SRC-0407",
+      "SRC-0521",
+      "SRC-0520"
+    ],
+    "missing_source_ids": [],
+    "source_urls": [
+      {
+        "source_id": "SRC-0202",
+        "url": "https://collections.vam.ac.uk/item/O80590/"
+      },
+      {
+        "source_id": "SRC-0524",
+        "url": "https://collections.vam.ac.uk/item/O74856/"
+      },
+      {
+        "source_id": "SRC-0428",
+        "url": "https://collections.vam.ac.uk/item/O127602/"
+      },
+      {
+        "source_id": "SRC-0200",
+        "url": "https://collections.vam.ac.uk/item/O1151302/"
+      },
+      {
+        "source_id": "SRC-0201",
+        "url": "https://collections.vam.ac.uk/item/O107537/"
+      },
+      {
+        "source_id": "SRC-0451",
+        "url": "https://collections.vam.ac.uk/item/O109190/"
+      },
+      {
+        "source_id": "SRC-0453",
+        "url": "https://collections.vam.ac.uk/item/O163754/"
+      },
+      {
+        "source_id": "SRC-0141",
+        "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+      },
+      {
+        "source_id": "SRC-0142",
+        "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+      },
+      {
+        "source_id": "SRC-0423",
+        "url": "https://collections.vam.ac.uk/item/O315431/"
+      },
+      {
+        "source_id": "SRC-0102",
+        "url": "https://fashionhistory.fitnyc.edu/muslin/"
+      },
+      {
+        "source_id": "SRC-0143",
+        "url": "https://fashionhistory.fitnyc.edu/lurex/"
+      },
+      {
+        "source_id": "SRC-0205",
+        "url": "https://collections.vam.ac.uk/item/O350849/"
+      },
+      {
+        "source_id": "SRC-0206",
+        "url": "https://collections.vam.ac.uk/item/O350850/"
+      },
+      {
+        "source_id": "SRC-0407",
+        "url": "https://collections.vam.ac.uk/item/O470711/"
+      },
+      {
+        "source_id": "SRC-0521",
+        "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+      },
+      {
+        "source_id": "SRC-0520",
+        "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+      }
+    ]
+  },
+  "warnings": [
+    "no reliable period/region context card after period/region normalization (requested: sci fi / unknown)",
+    "period evidence is approximate/none for GAR-0031, GAR-0032, GAR-0035, GAR-0084 (requested sci fi); treat these as era-level hypotheses, not exact period matches",
+    "the vault has no 'singer / opera performer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+    "fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins",
+    "no carried_prop candidate in the vault for this brief",
+    "a composed look lacks carried prop (knowledge-base gap)",
+    "wetness/damage/dirt not specified; left unknown (not invented)"
+  ],
+  "warnings_detail": [
+    {
+      "code": "context_gap",
+      "severity": "medium",
+      "message": "no reliable period/region context card after period/region normalization (requested: sci fi / unknown)",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "period_approximate",
+      "severity": "medium",
+      "message": "period evidence is approximate/none for GAR-0031, GAR-0032, GAR-0035, GAR-0084 (requested sci fi); treat these as era-level hypotheses, not exact period matches",
+      "items": [
+        "GAR-0031",
+        "GAR-0032",
+        "GAR-0035",
+        "GAR-0084"
+      ],
+      "look": null
+    },
+    {
+      "code": "occupation_coverage_gap",
+      "severity": "medium",
+      "message": "the vault has no 'singer / opera performer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "future_wardrobe_gap",
+      "severity": "high",
+      "message": "fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins",
+      "items": [],
+      "look": null
+    },
+    {
+      "code": "brief_unknown_fields",
+      "severity": "info",
+      "message": "brief parser left these fields unknown: art_direction, budget, economic_status, region, season",
+      "items": [],
+      "look": null
+    }
+  ],
+  "checks": {
+    "exit_ok": true,
+    "three_looks": true,
+    "abc_pairwise_ge_2": true,
+    "ids_all_exist": true,
+    "source_ids_resolve": true,
+    "real_ids_only": true,
+    "continuity_states_explicit": false,
+    "hard_constraints_passed": true
+  },
+  "constraint_violations": [],
+  "status": "ok",
+  "historical_accuracy": false
+}
