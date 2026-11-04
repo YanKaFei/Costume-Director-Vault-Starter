@@ -61,7 +61,7 @@
 
 ## 7. P3.5 收尾复验（2026-11-04 14:05，task-31）
 
-- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；git HEAD `ae632da`（工作区 clean）。
+- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；git HEAD `e30446d`（工作区 clean）。
 - 门禁全部重跑：`validate.py` **PASS**（363/363，17/17）；`build_sources --check` **PASS**（197/197，CSV 198 行）；`run_acceptance` **45/45 PASS**；`quality_eval --no-write` **OVERALL PASS（17/17，sources_csv_sync=1.0）**；`tests/test_workflow.py` **9/9 OK**（97.6s）。
 - workflow：案例 meta→S-id；resolver 支持 act-scene（1-3→S1 等）；Macbeth `workflow-run/` 已重生成（scenes=4、M1→S1/M2→S3/L1→S2/L3→S4、exit 0）；独立复跑一致。
 - LOOK+SCN：**7 LOOK + 2 SCN（SCN-0008/0012）= 9 处来源修正**，URL 抽验 200；DRAFT-REVIEW 45 REVIEWED-CANDIDATE / 17 STAY_DRAFT；未改卡片。
@@ -73,7 +73,7 @@
 
 ## 8. 最终收尾（2026-11-04 14:05，task-33）
 
-- **HEAD**：`ae632da`（P3.5 修复 commit）；narrator 的 D5 文档修正（`EVIDENCE.md §3.4`、`CASE.md §4.4`）当前为工作区修改，lead 提交后 HEAD 前进、内容不变。
+- **HEAD**：`e30446d`（P3.5 修复 commit）；narrator 的 D5 文档修正（`EVIDENCE.md §3.4`、`CASE.md §4.4`）已随本提交收口。
 - **快照一致性核对**：**363 卡**（内容 166 + 来源 197）；**45 例验收**；**9 例 workflow tests**；18 套 Macbeth LOOKS；HUMAN-SCORE 18 行空表；`SOURCES.csv` 198 行（197 + 表头）。
 - **D5 CLOSED（doc-only）**：EVIDENCE §3.4 / CASE §4.4 已准确描述「workflow 支持 S-id 与 act-scene（1-3/1.3/1/3/1_3/Act 1 Scene 3），案例映射 M1→S1/M2→S3/L1→S2/L3→S4」；直接调用 `resolve_scene_ref` 验证全部写法正确（`9-9`→None 触发 warning）；LOOKS md5 `53549992cef442d2d3267a4506b3903b` 未变。
 - **D1–D5 状态**：D1 CLOSED；D2 CLOSED；D3 CLOSED；D4 CLOSED；**D5 CLOSED**。

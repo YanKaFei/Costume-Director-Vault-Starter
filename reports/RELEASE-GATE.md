@@ -1,7 +1,7 @@
 # 发布门禁报告（RELEASE GATE）
 
 - 生成时间：2026-11-04 13:55；**最终复核 2026-11-04 14:05（task-33 / D5 关闭）**
-- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；9 例 workflow tests；git HEAD `ae632da`（D5 doc 修正为工作区修改）
+- 快照：**363 卡**（内容 166 + 来源 197）；45 例验收；9 例 workflow tests；git HEAD `e30446d`（D5 doc 修正已提交）
 - 注：本报告基于 `d56b05d` 快照；复核期间工作区出现其他成员 WIP（architect 新卡 GAR-0075..0082/SRC-0480..0491、engineer `scripts/workflow.py`/`tests/`），**不属于本次门禁评估范围**，门禁结论以该 commit 快照为准。
 - 结论（2026-11-04 14:05 最终）：**PRIVATE-READY = YES；PUBLIC-READY = NO（BLOCKED，B1–B6）**
 - 最终证据：validate 363/363 PASS；build_sources 197/197 PASS；acceptance 45/45 PASS；quality_eval **OVERALL PASS（17/17）**；workflow tests **9/9 OK**；Macbeth workflow-run 已重生成（scenes=4、stages 映射、exit 0）；**D1–D5 全部 CLOSED（D5 doc-only）**
