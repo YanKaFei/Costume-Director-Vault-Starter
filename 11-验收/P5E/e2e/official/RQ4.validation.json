@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "PRD-0001",
+    "SRC-0116",
+    "SRC-0125",
+    "SRC-0150",
+    "SRC-0167",
+    "SRC-0168",
+    "SRC-0169",
+    "STY-0010"
+  ],
+  "final_chars": 2098,
+  "skill_calls": 1,
+  "tool_calls": 3,
+  "completed_tool_results": 4,
+  "pass": true,
+  "final_preview": "## Relation trace — `GAR-0015` (法式长袍 / robe à la française), `--max-depth 2 --json`\n\nCommand completed with **exit code 0**. Start card is `GAR-0015` (`01-服装单品/连身/GAR-0015-法式长袍.md`, verified; its own card source is `SRC-0116`). Edge provenance below comes from the trace, not from that card source.\n\n### Path 1 — factual chain (both hops verified)\n\n| Hop | From → To | Relation | Confidence | Evidenc"
+}

@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/relation_trace.py --start GAR-0015 --max-depth 2 --json; then python3 scripts/query.py --relation-type uses_material --related-to GAR-0015 --json. Report garment→structure/material relation IDs with real paths and evidence, and clearly mark design/co-occurrence vs factual. Complete answer only.

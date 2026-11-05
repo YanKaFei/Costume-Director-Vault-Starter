@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "GAR-0028",
+    "LOOK-0001",
+    "MAT-0002",
+    "SRC-0150",
+    "STR-0006",
+    "STR-0009"
+  ],
+  "final_chars": 1049,
+  "skill_calls": 1,
+  "tool_calls": 4,
+  "completed_tool_results": 9,
+  "pass": true,
+  "final_preview": "## 关系追溯结果：沙龙女主人\n\n命令按原样执行，退出码是 `0`。\n\n## Look\n\n- **look_id**: `LOOK-0001`\n- **name**: 洛可可沙龙女主人\n- **path**: `09-造型组合/LOOK-0001-洛可可沙龙女主人.md`\n- **role**: 1770 年代法国沙龙女主人（虚构角色，historical 模式）\n- **look evidence**: `interpretive`；来源：`SRC-0150`\n\n## Items (6)\n\n| ID | 类型 | 名称 | Path | 证据状态 |\n|---|---|---|---|---|\n| GAR-0015 | 服装单品 | 法式长袍 | `01-服装单品/连身/GAR-0015-法式长袍.md` | verified |\n| STR-0009 | 结构细节 | 裙侧撑 | `0"
+}

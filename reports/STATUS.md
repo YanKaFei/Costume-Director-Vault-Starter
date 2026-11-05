@@ -184,3 +184,17 @@
 - **59 isolates / 38 draft / 6 flags**：isolates.csv 更新为 59（另 3 uncited 未分类：SRC-0163/0157/0175）；38 基线 draft 未变（全库 79）；6 flags 仍 review_queue，未自动确认。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**。
 - 详见 `reports/P5D-FINAL.md`、`P5D-COVERAGE.md`（§9）、`P5D-RELATION-QA.md`（§6）。
+
+
+## 16. P5-E 最终验收（2026-11-05 11:45，task-92）
+
+- **快照**：HEAD `0e8d37d` + P5-E 工作区（未提交）；**458 卡 = 224 内容 + 234 来源；334 relations**；validate **458/458 PASS**、build **234 PASS**、consistency **0 errors / 334**。
+- **深化/关系 PASS**：28 张旧卡（20 material + 6 component + 2 style 解释）；新增 **26 relations**（20 uses_material + 6 may_have_part；全 medium/interpretive/review；0 high/0 新卡/0 自动提升）；28 卡仅新增 51 行、删除 0 行；独立抽样 **30/30=100%**。
+- **覆盖（E1 适用性分母）**：present **474/775（61.2%）**；APPLICABLE 380 / REVIEW 94 / INSUFFICIENT 301 / N/A 1017；garment→material **39→53/92（57.6%）**、part→material **7→10/35（28.6%）**；component 17.4%、style 3.3%、outfit 59.8%、narrative 71.4%、claim 96.9% 持平；来源可见 **370/478（77.4%）**。
+- **图谱对比**：P5-A 前 416 节点/66 分量/58 来源零可见/299→2 可见 → 当前 489 节点/60 分量/59 单点/478→370 可见；最大分量 335→399。
+- **候选/孤立**：239 候选 = 39 source_verifiable / 163 needs_human / 37 reject；**0 写入/0 提升**；59 isolates（+3 uncited 未分类）；38 基线 draft；6 flags 未变。
+- **回归**：acceptance 45/45、composer 9/9、workflow 9/9、Macbeth 11/11、relation_trace 6/6、单元测试 56/56、candidate 5/5（E6 log）；本轮独立 PASS：validate/build/consistency、relation_trace、validate_outfits、security/lookbook/skill-sync/backup；human 仅 E6 log（独立 NOT_RUN）；**quality_eval NOT_RUN**（>2.5min 超时；早前 PASS 不作当前 PASS）。
+- **E2E**：official 3/3、overlay 3/3，五项全 true。
+- **GUI**：**NOT_RUN/PENDING**（P5E-HUMAN-UAT 11 项全 NOT_RUN，无截图/签字）。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：59 isolates/38 draft/6 flags、GUI NOT_RUN）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**。
+- 详见 `reports/P5E-FINAL.md`、`P5E-GRAPH-COMPARISON.md`、`P5E-HUMAN-UAT.md`。

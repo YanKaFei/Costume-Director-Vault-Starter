@@ -497,8 +497,7 @@
           "evidence_status": "verified",
           "source_ids": [
             "SRC-0204",
-            "SRC-0155",
-            "SRC-0066"
+            "SRC-0155"
           ]
         },
         {
@@ -664,7 +663,6 @@
         "SRC-0069",
         "SRC-0204",
         "SRC-0155",
-        "SRC-0066",
         "SRC-0489",
         "SRC-0487",
         "SRC-0488",
@@ -680,6 +678,7 @@
         "SRC-0200",
         "SRC-0547",
         "SRC-0534",
+        "SRC-0066",
         "SRC-0102",
         "SRC-0483",
         "SRC-0549",
@@ -714,7 +713,6 @@
           "SRC-0069",
           "SRC-0204",
           "SRC-0155",
-          "SRC-0066",
           "SRC-0489",
           "SRC-0487",
           "SRC-0488",
@@ -730,6 +728,7 @@
           "SRC-0200",
           "SRC-0547",
           "SRC-0534",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0483",
           "SRC-0549",
@@ -747,10 +746,6 @@
           {
             "source_id": "SRC-0155",
             "url": "https://fashionhistory.fitnyc.edu/1930-1939/"
-          },
-          {
-            "source_id": "SRC-0066",
-            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0489",
@@ -811,6 +806,10 @@
           {
             "source_id": "SRC-0534",
             "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0102",

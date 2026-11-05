@@ -1,0 +1,8 @@
+/Users/coffee/Desktop/Costume-Director-Vault-Starter/tests/test_candidate_review.py:22: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/P5E/candidate-review.csv' mode='r' encoding='utf-8'>
+  cls.rows = list(csv.DictReader((P5E / "candidate-review.csv").open(encoding="utf-8")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 2.029s
+
+OK

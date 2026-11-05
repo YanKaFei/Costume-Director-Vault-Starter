@@ -193,6 +193,20 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：P5-D 未提交、6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（无截图/签字，不得声称通过）。
 
+## 4.13 P5-E 最终验收（2026-11-05 11:45，task-92）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 深化/关系 | **PASS** | 28 卡；26 relations（20 uses_material +6 may_have_part，全 medium/review；0 high/新卡）；抽样 30/30=100% |
+| 覆盖（E1 适用性） | **部分提升** | present 474/775（61.2%）；material 39→53/92（57.6%）；part→material 7→10/35；component/style/outfit/narrative/claim 持平；来源可见 370/478（77.4%） |
+| 图谱对比 | **PASS** | P5-A 前 416/66/58 → 当前 489/60/59；source_ids 2→370；typed 无可见 313→123 |
+| 候选/孤立 | **WARN** | 239 = 39/163/37；0 写入/提升；59 isolates（+3 uncited）；38 draft；6 flags |
+| 回归 | **PASS（quality NOT_RUN）** | validate 458、build 234、consistency 0/334、acceptance 45/45、composer 9/9、workflow 9/9、Macbeth 11/11、relation_trace 6/6、单元 56/56、candidate 5/5；quality_eval **NOT_RUN**（超时） |
+| E2E | **PASS** | official 3/3、overlay 3/3，五项全 true |
+| GUI 人工验收 | **NOT_RUN/PENDING** | P5E-HUMAN-UAT 11 项全 NOT_RUN；无截图/签字 |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：59 isolates、59 isolates/38 draft/6 flags、GUI NOT_RUN）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（不得声称通过）。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

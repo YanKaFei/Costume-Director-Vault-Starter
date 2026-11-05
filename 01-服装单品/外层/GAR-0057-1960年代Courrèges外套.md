@@ -25,6 +25,7 @@ prompt_en: 'Courrèges 1960s vinyl coat, boxy shape, deep green, front logo, hig
 tags: [costume, garment, 1960s, mod, space_age]
 relations:
   - 'target=SRC-0417; type=claim_supported_by; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0417; rule=R-SOURCE-IDS'
+  - 'target=MAT-0019; type=uses_material; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0417; rule=R-MAT-TOKEN; review_status=review_queue'
 ---
 # 1960 年代 Courrèges 外套 / 1960s Courrèges coat
 
@@ -37,6 +38,8 @@ Courrèges 外套是 1960 年代 Mod/Space Age 风格代表：箱形轮廓、乙
 - 腰带明确腰线，纽扣/高领可调保暖与端庄程度。
 - 与迷你裙、go-go boots 等组合（interpretive）。
 
+- 材料/工艺深化（P5-E）：materials 字段记录为 vinyl, cotton, polyurethane；与 [[MAT-0019-现代合成纤维与防水涂层|现代合成纤维与防水涂层]] 的材料族定义对应，属 medium/review 材料候选，不声称该实物成分已独立验证。
+- 廓形（P5-E）：本卡 silhouette 字段为 `straight`；这是卡级记录，不是裁剪图或实物测量。
 ## 视觉辨识
 箱形短外套、硬挺反光乙烯基、深绿、前胸 logo、高领、腰带；轮廓几何化。
 

@@ -2075,7 +2075,7 @@
             "rejected_count": 17
           }
         },
-        "stderr": ""
+        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
       },
       "office": {
         "input_path": "11-验收/P3.5/workflow-runs/test-rain_night/_inputs/Lin_office.json",
@@ -3721,7 +3721,7 @@
             "rejected_count": 18
           }
         },
-        "stderr": ""
+        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
       }
     },
     "Ash": {
@@ -5378,7 +5378,7 @@
             "rejected_count": 17
           }
         },
-        "stderr": ""
+        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
       },
       "office": {
         "input_path": "11-验收/P3.5/workflow-runs/test-rain_night/_inputs/Ash_office.json",
@@ -7015,7 +7015,7 @@
             "rejected_count": 18
           }
         },
-        "stderr": ""
+        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
       }
     }
   },
@@ -7041,7 +7041,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7053,7 +7053,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7065,7 +7065,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7077,7 +7077,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7096,7 +7096,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         }
       ],
       "kinds": []
@@ -7122,7 +7122,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7134,7 +7134,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7146,7 +7146,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7158,7 +7158,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7177,7 +7177,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         }
       ],
       "kinds": []
@@ -7203,7 +7203,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7215,7 +7215,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7227,7 +7227,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7239,7 +7239,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7258,7 +7258,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         }
       ],
       "kinds": []
@@ -7284,7 +7284,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7296,7 +7296,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7308,7 +7308,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7320,7 +7320,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         },
         {
           "args": [
@@ -7339,7 +7339,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": ""
+          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
         }
       ],
       "kinds": []

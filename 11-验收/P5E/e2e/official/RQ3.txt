@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/relation_trace.py --character "沙龙女主人" --look-bible projects/_template/look-bible/versions/SAMPLE-M1-A/v5.json --json; then python3 scripts/candidate_review.py --design-only --json. Report character→complete outfit, continuity lock, approved anchors, and fact/design/interpretation separation. Complete answer only.

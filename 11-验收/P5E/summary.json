@@ -1,0 +1,17 @@
+{
+  "input": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/P5D/DESIGN-QUEUE-REMAINING.csv",
+  "candidates": 239,
+  "reviewed": 239,
+  "tiers": {
+    "source_verifiable": 39,
+    "needs_human": 163,
+    "reject_or_rework": 37
+  },
+  "source_verifiable": 39,
+  "needs_human": 163,
+  "reject_or_rework": 37,
+  "design_only": 239,
+  "auto_promotions": 0,
+  "card_writes": 0,
+  "promotion_policy": "NEVER auto-promote medium/review to high/verified"
+}
