@@ -216,7 +216,7 @@
 
 ## 18. R1.2 最终验收（2026-11-05 15:47，task-103）
 
-- **快照**：HEAD `8bea691` + R1.2 工作区（未提交）；**458 卡 = 224 内容 + 234 来源；345 relations（high 262 / medium 83）**；validate **458/458**、build **234**、consistency **0/345**。
+- **快照**：HEAD `b1b418b`（R1.2 commit）；**458 卡 = 224 内容 + 234 来源；345 relations（high 262 / medium 83）**；validate **458/458**、build **234**、consistency **0/345**。
 - **去重 PASS**：SRC-0036/0022/0115 canonical；SRC-0175/0163/0157 deprecated/redirect；**0 删除**；引用仍解析；许可证 v1.3 字段；URL 30/30 200；9 书 5 connected/4 background、page UNCONFIRMED。
 - **Flags/draft/候选/单点**：6 flags（3 REJECTED/1 INTERPRETATION/1 DESIGN_ONLY/1 INSUFFICIENT，全部 pending_human）；38/38 基线 draft 未变（全库 79）；18 候选=16 formal medium reconcile + 2 pending，0 写卡/0 提升；59 isolates +3 duplicates=62 uncited；components 60=59+主分量。
 - **图谱/可见性**：graph **0/0/748**（dedupe superseded/canonical 4/4 后）；source_ids **478/478 可见（100%）**；MOC 224/224+234/234；typed_without_visible 15（key_garments）。
