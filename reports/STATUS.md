@@ -231,7 +231,7 @@
 
 ## 19. R1.3 最终验收（2026-11-05 16:05，task-109）
 
-- **快照**：HEAD `62795ab` + R1.3 工作区（未提交）；**471 卡 = 232 内容 + 239 来源；345 relations**；validate **471/471**、build **239**、consistency **0/345**；graph **0 unresolved / 748 typed / 60 components / 59 singletons**。
+- **快照**：HEAD `b569cea`（R1.3 commit）；**471 卡 = 232 内容 + 239 来源；345 relations**；validate **471/471**、build **239**、consistency **0/345**；graph **0 unresolved / 748 typed / 60 components / 59 singletons**。
 - **视觉层**：15 试点卡 +8 当代 STY（共 23 张有视觉参考/生图/视频）；**46 prompt 块**；15 CC0/PD ASSET（12 CC0+3 PD）+5 LINK（link_only pending）；`local_copy=no`；3 ASSET 被 2 卡使用且双向；12 未用有意；0 本地图片/0 下载。
 - **Prompt**：修复版 `visual_prompt.py` 测试 **9/9**；20 张抽样 **20/20 无 CJK/`[[`/typo/截断、evidence tags 正确**；**但卡片内 21/23 个 prompt/video 块仍含旧 CJK → 不宣称 copy-ready English**。
 - **当代 8 卡**：STY-0016..0023，interpretive/draft；5 Vogue 来源 HTTP 200；无品牌名/独特设计复制；趋势 vs 稳定 8/8；2 主题未覆盖。
