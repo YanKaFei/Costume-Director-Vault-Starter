@@ -1,64 +1,205 @@
-# Costume Director Knowledge System — Obsidian Starter
+<p align="center">
+  <img src="assets/readme/costume-atlas.jpg" width="100%" alt="Costume Director — The Costume Atlas">
+</p>
 
-这是 **Obsidian 可浏览、AI 可检索** 的服装/造型知识库与启动包（半成品→持续维护型），不是完成的服装史。用 Obsidian “打开本地文件夹作为仓库”即可浏览；Agent 通过仓库内脚本检索/组合造型并给出有来源约束的提示词。
+<h1 align="center">Costume Director</h1>
 
-## 当前状态（R1.3B Batch3，2026-11-05）
+<p align="center">
+  <b>服装视觉知识库 · 角色造型研究笔记</b><br>
+  <sub>Silhouette · Surface · Construction · Character</sub>
+</p>
 
-| 项 | 值 |
+<p align="center">
+  <a href="README.md">中文</a> ·
+  <a href="README.en.md">English</a> ·
+  <a href="README.ko.md">한국어</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.fr.md">Français</a>
+</p>
+
+<p align="center">
+  <sub>个人研究项目 · 非商业使用 · Obsidian + Markdown + DSH Skill</sub>
+</p>
+
+---
+
+## 关于
+
+这是一个个人维护的服装视觉知识库。它把服装结构、材质、单品、风格和完整造型整理成可检索的 Obsidian 卡片，并为每张卡补充视觉特征、英文生图提示词和参考图状态。它面向服装设计、角色造型与视觉研究，不是商业产品。
+
+## 为什么做这个仓库
+
+服装设计里最难的往往不是“知道一个名词”，而是把名词还原成可辨认的视觉事实：
+
+- 这个领型具体怎么翻折、在哪个位置、和相近领型差在哪里；
+- 这种材质在光线下是什么表面、什么垂坠、什么褶皱；
+- 这件单品是什么廓形、什么比例、怎么穿；
+- 这套造型由哪些上装、下装、外层、鞋履和配饰组成；
+- 这些视觉判断，怎样变成可复现的提示词，而不是一堆形容词。
+
+这个仓库试图把这些“看得见的知识”整理成一张可以反复查阅、组合和验证的工作台。
+
+> 不是把服装写成标签，而是把标签还原成形状、重量、光线和人物。
+
+## 一张图看全貌
+
+<p align="center">
+  <img src="assets/readme/costume-details.jpg" width="100%" alt="Material, structure and detail studies">
+</p>
+
+<p align="center">
+  <sub>Surface / Pattern / Weave / Line — 从整体廓形进入局部结构。</sub>
+</p>
+<p align="center">
+  <img src="assets/readme/costume-accessories.jpg" width="100%" alt="Accessory vocabulary">
+</p>
+
+<p align="center">
+  <sub>头饰、手套、包袋、鞋履、珠宝、腰带——这是观察索引，不是历史实物证据。</sub>
+</p>
+
+
+## 仓库里有什么
+
+| 模块 | 内容 | 你可以用它做什么 |
+|---|---|---|
+| **结构卡** | 领型、袖型、门襟、褶裥、腰线、袖口、裙撑等结构单元 | 比较相近结构，找到决定性的几何差异 |
+| **材质卡** | 纤维、组织、表面、光泽、垂坠、厚薄与动态 | 把“看起来像”拆成可验证的材质特征 |
+| **单品卡** | 上装、下装、连身装、外套、鞋履、帽饰与配饰 | 从单品进入版型、结构和穿着方式 |
+| **风格卡** | 历史风格、当代风格、亚文化与戏剧造型语言 | 理解比例、色彩、材质组合与时代语境 |
+| **造型卡（Outfit）** | 完整人物造型、场景、角色、鞋履、配饰与跨镜连续性 | 把单品组合成可拍摄、可生成、可复用的造型 |
+| **视觉提示词** | 英文结构、材质、单品、风格与造型提示词 | 复制到生图工作流，或作为视觉沟通文本 |
+| **参考图状态** | 已核验参考图、待补图、缺图原因 | 区分“有图”“有许可”“已关联”“已在 Obsidian 显示” |
+
+## 知识结构
+
+仓库不是一堆孤立卡片，而是一条从“人”到“物”的链：
+
+```text
+角色 / 场景
+    ↓
+完整造型 Outfit
+    ↓
+上装 · 下装 · 外层 · 鞋履 · 配饰
+    ↓
+结构 / 材质 / 纹样
+    ↓
+视觉特征 · 英文提示词 · 参考图状态
+```
+
+每张卡尽量保留证据等级、适用范围与不确定性。**未知就是未知**：没有可靠依据的纤维、克重、织法、透明度或历史细节，不会被写成确定事实。
+
+## 视觉语言
+
+这不是一套“复古滤镜”，而是一套为服装阅读服务的设计系统：
+
+| 设计元素 | 取值 | 用途 |
+|---|---|---|
+| Obsidian Black | `#090B0E` | 主背景，像舞台暗场 |
+| Parchment | `#F3ECE0` | 正文与标题，像纸样与手稿 |
+| Antique Gold | `#C8A96A` | 索引、编号、重点标记 |
+| Graphite | `#2A2B2E` | 分隔线、卡片边界 |
+| Display Serif | Georgia / 宋体 | 标题与叙事 |
+| Work Sans | Arial / 系统无衬线 | 标签、参数、说明 |
+
+版式遵循“先看整体，再看局部”：一张主视觉建立廓形，一条细节带进入材质与结构，最后用卡片和表格承载可检索的信息。
+
+## 核心能力
+
+### 01 · 结构辨识
+
+把“领子”“袖子”“褶”拆成具体部位、几何形状、连接方式与正侧背视角，而不是只给一个名称。
+
+### 02 · 材质阅读
+
+从表面组织、光泽、纹理尺度、透光性、垂坠与运动行为描述材质；没有证据的物性保持 `unknown`。
+
+### 03 · 单品到人物
+
+从一件单品的版型、长度、松量、肩腰臀比例，推到完整穿着状态，再进入角色与场景。
+
+### 04 · 完整造型
+
+用上装、下装、外层、鞋履、配饰、色彩与轮廓组成一套造型，并保留角色身份、叙事语境和跨镜一致性。
+
+### 05 · 风格比较
+
+比较不同风格的比例关系、色彩组织、材质组合和典型单品，避免“只换名字”的同质化描述。
+
+### 06 · 提示词表达
+
+用模块化的英文提示词表达 `SUBJECT / STRUCTURE / MATERIAL / COLOR / LIGHT / CAMERA / BACKGROUND / STYLE / NEGATIVE / CONSISTENCY`，让视觉判断可以被复制、修改和验证。
+
+## 怎么使用
+
+### 在 Obsidian 中
+
+1. 用 Obsidian 打开仓库根目录；
+2. 从 `00-系统/MOC` 进入总览；
+3. 沿 `风格 → 造型 → 单品 → 结构 / 材质` 向下阅读；
+4. 在卡片内查看视觉参考、英文提示词与相关卡片；
+5. 图片使用相对路径，迁移仓库时保持一致目录结构。
+
+### 在 DSH / Agent 中
+
+用自然语言直接提问，例如：
+
+- “比较两种领型的结构差异，给我卡片 ID、英文提示词和参考图状态。”
+- “为一位 1930 年代上海女性知识分子做一套完整造型，列出上装、下装、鞋履、配饰和跨镜锚点。”
+- “这件单品的材质在光线下应该是什么表面？没有依据的部分请标 unknown。”
+- “把现代极简和解构应用到同一个人物，给出两套结构明显不同的方案。”
+
+Agent 应返回真实卡片 ID、证据状态、参考图状态和提示词；**不应把文本生成说成图片生成**。
+
+## 质量与边界
+
+| 维度 | 当前状态 |
 |---|---|
-| 卡片 | **473 = 234 内容 + 239 来源** |
-| 关系 | **345（high 262 / medium 83）**；relation_consistency **0 errors** |
-| 视觉层 | **89/207 卡**有视觉参考/生图/视频（**209 prompt 块**）；15 CC0/PD ASSET（4 approved associations）+5 link-only；**46 张 REFERENCE_PENDING**；0 本地图/0 下载 |
-| 校验 | validate **473/473 PASS**、build_sources **239 PASS**、graph **typed_unresolved 0 / unresolved 0 / 768 typed** |
-| 来源可见 | source_ids **478/478（100%）**；MOC **234/234 内容 + 239/239 来源** |
-| draft | 79（其中 38 基线 draft 待人工；未自动提升） |
-| GUI | **NOT_RUN / HUMAN_UAT_PENDING**（11 项见 `reports/R1.3-OBSIDIAN-UAT.md`） |
-| quality_eval | **PASS（4.20 / 0.921 / 0）**（R1.3 当前内容） |
-| E2E | **R1.3 official 3/3、overlay 3/3 五项全 true**；AI 未生图（no_image_claim） |
-| 发布门禁 | PRIVATE-USE = **YES（附 WARN/P1）**；PUBLIC = **NO（B1–B6、L1–L6 未关闭）** |
+| 文本与结构检查 | 已建立 |
+| 专业领域审核 | 待逐卡人工审核 |
+| 真实生图测试 | 未执行（当前环境无授权生图工具） |
+| 人工视觉签核 | 未执行 |
+| 历史 / 文化准确性 | 需结合来源与专业判断逐条复核 |
+| GUI 验收 | 未执行 |
 
-## 快速开始
+这个仓库是**研究工作台**，不是历史教科书、版权授权书、专业服装顾问意见或商业交付物。提示词通过文本检查，不等于图像生成准确；有参考图，不等于可以商用。
 
-1. **Obsidian**：Open folder as vault → 本目录；从 `00-系统/MOC/README.md` 进入导航。
-2. **校验**（仓库根）：
-   ```bash
-   python3 scripts/validate.py                 # 471/471
-   python3 scripts/build_sources.py --check    # 239 sources / CSV
-   python3 scripts/relation_consistency.py     # 0 errors / 345 relations
-   python3 scripts/graph_analyze.py --root .   # 0 unresolved / 748 typed
-   ```
-3. **Agent/检索**：`scripts/query.py`、`recommend.py`、`outfit.py`、`relation_trace.py`；`skills/costume-director/` 为统一 skill。
-4. **验收/回归**：`scripts/run_acceptance.py`（45）、`scripts/quality_eval.py`、`tests/test_workflow.py`、`11-验收/P4-MACBETH/test_macbeth_p4.py`。
-5. **备份**：`python3 scripts/backup_restore.py backup --dest <仓库外目录>` → `verify` → `restore`；详见 `reports/R1.2-MAINTENANCE.md`。
+## 使用声明
+
+**本仓库为个人、非商业研究笔记，仅供学习、研究与个人创作参考。**
+
+- 不得用于商业演出、影视项目、客户项目、付费课程、付费模板、转售或任何以盈利为目的的分发；
+- 不得将仓库内容用于商业模型训练、批量抓取或再分发；
+- 仓库内容不构成对任何第三方素材、图像、品牌或历史资料的授权；
+- 如需商业使用，请自行取得相关权利与专业许可；
+- 如不确定某张图或某段描述能否使用，请把它当作“仅供查阅的参考”，不要复制、嵌入或再发布。
+
+**No commercial licence is granted.** 本仓库不授予商业使用许可，也不替代版权、历史或法律意见。
+
+## 项目状态
+
+- 版本：**R1.3B / Research Edition**
+- 形态：Obsidian Markdown + DSH Costume Director Skill
+- 范围：结构、材质、单品、风格、完整造型、视觉提示词
+- 当前重点：参考图证据、Prompt 专业差异、真实生图与人工视觉验收
+- 原则：**先证据，后表达；先结构，后形容；先可验证，后可复用。**
 
 ## 目录
 
-- `00-系统/`：数据字典、关系类型 v3、MOC 导航、来源规范
-- `01-服装单品/`、`02-结构细节/`、`03-材质纹样/`、`05-风格体系/`、`06-时代地域/`、`07-剧情场景/`、`09-造型组合/`：知识卡
-- `04-来源/`：来源卡（239；canonical/deprecated 规则）
-- `10-提示词模板/`：生图/视频提示词接口
-- `scripts/`、`tests/`、`11-验收/`：工具、测试、验收证据
-- `reports/`：STATUS/QA/COVERAGE/RELEASE-GATE/各阶段报告
-- `config/obsidian/`：可移植 Obsidian 配置模板（dry-run/apply/restore）
+- [关于](#关于)
+- [为什么做这个仓库](#为什么做这个仓库)
+- [一张图看全貌](#一张图看全貌)
+- [仓库里有什么](#仓库里有什么)
+- [知识结构](#知识结构)
+- [视觉语言](#视觉语言)
+- [核心能力](#核心能力)
+- [怎么使用](#怎么使用)
+- [质量与边界](#质量与边界)
+- [使用声明](#使用声明)
+- [项目状态](#项目状态)
 
-## 数据安全（重要）
+---
 
-- `projects/` 为**私有生产目录**：git 忽略、主备份排除；**当前无独立私有备份（P1）**——请立即单独加密备份。
-- 全量备份请放**仓库外**并保留 verify/restore 记录；`/tmp` 仅临时。
-- 不下载/嵌入版权不明图片；书源 page 多为 UNCONFIRMED；0 图片策略。
-- 不得向公网上传本地剧本/私人项目；GUI 验收前 PUBLIC 门禁保持 BLOCKED。
-
-## 关键参考
-
-- [Fashionpedia](https://fashionpedia.github.io/home/index.html) · [Getty AAT](https://www.getty.edu/research/tools/vocabularies/aat/) · [FIT Fashion History Timeline](https://fashionhistory.fitnyc.edu/) · [Met Open Access](https://github.com/metmuseum/openaccess) · [Costume Designers Guild](https://costumedesignersguild.com/what-is-costume-design/)
-
-## 当前限制
-
-- GUI 人工验收未执行（仅默认前后截图，见 `reports/obsidian-graph/`）。
-- 视觉层：23 卡/46 prompt 块；15 CC0/PD 资产 +5 LINK；**卡片内 21/23 个 prompt/video 块仍含旧 CJK，暂不宣称 copy-ready English**。
-- E2E R1.3：official 3/3、overlay 3/3 五项全 true；AI 未生图（0 图像）。
-- 旧 `R1.3-VISUAL-COVERAGE.csv` 为基线快照（197/287），当前为 232 内容/23 视觉层/15 ASSET，需重生成。
-- R1.3B Batch3：+15 视觉卡（10 Style+3 Outfit+2 主题）、+30 prompt 块（共 209）；4 MATCHED 资产 approved（0009/10→STY-0002、0011→STY-0001/PRD-0002、0012→GAR-0061，owner 加链接）；6 优先参考 REFERENCE_PENDING；UAT 包 89 卡。
-- 建议维护模式：停止连续开发；优先 46 REFERENCE_PENDING、owner 落实 4 关联、同质化/warnings、Batch3 E2E 报告、GUI 11 项人工；不以资产/卡数为目标。
-- 6 flags、38 draft、59 isolates、18 候选（16+2）仍待人工/审批；不自动提升。
-- 详细状态与门禁见 `reports/STATUS.md`、`reports/RELEASE-GATE.md`、`reports/R1.3-FINAL.md`、`reports/R1.3-OBSIDIAN-UAT.md`。
+<p align="center">
+  <sub>Costume Director · A personal visual research notebook · Non-commercial use only</sub>
+</p>
