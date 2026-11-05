@@ -241,3 +241,16 @@
 - **GUI**：**NOT_RUN/HUMAN_UAT_PENDING**（11 项：3 PARTIAL 默认截图、8 NOT_RUN；无签核）。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：卡片 prompt 块 23/23 已清理、12 ASSET 未用/5 LINK pending、GUI NOT_RUN、2 主题未覆盖）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；**停止连续开发，进入维护模式**。
 - 详见 `reports/R1.3-FINAL.md`、`R1.3-OBSIDIAN-UAT.md`。
+
+
+## 20. R1.3B Batch2 收口（2026-11-05 17:35，task-112）
+
+- **快照**：HEAD `c937b9d` + Batch2 工作区；**471 卡 = 232 内容 + 239 来源；345 relations**；validate **471/471**、build **239**、consistency **0/345**；graph **0 unresolved / 0 typed / 764 typed**。
+- **Batch2 卡片**：结构 26（剩余全部）+ Garment 5（GAR-0002/0003/0045/0051/0065）；新增 **93 prompt 块**；0 新卡/0 事实变更；**视觉层 74/205（36.1%）**；prompt 块 **143**（生图74+视频69）。
+- **资产审查（12 未匹配）**：**MATCHED 4**（0009/0010→STY-0002；0011→STY-0001/PRD-0002；0012→GAR-0061，待 owner 链接）、**UNMATCHED 5**（0001/0002/0003/0004/0007）、**INDEPENDENT 3**（0013/0014/0015 绘画研究）；不硬配；当前实际使用 3；5 LINK link-only pending；0 下载。
+- **REFERENCE_PENDING**：Batch2 **31/31**（无逐图匹配 ASSET；只用 SRC/正文结构链接）；不伪造资产。
+- **覆盖/许可台账**：`R1.3-VISUAL-COVERAGE.csv` 重生成 **205 行/74 visual/31 pending/2 asset-linked**；`R1.3-IMAGE-LICENSE.csv` 20 行 + batch2 状态列（4 MATCHED/5 UNMATCHED/3 INDEPENDENT/5 LINK_PENDING）。
+- **Prompt QA**：独立 20 条 **18/20 通过**（2 张结构卡缺 front/side/back 正交视角：STR-0023/STR-0011）；CJK/坏链/typo/截断 **0**；evidence tags 正确；材质/颜色 unknown 不编造；同质化 40 张相关卡中 **3 对 >0.9**（袖/闭合相邻），无精确重复。engineer task-111：143 prompts，**TEXT_VALID 139/TEXT_INVALID 4**，warnings 141，Jaccard≥0.80 597 对 → **同质化 WARN**，不宣称 copy-ready。
+- **回归**：task-111 当前 Batch2：validate 471、build 239、consistency 0/345、graph 0、acceptance **45/45**、quality **PASS**、workflow **9/9（159.3s）**、Macbeth **11/11**、单元 **71/71**（visual_prompt 9/9、prompt_qa 6/6、skill-sync 3/3）；E2E official **3/3**、overlay **3/3** 五项全 true（no_image_claim）；GUI **NOT_RUN**；生图 0；人工评分 N/A。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：31 REFERENCE_PENDING、同质化 597 对、12 未用/5 LINK、GUI/domain/image/human visual NOT_RUN）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；建议维护模式。
+- 详见 `reports/R1.3B-BATCH2-REPORT.md`、`R1.3B-BATCH2-ASSET-REVIEW.csv`、`R1.3-VISUAL-COVERAGE.csv`。

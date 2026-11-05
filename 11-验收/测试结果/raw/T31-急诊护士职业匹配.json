@@ -631,8 +631,18 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0033",
+          "id": "STR-0021",
           "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0033",
+          "slot": "footwear",
           "confidence": "suggested"
         }
       ],
@@ -666,7 +676,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, black, ivory, khaki, lavender, linen, silver, steel, white, wool, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, black, ivory, khaki, lavender, linen, silver, steel, white, wool, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025); pocket construction (STR-0033), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014 --ar 2:3 --style raw --v 6",
       "prompt_video": "Lin, fast walking, lifting a stretcher, putting on gloves, scene: emergency room, night, indoor, rain outside, camera: handheld close and medium, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014",
       "reasons": [
@@ -675,7 +685,7 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0044 医疗工作鞋 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0033",
+        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0033",
         "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014"
       ],
       "risks": [
@@ -693,6 +703,10 @@
           "SRC-0201",
           "SRC-0062",
           "SRC-0486",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0545",
           "SRC-0532",
           "SRC-0547",
@@ -743,6 +757,22 @@
           {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0545",
@@ -1004,8 +1034,18 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0033",
+          "id": "STR-0021",
           "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0033",
+          "slot": "footwear",
           "confidence": "suggested"
         },
         {
@@ -1049,7 +1089,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, linen, multicolor, white, wool, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, linen, multicolor, white, wool, setting: emergency room, night, indoor, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025); pocket construction (STR-0033); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014 --ar 2:3 --style raw --v 6",
       "prompt_video": "Lin, fast walking, lifting a stretcher, putting on gloves, scene: emergency room, night, indoor, rain outside, camera: handheld close and medium, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014",
       "reasons": [
@@ -1058,7 +1098,7 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0044 医疗工作鞋 (functional)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0033, STR-0019, STR-0026",
+        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0033, STR-0019, STR-0026",
         "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014"
       ],
       "risks": [
@@ -1075,6 +1115,10 @@
           "SRC-0201",
           "SRC-0062",
           "SRC-0486",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0545",
           "SRC-0532",
           "SRC-0547",
@@ -1121,6 +1165,22 @@
           {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0545",
@@ -1700,6 +1760,14 @@
     {
       "source_id": "SRC-0486",
       "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
     },
     {
       "source_id": "SRC-0483",

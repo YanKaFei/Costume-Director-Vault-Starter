@@ -252,6 +252,19 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：卡片 prompt 块 23/23 已清理、12 ASSET 未用/5 LINK pending、GUI NOT_RUN、2 主题未覆盖）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**（不得声称通过；建议停止连续开发/维护模式）。
 
+## 4.18 R1.3B Batch2（2026-11-05 17:35，task-112）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| Batch2 卡片 | **PASS（WARN）** | 26 结构 +5 Garment；93 prompt 块；0 新卡/事实变更；视觉层 74/205；REFERENCE_PENDING 31 |
+| 12 未匹配 ASSET | **审查完成** | MATCHED 4 / UNMATCHED 5 / INDEPENDENT 3；不硬配；0 下载；5 LINK pending |
+| 覆盖/许可台账 | **PASS** | coverage 205 行/74 visual/31 pending；license 20 行+状态列 |
+| Prompt QA | **WARN** | 独立 18/20（2 视角缺口）；CJK/坏链/typo 0；evidence tags 正确；同质化 3 对>0.9；engineer TEXT_VALID 139/4 invalid、141 warnings、597 对高相似 |
+| 回归 | **PARTIAL** | validate 471、build 239、consistency 0/345、graph 0/0/764、Macbeth 11/11、task-111 tests OK；acceptance/quality/workflow 日志空=NOT_RUN（当前独立重跑见报告）；E2E Batch2 PASS（official 3/3、overlay 3/3，五项全 true） |
+| GUI/生图/人工评分 | **NOT_RUN / 0 / N/A** | 无新截图/签字；AI 未生图；人工视觉评分未做 |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：REFERENCE_PENDING 31、同质化、2 视角缺口、12 未用/5 LINK、E2E/部分回归 NOT_RUN、GUI NOT_RUN）；PUBLIC-READY = NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**；建议维护模式。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

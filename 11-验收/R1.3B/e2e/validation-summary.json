@@ -1,0 +1,140 @@
+{
+  "official": {
+    "RQ1": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "SRC-0532",
+        "SRC-0539",
+        "STR-0028"
+      ],
+      "final_chars": 1538,
+      "skill_calls": 1,
+      "tool_calls": 2,
+      "completed_tool_results": 3,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Card result\n\n**Card ID: `STR-0028`** — 青果领/披肩领 / **shawl collar**\n- Path: `02-结构细节/STR-0028-青果领-披肩领.md`\n- Type: `garment_part`\n- Evidence status: **`verified`**\n- Source IDs: **`SRC-0532`**, **`SRC-0539`**\n- Query score: `0.0` (returned by exact `--id` lookup, not a relevance ranking)\n\n## Evidence / source\n\n`visual_prompt.py` confirms the same provenance:\n- `card_id`: `STR-0028`\n- `evidence_sta"
+    },
+    "RQ2": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "MAT-0001",
+        "SRC-0533",
+        "STR-0004",
+        "STR-0005",
+        "STR-0013",
+        "STR-0029"
+      ],
+      "final_chars": 7285,
+      "skill_calls": 1,
+      "tool_calls": 3,
+      "completed_tool_results": 7,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Card identity\n\nCommands run exactly as specified:\n\n- `python3 scripts/query.py --id STR-0029 --json` → **1 hit**, `score: 0.0`\n- `python3 scripts/visual_prompt.py --id STR-0029 --kind component_detail --json` → `image_generation: false`, `delivery: \"text prompt only\"`\n\n| Field | Value |\n|---|---|\n| ID | **STR-0029** |\n| Name | **泡泡袖 / puff sleeve** |\n| Type | `garment_part` / `sleeve`; `part_fa"
+    },
+    "RQ3": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0033",
+        "SRC-0066",
+        "SRC-0118",
+        "SRC-0155",
+        "SRC-0204",
+        "SRC-0412",
+        "STR-0012",
+        "STR-0014"
+      ],
+      "final_chars": 10598,
+      "skill_calls": 1,
+      "tool_calls": 4,
+      "completed_tool_results": 8,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "# STR-0012 → Modern Women's Blazer — CREATIVE/INFERENCE Proposal\n\n## 1. Commands run (exact order)\n\n### 1.1 `python3 scripts/query.py --id STR-0012 --json`\n\nReturned one card:\n\n| field | value |\n|---|---|\n| id | `STR-0012` |\n| path | `02-结构细节/STR-0012-翻领与驳领.md` |\n| name | 翻领与驳领 / **turndown collar and lapel** |\n| type | `garment_part` |\n| evidence_status | `verified` |\n| source_ids | `SRC-0118` |\n"
+    }
+  },
+  "overlay": {
+    "RQ1": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "SRC-0532",
+        "SRC-0539",
+        "STR-0028"
+      ],
+      "final_chars": 1373,
+      "skill_calls": 1,
+      "tool_calls": 2,
+      "completed_tool_results": 3,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Result for STR-0028\n\n**Real card ID**\n- **STR-0028** — `02-结构细节/STR-0028-青果领-披肩领.md`\n- Name: 青果领/披肩领 (**shawl collar**)\n- Type: `garment_part`\n- Evidence status: **verified**\n\n**Evidence / sources**\n- Source IDs returned by `query.py`: **SRC-0532**, **SRC-0539**\n- Card evidence snippet: shawl collar is a lapel type where the collar face and front edge form one continuous curve with **no notch**"
+    },
+    "RQ4": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "SRC-0533",
+        "STR-0029"
+      ],
+      "final_chars": 502,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "**Card ID:** STR-0029 (泡泡袖 / puff sleeve) — evidence status: verified; source: SRC-0533\n\n**English structure prompt (component_detail):**\n\"detail of puff sleeve on garment part construction seams closures edge finish and hardware orthographic clarity no stylisation\"\n\nConstruction note: \"long puffed and pleated sleeves on a high-waisted muslin dress, gathered sleeve head, period 1820s\" (tagged INFE"
+    },
+    "RQ6": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "SRC-0532",
+        "SRC-0539",
+        "STR-0028"
+      ],
+      "final_chars": 680,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Result\n\n- **Card ID:** STR-0028（青果领 / 披肩领, shawl collar; evidence status: verified; sources: SRC-0532, SRC-0539）\n- **Kind:** component_detail\n\n**English prompt(s):**\n\n1. *(structure_detail — FACT/OBSERVATION)*\n   > \"detail of shawl collar on garment part construction seams closures edge finish and hardware orthographic clarity no stylisation\"\n\n2. *(construction_note — INFERENCE)*\n   > \"construc"
+    }
+  }
+}

@@ -101,3 +101,22 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 
 - 旧 `R1.3-VISUAL-COVERAGE.csv`（197 卡/287 行，15:49）为基线，**未含 8 当代卡/15 ASSET/23 视觉层卡**；需重生成，不得把旧 CSV 当最终覆盖。
 - 视觉覆盖与关系覆盖分开：345 relations 不变；视觉层是新增卡片区块/资产，不是关系数。
+
+
+## R1.3B Batch2 视觉覆盖（2026-11-05）
+
+| 项 | 数值 |
+|---|---:|
+| 视觉类卡（9 类） | **205** |
+| 有视觉层 | **74（36.1%）** |
+| 生图/视频 prompt 块 | **143**（74 image +69 video；5 Garment 无视频=可选） |
+| Batch2 新增视觉卡 | **31**（结构 26 + Garment 5）；新增 prompt 块 93 |
+| REFERENCE_PENDING | **31**（Batch2 全部） |
+| ASSET 匹配（12 未用审查） | MATCHED 4 / UNMATCHED 5 / INDEPENDENT 3（不硬配） |
+| 实际使用 ASSET | 3（0005/0006→GAR-0008；0008→GAR-0001） |
+| LINK link-only pending | 5 |
+| 本地图像/AI 生图 | 0 / 0 |
+| 人工视觉评分 | N/A |
+
+- 旧 `R1.3-VISUAL-COVERAGE.csv` 已重生成（205 行；74 visual/31 pending/2 asset-linked）；license CSV 同步 batch2 状态列。
+- 剩余 **131 张视觉卡**未视觉化；不以卡数/资产数为目标。

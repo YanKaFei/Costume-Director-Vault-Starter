@@ -226,6 +226,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0021",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0023",
           "slot": "outerwear",
           "confidence": "explicit"
@@ -272,7 +277,7 @@
           "slot": "carried_prop"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015",
+      "prompt_image": "full-body character design of an adult 沈砚, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); seams and darts (STR-0021); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015",
       "prompt_video": "沈砚, walking quickly in the rain, scene: rain-soaked newspaper alley, night, rain, camera: medium tracking, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: sodium street light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015",
       "reasons": [
@@ -281,7 +286,7 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025, STR-0019, STR-0026",
+        "linked structure cards: STR-0011, STR-0016, STR-0021, STR-0023, STR-0025, STR-0019, STR-0026",
         "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015",
         "based on curated vault look card LOOK-0015"
       ],
@@ -300,9 +305,11 @@
           "SRC-0405",
           "SRC-0202",
           "SRC-0062",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
           "SRC-0486",
           "SRC-0521",
-          "SRC-0520",
           "SRC-0141",
           "SRC-0143",
           "SRC-0423",
@@ -347,16 +354,24 @@
             "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-          },
-          {
-            "source_id": "SRC-0520",
-            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0141",
@@ -610,6 +625,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0021",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0023",
           "slot": "outerwear",
           "confidence": "explicit"
@@ -646,7 +666,7 @@
           "slot": "carried_prop"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: beige, black, khaki, lavender, mid blue, orange red, pink, red, silver, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012",
+      "prompt_image": "full-body character design of an adult 沈砚, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: beige, black, khaki, lavender, mid blue, orange red, pink, red, silver, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); seams and darts (STR-0021); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012",
       "prompt_video": "沈砚, walking quickly in the rain, scene: rain-soaked newspaper alley, night, rain, camera: medium tracking, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: sodium street light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012",
       "reasons": [
@@ -655,7 +675,7 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "携带物: GAR-0047 雨伞 (smart_casual)",
-        "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025",
+        "linked structure cards: STR-0011, STR-0016, STR-0021, STR-0023, STR-0025",
         "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012",
         "based on curated vault look card LOOK-0012"
       ],
@@ -674,9 +694,11 @@
           "SRC-0407",
           "SRC-0202",
           "SRC-0062",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
           "SRC-0486",
           "SRC-0521",
-          "SRC-0520",
           "SRC-0141",
           "SRC-0143",
           "SRC-0423",
@@ -717,16 +739,24 @@
             "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-          },
-          {
-            "source_id": "SRC-0520",
-            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0141",
@@ -930,6 +960,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0021",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0023",
           "slot": "outerwear",
           "confidence": "explicit"
@@ -967,7 +1002,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); silhouette and proportion (STR-0035), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
+      "prompt_image": "full-body character design of an adult 沈砚, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); seams and darts (STR-0021); cuff (STR-0023); panels and gores (STR-0020); silhouette and proportion (STR-0035), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
       "prompt_video": "沈砚, walking quickly in the rain, scene: rain-soaked newspaper alley, night, rain, camera: medium tracking, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: sodium street light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
       "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
       "reasons": [
@@ -975,7 +1010,7 @@
         "连身: GAR-0031 旗袍 (smart_casual)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)",
-        "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020, STR-0035",
+        "linked structure cards: STR-0011, STR-0016, STR-0021, STR-0023, STR-0020, STR-0035",
         "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017"
       ],
       "risks": [
@@ -991,6 +1026,9 @@
           "SRC-0420",
           "SRC-0202",
           "SRC-0062",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
           "SRC-0486",
           "SRC-0451",
           "SRC-0453",
@@ -1032,6 +1070,18 @@
           {
             "source_id": "SRC-0062",
             "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0486",
@@ -1614,16 +1664,24 @@
       "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
     },
     {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+    },
+    {
       "source_id": "SRC-0486",
       "url": "https://collections.vam.ac.uk/item/O137793/"
     },
     {
       "source_id": "SRC-0521",
       "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-    },
-    {
-      "source_id": "SRC-0520",
-      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
     },
     {
       "source_id": "SRC-0141",

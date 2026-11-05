@@ -1,0 +1,14 @@
+/Users/coffee/Desktop/Costume-Director-Vault-Starter/tests/test_prompt_qa.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.3B/PROMPT-QA.csv' mode='r' encoding='utf-8'>
+  cls.rows = list(csv.DictReader((OUT / "PROMPT-QA.csv").open(encoding="utf-8")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+test_all_new_prompts_sampled (tests.test_prompt_qa.PromptQATests) ... ok
+test_clean_text (tests.test_prompt_qa.PromptQATests) ... ok
+test_homogeneity_reported (tests.test_prompt_qa.PromptQATests) ... ok
+test_invalid_cases_reported (tests.test_prompt_qa.PromptQATests) ... ok
+test_material_unknown_not_guessed (tests.test_prompt_qa.PromptQATests) ... ok
+test_statuses (tests.test_prompt_qa.PromptQATests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.498s
+
+OK

@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id STR-0028 --json; then python3 scripts/visual_prompt.py --id STR-0028 --kind component_detail --json. Report real card ID, evidence/source, and the English structure prompt; explicitly say no image was generated. Complete answer only.

@@ -219,6 +219,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0021",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0023",
           "slot": "outerwear",
           "confidence": "explicit"
@@ -255,7 +260,7 @@
           "slot": "carried_prop"
         }
       ],
-      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 CC41 Utility skirt suit, utility buttons stamped CC41, tailored wartime silhouette; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: beige, black, grey herringbone, khaki, lavender, red, silver, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011",
+      "prompt_image": "full-body character design of an adult Vex, one-piece: 1942 CC41 Utility skirt suit, utility buttons stamped CC41, tailored wartime silhouette; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: beige, black, grey herringbone, khaki, lavender, red, silver, setting: squat rehearsal room, night, indoor, damp, art direction: 1970s London punk, lighting: harsh bare bulb, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); seams and darts (STR-0021); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011",
       "prompt_video": "Vex, rehearsing with a guitar, scene: squat rehearsal room, night, indoor, damp, camera: medium shot, costume: one-piece: 1942 CC41 Utility skirt suit, utility buttons stamped CC41, tailored wartime silhouette; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 硬挺羊毛外套限制抬臂; 及膝裙限制跨步; 衬衫塞入裙腰需锁定。, lighting: harsh bare bulb, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
       "continuity_lock": "continuity lock: GAR-0053 Utility skirt suit [grey_herringbone; wool, artificial_silk; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011",
       "reasons": [
@@ -264,7 +269,7 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "携带物: GAR-0047 雨伞 (smart_casual)",
-        "linked structure cards: STR-0012, STR-0016, STR-0023, STR-0025",
+        "linked structure cards: STR-0012, STR-0016, STR-0021, STR-0023, STR-0025",
         "linked material cards: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0014, MAT-0011",
         "based on curated vault look card LOOK-0014",
         "period/culture score is supported by period-tagged cards"
@@ -284,9 +289,11 @@
           "SRC-0202",
           "SRC-0201",
           "SRC-0062",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
           "SRC-0486",
           "SRC-0521",
-          "SRC-0520",
           "SRC-0547",
           "SRC-0534",
           "SRC-0204",
@@ -335,16 +342,24 @@
             "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-          },
-          {
-            "source_id": "SRC-0520",
-            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0547",
@@ -1516,16 +1531,24 @@
       "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
     },
     {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0520",
+      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+    },
+    {
       "source_id": "SRC-0486",
       "url": "https://collections.vam.ac.uk/item/O137793/"
     },
     {
       "source_id": "SRC-0521",
       "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-    },
-    {
-      "source_id": "SRC-0520",
-      "url": "https://freesewing.dev/howtos/design/seam-allowance/"
     },
     {
       "source_id": "SRC-0547",
@@ -1562,10 +1585,6 @@
     {
       "source_id": "SRC-0423",
       "url": "https://collections.vam.ac.uk/item/O315431/"
-    },
-    {
-      "source_id": "SRC-0412",
-      "url": "https://collections.vam.ac.uk/item/O15693/"
     },
     {
       "source_id": "SRC-0406",

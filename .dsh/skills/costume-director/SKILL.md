@@ -278,6 +278,26 @@ Keep IDs and SRC IDs exact. Never shorten `GAR-0031` to “qipao card” without
 - **Relationship / cross-cultural retrieval**: use `query.py` with period/region/
   style/type filters and cite IDs+SRC; do not infer culture from a single colour.
 
+### Visual prompt QA (R1.3B Batch2)
+
+Run `python3 scripts/prompt_qa.py` after creating prompts. QA checks term accuracy
+(`name_en`/`part_family`), structure location, material evidence, view framing,
+conflicting attributes, cross-card homogeneity (content-token Jaccard) and semantic
+consistency with the card's `prompt_en`. Status ladder:
+- `TEXT_VALID` — text checks passed;
+- `DOMAIN_REVIEWED` — **NOT_RUN** unless a human domain reviewer signs off;
+- `IMAGE_TESTED` — **NOT_RUN** when no image tool/test exists;
+- `HUMAN_VISUAL_APPROVED` — **NOT_RUN** without human visual approval.
+
+Never claim image generation, image testing, or visual approval from this QA. Unknown
+material/structure stays unknown; a prompt that asserts material without card
+evidence is an ERROR, not a guess to fill.
+
+Three natural-language requests served by this skill:
+1. "查 STR-0028 青果领的真实卡与参考，给英文结构 prompt，并标出证据/来源。"
+2. "给舞台袖型（STR-0029/STR-0004）做结构/材质/正面 prompt，标明 FACT/OBSERVATION/INFERENCE。"
+3. "把 STR-0012 的翻领结构应用到现代女西装，给出真实卡 ID + 明确标记 CREATIVE/INFERENCE 的设计 prompt。"
+
 ## 6c. Visual prompt generation (R1.3-D)
 
 Use the Vault's typed prompt builder; never claim image generation.

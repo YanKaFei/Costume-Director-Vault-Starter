@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "SRC-0533",
+    "STR-0029"
+  ],
+  "final_chars": 502,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "**Card ID:** STR-0029 (泡泡袖 / puff sleeve) — evidence status: verified; source: SRC-0533\n\n**English structure prompt (component_detail):**\n\"detail of puff sleeve on garment part construction seams closures edge finish and hardware orthographic clarity no stylisation\"\n\nConstruction note: \"long puffed and pleated sleeves on a high-waisted muslin dress, gathered sleeve head, period 1820s\" (tagged INFE"
+}

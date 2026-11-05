@@ -1,0 +1,144 @@
+card_id,path,prompt_kind,chars,text_status,domain_reviewed,image_tested,human_visual_approved,errors,warnings,views,semantic
+GAR-0002,01-服装单品/上装/GAR-0002-达布里特.md,image,2839,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"multiple view classes: detail,full-body; potential conflicting attributes: front vs back","full-body,detail",0.264
+GAR-0003,01-服装单品/上装/GAR-0003-杰金.md,image,2806,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"multiple view classes: detail,full-body; potential conflicting attributes: front vs back; potential conflicting attributes: long-sleeve vs sleeveless","full-body,detail",0.222
+GAR-0008,01-服装单品/上装/GAR-0008-马甲.md,image,959,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.02),full-body,0.019
+GAR-0008,01-服装单品/上装/GAR-0008-马甲.md,video,541,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.03),,0.027
+GAR-0001,01-服装单品/专门类型/GAR-0001-和服.md,image,944,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.07),full-body,0.072
+GAR-0001,01-服装单品/专门类型/GAR-0001-和服.md,video,541,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.02),,0.024
+GAR-0065,01-服装单品/专门类型/GAR-0065-和服.md,image,2935,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"multiple view classes: detail,full-body; potential conflicting attributes: front vs back","full-body,detail",0.303
+GAR-0045,01-服装单品/外层/GAR-0045-风衣.md,image,2839,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"multiple view classes: detail,full-body; potential conflicting attributes: front vs back","full-body,detail",0.232
+GAR-0022,01-服装单品/足部/GAR-0022-威灵顿靴.md,image,909,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.06),,0.058
+GAR-0022,01-服装单品/足部/GAR-0022-威灵顿靴.md,video,541,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.03),,0.027
+GAR-0024,01-服装单品/足部/GAR-0024-穆勒鞋.md,image,915,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.10),,0.097
+GAR-0024,01-服装单品/足部/GAR-0024-穆勒鞋.md,video,541,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.03),,0.027
+GAR-0015,01-服装单品/连身/GAR-0015-法式长袍.md,image,952,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.07),full-body,0.07
+GAR-0015,01-服装单品/连身/GAR-0015-法式长袍.md,video,541,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.05),,0.048
+GAR-0051,01-服装单品/配饰/GAR-0051-朋克徽章.md,image,2809,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"multiple view classes: detail,full-body; potential conflicting attributes: front vs back","full-body,detail",0.257
+STR-0001,02-结构细节/STR-0001-美第奇领.md,image,2055,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.202
+STR-0001,02-结构细节/STR-0001-美第奇领.md,video,468,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.07),macro,0.067
+STR-0002,02-结构细节/STR-0002-垂领.md,image,994,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; potential conflicting attributes: front vs back,detail,0.372
+STR-0002,02-结构细节/STR-0002-垂领.md,video,413,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"materials not represented in prompt; part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.03)","macro,detail",0.032
+STR-0003,02-结构细节/STR-0003-拉夫领.md,image,982,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; potential conflicting attributes: front vs back,detail,0.342
+STR-0003,02-结构细节/STR-0003-拉夫领.md,video,413,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"materials not represented in prompt; part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.03)","macro,detail",0.033
+STR-0004,02-结构细节/STR-0004-羊腿袖（19世纪）.md,image,2097,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.209
+STR-0004,02-结构细节/STR-0004-羊腿袖（19世纪）.md,video,467,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.07),macro,0.066
+STR-0005,02-结构细节/STR-0005-十六世纪羊腿袖.md,image,2133,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.245
+STR-0005,02-结构细节/STR-0005-十六世纪羊腿袖.md,video,476,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.09),macro,0.094
+STR-0006,02-结构细节/STR-0006-胸衣插片.md,image,973,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.04),detail,0.036
+STR-0006,02-结构细节/STR-0006-胸衣插片.md,video,565,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; missing STRUCTURE block; part_family not represented; low semantic overlap with card prompt_en (0.07),detail,0.074
+STR-0007,02-结构细节/STR-0007-臀垫.md,image,2128,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.219
+STR-0007,02-结构细节/STR-0007-臀垫.md,video,461,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.03),macro,0.033
+STR-0008,02-结构细节/STR-0008-笼式裙撑.md,image,2138,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.217
+STR-0008,02-结构细节/STR-0008-笼式裙撑.md,video,469,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.10),macro,0.097
+STR-0009,02-结构细节/STR-0009-裙侧撑.md,image,2138,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.28
+STR-0009,02-结构细节/STR-0009-裙侧撑.md,video,463,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,part_family not represented; low semantic overlap with card prompt_en (0.06),macro,0.061
+STR-0010,02-结构细节/STR-0010-剪口装饰.md,image,2163,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.284
+STR-0010,02-结构细节/STR-0010-剪口装饰.md,video,463,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.06),macro,0.06
+STR-0011,02-结构细节/STR-0011-盘扣.md,image,941,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.04),detail,0.037
+STR-0011,02-结构细节/STR-0011-盘扣.md,video,565,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; missing STRUCTURE block; part_family not represented; low semantic overlap with card prompt_en (0.00),detail,0.0
+STR-0012,02-结构细节/STR-0012-翻领与驳领.md,image,1013,TEXT_INVALID,NOT_RUN,NOT_RUN,NOT_RUN,prompt asserts material while card has no materials field,card ID missing from prompt; potential conflicting attributes: front vs back,detail,0.33
+STR-0012,02-结构细节/STR-0012-翻领与驳领.md,video,413,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.07)","macro,detail",0.068
+STR-0013,02-结构细节/STR-0013-装袖与插肩袖.md,image,2133,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.214
+STR-0013,02-结构细节/STR-0013-装袖与插肩袖.md,video,479,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.10),macro,0.097
+STR-0014,02-结构细节/STR-0014-肩线与肩垫.md,image,2147,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.211
+STR-0014,02-结构细节/STR-0014-肩线与肩垫.md,video,485,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.07),macro,0.065
+STR-0015,02-结构细节/STR-0015-腰线.md,image,2092,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.214
+STR-0015,02-结构细节/STR-0015-腰线.md,video,464,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.03),macro,0.033
+STR-0016,02-结构细节/STR-0016-衣摆与开衩.md,image,2151,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.237
+STR-0016,02-结构细节/STR-0016-衣摆与开衩.md,video,474,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,part_family not represented; low semantic overlap with card prompt_en (0.06),macro,0.062
+STR-0017,02-结构细节/STR-0017-门襟.md,image,2112,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.188
+STR-0017,02-结构细节/STR-0017-门襟.md,video,462,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.03),macro,0.034
+STR-0018,02-结构细节/STR-0018-纽扣与扣眼.md,image,2158,TEXT_INVALID,NOT_RUN,NOT_RUN,NOT_RUN,prompt asserts material while card has no materials field,potential conflicting attributes: front vs back,detail,0.186
+STR-0018,02-结构细节/STR-0018-纽扣与扣眼.md,video,478,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,part_family not represented; low semantic overlap with card prompt_en (0.07),macro,0.068
+STR-0019,02-结构细节/STR-0019-拉链.md,image,2100,TEXT_INVALID,NOT_RUN,NOT_RUN,NOT_RUN,prompt asserts material while card has no materials field,potential conflicting attributes: front vs back,detail,0.212
+STR-0019,02-结构细节/STR-0019-拉链.md,video,461,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,part_family not represented; low semantic overlap with card prompt_en (0.07),macro,0.067
+STR-0020,02-结构细节/STR-0020-裁片与拼片.md,image,1020,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; part_family not represented; potential conflicting attributes: front vs back,detail,0.294
+STR-0020,02-结构细节/STR-0020-裁片与拼片.md,video,413,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.07)","macro,detail",0.07
+STR-0021,02-结构细节/STR-0021-接缝与省道.md,image,2191,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.294
+STR-0021,02-结构细节/STR-0021-接缝与省道.md,video,470,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,,macro,0.119
+STR-0022,02-结构细节/STR-0022-腰头.md,image,2122,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.215
+STR-0022,02-结构细节/STR-0022-腰头.md,video,464,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,part_family not represented; low semantic overlap with card prompt_en (0.03),macro,0.033
+STR-0023,02-结构细节/STR-0023-袖口.md,image,927,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.02),detail,0.02
+STR-0023,02-结构细节/STR-0023-袖口.md,video,565,TEXT_INVALID,NOT_RUN,NOT_RUN,NOT_RUN,prompt asserts material while card has no materials field,missing STRUCTURE block; part_family not represented; low semantic overlap with card prompt_en (0.05),detail,0.053
+STR-0024,02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md,image,2207,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.235
+STR-0024,02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md,video,498,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,part_family not represented; low semantic overlap with card prompt_en (0.06),macro,0.062
+STR-0025,02-结构细节/STR-0025-松量与版型.md,image,2177,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.28
+STR-0025,02-结构细节/STR-0025-松量与版型.md,video,467,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,part_family not represented; low semantic overlap with card prompt_en (0.09),macro,0.09
+STR-0026,02-结构细节/STR-0026-手袋结构.md,image,2165,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.257
+STR-0026,02-结构细节/STR-0026-手袋结构.md,video,475,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented,macro,0.125
+STR-0027,02-结构细节/STR-0027-领口形态.md,image,2055,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.159
+STR-0027,02-结构细节/STR-0027-领口形态.md,video,469,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.07),macro,0.07
+STR-0028,02-结构细节/STR-0028-青果领-披肩领.md,image,947,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; potential conflicting attributes: front vs back,detail,0.232
+STR-0028,02-结构细节/STR-0028-青果领-披肩领.md,video,413,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"materials not represented in prompt; part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.00)","macro,detail",0.0
+STR-0029,02-结构细节/STR-0029-泡泡袖.md,image,942,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; potential conflicting attributes: front vs back,detail,0.25
+STR-0029,02-结构细节/STR-0029-泡泡袖.md,video,413,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"materials not represented in prompt; part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.04)","macro,detail",0.037
+STR-0030,02-结构细节/STR-0030-里布与衬.md,image,2120,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.212
+STR-0030,02-结构细节/STR-0030-里布与衬.md,video,477,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.10),macro,0.098
+STR-0031,02-结构细节/STR-0031-填充与绗缝.md,image,2076,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.231
+STR-0031,02-结构细节/STR-0031-填充与绗缝.md,video,475,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented,macro,0.161
+STR-0032,02-结构细节/STR-0032-褶裥与抽褶.md,image,2063,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.198
+STR-0032,02-结构细节/STR-0032-褶裥与抽褶.md,video,475,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented,macro,0.133
+STR-0033,02-结构细节/STR-0033-口袋结构.md,image,2014,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.146
+STR-0033,02-结构细节/STR-0033-口袋结构.md,video,474,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.07),macro,0.073
+STR-0034,02-结构细节/STR-0034-拖尾.md,image,1999,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.172
+STR-0034,02-结构细节/STR-0034-拖尾.md,video,460,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.04),macro,0.035
+STR-0035,02-结构细节/STR-0035-廓形与比例.md,image,2133,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,potential conflicting attributes: front vs back,detail,0.183
+STR-0035,02-结构细节/STR-0035-廓形与比例.md,video,480,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.07),macro,0.068
+MAT-0001,03-材质纹样/材料/MAT-0001-平纹细布.md,image,868,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.114
+MAT-0001,03-材质纹样/材料/MAT-0001-平纹细布.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.07),macro,0.073
+MAT-0002,03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md,image,862,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; low semantic overlap with card prompt_en (0.09),macro,0.087
+MAT-0002,03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.03),macro,0.034
+MAT-0003,03-材质纹样/材料/MAT-0003-装饰绦带.md,image,913,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; low semantic overlap with card prompt_en (0.09),macro,0.086
+MAT-0003,03-材质纹样/材料/MAT-0003-装饰绦带.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.04),macro,0.036
+MAT-0004,03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md,image,911,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.128
+MAT-0004,03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.04),macro,0.035
+MAT-0008,03-材质纹样/材料/MAT-0008-型染.md,image,931,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; low semantic overlap with card prompt_en (0.08),macro,0.084
+MAT-0008,03-材质纹样/材料/MAT-0008-型染.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.04),macro,0.035
+MAT-0009,03-材质纹样/材料/MAT-0009-胭脂虫红染料.md,image,901,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt; low semantic overlap with card prompt_en (0.07),macro,0.067
+MAT-0009,03-材质纹样/材料/MAT-0009-胭脂虫红染料.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.04),macro,0.036
+MAT-0010,03-材质纹样/材料/MAT-0010-苯胺染料.md,image,910,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.108
+MAT-0010,03-材质纹样/材料/MAT-0010-苯胺染料.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.00),macro,0.0
+MAT-0011,03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md,image,882,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.227
+MAT-0011,03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.10),macro,0.097
+MAT-0012,03-材质纹样/材料/MAT-0012-织物组织.md,image,895,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.198
+MAT-0012,03-材质纹样/材料/MAT-0012-织物组织.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt,macro,0.167
+MAT-0013,03-材质纹样/材料/MAT-0013-克重与垂坠.md,image,904,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.152
+MAT-0013,03-材质纹样/材料/MAT-0013-克重与垂坠.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt,macro,0.133
+MAT-0014,03-材质纹样/材料/MAT-0014-反光与金属线.md,image,901,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.146
+MAT-0014,03-材质纹样/材料/MAT-0014-反光与金属线.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.07),macro,0.068
+MAT-0015,03-材质纹样/材料/MAT-0015-羊毛织物.md,image,874,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.118
+MAT-0015,03-材质纹样/材料/MAT-0015-羊毛织物.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt,macro,0.109
+MAT-0016,03-材质纹样/材料/MAT-0016-亚麻织物.md,image,893,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.02),macro,0.022
+MAT-0016,03-材质纹样/材料/MAT-0016-亚麻织物.md,video,562,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.00),macro,0.0
+MAT-0017,03-材质纹样/材料/MAT-0017-皮革.md,image,901,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.06),macro,0.064
+MAT-0017,03-材质纹样/材料/MAT-0017-皮革.md,video,562,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; low semantic overlap with card prompt_en (0.06),macro,0.055
+MAT-0018,03-材质纹样/材料/MAT-0018-丝绸.md,image,868,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.167
+MAT-0018,03-材质纹样/材料/MAT-0018-丝绸.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt,macro,0.218
+MAT-0019,03-材质纹样/材料/MAT-0019-现代合成纤维与防水涂层.md,image,940,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,macro,0.136
+MAT-0019,03-材质纹样/材料/MAT-0019-现代合成纤维与防水涂层.md,video,416,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt,macro,0.109
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,image,1057,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.04),,0.038
+STY-0010,05-风格体系/STY-0010-时代剧历史考据造型.md,video,573,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.05),,0.053
+STY-0012,05-风格体系/STY-0012-1930s-Shanghai-rain-noir.md,image,1008,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.04),,0.038
+STY-0012,05-风格体系/STY-0012-1930s-Shanghai-rain-noir.md,video,573,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.03),,0.025
+STY-0016,05-风格体系/STY-0016-雕塑感体量.md,image,956,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.205
+STY-0016,05-风格体系/STY-0016-雕塑感体量.md,video,484,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.206
+STY-0017,05-风格体系/STY-0017-桶形裤与气球摆.md,image,976,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.2
+STY-0017,05-风格体系/STY-0017-桶形裤与气球摆.md,video,493,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.171
+STY-0018,05-风格体系/STY-0018-柔性剪裁.md,image,953,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.182
+STY-0018,05-风格体系/STY-0018-柔性剪裁.md,video,481,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.147
+STY-0019,05-风格体系/STY-0019-工装剪裁.md,image,959,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.114
+STY-0019,05-风格体系/STY-0019-工装剪裁.md,video,484,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.147
+STY-0020,05-风格体系/STY-0020-技术浪漫主义.md,image,969,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.132
+STY-0020,05-风格体系/STY-0020-技术浪漫主义.md,video,488,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.169
+STY-0021,05-风格体系/STY-0021-运动正装混合.md,image,964,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.156
+STY-0021,05-风格体系/STY-0021-运动正装混合.md,video,486,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.2
+STY-0022,05-风格体系/STY-0022-薄纱叠穿.md,image,955,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.178
+STY-0022,05-风格体系/STY-0022-薄纱叠穿.md,video,481,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.2
+STY-0023,05-风格体系/STY-0023-装饰艺术复兴.md,image,960,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,"card ID missing from prompt; multiple view classes: detail,full-body","full-body,detail",0.194
+STY-0023,05-风格体系/STY-0023-装饰艺术复兴.md,video,483,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,card ID missing from prompt,detail,0.219
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,image,990,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,,full-body,0.1
+LOOK-0001,09-造型组合/LOOK-0001-洛可可沙龙女主人.md,video,569,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.02),,0.022
+LOOK-0030,"09-造型组合/LOOK-0030-1930s-Shanghai-rain,-female-reporter.md",image,1006,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.09),full-body,0.085
+LOOK-0030,"09-造型组合/LOOK-0030-1930s-Shanghai-rain,-female-reporter.md",video,569,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.04),,0.045
+LOOK-0031,"09-造型组合/LOOK-0031-contemporary-night-shift-nurse,-rainy-handover.md",image,998,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,low semantic overlap with card prompt_en (0.05),full-body,0.051
+LOOK-0031,"09-造型组合/LOOK-0031-contemporary-night-shift-nurse,-rainy-handover.md",video,569,TEXT_VALID,NOT_RUN,NOT_RUN,NOT_RUN,,materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.02),,0.023

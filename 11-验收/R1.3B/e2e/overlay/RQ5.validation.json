@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "SRC-0118",
+    "STR-0012"
+  ],
+  "final_chars": 1847,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": false,
+  "pass": true,
+  "final_preview": "## Card\n\n- **ID:** STR-0012\n- **Name:** 翻领与驳领 / **turndown collar and lapel** (`garment_part`, evidence_status: **verified**, source: **SRC-0118**)\n- **Description:** The neckline/front-opening structure of coats and shirts. The **turndown collar** is a collar stand + collar face that folds over along the neckline, with pointed, rounded, or square tips; the **lapel** is the upper section of the ja"
+}

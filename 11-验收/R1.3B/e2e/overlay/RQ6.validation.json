@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "SRC-0532",
+    "SRC-0539",
+    "STR-0028"
+  ],
+  "final_chars": 680,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Result\n\n- **Card ID:** STR-0028（青果领 / 披肩领, shawl collar; evidence status: verified; sources: SRC-0532, SRC-0539）\n- **Kind:** component_detail\n\n**English prompt(s):**\n\n1. *(structure_detail — FACT/OBSERVATION)*\n   > \"detail of shawl collar on garment part construction seams closures edge finish and hardware orthographic clarity no stylisation\"\n\n2. *(construction_note — INFERENCE)*\n   > \"construc"
+}

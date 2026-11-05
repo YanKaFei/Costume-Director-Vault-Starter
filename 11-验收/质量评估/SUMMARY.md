@@ -7,8 +7,8 @@
 
 | 指标 | P2.5 基线 | 当前 |
 | --- | --- | --- |
-| query relevant@5 (0-5) | 3.0 | 4.16 |
-| query precision | 0.862 | 0.92 |
+| query relevant@5 (0-5) | 3.0 | 4.24 |
+| query precision | 0.862 | 0.93 |
 | query zero-hit rate | 0.16 | 0.0 |
 | recommend crash rate | 1.0 | 0.0 |
 | example card in A rate | 0.7222222222222222 | 0.0 |
@@ -30,7 +30,7 @@
 
 | 用例 | exit | looks | example in A | A/B/C diffs | budget | warnings |
 | --- | --- | --- | --- | --- | --- | --- |
-| T01 | 0 | 3 | False | {'a_b': 2, 'a_c': 3, 'b_c': 3} | cheaper | period_era_level,region_mismatch,occupation_coverage_gap,conflict_weather_vs_material |
+| T01 | 0 | 3 | False | {'a_b': 2, 'a_c': 3, 'b_c': 3} | cheaper | period_era_level,region_mismatch,conflict_weather_vs_material |
 | T02 | 0 | 3 | False | {'a_b': 2, 'a_c': 3, 'b_c': 3} | cheaper | context_gap,region_mismatch,occupation_coverage_gap,conflict_weather_vs_material |
 | T03 | 0 | 1 | False | {'a_b': 3, 'a_c': 2, 'b_c': 5} | equivalent_cost | context_gap,period_approximate,occupation_coverage_gap,budget_equivalent,identity_arc_continuity |
 | T04 | 0 | 3 | False | {'a_b': 2, 'a_c': 2, 'b_c': 2} | cheaper | period_approximate,knowledge_gap_slots,occupation_coverage_gap |
@@ -78,8 +78,8 @@
 
 ## 阈值与结论
 
-- query_relevant_at_5：当前=4.16，阈值=4.0 → PASS
-- query_precision：当前=0.92，阈值=0.8 → PASS
+- query_relevant_at_5：当前=4.24，阈值=4.0 → PASS
+- query_precision：当前=0.93，阈值=0.8 → PASS
 - query_zero_hit_rate：当前=0.0，阈值=0.2 → PASS
 - recommend_crash_rate：当前=0.0，阈值=0.0 → PASS
 - example_in_a_rate：当前=0.0，阈值=0.0 → PASS

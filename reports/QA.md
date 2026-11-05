@@ -114,3 +114,10 @@
 | GUI | **NOT_RUN/HUMAN_UAT_PENDING**（3 PARTIAL 截图、8 NOT_RUN；无签核） |
 
 - PASS 仅脚本/数据检查，不是艺术/历史评价；AI 未生图、未评分；人工视觉评分 **N/A**。
+
+
+## R1.3B Batch2 QA（2026-11-05 17:35）
+
+- 独立 20 条 Prompt QA：**18/20 通过**；2 失败 = STR-0023/STR-0011 缺 front/side/back（仅 45° detail）；CJK/坏链/typo/截断 **0**；evidence tags 正确；材质/颜色空字段写 unknown；同质化 3 对 >0.9（无精确重复）。
+- engineer task-111：143 prompts；TEXT_VALID 139 / TEXT_INVALID 4；warnings 141；同质化 Jaccard≥0.80 597 对、scaffold≥0.82 1122 对 → **WARN**；DOMAIN_REVIEWED/IMAGE_TESTED/HUMAN_VISUAL_APPROVED = NOT_RUN；生图 0。
+- 回归：validate 471、build 239、consistency 0/345、graph 0/0/764、Macbeth 11/11；task-111 的 acceptance/quality/workflow 日志为空 → **NOT_RUN**（另有当前独立重跑见 R1.3B-BATCH2-REPORT）；E2E Batch2 **official 3/3、overlay 3/3 五项全 true（no_image_claim）**；GUI NOT_RUN。

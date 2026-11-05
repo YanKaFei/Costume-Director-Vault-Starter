@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT: generated from .dsh/skills/costume-director/SKILL.md by scripts/sync_skill.py -->
-<!-- source-sha256: bd0fd86552930550a395ff2aeb35c1bfae836a86aa85b9fefa6dca53f1838a7e -->
+<!-- source-sha256: 7cb4af739c4f5ffcc25cbc1af0377c483bb1e7cdd7df5e8ac792e0203d1a3c7f -->
 ---
 name: costume-director
 description: "Script-driven costume design and research inside the Costume Director Vault: parse a script or single scene, break down characters and their needs, retrieve real cards with SRC provenance, produce A/B/C looks, check evidence/conflicts, plan cross-scene continuity, and write English image/video prompts. Offline, read-only toward the knowledge base."
@@ -279,6 +279,26 @@ Keep IDs and SRC IDs exact. Never shorten `GAR-0031` to “qipao card” without
   and image URL is not a redistribution license.
 - **Relationship / cross-cultural retrieval**: use `query.py` with period/region/
   style/type filters and cite IDs+SRC; do not infer culture from a single colour.
+
+### Visual prompt QA (R1.3B Batch2)
+
+Run `python3 scripts/prompt_qa.py` after creating prompts. QA checks term accuracy
+(`name_en`/`part_family`), structure location, material evidence, view framing,
+conflicting attributes, cross-card homogeneity (content-token Jaccard) and semantic
+consistency with the card's `prompt_en`. Status ladder:
+- `TEXT_VALID` — text checks passed;
+- `DOMAIN_REVIEWED` — **NOT_RUN** unless a human domain reviewer signs off;
+- `IMAGE_TESTED` — **NOT_RUN** when no image tool/test exists;
+- `HUMAN_VISUAL_APPROVED` — **NOT_RUN** without human visual approval.
+
+Never claim image generation, image testing, or visual approval from this QA. Unknown
+material/structure stays unknown; a prompt that asserts material without card
+evidence is an ERROR, not a guess to fill.
+
+Three natural-language requests served by this skill:
+1. "查 STR-0028 青果领的真实卡与参考，给英文结构 prompt，并标出证据/来源。"
+2. "给舞台袖型（STR-0029/STR-0004）做结构/材质/正面 prompt，标明 FACT/OBSERVATION/INFERENCE。"
+3. "把 STR-0012 的翻领结构应用到现代女西装，给出真实卡 ID + 明确标记 CREATIVE/INFERENCE 的设计 prompt。"
 
 ## 6c. Visual prompt generation (R1.3-D)
 

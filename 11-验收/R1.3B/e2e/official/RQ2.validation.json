@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "MAT-0001",
+    "SRC-0533",
+    "STR-0004",
+    "STR-0005",
+    "STR-0013",
+    "STR-0029"
+  ],
+  "final_chars": 7285,
+  "skill_calls": 1,
+  "tool_calls": 3,
+  "completed_tool_results": 7,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Card identity\n\nCommands run exactly as specified:\n\n- `python3 scripts/query.py --id STR-0029 --json` → **1 hit**, `score: 0.0`\n- `python3 scripts/visual_prompt.py --id STR-0029 --kind component_detail --json` → `image_generation: false`, `delivery: \"text prompt only\"`\n\n| Field | Value |\n|---|---|\n| ID | **STR-0029** |\n| Name | **泡泡袖 / puff sleeve** |\n| Type | `garment_part` / `sleeve`; `part_fa"
+}

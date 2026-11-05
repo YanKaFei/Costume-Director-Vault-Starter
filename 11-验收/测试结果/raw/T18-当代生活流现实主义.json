@@ -692,14 +692,19 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0033",
+          "id": "STR-0021",
           "slot": "outerwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
         },
         {
           "id": "STR-0025",
-          "slot": "footwear",
+          "slot": "outerwear",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0033",
+          "slot": "footwear",
+          "confidence": "suggested"
         }
       ],
       "materials": [
@@ -736,7 +741,7 @@
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, blue, buckskin, khaki, lavender, multicolor, oyster, solid color, tan, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); pocket construction (STR-0033); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011",
+      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, blue, buckskin, khaki, lavender, multicolor, oyster, solid color, tan, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); seams and darts (STR-0021); ease and fit (STR-0025); pocket construction (STR-0033), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011",
       "prompt_video": "Mei, cooking dinner while talking on the phone, scene: S15, evening, indoor, camera: static medium shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm kitchen overhead light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011",
       "reasons": [
@@ -745,7 +750,7 @@
         "下装: GAR-0077 紧身长袜 (formal)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0033, STR-0025",
+        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0021, STR-0025, STR-0033",
         "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011"
       ],
       "risks": [
@@ -770,10 +775,11 @@
           "SRC-0533",
           "SRC-0535",
           "SRC-0536",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0545",
           "SRC-0532",
-          "SRC-0521",
-          "SRC-0520",
           "SRC-0102",
           "SRC-0142",
           "SRC-0141",
@@ -848,20 +854,24 @@
             "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
-            "source_id": "SRC-0545",
-            "url": "https://vocab.getty.edu/page/aat/300210517"
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
-            "source_id": "SRC-0532",
-            "url": "https://collections.vam.ac.uk/item/O102166/"
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
-            "source_id": "SRC-0520",
-            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+            "source_id": "SRC-0545",
+            "url": "https://vocab.getty.edu/page/aat/300210517"
+          },
+          {
+            "source_id": "SRC-0532",
+            "url": "https://collections.vam.ac.uk/item/O102166/"
           },
           {
             "source_id": "SRC-0102",
@@ -1836,6 +1846,10 @@
       "url": "https://collections.vam.ac.uk/item/O1295635/"
     },
     {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
       "source_id": "SRC-0545",
       "url": "https://vocab.getty.edu/page/aat/300210517"
     },
@@ -1846,10 +1860,6 @@
     {
       "source_id": "SRC-0123",
       "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
-    },
-    {
-      "source_id": "SRC-0412",
-      "url": "https://collections.vam.ac.uk/item/O15693/"
     },
     {
       "source_id": "SRC-0550",

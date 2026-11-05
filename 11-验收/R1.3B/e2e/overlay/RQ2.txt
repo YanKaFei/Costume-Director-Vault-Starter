@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id STR-0029 --json; then python3 scripts/visual_prompt.py --id STR-0029 --kind component_detail --json. Report stage sleeve structure/material/front prompt with real IDs and evidence; explicitly say no image was generated. Complete answer only.

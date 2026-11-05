@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id STR-0012 --json; then python3 scripts/visual_prompt.py --id GAR-0033 --kind garment_worn --json. Apply STR-0012 collar/lapel structure to a modern women's blazer as a clearly labelled CREATIVE/INFERENCE design proposal using the real cards; say no image was generated. Complete answer only.

@@ -13,7 +13,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, ivory palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -22,7 +22,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 携带物: GAR-0082 匕首 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -36,7 +36,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | accessory | `GAR-0080` | 腰带 | iron, silver, gold | iron, silver, leather | verified | SRC-0487, SRC-0488 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`, `STR-0015`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`, `STR-0015`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -45,7 +45,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 配饰: GAR-0080 腰带 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035, STR-0015
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -58,7 +58,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0084` | 高跟鞋 | black | silk_satin, leather | verified | SRC-0524 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0003`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from functional / smart_casual / formal; the beige, black, khaki palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -66,7 +66,7 @@
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0084 高跟鞋 (formal)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0003, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -82,7 +82,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, ivory palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -91,7 +91,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 携带物: GAR-0082 匕首 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -105,7 +105,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | accessory | `GAR-0080` | 腰带 | iron, silver, gold | iron, silver, leather | verified | SRC-0487, SRC-0488 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`, `STR-0015`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`, `STR-0015`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -114,7 +114,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 配饰: GAR-0080 腰带 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035, STR-0015
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -127,7 +127,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0084` | 高跟鞋 | black | silk_satin, leather | verified | SRC-0524 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0003`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from functional / smart_casual / formal; the beige, black, khaki palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -135,7 +135,7 @@
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0084 高跟鞋 (formal)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0003, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -153,7 +153,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | accessory | `GAR-0080` | 腰带 | iron, silver, gold | iron, silver, leather | verified | SRC-0487, SRC-0488 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`, `STR-0015`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`, `STR-0015`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (ambition, guilt, downfall) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -162,7 +162,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 配饰: GAR-0080 腰带 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035, STR-0015
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -176,7 +176,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, ivory palette controls the emotional temperature; against the arc (ambition, guilt, downfall) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -185,7 +185,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 携带物: GAR-0082 匕首 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -198,7 +198,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0084` | 高跟鞋 | black | silk_satin, leather | verified | SRC-0524 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0003`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife; the high economic register shows through material and finish; formality runs from functional / smart_casual / formal; the beige, black, khaki palette controls the emotional temperature; against the arc (ambition, guilt, downfall) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -206,7 +206,7 @@
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0084 高跟鞋 (formal)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0003, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -222,7 +222,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | accessory | `GAR-0080` | 腰带 | iron, silver, gold | iron, silver, leather | verified | SRC-0487, SRC-0488 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`, `STR-0015`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`, `STR-0015`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (ambition, guilt, downfall) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -231,7 +231,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 配饰: GAR-0080 腰带 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035, STR-0015
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -245,7 +245,7 @@
 | footwear | `GAR-0081` | 皮靴 | brown, tan | leather | verified | SRC-0489 |
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional; the beige, brown, ivory palette controls the emotional temperature; against the arc (ambition, guilt, downfall) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -254,7 +254,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 携带物: GAR-0082 匕首 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -267,7 +267,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0084` | 高跟鞋 | black | silk_satin, leather | verified | SRC-0524 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0003`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane's wife; the high economic register shows through material and finish; formality runs from functional / smart_casual / formal; the beige, black, khaki palette controls the emotional temperature; against the arc (ambition, guilt, downfall) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -275,7 +275,7 @@
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0084 高跟鞋 (formal)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0003, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault

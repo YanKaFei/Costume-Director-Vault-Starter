@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "SRC-0532",
+    "SRC-0539",
+    "STR-0028"
+  ],
+  "final_chars": 1373,
+  "skill_calls": 1,
+  "tool_calls": 2,
+  "completed_tool_results": 3,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Result for STR-0028\n\n**Real card ID**\n- **STR-0028** — `02-结构细节/STR-0028-青果领-披肩领.md`\n- Name: 青果领/披肩领 (**shawl collar**)\n- Type: `garment_part`\n- Evidence status: **verified**\n\n**Evidence / sources**\n- Source IDs returned by `query.py`: **SRC-0532**, **SRC-0539**\n- Card evidence snippet: shawl collar is a lapel type where the collar face and front edge form one continuous curve with **no notch**"
+}

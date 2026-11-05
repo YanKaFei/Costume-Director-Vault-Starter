@@ -2,13 +2,13 @@
 
 这是 **Obsidian 可浏览、AI 可检索** 的服装/造型知识库与启动包（半成品→持续维护型），不是完成的服装史。用 Obsidian “打开本地文件夹作为仓库”即可浏览；Agent 通过仓库内脚本检索/组合造型并给出有来源约束的提示词。
 
-## 当前状态（R1.3，2026-11-05）
+## 当前状态（R1.3B Batch2，2026-11-05）
 
 | 项 | 值 |
 |---|---|
 | 卡片 | **471 = 232 内容 + 239 来源** |
 | 关系 | **345（high 262 / medium 83）**；relation_consistency **0 errors** |
-| 视觉层 | 23 张卡有视觉参考/生图/视频（46 prompt 块）；15 CC0/PD ASSET +5 link-only 外链；0 本地图/0 下载 |
+| 视觉层 | **74/205 卡**有视觉参考/生图/视频（**143 prompt 块**）；15 CC0/PD ASSET +5 link-only；**31 张 REFERENCE_PENDING**；0 本地图/0 下载 |
 | 校验 | validate **471/471 PASS**、build_sources **239 PASS**、graph **typed_unresolved 0 / unresolved 0** |
 | 来源可见 | source_ids **478/478（100%）**；MOC **232/232 内容 + 239/239 来源**（R1.3 后） |
 | draft | 79（其中 38 基线 draft 待人工；未自动提升） |
@@ -58,6 +58,7 @@
 - 视觉层：23 卡/46 prompt 块；15 CC0/PD 资产 +5 LINK；**卡片内 21/23 个 prompt/video 块仍含旧 CJK，暂不宣称 copy-ready English**。
 - E2E R1.3：official 3/3、overlay 3/3 五项全 true；AI 未生图（0 图像）。
 - 旧 `R1.3-VISUAL-COVERAGE.csv` 为基线快照（197/287），当前为 232 内容/23 视觉层/15 ASSET，需重生成。
-- 建议 R1.3 后进入维护模式：停止大规模扩卡；优先重生成卡片 prompt 块/coverage CSV、GUI 11 项人工、资产/外链审阅。
+- R1.3B Batch2：结构 26+Garment 5 视觉补全、93 prompt 块；31 张 REFERENCE_PENDING；12 未用 ASSET 审查 4 MATCHED/5 UNMATCHED/3 INDEPENDENT；coverage/license CSV 已重生成。
+- 建议维护模式：停止连续开发；优先 REFERENCE_PENDING、同质化、2 视角缺口、GUI 11 项人工、E2E/回归报告补全。
 - 6 flags、38 draft、59 isolates、18 候选（16+2）仍待人工/审批；不自动提升。
 - 详细状态与门禁见 `reports/STATUS.md`、`reports/RELEASE-GATE.md`、`reports/R1.3-FINAL.md`、`reports/R1.3-OBSIDIAN-UAT.md`。

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0033",
+    "SRC-0066",
+    "SRC-0118",
+    "SRC-0155",
+    "SRC-0204",
+    "SRC-0412",
+    "STR-0012",
+    "STR-0014"
+  ],
+  "final_chars": 10598,
+  "skill_calls": 1,
+  "tool_calls": 4,
+  "completed_tool_results": 8,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "# STR-0012 → Modern Women's Blazer — CREATIVE/INFERENCE Proposal\n\n## 1. Commands run (exact order)\n\n### 1.1 `python3 scripts/query.py --id STR-0012 --json`\n\nReturned one card:\n\n| field | value |\n|---|---|\n| id | `STR-0012` |\n| path | `02-结构细节/STR-0012-翻领与驳领.md` |\n| name | 翻领与驳领 / **turndown collar and lapel** |\n| type | `garment_part` |\n| evidence_status | `verified` |\n| source_ids | `SRC-0118` |\n"
+}

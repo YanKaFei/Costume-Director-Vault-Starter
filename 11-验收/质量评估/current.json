@@ -1,8 +1,8 @@
 {
   "summary": {
-    "snapshot_cards": 458,
-    "query_relevant_at_5": 4.16,
-    "query_precision": 0.92,
+    "snapshot_cards": 471,
+    "query_relevant_at_5": 4.24,
+    "query_precision": 0.93,
     "query_zero_hit_rate": 0.0,
     "recommend_crash_rate": 0.0,
     "example_in_a_rate": 0.0,
@@ -577,27 +577,30 @@
           "调查"
         ],
         "exit": 0,
-        "hits": 4,
-        "relevant": 3,
+        "hits": 5,
+        "relevant": 5,
         "ids": [
           "LOOK-0007",
           "LOOK-0021",
-          "STY-0005",
-          "SRC-0175"
+          "SRC-0407",
+          "GAR-0045",
+          "STY-0005"
         ],
         "relevant_ids": [
           "LOOK-0007",
           "LOOK-0021",
+          "SRC-0407",
+          "GAR-0045",
           "STY-0005"
         ]
       }
     ],
-    "relevant_at_5": 4.16,
-    "precision": 0.92,
+    "relevant_at_5": 4.24,
+    "precision": 0.93,
     "zero_hit_rate": 0.0,
     "example_in_top2_rate": 0.0,
-    "total_relevant": 104,
-    "total_returned": 113
+    "total_relevant": 106,
+    "total_returned": 114
   },
   "recommendations": [
     {
@@ -616,7 +619,6 @@
       "warnings": [
         "period_era_level",
         "region_mismatch",
-        "occupation_coverage_gap",
         "conflict_weather_vs_material"
       ],
       "expected_warnings": [],
@@ -628,7 +630,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:writer",
+      "occupation_category": "generic:journalist",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -941,7 +943,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:student",
+      "occupation_category": "generic:clerk",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -976,7 +978,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:merchant",
+      "occupation_category": "generic:student",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -1180,7 +1182,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:journalist",
+      "occupation_category": "generic:writer",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -1459,7 +1461,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:artist",
+      "occupation_category": "generic:singer",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
