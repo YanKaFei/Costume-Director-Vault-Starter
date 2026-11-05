@@ -288,3 +288,13 @@
 - **相似度**：737/2125 → WARN；23 conflict_period 为词面误报/待人工。
 - **UAT**：DOMAIN/IMAGE/HUMAN_VISUAL_APPROVED NOT_RUN；GUI NOT_RUN；无生图/评分。
 - **门禁**：PRIVATE-READY/USE YES（WARN：99 pending、同质化、4 待 owner、21 视觉卡未覆盖、GUI/domain/image/human 未做）；PUBLIC-READY NO。
+
+
+## 24. R1.3B Batch6 收口（2026-11-05 23:40）
+
+- HEAD `54d6814`；473 卡/345 relations；validate 473、build 239、consistency 0/345、graph 0、scope 503/0/1/0。
+- 视觉 163/207（78.7%）、472 prompt（TEXT_VALID 472/0）；Style 26/26、Look 35/35、Material 16/16、Component 35/35、Garment 51/92。
+- 65/21 已解释：65 = 21 可安全扩建 +44 N/A；本轮完成 21。
+- 参考：15 ASSET、7 本地 CC0 图、3 in use、4 关联待 owner、120 explicit pending；0 AI。
+- 回归：acceptance 45/45、quality PASS 4.24/0.93/0；workflow/Macbeth 未重跑；Batch6 E2E NOT_RUN；GUI NOT_RUN。
+- 门禁：PRIVATE YES WARN（120 pending、1120/4394 同质化、4 关联待 owner、44 N/A、GUI/domain/image/human 未做）；PUBLIC NO。
