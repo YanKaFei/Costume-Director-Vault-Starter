@@ -207,6 +207,20 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：59 isolates、59 isolates/38 draft/6 flags、GUI NOT_RUN）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（不得声称通过）。
 
+## 4.15 P5-F 最终收口（2026-11-05 12:02，task-96）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 未解析 | **CLOSED 6/6** | typed_unresolved 5→0；unresolved_wikilink 1→0；typed_edges 742（恢复 EXAMPLE 5 边，非新关系） |
+| 39 候选裁决 | **PASS（无写入）** | 18 VERIFIED（仅 medium design 建议）/15 REVIEW/6 REJECTED/0 INSUFFICIENT；0 写卡/0 提升 |
+| 健康检查 | **PASS（WARN P2）** | 458/234/334；MOC **224/224 + 234/234**（544 链接/0 未解析）；59 isolates/38 draft/6 flags；3 对重复 URL（P2） |
+| 适用性覆盖 | **真实** | present 474/775（61.2%）；APP 380/REVIEW 94/INSUFF 301/NA 1017 |
+| 回归 | **PASS** | validate 458、build 234、consistency 0/334、acceptance 45/45、quality **PASS 4.16/0.92/0**、composer 9/9、workflow 9/9、Macbeth 11/11、relation_trace 6/6、单元 56/56、graph 4/4 |
+| E2E | **PASS** | official 3/3、overlay 3/3，五项全 true |
+| GUI 人工验收 | **NOT_RUN/PENDING** | P5F-OBSIDIAN-UAT 11 项；无截图/签字；MOC 第 2 项预期 PASS |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：3 对重复 URL、18 VERIFIED 未入库、59 isolates/38 draft/6 flags、P5-F 未提交、GUI NOT_RUN）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（不得声称通过）。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

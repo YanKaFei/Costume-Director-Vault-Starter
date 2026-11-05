@@ -1,0 +1,9 @@
+test_example_id_resolves (tests.test_graph_analyze.GraphAnalyzeTests) ... ok
+test_inline_and_fenced_code_ignored (tests.test_graph_analyze.GraphAnalyzeTests) ... ok
+test_production_graph_is_clean (tests.test_graph_analyze.GraphAnalyzeTests) ... ok
+test_real_unresolved_still_reported (tests.test_graph_analyze.GraphAnalyzeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.346s
+
+OK

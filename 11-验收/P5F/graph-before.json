@@ -1,0 +1,449 @@
+{
+ "generated_at": "2026-11-05T11:48:30+08:00",
+ "root": "/Users/coffee/Desktop/Costume-Director-Vault-Starter",
+ "scanned_files": 489,
+ "nodes_by_role": {
+  "navigation": 26,
+  "content": 224,
+  "source": 234,
+  "research": 5
+ },
+ "nodes_by_type": {
+  "navigation": 26,
+  "garment": 92,
+  "garment_part": 35,
+  "material": 16,
+  "pattern": 3,
+  "source": 234,
+  "style": 16,
+  "period_region": 11,
+  "none": 5,
+  "scene": 16,
+  "look": 35
+ },
+ "wikilink_occurrences": 2353,
+ "resolved_visible_edges": 2158,
+ "nav_visible_edges": 495,
+ "semantic_visible_edges": 1663,
+ "unresolved_wikilinks": {
+  "target": 1
+ },
+ "typed_edges": 737,
+ "typed_unresolved": 5,
+ "typed_without_visible": 123,
+ "typed_without_visible_by_kind": {
+  "source_ids": 108,
+  "key_garments": 15
+ },
+ "typed_by_kind": {
+  "source_ids": 478,
+  "superseded_by": 1,
+  "canonical_id": 1,
+  "key_garments": 40,
+  "look_items": 190,
+  "look_scene": 27
+ },
+ "visible_by_role_pair": {
+  "navigation->content": 230,
+  "navigation->navigation": 44,
+  "navigation->source": 211,
+  "content->content": 1091,
+  "content->source": 370,
+  "source->content": 186,
+  "source->source": 16,
+  "research->source": 10
+ },
+ "source_ids_pairs": 478,
+ "source_ids_without_visible": 108,
+ "cards_with_source_ids": 217,
+ "cards_with_source_ids_without_any_visible_source": 40,
+ "sources_cited_typed": 172,
+ "sources_cited_visible": 172,
+ "role_stats": {
+  "content": {
+   "nodes": 224,
+   "zero_visible": 0,
+   "zero_total": 0,
+   "only_in_visible": 0,
+   "only_out_visible": 10,
+   "bidirectional_visible": 214,
+   "with_source_ids": 217,
+   "source_ids_no_visible": 40
+  },
+  "source": {
+   "nodes": 234,
+   "zero_visible": 0,
+   "zero_total": 0,
+   "only_in_visible": 92,
+   "only_out_visible": 0,
+   "bidirectional_visible": 142,
+   "with_source_ids": 0,
+   "source_ids_no_visible": 0
+  },
+  "navigation": {
+   "nodes": 26,
+   "zero_visible": 11,
+   "zero_total": 11,
+   "only_in_visible": 3,
+   "only_out_visible": 1,
+   "bidirectional_visible": 11,
+   "with_source_ids": 0,
+   "source_ids_no_visible": 0
+  },
+  "research": {
+   "nodes": 5,
+   "zero_visible": 3,
+   "zero_total": 3,
+   "only_in_visible": 0,
+   "only_out_visible": 2,
+   "bidirectional_visible": 0,
+   "with_source_ids": 0,
+   "source_ids_no_visible": 0
+  }
+ },
+ "semantic_nodes": 458,
+ "components": 60,
+ "largest_component": {
+  "size": 399,
+  "roles": {
+   "content": 224,
+   "source": 175
+  }
+ },
+ "component_rows_top": [
+  {
+   "component": 1,
+   "size": 399,
+   "roles": {
+    "content": 224,
+    "source": 175
+   },
+   "visible_edges_inside": 1786
+  },
+  {
+   "component": 2,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 3,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 4,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 5,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 6,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 7,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 8,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  }
+ ],
+ "singleton_components": 59,
+ "singleton_component_source_kinds": {
+  "dataset": 1,
+  "other": 8,
+  "vocabulary": 18,
+  "academic_reference": 8,
+  "museum_collection": 12,
+  "industry_framework": 3,
+  "image_repository": 5,
+  "reference_work": 4
+ },
+ "isolation_groups_by_src_bucket": {
+  "linked_visible_from_content": {
+   "SRC-00xx": 172
+  },
+  "navigation_only": {
+   "SRC-00xx": 62
+  }
+ },
+ "component_size_histogram": {
+  "399": 1,
+  "1": 59
+ },
+ "components_with_content_and_source": 1,
+ "independent_topic_components": [],
+ "source_reasons": {
+  "linked_visible_from_content": 172,
+  "navigation_only": 62
+ },
+ "top_isolates": [
+  {
+   "id": "01-角色设计模板",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "10-提示词模板/01-角色设计模板.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "02-静态生图提示词模板",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "10-提示词模板/02-静态生图提示词模板.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "03-视频提示词模板",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "10-提示词模板/03-视频提示词模板.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "04-来源/README",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "04-来源/README.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "AGENTS",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "AGENTS.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "Outfit模型",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "00-系统/Outfit模型.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "README_2",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "README.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "人物与视频模板",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "10-提示词模板/人物与视频模板.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "数据字典-v1.4-扩展",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "00-系统/数据字典-v1.4-扩展.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "来源规范",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "00-系统/来源规范.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "验证记录",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "04-来源/验证记录.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "06-时代地域/书籍研究/README",
+   "type": "none",
+   "role": "research",
+   "path": "06-时代地域/书籍研究/README.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "书籍来源复用指南",
+   "type": "none",
+   "role": "research",
+   "path": "06-时代地域/书籍研究/书籍来源复用指南.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "来源复用-白名单增补-2026-11-05",
+   "type": "none",
+   "role": "research",
+   "path": "06-时代地域/书籍研究/来源复用-白名单增补-2026-11-05.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  }
+ ]
+}

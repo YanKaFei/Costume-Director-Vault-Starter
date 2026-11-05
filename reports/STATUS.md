@@ -198,3 +198,17 @@
 - **GUI**：**NOT_RUN/PENDING**（P5E-HUMAN-UAT 11 项全 NOT_RUN，无截图/签字）。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：59 isolates/38 draft/6 flags、GUI NOT_RUN）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**。
 - 详见 `reports/P5E-FINAL.md`、`P5E-GRAPH-COMPARISON.md`、`P5E-HUMAN-UAT.md`。
+
+
+## 17. P5-F 最终收口（2026-11-05 12:02，task-96）
+
+- **快照**：HEAD `4128266` + P5-F 工作区（MOC 导航更新、graph 工具修复、P5F 报告；未提交）；**458 卡 = 224 内容 + 234 来源；334 relations**；validate **458/458**、build **234**、consistency **0/334**。
+- **未解析 6/6 CLOSED**：typed_unresolved 5→**0**（EXAMPLE 索引/ID 正则）、unresolved_wikilink 1→**0**（inline-code 示例）；typed_edges **737→742**（恢复 5 条 LOOK→EXAMPLE，不是新关系）；未新建卡/假关系。
+- **39 候选裁决**：**18 VERIFIED（仅 medium design 建议，未写卡）/ 15 REVIEW_REQUIRED / 6 REJECTED / 0 INSUFFICIENT**；无自动提升；38 draft、6 flags 独立；18 VERIFIED 待另任务入库 + source-audit 刷新。
+- **MOC 已补齐**：9 页无 frontmatter；**544 链接、0 未解析；内容 224/224、来源 234/234**（原 P2-1 关闭）。
+- **健康**：source_ids 478 对/0 missing/370 可见（77.4%）；59 isolates（+3 uncited）；38 基线 draft；6 flags；**3 对重复来源 URL（P2）**；3 张 MAT 前缀 pattern（P3）；92 来源缺 category（P3）；6 组别名冲突（P3）；11 导航零链接（P3）；回链非对称（设计）。
+- **覆盖（适用性分母）**：present **474/775（61.2%）**；APPLICABLE 380 / REVIEW 94 / INSUFFICIENT 301 / N/A 1017；material 53/92（57.6%）、component 16/92（17.4%）、style 3/92、outfit 55/92、narrative 25/35、claim 217/224；part→material 10/35。
+- **回归**：validate 458、build 234、consistency 0/334、graph 0/0/742 + 4/4、acceptance 45/45、**quality PASS 4.16/0.92/0**（E3 后日志）、composer 9/9、workflow 9/9、Macbeth 11/11、relation_trace 6/6、单元 56/56；**E2E official 3/3、overlay 3/3 五项全 true**。
+- **GUI**：**NOT_RUN / HUMAN_UAT_PENDING**（11 项无截图/签字；MOC 第 2 项预期 PASS）。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：重复 URL、18 VERIFIED 未入库、59 isolates/38 draft/6 flags、P5-F 未提交、GUI NOT_RUN）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**。
+- 详见 `reports/P5F-FINAL.md`、`P5F-RELEASE-CHECK.md`（§9）、`P5F-REGRESSION.md`（§7）、`P5F-OBSIDIAN-UAT.md`、`P5F-MAINTENANCE.md`。

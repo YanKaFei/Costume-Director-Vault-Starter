@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "LOOK-0001",
+    "LOOK-0003",
+    "LOOK-0005",
+    "LOOK-0008",
+    "LOOK-0009",
+    "LOOK-0010",
+    "LOOK-0012",
+    "LOOK-0013",
+    "LOOK-0014",
+    "LOOK-0015",
+    "SRC-0167",
+    "SRC-0168",
+    "SRC-0169",
+    "STY-0010"
+  ],
+  "final_chars": 1489,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "pass": true,
+  "final_preview": "## Query: `--relation-type in_style --related-to STY-0010`\n\n**10 cards returned** (all type `look`, evidence `interpretive`):\n\n| Card ID | Name | Real card-declared relation (`origin: card`) | Candidate-only relation (`origin: candidate`, `review_queue`) |\n|---|---|---|---|\n| LOOK-0001 | 洛可可沙龙女主人 | ✅ → STY-0010 | ✅ also queued |\n| LOOK-0003 | 十六世纪欧洲宫廷男装 | — | ✅ |\n| LOOK-0005 | 1900 南方庄园女主人 | — | ✅"
+}

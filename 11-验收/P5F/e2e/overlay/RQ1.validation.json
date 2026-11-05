@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "PRD-0001",
+    "SRC-0125",
+    "SRC-0150"
+  ],
+  "final_chars": 954,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "pass": true,
+  "final_preview": "## Relation paths from GAR-0015 (depth 2)\n\n**Path 1 — Factual (verified evidence chain)**\n1. `PRD-0001` (1770年代英法服饰语境) **context_includes** → `GAR-0015` — confidence high · evidence verified · **factual=true** · SRC-0150\n2. `PRD-0001` **claim_supported_by** → `SRC-0150` (FIT 1770至1779年代概览) — confidence high · evidence verified · **factual=true** · SRC-0150\n\n→ Both edges are factual; the period-con"
+}

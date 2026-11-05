@@ -54,7 +54,9 @@ EXCLUDE_DIR_NAMES = {".git", "projects", "11-验收", "reports", "tests", "docs"
                      "skills", ".obsidian", "__pycache__"}
 CONTENT_TYPES = {"garment", "garment_part", "material", "pattern", "style",
                  "period_region", "scene", "look"}
-ID_RE = re.compile(r"^(GAR|STR|MAT|STY|PRD|LOOK|SCN|SRC)-(\d{3,4})$", re.I)
+ID_RE = re.compile(r"^((?:GAR|STR|MAT|STY|PRD|LOOK|SCN|SRC)-[A-Z0-9][A-Z0-9-]*)$", re.I)
+CODE_SPAN = re.compile(r"`[^`\n]*`")
+FENCED = re.compile(r"(?ms)^```.*?^```")
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 ID_IN_TEXT = re.compile(r"\b(GAR|STR|MAT|STY|PRD|LOOK|SCN|SRC)-\d{3,4}\b", re.I)
 
@@ -145,7 +147,8 @@ def main():
                 i += 1
         used_keys.add(key)
         links = []
-        for raw in WIKILINK_RE.findall(body):
+        visible_body = CODE_SPAN.sub("", FENCED.sub("", body))
+        for raw in WIKILINK_RE.findall(visible_body):
             target = raw.split("|")[0].split("#")[0].strip()
             if target:
                 links.append(target)
@@ -169,6 +172,10 @@ def main():
         stem = os.path.splitext(os.path.basename(n["path"]))[0]
         by_stem.setdefault(stem, key)
         by_lower.setdefault(stem.lower(), key)
+        # Index by actual frontmatter id, including EXAMPLE/letter-suffixed IDs.
+        node_id = str((n.get("fm") or {}).get("id") or "")
+        if node_id:
+            by_id[node_id.upper()] = key
         m = ID_RE.match(key)
         if m:
             by_id[key.upper()] = key
