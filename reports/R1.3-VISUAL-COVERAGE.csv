@@ -92,8 +92,8 @@ GAR-0089,garment,corset belt / waist cincher,False,False,0,,False,False,False,1,
 GAR-0090,garment,necklace and earrings,False,False,0,,False,False,False,4,verified,reviewed
 GAR-0091,garment,loafers,False,False,0,,False,False,False,1,verified,reviewed
 STR-0001,garment_part,Medici collar,False,False,0,,False,False,False,1,verified,reviewed
-STR-0002,garment_part,falling band,False,False,0,,False,False,False,1,verified,reviewed
-STR-0003,garment_part,ruff,False,False,0,,False,False,False,1,verified,reviewed
+STR-0002,garment_part,falling band,True,True,0,,True,True,False,1,verified,reviewed
+STR-0003,garment_part,ruff,True,True,0,,True,True,False,1,verified,reviewed
 STR-0004,garment_part,gigot sleeve,False,False,0,,False,False,False,1,verified,reviewed
 STR-0005,garment_part,leg-of-mutton sleeves,False,False,0,,False,False,False,1,verified,reviewed
 STR-0006,garment_part,stomacher,True,True,0,,True,True,False,2,verified,reviewed
@@ -102,7 +102,7 @@ STR-0008,garment_part,cage crinoline,False,False,0,,False,False,False,1,verified
 STR-0009,garment_part,panniers,False,False,0,,False,False,False,1,verified,reviewed
 STR-0010,garment_part,slashing,False,False,0,,False,False,False,2,verified,reviewed
 STR-0011,garment_part,frog closure,True,True,0,,True,True,False,2,verified,reviewed
-STR-0012,garment_part,turndown collar and lapel,False,False,0,,False,False,False,1,verified,reviewed
+STR-0012,garment_part,turndown collar and lapel,True,True,0,,True,True,False,1,verified,reviewed
 STR-0013,garment_part,set-in and raglan sleeve,False,False,0,,False,False,False,2,verified,reviewed
 STR-0014,garment_part,shoulder line and shoulder pad,False,False,0,,False,False,False,1,verified,reviewed
 STR-0015,garment_part,waistline,False,False,0,,False,False,False,2,verified,reviewed
@@ -110,7 +110,7 @@ STR-0016,garment_part,hem and vents/slits,False,False,0,,False,False,False,3,ver
 STR-0017,garment_part,placket,False,False,0,,False,False,False,3,verified,reviewed
 STR-0018,garment_part,buttons and buttonholes,False,False,0,,False,False,False,3,verified,reviewed
 STR-0019,garment_part,zipper,False,False,0,,False,False,False,1,verified,reviewed
-STR-0020,garment_part,panels and gores,False,False,0,,False,False,False,3,verified,reviewed
+STR-0020,garment_part,panels and gores,True,True,0,,True,True,False,3,verified,reviewed
 STR-0021,garment_part,seams and darts,False,False,0,,False,False,False,3,verified,reviewed
 STR-0022,garment_part,waistband,False,False,0,,False,False,False,2,verified,reviewed
 STR-0023,garment_part,cuff,True,True,0,,True,True,False,2,verified,reviewed
@@ -118,30 +118,30 @@ STR-0024,garment_part,structure attribute taxonomy (Fashionpedia),False,False,0,
 STR-0025,garment_part,ease and fit,False,False,0,,False,False,False,2,verified,reviewed
 STR-0026,garment_part,handbag construction,False,False,0,,False,False,False,1,verified,reviewed
 STR-0027,garment_part,neckline shape,False,False,0,,False,False,False,4,verified,reviewed
-STR-0028,garment_part,shawl collar,False,False,0,,False,False,False,2,verified,reviewed
-STR-0029,garment_part,puff sleeve,False,False,0,,False,False,False,1,verified,reviewed
+STR-0028,garment_part,shawl collar,True,True,0,,True,True,False,2,verified,reviewed
+STR-0029,garment_part,puff sleeve,True,True,0,,True,True,False,1,verified,reviewed
 STR-0030,garment_part,lining and interfacing,False,False,0,,False,False,False,3,verified,reviewed
 STR-0031,garment_part,padding and quilting,False,False,0,,False,False,False,2,verified,reviewed
 STR-0032,garment_part,pleats and gathering,False,False,0,,False,False,False,5,verified,reviewed
 STR-0033,garment_part,pocket construction,False,False,0,,False,False,False,2,verified,reviewed
 STR-0034,garment_part,train,False,False,0,,False,False,False,2,verified,reviewed
 STR-0035,garment_part,silhouette and proportion,False,False,0,,False,False,False,5,interpretive,reviewed
-MAT-0001,material,muslin,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0002,material,Chantilly lace,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0003,material,passementerie,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0004,material,Lurex,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0008,material,katazome,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0009,material,cochineal dye,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0010,material,aniline dyes,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0011,material,Byzantine samite silk,False,False,0,,False,False,False,1,verified,reviewed
-MAT-0012,material,weave structures,False,False,0,,False,False,False,3,verified,reviewed
-MAT-0013,material,fabric weight and drape,False,False,0,,False,False,False,2,verified,reviewed
-MAT-0014,material,reflectivity and metallic yarn,False,False,0,,False,False,False,2,verified,reviewed
-MAT-0015,material,wool cloth,False,False,0,,False,False,False,5,verified,reviewed
+MAT-0001,material,muslin,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0002,material,Chantilly lace,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0003,material,passementerie,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0004,material,Lurex,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0008,material,katazome,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0009,material,cochineal dye,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0010,material,aniline dyes,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0011,material,Byzantine samite silk,True,True,0,,True,True,False,1,verified,reviewed
+MAT-0012,material,weave structures,True,True,0,,True,True,False,3,verified,reviewed
+MAT-0013,material,fabric weight and drape,True,True,0,,True,True,False,2,verified,reviewed
+MAT-0014,material,reflectivity and metallic yarn,True,True,0,,True,True,False,2,verified,reviewed
+MAT-0015,material,wool cloth,True,True,0,,True,True,False,5,verified,reviewed
 MAT-0016,material,linen,True,True,0,,True,True,False,4,verified,reviewed
 MAT-0017,material,leather,True,True,0,,True,True,False,3,verified,reviewed
-MAT-0018,material,silk,False,False,0,,False,False,False,5,verified,reviewed
-MAT-0019,material,synthetic fiber and waterproof coating,False,False,0,,False,False,False,3,verified,reviewed
+MAT-0018,material,silk,True,True,0,,True,True,False,5,verified,reviewed
+MAT-0019,material,synthetic fiber and waterproof coating,True,True,0,,True,True,False,3,verified,reviewed
 MAT-0005,pattern,kente cloth,False,False,0,,False,False,False,1,verified,reviewed
 MAT-0006,pattern,adinkra,False,False,0,,False,False,False,1,verified,reviewed
 MAT-0007,pattern,bogolanfini,False,False,0,,False,False,False,1,verified,reviewed

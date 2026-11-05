@@ -58,3 +58,30 @@ samite 是一种斜纹丝织，起源于萨珊波斯，常见于拜占庭/埃及
 - [[GAR-0062-意大利文艺复兴长袍]]
 - [[MAT-0003-装饰绦带]]
 - [[SRC-0423-V&A-拜占庭samite丝绸]] — cited source (exact source_ids; no URL guessing)
+
+## 视觉参考
+- 无已核验匹配 ASSET；当前仅来源链接/专业描述，待后续逐图匹配。
+- [[SRC-0423-V&A-拜占庭samite丝绸|SRC-0423]]
+
+## 生图提示词
+```text
+SUBJECT (FACT): extreme macro of silk Byzantine samite silk focus on fiber weave sheen and surface irregularity neutral 5600K light shallow depth of field no logos.
+STRUCTURE (OBSERVATION): as named; exact construction unknown; do not invent seams or closures.
+MATERIAL (FACT): silk.
+COLOR (OBSERVATION): yellow, brown, red, cream.
+LIGHT (CREATIVE): neutral 5600K studio light with soft directional falloff; no claim about historical lighting.
+CAMERA (CREATIVE): 100mm macro, f/8, top-down.
+BACKGROUND (CREATIVE): neutral mid-grey studio; no historical set implied.
+STYLE (INFERENCE): professional reference plate; art direction only.
+NEGATIVE (CREATIVE): no invented fiber, weave, weight, transparency, seams or closures; no logos, text or brand-specific design; no extra objects.
+CONSISTENCY (OBSERVATION): preserve card ID, material tokens, palette and proportions across frames.
+```
+
+## 视频提示词
+```text
+SUBJECT (FACT): MAT-0011 — slow reference turn / macro move.
+CONSISTENCY (OBSERVATION): preserve material tokens, palette, surface and proportions; no construction changes.
+LIGHT (CREATIVE): soft directional key with gentle falloff; no invented historical lighting.
+CAMERA (CREATIVE): slow macro pan and rack focus across surface.
+NEGATIVE (CREATIVE): no invented motion, fabric behavior or structure; no logos/text.
+```
