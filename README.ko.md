@@ -4,6 +4,8 @@
 
 <h1 align="center">Costume Director</h1>
 
+<p align="center" data-ecosystem-nav="1"><sub><a href="https://github.com/YanKaFei/Costume-Director-Vault-Starter">Costume</a> · <a href="https://github.com/YanKaFei/art-aesthetic-vault">Art</a> · <a href="https://github.com/YanKaFei/ascii-cinema-engine">ASCII Cinema</a> · <a href="https://github.com/YanKaFei/ascii-h3-director">ASCII H3</a> · <a href="https://github.com/YanKaFei/2d-limited-mv-studio">2D MV</a> · <a href="https://github.com/YanKaFei/virtual-heroine-atlas">Virtual Heroine</a></sub></p>
+
 <p align="center">
   <b>의상·실루엣·캐릭터를 위한 시각 지식 베이스</b><br>
   <sub>Silhouette · Surface · Construction · Character</sub>
@@ -231,3 +233,13 @@ Agent는 실제 카드 ID, 증거 상태, 참고 이미지 상태, 프롬프트�
 <p align="center">
   <sub>Costume Director · 개인 시각 연구 노트 · 비상업적 사용만</sub>
 </p>
+
+
+## DSH ecosystem
+
+- [Costume](https://github.com/YanKaFei/Costume-Director-Vault-Starter) — 의상 시각 지식
+- [Art](https://github.com/YanKaFei/art-aesthetic-vault) — 예술·영화 스타일 레이어
+- [ASCII Cinema](https://github.com/YanKaFei/ascii-cinema-engine) — 문자 그리드 시네마
+- [ASCII H3](https://github.com/YanKaFei/ascii-h3-director) — ASCII / 키네틱 타이포그래피 연출
+- [2D MV](https://github.com/YanKaFei/2d-limited-mv-studio) — 2D 애니메이션 MV 프롬프트
+- [Virtual Heroine](https://github.com/YanKaFei/virtual-heroine-atlas) — 버추얼 캐릭터 연구
