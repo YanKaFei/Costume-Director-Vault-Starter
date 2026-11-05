@@ -148,3 +148,51 @@ approved_anchors: []
 - [[MAT-0011-拜占庭samite丝绸|拜占庭 samite 丝绸]]
 - [[STY-0011-northern-medieval-theatrical-minimalism|STY-0011]]
 
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET。
+- [[SRC-0482-V&A-1580-1600男斗篷|SRC-0482]]
+- [[SRC-0483-V&A-1590-1610女披肩|SRC-0483]]
+- [[SRC-0125-FIT-mule|SRC-0125]]
+- [[SRC-0487-V&A-7世纪腰带扣|SRC-0487]]
+- [[SRC-0488-V&A-1500-1600腰带扣|SRC-0488]]
+- [[SRC-0490-V&A-1360-1400匕首|SRC-0490]]
+- [[SRC-0491-V&A-1475-1500匕首|SRC-0491]]
+- [[SRC-0429-V&A-1902婚礼头纱|SRC-0429]]
+- [[SRC-0423-V&A-拜占庭samite丝绸|SRC-0423]]
+
+## 生图提示词
+
+### front_full
+```text
+SUBJECT (INTERPRETATION): complete outfit Lady Macbeth guilt, blood on the hands; LOOK-0028; items=GAR-0079, GAR-0076, GAR-0024, GAR-0080, GAR-0082, GAR-0068, MAT-0011.
+COMPOSITION (FACT/OBSERVATION): only listed look_items and their cards; no invented garment.
+MATERIAL (OBSERVATION): from listed item cards; unknown where absent.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral key, soft falloff.
+CAMERA (CREATIVE): 50mm full-body, eye level, front.
+BACKGROUND (CREATIVE): neutral grey; scene context only.
+NEGATIVE (CREATIVE): no extra garments, brands or invented history.
+CONSISTENCY (OBSERVATION): preserve item IDs and layering.
+```
+
+### side_back
+```text
+SUBJECT (INTERPRETATION): side and back of Lady Macbeth guilt, blood on the hands; LOOK-0028.
+COMPOSITION (FACT/OBSERVATION): same look_items=GAR-0079, GAR-0076, GAR-0024, GAR-0080, GAR-0082, GAR-0068, MAT-0011; no added construction.
+LIGHT (CREATIVE): neutral soft key with rim separation.
+CAMERA (CREATIVE): orthographic side/back, 50-85mm.
+BACKGROUND (CREATIVE): neutral grey.
+NEGATIVE (CREATIVE): no invented closures or layers.
+CONSISTENCY (OBSERVATION): same palette, silhouette and item IDs.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): Lady Macbeth guilt, blood on the hands; slow 180-degree turn.
+COMPOSITION (OBSERVATION): same look_items=GAR-0079, GAR-0076, GAR-0024, GAR-0080, GAR-0082, GAR-0068, MAT-0011; no morphing.
+LIGHT (CREATIVE): neutral key.
+CAMERA (CREATIVE): 50mm full-body stable.
+NEGATIVE (CREATIVE): no extra garments or logos.
+CONSISTENCY (OBSERVATION): preserve item IDs, palette, layering.
+```

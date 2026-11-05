@@ -63,3 +63,56 @@ Courrèges 外套是 1960 年代 Mod/Space Age 风格代表：箱形轮廓、乙
 - [[GAR-0058-1970年代厚底鞋]]
 - [[GAR-0045-风衣]]
 - [[SRC-0417-FIT-1963-1969Courreges外套]] — cited source (exact source_ids; no URL guessing)
+
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET。
+- [[SRC-0417-FIT-1963-1969Courreges外套|SRC-0417]]
+
+## 生图提示词
+
+### product
+```text
+SUBJECT (FACT/OBSERVATION): isolated product view of 1960s Courrèges coat; GAR-0057; no model.
+STRUCTURE (OBSERVATION): card silhouette/fit and construction only; no invented cut.
+MATERIAL (OBSERVATION): vinyl, cotton, polyurethane.
+COLOR (OBSERVATION): deep_green, green.
+LIGHT (CREATIVE): neutral product lighting.
+CAMERA (CREATIVE): 50mm centered front, f/8.
+BACKGROUND (CREATIVE): neutral grey.
+NEGATIVE (CREATIVE): no extra garments, logos or invented material.
+CONSISTENCY (OBSERVATION): preserve card ID and proportions.
+```
+
+### worn
+```text
+SUBJECT (INTERPRETATION): single adult wearing 1960s Courrèges coat; GAR-0057.
+STRUCTURE (OBSERVATION): card silhouette/fit; no invented closures.
+MATERIAL (OBSERVATION): vinyl, cotton, polyurethane.
+COLOR (OBSERVATION): deep_green, green.
+LIGHT (CREATIVE): neutral soft key.
+CAMERA (CREATIVE): 50mm full-body, front.
+BACKGROUND (CREATIVE): neutral studio.
+NEGATIVE (CREATIVE): no extra layers, logos or historical claims.
+CONSISTENCY (OBSERVATION): preserve palette and silhouette.
+```
+
+### side_back
+```text
+SUBJECT (FACT/OBSERVATION): side and back of 1960s Courrèges coat; GAR-0057.
+STRUCTURE (OBSERVATION): only card-described construction; no invented back.
+LIGHT (CREATIVE): neutral rim light.
+CAMERA (CREATIVE): orthographic side/back, 50-85mm.
+BACKGROUND (CREATIVE): neutral grey.
+NEGATIVE (CREATIVE): no added seams or layers.
+CONSISTENCY (OBSERVATION): same item ID and proportions.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): 1960s Courrèges coat; slow 180-degree turn.
+CONSISTENCY (OBSERVATION): preserve material/color tokens and silhouette.
+LIGHT (CREATIVE): neutral key.
+CAMERA (CREATIVE): 50mm full-body stable.
+NEGATIVE (CREATIVE): no morphing or extra layers.
+```

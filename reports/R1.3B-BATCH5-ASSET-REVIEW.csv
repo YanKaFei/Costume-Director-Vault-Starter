@@ -1,0 +1,11 @@
+item_type,item_id,target_card,target_type,concept_match,exact_object,license_support,decision,reason,action
+asset,ASSET-0009,STY-0002,style,mourning dress 1872–74 vs Victorian mourning style 1860s–1890s,no (style reference),CC0-1.0; image 200,APPROVED_STYLE_REFERENCE,同丧服概念/同年代；STY-0002 是风格卡，非对象卡；作 style reference 不冒充对象,owner 在 STY-0002 视觉参考加 ASSET-0009 链接；本任务不改卡
+asset,ASSET-0010,STY-0002,style,mourning dress ca.1867 vs Victorian mourning style 1860s–1890s,no (style reference),CC0-1.0; image 200,APPROVED_STYLE_REFERENCE,同上；1867 丧服与风格卡同概念,owner 加 STY-0002 链接
+asset,ASSET-0011,STY-0001;PRD-0002,style/period,dress 1804–14 vs Neoclassical style 1790s–1810s / period,no (period/style reference),CC0-1.0; image 206 range GET,APPROVED_PERIOD_STYLE_REFERENCE,年代/风格相符；作 period/style reference，不外推具体人物,owner 复核后加 STY-0001/PRD-0002 视觉链接
+asset,ASSET-0012,GAR-0061,garment,4th–7th c undyed linen tunic vs Coptic tunic GAR-0061,yes (object type/period),CC0-1.0; image 206 range GET,APPROVED_EXACT_OBJECT,同为 4–7c 亚麻 tunic；可用于 GAR-0061 视觉参考,owner 在 GAR-0061 视觉参考加 ASSET-0012 链接（当前卡尚无视觉层）
+priority_reference,REF-P1,STY-0024,style,Modern Minimal Refined Utility（2025–26）,no,无已验证许可图像；现有 SRC-0553..0557 link_only,REFERENCE_PENDING,Met/Wikimedia 定向图未完成核验；只有趋势源 link-only；不伪造资产,保持 REFERENCE_PENDING，下一批再找 CC0/PD 对象
+priority_reference,REF-P2,STY-0025,style,Contemporary Deconstruction（2025–26）,no,无已验证许可图像；SRC-0553..0557 link_only,REFERENCE_PENDING,同上；不复制品牌独特设计,保持 REFERENCE_PENDING
+priority_reference,REF-P3,LOOK-0004,outfit,奥斯曼晚期官员（19c Istanbul）,no,SRC-* link-only 正文参考；无图像资产,REFERENCE_PENDING,无逐图 CC0/PD 匹配；不硬配,保持 pending
+priority_reference,REF-P4,LOOK-0012,outfit,1930s Shanghai reporter rain scene,no,SRC-* link-only；无图像资产,REFERENCE_PENDING,同上,保持 pending
+priority_reference,REF-P5,LOOK-0024,outfit,Macbeth ambition rise field dress,no,SRC-* link-only；无图像资产,REFERENCE_PENDING,同上；舞台设计非历史复原,保持 pending
+priority_reference,REF-P6,STY-0003,style,Jazz Age 1920s,no,SRC-0154 link_only；无图像资产,REFERENCE_PENDING,无逐图 CC0/PD；不硬配,保持 pending

@@ -143,3 +143,48 @@ approved_anchors: []
 - [[STY-0015-zero-gravity-opera-and-sci-fi-theatre|STY-0015]]
 - [[SCN-0006-废弃空间站维修|废弃空间站维修]]
 
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET。
+- [[SRC-0402-V&A-1960年代连体工作服|SRC-0402]]
+- [[SRC-0401-V&A-日本消防员外套|SRC-0401]]
+- [[SRC-0123-FIT-wellington-boot|SRC-0123]]
+- [[SRC-0403-V&A-1969年宇航员头盔|SRC-0403]]
+- [[SRC-0410-V&A-ENSA制服徽章|SRC-0410]]
+- [[SRC-0408-V&A-1930年代刺绣手袋|SRC-0408]]
+
+## 生图提示词
+
+### front_full
+```text
+SUBJECT (INTERPRETATION): complete outfit zero-gravity opera singer; LOOK-0033; items=GAR-0038, GAR-0037, GAR-0022, GAR-0039, GAR-0050, GAR-0048.
+COMPOSITION (FACT/OBSERVATION): only listed look_items and their cards; no invented garment.
+MATERIAL (OBSERVATION): from listed item cards; unknown where absent.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral key, soft falloff.
+CAMERA (CREATIVE): 50mm full-body, eye level, front.
+BACKGROUND (CREATIVE): neutral grey; scene context only.
+NEGATIVE (CREATIVE): no extra garments, brands or invented history.
+CONSISTENCY (OBSERVATION): preserve item IDs and layering.
+```
+
+### side_back
+```text
+SUBJECT (INTERPRETATION): side and back of zero-gravity opera singer; LOOK-0033.
+COMPOSITION (FACT/OBSERVATION): same look_items=GAR-0038, GAR-0037, GAR-0022, GAR-0039, GAR-0050, GAR-0048; no added construction.
+LIGHT (CREATIVE): neutral soft key with rim separation.
+CAMERA (CREATIVE): orthographic side/back, 50-85mm.
+BACKGROUND (CREATIVE): neutral grey.
+NEGATIVE (CREATIVE): no invented closures or layers.
+CONSISTENCY (OBSERVATION): same palette, silhouette and item IDs.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): zero-gravity opera singer; slow 180-degree turn.
+COMPOSITION (OBSERVATION): same look_items=GAR-0038, GAR-0037, GAR-0022, GAR-0039, GAR-0050, GAR-0048; no morphing.
+LIGHT (CREATIVE): neutral key.
+CAMERA (CREATIVE): 50mm full-body stable.
+NEGATIVE (CREATIVE): no extra garments or logos.
+CONSISTENCY (OBSERVATION): preserve item IDs, palette, layering.
+```

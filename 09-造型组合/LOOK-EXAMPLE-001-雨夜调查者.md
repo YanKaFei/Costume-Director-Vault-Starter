@@ -54,3 +54,44 @@ tags: [costume, look, example, noir]
 - [[STY-EXAMPLE-001-克制的都市黑色电影]]
 - [[GAR-EXAMPLE-001-白色立领衬衫]]
 - [[LOOK-0007-当代雨夜调查者连续性]]
+
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET。
+- 无来源卡；REFERENCE_PENDING
+
+## 生图提示词
+
+### front_full
+```text
+SUBJECT (INTERPRETATION): complete outfit rainy-night investigator; LOOK-EXAMPLE-001; items=GAR-EXAMPLE-001, GAR-0014, GAR-0022.
+COMPOSITION (FACT/OBSERVATION): only listed look_items and their cards; no invented garment.
+MATERIAL (OBSERVATION): from listed item cards; unknown where absent.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral key, soft falloff.
+CAMERA (CREATIVE): 50mm full-body, eye level, front.
+BACKGROUND (CREATIVE): neutral grey; scene context only.
+NEGATIVE (CREATIVE): no extra garments, brands or invented history.
+CONSISTENCY (OBSERVATION): preserve item IDs and layering.
+```
+
+### side_back
+```text
+SUBJECT (INTERPRETATION): side and back of rainy-night investigator; LOOK-EXAMPLE-001.
+COMPOSITION (FACT/OBSERVATION): same look_items=GAR-EXAMPLE-001, GAR-0014, GAR-0022; no added construction.
+LIGHT (CREATIVE): neutral soft key with rim separation.
+CAMERA (CREATIVE): orthographic side/back, 50-85mm.
+BACKGROUND (CREATIVE): neutral grey.
+NEGATIVE (CREATIVE): no invented closures or layers.
+CONSISTENCY (OBSERVATION): same palette, silhouette and item IDs.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): rainy-night investigator; slow 180-degree turn.
+COMPOSITION (OBSERVATION): same look_items=GAR-EXAMPLE-001, GAR-0014, GAR-0022; no morphing.
+LIGHT (CREATIVE): neutral key.
+CAMERA (CREATIVE): 50mm full-body stable.
+NEGATIVE (CREATIVE): no extra garments or logos.
+CONSISTENCY (OBSERVATION): preserve item IDs, palette, layering.
+```
