@@ -4,6 +4,8 @@
 
 <h1 align="center">Costume Director</h1>
 
+<p align="center" data-ecosystem-nav="1"><sub><a href="https://github.com/YanKaFei/Costume-Director-Vault-Starter">Costume</a> · <a href="https://github.com/YanKaFei/art-aesthetic-vault">Art</a> · <a href="https://github.com/YanKaFei/ascii-cinema-engine">ASCII Cinema</a> · <a href="https://github.com/YanKaFei/ascii-h3-director">ASCII H3</a> · <a href="https://github.com/YanKaFei/2d-limited-mv-studio">2D MV</a> · <a href="https://github.com/YanKaFei/virtual-heroine-atlas">Virtual Heroine</a></sub></p>
+
 <p align="center">
   <b>服装视觉知识库 · 角色造型研究笔记</b><br>
   <sub>Silhouette · Surface · Construction · Character</sub>
@@ -231,3 +233,13 @@ Agent 应返回真实卡片 ID、证据状态、参考图状态和提示词；**
 <p align="center">
   <sub>Costume Director · A personal visual research notebook · Non-commercial use only</sub>
 </p>
+
+
+## DSH ecosystem
+
+- [Costume](https://github.com/YanKaFei/Costume-Director-Vault-Starter) — 服装视觉知识库
+- [Art](https://github.com/YanKaFei/art-aesthetic-vault) — 艺术风格库
+- [ASCII Cinema](https://github.com/YanKaFei/ascii-cinema-engine) — ASCII 电影引擎
+- [ASCII H3](https://github.com/YanKaFei/ascii-h3-director) — ASCII / 动态字体导演
+- [2D MV](https://github.com/YanKaFei/2d-limited-mv-studio) — 2D 动画 MV 工坊
+- [Virtual Heroine](https://github.com/YanKaFei/virtual-heroine-atlas) — 虚拟女主角图鉴
