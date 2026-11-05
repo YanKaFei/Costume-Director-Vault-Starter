@@ -188,7 +188,7 @@
 
 ## 16. P5-E 最终验收（2026-11-05 11:45，task-92）
 
-- **快照**：HEAD `0e8d37d` + P5-E 工作区（未提交）；**458 卡 = 224 内容 + 234 来源；334 relations**；validate **458/458 PASS**、build **234 PASS**、consistency **0 errors / 334**。
+- **快照**：HEAD `0e8d37d` + HEAD `3d369f6`（P5-E commit）；**458 卡 = 224 内容 + 234 来源；334 relations**；validate **458/458 PASS**、build **234 PASS**、consistency **0 errors / 334**。
 - **深化/关系 PASS**：28 张旧卡（20 material + 6 component + 2 style 解释）；新增 **26 relations**（20 uses_material + 6 may_have_part；全 medium/interpretive/review；0 high/0 新卡/0 自动提升）；28 卡仅新增 51 行、删除 0 行；独立抽样 **30/30=100%**。
 - **覆盖（E1 适用性分母）**：present **474/775（61.2%）**；APPLICABLE 380 / REVIEW 94 / INSUFFICIENT 301 / N/A 1017；garment→material **39→53/92（57.6%）**、part→material **7→10/35（28.6%）**；component 17.4%、style 3.3%、outfit 59.8%、narrative 71.4%、claim 96.9% 持平；来源可见 **370/478（77.4%）**。
 - **图谱对比**：P5-A 前 416 节点/66 分量/58 来源零可见/299→2 可见 → 当前 489 节点/60 分量/59 单点/478→370 可见；最大分量 335→399。

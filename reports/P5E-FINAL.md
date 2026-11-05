@@ -1,6 +1,6 @@
 # P5-E 最终验收结论（P5E-FINAL）
 
-- 定稿：2026-11-05 11:45（Asia/Shanghai）；verifier / task-92；快照：**HEAD `0e8d37d` + P5-E 工作区**（未提交；**458 卡 = 224 内容 + 234 来源；334 relations**）
+- 定稿：2026-11-05 11:45（Asia/Shanghai）；verifier / task-92；快照：**HEAD `3d369f6`（P5-E commit；458 卡 = 224 内容 + 234 来源；334 relations）**
 - 依赖：`P5E-BASELINE`、`P5E-RELATION-ELIGIBILITY`、`P5E-SOURCE-RESEARCH`、`P5E-CANDIDATE-REVIEW`、`P5E-KNOWLEDGE-EXPANSION`、`P5E-AGENT-REGRESSION`、`P5E-GRAPH-COMPARISON`、`P5E-HUMAN-UAT`
 - 声明：未改卡片/脚本；GUI 未执行，不得声称通过。
 
@@ -77,7 +77,7 @@
 3. **E1 eligibility.csv 为 E3 前快照**（308）；P5-E 后 334 未重新生成（本报告用“更新后”逻辑近似；如需正式档案应重跑 E1）。
 4. 62 uncited（59 isolates + 3 未分类）、38 基线 draft、6 flags 未变；无自动提升。
 5. 书籍 page UNCONFIRMED、4 本背景书未接入；版权：来源仅链接/ODC-BY、无新图片、无新增未审计 URL。
-6. P5-E 工作区未提交；GUI 未验收；PUBLIC 门禁未解除。
+6. P5-E 已提交 `3d369f6`；GUI 未验收；PUBLIC 门禁未解除。
 
 ## 8. 回归与证据
 
