@@ -28,6 +28,7 @@
 - [About](#about)
 - [Why this repository exists](#why-this-repository-exists)
 - [The atlas at a glance](#the-atlas-at-a-glance)
+- [Data snapshot](#data-snapshot)
 - [What is inside](#what-is-inside)
 - [Knowledge chain](#knowledge-chain)
 - [Visual language](#visual-language)
@@ -72,6 +73,33 @@ This repository treats those “visible facts” as a working atlas: something t
   <sub>Headwear, gloves, bags, footwear, jewellery, belts — a taxonomy for looking, not historical evidence.</sub>
 </p>
 
+
+<p align="center">
+  <img src="assets/readme/costume-modern.jpg" width="100%" alt="The modern wardrobe — contemporary silhouettes">
+</p>
+
+<p align="center">
+  <sub>A modern wardrobe: trench coat, denim, knit, cargo pant, sneaker, tote — contemporary silhouette, surface and utility.</sub>
+</p>
+
+## Data snapshot
+
+As of November 2026, the repository holds:
+
+| Card type | Count |
+|---|---|
+| Garment | 92 |
+| Structure (garment_part) | 35 |
+| Material / pattern | 19 |
+| Style | 26 |
+| Outfit (look) | 35 |
+| Scene | 16 |
+| Period / region | 11 |
+| Source | 239 |
+| **Total** | **473** |
+
+- English prompts: 218 cards
+- Reference images: 15 records, 7 with local CC0 previews
 
 ## What is inside
 

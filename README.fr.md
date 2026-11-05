@@ -28,6 +28,7 @@
 - [À propos](#à-propos)
 - [Pourquoi ce dépôt](#pourquoi-ce-dépôt)
 - [L’atlas en un coup d’œil](#latlas-en-un-coup-dœil)
+- [Instantané des données](#instantané-des-données)
 - [Ce que contient le dépôt](#ce-que-contient-le-dépôt)
 - [La chaîne de connaissance](#la-chaîne-de-connaissance)
 - [Langage visuel](#langage-visuel)
@@ -72,6 +73,33 @@ Ce dépôt traite ces « faits visibles » comme un atlas de travail : quelque c
   <sub>Coiffes, gants, sacs, chaussures, bijoux, ceintures — une taxonomie pour regarder, pas une preuve historique.</sub>
 </p>
 
+
+<p align="center">
+  <img src="assets/readme/costume-modern.jpg" width="100%" alt="The modern wardrobe — contemporary silhouettes">
+</p>
+
+<p align="center">
+  <sub>Un vestiaire moderne : trench, denim, maille, pantalon cargo, sneaker, cabas — silhouette, matière et détail fonctionnel contemporains.</sub>
+</p>
+
+## Instantané des données
+
+En novembre 2026, le dépôt contient :
+
+| Type de fiche | Nombre |
+|---|---|
+| Vêtement | 92 |
+| Structure (garment_part) | 35 |
+| Matière / motif | 19 |
+| Style | 26 |
+| Silhouette complète (look) | 35 |
+| Scène | 16 |
+| Époque / région | 11 |
+| Source | 239 |
+| **Total** | **473** |
+
+- Prompts en anglais : 218 fiches
+- Images de référence : 15 fiches, dont 7 aperçus CC0 locaux
 
 ## Ce que contient le dépôt
 

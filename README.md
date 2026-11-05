@@ -28,6 +28,7 @@
 - [关于](#关于)
 - [为什么做这个仓库](#为什么做这个仓库)
 - [一张图看全貌](#一张图看全貌)
+- [数据快照](#数据快照)
 - [仓库里有什么](#仓库里有什么)
 - [知识结构](#知识结构)
 - [视觉语言](#视觉语言)
@@ -72,6 +73,33 @@ Costume Director Vault Starter，服装视觉知识库，结构、材质、Promp
   <sub>头饰、手套、包袋、鞋履、珠宝、腰带——这是观察索引，不是历史实物证据。</sub>
 </p>
 
+
+<p align="center">
+  <img src="assets/readme/costume-modern.jpg" width="100%" alt="The modern wardrobe — contemporary silhouettes">
+</p>
+
+<p align="center">
+  <sub>现代衣橱：风衣、丹宁、针织、工装裤、球鞋、托特包——当代廓形、表面与功能细节。</sub>
+</p>
+
+## 数据快照
+
+截至 2026 年 11 月，仓库收录：
+
+| 卡片类型 | 数量 |
+|---|---|
+| 单品 garment | 92 |
+| 结构 garment_part | 35 |
+| 材质 / 纹样 material · pattern | 19 |
+| 风格 style | 26 |
+| 造型 look | 35 |
+| 剧情场景 scene | 16 |
+| 时代地域 period_region | 11 |
+| 来源 source | 239 |
+| **合计** | **473** |
+
+- 英文提示词：218 张卡片
+- 参考图登记：15 条，其中 7 张本地 CC0 预览
 
 ## 仓库里有什么
 
