@@ -268,3 +268,13 @@
 - **不一致**：`11-验收/R1.3B/summary.json` 已同步 209/89/0；Batch2 179 快照归档 `summary-baseline-179.json`；COUNT/SIMILARITY/AGENT-E2E 报告已落盘。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：46 REFERENCE_PENDING、warnings/同质化、4 associations 待 owner、Style4/Look29 未视觉化、GUI/domain/image/human visual NOT_RUN）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；建议维护模式/停止连续开发。
 - 详见 `R1.3B-BATCH3-BASELINE.md`、`R1.3B-BATCH3-FINAL.md`、`R1.3B-BATCH3-ASSET-REVIEW.csv`、`R1.3B-BATCH3-VISUAL-UAT.md`。
+
+
+## 22. R1.3B Batch4 收口（2026-11-05 20:00）
+
+- **HEAD**：`78c61f0`；**473 卡 / 234 内容 +239 来源 /345 relations**；validate 473、build 239、consistency 0/345、graph 0；scope 503/0/1/0。
+- **视觉**：105/207（50.7%）、257 prompt（TEXT_VALID 257/0）；Style 26/26、Look 18/35；新增 4 Style +12 Outfit，48 prompt。
+- **图片**：7 张 Met CC0 本地归档 + 远程预览；15 ASSET；3 in use；4 已批准关联待 owner 写卡；5 link-only；62 explicit REFERENCE_PENDING；0 AI 图。
+- **相似度**：602 content Jaccard≥0.80、1297 scaffold；20 样本修正部分降低；23 conflict_period 复核为词汇误报/待人工，非已证实历史冲突。
+- **UAT**：TEXT 257/257；DOMAIN/IMAGE/HUMAN_VISUAL_APPROVED NOT_RUN；无生图/评分；GUI NOT_RUN。
+- **门禁**：PRIVATE-READY/USE YES（WARN：62 pending、同质化、4 待 owner、GUI/domain/image/human 未做）；PUBLIC-READY NO（B1–B6+L1–L6）。
