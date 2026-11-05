@@ -307,3 +307,12 @@
 - 20 组 Prompt 差异；1120→1080，6/20 <0.80；472/472 TEXT_VALID。
 - 参考：15 ASSET、7 本地 CC0、6 卡匹配/9 pending；4 关联待 owner；0 生图。
 - E2E 官方 3/3 + overlay 3/3（9/10 场景 PARTIAL）；acceptance 45/45；quality 本轮未落盘 NOT_RUN；GUI/domain/image/human NOT_RUN。
+
+
+## 26. R1.3B Batch8 收口（2026-11-06 00:30）
+
+- HEAD `f6f5a83`（报告）；代码/卡片 HEAD `98de1f6`；473 卡/345 relations；validate 473、build 239、consistency 0/345、graph 0。
+- 视觉 163/207、472 prompt；44 分类 FUTURE25/EVIDENCE10/DRAFT5/N/A3/DUPLICATE1；120 pending C3 75/C1 29/C4 14/C2 2。
+- 参考：15 ASSET、7 本地 CC0、6 卡匹配/9 pending；4 关联待 owner；0 生图。
+- quality_eval 隔离重跑 **PASS 116.53s（4.24/0.93/0）**；acceptance 45/45、composer/workflow/Macbeth PASS；E2E 3/3+3/3（9/10）。
+- GUI/domain/image/human NOT_RUN；PUBLIC NO；停止扩版本，维护模式。
