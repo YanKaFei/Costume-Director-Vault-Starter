@@ -278,3 +278,13 @@
 - **相似度**：602 content Jaccard≥0.80、1297 scaffold；20 样本修正部分降低；23 conflict_period 复核为词汇误报/待人工，非已证实历史冲突。
 - **UAT**：TEXT 257/257；DOMAIN/IMAGE/HUMAN_VISUAL_APPROVED NOT_RUN；无生图/评分；GUI NOT_RUN。
 - **门禁**：PRIVATE-READY/USE YES（WARN：62 pending、同质化、4 待 owner、GUI/domain/image/human 未做）；PUBLIC-READY NO（B1–B6+L1–L6）。
+
+
+## 23. R1.3B Batch5 收口（2026-11-05 20:25）
+
+- **HEAD**：`46318b0`；473 卡/345 relations；validate 473、build 239、consistency 0/345、graph 0、scope 503/0/1/0。
+- **视觉**：142/207（68.6%）、388 prompt（TEXT_VALID 388/0）；Style 26/26、Look 35/35、Garment 30/92、Material 16/16、Component 35/35。
+- **参考图**：15 ASSET；7 张 Met CC0 本地归档/预览；3 in use；4 已批准关联待 owner；5 link-only；99 REFERENCE_PENDING；0 AI。
+- **相似度**：737/2125 → WARN；23 conflict_period 为词面误报/待人工。
+- **UAT**：DOMAIN/IMAGE/HUMAN_VISUAL_APPROVED NOT_RUN；GUI NOT_RUN；无生图/评分。
+- **门禁**：PRIVATE-READY/USE YES（WARN：99 pending、同质化、4 待 owner、21 视觉卡未覆盖、GUI/domain/image/human 未做）；PUBLIC-READY NO。
