@@ -53,14 +53,14 @@
 | footwear | `GAR-0058` | 1970 年代厚底鞋 | black, gold | leather, metal, rubber | verified | SRC-0418 |
 
 - Structure cards: `STR-0011`, `STR-0016`
-- Material cards: `MAT-0002`, `MAT-0003`, `MAT-0004`
+- Material cards: `MAT-0002`, `MAT-0003`, `MAT-0017`, `MAT-0004`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): formality runs from formal / smart_casual; the black, cream white, gold palette controls the emotional temperature.
 - Reason: highest scoring dimensions: 年代/文化 15.6/25, 角色身份 7.5/15
 - Reason: 连身: GAR-0032 长衫 (formal)
 - Reason: 足部: GAR-0058 1970 年代厚底鞋 (smart_casual)
 - Reason: linked structure cards: STR-0011, STR-0016
-- Reason: linked material cards: MAT-0002, MAT-0003, MAT-0004
+- Reason: linked material cards: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019
 - Risk: region mismatch in GAR-0032, GAR-0058: cards document their own regions, not unknown
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault
@@ -118,14 +118,14 @@
 | footwear | `GAR-0058` | 1970 年代厚底鞋 | black, gold | leather, metal, rubber | verified | SRC-0418 |
 
 - Structure cards: `STR-0011`, `STR-0016`
-- Material cards: `MAT-0002`, `MAT-0003`, `MAT-0004`
+- Material cards: `MAT-0002`, `MAT-0003`, `MAT-0017`, `MAT-0004`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): formality runs from formal / smart_casual; the black, cream white, gold palette controls the emotional temperature.
 - Reason: highest scoring dimensions: 年代/文化 15.6/25, 角色身份 7.5/15
 - Reason: 连身: GAR-0032 长衫 (formal)
 - Reason: 足部: GAR-0058 1970 年代厚底鞋 (smart_casual)
 - Reason: linked structure cards: STR-0011, STR-0016
-- Reason: linked material cards: MAT-0002, MAT-0003, MAT-0004
+- Reason: linked material cards: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019
 - Risk: region mismatch in GAR-0032, GAR-0058: cards document their own regions, not unknown
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault

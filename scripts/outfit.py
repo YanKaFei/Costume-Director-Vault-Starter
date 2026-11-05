@@ -20,6 +20,7 @@ Usage:
 Exit codes: 0 = at least one composed look; 2 = bad input; 3 = no candidates.
 """
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -757,6 +758,101 @@ def validate_hard_constraints(payload, inp, cards):
     return violations
 
 
+def vary_stage_a(looks, pools, ctx, cards):
+    """Give look A a deterministic stage-specific variation.
+
+    Curated occupation looks can be identical across a character's stages.  Use
+    explicit context fields (scene/action/season/weather/art direction) only to
+    choose a real unused candidate for one non-anchor slot; no invented IDs.
+    """
+    if not looks:
+        return []
+    a = looks[0]
+    inp = ctx.get("input") or {}
+    signature = lib.norm_text(" ".join(str(inp.get(key, "")) for key in
+                                      ("scene", "action", "season", "weather",
+                                       "art_direction", "location")))
+    if not signature:
+        return []
+    digest = int(hashlib.sha1(signature.encode("utf-8")).hexdigest(), 16)
+    used = set()
+    for look in looks:
+        used.update(item["id"] for item in (look.get("items") or {}).values() if item)
+    slots = ["outerwear", "accessory", "carried_prop", "footwear"]
+    offset = digest % len(slots)
+    ordered_slots = slots[offset:] + slots[:offset]
+    for slot in ordered_slots:
+        current = (a.get("items") or {}).get(slot)
+        if not current:
+            continue
+        candidates = []
+        fallback = []
+        for candidate in pools.get(slot, []):
+            if candidate["id"] in used or candidate.get("evidence_status") == "example":
+                continue
+            if candidate_context_compatible(candidate,
+                                            [v for v in a["items"].values() if v],
+                                            inp):
+                candidates.append(candidate)
+            else:
+                fallback.append(candidate)
+        if not candidates:
+            candidates = fallback
+        if not candidates:
+            continue
+        candidates.sort(key=lambda c: c["id"])
+        replacement = candidates[digest % len(candidates)]
+        a["items"][slot] = replacement
+        rebuilt = recommend.score_look(a["items"], ctx, cards,
+                                       source_look_id=a.get("source_look_id"), full=True)
+        rebuilt["look_ref"] = a.get("look_ref")
+        if a.get("curated_occupation_match"):
+            rebuilt["curated_occupation_match"] = True
+        a.clear()
+        a.update(rebuilt)
+        return ["stage-specific A variation: %s -> %s" % (slot, replacement["id"])]
+    return []
+
+
+def repair_missing_torso(looks, pools, ctx, cards):
+    """Fill a missing torso only from real unused pool candidates.
+
+    Some contexts (e.g. dance/action) can leave a look with footwear/accessory
+    but no one-piece or top+bottom; the historical validator then blocks it.
+    Use a real candidate, never an invented replacement.
+    """
+    warnings = []
+    for look in looks:
+        items = look.get("items") or {}
+        has_torso = ("one_piece" in items or "set" in items or
+                     ("upper_body" in items and "lower_body" in items))
+        if has_torso:
+            continue
+        used = {item["id"] for item in items.values() if item}
+        candidates = []
+        for slot in ("one_piece", "set"):
+            for candidate in pools.get(slot, []):
+                if candidate["id"] in used or candidate.get("evidence_status") == "example":
+                    continue
+                candidates.append((slot, candidate))
+        if not candidates:
+            continue
+        candidates.sort(key=lambda pair: (pair[1].get("evidence_status") != "verified",
+                                          pair[1]["id"]))
+        slot, candidate = candidates[0]
+        items[slot] = candidate
+        rebuilt = recommend.score_look(items, ctx, cards,
+                                       source_look_id=look.get("source_look_id"), full=True)
+        rebuilt["look_ref"] = look.get("look_ref")
+        if look.get("curated_occupation_match"):
+            rebuilt["curated_occupation_match"] = True
+        look.clear()
+        look.update(rebuilt)
+        warnings.append("missing torso repaired with %s in look %s" % (
+            candidate["id"], look.get("look_ref")))
+    return warnings
+
+
 def composer_payload(inp, cards, sources):
     result = recommend.make_result(inp, cards, sources)
     ctx = result.get("context") or {}
@@ -765,7 +861,9 @@ def composer_payload(inp, cards, sources):
     anchor, anchor_warnings = inject_occupation_anchor(
         result.get("looks", []), ctx, cards)
     fill_warnings = fill_context_slots(result.get("looks", []), pools, ctx, cards, sources)
+    stage_warnings = vary_stage_a(result.get("looks", []), pools, ctx, cards)
     abc_fix_warnings = ensure_abc_difference(result.get("looks", []), pools, ctx, cards)
+    torso_warnings = repair_missing_torso(result.get("looks", []), pools, ctx, cards)
     looks = result.get("looks", [])
     composer_looks = [composer_look(look, result, cards, sources, ctx) for look in looks]
     abc = {}
@@ -786,7 +884,9 @@ def composer_payload(inp, cards, sources):
     warnings = list(result.get("warnings") or [])
     warnings.extend(anchor_warnings)
     warnings.extend(fill_warnings)
+    warnings.extend(stage_warnings)
     warnings.extend(abc_fix_warnings)
+    warnings.extend(torso_warnings)
     for entry in abc.values():
         if isinstance(entry, dict) and entry.get("item_diff", 0) < 2:
             warnings.append("A/B/C structural difference below 2 items in one pair")

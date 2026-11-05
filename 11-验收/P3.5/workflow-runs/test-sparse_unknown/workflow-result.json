@@ -430,6 +430,7 @@
                   "SRC-0206",
                   "SRC-0202",
                   "SRC-0201",
+                  "SRC-0062",
                   "SRC-0108",
                   "SRC-0412",
                   "SRC-0521",
@@ -459,6 +460,10 @@
                   {
                     "source_id": "SRC-0201",
                     "url": "https://collections.vam.ac.uk/item/O107537/"
+                  },
+                  {
+                    "source_id": "SRC-0062",
+                    "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
                   },
                   {
                     "source_id": "SRC-0108",
@@ -681,6 +686,7 @@
                   "SRC-0205",
                   "SRC-0206",
                   "SRC-0202",
+                  "SRC-0062",
                   "SRC-0521",
                   "SRC-0520",
                   "SRC-0141",
@@ -708,6 +714,10 @@
                   {
                     "source_id": "SRC-0202",
                     "url": "https://collections.vam.ac.uk/item/O80590/"
+                  },
+                  {
+                    "source_id": "SRC-0062",
+                    "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
                   },
                   {
                     "source_id": "SRC-0521",
@@ -873,19 +883,27 @@
                   "slot": "one_piece"
                 },
                 {
+                  "id": "MAT-0017",
+                  "slot": "footwear"
+                },
+                {
                   "id": "MAT-0004",
+                  "slot": "footwear"
+                },
+                {
+                  "id": "MAT-0019",
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Figure, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
-              "prompt_video": "Figure, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 两侧开衩提供步幅，但仍限制大步/跑动; 长而紧的袖限制手腕; 长摆上下楼梯需提摆，镜头间需保持提摆/放下状态一致。, lighting: unknown, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-              "continuity_lock": "continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
+              "prompt_image": "full-body character design of an adult Figure, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019",
+              "prompt_video": "Figure, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 两侧开衩提供步幅，但仍限制大步/跑动; 长而紧的袖限制手腕; 长摆上下楼梯需提摆，镜头间需保持提摆/放下状态一致。, lighting: unknown, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+              "continuity_lock": "continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019",
               "reasons": [
                 "highest scoring dimensions: 年代/文化 15.6/25, 角色身份 7.5/15",
                 "连身: GAR-0032 长衫 (formal)",
                 "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
                 "linked structure cards: STR-0011, STR-0016",
-                "linked material cards: MAT-0002, MAT-0003, MAT-0004"
+                "linked material cards: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019"
               ],
               "risks": [
                 "region mismatch in GAR-0032, GAR-0058: cards document their own regions, not unknown",
@@ -898,9 +916,16 @@
                   "SRC-0418",
                   "SRC-0200",
                   "SRC-0201",
+                  "SRC-0062",
                   "SRC-0141",
                   "SRC-0142",
-                  "SRC-0143"
+                  "SRC-0549",
+                  "SRC-0489",
+                  "SRC-0538",
+                  "SRC-0143",
+                  "SRC-0550",
+                  "SRC-0417",
+                  "SRC-0406"
                 ],
                 "source_urls": [
                   {
@@ -920,6 +945,10 @@
                     "url": "https://collections.vam.ac.uk/item/O107537/"
                   },
                   {
+                    "source_id": "SRC-0062",
+                    "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+                  },
+                  {
                     "source_id": "SRC-0141",
                     "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
                   },
@@ -928,8 +957,32 @@
                     "url": "https://fashionhistory.fitnyc.edu/passementerie/"
                   },
                   {
+                    "source_id": "SRC-0549",
+                    "url": "https://vocab.getty.edu/page/aat/300011845"
+                  },
+                  {
+                    "source_id": "SRC-0489",
+                    "url": "https://collections.vam.ac.uk/item/O107847/"
+                  },
+                  {
+                    "source_id": "SRC-0538",
+                    "url": "https://collections.vam.ac.uk/item/O356431/"
+                  },
+                  {
                     "source_id": "SRC-0143",
                     "url": "https://fashionhistory.fitnyc.edu/lurex/"
+                  },
+                  {
+                    "source_id": "SRC-0550",
+                    "url": "https://vocab.getty.edu/page/aat/300014058"
+                  },
+                  {
+                    "source_id": "SRC-0417",
+                    "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+                  },
+                  {
+                    "source_id": "SRC-0406",
+                    "url": "https://collections.vam.ac.uk/item/O361727/"
                   }
                 ],
                 "context_style_ids": [
@@ -943,8 +996,8 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Figure, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
-              "prompt_video_en": "Figure, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
+              "prompt_image_en": "full-body character design of an adult Figure, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019",
+              "prompt_video_en": "Figure, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
             }
           ],
           "context": {
@@ -1024,7 +1077,9 @@
               "GAR-0073",
               "GAR-0074",
               "GAR-0086",
+              "GAR-0088",
               "GAR-0021",
+              "GAR-0090",
               "GAR-0025",
               "GAR-0067",
               "GAR-0083",
@@ -1032,7 +1087,8 @@
               "GAR-0026",
               "GAR-0028",
               "GAR-0066",
-              "GAR-0070"
+              "GAR-0070",
+              "GAR-0089"
             ],
             "carried_prop": [
               "GAR-0049",
@@ -1047,6 +1103,7 @@
               "GAR-0058",
               "GAR-0022",
               "GAR-0084",
+              "GAR-0091",
               "GAR-0081",
               "GAR-0023",
               "GAR-0060"
@@ -1182,6 +1239,10 @@
               "url": "https://collections.vam.ac.uk/item/O107537/"
             },
             {
+              "source_id": "SRC-0062",
+              "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+            },
+            {
               "source_id": "SRC-0108",
               "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
             },
@@ -1220,6 +1281,30 @@
             {
               "source_id": "SRC-0418",
               "url": "https://collections.vam.ac.uk/item/O1380038/"
+            },
+            {
+              "source_id": "SRC-0549",
+              "url": "https://vocab.getty.edu/page/aat/300011845"
+            },
+            {
+              "source_id": "SRC-0489",
+              "url": "https://collections.vam.ac.uk/item/O107847/"
+            },
+            {
+              "source_id": "SRC-0538",
+              "url": "https://collections.vam.ac.uk/item/O356431/"
+            },
+            {
+              "source_id": "SRC-0550",
+              "url": "https://vocab.getty.edu/page/aat/300014058"
+            },
+            {
+              "source_id": "SRC-0417",
+              "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+            },
+            {
+              "source_id": "SRC-0406",
+              "url": "https://collections.vam.ac.uk/item/O361727/"
             }
           ],
           "missing_urls": [],
@@ -1482,6 +1567,7 @@
                   "SRC-0206",
                   "SRC-0202",
                   "SRC-0201",
+                  "SRC-0062",
                   "SRC-0108",
                   "SRC-0412",
                   "SRC-0521",
@@ -1511,6 +1597,10 @@
                   {
                     "source_id": "SRC-0201",
                     "url": "https://collections.vam.ac.uk/item/O107537/"
+                  },
+                  {
+                    "source_id": "SRC-0062",
+                    "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
                   },
                   {
                     "source_id": "SRC-0108",
@@ -1733,6 +1823,7 @@
                   "SRC-0205",
                   "SRC-0206",
                   "SRC-0202",
+                  "SRC-0062",
                   "SRC-0521",
                   "SRC-0520",
                   "SRC-0141",
@@ -1760,6 +1851,10 @@
                   {
                     "source_id": "SRC-0202",
                     "url": "https://collections.vam.ac.uk/item/O80590/"
+                  },
+                  {
+                    "source_id": "SRC-0062",
+                    "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
                   },
                   {
                     "source_id": "SRC-0521",
@@ -1925,19 +2020,27 @@
                   "slot": "one_piece"
                 },
                 {
+                  "id": "MAT-0017",
+                  "slot": "footwear"
+                },
+                {
                   "id": "MAT-0004",
+                  "slot": "footwear"
+                },
+                {
+                  "id": "MAT-0019",
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Voice, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
-              "prompt_video": "Voice, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 两侧开衩提供步幅，但仍限制大步/跑动; 长而紧的袖限制手腕; 长摆上下楼梯需提摆，镜头间需保持提摆/放下状态一致。, lighting: unknown, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-              "continuity_lock": "continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
+              "prompt_image": "full-body character design of an adult Voice, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019",
+              "prompt_video": "Voice, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 两侧开衩提供步幅，但仍限制大步/跑动; 长而紧的袖限制手腕; 长摆上下楼梯需提摆，镜头间需保持提摆/放下状态一致。, lighting: unknown, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+              "continuity_lock": "continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019",
               "reasons": [
                 "highest scoring dimensions: 年代/文化 15.6/25, 角色身份 7.5/15",
                 "连身: GAR-0032 长衫 (formal)",
                 "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
                 "linked structure cards: STR-0011, STR-0016",
-                "linked material cards: MAT-0002, MAT-0003, MAT-0004"
+                "linked material cards: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019"
               ],
               "risks": [
                 "region mismatch in GAR-0032, GAR-0058: cards document their own regions, not unknown",
@@ -1950,9 +2053,16 @@
                   "SRC-0418",
                   "SRC-0200",
                   "SRC-0201",
+                  "SRC-0062",
                   "SRC-0141",
                   "SRC-0142",
-                  "SRC-0143"
+                  "SRC-0549",
+                  "SRC-0489",
+                  "SRC-0538",
+                  "SRC-0143",
+                  "SRC-0550",
+                  "SRC-0417",
+                  "SRC-0406"
                 ],
                 "source_urls": [
                   {
@@ -1972,6 +2082,10 @@
                     "url": "https://collections.vam.ac.uk/item/O107537/"
                   },
                   {
+                    "source_id": "SRC-0062",
+                    "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+                  },
+                  {
                     "source_id": "SRC-0141",
                     "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
                   },
@@ -1980,8 +2094,32 @@
                     "url": "https://fashionhistory.fitnyc.edu/passementerie/"
                   },
                   {
+                    "source_id": "SRC-0549",
+                    "url": "https://vocab.getty.edu/page/aat/300011845"
+                  },
+                  {
+                    "source_id": "SRC-0489",
+                    "url": "https://collections.vam.ac.uk/item/O107847/"
+                  },
+                  {
+                    "source_id": "SRC-0538",
+                    "url": "https://collections.vam.ac.uk/item/O356431/"
+                  },
+                  {
                     "source_id": "SRC-0143",
                     "url": "https://fashionhistory.fitnyc.edu/lurex/"
+                  },
+                  {
+                    "source_id": "SRC-0550",
+                    "url": "https://vocab.getty.edu/page/aat/300014058"
+                  },
+                  {
+                    "source_id": "SRC-0417",
+                    "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+                  },
+                  {
+                    "source_id": "SRC-0406",
+                    "url": "https://collections.vam.ac.uk/item/O361727/"
                   }
                 ],
                 "context_style_ids": [
@@ -1995,8 +2133,8 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Voice, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004",
-              "prompt_video_en": "Voice, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
+              "prompt_image_en": "full-body character design of an adult Voice, one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream white, gold, setting: S1: SCENE 1. A bare stage in darkness., unknown, unknown, art direction: unknown, lighting: unknown, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016), continuity lock: GAR-0032 changshan [cream_white; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019",
+              "prompt_video_en": "Voice, walk, scene: S1: SCENE 1. A bare stage in darkness., unknown, unknown, camera: medium shot, costume: one-piece: 1930s Chinese man’s changshan, full-length cream-white figured gauze silk robe, small stand-up collar, right-side fastening with five loop-and-knot buttons, long tight sleeves, straight cuffs, side slits, unlined; silk, gauze_silk; one-piece] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=unknown; damage=unknown; dirt=unknown; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
             }
           ],
           "context": {
@@ -2076,7 +2214,9 @@
               "GAR-0073",
               "GAR-0074",
               "GAR-0086",
+              "GAR-0088",
               "GAR-0021",
+              "GAR-0090",
               "GAR-0025",
               "GAR-0067",
               "GAR-0083",
@@ -2084,7 +2224,8 @@
               "GAR-0026",
               "GAR-0028",
               "GAR-0066",
-              "GAR-0070"
+              "GAR-0070",
+              "GAR-0089"
             ],
             "carried_prop": [
               "GAR-0049",
@@ -2099,6 +2240,7 @@
               "GAR-0058",
               "GAR-0022",
               "GAR-0084",
+              "GAR-0091",
               "GAR-0081",
               "GAR-0023",
               "GAR-0060"
@@ -2234,6 +2376,10 @@
               "url": "https://collections.vam.ac.uk/item/O107537/"
             },
             {
+              "source_id": "SRC-0062",
+              "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+            },
+            {
               "source_id": "SRC-0108",
               "url": "https://fashionhistory.fitnyc.edu/shirtwaist/"
             },
@@ -2272,6 +2418,30 @@
             {
               "source_id": "SRC-0418",
               "url": "https://collections.vam.ac.uk/item/O1380038/"
+            },
+            {
+              "source_id": "SRC-0549",
+              "url": "https://vocab.getty.edu/page/aat/300011845"
+            },
+            {
+              "source_id": "SRC-0489",
+              "url": "https://collections.vam.ac.uk/item/O107847/"
+            },
+            {
+              "source_id": "SRC-0538",
+              "url": "https://collections.vam.ac.uk/item/O356431/"
+            },
+            {
+              "source_id": "SRC-0550",
+              "url": "https://vocab.getty.edu/page/aat/300014058"
+            },
+            {
+              "source_id": "SRC-0417",
+              "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+            },
+            {
+              "source_id": "SRC-0406",
+              "url": "https://collections.vam.ac.uk/item/O361727/"
             }
           ],
           "missing_urls": [],
@@ -2368,6 +2538,7 @@
         "issues": [],
         "evidence_complete": true,
         "source_ids": [
+          "SRC-0062",
           "SRC-0108",
           "SRC-0141",
           "SRC-0142",
@@ -2377,12 +2548,18 @@
           "SRC-0202",
           "SRC-0205",
           "SRC-0206",
+          "SRC-0406",
           "SRC-0412",
+          "SRC-0417",
           "SRC-0418",
           "SRC-0423",
           "SRC-0426",
+          "SRC-0489",
           "SRC-0520",
-          "SRC-0521"
+          "SRC-0521",
+          "SRC-0538",
+          "SRC-0549",
+          "SRC-0550"
         ]
       },
       "Voice/only": {
@@ -2390,6 +2567,7 @@
         "issues": [],
         "evidence_complete": true,
         "source_ids": [
+          "SRC-0062",
           "SRC-0108",
           "SRC-0141",
           "SRC-0142",
@@ -2399,16 +2577,23 @@
           "SRC-0202",
           "SRC-0205",
           "SRC-0206",
+          "SRC-0406",
           "SRC-0412",
+          "SRC-0417",
           "SRC-0418",
           "SRC-0423",
           "SRC-0426",
+          "SRC-0489",
           "SRC-0520",
-          "SRC-0521"
+          "SRC-0521",
+          "SRC-0538",
+          "SRC-0549",
+          "SRC-0550"
         ]
       }
     },
     "source_ids": [
+      "SRC-0062",
       "SRC-0108",
       "SRC-0141",
       "SRC-0142",
@@ -2418,12 +2603,18 @@
       "SRC-0202",
       "SRC-0205",
       "SRC-0206",
+      "SRC-0406",
       "SRC-0412",
+      "SRC-0417",
       "SRC-0418",
       "SRC-0423",
       "SRC-0426",
+      "SRC-0489",
       "SRC-0520",
-      "SRC-0521"
+      "SRC-0521",
+      "SRC-0538",
+      "SRC-0549",
+      "SRC-0550"
     ]
   },
   "continuity": {

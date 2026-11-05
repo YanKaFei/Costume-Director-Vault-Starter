@@ -14,6 +14,19 @@
     "score": 8.4
   },
   {
+    "id": "GAR-0089",
+    "path": "01-服装单品/配饰/GAR-0089-腰封-束腰带.md",
+    "name_zh": "腰封/束腰带",
+    "name_en": "corset belt / waist cincher",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0536"
+    ],
+    "snippet": "# 腰封/束腰带 / corset belt / waist cincher ## 定义 腰封/束腰带（waspie/corset belt）是只覆盖腰部的束带，通过钩扣/弹性收紧腰线；v&a…",
+    "score": 8.4
+  },
+  {
     "id": "SRC-0050",
     "path": "04-来源/SRC-0050-belt-for-a-lady-s-dress-c-1375-1400.md",
     "name_zh": "克利夫兰艺术博物馆（API）：贵妇礼服腰带 c. 1375–1400",
@@ -81,19 +94,6 @@
     "evidence_status": "interpretive",
     "source_ids": [],
     "snippet": "…and trousers, peaked cap, badge and number, belt with equipment, polished shoes, high-visibility variant` - 中文造型说明：深蓝警察制服，外…",
-    "score": 3.15
-  },
-  {
-    "id": "GAR-0045",
-    "path": "01-服装单品/外层/GAR-0045-风衣.md",
-    "name_zh": "风衣",
-    "name_en": "trench coat",
-    "type": "garment",
-    "evidence_status": "verified",
-    "source_ids": [
-      "SRC-0405"
-    ],
-    "snippet": "…提示词短语 - 生图片段：`trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki…",
     "score": 3.15
   }
 ]

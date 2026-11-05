@@ -8,13 +8,13 @@
 
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
-| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive |  |
+| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive | SRC-0069 |
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0013`, `MAT-0001`, `MAT-0002`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0033`, `STR-0021`, `STR-0025`
+- Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual / functional; the beige, black, brown palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.3/15
@@ -22,8 +22,8 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
 - Reason: 携带物: GAR-0082 匕首 (functional)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0013, MAT-0001, MAT-0002
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0033, STR-0021, STR-0025
+- Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0079, GAR-0045, GAR-0022, GAR-0082: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -39,7 +39,7 @@
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
 - Structure cards: `STR-0015`, `STR-0020`, `STR-0023`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0002`, `MAT-0001`, `MAT-0003`
+- Material cards: `MAT-0002`, `MAT-0001`, `MAT-0003`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from ceremonial / smart_casual / smart_casual / functional; the beige, black, brown palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.5/15
@@ -48,7 +48,7 @@
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
 - Reason: 携带物: GAR-0082 匕首 (functional)
 - Reason: linked structure cards: STR-0015, STR-0020, STR-0023, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0002, MAT-0001, MAT-0003
+- Reason: linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0064, GAR-0045, GAR-0022, GAR-0082: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -63,8 +63,8 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0033`, `STR-0021`, `STR-0025`
+- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.3/15
@@ -72,8 +72,8 @@
 - Reason: 下装: GAR-0014 牛仔裤 (casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0033, STR-0021, STR-0025
+- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -85,20 +85,20 @@
 
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
-| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive |  |
+| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive | SRC-0069 |
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0013`, `MAT-0001`, `MAT-0002`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0033`, `STR-0021`, `STR-0025`
+- Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.7/15
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0013, MAT-0001, MAT-0002
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0033, STR-0021, STR-0025
+- Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0079, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -113,8 +113,8 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0033`, `STR-0021`, `STR-0025`
+- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.9/15
@@ -122,8 +122,8 @@
 - Reason: 下装: GAR-0014 牛仔裤 (casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0033, STR-0021, STR-0025
+- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -133,20 +133,20 @@
 
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
-| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive |  |
+| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive | SRC-0069 |
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0058` | 1970 年代厚底鞋 | black, gold | leather, metal, rubber | verified | SRC-0418 |
 
-- Structure cards: `STR-0016`, `STR-0023`
-- Material cards: `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0003`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0033`
+- Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`, `MAT-0003`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual; the beige, black, gold palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 19.0/25, 环境气候 8.7/15
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0058 1970 年代厚底鞋 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023
-- Reason: linked material cards: MAT-0013, MAT-0001, MAT-0002, MAT-0003
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0033
+- Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0079, GAR-0045, GAR-0058: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -161,12 +161,12 @@
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
 | upper_body | `GAR-0006` | 达希基套衫 | multicolor, solid_color | cotton, printed_cotton | verified | SRC-0107 |
-| lower_body | `GAR-0077` | 紧身长袜 | oyster, blue, white | silk, wool, linen, baleen | verified | SRC-0484, SRC-0485 |
+| lower_body | `GAR-0077` | 紧身长袜 | oyster, blue, white | silk, wool, linen, baleen | verified | SRC-0484, SRC-0485, SRC-0066 |
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0002`, `MAT-0013`, `MAT-0012`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0033`, `STR-0021`, `STR-0025`
+- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0002`, `MAT-0015`, `MAT-0013`, `MAT-0012`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from casual / formal / smart_casual / smart_casual; the beige, black, blue palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.1/15
@@ -174,8 +174,8 @@
 - Reason: 下装: GAR-0077 紧身长袜 (formal)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0033, STR-0021, STR-0025
+- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0077, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -191,7 +191,7 @@
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
 - Structure cards: `STR-0015`, `STR-0020`, `STR-0023`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0002`, `MAT-0001`, `MAT-0003`
+- Material cards: `MAT-0002`, `MAT-0001`, `MAT-0003`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from ceremonial / smart_casual / smart_casual / functional; the beige, black, brown palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.5/15
@@ -200,7 +200,7 @@
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
 - Reason: 携带物: GAR-0082 匕首 (functional)
 - Reason: linked structure cards: STR-0015, STR-0020, STR-0023, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0002, MAT-0001, MAT-0003
+- Reason: linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0064, GAR-0045, GAR-0022, GAR-0082: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -215,7 +215,7 @@
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
 - Structure cards: `STR-0014`, `STR-0025`, `STR-0023`, `STR-0021`
-- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0002`
+- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from ceremonial / smart_casual / smart_casual; the beige, black, blue palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 9.4/15
@@ -223,7 +223,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
 - Reason: linked structure cards: STR-0014, STR-0025, STR-0023, STR-0021
-- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0002
+- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0005, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -240,8 +240,8 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0033`, `STR-0021`, `STR-0025`
+- Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.9/15
@@ -249,8 +249,8 @@
 - Reason: 下装: GAR-0014 牛仔裤 (casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0033, STR-0021, STR-0025
+- Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -265,7 +265,7 @@
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
 - Structure cards: `STR-0015`, `STR-0020`, `STR-0023`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0002`, `MAT-0001`, `MAT-0003`
+- Material cards: `MAT-0002`, `MAT-0001`, `MAT-0003`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from ceremonial / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.9/15
@@ -273,7 +273,7 @@
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
 - Reason: linked structure cards: STR-0015, STR-0020, STR-0023, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0002, MAT-0001, MAT-0003
+- Reason: linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0064, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -283,20 +283,20 @@
 
 | Slot | ID | Name | Colors | Materials | Evidence | Sources |
 | --- | --- | --- | --- | --- | --- | --- |
-| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive |  |
+| one_piece | `GAR-0079` | 基尔特长袍 | wool, linen | wool, linen | interpretive | SRC-0069 |
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`
-- Material cards: `MAT-0013`, `MAT-0001`, `MAT-0002`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0033`, `STR-0021`, `STR-0025`
+- Material cards: `MAT-0015`, `MAT-0013`, `MAT-0001`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from functional / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
 - Reason: highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.7/15
 - Reason: 连身: GAR-0079 基尔特长袍 (functional)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025
-- Reason: linked material cards: MAT-0013, MAT-0001, MAT-0002
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0033, STR-0021, STR-0025
+- Reason: linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0079, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact

@@ -1,0 +1,13 @@
+{
+  "limits": {
+    "max_depth": 3,
+    "low_confidence": "filtered",
+    "design_edges": "included and marked factual=false; use --factual-only to exclude",
+    "engine": "read-only; no card writes"
+  },
+  "garment_looks": [],
+  "approved_anchors": {
+    "hard": [],
+    "soft": []
+  }
+}

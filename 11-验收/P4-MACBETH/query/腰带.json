@@ -27,6 +27,19 @@
     "score": 8.4
   },
   {
+    "id": "GAR-0089",
+    "path": "01-服装单品/配饰/GAR-0089-腰封-束腰带.md",
+    "name_zh": "腰封/束腰带",
+    "name_en": "corset belt / waist cincher",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0536"
+    ],
+    "snippet": "# 腰封/束腰带 / corset belt / waist cincher ## 定义 腰封/束腰带（waspie/corset belt）是只覆盖腰部的束带，通过…",
+    "score": 8.4
+  },
+  {
     "id": "SRC-0050",
     "path": "04-来源/SRC-0050-belt-for-a-lady-s-dress-c-1375-1400.md",
     "name_zh": "克利夫兰艺术博物馆（API）：贵妇礼服腰带 c. 1375–1400",
@@ -71,29 +84,14 @@
     "score": 7.68
   },
   {
-    "id": "GAR-0001",
-    "path": "01-服装单品/专门类型/GAR-0001-和服.md",
-    "name_zh": "和服",
-    "name_en": "kimono",
-    "type": "garment",
+    "id": "SRC-0536",
+    "path": "04-来源/SRC-0536-VA-O68370-waspiecorsetfrance1948.md",
+    "name_zh": "V&A 藏品：粉色弹力棉束腰带 waspie（法国，1948）",
+    "name_en": "Waspie corset, France, 1948",
+    "type": "source",
     "evidence_status": "verified",
-    "source_ids": [
-      "SRC-0100"
-    ],
-    "snippet": "…1930 年出口款和服见 [[gar-0065-和服|出口和服]]（两卡按年代、市场用途、腰带与标签区分）。 ## 结构要点 - 直线裁剪、t 形平面结构：衣身与袖多以矩形布片拼接，穿着时通过归拔与腰带塑形，而不是靠省道。 - 前襟左右交叠（右…",
-    "score": 2.1
-  },
-  {
-    "id": "GAR-0040",
-    "path": "01-服装单品/外层/GAR-0040-军装外套.md",
-    "name_zh": "军装外套",
-    "name_en": "military coat",
-    "type": "garment",
-    "evidence_status": "verified",
-    "source_ids": [
-      "SRC-0404"
-    ],
-    "snippet": "…costume institute 藏（1996.492.6a–c）。 - 通常为双排扣或腰带式长外套，配肩章、袖口军衔与铜扣。 - 羊毛呢提供保暖与挺括；内衬与口袋按军规配置。 - 不同军种/国家差异大；本卡只确认该实例的基本属性（metad…",
-    "score": 2.1
+    "source_ids": [],
+    "snippet": "# v&a 藏品：粉色弹力棉束腰带 waspie（法国，1948） **馆藏**：victoria and albert museum，对象号 `o68370` **对象页**：htt…",
+    "score": 7.68
   }
 ]

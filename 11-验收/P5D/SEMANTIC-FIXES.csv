@@ -1,0 +1,8 @@
+card_id,old_relation,new_state,reason
+SCN-0001,target=STY-0005; type=in_style,removed_relation_and_marker,scene cannot assert in_style
+LOOK-0019,target=STR-0011; type=may_have_part,removed_relation_and_marker,LOOK co-occurrence cannot assert part
+LOOK-0003,target=STR-0001; type=may_have_part,removed_relation_and_marker,LOOK co-occurrence cannot assert part
+LOOK-0017,target=STR-0010; type=may_have_part,removed_relation_and_marker,LOOK co-occurrence cannot assert part
+LOOK-0008,target=STR-0011; type=may_have_part,removed_relation_and_marker,LOOK co-occurrence cannot assert part
+GAR-0079,target=SRC-0069; type=claim_supported_by,downgraded medium/interpretive,book_fact not standalone verified
+GAR-0033,target=SRC-0066; type=claim_supported_by,removed relation + source_ids + visible link,source only 1908 terminology not 1940s

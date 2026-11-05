@@ -180,6 +180,19 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：残余 P2、quality/Macbeth NOT_RUN、P5-C 未提交）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（无截图/签字，不得声称通过）。
 
+## 4.12 P5-D 最终验收（2026-11-05 10:47，task-86）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 关系治理 | **PASS** | 265→308（+43）；6 MISLINK 全关闭（5 移除 + GAR-0079 降级）；60/60 抽样 100%；consistency 0 errors/308 |
+| 覆盖率 | **部分改善** | garment→material 39/92（42.4%）、claim 87/92（94.6%）；component/style/outfit/narrative 持平；来源可见 370/478（77.4%） |
+| 书籍证据 | **PASS（WARN）** | 5 connected + 4 背景；有效 17 卡/18 claims（GAR-0033 移除）；page UNCONFIRMED；无 evidence_status 变更 |
+| 回归 | **PASS（logs）/独立子集 PASS** | acceptance 45/45、quality PASS、composer 9/9、workflow 9/9、Macbeth 11/11、relation_trace 6/6、security/lookbook/skill-sync/backup/human、validate 458、build 234、validate_outfits 35（engineer logs）；本轮独立 validate/build/consistency/relation_trace/validate_outfits/security/lookbook/skill-sync/backup PASS；quality/Macbeth/human 独立 NOT_RUN |
+| E2E | **PASS** | official RQ4–6 3/3、overlay RQ4/7/8 3/3，五项全 true |
+| 59 isolates / 38 draft / 6 flags | **WARN** | isolates 59（+3 uncited 未分类）；38 基线 draft 未变；6 flags 仍 review_queue 未确认 |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：P5-D 未提交、6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（无截图/签字，不得声称通过）。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

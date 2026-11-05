@@ -30,7 +30,7 @@
   "looks": [
     {
       "look_ref": "A",
-      "total": 38.6,
+      "total": 36.3,
       "items": [
         {
           "slot": "one_piece",
@@ -46,7 +46,9 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": []
+          "source_ids": [
+            "SRC-0069"
+          ]
         },
         {
           "slot": "outerwear",
@@ -70,19 +72,21 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0081",
-          "name_zh": "皮靴",
-          "name_en": "leather boots",
+          "id": "GAR-0060",
+          "name_zh": "1930 年代男式皮鞋",
+          "name_en": "1930s men’s Oxford shoes",
           "colors": [
-            "brown",
-            "tan"
+            "tan",
+            "white",
+            "brown"
           ],
           "materials": [
-            "leather"
+            "leather",
+            "suede"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0489"
+            "SRC-0420"
           ]
         },
         {
@@ -140,7 +144,7 @@
       "slot_ids": {
         "one_piece": "GAR-0079",
         "outerwear": "GAR-0045",
-        "footwear": "GAR-0081",
+        "footwear": "GAR-0060",
         "accessory": "GAR-0080",
         "carried_prop": "GAR-0082"
       },
@@ -158,15 +162,16 @@
           "silver",
           "steel",
           "tan",
+          "white",
           "wool"
         ],
         "families": {
           "other": 5,
-          "neutral": 7,
+          "neutral": 8,
           "cool": 1
         },
         "dominant_family": "neutral",
-        "dominant_share": 0.538,
+        "dominant_share": 0.571,
         "harmony": 0.92
       },
       "materials": {
@@ -180,6 +185,7 @@
           "linen",
           "silver",
           "steel",
+          "suede",
           "wood",
           "wool"
         ],
@@ -188,7 +194,7 @@
           "linen": 1,
           "other": 4,
           "cotton": 1,
-          "leather": 2,
+          "leather": 3,
           "metal": 4
         },
         "distinct": 6,
@@ -208,7 +214,7 @@
         "period_evidence": {
           "one_piece": "era",
           "outerwear": "none",
-          "footwear": "era",
+          "footwear": "none",
           "accessory": "era",
           "carried_prop": "era"
         },
@@ -233,29 +239,38 @@
         "budget_mode": null
       },
       "source_ids": [
+        "SRC-0069",
         "SRC-0405",
-        "SRC-0489",
+        "SRC-0420",
         "SRC-0487",
         "SRC-0488",
         "SRC-0490",
         "SRC-0491",
         "SRC-0202",
         "SRC-0201",
+        "SRC-0062",
         "SRC-0486",
+        "SRC-0451",
+        "SRC-0453",
         "SRC-0412",
         "SRC-0200",
+        "SRC-0547",
+        "SRC-0534",
+        "SRC-0204",
+        "SRC-0066",
         "SRC-0102",
         "SRC-0483",
-        "SRC-0141"
+        "SRC-0141",
+        "SRC-0549",
+        "SRC-0489",
+        "SRC-0538"
       ],
       "missing_source_ids": [],
-      "items_without_source": [
-        "GAR-0079"
-      ],
+      "items_without_source": [],
       "item_evidence": {
         "GAR-0079": "interpretive",
         "GAR-0045": "verified",
-        "GAR-0081": "verified",
+        "GAR-0060": "verified",
         "GAR-0080": "verified",
         "GAR-0082": "verified"
       },
@@ -263,7 +278,7 @@
       "period_tiers": {
         "one_piece": "era",
         "outerwear": "none",
-        "footwear": "era",
+        "footwear": "none",
         "accessory": "era",
         "carried_prop": "era"
       },
@@ -276,29 +291,44 @@
       },
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0405",
-          "SRC-0489",
+          "SRC-0420",
           "SRC-0487",
           "SRC-0488",
           "SRC-0490",
           "SRC-0491",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0451",
+          "SRC-0453",
           "SRC-0412",
           "SRC-0200",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0483",
-          "SRC-0141"
+          "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
           },
           {
-            "source_id": "SRC-0489",
-            "url": "https://collections.vam.ac.uk/item/O107847/"
+            "source_id": "SRC-0420",
+            "url": "https://collections.vam.ac.uk/item/O135417/"
           },
           {
             "source_id": "SRC-0487",
@@ -325,8 +355,20 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0451",
+            "url": "https://collections.vam.ac.uk/item/O109190/"
+          },
+          {
+            "source_id": "SRC-0453",
+            "url": "https://collections.vam.ac.uk/item/O163754/"
           },
           {
             "source_id": "SRC-0412",
@@ -335,6 +377,22 @@
           {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0102",
@@ -347,6 +405,18 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           }
         ],
         "context_style_ids": [],
@@ -357,31 +427,32 @@
         "item_evidence": {
           "GAR-0079": "interpretive",
           "GAR-0045": "verified",
-          "GAR-0081": "verified",
+          "GAR-0060": "verified",
           "GAR-0080": "verified",
           "GAR-0082": "verified"
         },
         "missing_urls": []
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from functional / smart_casual / functional / functional / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from functional / smart_casual / smart_casual / functional / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 17.2/25, 摄影/一致性 6.6/10",
+        "highest scoring dimensions: 年代/文化 15.2/25, 摄影/一致性 6.7/10",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
-        "足部: GAR-0081 皮靴 (functional)",
+        "足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0015",
-        "linked material cards: MAT-0013, MAT-0001, MAT-0002"
+        "linked structure cards: STR-0016, STR-0023, STR-0020, STR-0015",
+        "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
       ],
       "risks": [
+        "region mismatch in GAR-0060: cards document their own regions, not europe",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
-      "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; outerwear GAR-0045; footwear GAR-0081; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.93; palette beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, wool; materials cotton, gabardine, iron, ivory, lace, leather, linen, silver, steel, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, white, wool, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+      "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; outerwear GAR-0045; footwear GAR-0060; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.93; palette beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, white, wool; materials cotton, gabardine, iron, ivory, lace, leather, linen, silver, steel, suede, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion",
       "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
     },
@@ -431,46 +502,36 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0035",
-          "name_zh": "女式皮鞋",
-          "name_en": "1930s women’s shoes",
+          "id": "GAR-0081",
+          "name_zh": "皮靴",
+          "name_en": "leather boots",
           "colors": [
-            "black",
-            "red",
-            "silver"
+            "brown",
+            "tan"
           ],
           "materials": [
-            "lace",
-            "sequins",
-            "silk",
-            "metallic_brocade"
+            "leather"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0205",
-            "SRC-0206"
+            "SRC-0489"
           ]
         },
         {
           "slot": "carried_prop",
-          "id": "GAR-0082",
-          "name_zh": "匕首",
-          "name_en": "dagger",
+          "id": "GAR-0048",
+          "name_zh": "手提包",
+          "name_en": "handbag",
           "colors": [
-            "steel",
-            "ivory",
-            "silver"
+            "multicolor"
           ],
           "materials": [
-            "steel",
-            "ivory",
-            "silver",
-            "wood"
+            "canvas",
+            "wool"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0490",
-            "SRC-0491"
+            "SRC-0408"
           ]
         },
         {
@@ -506,60 +567,54 @@
       "slot_ids": {
         "one_piece": "GAR-0009",
         "outerwear": "GAR-0045",
-        "footwear": "GAR-0035",
-        "carried_prop": "GAR-0082",
+        "footwear": "GAR-0081",
+        "carried_prop": "GAR-0048",
         "accessory": "GAR-0080"
       },
       "missing_slots": [],
       "palette": {
         "colors": [
           "beige",
-          "black",
+          "brown",
           "gold",
           "iron",
-          "ivory",
           "khaki",
           "lavender",
+          "multicolor",
           "purple",
-          "red",
           "silver",
-          "steel",
+          "tan",
           "white"
         ],
         "families": {
           "cool": 2,
-          "neutral": 9,
-          "other": 3,
-          "warm": 1
+          "neutral": 7,
+          "other": 3
         },
         "dominant_family": "neutral",
-        "dominant_share": 0.6,
+        "dominant_share": 0.583,
         "harmony": 0.92
       },
       "materials": {
         "materials": [
+          "canvas",
           "cotton",
           "gabardine",
           "iron",
-          "ivory",
           "lace",
           "leather",
-          "metallic brocade",
-          "sequins",
           "silk",
           "silver",
-          "steel",
           "tapestry trim",
-          "wood",
           "wool"
         ],
         "families": {
-          "wool": 1,
-          "silk": 2,
-          "other": 7,
-          "cotton": 1,
-          "metal": 5,
-          "leather": 1
+          "wool": 2,
+          "silk": 1,
+          "other": 3,
+          "cotton": 2,
+          "leather": 2,
+          "metal": 2
         },
         "distinct": 6,
         "harmony": 1.0
@@ -578,8 +633,8 @@
         "period_evidence": {
           "one_piece": "era",
           "outerwear": "none",
-          "footwear": "none",
-          "carried_prop": "era",
+          "footwear": "era",
+          "carried_prop": "none",
           "accessory": "era"
         },
         "region_evidence": {
@@ -605,41 +660,44 @@
       "source_ids": [
         "SRC-0110",
         "SRC-0405",
-        "SRC-0205",
-        "SRC-0206",
-        "SRC-0490",
-        "SRC-0491",
+        "SRC-0489",
+        "SRC-0408",
         "SRC-0487",
         "SRC-0488",
         "SRC-0135",
         "SRC-0140",
+        "SRC-0061",
         "SRC-0486",
         "SRC-0202",
-        "SRC-0521",
-        "SRC-0520",
         "SRC-0412",
         "SRC-0200",
+        "SRC-0201",
+        "SRC-0547",
+        "SRC-0534",
+        "SRC-0204",
+        "SRC-0062",
+        "SRC-0066",
         "SRC-0141",
         "SRC-0142",
         "SRC-0102",
-        "SRC-0423",
-        "SRC-0143"
+        "SRC-0549",
+        "SRC-0538"
       ],
       "missing_source_ids": [],
       "items_without_source": [],
       "item_evidence": {
         "GAR-0009": "verified",
         "GAR-0045": "verified",
-        "GAR-0035": "verified",
-        "GAR-0082": "verified",
+        "GAR-0081": "verified",
+        "GAR-0048": "verified",
         "GAR-0080": "verified"
       },
       "evidence_tier": "era",
       "period_tiers": {
         "one_piece": "era",
         "outerwear": "none",
-        "footwear": "none",
-        "carried_prop": "era",
+        "footwear": "era",
+        "carried_prop": "none",
         "accessory": "era"
       },
       "region_tiers": {
@@ -653,25 +711,28 @@
         "source_ids": [
           "SRC-0110",
           "SRC-0405",
-          "SRC-0205",
-          "SRC-0206",
-          "SRC-0490",
-          "SRC-0491",
+          "SRC-0489",
+          "SRC-0408",
           "SRC-0487",
           "SRC-0488",
           "SRC-0135",
           "SRC-0140",
+          "SRC-0061",
           "SRC-0486",
           "SRC-0202",
-          "SRC-0521",
-          "SRC-0520",
           "SRC-0412",
           "SRC-0200",
+          "SRC-0201",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0062",
+          "SRC-0066",
           "SRC-0141",
           "SRC-0142",
           "SRC-0102",
-          "SRC-0423",
-          "SRC-0143"
+          "SRC-0549",
+          "SRC-0538"
         ],
         "source_urls": [
           {
@@ -683,20 +744,12 @@
             "url": "https://collections.vam.ac.uk/item/O1295635/"
           },
           {
-            "source_id": "SRC-0205",
-            "url": "https://collections.vam.ac.uk/item/O350849/"
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
           },
           {
-            "source_id": "SRC-0206",
-            "url": "https://collections.vam.ac.uk/item/O350850/"
-          },
-          {
-            "source_id": "SRC-0490",
-            "url": "https://collections.vam.ac.uk/item/O165105/"
-          },
-          {
-            "source_id": "SRC-0491",
-            "url": "https://collections.vam.ac.uk/item/O97427/"
+            "source_id": "SRC-0408",
+            "url": "https://collections.vam.ac.uk/item/O367714/"
           },
           {
             "source_id": "SRC-0487",
@@ -715,6 +768,10 @@
             "url": "https://fashionhistory.fitnyc.edu/slashing/"
           },
           {
+            "source_id": "SRC-0061",
+            "url": "https://www.gutenberg.org/cache/epub/34903/pg34903.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
@@ -723,20 +780,36 @@
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
-            "source_id": "SRC-0521",
-            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-          },
-          {
-            "source_id": "SRC-0520",
-            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-          },
-          {
             "source_id": "SRC-0412",
             "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0141",
@@ -751,12 +824,12 @@
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
-            "source_id": "SRC-0423",
-            "url": "https://collections.vam.ac.uk/item/O315431/"
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
           },
           {
-            "source_id": "SRC-0143",
-            "url": "https://fashionhistory.fitnyc.edu/lurex/"
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           }
         ],
         "context_style_ids": [],
@@ -767,37 +840,38 @@
         "item_evidence": {
           "GAR-0009": "verified",
           "GAR-0045": "verified",
-          "GAR-0035": "verified",
-          "GAR-0082": "verified",
+          "GAR-0081": "verified",
+          "GAR-0048": "verified",
           "GAR-0080": "verified"
         },
         "missing_urls": []
       },
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from ceremonial / smart_casual / smart_casual / functional / functional; the beige, black, gold palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from ceremonial / smart_casual / functional / smart_casual / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 15.2/25, 摄影/一致性 6.8/10",
+        "highest scoring dimensions: 年代/文化 16.2/25, 摄影/一致性 6.7/10",
         "连身: GAR-0009 达尔马提亚长袍 (ceremonial)",
         "外层: GAR-0045 风衣 (smart_casual)",
-        "足部: GAR-0035 女式皮鞋 (smart_casual)",
+        "足部: GAR-0081 皮靴 (functional)",
         "配饰: GAR-0080 腰带 (functional)",
-        "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0025, STR-0015",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014"
+        "携带物: GAR-0048 手提包 (smart_casual)",
+        "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0015, STR-0019, STR-0026",
+        "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017"
       ],
       "risks": [
+        "region mismatch in GAR-0048: cards document their own regions, not europe",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, black, gold, iron, ivory, khaki, lavender, purple, red, silver, steel, white, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); ease and fit (STR-0025); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014",
-      "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0045; footwear GAR-0035; carried prop GAR-0082; accessory GAR-0080; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.93; palette beige, black, gold, iron, ivory, khaki, lavender, purple, red, silver, steel, white; materials cotton, gabardine, iron, ivory, lace, leather, metallic brocade, sequins, silk, silver, steel, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, brown, gold, iron, khaki, lavender, multicolor, purple, silver, tan, white, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); waistline (STR-0015); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
+      "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0045; footwear GAR-0081; carried prop GAR-0048; accessory GAR-0080; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.93; palette beige, brown, gold, iron, khaki, lavender, multicolor, purple, silver, tan, white; materials canvas, cotton, gabardine, iron, lace, leather, silk, silver, tapestry trim, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion",
       "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
     },
     {
       "look_ref": "C",
-      "total": 36.4,
+      "total": 36.1,
       "items": [
         {
           "slot": "one_piece",
@@ -863,20 +937,18 @@
         },
         {
           "slot": "accessory",
-          "id": "GAR-0073",
-          "name_zh": "维多利亚哀悼珠宝",
-          "name_en": "Victorian mourning jewellery",
+          "id": "GAR-0089",
+          "name_zh": "腰封/束腰带",
+          "name_en": "corset belt / waist cincher",
           "colors": [
-            "black"
+            "pink"
           ],
           "materials": [
-            "jet"
+            "elasticated_cotton"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0455",
-            "SRC-0456",
-            "SRC-0457"
+            "SRC-0536"
           ]
         },
         {
@@ -914,7 +986,7 @@
         "one_piece": "GAR-0009",
         "outerwear": "GAR-0045",
         "footwear": "GAR-0035",
-        "accessory": "GAR-0073",
+        "accessory": "GAR-0089",
         "carried_prop": "GAR-0082"
       },
       "missing_slots": [],
@@ -926,6 +998,7 @@
           "ivory",
           "khaki",
           "lavender",
+          "pink",
           "purple",
           "red",
           "silver",
@@ -934,20 +1007,20 @@
         ],
         "families": {
           "cool": 2,
-          "neutral": 8,
+          "neutral": 7,
           "other": 2,
-          "warm": 1
+          "warm": 2
         },
         "dominant_family": "neutral",
-        "dominant_share": 0.615,
+        "dominant_share": 0.538,
         "harmony": 0.92
       },
       "materials": {
         "materials": [
           "cotton",
+          "elasticated cotton",
           "gabardine",
           "ivory",
-          "jet",
           "lace",
           "metallic brocade",
           "sequins",
@@ -961,8 +1034,8 @@
         "families": {
           "wool": 1,
           "silk": 2,
-          "other": 8,
-          "cotton": 1,
+          "other": 7,
+          "cotton": 2,
           "metal": 3
         },
         "distinct": 5,
@@ -970,8 +1043,8 @@
       },
       "silhouette": {
         "shape": "H",
-        "proportion": 0.78,
-        "has_defined_waist": false,
+        "proportion": 0.93,
+        "has_defined_waist": true,
         "balanced_slots": true,
         "layered": true
       },
@@ -1011,17 +1084,27 @@
         "SRC-0405",
         "SRC-0205",
         "SRC-0206",
-        "SRC-0455",
-        "SRC-0456",
-        "SRC-0457",
+        "SRC-0536",
         "SRC-0490",
         "SRC-0491",
         "SRC-0135",
         "SRC-0140",
+        "SRC-0061",
         "SRC-0486",
         "SRC-0202",
         "SRC-0521",
         "SRC-0520",
+        "SRC-0412",
+        "SRC-0200",
+        "SRC-0530",
+        "SRC-0531",
+        "SRC-0533",
+        "SRC-0535",
+        "SRC-0547",
+        "SRC-0534",
+        "SRC-0204",
+        "SRC-0062",
+        "SRC-0066",
         "SRC-0141",
         "SRC-0142",
         "SRC-0102",
@@ -1034,7 +1117,7 @@
         "GAR-0009": "verified",
         "GAR-0045": "verified",
         "GAR-0035": "verified",
-        "GAR-0073": "verified",
+        "GAR-0089": "verified",
         "GAR-0082": "verified"
       },
       "evidence_tier": "era",
@@ -1058,17 +1141,27 @@
           "SRC-0405",
           "SRC-0205",
           "SRC-0206",
-          "SRC-0455",
-          "SRC-0456",
-          "SRC-0457",
+          "SRC-0536",
           "SRC-0490",
           "SRC-0491",
           "SRC-0135",
           "SRC-0140",
+          "SRC-0061",
           "SRC-0486",
           "SRC-0202",
           "SRC-0521",
           "SRC-0520",
+          "SRC-0412",
+          "SRC-0200",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0062",
+          "SRC-0066",
           "SRC-0141",
           "SRC-0142",
           "SRC-0102",
@@ -1093,16 +1186,8 @@
             "url": "https://collections.vam.ac.uk/item/O350850/"
           },
           {
-            "source_id": "SRC-0455",
-            "url": "https://collections.vam.ac.uk/item/O120609/"
-          },
-          {
-            "source_id": "SRC-0456",
-            "url": "https://collections.vam.ac.uk/item/O120612/"
-          },
-          {
-            "source_id": "SRC-0457",
-            "url": "https://collections.vam.ac.uk/item/O78627/"
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0490",
@@ -1121,6 +1206,10 @@
             "url": "https://fashionhistory.fitnyc.edu/slashing/"
           },
           {
+            "source_id": "SRC-0061",
+            "url": "https://www.gutenberg.org/cache/epub/34903/pg34903.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
@@ -1135,6 +1224,50 @@
           {
             "source_id": "SRC-0520",
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0141",
@@ -1166,38 +1299,38 @@
           "GAR-0009": "verified",
           "GAR-0045": "verified",
           "GAR-0035": "verified",
-          "GAR-0073": "verified",
+          "GAR-0089": "verified",
           "GAR-0082": "verified"
         },
         "missing_urls": []
       },
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and king's general; the high economic register shows through material and finish; formality runs from ceremonial / smart_casual / smart_casual / formal / functional; the beige, black, gold palette controls the emotional temperature; against the arc (loyal thane to tyrant) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 14.1/25, 摄影/一致性 6.8/10",
+        "highest scoring dimensions: 年代/文化 14.1/25, 摄影/一致性 6.7/10",
         "连身: GAR-0009 达尔马提亚长袍 (ceremonial)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
-        "配饰: GAR-0073 维多利亚哀悼珠宝 (formal)",
+        "配饰: GAR-0089 腰封/束腰带 (formal)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0025",
-        "linked material cards: MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014"
+        "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0025, STR-0015, STR-0035",
+        "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014, MAT-0012"
       ],
       "risks": [
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: Victorian jet mourning jewellery, carved and faceted black jet beads, necklace and brooch with female head medallions, high polish, sombre black daywear; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, black, gold, ivory, khaki, lavender, purple, red, silver, steel, white, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0073 Victorian mourning jewellery [black; jet; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014",
-      "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: Victorian jet mourning jewellery, carved and faceted black jet beads, necklace and brooch with female head medallions, high polish, sombre black daywear; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0073 Victorian mourning jewellery [black; jet; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0045; footwear GAR-0035; accessory GAR-0073; carried prop GAR-0082; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.78; palette beige, black, gold, ivory, khaki, lavender, purple, red, silver, steel, white; materials cotton, gabardine, ivory, jet, lace, metallic brocade, sequins, silk, silver, steel, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: 1940s waspie corset belt, pink elasticated cotton, hook and eye closures, cinched waist, New Look silhouette; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, black, gold, ivory, khaki, lavender, pink, purple, red, silver, steel, white, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); ease and fit (STR-0025); waistline (STR-0015); silhouette and proportion (STR-0035), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0089 corset belt / waist cincher [pink; elasticated_cotton; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014, MAT-0012",
+      "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: 1940s waspie corset belt, pink elasticated cotton, hook and eye closures, cinched waist, New Look silhouette; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0089 corset belt / waist cincher [pink; elasticated_cotton; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0014, MAT-0012, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0045; footwear GAR-0035; accessory GAR-0089; carried prop GAR-0082; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.93; palette beige, black, gold, ivory, khaki, lavender, pink, purple, red, silver, steel, white; materials cotton, elasticated cotton, gabardine, ivory, lace, metallic brocade, sequins, silk, silver, steel, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion",
       "prompt_negative": "no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark"
     }
   ],
   "abc_metrics": {
     "a_b": {
-      "item_diff": 4,
-      "palette_diff": 8,
+      "item_diff": 6,
+      "palette_diff": 6,
       "silhouette": [
         "A",
         "H"
@@ -1212,8 +1345,8 @@
       ]
     },
     "b_c": {
-      "item_diff": 2,
-      "palette_diff": 1,
+      "item_diff": 6,
+      "palette_diff": 9,
       "silhouette": [
         "H",
         "H"
@@ -1239,8 +1372,7 @@
       }
     ],
     "anchors": [
-      "GAR-0045",
-      "GAR-0082"
+      "GAR-0045"
     ],
     "note": "States are explicit input facts; unknown values are never replaced with invented dry/clean/damage-free assumptions.",
     "warnings": [
@@ -1249,43 +1381,62 @@
   },
   "evidence": {
     "source_ids": [
+      "SRC-0069",
       "SRC-0405",
-      "SRC-0489",
+      "SRC-0420",
       "SRC-0487",
       "SRC-0488",
       "SRC-0490",
       "SRC-0491",
       "SRC-0202",
       "SRC-0201",
+      "SRC-0062",
       "SRC-0486",
+      "SRC-0451",
+      "SRC-0453",
       "SRC-0412",
       "SRC-0200",
+      "SRC-0547",
+      "SRC-0534",
+      "SRC-0204",
+      "SRC-0066",
       "SRC-0102",
       "SRC-0483",
       "SRC-0141",
+      "SRC-0549",
+      "SRC-0489",
+      "SRC-0538",
       "SRC-0110",
-      "SRC-0205",
-      "SRC-0206",
+      "SRC-0408",
       "SRC-0135",
       "SRC-0140",
+      "SRC-0061",
+      "SRC-0142",
+      "SRC-0205",
+      "SRC-0206",
+      "SRC-0536",
       "SRC-0521",
       "SRC-0520",
-      "SRC-0142",
+      "SRC-0530",
+      "SRC-0531",
+      "SRC-0533",
+      "SRC-0535",
       "SRC-0423",
-      "SRC-0143",
-      "SRC-0455",
-      "SRC-0456",
-      "SRC-0457"
+      "SRC-0143"
     ],
     "missing_source_ids": [],
     "source_urls": [
+      {
+        "source_id": "SRC-0069",
+        "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+      },
       {
         "source_id": "SRC-0405",
         "url": "https://collections.vam.ac.uk/item/O1295635/"
       },
       {
-        "source_id": "SRC-0489",
-        "url": "https://collections.vam.ac.uk/item/O107847/"
+        "source_id": "SRC-0420",
+        "url": "https://collections.vam.ac.uk/item/O135417/"
       },
       {
         "source_id": "SRC-0487",
@@ -1312,8 +1463,20 @@
         "url": "https://collections.vam.ac.uk/item/O107537/"
       },
       {
+        "source_id": "SRC-0062",
+        "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+      },
+      {
         "source_id": "SRC-0486",
         "url": "https://collections.vam.ac.uk/item/O137793/"
+      },
+      {
+        "source_id": "SRC-0451",
+        "url": "https://collections.vam.ac.uk/item/O109190/"
+      },
+      {
+        "source_id": "SRC-0453",
+        "url": "https://collections.vam.ac.uk/item/O163754/"
       },
       {
         "source_id": "SRC-0412",
@@ -1322,6 +1485,22 @@
       {
         "source_id": "SRC-0200",
         "url": "https://collections.vam.ac.uk/item/O1151302/"
+      },
+      {
+        "source_id": "SRC-0547",
+        "url": "https://vocab.getty.edu/page/aat/300243430"
+      },
+      {
+        "source_id": "SRC-0534",
+        "url": "https://collections.vam.ac.uk/item/O353447/"
+      },
+      {
+        "source_id": "SRC-0204",
+        "url": "https://collections.vam.ac.uk/item/O110441/"
+      },
+      {
+        "source_id": "SRC-0066",
+        "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
       },
       {
         "source_id": "SRC-0102",
@@ -1336,16 +1515,24 @@
         "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
       },
       {
+        "source_id": "SRC-0549",
+        "url": "https://vocab.getty.edu/page/aat/300011845"
+      },
+      {
+        "source_id": "SRC-0489",
+        "url": "https://collections.vam.ac.uk/item/O107847/"
+      },
+      {
+        "source_id": "SRC-0538",
+        "url": "https://collections.vam.ac.uk/item/O356431/"
+      },
+      {
         "source_id": "SRC-0110",
         "url": "https://fashionhistory.fitnyc.edu/dalmatic-tunic/"
       },
       {
-        "source_id": "SRC-0205",
-        "url": "https://collections.vam.ac.uk/item/O350849/"
-      },
-      {
-        "source_id": "SRC-0206",
-        "url": "https://collections.vam.ac.uk/item/O350850/"
+        "source_id": "SRC-0408",
+        "url": "https://collections.vam.ac.uk/item/O367714/"
       },
       {
         "source_id": "SRC-0135",
@@ -1356,6 +1543,26 @@
         "url": "https://fashionhistory.fitnyc.edu/slashing/"
       },
       {
+        "source_id": "SRC-0061",
+        "url": "https://www.gutenberg.org/cache/epub/34903/pg34903.txt"
+      },
+      {
+        "source_id": "SRC-0142",
+        "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+      },
+      {
+        "source_id": "SRC-0205",
+        "url": "https://collections.vam.ac.uk/item/O350849/"
+      },
+      {
+        "source_id": "SRC-0206",
+        "url": "https://collections.vam.ac.uk/item/O350850/"
+      },
+      {
+        "source_id": "SRC-0536",
+        "url": "https://collections.vam.ac.uk/item/O68370/"
+      },
+      {
         "source_id": "SRC-0521",
         "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
       },
@@ -1364,8 +1571,20 @@
         "url": "https://freesewing.dev/howtos/design/seam-allowance/"
       },
       {
-        "source_id": "SRC-0142",
-        "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+        "source_id": "SRC-0530",
+        "url": "https://collections.vam.ac.uk/item/O72654/"
+      },
+      {
+        "source_id": "SRC-0531",
+        "url": "https://collections.vam.ac.uk/item/O85657/"
+      },
+      {
+        "source_id": "SRC-0533",
+        "url": "https://collections.vam.ac.uk/item/O353415/"
+      },
+      {
+        "source_id": "SRC-0535",
+        "url": "https://collections.vam.ac.uk/item/O355340/"
       },
       {
         "source_id": "SRC-0423",
@@ -1374,18 +1593,6 @@
       {
         "source_id": "SRC-0143",
         "url": "https://fashionhistory.fitnyc.edu/lurex/"
-      },
-      {
-        "source_id": "SRC-0455",
-        "url": "https://collections.vam.ac.uk/item/O120609/"
-      },
-      {
-        "source_id": "SRC-0456",
-        "url": "https://collections.vam.ac.uk/item/O120612/"
-      },
-      {
-        "source_id": "SRC-0457",
-        "url": "https://collections.vam.ac.uk/item/O78627/"
       }
     ]
   },
@@ -1394,11 +1601,10 @@
     "no reliable style card for art direction 'stark medieval tragedy'",
     "period evidence is approximate/none for GAR-0035, GAR-0045 (requested medieval); treat these as era-level hypotheses, not exact period matches",
     "wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot",
+    "stage-specific A variation: footwear -> GAR-0060",
     "A/B/C structural repair: 2 shared slot(s) replaced in look B",
     "A/B/C structural repair: 2 shared slot(s) replaced in look C",
-    "A/B/C could not reach 2 items/2 slots in pair 1/2 (KB candidate gap)",
     "wetness/damage/dirt not specified; left unknown (not invented)",
-    "items without source_ids: GAR-0079",
     "design includes declared per-item era/region mismatches; not a historical-accuracy claim"
   ],
   "warnings_detail": [
@@ -1479,6 +1685,87 @@
     },
     {
       "slot": "footwear",
+      "id": "GAR-0060",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1930s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "slot": "outerwear",
+      "id": "GAR-0045",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "slot": "footwear",
       "id": "GAR-0081",
       "status": "period_mismatch",
       "period_ok": false,
@@ -1493,103 +1780,18 @@
       "period_tier": "era"
     },
     {
-      "slot": "accessory",
-      "id": "GAR-0080",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "early middle ages",
-        "early modern"
-      ],
-      "region_labels": [
-        "europe",
-        "france",
-        "norway"
-      ],
-      "period_tier": "era"
-    },
-    {
       "slot": "carried_prop",
-      "id": "GAR-0082",
+      "id": "GAR-0048",
       "status": "period_mismatch",
       "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "early modern",
-        "late middle ages"
-      ],
-      "region_labels": [
-        "europe",
-        "flanders",
-        "italy"
-      ],
-      "period_tier": "era"
-    },
-    {
-      "slot": "one_piece",
-      "id": "GAR-0009",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "byzantine era",
-        "late antiquity",
-        "middle ages"
-      ],
-      "region_labels": [
-        "byzantium",
-        "europe"
-      ],
-      "period_tier": "era"
-    },
-    {
-      "slot": "outerwear",
-      "id": "GAR-0045",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "20th century",
-        "contemporary"
-      ],
-      "region_labels": [
-        "britain",
-        "europe"
-      ],
-      "period_tier": "none"
-    },
-    {
-      "slot": "footwear",
-      "id": "GAR-0035",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
+      "region_ok": false,
       "period_labels": [
         "1930s"
       ],
       "region_labels": [
-        "britain",
-        "europe"
+        "britain"
       ],
       "period_tier": "none"
-    },
-    {
-      "slot": "carried_prop",
-      "id": "GAR-0082",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "early modern",
-        "late middle ages"
-      ],
-      "region_labels": [
-        "europe",
-        "flanders",
-        "italy"
-      ],
-      "period_tier": "era"
     },
     {
       "slot": "accessory",
@@ -1658,17 +1860,15 @@
     },
     {
       "slot": "accessory",
-      "id": "GAR-0073",
+      "id": "GAR-0089",
       "status": "period_mismatch",
       "period_ok": false,
       "region_ok": true,
       "period_labels": [
-        "1860s",
-        "1870s"
+        "1940s"
       ],
       "region_labels": [
-        "britain",
-        "england"
+        "france"
       ],
       "period_tier": "none"
     },
@@ -1728,6 +1928,92 @@
     {
       "look": "A",
       "slot": "footwear",
+      "id": "GAR-0060",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": false,
+      "period_labels": [
+        "1930s"
+      ],
+      "region_labels": [
+        "britain"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "A",
+      "slot": "accessory",
+      "id": "GAR-0080",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early middle ages",
+        "early modern"
+      ],
+      "region_labels": [
+        "europe",
+        "france",
+        "norway"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "A",
+      "slot": "carried_prop",
+      "id": "GAR-0082",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "early modern",
+        "late middle ages"
+      ],
+      "region_labels": [
+        "europe",
+        "flanders",
+        "italy"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "one_piece",
+      "id": "GAR-0009",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "byzantine era",
+        "late antiquity",
+        "middle ages"
+      ],
+      "region_labels": [
+        "byzantium",
+        "europe"
+      ],
+      "period_tier": "era"
+    },
+    {
+      "look": "B",
+      "slot": "outerwear",
+      "id": "GAR-0045",
+      "status": "period_mismatch",
+      "period_ok": false,
+      "region_ok": true,
+      "period_labels": [
+        "20th century",
+        "contemporary"
+      ],
+      "region_labels": [
+        "britain",
+        "europe"
+      ],
+      "period_tier": "none"
+    },
+    {
+      "look": "B",
+      "slot": "footwear",
       "id": "GAR-0081",
       "status": "period_mismatch",
       "period_ok": false,
@@ -1742,109 +2028,19 @@
       "period_tier": "era"
     },
     {
-      "look": "A",
-      "slot": "accessory",
-      "id": "GAR-0080",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "early middle ages",
-        "early modern"
-      ],
-      "region_labels": [
-        "europe",
-        "france",
-        "norway"
-      ],
-      "period_tier": "era"
-    },
-    {
-      "look": "A",
+      "look": "B",
       "slot": "carried_prop",
-      "id": "GAR-0082",
+      "id": "GAR-0048",
       "status": "period_mismatch",
       "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "early modern",
-        "late middle ages"
-      ],
-      "region_labels": [
-        "europe",
-        "flanders",
-        "italy"
-      ],
-      "period_tier": "era"
-    },
-    {
-      "look": "B",
-      "slot": "one_piece",
-      "id": "GAR-0009",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "byzantine era",
-        "late antiquity",
-        "middle ages"
-      ],
-      "region_labels": [
-        "byzantium",
-        "europe"
-      ],
-      "period_tier": "era"
-    },
-    {
-      "look": "B",
-      "slot": "outerwear",
-      "id": "GAR-0045",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "20th century",
-        "contemporary"
-      ],
-      "region_labels": [
-        "britain",
-        "europe"
-      ],
-      "period_tier": "none"
-    },
-    {
-      "look": "B",
-      "slot": "footwear",
-      "id": "GAR-0035",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
+      "region_ok": false,
       "period_labels": [
         "1930s"
       ],
       "region_labels": [
-        "britain",
-        "europe"
+        "britain"
       ],
       "period_tier": "none"
-    },
-    {
-      "look": "B",
-      "slot": "carried_prop",
-      "id": "GAR-0082",
-      "status": "period_mismatch",
-      "period_ok": false,
-      "region_ok": true,
-      "period_labels": [
-        "early modern",
-        "late middle ages"
-      ],
-      "region_labels": [
-        "europe",
-        "flanders",
-        "italy"
-      ],
-      "period_tier": "era"
     },
     {
       "look": "B",
@@ -1918,17 +2114,15 @@
     {
       "look": "C",
       "slot": "accessory",
-      "id": "GAR-0073",
+      "id": "GAR-0089",
       "status": "period_mismatch",
       "period_ok": false,
       "region_ok": true,
       "period_labels": [
-        "1860s",
-        "1870s"
+        "1940s"
       ],
       "region_labels": [
-        "britain",
-        "england"
+        "france"
       ],
       "period_tier": "none"
     },

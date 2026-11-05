@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "GAR-0025",
+    "GAR-0028",
+    "PRD-0001",
+    "PRD-0002",
+    "PRD-0004",
+    "PRD-0005",
+    "SRC-0116",
+    "SRC-0125",
+    "SRC-0150",
+    "SRC-0167",
+    "SRC-0168",
+    "SRC-0169",
+    "STR-0006",
+    "STR-0009",
+    "STY-0010"
+  ],
+  "final_chars": 3235,
+  "skill_calls": 1,
+  "relation_tool_calls": 2,
+  "completed_tool_results": 3,
+  "final_preview": "Command run from the Vault root; exit code 0.\n\n```bash\npython3 scripts/relation_trace.py --start GAR-0015 --max-depth 2 --json\n```\n\n**Start card (confirmed via `query.py --id GAR-0015`)**: `GAR-0015` — 法式长袍 / robe à la française, `evidence_status: verified`, card source `SRC-0116`. The trace returned 12 depth-2 paths over 12 related IDs; the engine reports itself as `read-only; no card writes`.\n\n## Path 1 — Factual (verified evidence chain)\n\n| Hop | Subject | Relation | Object | Confidence | Evi",
+  "pass": true
+}

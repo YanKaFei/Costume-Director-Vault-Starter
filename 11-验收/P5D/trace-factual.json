@@ -1,0 +1,324 @@
+{
+  "limits": {
+    "max_depth": 2,
+    "low_confidence": "filtered",
+    "design_edges": "included and marked factual=false; use --factual-only to exclude",
+    "engine": "read-only; no card writes"
+  },
+  "start": "GAR-0015",
+  "paths": [
+    {
+      "depth": 2,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        },
+        {
+          "from": "PRD-0001",
+          "to": "SRC-0150",
+          "target": "SRC-0150",
+          "relation_type": "claim_supported_by",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        },
+        {
+          "from": "PRD-0001",
+          "to": "STY-0010",
+          "target": "STY-0010",
+          "relation_type": "in_style",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0167",
+            "SRC-0168",
+            "SRC-0169"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        },
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0024",
+          "target": "GAR-0024",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        },
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0025",
+          "target": "GAR-0025",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        },
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0028",
+          "target": "GAR-0028",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        },
+        {
+          "from": "PRD-0001",
+          "to": "STR-0006",
+          "target": "STR-0006",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        },
+        {
+          "from": "PRD-0001",
+          "to": "STR-0009",
+          "target": "STR-0009",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "path": [
+        {
+          "from": "GAR-0015",
+          "to": "SRC-0116",
+          "target": "SRC-0116",
+          "relation_type": "claim_supported_by",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0116"
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "path": [
+        {
+          "from": "PRD-0001",
+          "to": "GAR-0015",
+          "target": "PRD-0001",
+          "relation_type": "context_includes",
+          "confidence": "high",
+          "evidence": "verified",
+          "factual": true,
+          "origin": "candidate",
+          "source_ids": [
+            "SRC-0150"
+          ]
+        }
+      ]
+    }
+  ],
+  "related_ids": [
+    "PRD-0001",
+    "SRC-0150",
+    "STY-0010",
+    "GAR-0024",
+    "GAR-0025",
+    "GAR-0028",
+    "STR-0006",
+    "STR-0009",
+    "SRC-0116"
+  ],
+  "related": [
+    {
+      "id": "PRD-0001",
+      "path": "06-时代地域/PRD-0001-1770年代英法服饰语境.md",
+      "name_zh": "1770 年代英法服饰语境"
+    },
+    {
+      "id": "SRC-0150",
+      "path": "04-来源/SRC-0150-FIT-1770年代概览.md",
+      "name_zh": "1770至1779年 FIT 年代概览"
+    },
+    {
+      "id": "STY-0010",
+      "path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+      "name_zh": "时代剧历史考据造型"
+    },
+    {
+      "id": "GAR-0024",
+      "path": "01-服装单品/足部/GAR-0024-穆勒鞋.md",
+      "name_zh": "穆勒鞋"
+    },
+    {
+      "id": "GAR-0025",
+      "path": "01-服装单品/头部/GAR-0025-三角帽.md",
+      "name_zh": "三角帽"
+    },
+    {
+      "id": "GAR-0028",
+      "path": "01-服装单品/配饰/GAR-0028-手笼.md",
+      "name_zh": "手笼"
+    },
+    {
+      "id": "STR-0006",
+      "path": "02-结构细节/STR-0006-胸衣插片.md",
+      "name_zh": "胸衣插片"
+    },
+    {
+      "id": "STR-0009",
+      "path": "02-结构细节/STR-0009-裙侧撑.md",
+      "name_zh": "裙侧撑"
+    },
+    {
+      "id": "SRC-0116",
+      "path": "04-来源/SRC-0116-FIT-robe-a-la-francaise.md",
+      "name_zh": "FIT：robe à la française（法式长袍）"
+    }
+  ]
+}

@@ -78,6 +78,40 @@ class RelationConsistencyTests(unittest.TestCase):
         report = rc.check(tmp)
         self.assertEqual(report["error_count"], 0, report["errors"])
 
+    def test_invalid_subject_types(self):
+        import tempfile
+        from pathlib import Path
+        cases = [
+            ("07-剧情场景/SCN-0001.md",
+             card(["id: SCN-0001", "type: scene", "evidence_status: verified"],
+                  ""),
+             "relations: [\"target=STY-0001; type=in_style; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0001; rule=R-STY-EXACT\"]"),
+            ("09-造型组合/LOOK-0001.md",
+             card(["id: LOOK-0001", "type: look", "evidence_status: verified"],
+                  ""),
+             "relations: [\"target=STR-0001; type=may_have_part; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0001; rule=R-LOOK-PART-COOCCUR\"]"),
+        ]
+        for relpath, target_card, relation in cases:
+            tmp = Path(tempfile.mkdtemp())
+            for d in ("01-服装单品", "02-结构细节", "04-来源", "05-风格体系",
+                      "07-剧情场景", "09-造型组合", "00-系统/MOC"):
+                (tmp / d).mkdir(parents=True, exist_ok=True)
+            (tmp / "04-来源/SRC-0001-test.md").write_text(SOURCE, encoding="utf-8")
+            (tmp / "05-风格体系/STY-0001.md").write_text(
+                card(["id: STY-0001", "type: style", "evidence_status: verified"], ""),
+                encoding="utf-8")
+            (tmp / "02-结构细节/STR-0001.md").write_text(
+                card(["id: STR-0001", "type: garment_part",
+                      "evidence_status: verified"], ""), encoding="utf-8")
+            pth = tmp / relpath
+            pth.parent.mkdir(parents=True, exist_ok=True)
+            pth.write_text(card([line for line in target_card.splitlines()
+                                 if line not in ("---", "")] + [relation], ""),
+                            encoding="utf-8")
+            report = rc.check(tmp)
+            self.assertIn("invalid_subject_type",
+                          [e["code"] for e in report["errors"]], relpath)
+
     def test_high_style_interpretation_rejected(self):
         rel = "relations: [\"target=SRC-0001; type=style_interpretation; direction=outgoing; evidence=verified; confidence=high; source_ids=SRC-0001; rule=R-CURATED-DESIGN\"]"
         report = rc.check(self.make_root("## 来源链接\n- [[SRC-0001-test]]\n", rel))

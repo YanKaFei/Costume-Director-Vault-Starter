@@ -1,15 +1,15 @@
 {
   "summary": {
-    "snapshot_cards": 343,
+    "snapshot_cards": 458,
     "query_relevant_at_5": 4.16,
-    "query_precision": 0.945,
+    "query_precision": 0.92,
     "query_zero_hit_rate": 0.0,
     "recommend_crash_rate": 0.0,
     "example_in_a_rate": 0.0,
     "warning_coverage_rate": 1.0,
     "abc_all_pairwise_distinct_rate": 0.9777777777777777,
     "budget_c_cheaper_or_explained_rate": 0.956,
-    "evidence_coverage": 0.94,
+    "evidence_coverage": 0.947,
     "context_ref_clean_rate": 1.0,
     "narrative_presence_rate": 1.0,
     "prompt_contamination_count": 0,
@@ -101,18 +101,18 @@
         "hits": 5,
         "relevant": 5,
         "ids": [
+          "GAR-0090",
           "MAT-0002",
           "SRC-0014",
           "SRC-0141",
-          "SRC-0205",
-          "SRC-0405"
+          "SRC-0205"
         ],
         "relevant_ids": [
+          "GAR-0090",
           "MAT-0002",
           "SRC-0014",
           "SRC-0141",
-          "SRC-0205",
-          "SRC-0405"
+          "SRC-0205"
         ]
       },
       {
@@ -218,17 +218,17 @@
         "hits": 5,
         "relevant": 4,
         "ids": [
+          "GAR-0090",
           "MAT-0002",
           "SRC-0141",
           "GAR-0054",
-          "PRD-0003",
-          "GAR-0031"
+          "PRD-0003"
         ],
         "relevant_ids": [
+          "GAR-0090",
           "MAT-0002",
           "SRC-0141",
-          "GAR-0054",
-          "GAR-0031"
+          "GAR-0054"
         ]
       },
       {
@@ -280,12 +280,13 @@
           "right side fastening"
         ],
         "exit": 0,
-        "hits": 3,
+        "hits": 4,
         "relevant": 3,
         "ids": [
           "GAR-0031",
           "GAR-0032",
-          "STR-0011"
+          "STR-0011",
+          "STR-0018"
         ],
         "relevant_ids": [
           "GAR-0031",
@@ -509,11 +510,13 @@
           "mourning jewelry"
         ],
         "exit": 0,
-        "hits": 2,
+        "hits": 4,
         "relevant": 2,
         "ids": [
           "GAR-0073",
-          "GAR-0074"
+          "GAR-0074",
+          "GAR-0090",
+          "GAR-0086"
         ],
         "relevant_ids": [
           "GAR-0073",
@@ -590,11 +593,11 @@
       }
     ],
     "relevant_at_5": 4.16,
-    "precision": 0.945,
+    "precision": 0.92,
     "zero_hit_rate": 0.0,
     "example_in_top2_rate": 0.0,
     "total_relevant": 104,
-    "total_returned": 110
+    "total_returned": 113
   },
   "recommendations": [
     {
@@ -611,7 +614,6 @@
         "b_c": 3
       },
       "warnings": [
-        "context_gap",
         "period_era_level",
         "region_mismatch",
         "occupation_coverage_gap",
@@ -678,11 +680,12 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 3,
-        "a_c": 3,
-        "b_c": 2
+        "a_c": 2,
+        "b_c": 5
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "occupation_coverage_gap",
         "budget_equivalent",
         "identity_arc_continuity"
@@ -717,8 +720,9 @@
         "b_c": 2
       },
       "warnings": [
-        "occupation_coverage_gap",
-        "budget_equivalent"
+        "period_approximate",
+        "knowledge_gap_slots",
+        "occupation_coverage_gap"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
@@ -727,7 +731,7 @@
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
       "occupation_category": "generic:dancer",
       "occupation_forbidden": [],
@@ -745,9 +749,9 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
+        "a_b": 2,
         "a_c": 3,
-        "b_c": 2
+        "b_c": 3
       },
       "warnings": [
         "context_gap",
@@ -780,12 +784,13 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 2,
-        "b_c": 5
+        "a_b": 2,
+        "a_c": 4,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch"
       ],
       "expected_warnings": [],
@@ -819,6 +824,7 @@
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "occupation_coverage_gap"
       ],
       "expected_warnings": [],
@@ -846,12 +852,13 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 3,
-        "b_c": 2
+        "a_b": 4,
+        "a_c": 5,
+        "b_c": 3
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "occupation_coverage_gap"
       ],
       "expected_warnings": [],
@@ -879,12 +886,13 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 2,
+        "a_b": 2,
+        "a_c": 3,
         "b_c": 5
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch",
         "occupation_coverage_gap"
       ],
@@ -933,7 +941,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:clerk",
+      "occupation_category": "generic:student",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -968,7 +976,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:clerk",
+      "occupation_category": "generic:merchant",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -1052,11 +1060,12 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 5,
-        "b_c": 3
+        "a_c": 4,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch"
       ],
       "expected_warnings": [],
@@ -1090,9 +1099,9 @@
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch",
-        "occupation_coverage_gap",
-        "budget_equivalent"
+        "occupation_coverage_gap"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
@@ -1101,7 +1110,7 @@
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
       "occupation_category": "generic:architect",
       "occupation_forbidden": [],
@@ -1171,7 +1180,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:writer",
+      "occupation_category": "generic:journalist",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -1188,8 +1197,8 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 2,
-        "a_c": 4,
-        "b_c": 2
+        "a_c": 2,
+        "b_c": 4
       },
       "warnings": [
         "context_gap",
@@ -1239,7 +1248,7 @@
       "no_fabrication": true,
       "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:clerk",
+      "occupation_category": "generic:actor",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -1288,12 +1297,13 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 2,
-        "a_c": 2,
-        "b_c": 4
+        "a_b": 3,
+        "a_c": 3,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "period_era_level",
         "occupation_coverage_gap"
       ],
@@ -1357,17 +1367,16 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 3,
-        "a_c": 2,
-        "b_c": 3
+        "a_c": 3,
+        "b_c": 2
       },
       "warnings": [
         "context_gap",
         "context_gap",
-        "period_approximate",
         "period_era_level",
+        "knowledge_gap_slots",
         "occupation_coverage_gap",
-        "conflict_movement_vs_footwear",
-        "budget_equivalent"
+        "conflict_movement_vs_footwear"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
@@ -1376,7 +1385,7 @@
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
       "occupation_category": "generic:dancer",
       "occupation_forbidden": [],
@@ -1437,8 +1446,7 @@
         "context_gap",
         "period_approximate",
         "occupation_coverage_gap",
-        "future_wardrobe_gap",
-        "budget_equivalent"
+        "future_wardrobe_gap"
       ],
       "expected_warnings": [
         "future_wardrobe_gap"
@@ -1449,9 +1457,9 @@
       "narrative": true,
       "prompt_contamination": [],
       "no_fabrication": true,
-      "budget_mode": "equivalent_cost",
+      "budget_mode": "cheaper",
       "budget_cheaper_or_explained": false,
-      "occupation_category": "generic:singer",
+      "occupation_category": "generic:artist",
       "occupation_forbidden": [],
       "rainwear_false_claim": false,
       "arctic_indoor": false,
@@ -1468,11 +1476,12 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 7,
-        "a_c": 7,
+        "a_c": 5,
         "b_c": 2
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch"
       ],
       "expected_warnings": [],
@@ -1540,7 +1549,6 @@
         "b_c": 3
       },
       "warnings": [
-        "context_gap",
         "period_era_level",
         "region_mismatch",
         "occupation_coverage_gap",
@@ -1579,7 +1587,6 @@
         "b_c": 3
       },
       "warnings": [
-        "context_gap",
         "period_era_level",
         "region_mismatch",
         "occupation_coverage_gap",
@@ -1616,7 +1623,6 @@
         "b_c": 3
       },
       "warnings": [
-        "context_gap",
         "period_era_level",
         "region_mismatch",
         "conflict_weather_vs_material",
@@ -1648,11 +1654,12 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 7,
-        "a_c": 7,
+        "a_c": 5,
         "b_c": 2
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch"
       ],
       "expected_warnings": [],
@@ -1680,8 +1687,8 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 3,
+        "a_b": 2,
+        "a_c": 4,
         "b_c": 2
       },
       "warnings": [
@@ -1691,7 +1698,7 @@
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.4,
+      "evidence_coverage": 0.5555555555555556,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
@@ -1720,6 +1727,7 @@
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch",
         "budget_equivalent"
       ],
@@ -1748,17 +1756,18 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
+        "a_b": 2,
         "a_c": 3,
-        "b_c": 6
+        "b_c": 3
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.7777777777777778,
+      "evidence_coverage": 0.75,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
@@ -1782,7 +1791,7 @@
       "abc_distinct": true,
       "differences": {
         "a_b": 6,
-        "a_c": 3,
+        "a_c": 7,
         "b_c": 3
       },
       "warnings": [
@@ -1854,7 +1863,6 @@
         "b_c": 3
       },
       "warnings": [
-        "context_gap",
         "period_era_level",
         "region_mismatch",
         "conflict_weather_vs_material"
@@ -1928,6 +1936,7 @@
         "period_approximate",
         "period_era_level",
         "region_mismatch",
+        "knowledge_gap_slots",
         "occupation_coverage_gap",
         "budget_equivalent"
       ],
@@ -1961,7 +1970,6 @@
         "b_c": 3
       },
       "warnings": [
-        "context_gap",
         "period_era_level",
         "region_mismatch",
         "conflict_weather_vs_material"
@@ -2025,18 +2033,19 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 2,
+        "a_b": 3,
         "a_c": 2,
-        "b_c": 4
+        "b_c": 5
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch",
         "budget_equivalent"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.7777777777777778,
+      "evidence_coverage": 0.8,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
@@ -2059,8 +2068,8 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 3,
-        "a_c": 3,
+        "a_b": 2,
+        "a_c": 4,
         "b_c": 2
       },
       "warnings": [
@@ -2070,7 +2079,7 @@
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.4,
+      "evidence_coverage": 0.5555555555555556,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],
@@ -2127,18 +2136,19 @@
       "example_in_a": false,
       "abc_distinct": true,
       "differences": {
-        "a_b": 2,
+        "a_b": 3,
         "a_c": 2,
-        "b_c": 4
+        "b_c": 5
       },
       "warnings": [
         "context_gap",
+        "period_approximate",
         "region_mismatch",
         "budget_equivalent"
       ],
       "expected_warnings": [],
       "warning_coverage": null,
-      "evidence_coverage": 0.7777777777777778,
+      "evidence_coverage": 0.8,
       "context_clean": true,
       "narrative": true,
       "prompt_contamination": [],

@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly one command: python3 scripts/query.py --relation-type in_style --related-to STY-0010 --json. Then report the returned card IDs and one relation target. Complete answer only.

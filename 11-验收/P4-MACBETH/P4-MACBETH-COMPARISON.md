@@ -58,8 +58,8 @@
 {
   "looks": 3,
   "avg_items": 5.0,
-  "max_abc_diff": 6,
-  "unique_src": 26,
+  "max_abc_diff": 4,
+  "unique_src": 38,
   "checks": {
     "exit_ok": true,
     "three_looks": true,
@@ -78,7 +78,7 @@
         "LOOK-0012",
         "LOOK-0015",
         "LOOK-0019",
-        "PRD-0011",
+        "LOOK-0030",
         "SRC-0200",
         "SRC-0201"
       ],
@@ -88,7 +88,7 @@
         "LOOK-0012",
         "LOOK-0015",
         "LOOK-0019",
-        "PRD-0011",
+        "LOOK-0030",
         "SRC-0200",
         "SRC-0201"
       ],
@@ -98,7 +98,7 @@
         "LOOK-0012",
         "LOOK-0015",
         "LOOK-0019",
-        "PRD-0011",
+        "LOOK-0030",
         "SRC-0200",
         "SRC-0201"
       ]
@@ -134,29 +134,29 @@
     },
     "腰带/belt": {
       "zh_hits": [
-        "GAR-0001",
-        "GAR-0040",
         "GAR-0066",
         "GAR-0080",
+        "GAR-0089",
         "SRC-0050",
         "SRC-0427",
         "SRC-0487",
-        "SRC-0488"
+        "SRC-0488",
+        "SRC-0536"
       ],
       "en_hits": [
         "GAR-0040",
         "GAR-0042",
-        "GAR-0045",
         "GAR-0066",
         "GAR-0080",
+        "GAR-0089",
         "SRC-0050",
         "SRC-0487",
         "SRC-0488"
       ],
       "common": [
-        "GAR-0040",
         "GAR-0066",
         "GAR-0080",
+        "GAR-0089",
         "SRC-0050",
         "SRC-0487",
         "SRC-0488"
@@ -168,16 +168,16 @@
 
 ## Bilingual retrieval
 
-- 旗袍/qipao: common IDs ['GAR-0031', 'LOOK-0009', 'LOOK-0012', 'LOOK-0015', 'LOOK-0019', 'PRD-0011', 'SRC-0200', 'SRC-0201']
+- 旗袍/qipao: common IDs ['GAR-0031', 'LOOK-0009', 'LOOK-0012', 'LOOK-0015', 'LOOK-0019', 'LOOK-0030', 'SRC-0200', 'SRC-0201']
 - 立领/stand collar: common IDs ['GAR-0031', 'GAR-0032', 'LOOK-0008', 'LOOK-0009', 'LOOK-0019']
-- 腰带/belt: common IDs ['GAR-0040', 'GAR-0066', 'GAR-0080', 'SRC-0050', 'SRC-0487', 'SRC-0488']
+- 腰带/belt: common IDs ['GAR-0066', 'GAR-0080', 'GAR-0089', 'SRC-0050', 'SRC-0487', 'SRC-0488']
 
 ## Comparison
 | Metric | P3.5 historical | P3.5 inspired | P4 composer |
 | --- | --- | --- | --- |
 | looks | 9 | 12 | 3 |
 | avg items/look | 1.0 | 4.0 | 5.0 |
-| max A/B/C item diff | 0 | 6 | 6 |
-| unique SRC | 3 | 15 | 26 |
+| max A/B/C item diff | 0 | 6 | 4 |
+| unique SRC | 3 | 15 | 38 |
 
 No regression: P4 retains/increases looks, slots, A/B/C diff and source coverage; evidence gaps are explicit.

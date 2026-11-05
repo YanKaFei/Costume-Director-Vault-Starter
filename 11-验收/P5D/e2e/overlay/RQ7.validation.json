@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "PRD-0001",
+    "SRC-0125",
+    "SRC-0167",
+    "SRC-0168",
+    "SRC-0169",
+    "STY-0010"
+  ],
+  "final_chars": 339,
+  "skill_calls": 1,
+  "relation_tool_calls": 1,
+  "completed_tool_results": 2,
+  "final_preview": "Two target IDs from the returned paths:\n\n- **STY-0010** （时代剧历史考据造型） — SRC IDs: **SRC-0167, SRC-0168, SRC-0169** (via PRD-0001 `in_style`, high confidence / verified)\n- **GAR-0024** （穆勒鞋） — SRC ID: **SRC-0125** (via GAR-0015 `ensemble_with` → `claim_supported_by`; ensemble edge is interpretive/medium confidence, source edge verified/high)",
+  "pass": true
+}

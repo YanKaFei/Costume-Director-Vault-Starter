@@ -168,3 +168,27 @@ python3 scripts/build_sources.py   # PASS（CSV 212 行）
   - 正文 wikilink 可见对 **196/346 = 56.6%**；正文任意 SRC 文本可见对 **346/346 = 100%**（engineer 链接修复后）；唯一可见来源 **147/167**；零 wikilink 可见卡 **52**（多为 draft LOOK/STY）。
   - 关系覆盖率（relations 覆盖等）见 `reports/P5C-RELATION-COVERAGE.md`，本 CSV 不混入该指标。
 - 复核：`validate.py` 与 `build_sources.py` 未受影响（本任务只改报表/CSV，不改卡片）。
+
+---
+
+## P5-D 书籍应用刷新（2026-11-05 10:35，lead 批准后）
+
+> 本节取代 §4 的「9 本 P4 书全部 needs-citation」历史状态；§4 保留为当时快照。
+
+- **`11-验收/P5/source-audit.csv` 234 行分类更新**：
+  - `whitelist_connected` **172**（P5-C 167 + 本次 5 本书转 connected）
+  - `whitelist_independent` 48
+  - `action_should_connect` 7（SRC-0028/29/30/37/41/50/59，未迁移）
+  - `action_needs_citation` **4**（仅剩 SRC-0063/0065/0067/0068，背景）
+  - `blacklist_duplicate` 3（SRC-0157/0163/0175）
+- **书籍状态（9 本）**：
+  - **已 connected 5 本（book_fact 已进卡 source_ids + 正文可见链接）**：
+    - SRC-0061 PG34903 → STR-0010（1 卡）
+    - SRC-0062 PG21534 → MAT-0012/15/16/18、STR-0016/17/18/20/30/32（10 卡）
+    - SRC-0064 PG48551 → STR-0006（1 卡）
+    - SRC-0066 PG76299 → GAR-0008/11/17/33/77、MAT-0015（6 卡）
+    - SRC-0069 PG46949 → GAR-0079（1 卡；**卡仍 interpretive**，书源不升级）
+  - **仍 needs-citation/背景 4 本**：SRC-0063 PG33020、SRC-0065 PG49559、SRC-0067 PG56978、SRC-0068 PG76717（仅研究文档 wikilink；不强制引用）。
+- 应用台账：`11-验收/P5D/book-source-application.csv`（18 卡/19 组）；备份 `11-验收/P5D/backup-20261105-102725/`；报告 `reports/P5D-BOOK-EVIDENCE.md` §9。
+- 校验：`validate.py` PASS 458/458；`build_sources.py` PASS 234/234；`relation_consistency.py` relations=284, errors=0。
+- **注意（未在本轮更新）**：`11-验收/P5C/isolates.csv` 仍按 task-78 为 64 条，其中含 9 本书；本次 5 本已 connected，若按 task-78 口径刷新，**有效 isolates 应为 59**（剩余 4 本书 + 其他 55）。待 lead 确认后可由我补刷 isolates/coverage 附录。

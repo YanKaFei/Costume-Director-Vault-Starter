@@ -1,0 +1,5816 @@
+{
+  "summary": {
+    "vault": "/Users/coffee/Desktop/Costume-Director-Vault-Starter",
+    "looks": 35,
+    "passed": 12,
+    "failed": 0,
+    "legacy": 23,
+    "errors": []
+  },
+  "results": [
+    {
+      "id": "LOOK-0001",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0015",
+        "accessory": "GAR-0028",
+        "footwear": "GAR-0024"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0015",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "18th century",
+              "rococo"
+            ],
+            "region_labels": [
+              "europe",
+              "france"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0028",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "19th century"
+            ],
+            "region_labels": [
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": []
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0002",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "outerwear": "GAR-0018",
+        "inner_layer": "GAR-0020",
+        "accessory": "GAR-0026",
+        "footwear": "GAR-0024"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "hard constraint (non-historical): missing_torso"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "missing_torso",
+            "look": "LOOK-0002",
+            "message": "no one_piece/set or top+bottom"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "outerwear",
+            "id": "GAR-0018",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1790s",
+              "1810s",
+              "regency era"
+            ],
+            "region_labels": [
+              "britain",
+              "france"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "inner_layer",
+            "id": "GAR-0020",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "late 18th century"
+            ],
+            "region_labels": [
+              "europe",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0026",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "late 18th century"
+            ],
+            "region_labels": [
+              "europe",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0002",
+            "slot": "inner_layer",
+            "id": "GAR-0020",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "late 18th century"
+            ],
+            "region_labels": [
+              "europe",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0002",
+            "slot": "accessory",
+            "id": "GAR-0026",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "late 18th century"
+            ],
+            "region_labels": [
+              "europe",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0002",
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "outerwear": "era",
+        "inner_layer": "era",
+        "accessory": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "outerwear": "era",
+        "inner_layer": "era",
+        "accessory": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0003",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "upper_body": "GAR-0002",
+        "lower_body": "GAR-0013",
+        "footwear": "GAR-0024"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "upper_body",
+            "id": "GAR-0002",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "14th century",
+              "15th century",
+              "16th century",
+              "17th century"
+            ],
+            "region_labels": [
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "lower_body",
+            "id": "GAR-0013",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "15th century",
+              "16th century"
+            ],
+            "region_labels": [
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": []
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "upper_body": "era",
+        "lower_body": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "era",
+        "lower_body": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0004",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0004",
+        "accessory": "GAR-0027",
+        "footwear": "GAR-0024"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0004",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "islamic empire"
+            ],
+            "region_labels": [
+              "arabia",
+              "morocco",
+              "north africa",
+              "persia"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0027",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "middle east",
+              "north africa",
+              "ottoman empire"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0004",
+            "slot": "one_piece",
+            "id": "GAR-0004",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "islamic empire"
+            ],
+            "region_labels": [
+              "arabia",
+              "morocco",
+              "north africa",
+              "persia"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0004",
+            "slot": "accessory",
+            "id": "GAR-0027",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "middle east",
+              "north africa",
+              "ottoman empire"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0004",
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0005",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "upper_body": "GAR-0007",
+        "lower_body": "GAR-0010",
+        "inner_layer": "GAR-0012",
+        "accessory": "GAR-0026",
+        "footwear": "GAR-0024"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "upper_body",
+            "id": "GAR-0007",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1890s",
+              "early 20th century",
+              "edwardian era"
+            ],
+            "region_labels": [
+              "europe",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "lower_body",
+            "id": "GAR-0010",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1850s",
+              "early 20th century",
+              "late 19th century"
+            ],
+            "region_labels": [
+              "europe",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "inner_layer",
+            "id": "GAR-0012",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "early 19th century",
+              "mid 19th century"
+            ],
+            "region_labels": [
+              "britain",
+              "france",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0026",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "late 18th century"
+            ],
+            "region_labels": [
+              "europe",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0005",
+            "slot": "inner_layer",
+            "id": "GAR-0012",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "early 19th century",
+              "mid 19th century"
+            ],
+            "region_labels": [
+              "britain",
+              "france",
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0005",
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "upper_body": "era",
+        "lower_body": "era",
+        "inner_layer": "era",
+        "accessory": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "era",
+        "lower_body": "era",
+        "inner_layer": "era",
+        "accessory": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0006",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "upper_body": "GAR-EXAMPLE-001",
+        "lower_body": "GAR-0014",
+        "outerwear": "GAR-0019",
+        "footwear": "GAR-0022"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "example card in outfit: GAR-EXAMPLE-001",
+        "hard constraint (non-historical): example_item"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "example_item",
+            "look": "LOOK-0006",
+            "items": [
+              "GAR-EXAMPLE-001"
+            ],
+            "message": "example card in production look"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "upper_body",
+            "id": "GAR-EXAMPLE-001",
+            "status": "unknown",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [],
+            "region_labels": [],
+            "period_tier": "none"
+          },
+          {
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0019",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "alaska",
+              "arctic",
+              "greenland",
+              "inuit"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0006",
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0006",
+            "slot": "outerwear",
+            "id": "GAR-0019",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "alaska",
+              "arctic",
+              "greenland",
+              "inuit"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0006",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "upper_body": "none",
+        "lower_body": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "none",
+        "lower_body": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0007",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "outerwear": "GAR-0019",
+        "lower_body": "GAR-0014",
+        "footwear": "GAR-0022",
+        "upper_body": "GAR-EXAMPLE-001"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "example card in outfit: GAR-EXAMPLE-001",
+        "hard constraint (non-historical): example_item"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "example_item",
+            "look": "LOOK-0007",
+            "items": [
+              "GAR-EXAMPLE-001"
+            ],
+            "message": "example card in production look"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "outerwear",
+            "id": "GAR-0019",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "alaska",
+              "arctic",
+              "greenland",
+              "inuit"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "upper_body",
+            "id": "GAR-EXAMPLE-001",
+            "status": "unknown",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [],
+            "region_labels": [],
+            "period_tier": "none"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0007",
+            "slot": "outerwear",
+            "id": "GAR-0019",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "alaska",
+              "arctic",
+              "greenland",
+              "inuit"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0007",
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0007",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "outerwear": "era",
+        "lower_body": "era",
+        "footwear": "era",
+        "upper_body": "none"
+      },
+      "region_tiers": {
+        "outerwear": "era",
+        "lower_body": "era",
+        "footwear": "era",
+        "upper_body": "none"
+      }
+    },
+    {
+      "id": "LOOK-0008",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0032",
+        "upper_body": "GAR-0034"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "torso conflict: one_piece with upper/lower",
+        "hard constraint (non-historical): torso_conflict",
+        "hard constraint (non-historical): missing_footwear"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "torso_conflict",
+            "look": "LOOK-0008",
+            "message": "one_piece combined with upper/lower"
+          },
+          {
+            "code": "missing_footwear",
+            "look": "LOOK-0008",
+            "message": "no footwear"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0032",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "hong kong"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "upper_body",
+            "id": "GAR-0034",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0008",
+            "slot": "upper_body",
+            "id": "GAR-0034",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "upper_body": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "upper_body": "era"
+      }
+    },
+    {
+      "id": "LOOK-0009",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0031",
+        "footwear": "GAR-0035"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0031",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "shanghai"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0009",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0010",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0036",
+        "outerwear": "GAR-0041",
+        "footwear": "GAR-0044",
+        "accessory": "GAR-0050",
+        "carried_prop": "GAR-0048"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0036",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0041",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "global"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0044",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "global"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0050",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0010",
+            "slot": "outerwear",
+            "id": "GAR-0041",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "global"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "look": "LOOK-0010",
+            "slot": "footwear",
+            "id": "GAR-0044",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "global"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "look": "LOOK-0010",
+            "slot": "accessory",
+            "id": "GAR-0050",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0010",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "approximate",
+        "footwear": "approximate",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "approximate",
+        "footwear": "approximate",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0011",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0038",
+        "accessory": "GAR-0039",
+        "outerwear": "GAR-0037",
+        "footwear": "GAR-0022"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0038",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0039",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0037",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late 19th century"
+            ],
+            "region_labels": [
+              "japan"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0011",
+            "slot": "one_piece",
+            "id": "GAR-0038",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0011",
+            "slot": "accessory",
+            "id": "GAR-0039",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0011",
+            "slot": "outerwear",
+            "id": "GAR-0037",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late 19th century"
+            ],
+            "region_labels": [
+              "japan"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0011",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "outerwear": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0012",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0031",
+        "outerwear": "GAR-0045",
+        "footwear": "GAR-0035",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0031",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "shanghai"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0045",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0012",
+            "slot": "outerwear",
+            "id": "GAR-0045",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0012",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0012",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0013",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "set": "GAR-0005",
+        "accessory": "GAR-0070",
+        "footwear": "GAR-0035",
+        "carried_prop": "GAR-0048"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "set",
+            "id": "GAR-0005",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "mali",
+              "senegal",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0070",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1980s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "nigeria",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0013",
+            "slot": "set",
+            "id": "GAR-0005",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "mali",
+              "senegal",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0013",
+            "slot": "accessory",
+            "id": "GAR-0070",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1980s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "nigeria",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0013",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0013",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "set": "era",
+        "accessory": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "set": "era",
+        "accessory": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0014",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0053",
+        "outerwear": "GAR-0045",
+        "footwear": "GAR-0035",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0053",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0045",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0014",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0014",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0015",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0031",
+        "footwear": "GAR-0035",
+        "carried_prop": "GAR-0048",
+        "outerwear": "GAR-0045"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0031",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "shanghai"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0045",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0015",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0015",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0015",
+            "slot": "outerwear",
+            "id": "GAR-0045",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "carried_prop": "era",
+        "outerwear": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "carried_prop": "era",
+        "outerwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0016",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "outerwear": "GAR-0040",
+        "footwear": "GAR-0022",
+        "accessory": "GAR-0050",
+        "upper_body": "GAR-0034",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "hard constraint (non-historical): missing_torso"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "missing_torso",
+            "look": "LOOK-0016",
+            "message": "no one_piece/set or top+bottom"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "outerwear",
+            "id": "GAR-0040",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0050",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "upper_body",
+            "id": "GAR-0034",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0016",
+            "slot": "outerwear",
+            "id": "GAR-0040",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0016",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0016",
+            "slot": "upper_body",
+            "id": "GAR-0034",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0016",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "upper_body": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "upper_body": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0017",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "upper_body": "GAR-EXAMPLE-001",
+        "lower_body": "GAR-0014",
+        "outerwear": "GAR-0019",
+        "footwear": "GAR-0022",
+        "accessory": "GAR-0051",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "example card in outfit: GAR-EXAMPLE-001",
+        "hard constraint (non-historical): example_item"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "example_item",
+            "look": "LOOK-0017",
+            "items": [
+              "GAR-EXAMPLE-001"
+            ],
+            "message": "example card in production look"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "upper_body",
+            "id": "GAR-EXAMPLE-001",
+            "status": "unknown",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [],
+            "region_labels": [],
+            "period_tier": "none"
+          },
+          {
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0019",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "alaska",
+              "arctic",
+              "greenland",
+              "inuit"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0051",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1970s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0017",
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0017",
+            "slot": "outerwear",
+            "id": "GAR-0019",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "alaska",
+              "arctic",
+              "greenland",
+              "inuit"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0017",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0017",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "upper_body": "none",
+        "lower_body": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "upper_body": "none",
+        "lower_body": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0018",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "set": "GAR-0005",
+        "accessory": "GAR-0070",
+        "footwear": "GAR-0035"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "set",
+            "id": "GAR-0005",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "mali",
+              "senegal",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0070",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1980s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "nigeria",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0018",
+            "slot": "set",
+            "id": "GAR-0005",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "mali",
+              "senegal",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0018",
+            "slot": "accessory",
+            "id": "GAR-0070",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1980s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "nigeria",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0018",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "set": "era",
+        "accessory": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "set": "era",
+        "accessory": "era",
+        "footwear": "era"
+      }
+    },
+    {
+      "id": "LOOK-0019",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0031",
+        "accessory": "GAR-0067",
+        "footwear": "GAR-0035",
+        "carried_prop": "GAR-0048"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0031",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "shanghai"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0067",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "early 20th century",
+              "late 19th century"
+            ],
+            "region_labels": [
+              "china"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0019",
+            "slot": "one_piece",
+            "id": "GAR-0031",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "shanghai"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0019",
+            "slot": "accessory",
+            "id": "GAR-0067",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "early 20th century",
+              "late 19th century"
+            ],
+            "region_labels": [
+              "china"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0019",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0019",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0020",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "one_piece": "GAR-0063",
+        "footwear": "GAR-0035",
+        "carried_prop": "GAR-0048"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)"
+      ],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0063",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "contemporary",
+              "early 20th century"
+            ],
+            "region_labels": [
+              "india",
+              "mysore"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0020",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0020",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0021",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "outerwear": "GAR-0045",
+        "upper_body": "GAR-EXAMPLE-001",
+        "lower_body": "GAR-0014",
+        "footwear": "GAR-0022",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "example card in outfit: GAR-EXAMPLE-001",
+        "hard constraint (non-historical): example_item"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "example_item",
+            "look": "LOOK-0021",
+            "items": [
+              "GAR-EXAMPLE-001"
+            ],
+            "message": "example card in production look"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "outerwear",
+            "id": "GAR-0045",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "upper_body",
+            "id": "GAR-EXAMPLE-001",
+            "status": "unknown",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [],
+            "region_labels": [],
+            "period_tier": "none"
+          },
+          {
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0021",
+            "slot": "outerwear",
+            "id": "GAR-0045",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0021",
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0021",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0021",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "outerwear": "era",
+        "upper_body": "none",
+        "lower_body": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "outerwear": "era",
+        "upper_body": "none",
+        "lower_body": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0022",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "outerwear": "GAR-0033",
+        "footwear": "GAR-0060",
+        "upper_body": "GAR-0034",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "hard constraint (non-historical): missing_torso"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "missing_torso",
+            "look": "LOOK-0022",
+            "message": "no one_piece/set or top+bottom"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "outerwear",
+            "id": "GAR-0033",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0060",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "upper_body",
+            "id": "GAR-0034",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0022",
+            "slot": "footwear",
+            "id": "GAR-0060",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0022",
+            "slot": "upper_body",
+            "id": "GAR-0034",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0022",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "outerwear": "era",
+        "footwear": "era",
+        "upper_body": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "outerwear": "era",
+        "footwear": "era",
+        "upper_body": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0024",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "sourced_style_observation",
+      "slots": {
+        "one_piece": "GAR-0075",
+        "outerwear": "GAR-0076",
+        "footwear": "GAR-0081",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0075",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "late antiquity"
+            ],
+            "region_labels": [
+              "egypt",
+              "mediterranean"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0081",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "london"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0024",
+            "slot": "one_piece",
+            "id": "GAR-0075",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "late antiquity"
+            ],
+            "region_labels": [
+              "egypt",
+              "mediterranean"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0024",
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0024",
+            "slot": "footwear",
+            "id": "GAR-0081",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "london"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0024",
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0024",
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0025",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "sourced_style_observation",
+      "slots": {
+        "one_piece": "GAR-0009",
+        "outerwear": "GAR-0076",
+        "footwear": "GAR-0081",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0009",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "byzantine era",
+              "late antiquity",
+              "middle ages"
+            ],
+            "region_labels": [
+              "byzantium",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0081",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "late middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "london"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0025",
+            "slot": "one_piece",
+            "id": "GAR-0009",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "byzantine era",
+              "late antiquity",
+              "middle ages"
+            ],
+            "region_labels": [
+              "byzantium",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0025",
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0025",
+            "slot": "footwear",
+            "id": "GAR-0081",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "late middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "london"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0025",
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0025",
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0026",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "creative_inference",
+      "slots": {
+        "one_piece": "GAR-0061",
+        "outerwear": "GAR-0076",
+        "footwear": "GAR-0081",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0061",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "late antiquity"
+            ],
+            "region_labels": [
+              "egypt"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0081",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "london"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0026",
+            "slot": "one_piece",
+            "id": "GAR-0061",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "late antiquity"
+            ],
+            "region_labels": [
+              "egypt"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0026",
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0026",
+            "slot": "footwear",
+            "id": "GAR-0081",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "london"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0026",
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0026",
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0027",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "sourced_style_observation",
+      "slots": {
+        "inner_layer": "GAR-0078",
+        "one_piece": "GAR-0079",
+        "outerwear": "GAR-0076",
+        "footwear": "GAR-0024",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "inner_layer",
+            "id": "GAR-0078",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "one_piece",
+            "id": "GAR-0079",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0027",
+            "slot": "inner_layer",
+            "id": "GAR-0078",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0027",
+            "slot": "one_piece",
+            "id": "GAR-0079",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "look": "LOOK-0027",
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0027",
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0027",
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0027",
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "inner_layer": "era",
+        "one_piece": "approximate",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "inner_layer": "era",
+        "one_piece": "approximate",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0028",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "creative_inference",
+      "slots": {
+        "one_piece": "GAR-0079",
+        "outerwear": "GAR-0076",
+        "footwear": "GAR-0024",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0079",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0028",
+            "slot": "one_piece",
+            "id": "GAR-0079",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "look": "LOOK-0028",
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0028",
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0028",
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0028",
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "approximate",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "approximate",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0029",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "creative_inference",
+      "slots": {
+        "inner_layer": "GAR-0078",
+        "one_piece": "GAR-0079",
+        "outerwear": "GAR-0076",
+        "footwear": "GAR-0024",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "inner_layer",
+            "id": "GAR-0078",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "one_piece",
+            "id": "GAR-0079",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0029",
+            "slot": "inner_layer",
+            "id": "GAR-0078",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0029",
+            "slot": "one_piece",
+            "id": "GAR-0079",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "middle ages"
+            ],
+            "region_labels": [
+              "england",
+              "europe"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "look": "LOOK-0029",
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0029",
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0029",
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0029",
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "inner_layer": "era",
+        "one_piece": "approximate",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "inner_layer": "era",
+        "one_piece": "approximate",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0030",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "historical_evidence",
+      "slots": {
+        "one_piece": "GAR-0031",
+        "outerwear": "GAR-0046",
+        "footwear": "GAR-0022",
+        "accessory": "GAR-0086",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0031",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "shanghai"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0046",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early 20th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0086",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0030",
+            "slot": "outerwear",
+            "id": "GAR-0046",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early 20th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0030",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0030",
+            "slot": "accessory",
+            "id": "GAR-0086",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0030",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0031",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "sourced_style_observation",
+      "slots": {
+        "one_piece": "GAR-0036",
+        "outerwear": "GAR-0046",
+        "footwear": "GAR-0044",
+        "accessory": "GAR-0050",
+        "carried_prop": "GAR-0048"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0036",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0046",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "early 20th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0044",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "global"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0050",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0031",
+            "slot": "one_piece",
+            "id": "GAR-0036",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0031",
+            "slot": "outerwear",
+            "id": "GAR-0046",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "early 20th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0031",
+            "slot": "footwear",
+            "id": "GAR-0044",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "global"
+            ],
+            "period_tier": "approximate"
+          },
+          {
+            "look": "LOOK-0031",
+            "slot": "accessory",
+            "id": "GAR-0050",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1940s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0031",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "approximate",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "approximate",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0032",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "sourced_style_observation",
+      "slots": {
+        "one_piece": "GAR-0005",
+        "accessory": "GAR-0070",
+        "footwear": "GAR-0035",
+        "carried_prop": "GAR-0048"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0005",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "mali",
+              "senegal",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0070",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1980s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "nigeria",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0032",
+            "slot": "one_piece",
+            "id": "GAR-0005",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "20th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "mali",
+              "senegal",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0032",
+            "slot": "accessory",
+            "id": "GAR-0070",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1980s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "nigeria",
+              "west africa"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0032",
+            "slot": "footwear",
+            "id": "GAR-0035",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0032",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "accessory": "era",
+        "footwear": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0033",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "creative_inference",
+      "slots": {
+        "one_piece": "GAR-0038",
+        "outerwear": "GAR-0037",
+        "footwear": "GAR-0022",
+        "accessory": "GAR-0039",
+        "carried_prop": "GAR-0048"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0038",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0037",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late 19th century"
+            ],
+            "region_labels": [
+              "japan"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0039",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0033",
+            "slot": "one_piece",
+            "id": "GAR-0038",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0033",
+            "slot": "outerwear",
+            "id": "GAR-0037",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "late 19th century"
+            ],
+            "region_labels": [
+              "japan"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0033",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0033",
+            "slot": "accessory",
+            "id": "GAR-0039",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1960s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0033",
+            "slot": "carried_prop",
+            "id": "GAR-0048",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0034",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "creative_inference",
+      "slots": {
+        "one_piece": "GAR-0009",
+        "outerwear": "GAR-0076",
+        "footwear": "GAR-0024",
+        "accessory": "GAR-0080",
+        "carried_prop": "GAR-0082"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0009",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "byzantine era",
+              "late antiquity",
+              "middle ages"
+            ],
+            "region_labels": [
+              "byzantium",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0034",
+            "slot": "one_piece",
+            "id": "GAR-0009",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "byzantine era",
+              "late antiquity",
+              "middle ages"
+            ],
+            "region_labels": [
+              "byzantium",
+              "europe"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0034",
+            "slot": "outerwear",
+            "id": "GAR-0076",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "portugal"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0034",
+            "slot": "footwear",
+            "id": "GAR-0024",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "16th century",
+              "17th century",
+              "18th century",
+              "20th century"
+            ],
+            "region_labels": [
+              "europe",
+              "middle east"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0034",
+            "slot": "accessory",
+            "id": "GAR-0080",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early middle ages",
+              "early modern"
+            ],
+            "region_labels": [
+              "europe",
+              "france",
+              "norway"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0034",
+            "slot": "carried_prop",
+            "id": "GAR-0082",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "early modern",
+              "late middle ages"
+            ],
+            "region_labels": [
+              "europe",
+              "flanders",
+              "italy"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-0035",
+      "status": "pass",
+      "legacy": false,
+      "evidence_type": "historical_evidence",
+      "slots": {
+        "one_piece": "GAR-0032",
+        "outerwear": "GAR-0046",
+        "footwear": "GAR-0060",
+        "accessory": "GAR-0083",
+        "carried_prop": "GAR-0047"
+      },
+      "errors": [],
+      "warnings": [],
+      "hard_constraints": {
+        "passed": true,
+        "violations": [],
+        "item_compatibility": [
+          {
+            "slot": "one_piece",
+            "id": "GAR-0032",
+            "status": "compatible",
+            "period_ok": true,
+            "region_ok": true,
+            "period_labels": [
+              "1930s",
+              "republican era"
+            ],
+            "region_labels": [
+              "china",
+              "hong kong"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "outerwear",
+            "id": "GAR-0046",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early 20th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0060",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "accessory",
+            "id": "GAR-0083",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "17th century"
+            ],
+            "region_labels": [
+              "england"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-0035",
+            "slot": "outerwear",
+            "id": "GAR-0046",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "early 20th century"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0035",
+            "slot": "footwear",
+            "id": "GAR-0060",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1930s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0035",
+            "slot": "accessory",
+            "id": "GAR-0083",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "17th century"
+            ],
+            "region_labels": [
+              "england"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-0035",
+            "slot": "carried_prop",
+            "id": "GAR-0047",
+            "status": "period_mismatch",
+            "period_ok": false,
+            "region_ok": false,
+            "period_labels": [
+              "1920s"
+            ],
+            "region_labels": [
+              "britain"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [
+        "period",
+        "region",
+        "identity",
+        "weather",
+        "action",
+        "compatibility",
+        "approved_anchors"
+      ],
+      "period_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      },
+      "region_tiers": {
+        "one_piece": "era",
+        "outerwear": "era",
+        "footwear": "era",
+        "accessory": "era",
+        "carried_prop": "era"
+      }
+    },
+    {
+      "id": "LOOK-EXAMPLE-001",
+      "status": "legacy_warn",
+      "legacy": true,
+      "evidence_type": null,
+      "slots": {
+        "upper_body": "GAR-EXAMPLE-001",
+        "lower_body": "GAR-0014",
+        "footwear": "GAR-0022"
+      },
+      "errors": [],
+      "warnings": [
+        "legacy LOOK: no evidence_type (accepted; cannot be used as historical evidence)",
+        "example card in outfit: GAR-EXAMPLE-001",
+        "hard constraint (non-historical): example_item"
+      ],
+      "hard_constraints": {
+        "passed": false,
+        "violations": [
+          {
+            "code": "example_item",
+            "look": "LOOK-EXAMPLE-001",
+            "items": [
+              "GAR-EXAMPLE-001"
+            ],
+            "message": "example card in production look"
+          }
+        ],
+        "item_compatibility": [
+          {
+            "slot": "upper_body",
+            "id": "GAR-EXAMPLE-001",
+            "status": "unknown",
+            "period_ok": false,
+            "region_ok": true,
+            "period_labels": [],
+            "region_labels": [],
+            "period_tier": "none"
+          },
+          {
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ],
+        "declared_mismatches": [
+          {
+            "look": "LOOK-EXAMPLE-001",
+            "slot": "lower_body",
+            "id": "GAR-0014",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "1950s",
+              "contemporary"
+            ],
+            "region_labels": [
+              "united states"
+            ],
+            "period_tier": "era"
+          },
+          {
+            "look": "LOOK-EXAMPLE-001",
+            "slot": "footwear",
+            "id": "GAR-0022",
+            "status": "region_mismatch",
+            "period_ok": true,
+            "region_ok": false,
+            "period_labels": [
+              "19th century",
+              "contemporary"
+            ],
+            "region_labels": [
+              "britain",
+              "europe"
+            ],
+            "period_tier": "era"
+          }
+        ]
+      },
+      "constraints_checked": [],
+      "period_tiers": {
+        "upper_body": "none",
+        "lower_body": "era",
+        "footwear": "era"
+      },
+      "region_tiers": {
+        "upper_body": "none",
+        "lower_body": "era",
+        "footwear": "era"
+      }
+    }
+  ]
+}

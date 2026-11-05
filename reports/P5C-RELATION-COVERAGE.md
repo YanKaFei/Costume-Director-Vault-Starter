@@ -122,3 +122,12 @@
 | 零 wikilink 可见卡 | **52** | 有 source_ids 但正文无 `[[SRC-`（多为 draft LOOK/STY） |
 
 > 说明：上表的分母/口径与 `P5-SOURCE-RELATIONS.md` 的 P5-C 刷新节一致（均按 frontmatter `source_ids` 逐项计）。task-75 验收 §2.1 曾报「source_ids 引用对 460」，其口径包含正文引用计数（与纯 frontmatter 计数不同）；比较时须先统一口径。**不得**把「可见率」当作「关系覆盖率」。关系覆盖仍见 §2（garment→component/material/style/outfit、LOOK→narrative 等）。
+
+---
+
+## 9. isolates 刷新（P5-D 书籍应用后，2026-11-05 10:40）
+
+- `11-验收/P5C/isolates.csv`：**64 → 有效 59**（移除已 connected 的 5 本书：SRC-0061/0062/0064/0066/0069；其余分类保持不变）。
+- 新分布（59）：legit_reference 33、future_topic 14、evidence_missing_expression **11**（原 16 − 5 本）、no_verifiable_relation 1。
+- 仍为背景/needs-citation 的 4 本书保留在 isolates：SRC-0063 PG33020、SRC-0065 PG49559、SRC-0067 PG56978、SRC-0068 PG76717。
+- 与 source-audit 对齐：whitelist 234、connected **172**、needs-citation **4**；本轮无卡片改动。

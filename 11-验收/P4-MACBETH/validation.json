@@ -108,8 +108,8 @@
   "p4": {
     "looks": 3,
     "avg_items": 5.0,
-    "max_abc_diff": 6,
-    "unique_src": 26,
+    "max_abc_diff": 4,
+    "unique_src": 38,
     "checks": {
       "exit_ok": true,
       "three_looks": true,
@@ -128,7 +128,7 @@
           "LOOK-0012",
           "LOOK-0015",
           "LOOK-0019",
-          "PRD-0011",
+          "LOOK-0030",
           "SRC-0200",
           "SRC-0201"
         ],
@@ -138,7 +138,7 @@
           "LOOK-0012",
           "LOOK-0015",
           "LOOK-0019",
-          "PRD-0011",
+          "LOOK-0030",
           "SRC-0200",
           "SRC-0201"
         ],
@@ -148,7 +148,7 @@
           "LOOK-0012",
           "LOOK-0015",
           "LOOK-0019",
-          "PRD-0011",
+          "LOOK-0030",
           "SRC-0200",
           "SRC-0201"
         ]
@@ -184,29 +184,29 @@
       },
       "腰带/belt": {
         "zh_hits": [
-          "GAR-0001",
-          "GAR-0040",
           "GAR-0066",
           "GAR-0080",
+          "GAR-0089",
           "SRC-0050",
           "SRC-0427",
           "SRC-0487",
-          "SRC-0488"
+          "SRC-0488",
+          "SRC-0536"
         ],
         "en_hits": [
           "GAR-0040",
           "GAR-0042",
-          "GAR-0045",
           "GAR-0066",
           "GAR-0080",
+          "GAR-0089",
           "SRC-0050",
           "SRC-0487",
           "SRC-0488"
         ],
         "common": [
-          "GAR-0040",
           "GAR-0066",
           "GAR-0080",
+          "GAR-0089",
           "SRC-0050",
           "SRC-0487",
           "SRC-0488"

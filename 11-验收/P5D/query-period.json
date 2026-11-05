@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PRD-0001",
+    "path": "06-时代地域/PRD-0001-1770年代英法服饰语境.md",
+    "name_zh": "1770 年代英法服饰语境",
+    "name_en": "1770s France and Britain dress context",
+    "type": "period_region",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0150"
+    ],
+    "snippet": "# 1770 年代英法服饰语境 / 1770s France and Britain dress context ## 定义 本卡覆盖 1770 年代英、法两地的服饰语境与典型结构，用作历史剧的年代锚点。年代以“1770 年代”这一区间表述，不给出虚假的逐年精确结论；地域限定为英法及其相互影响范围。",
+    "relations": [
+      {
+        "subject": "PRD-0001",
+        "target": "GAR-0015",
+        "relation_type": "context_includes",
+        "direction": "subject_to_object",
+        "evidence": "verified",
+        "confidence": "high",
+        "source_ids": [
+          "SRC-0150"
+        ],
+        "rule": "R-PRD-KEY-GARMENTS",
+        "origin": "candidate",
+        "review_status": "migration_ready",
+        "target_path": "01-服装单品/连身/GAR-0015-法式长袍.md",
+        "target_name_zh": "法式长袍",
+        "target_type": "garment"
+      }
+    ],
+    "score": 0.0
+  }
+]

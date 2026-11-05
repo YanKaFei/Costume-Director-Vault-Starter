@@ -1,0 +1,42 @@
+spot_id,card_id,relation_type,target,evidence,confidence,visible_wikilink,link_form,is_strong_evidence,judgement,note,required_action
+SPOT-001,GAR-0091,uses_material,MAT-0017,verified,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-002,GAR-0088,uses_material,MAT-0017,verified,medium,no,missing,no,WARN,visible link checked; design/medium rows are not strong evidence,补正文可见 [[MAT-0017]] marker，或由卡片 owner 移除该关系；当前不计强证据。
+SPOT-003,GAR-0020,uses_material,MAT-0001,verified,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-004,STR-0029,uses_material,MAT-0001,verified,medium,no,missing,no,WARN,visible link checked; design/medium rows are not strong evidence,补正文可见 [[MAT-0001]] marker，或由卡片 owner 移除该关系；当前不计强证据。
+SPOT-005,STR-0027,uses_material,MAT-0018,verified,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-006,STR-0034,uses_material,MAT-0018,verified,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-007,STY-0011,style_interpretation,LOOK-0024,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-008,STY-0011,style_interpretation,LOOK-0025,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-009,STY-0011,style_interpretation,LOOK-0026,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-010,STY-0011,style_interpretation,LOOK-0027,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-011,STY-0011,style_interpretation,LOOK-0028,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-012,STY-0011,style_interpretation,LOOK-0029,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-013,STY-0012,style_interpretation,LOOK-0030,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-014,STY-0012,style_interpretation,LOOK-0035,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-015,STY-0014,style_interpretation,LOOK-0032,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-016,STY-0015,style_interpretation,LOOK-0033,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-017,STY-0015,style_interpretation,LOOK-0034,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-018,STY-0013,style_interpretation,LOOK-0031,interpretive,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-019,PRD-0002,in_style,STY-0001,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-020,PRD-0002,uses_material,MAT-0001,verified,medium,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-021,PRD-0001,in_style,STY-0010,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-022,PRD-0003,in_style,STY-0002,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-023,PRD-0004,in_style,STY-0003,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-024,PRD-0009,in_style,STY-0006,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-025,PRD-0005,in_style,STY-0004,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-026,PRD-0010,in_style,STY-0010,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-027,PRD-0006,in_style,STY-0006,verified,high,yes,body_wikilink,no,DESIGN_ONLY,visible link checked; design/medium rows are not strong evidence,保留为设计/材料候选；不得当历史/结构事实，迁移/Agent 不得使用为强证据。
+SPOT-028,GAR-0001,claim_supported_by,SRC-0100,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-029,GAR-0002,claim_supported_by,SRC-0103,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-030,GAR-0003,claim_supported_by,SRC-0104,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-031,GAR-0004,claim_supported_by,SRC-0105,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-032,GAR-0005,claim_supported_by,SRC-0106,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-033,GAR-0006,claim_supported_by,SRC-0107,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-034,GAR-0007,claim_supported_by,SRC-0108,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-035,GAR-0008,claim_supported_by,SRC-0109,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-036,GAR-0009,claim_supported_by,SRC-0110,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-037,GAR-0010,claim_supported_by,SRC-0111,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-038,GAR-0011,claim_supported_by,SRC-0112,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-039,GAR-0012,claim_supported_by,SRC-0113,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-040,GAR-0013,claim_supported_by,SRC-0114,verified,high,yes,body_wikilink,yes,PASS,claim high + visible,保持；来源关系可用于事实层（需 scope 匹配）。
+SPOT-041,GAR-0045,claim_supported_by,SRC-0405,interpretive,medium,no,missing,no,WARN,visible link checked; design/medium rows are not strong evidence,补正文可见 [[SRC-0405]] marker，或由卡片 owner 移除该关系；当前不计强证据。

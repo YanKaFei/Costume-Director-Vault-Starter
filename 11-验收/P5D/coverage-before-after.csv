@@ -1,0 +1,137 @@
+type,category,dimension,applicability,before_applicable,before_formal,before_review,before_uncovered,after_applicable,after_formal,after_review,after_uncovered,note
+garment,accessory,component,applicable,14,2,not_measured,12,14,2,0,12,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,accessory,material,applicable,14,4,not_measured,10,14,4,1,9,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,accessory,silhouette,applicable,14,14,not_measured,0,14,14,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,accessory,style,applicable,14,2,not_measured,12,14,2,0,12,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,accessory,accessory_footwear,applicable,14,12,not_measured,2,14,12,0,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,accessory,outfit,applicable,14,7,not_measured,7,14,7,0,7,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,accessory,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,accessory,claim_source,applicable,14,14,not_measured,0,14,14,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,carried_prop,component,applicable,5,2,not_measured,3,5,2,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,carried_prop,material,applicable,5,0,not_measured,5,5,0,0,5,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,carried_prop,silhouette,applicable,5,5,not_measured,0,5,5,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,carried_prop,style,applicable,5,0,not_measured,5,5,0,0,5,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,carried_prop,accessory_footwear,applicable,5,5,not_measured,0,5,5,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,carried_prop,outfit,applicable,5,3,not_measured,2,5,3,0,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,carried_prop,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,carried_prop,claim_source,applicable,5,5,not_measured,0,5,5,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,footwear,component,applicable,10,0,not_measured,10,10,0,0,10,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,footwear,material,applicable,10,2,not_measured,8,10,2,8,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,footwear,silhouette,applicable,10,10,not_measured,0,10,10,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,footwear,style,applicable,10,0,not_measured,10,10,0,0,10,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,footwear,accessory_footwear,applicable,10,10,not_measured,0,10,10,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,footwear,outfit,applicable,10,6,not_measured,4,10,6,0,4,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,footwear,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,footwear,claim_source,applicable,10,9,not_measured,1,10,9,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,headwear,component,applicable,7,0,not_measured,7,7,0,0,7,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,headwear,material,applicable,7,3,not_measured,4,7,3,0,4,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,headwear,silhouette,applicable,7,7,not_measured,0,7,7,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,headwear,style,applicable,7,0,not_measured,7,7,0,0,7,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,headwear,accessory_footwear,applicable,7,5,not_measured,2,7,5,0,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,headwear,outfit,applicable,7,5,not_measured,2,7,5,0,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,headwear,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,headwear,claim_source,applicable,7,7,not_measured,0,7,7,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,inner_layer,component,applicable,3,1,not_measured,2,3,1,0,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,inner_layer,material,applicable,3,2,not_measured,1,3,2,1,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,inner_layer,silhouette,applicable,3,3,not_measured,0,3,3,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,inner_layer,style,applicable,3,0,not_measured,3,3,0,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,inner_layer,accessory_footwear,applicable,3,0,not_measured,3,3,0,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,inner_layer,outfit,applicable,3,3,not_measured,0,3,3,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,inner_layer,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,inner_layer,claim_source,applicable,3,3,not_measured,0,3,3,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,lower_body,component,applicable,6,1,not_measured,5,6,1,0,5,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,lower_body,material,applicable,6,1,not_measured,5,6,1,1,4,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,lower_body,silhouette,applicable,6,6,not_measured,0,6,6,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,lower_body,style,applicable,6,0,not_measured,6,6,0,0,6,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,lower_body,accessory_footwear,applicable,6,2,not_measured,4,6,2,0,4,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,lower_body,outfit,applicable,6,3,not_measured,3,6,3,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,lower_body,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,lower_body,claim_source,applicable,6,6,not_measured,0,6,6,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,one_piece,component,applicable,23,6,not_measured,17,23,6,0,17,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,one_piece,material,applicable,23,14,not_measured,9,23,14,4,5,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,one_piece,silhouette,applicable,23,23,not_measured,0,23,23,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,one_piece,style,applicable,23,0,not_measured,23,23,0,0,23,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,one_piece,accessory_footwear,applicable,23,14,not_measured,9,23,14,0,9,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,one_piece,outfit,applicable,23,13,not_measured,10,23,13,0,10,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,one_piece,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,one_piece,claim_source,applicable,23,21,not_measured,2,23,22,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,outerwear,component,applicable,12,0,not_measured,12,12,0,0,12,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,outerwear,material,applicable,12,5,not_measured,7,12,5,3,4,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,outerwear,silhouette,applicable,12,12,not_measured,0,12,12,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,outerwear,style,applicable,12,0,not_measured,12,12,0,0,12,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,outerwear,accessory_footwear,applicable,12,11,not_measured,1,12,11,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,outerwear,outfit,applicable,12,9,not_measured,3,12,9,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,outerwear,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,outerwear,claim_source,applicable,12,11,not_measured,1,12,11,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,specialised,component,applicable,4,1,not_measured,3,4,1,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,specialised,material,applicable,4,3,not_measured,1,4,3,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,specialised,silhouette,applicable,4,4,not_measured,0,4,4,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,specialised,style,applicable,4,0,not_measured,4,4,0,0,4,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,specialised,accessory_footwear,applicable,4,2,not_measured,2,4,2,0,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,specialised,outfit,applicable,4,1,not_measured,3,4,1,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,specialised,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,specialised,claim_source,applicable,4,4,not_measured,0,4,4,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,upper_body,component,applicable,8,3,not_measured,5,8,3,0,5,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,upper_body,material,applicable,8,3,not_measured,5,8,5,1,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,upper_body,silhouette,applicable,8,8,not_measured,0,8,8,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,upper_body,style,applicable,8,0,not_measured,8,8,0,0,8,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,upper_body,accessory_footwear,applicable,8,2,not_measured,6,8,2,0,6,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,upper_body,outfit,applicable,8,5,not_measured,3,8,5,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment,upper_body,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment,upper_body,claim_source,applicable,8,6,not_measured,2,8,6,0,2,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment_part,,component,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment_part,,material,applicable,35,7,not_measured,28,35,7,3,25,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment_part,,silhouette,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment_part,,style,applicable,35,0,not_measured,35,35,0,0,35,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+garment_part,,accessory_footwear,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment_part,,outfit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment_part,,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+garment_part,,claim_source,applicable,35,35,not_measured,0,35,35,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+look,,component,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+look,,material,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+look,,silhouette,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+look,,style,applicable,35,34,not_measured,1,35,34,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+look,,accessory_footwear,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+look,,outfit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+look,,narrative,applicable,35,25,not_measured,10,35,25,0,10,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+look,,claim_source,applicable,35,34,not_measured,1,35,34,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+material,,component,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+material,,material,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+material,,silhouette,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+material,,style,applicable,16,0,not_measured,16,16,0,0,16,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+material,,accessory_footwear,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+material,,outfit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+material,,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+material,,claim_source,applicable,16,16,not_measured,0,16,16,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+pattern,,component,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+pattern,,material,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+pattern,,silhouette,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+pattern,,style,applicable,3,0,not_measured,3,3,0,0,3,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+pattern,,accessory_footwear,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+pattern,,outfit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+pattern,,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+pattern,,claim_source,applicable,3,3,not_measured,0,3,3,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+period_region,,component,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+period_region,,material,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+period_region,,silhouette,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+period_region,,style,applicable,11,10,not_measured,1,11,10,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+period_region,,accessory_footwear,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+period_region,,outfit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+period_region,,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+period_region,,claim_source,applicable,11,11,not_measured,0,11,11,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+scene,,component,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+scene,,material,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+scene,,silhouette,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+scene,,style,applicable,16,16,not_measured,0,16,16,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+scene,,accessory_footwear,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+scene,,outfit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+scene,,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+scene,,claim_source,applicable,16,16,not_measured,0,16,16,0,0,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"
+style,,component,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+style,,material,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+style,,silhouette,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+style,,style,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+style,,accessory_footwear,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+style,,outfit,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+style,,narrative,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,not applicable by type design
+style,,claim_source,applicable,16,15,not_measured,1,16,15,0,1,"before = 5ae2c52 (P5-C, 224 content); after = current P5-D tree; review = P5D REVIEW-QUEUE medium candidates (not cards)"

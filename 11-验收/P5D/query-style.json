@@ -1,0 +1,203 @@
+[
+  {
+    "id": "LOOK-0001",
+    "path": "09-造型组合/LOOK-0001-洛可可沙龙女主人.md",
+    "name_zh": "洛可可沙龙女主人",
+    "name_en": "rococo salon hostess look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0150"
+    ],
+    "snippet": "# LOOK-0001 洛可可沙龙女主人 / rococo salon hostess look ## 定义 1770 年代法国沙龙女主人的完整造型样本，用于历史剧的室内社交场次。它是 `interpretive` 的搭配方案：单品与结构都引用知识库中已核验的卡片，但组合方式是本库的设计推理，不指向",
+    "relations": [
+      {
+        "target": "STY-0010",
+        "relation_type": "in_style",
+        "direction": "outgoing",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [],
+        "rule": "R-STY-EXACT",
+        "origin": "card",
+        "target_path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+        "target_name_zh": "时代剧历史考据造型",
+        "target_type": "style"
+      },
+      {
+        "subject": "LOOK-0001",
+        "target": "STY-0010",
+        "relation_type": "in_style",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0167",
+          "SRC-0168",
+          "SRC-0169"
+        ],
+        "rule": "R-STY-EXACT",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+        "target_name_zh": "时代剧历史考据造型",
+        "target_type": "style"
+      }
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "LOOK-0003",
+    "path": "09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md",
+    "name_zh": "十六世纪欧洲宫廷男装",
+    "name_en": "16th-century European court menswear look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0101",
+      "SRC-0103"
+    ],
+    "snippet": "# LOOK-0003 十六世纪欧洲宫廷男装 / 16th-century European court menswear look ## 定义 16 世纪欧洲宫廷/富裕市民男性的完整造型样本，用于文艺复兴时期历史剧的室内与仪典场次。它是 `interpretive` 的搭配方案：单品与结构来自已核",
+    "relations": [
+      {
+        "subject": "LOOK-0003",
+        "target": "STY-0010",
+        "relation_type": "in_style",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0167",
+          "SRC-0168",
+          "SRC-0169"
+        ],
+        "rule": "R-STY-EXACT",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+        "target_name_zh": "时代剧历史考据造型",
+        "target_type": "style"
+      }
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "LOOK-0005",
+    "path": "09-造型组合/LOOK-0005-1900南方庄园女主人.md",
+    "name_zh": "1900 南方庄园女主人",
+    "name_en": "1900 Southern plantation mistress look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0167",
+      "SRC-0153"
+    ],
+    "snippet": "# LOOK-0005 1900 南方庄园女主人 / 1900 Southern plantation mistress look ## 定义 1900 年前后美国南方庄园女主人的造型样本，用于历史剧的早餐、接待访客与家庭场次。它是 `interpretive` 的搭配方案，参考 FIT 对《小狐狸",
+    "relations": [
+      {
+        "subject": "LOOK-0005",
+        "target": "STY-0010",
+        "relation_type": "in_style",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0167",
+          "SRC-0168",
+          "SRC-0169"
+        ],
+        "rule": "R-STY-EXACT",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+        "target_name_zh": "时代剧历史考据造型",
+        "target_type": "style"
+      }
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "LOOK-0008",
+    "path": "09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md",
+    "name_zh": "1930 年代上海长衫知识分子",
+    "name_en": "1930s Shanghai changshan intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0202",
+      "SRC-0203"
+    ],
+    "snippet": "# LOOK-0008 1930 年代上海长衫知识分子 / 1930s Shanghai changshan intellectual look ## 定义 1930 年代上海/香港知识分子（虚构角色）的完整造型样本，用于 T01 “1930 年代上海知识分子阶层变化”类场景中的传统/清贫一侧。它是",
+    "relations": [
+      {
+        "subject": "LOOK-0008",
+        "target": "STY-0010",
+        "relation_type": "in_style",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0167",
+          "SRC-0168",
+          "SRC-0169"
+        ],
+        "rule": "R-STY-EXACT",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+        "target_name_zh": "时代剧历史考据造型",
+        "target_type": "style"
+      }
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "LOOK-0009",
+    "path": "09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md",
+    "name_zh": "1930 年代上海旗袍女性知识分子",
+    "name_en": "1930s Shanghai qipao woman intellectual look",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0205"
+    ],
+    "snippet": "# LOOK-0009 1930 年代上海旗袍女性知识分子 / 1930s Shanghai qipao woman intellectual look ## 定义 1930 年代上海女性知识分子/职员的完整造型样本，用于 T01 与民国都市题材中的女性视角。它是 `interpretive` 的搭",
+    "relations": [
+      {
+        "target": "STY-0010",
+        "relation_type": "in_style",
+        "direction": "outgoing",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [],
+        "rule": "R-STY-EXACT",
+        "origin": "card",
+        "target_path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+        "target_name_zh": "时代剧历史考据造型",
+        "target_type": "style"
+      },
+      {
+        "subject": "LOOK-0009",
+        "target": "STY-0010",
+        "relation_type": "in_style",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0167",
+          "SRC-0168",
+          "SRC-0169"
+        ],
+        "rule": "R-STY-EXACT",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "05-风格体系/STY-0010-时代剧历史考据造型.md",
+        "target_name_zh": "时代剧历史考据造型",
+        "target_type": "style"
+      }
+    ],
+    "score": 0.0
+  }
+]

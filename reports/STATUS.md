@@ -171,3 +171,16 @@
 - **65 单点/38 draft/6 flags**：65 文件仍在但有效 64（SRC-0013 已引用）；38 基线 draft 未变（全库 draft 79）；6 flags 仍 review_queue 未确认。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = YES（附 WARN：残余 P2、quality/Macbeth NOT_RUN、未提交）；PUBLIC-READY = NO（B1–B6 + L1–L6）；**GUI NOT_RUN/PENDING**。
 - 详见 `reports/P5C-RELATION-COVERAGE.md`、`P5C-FINAL.md`。
+
+
+## 15. P5-D 最终验收（2026-11-05 10:47，task-86）
+
+- **快照**：HEAD `5ae2c52` + P5-D 工作区（未提交，148 项）；**458 卡 = 224 内容 + 234 来源**；validate **PASS 458/458**、build **PASS 234/234**、relation_consistency **0 errors / 308 relations**。
+- **关系治理 PASS**：265→308（+43）；30 design 中 **25 有效**，6 MISLINK 全关闭（SCN→STY、LOOK→STR×4 移除；GAR-0079→SRC-0069 降 interpretive/medium）；19 book claim 中 **18 保留**（GAR-0033 WEAK 移除）；**独立抽样 60/60 = 100%**（32 design + 18 book + 10 high；target/结构化/可见/subject/schema/证据/置信）；subject-type 校验已生效（`invalid_subject_type`）。
+- **覆盖**：garment→material **37→39/92（42.4%）**、claim **86→87/92（94.6%）**；component 17.4%、style 2–3%、outfit 59.8%、narrative 71.4% 持平；来源可见 **352/460→370/478（77.4%）**，可见来源 167→172；零可见卡 39（38 draft + GAR-0045）。
+- **书籍**：5 本 connected（SRC-0061/0062/0064/0066/0069）+ 4 背景；应用记录 18 卡/19 组，**最终有效 17 卡/18 claims**（GAR-0033 移除）；book_fact 章/段/行，**page UNCONFIRMED**；0 evidence_status 变更。
+- **回归**：acceptance 45/45、quality PASS、composer 9/9、workflow 9/9、Macbeth **11/11**、relation_trace 6/6、security/lookbook/skill-sync/backup/human、validate/consistency、validate_outfits 35（12+23 legacy）——以 P5-D engineer logs 为主；本轮独立 validate/build/consistency/relation_trace/validate_outfits/security/lookbook/skill-sync/backup PASS，quality/Macbeth/human 独立复跑未完成 → **独立 NOT_RUN**（不写独立 PASS）。
+- **E2E**：official RQ4–6 **3/3**、overlay RQ4/7/8 **3/3**，五项全 true。
+- **59 isolates / 38 draft / 6 flags**：isolates.csv 更新为 59（另 3 uncited 未分类：SRC-0163/0157/0175）；38 基线 draft 未变（全库 79）；6 flags 仍 review_queue，未自动确认。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：P5-D 未提交、6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**。
+- 详见 `reports/P5D-FINAL.md`、`P5D-COVERAGE.md`（§9）、`P5D-RELATION-QA.md`（§6）。

@@ -1,0 +1,190 @@
+{
+  "official": {
+    "RQ4": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0025",
+        "GAR-0028",
+        "PRD-0001",
+        "PRD-0002",
+        "PRD-0004",
+        "PRD-0005",
+        "SRC-0116",
+        "SRC-0125",
+        "SRC-0150",
+        "SRC-0167",
+        "SRC-0168",
+        "SRC-0169",
+        "STR-0006",
+        "STR-0009",
+        "STY-0010"
+      ],
+      "final_chars": 3235,
+      "skill_calls": 1,
+      "relation_tool_calls": 2,
+      "completed_tool_results": 3,
+      "final_preview": "Command run from the Vault root; exit code 0.\n\n```bash\npython3 scripts/relation_trace.py --start GAR-0015 --max-depth 2 --json\n```\n\n**Start card (confirmed via `query.py --id GAR-0015`)**: `GAR-0015` — 法式长袍 / robe à la française, `evidence_status: verified`, card source `SRC-0116`. The trace returned 12 depth-2 paths over 12 related IDs; the engine reports itself as `read-only; no card writes`.\n\n## Path 1 — Factual (verified evidence chain)\n\n| Hop | Subject | Relation | Object | Confidence | Evi",
+      "pass": true
+    },
+    "RQ5": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0028",
+        "LOOK-0001",
+        "MAT-0002",
+        "SRC-0150",
+        "STR-0006",
+        "STR-0009"
+      ],
+      "final_chars": 2141,
+      "skill_calls": 1,
+      "relation_tool_calls": 2,
+      "completed_tool_results": 7,
+      "final_preview": "## Relation trace result\n\nCommand run exactly:\n\n```bash\npython3 scripts/relation_trace.py --character \"沙龙女主人\" --json\n```\n\n**Look returned:** `LOOK-0001` — 洛可可沙龙女主人\n- Path: `09-造型组合/LOOK-0001-洛可可沙龙女主人.md`\n- Role: 1770 年代法国沙龙女主人（虚构角色，historical 模式）\n- Evidence: `interpretive` · review status: `draft`\n- Source: `SRC-0150` — `04-来源/SRC-0150-FIT-1770年代概览.md` — https://fashionhistory.fitnyc.edu/1770-1779/\n\n### Item IDs with real paths\n\n| ID | Name | Real path | Evidence |\n|---|---|---|---|\n| `GAR-0015`",
+      "pass": true
+    },
+    "RQ6": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "LOOK-0001",
+        "LOOK-0003",
+        "LOOK-0005",
+        "LOOK-0008",
+        "LOOK-0009",
+        "LOOK-0010",
+        "LOOK-0012",
+        "LOOK-0013",
+        "LOOK-0014",
+        "LOOK-0015",
+        "SRC-0101",
+        "SRC-0103",
+        "SRC-0106",
+        "SRC-0144",
+        "SRC-0145",
+        "SRC-0150",
+        "SRC-0153",
+        "SRC-0167",
+        "SRC-0168",
+        "SRC-0169",
+        "SRC-0200",
+        "SRC-0201",
+        "SRC-0202",
+        "SRC-0203",
+        "SRC-0205",
+        "SRC-0400",
+        "SRC-0405",
+        "SRC-0407",
+        "SRC-0408",
+        "SRC-0412",
+        "SRC-0413",
+        "SRC-0431",
+        "STY-0010"
+      ],
+      "final_chars": 4944,
+      "skill_calls": 1,
+      "relation_tool_calls": 1,
+      "completed_tool_results": 2,
+      "final_preview": "## Query run\n\nCommand (exactly as specified, from the Vault root):\n\n```bash\npython3 scripts/query.py --relation-type in_style --related-to STY-0010 --json\n```\n\nExit code `0`, JSON array, **10 cards**. All returned rows are `type: look`; no garments, structures, materials or sources came back.\n\n## Returned card IDs\n\n| # | Card ID | Name (zh / en) | Card evidence | Card `source_ids` |\n|---|---|---|---|---|\n| 1 | `LOOK-0001` | 洛可可沙龙女主人 / rococo salon hostess look | `interpretive` | `SRC-0150` |\n| 2",
+      "pass": true
+    }
+  },
+  "overlay": {
+    "RQ4": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "PRD-0001",
+        "SRC-0125",
+        "SRC-0150"
+      ],
+      "final_chars": 1173,
+      "skill_calls": 1,
+      "relation_tool_calls": 1,
+      "completed_tool_results": 2,
+      "final_preview": "**Command run:** `python3 scripts/relation_trace.py --start GAR-0015 --max-depth 2 --json` (read-only engine; low-confidence filtered; design edges included and marked `factual=false`).\n\n## Path 1 — FACTUAL (both hops)\n`SRC-0150 → PRD-0001 → GAR-0015`\n\n1. `PRD-0001`（1770 年代英法服饰语境）—`context_includes`→ **GAR-0015** — high / verified / **factual=true**, SRC: **SRC-0150**（FIT 1770–1779 年代概览）\n2. `PRD-0001` —`claim_supported_by`→ **SRC-0150** — high / verified / **factual=true**\n\n→ Entirely factual: p",
+      "pass": true
+    },
+    "RQ7": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "PRD-0001",
+        "SRC-0125",
+        "SRC-0167",
+        "SRC-0168",
+        "SRC-0169",
+        "STY-0010"
+      ],
+      "final_chars": 339,
+      "skill_calls": 1,
+      "relation_tool_calls": 1,
+      "completed_tool_results": 2,
+      "final_preview": "Two target IDs from the returned paths:\n\n- **STY-0010** （时代剧历史考据造型） — SRC IDs: **SRC-0167, SRC-0168, SRC-0169** (via PRD-0001 `in_style`, high confidence / verified)\n- **GAR-0024** （穆勒鞋） — SRC ID: **SRC-0125** (via GAR-0015 `ensemble_with` → `claim_supported_by`; ensemble edge is interpretive/medium confidence, source edge verified/high)",
+      "pass": true
+    },
+    "RQ8": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "LOOK-0001",
+        "LOOK-0003",
+        "LOOK-0005",
+        "LOOK-0008",
+        "LOOK-0009",
+        "LOOK-0010",
+        "LOOK-0012",
+        "LOOK-0013",
+        "LOOK-0014",
+        "LOOK-0015",
+        "STY-0010"
+      ],
+      "final_chars": 298,
+      "skill_calls": 1,
+      "relation_tool_calls": 1,
+      "completed_tool_results": 2,
+      "final_preview": "**Card IDs (10):** LOOK-0001, LOOK-0003, LOOK-0005, LOOK-0008, LOOK-0009, LOOK-0010, LOOK-0012, LOOK-0013, LOOK-0014, LOOK-0015\n\n**Relation target (one example):** LOOK-0001 → `in_style` → **STY-0010**「时代剧历史考据造型」(style; `05-风格体系/STY-0010-时代剧历史考据造型.md`), evidence `interpretive`, rule `R-STY-EXACT`.",
+      "pass": true
+    }
+  }
+}

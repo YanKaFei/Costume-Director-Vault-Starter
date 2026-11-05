@@ -27,8 +27,11 @@ ALLOWED_TYPES = {"appears_in_look", "uses_material", "may_have_part",
                  "ensemble_with", "context_includes", "in_style",
                  "look_appears_in_scene", "claim_supported_by",
                  "style_interpretation"}
+# Explicit P5-D semantic corrections: medium claim retained after downgrade.
+P5D_ALLOWED_MEDIUM = {("GAR-0079", "SRC-0069", "claim_supported_by")}
 DESIGN_MEDIUM_TYPES = {"style_interpretation", "uses_material",
-                       "may_have_part", "ensemble_with"}
+                       "may_have_part", "ensemble_with", "in_style",
+                       "appears_in_look", "look_appears_in_scene"}
 ALLOWED_EVIDENCE = {"verified", "interpretive", "example"}
 ALLOWED_CONFIDENCE = {"high", "medium", "low"}
 REL_RE = re.compile(
@@ -146,6 +149,23 @@ def check(root=ROOT):
             if rtype not in ALLOWED_TYPES:
                 errors.append({"code": "invalid_relation_type", "card": cid,
                                "target": target, "type": rtype})
+            subject_type = str(card["meta"].get("type") or "")
+            subject_rules = {
+                # period_region style membership is historical context metadata,
+                # not a scene misuse; scene subjects remain invalid.
+                "in_style": {"garment", "garment_part", "look", "period_region"},
+                "may_have_part": {"garment"},
+                "ensemble_with": {"garment"},
+                "appears_in_look": {"look"},
+                "look_appears_in_scene": {"look"},
+                "context_includes": {"period_region"},
+                "style_interpretation": {"look", "garment", "garment_part", "style"},
+            }
+            allowed_subjects = subject_rules.get(rtype)
+            if allowed_subjects and subject_type not in allowed_subjects:
+                errors.append({"code": "invalid_subject_type", "card": cid,
+                               "target": target, "type": rtype,
+                               "subject_type": subject_type})
             if evidence not in ALLOWED_EVIDENCE:
                 errors.append({"code": "invalid_evidence", "card": cid,
                                "target": target, "evidence": evidence})
@@ -161,7 +181,8 @@ def check(root=ROOT):
                 errors.append({"code": "invalid_design_confidence", "card": cid,
                                "target": target, "confidence": confidence})
             if (confidence != "high" and not design_ok and
-                    (cid, target, rtype) not in allowed_downgrades):
+                    (cid, target, rtype) not in allowed_downgrades and
+                    (cid, target, rtype) not in P5D_ALLOWED_MEDIUM):
                 errors.append({"code": "low_confidence_in_body", "card": cid,
                                "target": target, "confidence": confidence})
             if target not in cards and target not in sources:

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "PRD-0001",
+    "SRC-0125",
+    "SRC-0150"
+  ],
+  "final_chars": 1173,
+  "skill_calls": 1,
+  "relation_tool_calls": 1,
+  "completed_tool_results": 2,
+  "final_preview": "**Command run:** `python3 scripts/relation_trace.py --start GAR-0015 --max-depth 2 --json` (read-only engine; low-confidence filtered; design edges included and marked `factual=false`).\n\n## Path 1 — FACTUAL (both hops)\n`SRC-0150 → PRD-0001 → GAR-0015`\n\n1. `PRD-0001`（1770 年代英法服饰语境）—`context_includes`→ **GAR-0015** — high / verified / **factual=true**, SRC: **SRC-0150**（FIT 1770–1779 年代概览）\n2. `PRD-0001` —`claim_supported_by`→ **SRC-0150** — high / verified / **factual=true**\n\n→ Entirely factual: p",
+  "pass": true
+}

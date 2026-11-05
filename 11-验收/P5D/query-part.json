@@ -1,0 +1,101 @@
+[
+  {
+    "id": "GAR-0002",
+    "path": "01-服装单品/上装/GAR-0002-达布里特.md",
+    "name_zh": "达布里特",
+    "name_en": "doublet",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0103"
+    ],
+    "snippet": "# 达布里特 / doublet ## 定义 达布里特（doublet）是 14—17 世纪欧洲男性穿在衬衫外的合体上身外套，长袖、常有立领、前中系带或纽扣，早期收腰并带短下摆。 ## 结构要点 - 立领（standing neckband）+ 前中闭合（系带或纽扣）为基础结构。 - 衣身合体、收腰",
+    "relations": [
+      {
+        "subject": "GAR-0002",
+        "target": "STR-0001",
+        "relation_type": "may_have_part",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0101",
+          "SRC-0103"
+        ],
+        "rule": "R-LOOK-PART-COOCCUR",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "02-结构细节/STR-0001-美第奇领.md",
+        "target_name_zh": "美第奇领",
+        "target_type": "garment_part"
+      }
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "GAR-0003",
+    "path": "01-服装单品/上装/GAR-0003-杰金.md",
+    "name_zh": "杰金",
+    "name_en": "jerkin",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0104"
+    ],
+    "snippet": "# 杰金 / jerkin ## 定义 杰金（jerkin）是 15 世纪末至 16 世纪男性穿在 doublet 外的短上衣，可无袖或长袖，常带肩翼，以前襟系带或纽扣闭合。 ## 结构要点 - 短款，长度多在腰胯之间；有肩翼（shoulder wings）或装饰袖山。 - 可无袖或长袖；前襟系带/",
+    "relations": [
+      {
+        "subject": "GAR-0003",
+        "target": "STR-0001",
+        "relation_type": "may_have_part",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0101",
+          "SRC-0103"
+        ],
+        "rule": "R-LOOK-PART-COOCCUR",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "02-结构细节/STR-0001-美第奇领.md",
+        "target_name_zh": "美第奇领",
+        "target_type": "garment_part"
+      }
+    ],
+    "score": 0.0
+  },
+  {
+    "id": "GAR-0007",
+    "path": "01-服装单品/上装/GAR-0007-衬衫式女衫.md",
+    "name_zh": "衬衫式女衫",
+    "name_en": "shirtwaist",
+    "type": "garment",
+    "evidence_status": "verified",
+    "source_ids": [
+      "SRC-0108"
+    ],
+    "snippet": "# 衬衫式女衫 / shirtwaist ## 定义 衬衫式女衫（shirtwaist）是 1890 年代起流行的女性上衣，模仿男式衬衫：前开纽扣、翻领、可有高领与领结，通常塞入裙腰。 ## 结构要点 - 前开纽扣门襟 + 翻领/立领；可有可拆卸领子与领结。 - 衣身合体，前片可打褶并收进腰头；18",
+    "relations": [
+      {
+        "subject": "GAR-0007",
+        "target": "STR-0004",
+        "relation_type": "may_have_part",
+        "direction": "subject_to_object",
+        "evidence": "interpretive",
+        "confidence": "medium",
+        "source_ids": [
+          "SRC-0167",
+          "SRC-0153"
+        ],
+        "rule": "R-LOOK-PART-COOCCUR",
+        "origin": "candidate",
+        "review_status": "review_queue",
+        "target_path": "02-结构细节/STR-0004-羊腿袖（19世纪）.md",
+        "target_name_zh": "羊腿袖（19世纪）",
+        "target_type": "garment_part"
+      }
+    ],
+    "score": 0.0
+  }
+]

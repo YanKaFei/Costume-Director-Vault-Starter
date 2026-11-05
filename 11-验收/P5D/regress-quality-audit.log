@@ -1,0 +1,60 @@
+F1_1940s                 exit=0 looks=3 warnings=3 exampleA=False 
+F1_1950s                 exit=0 looks=3 warnings=4 exampleA=False 
+F1_1960s                 exit=0 looks=3 warnings=3 exampleA=False 
+F1_1970s                 exit=0 looks=3 warnings=2 exampleA=False 
+F2_1580s                 exit=0 looks=3 warnings=6 exampleA=False 
+F2_byzantine             exit=0 looks=1 warnings=4 exampleA=False WARN: fewer than three distinct looks were possible (KB coverage).
+I1_1930s_mens_shoes      exit=0 looks=3 warnings=5 exampleA=False 
+I2_byzantine_court       exit=0 looks=1 warnings=5 exampleA=False WARN: fewer than three distinct looks were possible (KB coverage).
+I3_west_africa_ritual    exit=0 looks=3 warnings=5 exampleA=False 
+I4_spacesuit             exit=0 looks=3 warnings=3 exampleA=False 
+I5_1990s_hiphop          exit=0 looks=3 warnings=3 exampleA=False 
+I6_1930s_raincoat        exit=0 looks=3 warnings=4 exampleA=False 
+P01 n=5 ['GAR-0031', 'LOOK-0009', 'LOOK-0019', 'SRC-0200', 'SRC-0201']
+P02 n=5 ['GAR-0001', 'GAR-0065', 'GAR-0066', 'SRC-0009', 'SRC-0028']
+P03 n=5 ['GAR-0045', 'SRC-0037', 'SRC-0405', 'LOOK-0012', 'LOOK-0014']
+P04 n=5 ['GAR-0090', 'MAT-0002', 'SRC-0014', 'SRC-0141', 'SRC-0205']
+P05 n=5 ['GAR-0051', 'LOOK-0006', 'LOOK-0017', 'STY-0007', 'SRC-0165']
+P06 n=5 ['GAR-0050', 'GAR-0051', 'SRC-0410', 'SRC-0411', 'GAR-0042']
+P07 n=5 ['GAR-0031', 'LOOK-0008', 'LOOK-0009', 'LOOK-0012', 'LOOK-0015']
+P08 n=5 ['STR-0011', 'LOOK-0008', 'LOOK-0009', 'LOOK-0012', 'LOOK-0019']
+P09 n=5 ['GAR-0090', 'MAT-0002', 'SRC-0141', 'GAR-0054', 'PRD-0003']
+P10 n=5 ['GAR-0001', 'GAR-0065', 'GAR-0066', 'SRC-0028', 'SRC-0100']
+P11 n=2 ['GAR-0031', 'GAR-0032']
+P12 n=4 ['GAR-0031', 'GAR-0032', 'STR-0011', 'STR-0018']
+P13 n=5 ['GAR-0022', 'GAR-0023', 'GAR-0024', 'GAR-0035', 'GAR-0044']
+P14 n=3 ['LOOK-0007', 'LOOK-0021', 'STY-0005']
+P15 n=5 ['GAR-0031', 'LOOK-0008', 'LOOK-0009', 'LOOK-0012', 'LOOK-0015']
+P16 n=5 ['SRC-0001', 'SRC-0002', 'SRC-0003', 'SRC-0004', 'SRC-0005']
+P17 n=5 ['LOOK-0001', 'LOOK-0002', 'LOOK-0003', 'LOOK-0004', 'LOOK-0005']
+P18 n=5 ['GAR-0021', 'GAR-0028', 'GAR-0050', 'GAR-0051', 'GAR-0066']
+P19 n=5 ['GAR-0016', 'GAR-0017', 'GAR-0018', 'GAR-0019', 'GAR-0033']
+P20 n=5 ['LOOK-0011', 'SCN-0006', 'SRC-0403', 'GAR-0039', 'GAR-0057']
+P21 n=3 ['GAR-0071', 'SRC-0450', 'GAR-0072']
+P22 n=4 ['GAR-0073', 'GAR-0074', 'GAR-0090', 'GAR-0086']
+P23 n=5 ['GAR-0031', 'LOOK-0009', 'LOOK-0019', 'LOOK-0011', 'SCN-0006']
+P24 n=3 ['MAT-0005', 'MAT-0006', 'MAT-0007']
+P25 n=4 ['LOOK-0007', 'LOOK-0021', 'STY-0005', 'SRC-0175']
+Q26 n=2 ['GAR-0060', 'LOOK-0022']
+Q27 n=5 ['GAR-0009', 'MAT-0011', 'PRD-0010', 'GAR-0061', 'GAR-0062']
+Q28 n=5 ['LOOK-0013', 'LOOK-0018', 'MAT-0005', 'MAT-0007', 'SCN-0008']
+Q29 n=5 ['LOOK-0011', 'SCN-0006', 'GAR-0039', 'GAR-0057', 'LOOK-0033']
+Q30 n=5 ['GAR-0051', 'LOOK-0006', 'LOOK-0017', 'STY-0007', 'SCN-0003']
+Q31 n=5 ['LOOK-0030', 'LOOK-0035', 'STY-0012', 'LOOK-0012', 'LOOK-0022']
+C01                          exit=0 looks=3 warnings=8 exampleA=False
+C02                          exit=0 looks=3 warnings=3 exampleA=False
+C03                          exit=0 looks=3 warnings=5 exampleA=False
+C04                          exit=0 looks=3 warnings=2 exampleA=False
+C05                          exit=0 looks=1 warnings=4 exampleA=False
+C06                          exit=0 looks=1 warnings=2 exampleA=False
+C07                          exit=0 looks=3 warnings=2 exampleA=False
+C08                          exit=0 looks=3 warnings=6 exampleA=False
+C09                          exit=0 looks=3 warnings=4 exampleA=False
+C10                          exit=0 looks=3 warnings=4 exampleA=False
+N1_ER_trauma_nurse           exit=0 looks=3 warnings=2 exampleA=False
+N2_mars_technician           exit=0 looks=3 warnings=2 exampleA=False
+N3_ghana_uk_wedding_groom    exit=0 looks=3 warnings=3 exampleA=False
+N4_identity_descent          exit=0 looks=1 warnings=4 exampleA=False
+N5_historical_cyberpunk_conflict exit=0 looks=3 warnings=4 exampleA=False
+NOTE: exit 0 = probes ran; quality must be judged via reports/P3-QA.md
+QA=0

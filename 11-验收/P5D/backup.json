@@ -1,0 +1,15 @@
+{
+ "ok": true,
+ "dest": "/private/tmp/p5d-backup",
+ "count": 2022,
+ "total_bytes": 27298991,
+ "manifest_sha256": "17902d414cbcf1ad4146dc6fc16bb24d1061b2fe61f0185e45985e880b755021",
+ "git_head": "5ae2c5289e82975de84d186da8dfa716ed7e6a67",
+ "tracked_mode": true,
+ "skipped_unreadable": 0,
+ "excluded": {
+  "projects/": "private",
+  ".obsidian/": "machine config",
+  "sandbox-*": "regenerable copies"
+ }
+}

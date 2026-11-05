@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly one command: python3 scripts/relation_trace.py --start GAR-0015 --max-depth 2 --json. Then report two target IDs from the returned paths with their SRC IDs. Complete answer only.
