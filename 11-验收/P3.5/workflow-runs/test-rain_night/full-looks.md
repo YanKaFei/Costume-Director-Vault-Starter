@@ -63,7 +63,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0021`, `STR-0025`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0021`, `STR-0025`, `STR-0030`, `STR-0035`
 - Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -72,7 +72,7 @@
 - Reason: 下装: GAR-0014 牛仔裤 (casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0021, STR-0025, STR-0030, STR-0035
 - Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
@@ -113,7 +113,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0021`, `STR-0025`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0021`, `STR-0025`, `STR-0030`, `STR-0035`
 - Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve private investigator; the low economic register shows through material and finish; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (holding on to a case that costs everything) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -122,7 +122,7 @@
 - Reason: 下装: GAR-0014 牛仔裤 (casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0021, STR-0025, STR-0030, STR-0035
 - Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
@@ -165,7 +165,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0035`, `STR-0021`, `STR-0025`, `STR-0033`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0021`, `STR-0025`, `STR-0030`, `STR-0035`, `STR-0033`
 - Material cards: `MAT-0001`, `MAT-0003`, `MAT-0002`, `MAT-0015`, `MAT-0013`, `MAT-0012`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from casual / formal / smart_casual / smart_casual; the beige, black, blue palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -174,7 +174,7 @@
 - Reason: 下装: GAR-0077 紧身长袜 (formal)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0035, STR-0021, STR-0025, STR-0033
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0030, STR-0035, STR-0033
 - Reason: linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0077, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
@@ -214,7 +214,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0014`, `STR-0025`, `STR-0016`, `STR-0021`, `STR-0035`
+- Structure cards: `STR-0014`, `STR-0016`, `STR-0021`, `STR-0023`, `STR-0025`, `STR-0035`
 - Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from ceremonial / smart_casual / smart_casual; the beige, black, blue palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -222,7 +222,7 @@
 - Reason: 成套: GAR-0005 布布长袍 (ceremonial)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0014, STR-0025, STR-0016, STR-0021, STR-0035
+- Reason: linked structure cards: STR-0014, STR-0016, STR-0021, STR-0023, STR-0025, STR-0035
 - Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0005, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city
@@ -240,7 +240,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0022` | 威灵顿靴 | black, brown | leather, rubber | verified | SRC-0123 |
 
-- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0022`, `STR-0021`, `STR-0025`, `STR-0035`
+- Structure cards: `STR-0016`, `STR-0023`, `STR-0018`, `STR-0021`, `STR-0025`, `STR-0030`, `STR-0035`
 - Material cards: `MAT-0001`, `MAT-0003`, `MAT-0012`, `MAT-0013`, `MAT-0002`, `MAT-0017`, `MAT-0019`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve informant; formality runs from casual / casual / smart_casual / smart_casual; the beige, black, blue black palette controls the emotional temperature; against the arc (trying to leave the city) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -249,7 +249,7 @@
 - Reason: 下装: GAR-0014 牛仔裤 (casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0022 威灵顿靴 (smart_casual)
-- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025, STR-0035
+- Reason: linked structure cards: STR-0016, STR-0023, STR-0018, STR-0021, STR-0025, STR-0030, STR-0035
 - Reason: linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019
 - Risk: fictional mode: no historical claim is made for this design
 - Risk: region mismatch in GAR-0006, GAR-0014, GAR-0045, GAR-0022: cards document their own regions, not unspecified modern city

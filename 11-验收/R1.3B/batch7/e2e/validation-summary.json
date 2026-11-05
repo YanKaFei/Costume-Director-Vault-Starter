@@ -1,0 +1,163 @@
+{
+  "official": {
+    "RQ1": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "MAT-0017",
+        "SRC-0489",
+        "SRC-0532",
+        "SRC-0538",
+        "SRC-0539",
+        "SRC-0549",
+        "STR-0028"
+      ],
+      "final_chars": 2551,
+      "skill_calls": 1,
+      "tool_calls": 2,
+      "completed_tool_results": 3,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Visual prompt run — MAT-0017 & STR-0028\n\nBoth commands completed successfully (exit 0). No image was generated; `image_generation: false`, `delivery: \"text prompt only\"`, `model_agnostic: true`, `lang: \"en\"`.\n\n### 1. MAT-0017 — material macro\n\n| Field | Value |\n|---|---|\n| Real card ID | `MAT-0017` |\n| Card | `03-材质纹样/材料/MAT-0017-皮革.md` (皮革 / leather) |\n| Kind | `material_macro` |\n| Evidence st"
+    },
+    "RQ2": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0032",
+        "GAR-0034",
+        "GAR-0036",
+        "GAR-0044",
+        "GAR-0046",
+        "GAR-0048",
+        "GAR-0050",
+        "LOOK-0008",
+        "LOOK-0031",
+        "SRC-0202",
+        "SRC-0203",
+        "SRC-0400",
+        "SRC-0406",
+        "SRC-0408",
+        "SRC-0410",
+        "STR-0011"
+      ],
+      "final_chars": 3233,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 5,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Brief\n\nAll three commands exited `0`; no images or videos were generated.\n\n| Command | Result |\n|---|---|\n| `query.py --id LOOK-0031 --json` | 1 card hit |\n| `query.py --id LOOK-0008 --json` | 1 card hit |\n| `visual_prompt.py --id LOOK-0031 --kind outfit --json` | text prompt only, `image_generation: false` |\n\n## Modern vs historical outfit IDs\n\n| | LOOK-0031 | LOOK-0008 |\n|---|---|---|\n| ID / "
+    },
+    "RQ3": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "MAT-0017",
+        "SRC-0489",
+        "SRC-0537",
+        "SRC-0538",
+        "SRC-0549"
+      ],
+      "final_chars": 3946,
+      "skill_calls": 1,
+      "tool_calls": 2,
+      "completed_tool_results": 5,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "Both commands ran successfully (exit 0). Here is the complete, evidence-based report.\n\n## Brief\n- Request: verify card `MAT-0017` (皮革 / leather) and produce a `material_macro` visual prompt, plus answer whether a real reference image/asset exists.\n- Scope: read-only KB query; no project script, period/region/character brief supplied — **unknowns:** none needed for this lookup.\n- Commands run exact"
+    }
+  },
+  "overlay": {
+    "RQ1": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "MAT-0017",
+        "SRC-0489",
+        "SRC-0532",
+        "SRC-0538",
+        "SRC-0539",
+        "SRC-0549",
+        "STR-0028"
+      ],
+      "final_chars": 2563,
+      "skill_calls": 1,
+      "tool_calls": 2,
+      "completed_tool_results": 3,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Visual prompt run results (text only — no image generated)\n\nBoth commands were run exactly as specified from the Vault root. Each output declares `\"image_generation\": false`, `\"delivery\": \"text prompt only\"`; **no image was generated** in either run.\n\n### 1. MAT-0017 — `material_macro`\n\n- **Real card ID:** MAT-0017\n- **Card path:** `03-材质纹样/材料/MAT-0017-皮革.md` (leather)\n- **Evidence status:** ve"
+    },
+    "RQ4": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0036",
+        "GAR-0044",
+        "GAR-0046",
+        "GAR-0048",
+        "GAR-0050",
+        "LOOK-0031",
+        "SRC-0400",
+        "SRC-0406",
+        "SRC-0408",
+        "SRC-0410"
+      ],
+      "final_chars": 1264,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## LOOK-0031 — Outfit Visual Prompt Result\n\n**Card ID:** LOOK-0031\n(`09-造型组合/LOOK-0031-contemporary-night-shift-nurse,-rainy-handover.md`)\n\n**Item IDs:** GAR-0036, GAR-0046, GAR-0044, GAR-0050, GAR-0048\n\n**Prompt (English, outfit hero module):**\n\n> complete outfit contemporary night-shift nurse rainy handover items GAR-0036 GAR-0046 GAR-0044 GAR-0050 GAR-0048 palette white navy pale blue black ref"
+    },
+    "RQ5": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "MAT-0017",
+        "SRC-0489",
+        "SRC-0538",
+        "SRC-0549"
+      ],
+      "final_chars": 1060,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Card\n\n- **Card ID:** MAT-0017 — 皮革 / **leather** (`material`)\n- **Path:** `03-材质纹样/材料/MAT-0017-皮革.md`\n- **Evidence status:** **verified**\n\n## Evidence / sources\n\n- **Source IDs:** `SRC-0549`, `SRC-0489`, `SRC-0538`\n- **Prompt module source:** `materials/colors + lighting_notes`\n- **Evidence tags:** FACT, OBSERVATION (prompt); INFERENCE, CREATIVE also present in the output\n- **Conflict checks:**"
+    }
+  }
+}

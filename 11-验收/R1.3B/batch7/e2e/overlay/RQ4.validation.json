@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0036",
+    "GAR-0044",
+    "GAR-0046",
+    "GAR-0048",
+    "GAR-0050",
+    "LOOK-0031",
+    "SRC-0400",
+    "SRC-0406",
+    "SRC-0408",
+    "SRC-0410"
+  ],
+  "final_chars": 1264,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## LOOK-0031 — Outfit Visual Prompt Result\n\n**Card ID:** LOOK-0031\n(`09-造型组合/LOOK-0031-contemporary-night-shift-nurse,-rainy-handover.md`)\n\n**Item IDs:** GAR-0036, GAR-0046, GAR-0044, GAR-0050, GAR-0048\n\n**Prompt (English, outfit hero module):**\n\n> complete outfit contemporary night-shift nurse rainy handover items GAR-0036 GAR-0046 GAR-0044 GAR-0050 GAR-0048 palette white navy pale blue black ref"
+}

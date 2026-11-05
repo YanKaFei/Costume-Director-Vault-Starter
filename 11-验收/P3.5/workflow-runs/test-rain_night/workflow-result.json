@@ -1428,17 +1428,17 @@
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0022",
+                  "id": "STR-0021",
                   "slot": "lower_body",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0021",
+                  "id": "STR-0025",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0025",
+                  "id": "STR-0030",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
@@ -1478,7 +1478,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video": "Lin, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "reasons": [
@@ -1487,7 +1487,7 @@
                 "下装: GAR-0014 牛仔裤 (casual)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0022 威灵顿靴 (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025, STR-0035",
+                "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0021, STR-0025, STR-0030, STR-0035",
                 "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019"
               ],
               "risks": [
@@ -1508,11 +1508,12 @@
                   "SRC-0486",
                   "SRC-0413",
                   "SRC-0200",
-                  "SRC-0454",
                   "SRC-0484",
                   "SRC-0412",
                   "SRC-0520",
                   "SRC-0521",
+                  "SRC-0534",
+                  "SRC-0540",
                   "SRC-0530",
                   "SRC-0531",
                   "SRC-0533",
@@ -1572,10 +1573,6 @@
                     "url": "https://collections.vam.ac.uk/item/O1151302/"
                   },
                   {
-                    "source_id": "SRC-0454",
-                    "url": "https://collections.vam.ac.uk/item/O1240056/"
-                  },
-                  {
                     "source_id": "SRC-0484",
                     "url": "https://collections.vam.ac.uk/item/O356786/"
                   },
@@ -1590,6 +1587,14 @@
                   {
                     "source_id": "SRC-0521",
                     "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+                  },
+                  {
+                    "source_id": "SRC-0534",
+                    "url": "https://collections.vam.ac.uk/item/O353447/"
+                  },
+                  {
+                    "source_id": "SRC-0540",
+                    "url": "https://vocab.getty.edu/page/aat/300227843"
                   },
                   {
                     "source_id": "SRC-0530",
@@ -1671,7 +1676,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video_en": "Lin, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -2115,8 +2120,8 @@
               "url": "https://collections.vam.ac.uk/item/O15667/"
             },
             {
-              "source_id": "SRC-0454",
-              "url": "https://collections.vam.ac.uk/item/O1240056/"
+              "source_id": "SRC-0540",
+              "url": "https://vocab.getty.edu/page/aat/300227843"
             },
             {
               "source_id": "SRC-0423",
@@ -2780,17 +2785,17 @@
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0022",
+                  "id": "STR-0021",
                   "slot": "lower_body",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0021",
+                  "id": "STR-0025",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0025",
+                  "id": "STR-0030",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
@@ -2830,7 +2835,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video": "Lin, unknown, scene: S2: SCENE 2. A dry office interior, later that night., night, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "reasons": [
@@ -2839,7 +2844,7 @@
                 "下装: GAR-0014 牛仔裤 (casual)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0022 威灵顿靴 (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025, STR-0035",
+                "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0021, STR-0025, STR-0030, STR-0035",
                 "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019"
               ],
               "risks": [
@@ -2860,11 +2865,12 @@
                   "SRC-0486",
                   "SRC-0413",
                   "SRC-0200",
-                  "SRC-0454",
                   "SRC-0484",
                   "SRC-0412",
                   "SRC-0520",
                   "SRC-0521",
+                  "SRC-0534",
+                  "SRC-0540",
                   "SRC-0530",
                   "SRC-0531",
                   "SRC-0533",
@@ -2924,10 +2930,6 @@
                     "url": "https://collections.vam.ac.uk/item/O1151302/"
                   },
                   {
-                    "source_id": "SRC-0454",
-                    "url": "https://collections.vam.ac.uk/item/O1240056/"
-                  },
-                  {
                     "source_id": "SRC-0484",
                     "url": "https://collections.vam.ac.uk/item/O356786/"
                   },
@@ -2942,6 +2944,14 @@
                   {
                     "source_id": "SRC-0521",
                     "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+                  },
+                  {
+                    "source_id": "SRC-0534",
+                    "url": "https://collections.vam.ac.uk/item/O353447/"
+                  },
+                  {
+                    "source_id": "SRC-0540",
+                    "url": "https://vocab.getty.edu/page/aat/300227843"
                   },
                   {
                     "source_id": "SRC-0530",
@@ -3023,7 +3033,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Lin, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video_en": "Lin, unknown, scene: S2: SCENE 2. A dry office interior, later that night., night, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -3840,8 +3850,8 @@
               "url": "https://collections.vam.ac.uk/item/O1151302/"
             },
             {
-              "source_id": "SRC-0454",
-              "url": "https://collections.vam.ac.uk/item/O1240056/"
+              "source_id": "SRC-0540",
+              "url": "https://vocab.getty.edu/page/aat/300227843"
             },
             {
               "source_id": "SRC-0142",
@@ -4143,17 +4153,22 @@
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0035",
+                  "id": "STR-0021",
                   "slot": "lower_body",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0021",
+                  "id": "STR-0025",
+                  "slot": "lower_body",
+                  "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0030",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0025",
+                  "id": "STR-0035",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
@@ -4197,7 +4212,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); seams and darts (STR-0021); ease and fit (STR-0025); pocket construction (STR-0033), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
+              "prompt_image": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035); pocket construction (STR-0033), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
               "prompt_video": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
               "reasons": [
@@ -4206,7 +4221,7 @@
                 "下装: GAR-0077 紧身长袜 (formal)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0022 威灵顿靴 (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0021, STR-0025, STR-0033",
+                "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0030, STR-0035, STR-0033",
                 "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019"
               ],
               "risks": [
@@ -4227,21 +4242,22 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0412",
+                  "SRC-0520",
+                  "SRC-0521",
+                  "SRC-0534",
+                  "SRC-0540",
                   "SRC-0530",
                   "SRC-0531",
                   "SRC-0533",
                   "SRC-0535",
                   "SRC-0536",
-                  "SRC-0412",
-                  "SRC-0520",
-                  "SRC-0521",
                   "SRC-0545",
                   "SRC-0532",
                   "SRC-0102",
                   "SRC-0142",
                   "SRC-0141",
                   "SRC-0547",
-                  "SRC-0534",
                   "SRC-0204",
                   "SRC-0483",
                   "SRC-0423",
@@ -4294,6 +4310,26 @@
                     "url": "https://collections.vam.ac.uk/item/O137793/"
                   },
                   {
+                    "source_id": "SRC-0412",
+                    "url": "https://collections.vam.ac.uk/item/O15693/"
+                  },
+                  {
+                    "source_id": "SRC-0520",
+                    "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+                  },
+                  {
+                    "source_id": "SRC-0521",
+                    "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+                  },
+                  {
+                    "source_id": "SRC-0534",
+                    "url": "https://collections.vam.ac.uk/item/O353447/"
+                  },
+                  {
+                    "source_id": "SRC-0540",
+                    "url": "https://vocab.getty.edu/page/aat/300227843"
+                  },
+                  {
                     "source_id": "SRC-0530",
                     "url": "https://collections.vam.ac.uk/item/O72654/"
                   },
@@ -4312,18 +4348,6 @@
                   {
                     "source_id": "SRC-0536",
                     "url": "https://collections.vam.ac.uk/item/O68370/"
-                  },
-                  {
-                    "source_id": "SRC-0412",
-                    "url": "https://collections.vam.ac.uk/item/O15693/"
-                  },
-                  {
-                    "source_id": "SRC-0520",
-                    "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-                  },
-                  {
-                    "source_id": "SRC-0521",
-                    "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
                   },
                   {
                     "source_id": "SRC-0545",
@@ -4348,10 +4372,6 @@
                   {
                     "source_id": "SRC-0547",
                     "url": "https://vocab.getty.edu/page/aat/300243430"
-                  },
-                  {
-                    "source_id": "SRC-0534",
-                    "url": "https://collections.vam.ac.uk/item/O353447/"
                   },
                   {
                     "source_id": "SRC-0204",
@@ -4405,7 +4425,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); seams and darts (STR-0021); ease and fit (STR-0025); pocket construction (STR-0033), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035); pocket construction (STR-0033), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
               "prompt_video_en": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -4973,18 +4993,23 @@
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0025",
-                  "slot": "set",
-                  "confidence": "explicit"
-                },
-                {
                   "id": "STR-0016",
-                  "slot": "outerwear",
+                  "slot": "set",
                   "confidence": "explicit"
                 },
                 {
                   "id": "STR-0021",
                   "slot": "outerwear",
+                  "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0023",
+                  "slot": "outerwear",
+                  "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0025",
+                  "slot": "footwear",
                   "confidence": "explicit"
                 },
                 {
@@ -5019,7 +5044,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); ease and fit (STR-0025); hem and vents/slits (STR-0016); seams and darts (STR-0021); silhouette and proportion (STR-0035), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); hem and vents/slits (STR-0016); seams and darts (STR-0021); cuff (STR-0023); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
               "reasons": [
@@ -5027,7 +5052,7 @@
                 "成套: GAR-0005 布布长袍 (ceremonial)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0022 威灵顿靴 (smart_casual)",
-                "linked structure cards: STR-0014, STR-0025, STR-0016, STR-0021, STR-0035",
+                "linked structure cards: STR-0014, STR-0016, STR-0021, STR-0023, STR-0025, STR-0035",
                 "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019"
               ],
               "risks": [
@@ -5042,12 +5067,13 @@
                   "SRC-0405",
                   "SRC-0123",
                   "SRC-0412",
-                  "SRC-0521",
-                  "SRC-0520",
                   "SRC-0202",
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0484",
+                  "SRC-0520",
+                  "SRC-0486",
+                  "SRC-0521",
                   "SRC-0530",
                   "SRC-0531",
                   "SRC-0533",
@@ -5082,14 +5108,6 @@
                     "url": "https://collections.vam.ac.uk/item/O15693/"
                   },
                   {
-                    "source_id": "SRC-0521",
-                    "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-                  },
-                  {
-                    "source_id": "SRC-0520",
-                    "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-                  },
-                  {
                     "source_id": "SRC-0202",
                     "url": "https://collections.vam.ac.uk/item/O80590/"
                   },
@@ -5104,6 +5122,18 @@
                   {
                     "source_id": "SRC-0484",
                     "url": "https://collections.vam.ac.uk/item/O356786/"
+                  },
+                  {
+                    "source_id": "SRC-0520",
+                    "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+                  },
+                  {
+                    "source_id": "SRC-0486",
+                    "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0521",
+                    "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
                   },
                   {
                     "source_id": "SRC-0530",
@@ -5180,7 +5210,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); ease and fit (STR-0025); hem and vents/slits (STR-0016); seams and darts (STR-0021); silhouette and proportion (STR-0035), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); hem and vents/slits (STR-0016); seams and darts (STR-0021); cuff (STR-0023); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video_en": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -5499,6 +5529,26 @@
               "url": "https://collections.vam.ac.uk/item/O137793/"
             },
             {
+              "source_id": "SRC-0412",
+              "url": "https://collections.vam.ac.uk/item/O15693/"
+            },
+            {
+              "source_id": "SRC-0520",
+              "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+            },
+            {
+              "source_id": "SRC-0521",
+              "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+            },
+            {
+              "source_id": "SRC-0534",
+              "url": "https://collections.vam.ac.uk/item/O353447/"
+            },
+            {
+              "source_id": "SRC-0540",
+              "url": "https://vocab.getty.edu/page/aat/300227843"
+            },
+            {
               "source_id": "SRC-0530",
               "url": "https://collections.vam.ac.uk/item/O72654/"
             },
@@ -5517,18 +5567,6 @@
             {
               "source_id": "SRC-0536",
               "url": "https://collections.vam.ac.uk/item/O68370/"
-            },
-            {
-              "source_id": "SRC-0412",
-              "url": "https://collections.vam.ac.uk/item/O15693/"
-            },
-            {
-              "source_id": "SRC-0520",
-              "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-            },
-            {
-              "source_id": "SRC-0521",
-              "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
             },
             {
               "source_id": "SRC-0545",
@@ -5553,10 +5591,6 @@
             {
               "source_id": "SRC-0547",
               "url": "https://vocab.getty.edu/page/aat/300243430"
-            },
-            {
-              "source_id": "SRC-0534",
-              "url": "https://collections.vam.ac.uk/item/O353447/"
             },
             {
               "source_id": "SRC-0204",
@@ -5908,17 +5942,17 @@
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0022",
+                  "id": "STR-0021",
                   "slot": "lower_body",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0021",
+                  "id": "STR-0025",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
                 {
-                  "id": "STR-0025",
+                  "id": "STR-0030",
                   "slot": "outerwear",
                   "confidence": "explicit"
                 },
@@ -5958,7 +5992,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video": "Ash, unknown, scene: S2: SCENE 2. A dry office interior, later that night., night, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "reasons": [
@@ -5967,7 +6001,7 @@
                 "下装: GAR-0014 牛仔裤 (casual)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0022 威灵顿靴 (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025, STR-0035",
+                "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0021, STR-0025, STR-0030, STR-0035",
                 "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019"
               ],
               "risks": [
@@ -5988,11 +6022,12 @@
                   "SRC-0486",
                   "SRC-0413",
                   "SRC-0200",
-                  "SRC-0454",
                   "SRC-0484",
                   "SRC-0412",
                   "SRC-0520",
                   "SRC-0521",
+                  "SRC-0534",
+                  "SRC-0540",
                   "SRC-0530",
                   "SRC-0531",
                   "SRC-0533",
@@ -6052,10 +6087,6 @@
                     "url": "https://collections.vam.ac.uk/item/O1151302/"
                   },
                   {
-                    "source_id": "SRC-0454",
-                    "url": "https://collections.vam.ac.uk/item/O1240056/"
-                  },
-                  {
                     "source_id": "SRC-0484",
                     "url": "https://collections.vam.ac.uk/item/O356786/"
                   },
@@ -6070,6 +6101,14 @@
                   {
                     "source_id": "SRC-0521",
                     "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+                  },
+                  {
+                    "source_id": "SRC-0534",
+                    "url": "https://collections.vam.ac.uk/item/O353447/"
+                  },
+                  {
+                    "source_id": "SRC-0540",
+                    "url": "https://vocab.getty.edu/page/aat/300227843"
                   },
                   {
                     "source_id": "SRC-0530",
@@ -6151,7 +6190,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); seams and darts (STR-0021); ease and fit (STR-0025); lining and interfacing (STR-0030); silhouette and proportion (STR-0035), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video_en": "Ash, unknown, scene: S2: SCENE 2. A dry office interior, later that night., night, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -7216,10 +7255,6 @@
               "url": "https://collections.vam.ac.uk/item/O1151302/"
             },
             {
-              "source_id": "SRC-0454",
-              "url": "https://collections.vam.ac.uk/item/O1240056/"
-            },
-            {
               "source_id": "SRC-0484",
               "url": "https://collections.vam.ac.uk/item/O356786/"
             },
@@ -7234,6 +7269,14 @@
             {
               "source_id": "SRC-0521",
               "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+            },
+            {
+              "source_id": "SRC-0534",
+              "url": "https://collections.vam.ac.uk/item/O353447/"
+            },
+            {
+              "source_id": "SRC-0540",
+              "url": "https://vocab.getty.edu/page/aat/300227843"
             },
             {
               "source_id": "SRC-0530",
@@ -7318,10 +7361,6 @@
             {
               "source_id": "SRC-0547",
               "url": "https://vocab.getty.edu/page/aat/300243430"
-            },
-            {
-              "source_id": "SRC-0534",
-              "url": "https://collections.vam.ac.uk/item/O353447/"
             },
             {
               "source_id": "SRC-0204",
@@ -7718,7 +7757,6 @@
           "SRC-0425",
           "SRC-0451",
           "SRC-0453",
-          "SRC-0454",
           "SRC-0483",
           "SRC-0484",
           "SRC-0486",
@@ -7734,6 +7772,7 @@
           "SRC-0535",
           "SRC-0536",
           "SRC-0538",
+          "SRC-0540",
           "SRC-0547",
           "SRC-0549",
           "SRC-0550"
@@ -7764,7 +7803,6 @@
           "SRC-0417",
           "SRC-0418",
           "SRC-0423",
-          "SRC-0454",
           "SRC-0483",
           "SRC-0484",
           "SRC-0486",
@@ -7778,6 +7816,7 @@
           "SRC-0535",
           "SRC-0536",
           "SRC-0538",
+          "SRC-0540",
           "SRC-0547",
           "SRC-0549",
           "SRC-0550"
@@ -7825,6 +7864,7 @@
           "SRC-0535",
           "SRC-0536",
           "SRC-0538",
+          "SRC-0540",
           "SRC-0545",
           "SRC-0547",
           "SRC-0549",
@@ -7858,7 +7898,6 @@
           "SRC-0425",
           "SRC-0451",
           "SRC-0453",
-          "SRC-0454",
           "SRC-0483",
           "SRC-0484",
           "SRC-0486",
@@ -7872,6 +7911,7 @@
           "SRC-0535",
           "SRC-0536",
           "SRC-0538",
+          "SRC-0540",
           "SRC-0547",
           "SRC-0549",
           "SRC-0550"
@@ -7903,7 +7943,6 @@
       "SRC-0425",
       "SRC-0451",
       "SRC-0453",
-      "SRC-0454",
       "SRC-0483",
       "SRC-0484",
       "SRC-0485",
@@ -7921,6 +7960,7 @@
       "SRC-0535",
       "SRC-0536",
       "SRC-0538",
+      "SRC-0540",
       "SRC-0545",
       "SRC-0547",
       "SRC-0549",

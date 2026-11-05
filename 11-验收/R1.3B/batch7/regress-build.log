@@ -1,0 +1,22 @@
+==============================================================================
+Costume Director Vault — build_sources.py
+来源卡目录: /Users/coffee/Desktop/Costume-Director-Vault-Starter/04-来源
+来源卡（type=source）: 239 张；跳过非来源卡: 2 个
+    跳过: README.md, 验证记录.md
+CSV: /Users/coffee/Desktop/Costume-Director-Vault-Starter/reports/SOURCES.csv（当前 239 行）
+==============================================================================
+[PASS] 表头契约（8 列）
+[PASS] CSV 可读: ok
+[PASS] CSV 内 source_id 无重复: 0 个重复
+[PASS] 卡片 → CSV 覆盖: 缺 0 行
+[PASS] CSV → 卡片可解析: 多出 0 行
+[PASS] 共有行的字段一致: 0 行有差异
+[PASS] source_id 全局唯一: 0 个重复
+[WARN] 重复 URL: 3 组
+    fashionhistory.fitnyc.edu/1950-1959 -> SRC-0115, SRC-0157（canonical=SRC-0115）
+    fashionhistory.fitnyc.edu/late-byzantine-silk-damask-dress -> SRC-0022, SRC-0163（canonical=SRC-0022）
+    www.screenireland.ie/images/uploads/general/booklet_5_-_costume_department_2024.pdf -> SRC-0036, SRC-0175（canonical=SRC-0036）
+[INFO] SRC 编号缺口: SRC-0070..SRC-0099（段位间隔）, SRC-0164..SRC-0164, SRC-0176..SRC-0199（段位间隔）, SRC-0207..SRC-0399（段位间隔）, SRC-0432..SRC-0449, SRC-0461..SRC-0479, SRC-0492..SRC-0519（段位间隔）, SRC-0525..SRC-0529
+[INFO] 连续编号段: SRC-0001..SRC-0069(69); SRC-0100..SRC-0163(64); SRC-0165..SRC-0175(11); SRC-0200..SRC-0206(7); SRC-0400..SRC-0431(32); SRC-0450..SRC-0460(11); SRC-0480..SRC-0491(12); SRC-0520..SRC-0524(5); SRC-0530..SRC-0557(28)
+------------------------------------------------------------------------------
+RESULT: PASS（CSV 与全部来源卡一致）

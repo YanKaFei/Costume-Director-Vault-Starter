@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "MAT-0017",
+    "SRC-0489",
+    "SRC-0537",
+    "SRC-0538",
+    "SRC-0549"
+  ],
+  "final_chars": 3946,
+  "skill_calls": 1,
+  "tool_calls": 2,
+  "completed_tool_results": 5,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "Both commands ran successfully (exit 0). Here is the complete, evidence-based report.\n\n## Brief\n- Request: verify card `MAT-0017` (皮革 / leather) and produce a `material_macro` visual prompt, plus answer whether a real reference image/asset exists.\n- Scope: read-only KB query; no project script, period/region/character brief supplied — **unknowns:** none needed for this lookup.\n- Commands run exact"
+}

@@ -1,0 +1,15 @@
+........./Users/coffee/Desktop/Costume-Director-Vault-Starter/tests/test_prompt_qa.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.3B/PROMPT-QA.csv' mode='r' encoding='utf-8'>
+  cls.rows = list(csv.DictReader((OUT / "PROMPT-QA.csv").open(encoding="utf-8")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./Users/coffee/Desktop/Costume-Director-Vault-Starter/tests/test_prompt_qa.py:66: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.3B/BLOCK-AUDIT-179.csv' mode='r' encoding='utf-8'>
+  rows = list(csv.DictReader((OUT / "BLOCK-AUDIT-179.csv").open(encoding="utf-8")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+............................/Users/coffee/Desktop/Costume-Director-Vault-Starter/tests/test_candidate_review.py:22: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/P5E/candidate-review.csv' mode='r' encoding='utf-8'>
+  cls.rows = list(csv.DictReader((P5E / "candidate-review.csv").open(encoding="utf-8")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+............................
+----------------------------------------------------------------------
+Ran 66 tests in 80.607s
+
+OK
+TESTS=0

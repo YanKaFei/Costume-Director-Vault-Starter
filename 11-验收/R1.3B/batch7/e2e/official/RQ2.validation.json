@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0032",
+    "GAR-0034",
+    "GAR-0036",
+    "GAR-0044",
+    "GAR-0046",
+    "GAR-0048",
+    "GAR-0050",
+    "LOOK-0008",
+    "LOOK-0031",
+    "SRC-0202",
+    "SRC-0203",
+    "SRC-0400",
+    "SRC-0406",
+    "SRC-0408",
+    "SRC-0410",
+    "STR-0011"
+  ],
+  "final_chars": 3233,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 5,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Brief\n\nAll three commands exited `0`; no images or videos were generated.\n\n| Command | Result |\n|---|---|\n| `query.py --id LOOK-0031 --json` | 1 card hit |\n| `query.py --id LOOK-0008 --json` | 1 card hit |\n| `visual_prompt.py --id LOOK-0031 --kind outfit --json` | text prompt only, `image_generation: false` |\n\n## Modern vs historical outfit IDs\n\n| | LOOK-0031 | LOOK-0008 |\n|---|---|---|\n| ID / "
+}

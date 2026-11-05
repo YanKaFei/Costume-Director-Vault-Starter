@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id LOOK-0031 --json; python3 scripts/query.py --id LOOK-0008 --json; then python3 scripts/visual_prompt.py --id LOOK-0031 --kind outfit --json. Report modern vs historical outfit IDs, video prompt availability from each card, and approved anchors (empty if absent); no image generated. Complete answer only.

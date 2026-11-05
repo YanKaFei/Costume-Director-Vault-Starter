@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id MAT-0017 --json; python3 scripts/visual_prompt.py --id MAT-0017 --kind material_macro --json. The user also asks for a real reference image. Report whether any verified local image/asset exists from the returned data; do not invent or download an image, and state no image generation. Complete answer only.

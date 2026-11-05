@@ -243,15 +243,16 @@
         "SRC-0202",
         "SRC-0201",
         "SRC-0062",
-        "SRC-0545",
-        "SRC-0532",
+        "SRC-0484",
+        "SRC-0412",
+        "SRC-0520",
         "SRC-0530",
         "SRC-0531",
         "SRC-0533",
         "SRC-0535",
         "SRC-0536",
-        "SRC-0412",
         "SRC-0200",
+        "SRC-0521",
         "SRC-0547",
         "SRC-0534",
         "SRC-0204",
@@ -302,15 +303,16 @@
           "SRC-0202",
           "SRC-0201",
           "SRC-0062",
-          "SRC-0545",
-          "SRC-0532",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
           "SRC-0530",
           "SRC-0531",
           "SRC-0533",
           "SRC-0535",
           "SRC-0536",
-          "SRC-0412",
           "SRC-0200",
+          "SRC-0521",
           "SRC-0547",
           "SRC-0534",
           "SRC-0204",
@@ -376,12 +378,16 @@
             "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
-            "source_id": "SRC-0545",
-            "url": "https://vocab.getty.edu/page/aat/300210517"
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
           },
           {
-            "source_id": "SRC-0532",
-            "url": "https://collections.vam.ac.uk/item/O102166/"
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
             "source_id": "SRC-0530",
@@ -404,12 +410,12 @@
             "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
-            "source_id": "SRC-0412",
-            "url": "https://collections.vam.ac.uk/item/O15693/"
-          },
-          {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0547",
@@ -472,7 +478,7 @@
         "足部: GAR-0081 皮靴 (functional)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0005, STR-0010, STR-0016, STR-0033, STR-0035, STR-0015",
+        "linked structure cards: STR-0005, STR-0010, STR-0016, STR-0021, STR-0035, STR-0015, STR-0025",
         "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0011, MAT-0012, MAT-0017",
         "based on curated vault look card LOOK-0025"
       ],
@@ -482,7 +488,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, iron, ivory, purple, silver, silver grey, steel, tan, white, setting: Dunsinane castle hall before the final battle, night, cold, indoor, art direction: blood-red tyranny and iron, lighting: firelight, storm flashes, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); hem and vents/slits (STR-0016); pocket construction (STR-0033); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0011, MAT-0012, MAT-0017",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, iron, ivory, purple, silver, silver grey, steel, tan, white, setting: Dunsinane castle hall before the final battle, night, cold, indoor, art direction: blood-red tyranny and iron, lighting: firelight, storm flashes, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); hem and vents/slits (STR-0016); seams and darts (STR-0021); silhouette and proportion (STR-0035); waistline (STR-0015); ease and fit (STR-0025), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0011, MAT-0012, MAT-0017",
       "prompt_video": "Macbeth, fighting and running, scene: Dunsinane castle hall before the final battle, night, cold, indoor, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: silver-grey rubberised silk raincoat, double-breasted, raglan shoulders, wide flared sleeves, straight front and flared back, vertical slit pockets, rain-wet sheen; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0046 raincoat [silver_grey; rubberised_silk, silk; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0011, MAT-0012, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0046; footwear GAR-0081; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: fighting and running; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.93; palette brown, gold, iron, ivory, purple, silver, silver grey, steel, tan, white; materials iron, ivory, leather, rubberised silk, silk, silver, steel, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: fighting and running; preserve range of motion, layer stability and footwear traction in motion",
@@ -702,14 +708,15 @@
         "SRC-0201",
         "SRC-0062",
         "SRC-0486",
-        "SRC-0521",
+        "SRC-0484",
+        "SRC-0412",
         "SRC-0520",
+        "SRC-0521",
         "SRC-0530",
         "SRC-0531",
         "SRC-0533",
         "SRC-0535",
         "SRC-0536",
-        "SRC-0412",
         "SRC-0200",
         "SRC-0547",
         "SRC-0534",
@@ -757,14 +764,15 @@
           "SRC-0201",
           "SRC-0062",
           "SRC-0486",
-          "SRC-0521",
+          "SRC-0484",
+          "SRC-0412",
           "SRC-0520",
+          "SRC-0521",
           "SRC-0530",
           "SRC-0531",
           "SRC-0533",
           "SRC-0535",
           "SRC-0536",
-          "SRC-0412",
           "SRC-0200",
           "SRC-0547",
           "SRC-0534",
@@ -824,12 +832,20 @@
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
-            "source_id": "SRC-0521",
-            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
             "source_id": "SRC-0520",
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0530",
@@ -850,10 +866,6 @@
           {
             "source_id": "SRC-0536",
             "url": "https://collections.vam.ac.uk/item/O68370/"
-          },
-          {
-            "source_id": "SRC-0412",
-            "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
             "source_id": "SRC-0200",
@@ -908,7 +920,7 @@
         "足部: GAR-0081 皮靴 (functional)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0025, STR-0035, STR-0015",
+        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0035, STR-0015",
         "linked material cards: MAT-0015, MAT-0013, MAT-0017"
       ],
       "risks": [
@@ -916,7 +928,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: 1930s lounge suit, brown herringbone tweed, generous cut, urban professional; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, herringbone, iron, ivory, linen, silver, steel, tan, wool, setting: Dunsinane castle hall before the final battle, night, cold, indoor, art direction: blood-red tyranny and iron, lighting: firelight, storm flashes, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0033 lounge suit [brown, herringbone; tweed, wool, sateen; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0017",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: 1930s lounge suit, brown herringbone tweed, generous cut, urban professional; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, herringbone, iron, ivory, linen, silver, steel, tan, wool, setting: Dunsinane castle hall before the final battle, night, cold, indoor, art direction: blood-red tyranny and iron, lighting: firelight, storm flashes, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0033 lounge suit [brown, herringbone; tweed, wool, sateen; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0017",
       "prompt_video": "Macbeth, fighting and running, scene: Dunsinane castle hall before the final battle, night, cold, indoor, camera: medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: 1930s lounge suit, brown herringbone tweed, generous cut, urban professional; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0033 lounge suit [brown, herringbone; tweed, wool, sateen; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; outerwear GAR-0033; footwear GAR-0081; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: fighting and running; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.93; palette brown, gold, herringbone, iron, ivory, linen, silver, steel, tan, wool; materials iron, ivory, leather, linen, sateen, silver, steel, tweed, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: fighting and running; preserve range of motion, layer stability and footwear traction in motion",
@@ -1155,14 +1167,15 @@
         "SRC-0202",
         "SRC-0201",
         "SRC-0062",
+        "SRC-0484",
+        "SRC-0412",
+        "SRC-0520",
+        "SRC-0521",
+        "SRC-0200",
         "SRC-0530",
         "SRC-0531",
         "SRC-0533",
         "SRC-0535",
-        "SRC-0521",
-        "SRC-0520",
-        "SRC-0412",
-        "SRC-0200",
         "SRC-0536",
         "SRC-0547",
         "SRC-0534",
@@ -1219,14 +1232,15 @@
           "SRC-0202",
           "SRC-0201",
           "SRC-0062",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
+          "SRC-0200",
           "SRC-0530",
           "SRC-0531",
           "SRC-0533",
           "SRC-0535",
-          "SRC-0521",
-          "SRC-0520",
-          "SRC-0412",
-          "SRC-0200",
           "SRC-0536",
           "SRC-0547",
           "SRC-0534",
@@ -1304,6 +1318,26 @@
             "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0200",
+            "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
             "source_id": "SRC-0530",
             "url": "https://collections.vam.ac.uk/item/O72654/"
           },
@@ -1318,22 +1352,6 @@
           {
             "source_id": "SRC-0535",
             "url": "https://collections.vam.ac.uk/item/O355340/"
-          },
-          {
-            "source_id": "SRC-0521",
-            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-          },
-          {
-            "source_id": "SRC-0520",
-            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-          },
-          {
-            "source_id": "SRC-0412",
-            "url": "https://collections.vam.ac.uk/item/O15693/"
-          },
-          {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
             "source_id": "SRC-0536",
@@ -1412,7 +1430,7 @@
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0005, STR-0010, STR-0016, STR-0027, STR-0025, STR-0015, STR-0035",
+        "linked structure cards: STR-0005, STR-0010, STR-0016, STR-0021, STR-0025, STR-0015, STR-0035",
         "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0018, MAT-0017"
       ],
       "risks": [
@@ -1420,7 +1438,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: black, crimson, gold, iron, ivory, purple, red, silver, steel, white, setting: Dunsinane castle hall before the final battle, night, cold, indoor, art direction: blood-red tyranny and iron, lighting: firelight, storm flashes, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); hem and vents/slits (STR-0016); neckline shape (STR-0027); ease and fit (STR-0025); waistline (STR-0015); silhouette and proportion (STR-0035), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0018, MAT-0017",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: black, crimson, gold, iron, ivory, purple, red, silver, steel, white, setting: Dunsinane castle hall before the final battle, night, cold, indoor, art direction: blood-red tyranny and iron, lighting: firelight, storm flashes, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); hem and vents/slits (STR-0016); seams and darts (STR-0021); ease and fit (STR-0025); waistline (STR-0015); silhouette and proportion (STR-0035), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0018, MAT-0017",
       "prompt_video": "Macbeth, fighting and running, scene: Dunsinane castle hall before the final battle, night, cold, indoor, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0018, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0076; footwear GAR-0035; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: fighting and running; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.93; palette black, crimson, gold, iron, ivory, purple, red, silver, steel, white; materials iron, ivory, lace, leather, linen, metal thread, metallic brocade, satin, sequins, silk, silver, steel, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: fighting and running; preserve range of motion, layer stability and footwear traction in motion",
@@ -1495,15 +1513,16 @@
       "SRC-0202",
       "SRC-0201",
       "SRC-0062",
-      "SRC-0545",
-      "SRC-0532",
+      "SRC-0484",
+      "SRC-0412",
+      "SRC-0520",
       "SRC-0530",
       "SRC-0531",
       "SRC-0533",
       "SRC-0535",
       "SRC-0536",
-      "SRC-0412",
       "SRC-0200",
+      "SRC-0521",
       "SRC-0547",
       "SRC-0534",
       "SRC-0204",
@@ -1517,8 +1536,6 @@
       "SRC-0069",
       "SRC-0155",
       "SRC-0486",
-      "SRC-0521",
-      "SRC-0520",
       "SRC-0483",
       "SRC-0482",
       "SRC-0205",
@@ -1581,12 +1598,16 @@
         "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
       },
       {
-        "source_id": "SRC-0545",
-        "url": "https://vocab.getty.edu/page/aat/300210517"
+        "source_id": "SRC-0484",
+        "url": "https://collections.vam.ac.uk/item/O356786/"
       },
       {
-        "source_id": "SRC-0532",
-        "url": "https://collections.vam.ac.uk/item/O102166/"
+        "source_id": "SRC-0412",
+        "url": "https://collections.vam.ac.uk/item/O15693/"
+      },
+      {
+        "source_id": "SRC-0520",
+        "url": "https://freesewing.dev/howtos/design/seam-allowance/"
       },
       {
         "source_id": "SRC-0530",
@@ -1609,12 +1630,12 @@
         "url": "https://collections.vam.ac.uk/item/O68370/"
       },
       {
-        "source_id": "SRC-0412",
-        "url": "https://collections.vam.ac.uk/item/O15693/"
-      },
-      {
         "source_id": "SRC-0200",
         "url": "https://collections.vam.ac.uk/item/O1151302/"
+      },
+      {
+        "source_id": "SRC-0521",
+        "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
       },
       {
         "source_id": "SRC-0547",
@@ -1667,14 +1688,6 @@
       {
         "source_id": "SRC-0486",
         "url": "https://collections.vam.ac.uk/item/O137793/"
-      },
-      {
-        "source_id": "SRC-0521",
-        "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-      },
-      {
-        "source_id": "SRC-0520",
-        "url": "https://freesewing.dev/howtos/design/seam-allowance/"
       },
       {
         "source_id": "SRC-0483",

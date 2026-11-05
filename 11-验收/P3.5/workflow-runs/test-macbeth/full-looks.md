@@ -182,7 +182,7 @@
 | accessory | `GAR-0080` | 腰带 | iron, silver, gold | iron, silver, leather | verified | SRC-0487, SRC-0488 |
 | carried_prop | `GAR-0082` | 匕首 | steel, ivory, silver | steel, ivory, silver, wood | verified | SRC-0490, SRC-0491 |
 
-- Structure cards: `STR-0005`, `STR-0010`, `STR-0016`, `STR-0021`, `STR-0035`, `STR-0015`
+- Structure cards: `STR-0005`, `STR-0010`, `STR-0016`, `STR-0021`, `STR-0035`, `STR-0015`, `STR-0025`
 - Material cards: `MAT-0015`, `MAT-0002`, `MAT-0003`, `MAT-0001`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve thane and general; the high economic register shows through material and finish; formality runs from ceremonial / smart_casual / functional / functional / functional; the beige, brown, gold palette controls the emotional temperature; against the arc (loyal comrade who suspects the prophecy) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -192,7 +192,7 @@
 - Reason: 足部: GAR-0081 皮靴 (functional)
 - Reason: 配饰: GAR-0080 腰带 (functional)
 - Reason: 携带物: GAR-0082 匕首 (functional)
-- Reason: linked structure cards: STR-0005, STR-0010, STR-0016, STR-0021, STR-0035, STR-0015
+- Reason: linked structure cards: STR-0005, STR-0010, STR-0016, STR-0021, STR-0035, STR-0015, STR-0025
 - Reason: linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
 - Risk: all images remain external links; no third-party images are embedded in the vault

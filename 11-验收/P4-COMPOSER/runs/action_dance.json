@@ -220,6 +220,9 @@
         "SRC-0536",
         "SRC-0412",
         "SRC-0200",
+        "SRC-0484",
+        "SRC-0520",
+        "SRC-0521",
         "SRC-0547",
         "SRC-0534",
         "SRC-0204",
@@ -269,6 +272,9 @@
           "SRC-0536",
           "SRC-0412",
           "SRC-0200",
+          "SRC-0484",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0547",
           "SRC-0534",
           "SRC-0204",
@@ -348,6 +354,18 @@
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
             "source_id": "SRC-0547",
             "url": "https://vocab.getty.edu/page/aat/300243430"
           },
@@ -402,7 +420,7 @@
         "足部: GAR-0081 皮靴 (functional)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015",
+        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015, STR-0021, STR-0025",
         "linked material cards: MAT-0015, MAT-0013, MAT-0017"
       ],
       "risks": [
@@ -411,7 +429,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Qiao, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, iron, ivory, linen, silver, steel, tan, wool, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0017 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Qiao, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, gold, iron, ivory, linen, silver, steel, tan, wool, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0017 --ar 2:3 --style raw --v 6",
       "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; footwear GAR-0081; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.85; palette brown, gold, iron, ivory, linen, silver, steel, tan, wool; materials iron, ivory, leather, linen, silver, steel, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion",
@@ -597,14 +615,19 @@
         "SRC-0431",
         "SRC-0407",
         "SRC-0412",
-        "SRC-0521",
-        "SRC-0520",
         "SRC-0202",
         "SRC-0201",
         "SRC-0062",
         "SRC-0484",
+        "SRC-0520",
+        "SRC-0521",
         "SRC-0545",
         "SRC-0532",
+        "SRC-0530",
+        "SRC-0531",
+        "SRC-0533",
+        "SRC-0535",
+        "SRC-0536",
         "SRC-0102",
         "SRC-0142",
         "SRC-0549",
@@ -643,14 +666,19 @@
           "SRC-0431",
           "SRC-0407",
           "SRC-0412",
-          "SRC-0521",
-          "SRC-0520",
           "SRC-0202",
           "SRC-0201",
           "SRC-0062",
           "SRC-0484",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0545",
           "SRC-0532",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0102",
           "SRC-0142",
           "SRC-0549",
@@ -683,14 +711,6 @@
             "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
-            "source_id": "SRC-0521",
-            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-          },
-          {
-            "source_id": "SRC-0520",
-            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-          },
-          {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
@@ -707,12 +727,40 @@
             "url": "https://collections.vam.ac.uk/item/O356786/"
           },
           {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
             "source_id": "SRC-0545",
             "url": "https://vocab.getty.edu/page/aat/300210517"
           },
           {
             "source_id": "SRC-0532",
             "url": "https://collections.vam.ac.uk/item/O102166/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0102",
@@ -773,7 +821,7 @@
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "配饰: GAR-0070 头巾 (ceremonial)",
         "携带物: GAR-0047 雨伞 (smart_casual)",
-        "linked structure cards: STR-0014, STR-0025, STR-0016, STR-0021, STR-0033",
+        "linked structure cards: STR-0014, STR-0016, STR-0021, STR-0025, STR-0033, STR-0035",
         "linked material cards: MAT-0001, MAT-0003, MAT-0017, MAT-0019, MAT-0002"
       ],
       "risks": [
@@ -782,7 +830,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Qiao, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, matching wrapper and head-tie, ankle-length; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: black, blue, brown, green, indigo, orange, red, silver, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); ease and fit (STR-0025); hem and vents/slits (STR-0016); seams and darts (STR-0021); pocket construction (STR-0033), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0017, MAT-0019, MAT-0002 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Qiao, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, matching wrapper and head-tie, ankle-length; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: black, blue, brown, green, indigo, orange, red, silver, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); hem and vents/slits (STR-0016); seams and darts (STR-0021); ease and fit (STR-0025); pocket construction (STR-0033); silhouette and proportion (STR-0035), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0017, MAT-0019, MAT-0002 --ar 2:3 --style raw --v 6",
       "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, matching wrapper and head-tie, ankle-length; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, fabric motion: natural fabric response to the action, gravity and wind, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0017, MAT-0019, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
       "prompt_outfit": "complete outfit: one coherent full-body look; set GAR-0005; footwear GAR-0022; accessory GAR-0070; carried prop GAR-0047; movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.70; palette black, blue, brown, green, indigo, orange, red, silver, white; materials cotton, indigo dyed cotton, jacquard, leather, rayon, rubber, silk, silver, wood; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion",
@@ -969,6 +1017,11 @@
         "SRC-0412",
         "SRC-0520",
         "SRC-0521",
+        "SRC-0530",
+        "SRC-0531",
+        "SRC-0533",
+        "SRC-0535",
+        "SRC-0536",
         "SRC-0141",
         "SRC-0549",
         "SRC-0489",
@@ -1018,6 +1071,11 @@
           "SRC-0412",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0141",
           "SRC-0549",
           "SRC-0489",
@@ -1080,6 +1138,26 @@
           {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0141",
@@ -1156,7 +1234,7 @@
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "配饰: GAR-0021 围裙裙 (casual)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0003, STR-0016, STR-0021, STR-0025, STR-0019, STR-0026",
+        "linked structure cards: STR-0003, STR-0016, STR-0021, STR-0025, STR-0035, STR-0019, STR-0026",
         "linked material cards: MAT-0002, MAT-0017, MAT-0019, MAT-0001, MAT-0013, MAT-0015",
         "based on curated vault look card LOOK-0033"
       ],
@@ -1166,7 +1244,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Qiao, complete set: traditional Japanese kimono, T-shaped straight-cut robe, silk, wide hanging sleeves, obi sash at waist, flat collar band, ankle-length hem, seasonal color palette, soft cloth folds; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: ruffled hem curving up at the sides, white cotton or printed fabric; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, brown, indigo, multicolor, navy, printed, seasonal colors, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); hem and vents/slits (STR-0016); seams and darts (STR-0021); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0001 kimono [indigo, white, seasonal_colors; silk; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0017, MAT-0019, MAT-0001, MAT-0013, MAT-0015 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Qiao, complete set: traditional Japanese kimono, T-shaped straight-cut robe, silk, wide hanging sleeves, obi sash at waist, flat collar band, ankle-length hem, seasonal color palette, soft cloth folds; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: ruffled hem curving up at the sides, white cotton or printed fabric; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, brown, indigo, multicolor, navy, printed, seasonal colors, white, setting: S4, afternoon, indoor, art direction: minimal rehearsal realism, lighting: soft cool studio light, camera: full body wide shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); hem and vents/slits (STR-0016); seams and darts (STR-0021); ease and fit (STR-0025); silhouette and proportion (STR-0035); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0001 kimono [indigo, white, seasonal_colors; silk; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0017, MAT-0019, MAT-0001, MAT-0013, MAT-0015 --ar 2:3 --style raw --v 6",
       "prompt_video": "Qiao, contemporary dance rehearsal with floor work and spins, scene: S4, afternoon, indoor, camera: full body wide shot, costume: complete set: traditional Japanese kimono, T-shaped straight-cut robe, silk, wide hanging sleeves, obi sash at waist, flat collar band, ankle-length hem, seasonal color palette, soft cloth folds; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: ruffled hem curving up at the sides, white cotton or printed fabric; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: natural fabric response to the action, gravity and wind, lighting: soft cool studio light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0001 kimono [indigo, white, seasonal_colors; silk; complete set] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0017, MAT-0019, MAT-0001, MAT-0013, MAT-0015, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
       "prompt_outfit": "complete outfit: one coherent full-body look; footwear GAR-0022; carried prop GAR-0048; accessory GAR-0021; set GAR-0001; movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.70; palette black, brown, indigo, multicolor, navy, printed, seasonal colors, white; materials canvas, cotton, leather, linen, rubber, silk, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: contemporary dance rehearsal with floor work and spins; preserve range of motion, layer stability and footwear traction in motion",
@@ -1242,6 +1320,9 @@
       "SRC-0536",
       "SRC-0412",
       "SRC-0200",
+      "SRC-0484",
+      "SRC-0520",
+      "SRC-0521",
       "SRC-0547",
       "SRC-0534",
       "SRC-0204",
@@ -1254,9 +1335,6 @@
       "SRC-0123",
       "SRC-0431",
       "SRC-0407",
-      "SRC-0521",
-      "SRC-0520",
-      "SRC-0484",
       "SRC-0545",
       "SRC-0532",
       "SRC-0142",
@@ -1340,6 +1418,18 @@
         "url": "https://collections.vam.ac.uk/item/O1151302/"
       },
       {
+        "source_id": "SRC-0484",
+        "url": "https://collections.vam.ac.uk/item/O356786/"
+      },
+      {
+        "source_id": "SRC-0520",
+        "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+      },
+      {
+        "source_id": "SRC-0521",
+        "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
+      },
+      {
         "source_id": "SRC-0547",
         "url": "https://vocab.getty.edu/page/aat/300243430"
       },
@@ -1386,18 +1476,6 @@
       {
         "source_id": "SRC-0407",
         "url": "https://collections.vam.ac.uk/item/O470711/"
-      },
-      {
-        "source_id": "SRC-0521",
-        "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
-      },
-      {
-        "source_id": "SRC-0520",
-        "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-      },
-      {
-        "source_id": "SRC-0484",
-        "url": "https://collections.vam.ac.uk/item/O356786/"
       },
       {
         "source_id": "SRC-0545",

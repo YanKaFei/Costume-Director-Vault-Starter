@@ -73,6 +73,7 @@ CAMERA (CREATIVE): 50mm full-body, eye level, front.
 BACKGROUND (CREATIVE): neutral grey; scene context only.
 NEGATIVE (CREATIVE): no extra garments, brands or invented history.
 CONSISTENCY (OBSERVATION): preserve item IDs and layering.
+DISTINCTION (FACT): LOOK-EXAMPLE-001 rainy-night investigator; type=look; materials=wool,cotton,leather; colors=charcoal,off_white; look_items=GAR-EXAMPLE-001,GAR-0014,GAR-0022; DISTINCT FROM LOOK-0007; preserve these fields and do not merge the two cards.
 ```
 
 ### side_back
@@ -84,6 +85,7 @@ CAMERA (CREATIVE): orthographic side/back, 50-85mm.
 BACKGROUND (CREATIVE): neutral grey.
 NEGATIVE (CREATIVE): no invented closures or layers.
 CONSISTENCY (OBSERVATION): same palette, silhouette and item IDs.
+DISTINCTION (FACT): LOOK-EXAMPLE-001 rainy-night investigator; type=look; materials=wool,cotton,leather; colors=charcoal,off_white; look_items=GAR-EXAMPLE-001,GAR-0014,GAR-0022; DISTINCT FROM LOOK-0007; preserve these fields and do not merge the two cards.
 ```
 
 ## 视频提示词

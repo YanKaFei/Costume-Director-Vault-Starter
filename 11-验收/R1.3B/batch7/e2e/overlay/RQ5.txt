@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id MAT-0017 --json; then python3 scripts/visual_prompt.py --id MAT-0017 --kind material_macro --json. Report card ID, evidence/source, and prompt; say no image/reference image was generated or downloaded. Complete answer only.

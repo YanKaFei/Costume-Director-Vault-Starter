@@ -1,0 +1,277 @@
+{
+ "generated_at": "2026-11-06T00:11:24+08:00",
+ "root": "/Users/coffee/Desktop/Costume-Director-Vault-Starter",
+ "scanned_files": 506,
+ "nodes_by_role": {
+  "navigation": 28,
+  "content": 234,
+  "source": 239,
+  "research": 5
+ },
+ "nodes_by_type": {
+  "navigation": 28,
+  "garment": 92,
+  "garment_part": 35,
+  "material": 16,
+  "pattern": 3,
+  "source": 239,
+  "style": 26,
+  "period_region": 11,
+  "none": 5,
+  "scene": 16,
+  "look": 35
+ },
+ "wikilink_occurrences": 3513,
+ "resolved_visible_edges": 2763,
+ "nav_visible_edges": 581,
+ "semantic_visible_edges": 2182,
+ "unresolved_wikilinks": {},
+ "typed_edges": 768,
+ "typed_unresolved": 0,
+ "typed_without_visible": 15,
+ "typed_without_visible_by_kind": {
+  "key_garments": 15
+ },
+ "typed_by_kind": {
+  "source_ids": 498,
+  "superseded_by": 4,
+  "canonical_id": 4,
+  "key_garments": 40,
+  "look_items": 195,
+  "look_scene": 27
+ },
+ "visible_by_role_pair": {
+  "navigation->navigation": 55,
+  "navigation->content": 273,
+  "navigation->research": 5,
+  "navigation->source": 239,
+  "content->content": 1144,
+  "content->source": 506,
+  "source->content": 510,
+  "source->source": 22,
+  "research->source": 9
+ },
+ "source_ids_pairs": 498,
+ "source_ids_without_visible": 0,
+ "cards_with_source_ids": 227,
+ "cards_with_source_ids_without_any_visible_source": 0,
+ "sources_cited_typed": 176,
+ "sources_cited_visible": 176,
+ "role_stats": {
+  "content": {
+   "nodes": 234,
+   "zero_visible": 0,
+   "zero_total": 0,
+   "only_in_visible": 0,
+   "only_out_visible": 0,
+   "bidirectional_visible": 234,
+   "with_source_ids": 227,
+   "source_ids_no_visible": 0
+  },
+  "source": {
+   "nodes": 239,
+   "zero_visible": 0,
+   "zero_total": 0,
+   "only_in_visible": 64,
+   "only_out_visible": 0,
+   "bidirectional_visible": 175,
+   "with_source_ids": 0,
+   "source_ids_no_visible": 0
+  },
+  "navigation": {
+   "nodes": 28,
+   "zero_visible": 4,
+   "zero_total": 4,
+   "only_in_visible": 13,
+   "only_out_visible": 0,
+   "bidirectional_visible": 11,
+   "with_source_ids": 0,
+   "source_ids_no_visible": 0
+  },
+  "research": {
+   "nodes": 5,
+   "zero_visible": 0,
+   "zero_total": 0,
+   "only_in_visible": 4,
+   "only_out_visible": 0,
+   "bidirectional_visible": 1,
+   "with_source_ids": 0,
+   "source_ids_no_visible": 0
+  }
+ },
+ "semantic_nodes": 473,
+ "components": 61,
+ "largest_component": {
+  "size": 413,
+  "roles": {
+   "content": 234,
+   "source": 179
+  }
+ },
+ "component_rows_top": [
+  {
+   "component": 1,
+   "size": 413,
+   "roles": {
+    "content": 234,
+    "source": 179
+   },
+   "visible_edges_inside": 2197
+  },
+  {
+   "component": 2,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 3,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 4,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 5,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 6,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 7,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  },
+  {
+   "component": 8,
+   "size": 1,
+   "roles": {
+    "source": 1
+   },
+   "visible_edges_inside": 0
+  }
+ ],
+ "singleton_components": 60,
+ "singleton_component_source_kinds": {
+  "dataset": 1,
+  "other": 9,
+  "vocabulary": 18,
+  "academic_reference": 8,
+  "museum_collection": 12,
+  "industry_framework": 3,
+  "image_repository": 5,
+  "reference_work": 4
+ },
+ "isolation_groups_by_src_bucket": {
+  "linked_visible_from_content": {
+   "SRC-00xx": 176
+  },
+  "navigation_only": {
+   "SRC-00xx": 63
+  }
+ },
+ "component_size_histogram": {
+  "413": 1,
+  "1": 60
+ },
+ "components_with_content_and_source": 1,
+ "independent_topic_components": [],
+ "source_reasons": {
+  "linked_visible_from_content": 176,
+  "navigation_only": 63
+ },
+ "top_isolates": [
+  {
+   "id": "AGENTS",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "AGENTS.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "README_2",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "README.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "数据字典-v1.5-扩展",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "00-系统/数据字典-v1.5-扩展.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  },
+  {
+   "id": "视觉规范",
+   "type": "navigation",
+   "role": "navigation",
+   "path": "00-系统/视觉规范.md",
+   "in": 0,
+   "out": 0,
+   "source_ids": 0,
+   "wikilinks": 0,
+   "component": 0,
+   "component_size": 0,
+   "in_typed": 0,
+   "out_typed": 0,
+   "zero_visible": 1,
+   "zero_total": 1,
+   "reason": "navigation_unlinked"
+  }
+ ]
+}

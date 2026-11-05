@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "MAT-0017",
+    "SRC-0489",
+    "SRC-0538",
+    "SRC-0549"
+  ],
+  "final_chars": 1060,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Card\n\n- **Card ID:** MAT-0017 — 皮革 / **leather** (`material`)\n- **Path:** `03-材质纹样/材料/MAT-0017-皮革.md`\n- **Evidence status:** **verified**\n\n## Evidence / sources\n\n- **Source IDs:** `SRC-0549`, `SRC-0489`, `SRC-0538`\n- **Prompt module source:** `materials/colors + lighting_notes`\n- **Evidence tags:** FACT, OBSERVATION (prompt); INFERENCE, CREATIVE also present in the output\n- **Conflict checks:**"
+}

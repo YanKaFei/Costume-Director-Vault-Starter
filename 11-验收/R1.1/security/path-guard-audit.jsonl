@@ -1,29 +1,11 @@
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "private/x", "allowed": false, "reason": "private/sensitive directory"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "private/local-draft-play.txt", "allowed": false, "reason": "private/sensitive directory"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": ".ssh/id_rsa", "allowed": false, "reason": "private/sensitive directory"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "credentials.yaml", "allowed": false, "reason": "sensitive filename credentials.yaml"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "assets/.env", "allowed": false, "reason": "sensitive filename .env"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "../../etc/passwd", "allowed": false, "reason": "path traversal"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "/Users/coffee/.ssh/id_rsa", "allowed": false, "reason": "home-relative path"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "/tmp/outside.txt", "allowed": false, "reason": "outside vault"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "read", "path": "01-服装单品/下装/GAR-0072-帕贾马裤.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "read", "path": "/var/folders/9l/1mlg4d5x3rs6t81m01w1nktc0000gn/T/tmp8k0yudv7/secret.txt", "allowed": false, "reason": "outside vault"}
-{"ts": "2026-11-05T17:28:54+0800", "action": "check", "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.1/security/_escape_link/secret.txt", "allowed": false, "reason": "outside vault"}
-{"ts": "2026-11-05T17:54:45+0800", "action": "check", "path": "09-造型组合/LOOK-0001-洛可可沙龙女主人.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:54:46+0800", "action": "check", "path": "02-结构细节/STR-0028-青果领-披肩领.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:54:46+0800", "action": "check", "path": "02-结构细节/STR-0003-拉夫领.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:54:48+0800", "action": "check", "path": "05-风格体系/STY-0024-现代极简精炼工装.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:54:48+0800", "action": "check", "path": "05-风格体系/STY-0025-当代解构.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:54:55+0800", "action": "check", "path": "04-来源/SRC-0532-VA-O102166-stagejacketthegreatmasonica1.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:54:55+0800", "action": "check", "path": "04-来源/SRC-0539-VA-O1242729-embroideredlinenjacketdriesv.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:54:55+0800", "action": "check", "path": "04-来源/SRC-0133-FIT-ruff.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:16+0800", "action": "check", "path": "09-造型组合/LOOK-0001-洛可可沙龙女主人.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:17+0800", "action": "check", "path": "02-结构细节/STR-0028-青果领-披肩领.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:17+0800", "action": "check", "path": "02-结构细节/STR-0003-拉夫领.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:19+0800", "action": "check", "path": "05-风格体系/STY-0024-现代极简精炼工装.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:19+0800", "action": "check", "path": "05-风格体系/STY-0025-当代解构.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:43+0800", "action": "check", "path": "04-来源/SRC-0532-VA-O102166-stagejacketthegreatmasonica1.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:43+0800", "action": "check", "path": "04-来源/SRC-0539-VA-O1242729-embroideredlinenjacketdriesv.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:55:43+0800", "action": "check", "path": "04-来源/SRC-0133-FIT-ruff.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:56:04+0800", "action": "check", "path": "05-风格体系/STY-0024-现代极简精炼工装.md", "allowed": true, "reason": "allowed"}
-{"ts": "2026-11-05T17:56:04+0800", "action": "check", "path": "05-风格体系/STY-0025-当代解构.md", "allowed": true, "reason": "allowed"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": "private/x", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": "private/local-draft-play.txt", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": ".ssh/id_rsa", "allowed": false, "reason": "private/sensitive directory"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": "credentials.yaml", "allowed": false, "reason": "sensitive filename credentials.yaml"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": "assets/.env", "allowed": false, "reason": "sensitive filename .env"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": "../../etc/passwd", "allowed": false, "reason": "path traversal"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": "/Users/coffee/.ssh/id_rsa", "allowed": false, "reason": "home-relative path"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "check", "path": "/tmp/outside.txt", "allowed": false, "reason": "outside vault"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "read", "path": "01-服装单品/下装/GAR-0072-帕贾马裤.md", "allowed": true, "reason": "allowed"}
+{"ts": "2026-11-06T00:12:44+0800", "action": "read", "path": "/var/folders/9l/1mlg4d5x3rs6t81m01w1nktc0000gn/T/tmp65uig5dv/secret.txt", "allowed": false, "reason": "outside vault"}
+{"ts": "2026-11-06T00:12:45+0800", "action": "check", "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/R1.1/security/_escape_link/secret.txt", "allowed": false, "reason": "outside vault"}

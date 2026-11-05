@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/visual_prompt.py --id MAT-0017 --kind material_macro --json; then python3 scripts/visual_prompt.py --id STR-0028 --kind component_detail --json. Report real IDs, evidence tags, and prompts; state no image was generated. Complete answer only.

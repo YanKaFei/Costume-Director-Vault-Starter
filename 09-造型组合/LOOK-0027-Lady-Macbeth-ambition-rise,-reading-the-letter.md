@@ -177,6 +177,7 @@ CAMERA (CREATIVE): 50mm full-body, eye level, front.
 BACKGROUND (CREATIVE): neutral grey; scene context only.
 NEGATIVE (CREATIVE): no extra garments, brands or invented history.
 CONSISTENCY (OBSERVATION): preserve item IDs and layering.
+DISTINCTION (FACT): LOOK-0027 Lady Macbeth ambition rise, reading the letter; type=look; materials=linen,wool,leather,silk; colors=ivory,deep_red,charcoal,gold; look_items=GAR-0078,GAR-0079,GAR-0076,GAR-0024,GAR-0080,GAR-0082,MAT-0011; source_ids=SRC-0486,SRC-0482,SRC-0483,SRC-0125,SRC-0487,SRC-0488,SRC-0490,SRC-0491,SRC-0423; DISTINCT FROM LOOK-0029; preserve these fields and do not merge the two cards.
 ```
 
 ### side_back
@@ -188,6 +189,7 @@ CAMERA (CREATIVE): orthographic side/back, 50-85mm.
 BACKGROUND (CREATIVE): neutral grey.
 NEGATIVE (CREATIVE): no invented closures or layers.
 CONSISTENCY (OBSERVATION): same palette, silhouette and item IDs.
+DISTINCTION (FACT): LOOK-0027 Lady Macbeth ambition rise, reading the letter; type=look; materials=linen,wool,leather,silk; colors=ivory,deep_red,charcoal,gold; look_items=GAR-0078,GAR-0079,GAR-0076,GAR-0024,GAR-0080,GAR-0082,MAT-0011; source_ids=SRC-0486,SRC-0482,SRC-0483,SRC-0125,SRC-0487,SRC-0488,SRC-0490,SRC-0491,SRC-0423; DISTINCT FROM LOOK-0029; preserve these fields and do not merge the two cards.
 ```
 
 ## 视频提示词

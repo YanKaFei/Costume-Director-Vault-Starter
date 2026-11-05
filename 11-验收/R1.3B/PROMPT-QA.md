@@ -1,14 +1,14 @@
 # R1.3B Batch2 Prompt QA
 
-- Prompts: **257** across **105** cards
-- TEXT_VALID: **257**; TEXT_INVALID: **0**; warnings: **235**
+- Prompts: **472** across **163** cards
+- TEXT_VALID: **472**; TEXT_INVALID: **0**; warnings: **450**
 - DOMAIN_REVIEWED / IMAGE_TESTED / HUMAN_VISUAL_APPROVED: **NOT_RUN**
 - Image generation: **false**
 
 ## Cross-card homogeneity
 
-- content-token Jaccard >= 0.80: **602** pairs
-- raw template-scaffold similarity >= 0.82: **1297** pairs
+- content-token Jaccard >= 0.80: **1120** pairs
+- raw template-scaffold similarity >= 0.82: **4394** pairs
 
 - video: `STY-0018` vs `STY-0019` (content 0.974)
 - video: `LOOK-0004` vs `LOOK-0024` (content 0.959)
@@ -51,78 +51,78 @@
 - `GAR-0003` (image): potential conflicting attributes: front vs back; potential conflicting attributes: long-sleeve vs sleeveless
 - `GAR-0008` (image): low semantic overlap with card prompt_en (0.04)
 - `GAR-0008` (video): materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.03)
+- `GAR-0010` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0010` (image): potential conflicting attributes: front vs back
+- `GAR-0010` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.04)
+- `GAR-0010` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.05)
+- `GAR-0011` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0011` (image): potential conflicting attributes: front vs back
+- `GAR-0011` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.09)
+- `GAR-0011` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.10)
+- `GAR-0013` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.07)
+- `GAR-0013` (image): potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.07)
+- `GAR-0013` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.04)
+- `GAR-0013` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.05)
+- `GAR-0014` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0014` (image): potential conflicting attributes: front vs back
+- `GAR-0014` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.08)
+- `GAR-0014` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.09)
+- `GAR-0072` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0072` (image): potential conflicting attributes: front vs back
+- `GAR-0072` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.08)
+- `GAR-0072` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.08)
+- `GAR-0077` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0077` (image): potential conflicting attributes: front vs back
+- `GAR-0077` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.08)
+- `GAR-0077` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.09)
 - `GAR-0001` (image): low semantic overlap with card prompt_en (0.09)
 - `GAR-0001` (video): materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.02)
+- `GAR-0005` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0005` (image): potential conflicting attributes: front vs back
+- `GAR-0005` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.09)
+- `GAR-0005` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.09)
+- `GAR-0030` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.07)
+- `GAR-0030` (image): potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.07)
+- `GAR-0030` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.08)
+- `GAR-0030` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.09)
 - `GAR-0065` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
 - `GAR-0065` (image): multiple view classes: detail,full-body
-- `GAR-0045` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
-- `GAR-0045` (image): multiple view classes: detail,full-body
-- `GAR-0022` (image): no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.09)
-- `GAR-0022` (video): materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.03)
-- `GAR-0024` (image): no explicit view/camera framing (full-body/macro/detail/flat)
-- `GAR-0024` (video): materials not represented in prompt; missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.03)
-- `GAR-0015` (video): missing STRUCTURE block; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.05)
-- `GAR-0051` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
-- `GAR-0051` (image): multiple view classes: detail,full-body
-- `STR-0001` (image): potential conflicting attributes: front vs back
-- `STR-0001` (image): potential conflicting attributes: front vs back
-- `STR-0001` (video): materials not represented in prompt; low semantic overlap with card prompt_en (0.07)
-- `STR-0002` (image): card ID missing from prompt; potential conflicting attributes: front vs back
-- `STR-0002` (video): materials not represented in prompt; part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.03)
-- `STR-0003` (image): card ID missing from prompt; potential conflicting attributes: front vs back
-- `STR-0003` (video): materials not represented in prompt; part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.03)
-- `STR-0004` (image): potential conflicting attributes: front vs back
-- `STR-0004` (video): materials not represented in prompt; low semantic overlap with card prompt_en (0.07)
-- `STR-0005` (image): potential conflicting attributes: front vs back
-- `STR-0005` (video): materials not represented in prompt; low semantic overlap with card prompt_en (0.09)
-- `STR-0006` (image): low semantic overlap with card prompt_en (0.04)
-- `STR-0006` (video): materials not represented in prompt; missing STRUCTURE block; part_family not represented; low semantic overlap with card prompt_en (0.07)
-- `STR-0007` (image): potential conflicting attributes: front vs back
-- `STR-0007` (video): materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.03)
-- `STR-0008` (image): potential conflicting attributes: front vs back
-- `STR-0008` (image): part_family not represented
-- `STR-0008` (video): materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.10)
-- `STR-0009` (image): potential conflicting attributes: front vs back
-- `STR-0009` (image): part_family not represented; potential conflicting attributes: front vs back
-- `STR-0009` (video): part_family not represented; low semantic overlap with card prompt_en (0.06)
-- `STR-0010` (image): potential conflicting attributes: front vs back
-- `STR-0010` (image): part_family not represented
-- `STR-0010` (video): materials not represented in prompt; part_family not represented; low semantic overlap with card prompt_en (0.06)
-- `STR-0011` (image): potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.04)
-- `STR-0011` (video): materials not represented in prompt; missing STRUCTURE block; part_family not represented; low semantic overlap with card prompt_en (0.00)
-- `STR-0012` (image): card ID missing from prompt; potential conflicting attributes: front vs back
-- `STR-0012` (video): part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.07)
-- `STR-0013` (image): potential conflicting attributes: front vs back
-- `STR-0013` (video): low semantic overlap with card prompt_en (0.10)
-- `STR-0014` (image): potential conflicting attributes: front vs back
-- `STR-0014` (video): low semantic overlap with card prompt_en (0.07)
-- `STR-0015` (image): potential conflicting attributes: front vs back
-- `STR-0015` (video): low semantic overlap with card prompt_en (0.03)
-- `STR-0016` (image): potential conflicting attributes: front vs back
-- `STR-0016` (image): part_family not represented
-- `STR-0016` (video): part_family not represented; low semantic overlap with card prompt_en (0.06)
-- `STR-0017` (image): potential conflicting attributes: front vs back
-- `STR-0017` (image): potential conflicting attributes: front vs back
-- `STR-0017` (video): low semantic overlap with card prompt_en (0.03)
-- `STR-0018` (image): potential conflicting attributes: front vs back
-- `STR-0018` (video): part_family not represented; low semantic overlap with card prompt_en (0.07)
-- `STR-0019` (image): potential conflicting attributes: front vs back
-- `STR-0019` (video): part_family not represented; low semantic overlap with card prompt_en (0.07)
-- `STR-0020` (image): card ID missing from prompt; part_family not represented; potential conflicting attributes: front vs back
-- `STR-0020` (video): part_family not represented; multiple view classes: detail,macro; low semantic overlap with card prompt_en (0.07)
-- `STR-0021` (image): potential conflicting attributes: front vs back
-- `STR-0022` (image): potential conflicting attributes: front vs back
-- `STR-0022` (video): part_family not represented; low semantic overlap with card prompt_en (0.03)
-- `STR-0023` (image): potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.02)
-- `STR-0023` (video): low semantic overlap with card prompt_en (0.05)
-- `STR-0024` (image): potential conflicting attributes: front vs back
-- `STR-0024` (image): part_family not represented
-- `STR-0024` (video): part_family not represented; low semantic overlap with card prompt_en (0.06)
-- `STR-0025` (image): potential conflicting attributes: front vs back
-- `STR-0025` (image): part_family not represented
-- `STR-0025` (video): part_family not represented; low semantic overlap with card prompt_en (0.09)
-- `STR-0026` (image): potential conflicting attributes: front vs back
-- `STR-0026` (image): part_family not represented
+- `GAR-0012` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0012` (image): potential conflicting attributes: front vs back
+- `GAR-0012` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.09)
+- `GAR-0012` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.10)
+- `GAR-0020` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0020` (image): potential conflicting attributes: front vs back
+- `GAR-0020` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.09)
+- `GAR-0020` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block
+- `GAR-0078` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0078` (image): potential conflicting attributes: front vs back
+- `GAR-0078` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat)
+- `GAR-0078` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.09)
+- `GAR-0016` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.10)
+- `GAR-0016` (image): potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.10)
+- `GAR-0016` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.08)
+- `GAR-0016` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.09)
+- `GAR-0017` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0017` (image): potential conflicting attributes: front vs back
+- `GAR-0017` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat)
+- `GAR-0017` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block
+- `GAR-0018` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0018` (image): potential conflicting attributes: front vs back
+- `GAR-0018` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.08)
+- `GAR-0018` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.09)
+- `GAR-0019` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.03)
+- `GAR-0019` (image): potential conflicting attributes: front vs back; low semantic overlap with card prompt_en (0.03)
+- `GAR-0019` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat); low semantic overlap with card prompt_en (0.04)
+- `GAR-0019` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block; low semantic overlap with card prompt_en (0.05)
+- `GAR-0033` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0033` (image): potential conflicting attributes: front vs back
+- `GAR-0033` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat)
+- `GAR-0033` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block
+- `GAR-0037` (image): no explicit view/camera framing (full-body/macro/detail/flat); potential conflicting attributes: front vs back
+- `GAR-0037` (image): potential conflicting attributes: front vs back
+- `GAR-0037` (image): materials not represented in prompt; no explicit view/camera framing (full-body/macro/detail/flat)
+- `GAR-0037` (video): card ID missing from prompt; materials not represented in prompt; missing STRUCTURE block
 
 ## Limits
 - No domain review, image test, or human visual approval.

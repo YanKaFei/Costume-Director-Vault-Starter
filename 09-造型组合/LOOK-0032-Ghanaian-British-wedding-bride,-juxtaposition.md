@@ -164,6 +164,7 @@ CAMERA (CREATIVE): full-body 50mm, front.
 BACKGROUND (CREATIVE): neutral grey; scene=SCN-0008 as context only.
 NEGATIVE (CREATIVE): no extra garments, brands or invented history.
 CONSISTENCY (OBSERVATION): preserve item IDs and layering.
+DISTINCTION (FACT): LOOK-0032 Ghanaian-British wedding bride, juxtaposition; type=look; materials=cotton,silk,kente,beads; colors=gold,white,kente_green,kente_red; look_items=GAR-0005,GAR-0070,GAR-0035,GAR-0086,GAR-0048,MAT-0005,MAT-0006; source_ids=SRC-0106,SRC-0431,SRC-0205,SRC-0206,SRC-0459,SRC-0408,SRC-0144,SRC-0145; DISTINCT FROM LOOK-0013; preserve these fields and do not merge the two cards.
 ```
 
 ### side_back
@@ -175,6 +176,7 @@ CAMERA (CREATIVE): orthographic side/back, 50-85mm.
 BACKGROUND (CREATIVE): neutral grey.
 NEGATIVE (CREATIVE): no invented closures or layers.
 CONSISTENCY (OBSERVATION): same palette, silhouette, item IDs.
+DISTINCTION (FACT): LOOK-0032 Ghanaian-British wedding bride, juxtaposition; type=look; materials=cotton,silk,kente,beads; colors=gold,white,kente_green,kente_red; look_items=GAR-0005,GAR-0070,GAR-0035,GAR-0086,GAR-0048,MAT-0005,MAT-0006; source_ids=SRC-0106,SRC-0431,SRC-0205,SRC-0206,SRC-0459,SRC-0408,SRC-0144,SRC-0145; DISTINCT FROM LOOK-0013; preserve these fields and do not merge the two cards.
 ```
 
 ## 视频提示词
