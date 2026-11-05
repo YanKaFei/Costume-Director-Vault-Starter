@@ -258,7 +258,7 @@
 
 ## 21. R1.3B Batch3 收口（2026-11-05 18:00，task-115）
 
-- **快照**：HEAD `b28f4bd` + Batch3 工作区；**473 卡 = 234 内容 + 239 来源；345 relations**；validate **473/473**、build **239**、consistency **0/345**、graph **0 unresolved / 0 typed / 768 typed**；scope **503/0/1/0**。
+- **快照**：HEAD `7876962`（R1.3B Batch3 commit）；**473 卡 = 234 内容 + 239 来源；345 relations**；validate **473/473**、build **239**、consistency **0/345**、graph **0 unresolved / 0 typed / 768 typed**；scope **503/0/1/0**。
 - **Batch3-C/D**：+15 视觉卡（10 Style +3 Outfit +2 新主题 STY-0024/0025）；+30 prompt 块；**视觉 89/207（43.0%）**、**209 prompt 块**；全部 **REFERENCE_PENDING**；未改事实/ID/draft。
 - **资产 E**：4 MATCHED 复核——0009/0010→STY-0002 style reference、0011→STY-0001/PRD-0002 period-style、0012→GAR-0061 **exact object**，均 **APPROVED**（ledger 记录；owner 需加卡链接）；6 个优先参考 **REFERENCE_PENDING**（无已验证许可图像；Met API 尝试未完成核验，不伪造）；15 ASSET（IN_USE 3、5 LINK pending、不下载）。
 - **覆盖/许可**：`R1.3-VISUAL-COVERAGE.csv` **207 行/89 visual/46 REFERENCE_PENDING/2 asset-linked**；`R1.3-IMAGE-LICENSE.csv` 20 行 + batch3 列（4 approved）。
