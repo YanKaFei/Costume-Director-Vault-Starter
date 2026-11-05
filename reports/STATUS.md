@@ -298,3 +298,12 @@
 - 参考：15 ASSET、7 本地 CC0 图、3 in use、4 关联待 owner、120 explicit pending；0 AI。
 - 回归：acceptance 45/45、quality PASS 4.24/0.93/0；workflow/Macbeth 未重跑；Batch6 E2E NOT_RUN；GUI NOT_RUN。
 - 门禁：PRIVATE YES WARN（120 pending、1120/4394 同质化、4 关联待 owner、44 N/A、GUI/domain/image/human 未做）；PUBLIC NO。
+
+
+## 25. R1.3B Batch7 收口（2026-11-06 00:15）
+
+- HEAD `c59351f`；473 卡/345 relations；validate 473、build 239、consistency 0/345、graph 0、scope 503/0/1/0。
+- 视觉 163/207、472 prompt、44 分类（FUTURE25/EVIDENCE10/DRAFT5/N/A3/DUPLICATE1）；120 pending（C3 75/C1 29/C4 14/C2 2）。
+- 20 组 Prompt 差异；1120→1080，6/20 <0.80；472/472 TEXT_VALID。
+- 参考：15 ASSET、7 本地 CC0、6 卡匹配/9 pending；4 关联待 owner；0 生图。
+- E2E 官方 3/3 + overlay 3/3（9/10 场景 PARTIAL）；acceptance 45/45；quality 本轮未落盘 NOT_RUN；GUI/domain/image/human NOT_RUN。
