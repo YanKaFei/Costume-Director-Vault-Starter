@@ -1,14 +1,14 @@
 # R1.3B Batch2 Prompt QA
 
-- Prompts: **209** across **89** cards
-- TEXT_VALID: **209**; TEXT_INVALID: **0**; warnings: **187**
+- Prompts: **257** across **105** cards
+- TEXT_VALID: **257**; TEXT_INVALID: **0**; warnings: **235**
 - DOMAIN_REVIEWED / IMAGE_TESTED / HUMAN_VISUAL_APPROVED: **NOT_RUN**
 - Image generation: **false**
 
 ## Cross-card homogeneity
 
 - content-token Jaccard >= 0.80: **602** pairs
-- raw template-scaffold similarity >= 0.82: **1257** pairs
+- raw template-scaffold similarity >= 0.82: **1297** pairs
 
 - video: `STY-0018` vs `STY-0019` (content 0.974)
 - video: `LOOK-0004` vs `LOOK-0024` (content 0.959)

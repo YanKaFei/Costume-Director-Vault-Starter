@@ -81,3 +81,42 @@ relations:
 ## 相关卡片
 - [[LOOK-0032-Ghanaian-British-wedding-bride,-juxtaposition|加纳-英国婚礼·新娘并置]]
 - 说明：设计解释：加纳服饰卡有来源；英国花园婚礼与“并置”方式是创作设定，不声称某一场真实婚礼。
+
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET；仅来源/风格描述。
+
+## 生图提示词
+
+### style_case
+```text
+SUBJECT (INTERPRETATION): full-body style case for diasporic wedding juxtaposition; STY-0014.
+STYLE (OBSERVATION): style tags=STY-0014.
+MATERIAL (OBSERVATION): only listed card materials; no invented fiber or weight.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral studio light, soft falloff.
+CAMERA (CREATIVE): 50mm full-body, eye level, front.
+BACKGROUND (CREATIVE): neutral grey; no historical set.
+NEGATIVE (CREATIVE): no extra garments, brands or invented facts.
+CONSISTENCY (OBSERVATION): preserve card ID, palette and silhouette logic.
+```
+
+### character_body
+```text
+SUBJECT (INTERPRETATION): one adult character wearing diasporic wedding juxtaposition; STY-0014.
+STYLE (OBSERVATION): STY-0014.
+STRUCTURE (OBSERVATION): card silhouette/layering only; no invented cut.
+LIGHT (CREATIVE): soft directional key.
+CAMERA (CREATIVE): 50mm three-quarter body.
+BACKGROUND (CREATIVE): neutral studio.
+NEGATIVE (CREATIVE): no extra accessories or historical claims.
+CONSISTENCY (OBSERVATION): keep palette and proportion across shots.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): diasporic wedding juxtaposition; slow 180-degree body turn.
+CONSISTENCY (OBSERVATION): preserve palette, silhouette, layering.
+LIGHT (CREATIVE): soft key; no historical lighting claim.
+NEGATIVE (CREATIVE): no extra layers, logos or text.
+```

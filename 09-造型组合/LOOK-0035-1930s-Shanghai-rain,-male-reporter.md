@@ -142,3 +142,42 @@ approved_anchors: []
 - [[STY-0012-1930s-Shanghai-rain-noir|STY-0012]]
 - [[SCN-0004-1930年代上海知识分子对话|1930 年代上海知识分子对话]]
 
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET；构成来自 look_items=GAR-0032, GAR-0046, GAR-0060, GAR-0083, GAR-0047, MAT-0002。
+
+## 生图提示词
+
+### front_full
+```text
+SUBJECT (INTERPRETATION): complete outfit 1930s Shanghai rain, male reporter; LOOK-0035; items=GAR-0032, GAR-0046, GAR-0060, GAR-0083, GAR-0047, MAT-0002.
+COMPOSITION (FACT/OBSERVATION): only listed look_items and their card structure; no invented garment.
+MATERIAL (OBSERVATION): from listed item cards; unknown where absent.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral key, soft falloff.
+CAMERA (CREATIVE): full-body 50mm, front.
+BACKGROUND (CREATIVE): neutral grey; scene=SCN-0004 as context only.
+NEGATIVE (CREATIVE): no extra garments, brands or invented history.
+CONSISTENCY (OBSERVATION): preserve item IDs and layering.
+```
+
+### side_back
+```text
+SUBJECT (INTERPRETATION): side and back of 1930s Shanghai rain, male reporter; LOOK-0035.
+COMPOSITION (FACT/OBSERVATION): same look_items=GAR-0032, GAR-0046, GAR-0060, GAR-0083, GAR-0047, MAT-0002; no added construction.
+LIGHT (CREATIVE): neutral soft key with rim separation.
+CAMERA (CREATIVE): orthographic side/back, 50-85mm.
+BACKGROUND (CREATIVE): neutral grey.
+NEGATIVE (CREATIVE): no invented closures or layers.
+CONSISTENCY (OBSERVATION): same palette, silhouette, item IDs.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): 1930s Shanghai rain, male reporter; slow 180-degree turn.
+COMPOSITION (OBSERVATION): same look_items=GAR-0032, GAR-0046, GAR-0060, GAR-0083, GAR-0047, MAT-0002; no morphing.
+LIGHT (CREATIVE): neutral key.
+CAMERA (CREATIVE): 50mm full-body stable.
+NEGATIVE (CREATIVE): no extra garments or logos.
+CONSISTENCY (OBSERVATION): preserve item IDs, palette, layering.
+```

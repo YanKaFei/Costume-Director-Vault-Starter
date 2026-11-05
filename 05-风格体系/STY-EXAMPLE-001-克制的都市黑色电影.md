@@ -52,3 +52,42 @@ tags: [costume, style, example, noir]
 - [[LOOK-EXAMPLE-001-雨夜调查者]]
 - [[STY-0005-黑色电影造型]]
 - [[LOOK-0007-当代雨夜调查者连续性]]
+
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET；仅来源/风格描述。
+
+## 生图提示词
+
+### style_case
+```text
+SUBJECT (INTERPRETATION): full-body style case for restrained urban noir costume styling; STY-EXAMPLE-001.
+STYLE (OBSERVATION): style tags=noir, restrained, contemporary.
+MATERIAL (OBSERVATION): only listed card materials; no invented fiber or weight.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral studio light, soft falloff.
+CAMERA (CREATIVE): 50mm full-body, eye level, front.
+BACKGROUND (CREATIVE): neutral grey; no historical set.
+NEGATIVE (CREATIVE): no extra garments, brands or invented facts.
+CONSISTENCY (OBSERVATION): preserve card ID, palette and silhouette logic.
+```
+
+### character_body
+```text
+SUBJECT (INTERPRETATION): one adult character wearing restrained urban noir costume styling; STY-EXAMPLE-001.
+STYLE (OBSERVATION): noir, restrained, contemporary.
+STRUCTURE (OBSERVATION): card silhouette/layering only; no invented cut.
+LIGHT (CREATIVE): soft directional key.
+CAMERA (CREATIVE): 50mm three-quarter body.
+BACKGROUND (CREATIVE): neutral studio.
+NEGATIVE (CREATIVE): no extra accessories or historical claims.
+CONSISTENCY (OBSERVATION): keep palette and proportion across shots.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): restrained urban noir costume styling; slow 180-degree body turn.
+CONSISTENCY (OBSERVATION): preserve palette, silhouette, layering.
+LIGHT (CREATIVE): soft key; no historical lighting claim.
+NEGATIVE (CREATIVE): no extra layers, logos or text.
+```

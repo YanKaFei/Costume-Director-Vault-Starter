@@ -78,3 +78,42 @@ relations:
 - [[LOOK-0033-zero-gravity-opera-singer|零重力歌剧女伶]]
 - [[LOOK-0034-expressionist-Lady-Macbeth-finale|表现主义·麦克白夫人终局]]
 - 说明：设计解释：以现实工作服/防护服卡作结构类比；太空歌剧世界与角色为虚构，不声称历史或工程准确。
+
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET；仅来源/风格描述。
+
+## 生图提示词
+
+### style_case
+```text
+SUBJECT (INTERPRETATION): full-body style case for zero-gravity opera and sci-fi theatre; STY-0015.
+STYLE (OBSERVATION): style tags=STY-0015.
+MATERIAL (OBSERVATION): only listed card materials; no invented fiber or weight.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral studio light, soft falloff.
+CAMERA (CREATIVE): 50mm full-body, eye level, front.
+BACKGROUND (CREATIVE): neutral grey; no historical set.
+NEGATIVE (CREATIVE): no extra garments, brands or invented facts.
+CONSISTENCY (OBSERVATION): preserve card ID, palette and silhouette logic.
+```
+
+### character_body
+```text
+SUBJECT (INTERPRETATION): one adult character wearing zero-gravity opera and sci-fi theatre; STY-0015.
+STYLE (OBSERVATION): STY-0015.
+STRUCTURE (OBSERVATION): card silhouette/layering only; no invented cut.
+LIGHT (CREATIVE): soft directional key.
+CAMERA (CREATIVE): 50mm three-quarter body.
+BACKGROUND (CREATIVE): neutral studio.
+NEGATIVE (CREATIVE): no extra accessories or historical claims.
+CONSISTENCY (OBSERVATION): keep palette and proportion across shots.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): zero-gravity opera and sci-fi theatre; slow 180-degree body turn.
+CONSISTENCY (OBSERVATION): preserve palette, silhouette, layering.
+LIGHT (CREATIVE): soft key; no historical lighting claim.
+NEGATIVE (CREATIVE): no extra layers, logos or text.
+```

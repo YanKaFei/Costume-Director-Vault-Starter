@@ -74,3 +74,42 @@ relations:
 ## 相关卡片
 - [[LOOK-0031-contemporary-night-shift-nurse,-rainy-handover|当代夜班护士·雨夜交班]]
 - 说明：设计解释：职业锚点来自来源卡与库内职业卡；具体机构/制服细节为创作推断。
+
+## 视觉参考
+
+- REFERENCE_PENDING：无可核验匹配 ASSET；仅来源/风格描述。
+
+## 生图提示词
+
+### style_case
+```text
+SUBJECT (INTERPRETATION): full-body style case for contemporary occupational uniform realism; STY-0013.
+STYLE (OBSERVATION): style tags=STY-0013.
+MATERIAL (OBSERVATION): only listed card materials; no invented fiber or weight.
+COLOR (OBSERVATION): card palette only.
+LIGHT (CREATIVE): neutral studio light, soft falloff.
+CAMERA (CREATIVE): 50mm full-body, eye level, front.
+BACKGROUND (CREATIVE): neutral grey; no historical set.
+NEGATIVE (CREATIVE): no extra garments, brands or invented facts.
+CONSISTENCY (OBSERVATION): preserve card ID, palette and silhouette logic.
+```
+
+### character_body
+```text
+SUBJECT (INTERPRETATION): one adult character wearing contemporary occupational uniform realism; STY-0013.
+STYLE (OBSERVATION): STY-0013.
+STRUCTURE (OBSERVATION): card silhouette/layering only; no invented cut.
+LIGHT (CREATIVE): soft directional key.
+CAMERA (CREATIVE): 50mm three-quarter body.
+BACKGROUND (CREATIVE): neutral studio.
+NEGATIVE (CREATIVE): no extra accessories or historical claims.
+CONSISTENCY (OBSERVATION): keep palette and proportion across shots.
+```
+
+## 视频提示词
+```text
+SUBJECT (INTERPRETATION): contemporary occupational uniform realism; slow 180-degree body turn.
+CONSISTENCY (OBSERVATION): preserve palette, silhouette, layering.
+LIGHT (CREATIVE): soft key; no historical lighting claim.
+NEGATIVE (CREATIVE): no extra layers, logos or text.
+```

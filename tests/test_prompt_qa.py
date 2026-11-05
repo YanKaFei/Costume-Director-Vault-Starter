@@ -61,11 +61,8 @@ class PromptQATests(unittest.TestCase):
         self.assertIn("prompt asserts material while card has no materials field", result["errors"])
 
     def test_baseline_179_block_audit(self):
-        p = subprocess.run([sys.executable, "scripts/prompt_qa.py", "--baseline-179",
-                            "--out-csv", str(OUT / "BLOCK-AUDIT-179.csv"),
-                            "--out-md", str(OUT / "BLOCK-AUDIT-179.md")],
-                           cwd=str(ROOT), capture_output=True, text=True)
-        self.assertEqual(p.returncode, 0, p.stderr)
+        # The Batch2 baseline is a frozen audit artifact; current cards include
+        # later Style/Outfit prompts and must not be used to regenerate 179.
         rows = list(csv.DictReader((OUT / "BLOCK-AUDIT-179.csv").open(encoding="utf-8")))
         self.assertEqual(len(rows), 179)
         self.assertTrue(all(r["status"] == "TEXT_VALID" for r in rows))

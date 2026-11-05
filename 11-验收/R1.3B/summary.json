@@ -1,24 +1,27 @@
 {
-  "prompts": 179,
-  "cards": 74,
-  "text_valid": 179,
+  "prompts": 257,
+  "cards": 105,
+  "text_valid": 257,
   "text_invalid": 0,
-  "warnings": 157,
+  "warnings": 235,
   "errors": 0,
   "subtype_counts": {
     "applied": 26,
-    "base": 112,
+    "base": 158,
+    "character_body": 4,
     "detail": 26,
+    "front_full": 12,
     "product": 5,
-    "side_back": 5,
+    "side_back": 17,
+    "style_case": 4,
     "worn": 5
   },
   "type_counts": {
-    "image": 110,
-    "video": 69
+    "image": 157,
+    "video": 100
   },
-  "homogeneity_pairs": 536,
-  "template_scaffold_pairs": 1149,
+  "homogeneity_pairs": 602,
+  "template_scaffold_pairs": 1297,
   "homogeneity_threshold": "content-token Jaccard >= 0.80 after removing template vocabulary",
   "homogeneity": [
     {
@@ -3053,6 +3056,282 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0002",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0003",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0004",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0005",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0006",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0007",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0008",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0001",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0003",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0004",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0005",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0006",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0007",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0008",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0002",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0003",
+      "card_b": "STY-0004",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0003",
+      "card_b": "STY-0005",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0003",
+      "card_b": "STY-0006",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0003",
+      "card_b": "STY-0007",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0003",
+      "card_b": "STY-0008",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0003",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0003",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0004",
+      "card_b": "STY-0005",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0004",
+      "card_b": "STY-0006",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0004",
+      "card_b": "STY-0007",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0004",
+      "card_b": "STY-0008",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0004",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0004",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0005",
+      "card_b": "STY-0006",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0005",
+      "card_b": "STY-0007",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0005",
+      "card_b": "STY-0008",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0005",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0005",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0006",
+      "card_b": "STY-0007",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0006",
+      "card_b": "STY-0008",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0006",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0006",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0007",
+      "card_b": "STY-0008",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0007",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0007",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0008",
+      "card_b": "STY-0009",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0008",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0009",
+      "card_b": "STY-0011",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0010",
+      "card_b": "STY-0012",
+      "content_jaccard": 0.955
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "STY-0016",
       "card_b": "STY-0017",
       "content_jaccard": 0.86
@@ -3095,6 +3374,18 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "STY-0017",
       "card_b": "STY-0018",
       "content_jaccard": 0.881
@@ -3131,6 +3422,18 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "STY-0018",
       "card_b": "STY-0019",
       "content_jaccard": 0.974
@@ -3161,6 +3464,18 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "STY-0018",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.949
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0018",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.949
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "STY-0019",
       "card_b": "STY-0020",
       "content_jaccard": 0.902
@@ -3185,6 +3500,18 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "STY-0019",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0019",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "STY-0020",
       "card_b": "STY-0021",
       "content_jaccard": 0.902
@@ -3203,6 +3530,18 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "STY-0020",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0020",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "STY-0021",
       "card_b": "STY-0022",
       "content_jaccard": 0.925
@@ -3215,9 +3554,51 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "STY-0021",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0021",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "STY-0022",
       "card_b": "STY-0023",
       "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0022",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.949
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0022",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.949
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0023",
+      "card_b": "STY-0024",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0023",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0024",
+      "card_b": "STY-0025",
+      "content_jaccard": 0.949
     },
     {
       "prompt_kind": "video",
@@ -3233,13 +3614,31 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "LOOK-0004",
+      "card_b": "LOOK-0012",
+      "content_jaccard": 0.92
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "LOOK-0004",
+      "card_b": "LOOK-0024",
+      "content_jaccard": 0.959
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "LOOK-0012",
+      "card_b": "LOOK-0024",
+      "content_jaccard": 0.92
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "LOOK-0030",
       "card_b": "LOOK-0031",
       "content_jaccard": 0.956
     }
   ],
   "statuses": {
-    "TEXT_VALID": 179,
+    "TEXT_VALID": 257,
     "DOMAIN_REVIEWED": "NOT_RUN",
     "IMAGE_TESTED": "NOT_RUN",
     "HUMAN_VISUAL_APPROVED": "NOT_RUN"
