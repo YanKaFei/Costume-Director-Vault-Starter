@@ -1,6 +1,6 @@
 # P5-F 最终收口结论（P5F-FINAL）
 
-- 定稿：2026-11-05 12:02（Asia/Shanghai）；verifier / task-96；快照：**HEAD `4128266`**（P5-E 已提交）+ P5-F 工作区（MOC 导航更新、graph 工具修复、报告）
+- 定稿：2026-11-05 12:02（Asia/Shanghai）；verifier / task-96；快照：**HEAD `07ab3b8`（P5-F commit：MOC 导航、graph 工具修复、报告）**
 - 规模：**458 卡 = 224 内容 + 234 来源；334 relations**；validate **458/458**、build **234**、consistency **0 errors / 334**
 - 声明：本报告只读；未改卡片/事实；GUI 未执行，不得声称通过。
 
@@ -96,9 +96,9 @@
 | 59 isolates / 62 uncited / 38 draft / 6 flags / 4 背景书 | 遗留，需人工/后续 |
 | quality_eval | 当前 PASS（4.16/0.92/0）；P5-E 曾 NOT_RUN，现已有当前证据 |
 | GUI/H1 | **NOT_RUN/PENDING**（无截图/签字） |
-| P5-F 工作区未提交 | WARN（MOC + graph + 报告未 commit） |
+| P5-F 已提交 `07ab3b8` | 无 |
 
-- **PRIVATE-READY / PRIVATE-USE = YES（附 WARN：重复 URL、18 VERIFIED 未入库、59 isolates/38 draft/6 flags、P5-F 未提交、GUI NOT_RUN）**
+- **PRIVATE-READY / PRIVATE-USE = YES（附 WARN：重复 URL、18 VERIFIED 未入库、59 isolates/38 draft/6 flags、GUI NOT_RUN）**
 - **PUBLIC-READY = NO（BLOCKED）**：B1 GUI NOT_EXECUTED、B2 逐图版权 NOT_RUN、B3 15 案例 NOT_SCORED、B4 62 draft、B5、B6；L1–L6 保持
 - **GUI/UAT = NOT_RUN/PENDING**
 
