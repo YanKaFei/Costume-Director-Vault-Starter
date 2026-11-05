@@ -21,10 +21,6 @@
   <sub>개인 연구 프로젝트 · 비상업적 사용 · Obsidian + Markdown + DSH Skill</sub>
 </p>
 
-<p align="center">
-  <sub>DSH ecosystem: <a href="https://github.com/YanKaFei/Costume-Director-Vault-Starter">Costume Director</a> · <a href="https://github.com/YanKaFei/art-aesthetic-vault">Art Aesthetic Vault</a> · <a href="https://github.com/YanKaFei/ascii-h3-director">ASCII H3 Director</a> · <a href="https://github.com/YanKaFei/2d-limited-mv-studio">2D Limited MV Studio</a> · <a href="https://github.com/YanKaFei/virtual-heroine-atlas">Virtual Heroine Atlas</a> · <a href="https://github.com/YanKaFei/smartstaff-ai-deepseek-plugin">SmartStaff AI</a></sub>
-</p>
-
 ---
 
 ## 목차
@@ -41,7 +37,6 @@
 - [품질과 경계](#품질과-경계)
 - [사용 권리와 고지](#사용-권리와-고지)
 - [프로젝트 상태](#프로젝트-상태)
-- [DSH ecosystem](#dsh-ecosystem)
 
 ## 소개
 
@@ -236,12 +231,3 @@ Agent는 실제 카드 ID, 증거 상태, 참고 이미지 상태, 프롬프트�
 <p align="center">
   <sub>Costume Director · 개인 시각 연구 노트 · 비상업적 사용만</sub>
 </p>
-
-## DSH ecosystem
-
-- [Costume Director Vault Starter](https://github.com/YanKaFei/Costume-Director-Vault-Starter) — costume visual knowledge skill
-- [Art Aesthetic Vault](https://github.com/YanKaFei/art-aesthetic-vault) — visual style layers
-- [ASCII H3 Director](https://github.com/YanKaFei/ascii-h3-director) — ASCII / kinetic-typography direction
-- [2D Limited MV Studio](https://github.com/YanKaFei/2d-limited-mv-studio) — 2D anime MV prompt package
-- [Virtual Heroine Atlas](https://github.com/YanKaFei/virtual-heroine-atlas) — virtual character design research
-- [SmartStaff AI](https://github.com/YanKaFei/smartstaff-ai-deepseek-plugin) — restaurant workforce SaaS test framework
