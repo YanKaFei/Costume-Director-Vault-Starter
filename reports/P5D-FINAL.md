@@ -1,6 +1,6 @@
 # P5-D 最终验收结论（P5D-FINAL）
 
-- 定稿：2026-11-05 10:47（Asia/Shanghai）；verifier / task-86；快照：HEAD `5ae2c52` + P5-D 工作区（未提交；148 项）；**458 卡 = 224 内容 + 234 来源**
+- 定稿：2026-11-05 10:47（Asia/Shanghai）；verifier / task-86；快照：HEAD `3c9d216`（P5-D commit；458 卡）；**458 卡 = 224 内容 + 234 来源**
 - 依赖：`P5D-BASELINE`、`P5D-RELATION-BACKFILL`、`P5D-RELATION-QA`、`P5D-COVERAGE`、`P5D-SEMANTIC`、`P5D-BOOK-EVIDENCE`、`P5D-AGENT-REGRESSION`
 - 声明：未改卡片/脚本；GUI 未执行，不得声称通过。
 
@@ -13,7 +13,7 @@
 - **书籍**：5 本 connected（SRC-0061/0062/0064/0066/0069），4 本背景（0063/0065/0067/0068）；**有效 17 卡/18 book claims**；0 evidence_status 变更；页码 UNCONFIRMED。
 - **回归**：acceptance 45/45、quality PASS、composer 9/9、workflow 9/9、Macbeth **11/11**、relation_trace 6/6、security/lookbook/skill-sync/backup/human、validate 458、build 234、validate_outfits 35（12+23 legacy）——以 engineer P5-D logs 为主，另本轮独立 validate/build/consistency/relation_trace/validate_outfits/security/lookbook/skill-sync/backup PASS；quality/Macbeth/human 独立复跑未在窗口完成 → **独立 NOT_RUN**（不写独立 PASS）。
 - **E2E**：official RQ4–6 **3/3**、overlay RQ4/7/8 **3/3**，五项全满足。
-- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：P5-D 未提交、6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**。
 
 ## 1. 回填数量与质量（问题 1）
 
@@ -95,7 +95,7 @@
 3. **旧卡 Agent 可用性**：relation_trace/query 可用；错误主语 5 条已删，book 越级 1 条已降；E2E 3/3+3/3 五项；239 候选不可见（有意）；仍受 draft/低置信过滤限制。
 4. **书籍级证据**：5 本 connected + 4 背景；应用记录 18 卡/19 组，**有效 17 卡/18 claims**（GAR-0033 WEAK 移除）；book_fact 章/段/行、page UNCONFIRMED；未改 evidence_status。
 5. **仍缺知识**：component 17.4%、style 2–3%、material 42.4%、outfit/narrative 71.4%；silhouette 无卡；4 背景书、6 部分支撑候选、239 队列、38 draft、59 isolates、6 flags。
-6. **未关闭门禁**：PRIVATE **YES（WARN：P5-D 未提交、6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC **NO（B1–B6 + L1–L6）**；GUI **NOT_RUN**。
+6. **未关闭门禁**：PRIVATE **YES（WARN：6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC **NO（B1–B6 + L1–L6）**；GUI **NOT_RUN**。
 
 ## 8. 门禁与建议
 

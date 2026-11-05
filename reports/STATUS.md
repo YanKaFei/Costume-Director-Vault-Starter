@@ -182,5 +182,5 @@
 - **回归**：acceptance 45/45、quality PASS、composer 9/9、workflow 9/9、Macbeth **11/11**、relation_trace 6/6、security/lookbook/skill-sync/backup/human、validate/consistency、validate_outfits 35（12+23 legacy）——以 P5-D engineer logs 为主；本轮独立 validate/build/consistency/relation_trace/validate_outfits/security/lookbook/skill-sync/backup PASS，quality/Macbeth/human 独立复跑未完成 → **独立 NOT_RUN**（不写独立 PASS）。
 - **E2E**：official RQ4–6 **3/3**、overlay RQ4/7/8 **3/3**，五项全 true。
 - **59 isolates / 38 draft / 6 flags**：isolates.csv 更新为 59（另 3 uncited 未分类：SRC-0163/0157/0175）；38 基线 draft 未变（全库 79）；6 flags 仍 review_queue，未自动确认。
-- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：P5-D 未提交、6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN：6 flags 人工、38 draft、59 isolates、页码 UNCONFIRMED）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**。
 - 详见 `reports/P5D-FINAL.md`、`P5D-COVERAGE.md`（§9）、`P5D-RELATION-QA.md`（§6）。
