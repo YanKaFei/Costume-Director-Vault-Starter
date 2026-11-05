@@ -76,3 +76,21 @@
 - **回归**：workflow 9/9、composer 9/9、Macbeth 11/11；新测试 5 套 PASS；**backup PASS（7/7；真实仓库 1438 文件 backup/verify/restore 全 0）**。
 - **门禁**：PRIVATE-USE = YES（WARN）；PUBLIC-READY = NO（B1–B6 + L1–L6）；HUMAN_UAT_PENDING 4 项未执行。
 - 详见 `reports/R1.1-REPORT.md` / `R1.1-REGRESSION.md` / `R1.1-DEFECT-CLOSURE.md`。
+
+
+## R1.2 机械验收（2026-11-05 15:47）
+
+| 项 | 结果 |
+|---|---|
+| validate | **PASS 458/458**（0 错误） |
+| build_sources | **PASS 234/234**（CSV） |
+| relation_consistency | **0 errors / 345 relations** |
+| graph_analyze | **typed_unresolved 0 / unresolved {} / typed_edges 748 / components 60 / singletons 59** |
+| acceptance | **PASS 45/45**（R1.2 log） |
+| workflow | **PASS 9/9（141.9s OK）** |
+| composer / Macbeth | **9/9 / 11/11 PASS** |
+| quality_eval | **PASS**（lead 复跑：relevant@5 4.2、precision 0.921、0-hit 0） |
+| E2E | **engineer R1.2-AGENT-REGRESSION：official 3/3、overlay 3/3 五项全 true**（selected final；早期探索失败不计） |
+| GUI | **NOT_RUN/HUMAN_UAT_PENDING**（11 项：3 PARTIAL 截图、8 NOT_RUN；无签字） |
+
+- 说明：PASS 仅指脚本/数据检查，不是艺术/历史评价；quality/E2E/GUI 未闭合项不得写成 PASS。

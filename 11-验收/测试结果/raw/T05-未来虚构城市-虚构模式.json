@@ -30,12 +30,12 @@
     {
       "look_ref": "A",
       "source_look_id": null,
-      "total": 48.0,
+      "total": 47.9,
       "scores": {
         "period": 23.0,
         "identity": 2.6,
         "environment": 3.0,
-        "art": 3.3,
+        "art": 3.2,
         "movement": 7.4,
         "arc": 4.0,
         "camera": 6.7
@@ -115,7 +115,7 @@
             "period": 0.92,
             "identity": 0.19800000000000004,
             "environment": 0.175,
-            "art": 0.1760869565217391,
+            "art": 0.17142857142857143,
             "movement": 0.9,
             "arc": 0.35,
             "camera": 0.65
@@ -140,13 +140,14 @@
           "evidence_status": "verified",
           "source_ids": [
             "SRC-0484",
-            "SRC-0485"
+            "SRC-0485",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.92,
             "identity": 0.068090625,
             "environment": 0.175,
-            "art": 0.2385869565217391,
+            "art": 0.2714285714285714,
             "movement": 0.8,
             "arc": 0.4583333333333333,
             "camera": 0.69
@@ -175,7 +176,7 @@
             "period": 0.92,
             "identity": 0.19800000000000004,
             "environment": 0.275,
-            "art": 0.1760869565217391,
+            "art": 0.17142857142857143,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -202,7 +203,7 @@
             "period": 0.92,
             "identity": 0.210375,
             "environment": 0.175,
-            "art": 0.2907608695652174,
+            "art": 0.23928571428571427,
             "movement": 0.8,
             "arc": 0.4583333333333333,
             "camera": 0.69
@@ -218,6 +219,11 @@
         {
           "id": "STR-0023",
           "slot": "upper_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0035",
+          "slot": "lower_body",
           "confidence": "explicit"
         },
         {
@@ -245,25 +251,37 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0015",
+          "slot": "lower_body"
+        },
+        {
           "id": "MAT-0013",
           "slot": "lower_body"
         },
         {
           "id": "MAT-0012",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Nara, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012",
+      "prompt_image": "full-body character design of an adult Nara, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 动作可行 7.4/10",
         "上装: GAR-0006 达希基套衫 (casual)",
         "下装: GAR-0077 紧身长袜 (formal)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012"
+        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0021, STR-0025",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
@@ -276,19 +294,35 @@
           "SRC-0107",
           "SRC-0484",
           "SRC-0485",
+          "SRC-0066",
           "SRC-0405",
           "SRC-0123",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0412",
           "SRC-0520",
           "SRC-0521",
           "SRC-0102",
           "SRC-0142",
           "SRC-0141",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
           "SRC-0483",
-          "SRC-0423"
+          "SRC-0423",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
           {
@@ -302,6 +336,10 @@
           {
             "source_id": "SRC-0485",
             "url": "https://collections.vam.ac.uk/item/O107795/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0405",
@@ -320,8 +358,32 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0412",
@@ -348,15 +410,52 @@
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
             "source_id": "SRC-0483",
             "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
         "context_style_ids": [
+          "STY-0015",
           "STY-0009"
         ],
         "context_period_ids": [],
@@ -373,12 +472,12 @@
     {
       "look_ref": "B",
       "source_look_id": null,
-      "total": 47.9,
+      "total": 47.7,
       "scores": {
         "period": 23.0,
         "identity": 3.1,
         "environment": 3.0,
-        "art": 3.5,
+        "art": 3.3,
         "movement": 6.5,
         "arc": 4.0,
         "camera": 6.7
@@ -454,7 +553,7 @@
             "period": 0.92,
             "identity": 0.19800000000000004,
             "environment": 0.175,
-            "art": 0.1760869565217391,
+            "art": 0.17142857142857143,
             "movement": 0.9,
             "arc": 0.35,
             "camera": 0.65
@@ -481,7 +580,7 @@
             "period": 0.92,
             "identity": 0.23175,
             "environment": 0.175,
-            "art": 0.3168478260869565,
+            "art": 0.3107142857142857,
             "movement": 0.4,
             "arc": 0.4583333333333333,
             "camera": 0.69
@@ -510,7 +609,7 @@
             "period": 0.92,
             "identity": 0.19800000000000004,
             "environment": 0.275,
-            "art": 0.1760869565217391,
+            "art": 0.17142857142857143,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -537,7 +636,7 @@
             "period": 0.92,
             "identity": 0.210375,
             "environment": 0.175,
-            "art": 0.2907608695652174,
+            "art": 0.23928571428571427,
             "movement": 0.8,
             "arc": 0.4583333333333333,
             "camera": 0.69
@@ -596,11 +695,19 @@
         {
           "id": "MAT-0002",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Nara, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002",
+      "prompt_image": "full-body character design of an adult Nara, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue black, brown, indigo, khaki, lavender, multicolor, solid color, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
         "上装: GAR-0006 达希基套衫 (casual)",
@@ -608,7 +715,7 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0022, STR-0021, STR-0025",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002"
+        "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
@@ -624,6 +731,7 @@
           "SRC-0123",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
           "SRC-0413",
           "SRC-0200",
@@ -636,7 +744,13 @@
           "SRC-0142",
           "SRC-0423",
           "SRC-0483",
-          "SRC-0141"
+          "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
           {
@@ -662,6 +776,10 @@
           {
             "source_id": "SRC-0201",
             "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
             "source_id": "SRC-0486",
@@ -714,9 +832,34 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
         "context_style_ids": [
+          "STY-0015",
           "STY-0009"
         ],
         "context_period_ids": [],
@@ -733,12 +876,12 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 46.5,
+      "total": 46.2,
       "scores": {
         "period": 23.0,
         "identity": 3.1,
         "environment": 3.1,
-        "art": 3.3,
+        "art": 3.0,
         "movement": 5.5,
         "arc": 3.8,
         "camera": 6.6
@@ -795,12 +938,14 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": [],
+          "source_ids": [
+            "SRC-0069"
+          ],
           "scores": {
             "period": 0.92,
             "identity": 0.21937500000000001,
             "environment": 0.175,
-            "art": 0.20217391304347826,
+            "art": 0.19285714285714284,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -829,7 +974,7 @@
             "period": 0.92,
             "identity": 0.19800000000000004,
             "environment": 0.275,
-            "art": 0.1760869565217391,
+            "art": 0.17142857142857143,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -856,7 +1001,7 @@
             "period": 0.92,
             "identity": 0.210375,
             "environment": 0.175,
-            "art": 0.2907608695652174,
+            "art": 0.23928571428571427,
             "movement": 0.8,
             "arc": 0.4583333333333333,
             "camera": 0.69
@@ -887,6 +1032,10 @@
       ],
       "materials": [
         {
+          "id": "MAT-0015",
+          "slot": "one_piece"
+        },
+        {
           "id": "MAT-0013",
           "slot": "one_piece"
         },
@@ -897,18 +1046,26 @@
         {
           "id": "MAT-0002",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Nara, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
+      "prompt_image": "full-body character design of an adult Nara, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: S5, night, smog and neon drizzle, art direction: fictional dystopian noir with functional streetwear layers, lighting: neon magenta and cyan against deep shadow, camera: dynamic tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Nara, sprinting across rooftops, scene: S5, night, smog and neon drizzle, camera: dynamic tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: neon magenta and cyan against deep shadow, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.6/10",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
-        "linked material cards: MAT-0013, MAT-0001, MAT-0002"
+        "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
@@ -918,20 +1075,36 @@
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0405",
           "SRC-0123",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
           "SRC-0484",
           "SRC-0412",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0483",
-          "SRC-0141"
+          "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
@@ -947,6 +1120,10 @@
           {
             "source_id": "SRC-0201",
             "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
             "source_id": "SRC-0486",
@@ -969,6 +1146,22 @@
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
@@ -979,9 +1172,34 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
         "context_style_ids": [
+          "STY-0015",
           "STY-0009"
         ],
         "context_period_ids": [],
@@ -997,12 +1215,21 @@
   ],
   "context": {
     "style_refs": [
+      "STY-0015",
       "STY-0009"
     ],
     "period_refs": [],
     "scene_refs": []
   },
   "context_refs": [
+    {
+      "id": "STY-0015",
+      "type": "style",
+      "score": 0.256,
+      "period_tier": "era",
+      "region_tier": "unknown",
+      "reason": "style tag match"
+    },
     {
       "id": "STY-0009",
       "type": "style",
@@ -1074,8 +1301,8 @@
       "GAR-0077",
       "GAR-0014",
       "GAR-0010",
-      "GAR-0072",
       "GAR-0011",
+      "GAR-0072",
       "GAR-0013"
     ],
     "set": [
@@ -1096,17 +1323,20 @@
       "GAR-0080",
       "GAR-0070",
       "GAR-0021",
+      "GAR-0026",
       "GAR-0074",
       "GAR-0086",
-      "GAR-0026",
       "GAR-0085",
       "GAR-0027",
+      "GAR-0088",
       "GAR-0025",
-      "GAR-0073",
       "GAR-0083",
-      "GAR-0028",
+      "GAR-0073",
       "GAR-0068",
+      "GAR-0028",
+      "GAR-0090",
       "GAR-0067",
+      "GAR-0089",
       "GAR-0066"
     ],
     "carried_prop": [
@@ -1122,6 +1352,7 @@
       "GAR-0058",
       "GAR-0035",
       "GAR-0060",
+      "GAR-0091",
       "GAR-0081",
       "GAR-0084"
     ],
@@ -1137,14 +1368,14 @@
       "GAR-0052",
       "GAR-0061",
       "GAR-0029",
-      "GAR-0004",
-      "GAR-0009",
       "GAR-0032",
       "GAR-0075",
       "GAR-0053",
+      "GAR-0004",
+      "GAR-0009",
+      "GAR-0062",
       "GAR-0015",
-      "GAR-0054",
-      "GAR-0062"
+      "GAR-0054"
     ]
   },
   "rejected": [
@@ -1288,6 +1519,10 @@
       "url": "https://collections.vam.ac.uk/item/O107795/"
     },
     {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+    },
+    {
       "source_id": "SRC-0405",
       "url": "https://collections.vam.ac.uk/item/O1295635/"
     },
@@ -1304,8 +1539,32 @@
       "url": "https://collections.vam.ac.uk/item/O107537/"
     },
     {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+    },
+    {
       "source_id": "SRC-0486",
       "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0530",
+      "url": "https://collections.vam.ac.uk/item/O72654/"
+    },
+    {
+      "source_id": "SRC-0531",
+      "url": "https://collections.vam.ac.uk/item/O85657/"
+    },
+    {
+      "source_id": "SRC-0533",
+      "url": "https://collections.vam.ac.uk/item/O353415/"
+    },
+    {
+      "source_id": "SRC-0535",
+      "url": "https://collections.vam.ac.uk/item/O355340/"
+    },
+    {
+      "source_id": "SRC-0536",
+      "url": "https://collections.vam.ac.uk/item/O68370/"
     },
     {
       "source_id": "SRC-0412",
@@ -1332,12 +1591,48 @@
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
       "source_id": "SRC-0483",
       "url": "https://collections.vam.ac.uk/item/O356064/"
     },
     {
       "source_id": "SRC-0423",
       "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
+    },
+    {
+      "source_id": "SRC-0550",
+      "url": "https://vocab.getty.edu/page/aat/300014058"
+    },
+    {
+      "source_id": "SRC-0417",
+      "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+    },
+    {
+      "source_id": "SRC-0406",
+      "url": "https://collections.vam.ac.uk/item/O361727/"
     },
     {
       "source_id": "SRC-0115",
@@ -1354,6 +1649,10 @@
     {
       "source_id": "SRC-0454",
       "url": "https://collections.vam.ac.uk/item/O1240056/"
+    },
+    {
+      "source_id": "SRC-0069",
+      "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
     }
   ],
   "missing_urls": [],

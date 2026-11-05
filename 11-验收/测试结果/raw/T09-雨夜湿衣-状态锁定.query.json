@@ -7,7 +7,8 @@
     "type": "garment",
     "evidence_status": "verified",
     "source_ids": [
-      "SRC-0109"
+      "SRC-0109",
+      "SRC-0066"
     ],
     "snippet": "# 马甲 / waistcoat ## 定义 马甲（waistcoat，美式称 vest）是源自 doublet 的无袖、有衬里、及腰外套，穿在衬衫与外套之间，单排或双排扣。 ##…",
     "score": 6.3
@@ -20,7 +21,8 @@
     "type": "garment",
     "evidence_status": "verified",
     "source_ids": [
-      "SRC-0118"
+      "SRC-0118",
+      "SRC-0066"
     ],
     "snippet": "…ist, full skirt, single- or double-breasted, wool, worn with waistcoat and top hat` - 中文造型说明：十九世纪黑色精纺羊毛夫罗克大衣，及膝，扣至腰线，下摆展开，后开…",
     "score": 6.3
@@ -63,6 +65,19 @@
       "SRC-0203"
     ],
     "snippet": "…运动背心替代。 ## 提示词短语 - 生图片段：`1930s man’s knitted wool vest, jersey knit, v-neck, sleeveless, ribbed hem, worn under a suit jacke…",
+    "score": 2.625
+  },
+  {
+    "id": "GAR-0079",
+    "path": "01-服装单品/连身/GAR-0079-基尔特长袍.md",
+    "name_zh": "基尔特长袍",
+    "name_en": "kirtle",
+    "type": "garment",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0069"
+    ],
+    "snippet": "…提示词短语 - 生图片段：`medieval kirtle, simple fitted wool gown with fitted bodice, full skirt, side lacing or belt, long sleeves, wo…",
     "score": 2.625
   }
 ]

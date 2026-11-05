@@ -2075,7 +2075,7 @@
             "rejected_count": 17
           }
         },
-        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+        "stderr": ""
       },
       "office": {
         "input_path": "11-验收/P3.5/workflow-runs/test-rain_night/_inputs/Lin_office.json",
@@ -3076,6 +3076,11 @@
                   "id": "STR-0033",
                   "slot": "outerwear",
                   "confidence": "suggested"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -3108,7 +3113,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: beige, black, gold, khaki, lavender, linen, wool, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019",
+              "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: beige, black, gold, khaki, lavender, linen, wool, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019",
               "prompt_video": "Lin, unknown, scene: S2: SCENE 2. A dry office interior, later that night., night, rain, camera: medium tracking and close inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019",
               "reasons": [
@@ -3116,7 +3121,7 @@
                 "连身: GAR-0079 基尔特长袍 (functional)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0058 1970 年代厚底鞋 (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0033",
+                "linked structure cards: STR-0016, STR-0023, STR-0033, STR-0035",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019"
               ],
               "risks": [
@@ -3136,6 +3141,11 @@
                   "SRC-0486",
                   "SRC-0545",
                   "SRC-0532",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0547",
                   "SRC-0534",
                   "SRC-0204",
@@ -3187,6 +3197,26 @@
                   {
                     "source_id": "SRC-0532",
                     "url": "https://collections.vam.ac.uk/item/O102166/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0547",
@@ -3259,7 +3289,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: beige, black, gold, khaki, lavender, linen, wool, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: beige, black, gold, khaki, lavender, linen, wool, setting: S2: SCENE 2. A dry office interior, later that night., night, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019",
               "prompt_video_en": "Lin, unknown, scene: S2: SCENE 2. A dry office interior, later that night., night, rain, camera: medium tracking and close inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0003, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -3695,6 +3725,26 @@
             {
               "source_id": "SRC-0418",
               "url": "https://collections.vam.ac.uk/item/O1380038/"
+            },
+            {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
             }
           ],
           "missing_urls": [],
@@ -3721,7 +3771,7 @@
             "rejected_count": 18
           }
         },
-        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+        "stderr": ""
       }
     },
     "Ash": {
@@ -3984,6 +4034,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "lower_body",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0033",
                   "slot": "outerwear",
                   "confidence": "suggested"
@@ -4033,7 +4088,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
+              "prompt_image": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
               "prompt_video": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
               "reasons": [
@@ -4042,7 +4097,7 @@
                 "下装: GAR-0077 紧身长袜 (formal)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0022 威灵顿靴 (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0033, STR-0021, STR-0025",
+                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0033, STR-0021, STR-0025",
                 "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019"
               ],
               "risks": [
@@ -4063,6 +4118,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0545",
                   "SRC-0532",
                   "SRC-0412",
@@ -4123,6 +4183,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0545",
@@ -4216,7 +4296,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Ash, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, khaki, lavender, multicolor, oyster, solid color, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019",
               "prompt_video_en": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -4767,6 +4847,11 @@
                   "id": "STR-0021",
                   "slot": "footwear",
                   "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -4795,7 +4880,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); ease and fit (STR-0025); cuff (STR-0023); seams and darts (STR-0021), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); ease and fit (STR-0025); cuff (STR-0023); seams and darts (STR-0021); silhouette and proportion (STR-0035), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。, lighting: sodium street light, cool moonlight, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
               "reasons": [
@@ -4803,7 +4888,7 @@
                 "成套: GAR-0005 布布长袍 (ceremonial)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0022 威灵顿靴 (smart_casual)",
-                "linked structure cards: STR-0014, STR-0025, STR-0023, STR-0021",
+                "linked structure cards: STR-0014, STR-0025, STR-0023, STR-0021, STR-0035",
                 "linked material cards: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019"
               ],
               "risks": [
@@ -4823,6 +4908,11 @@
                   "SRC-0486",
                   "SRC-0202",
                   "SRC-0484",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0102",
                   "SRC-0142",
                   "SRC-0423",
@@ -4871,6 +4961,26 @@
                   {
                     "source_id": "SRC-0484",
                     "url": "https://collections.vam.ac.uk/item/O356786/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0102",
@@ -4931,7 +5041,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); ease and fit (STR-0025); cuff (STR-0023); seams and darts (STR-0021), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
+              "prompt_image_en": "full-body character design of an adult Ash, complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, blue, brown, indigo, khaki, lavender, white, setting: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, art direction: restrained urban noir, wet reflective streets, lighting: sodium street light, cool moonlight, camera: medium tracking and close inserts, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: shoulder line and shoulder pad (STR-0014); ease and fit (STR-0025); cuff (STR-0023); seams and darts (STR-0021); silhouette and proportion (STR-0035), continuity lock: GAR-0005 boubou [indigo, white, blue; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019",
               "prompt_video_en": "Ash, unknown, scene: S1: SCENE 1. A rain-soaked street at night., night, morning, rain, camera: medium tracking and close inserts, costume: complete set: West African grand boubou, wide folded cloth robe, indigo dyed cotton, geometric embroidery, ankle-length; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; cotton, indigo_dyed_cotton; complete set] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -5250,6 +5360,26 @@
               "url": "https://collections.vam.ac.uk/item/O137793/"
             },
             {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
+            },
+            {
               "source_id": "SRC-0545",
               "url": "https://vocab.getty.edu/page/aat/300210517"
             },
@@ -5378,7 +5508,7 @@
             "rejected_count": 17
           }
         },
-        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+        "stderr": ""
       },
       "office": {
         "input_path": "11-验收/P3.5/workflow-runs/test-rain_night/_inputs/Ash_office.json",
@@ -7015,7 +7145,7 @@
             "rejected_count": 18
           }
         },
-        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+        "stderr": ""
       }
     }
   },
@@ -7041,7 +7171,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7053,7 +7183,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7065,7 +7195,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7077,7 +7207,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7096,7 +7226,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         }
       ],
       "kinds": []
@@ -7122,7 +7252,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7134,7 +7264,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7146,7 +7276,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7158,7 +7288,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7177,7 +7307,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         }
       ],
       "kinds": []
@@ -7203,7 +7333,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7215,7 +7345,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7227,7 +7357,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7239,7 +7369,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7258,7 +7388,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         }
       ],
       "kinds": []
@@ -7284,7 +7414,7 @@
             "GAR-0041",
             "GAR-0042"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7296,7 +7426,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7308,7 +7438,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7320,7 +7450,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7339,7 +7469,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         }
       ],
       "kinds": []
@@ -7427,8 +7557,13 @@
           "SRC-0489",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0530",
+          "SRC-0531",
           "SRC-0532",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0545",
           "SRC-0547",
@@ -7470,8 +7605,13 @@
           "SRC-0491",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0530",
+          "SRC-0531",
           "SRC-0532",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0545",
           "SRC-0547",
@@ -7558,8 +7698,13 @@
       "SRC-0491",
       "SRC-0520",
       "SRC-0521",
+      "SRC-0530",
+      "SRC-0531",
       "SRC-0532",
+      "SRC-0533",
       "SRC-0534",
+      "SRC-0535",
+      "SRC-0536",
       "SRC-0538",
       "SRC-0545",
       "SRC-0547",

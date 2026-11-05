@@ -212,7 +212,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0060` | 1930 年代男式皮鞋 | tan, white, brown | leather, suede | verified | SRC-0420 |
 
-- Structure cards: `STR-0011`, `STR-0016`, `STR-0023`, `STR-0020`
+- Structure cards: `STR-0011`, `STR-0016`, `STR-0023`, `STR-0020`, `STR-0035`
 - Material cards: `MAT-0002`, `MAT-0014`, `MAT-0003`, `MAT-0001`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve editor; the middle economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the beige, brown, khaki palette controls the emotional temperature; against the arc (deciding whether to print) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -220,7 +220,7 @@
 - Reason: 连身: GAR-0031 旗袍 (smart_casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)
-- Reason: linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020
+- Reason: linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020, STR-0035
 - Reason: linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017
 - Risk: region mismatch in GAR-0045, GAR-0060: cards document their own regions, not shanghai
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact
@@ -286,7 +286,7 @@
 | outerwear | `GAR-0045` | 风衣 | khaki, beige, lavender | gabardine, cotton, lace | verified | SRC-0405 |
 | footwear | `GAR-0060` | 1930 年代男式皮鞋 | tan, white, brown | leather, suede | verified | SRC-0420 |
 
-- Structure cards: `STR-0011`, `STR-0016`, `STR-0023`, `STR-0020`
+- Structure cards: `STR-0011`, `STR-0016`, `STR-0023`, `STR-0020`, `STR-0035`
 - Material cards: `MAT-0002`, `MAT-0014`, `MAT-0003`, `MAT-0001`, `MAT-0017`
 - Missing layers: none
 - Narrative meaning: Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve editor; the middle economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the beige, brown, khaki palette controls the emotional temperature; against the arc (deciding whether to print) the look functions as a visible state that can be tracked or deliberately broken in later scenes.
@@ -294,7 +294,7 @@
 - Reason: 连身: GAR-0031 旗袍 (smart_casual)
 - Reason: 外层: GAR-0045 风衣 (smart_casual)
 - Reason: 足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)
-- Reason: linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020
+- Reason: linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020, STR-0035
 - Reason: linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017
 - Risk: region mismatch in GAR-0045, GAR-0060: cards document their own regions, not shanghai
 - Risk: character psychology is a directorial interpretation, not a clothing-history fact

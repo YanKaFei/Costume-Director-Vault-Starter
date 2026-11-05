@@ -62,3 +62,21 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 - KQ-05 许可拆分：来源卡新增 `content_license`/`image_license`（SRC-0001/0002/0417 已改）；KQ-06：45/45 T md 含「已知/假设/unknown/风险/证据」。
 - 快照：索引 + STATUS/COVERAGE/QA 已到 400/189/211；Skill canonical 291 行 + mirror 293 行（同步 MATCH）。
 - 缺口不变/新增：pattern 3/11、material 细化不足、62 draft（KQ-13/H4 BLOCKED）、AAT 未接入；v1.2 可选字段仍未接入检索（SCHEMA-03）；11 张新卡缺 movement/lighting（SCHEMA-06）。
+
+
+## R1.2 覆盖矩阵（适用性分母；2026-11-05）
+
+| 关系 | applicable | formal_high | formal_medium | review | insufficient | N/A | formal coverage | high coverage |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Garment→Component | 92 | 0 | 10 | 16 | 76 | 132 | **10.9%** | 0% |
+| Garment→Material | 92 | 0 | 26 | 27 | 39 | 132 | **28.3%** | 0% |
+| Garment→Silhouette（字段） | 92 | 74 | 0 | 0 | 18 | 132 | **80.4%** | 80.4% |
+| Garment→Style | 92 | 0 | 0 | 3 | 89 | 132 | **0%** | 0% |
+| Garment→Footwear/Accessory | 56 | 0 | 0 | 31 | 25 | 168 | **0%** | 0% |
+| Garment→Outfit | 92 | 55 | 0 | 0 | 37 | 132 | **59.8%** | 59.8% |
+| LOOK→Narrative | 35 | 25 | 0 | 0 | 10 | 189 | **71.4%** | 71.4% |
+| Claim→Source | 224 | 217 | 0 | 0 | 7 | 0 | **96.9%** | 96.9% |
+
+- 口径：formal_high = high relation/结构化字段；formal_medium = medium relation；review = 仅可见链接/design；insufficient = 适用但无证据关系/字段；N/A 为类型/方向不适用。high 0% 表示“无高置信 formal 关系”，不是“无该维度字段/review”。
+- **关系数 ≠ 卡级覆盖**：345 relations 中新增 medium/review 不自动提高 formal_high；不以全连通率为目标。
+- 当前：458 卡/234 来源；source_ids 478/478 可见（100%）；MOC 224/224+234/234；59 isolates（+3 duplicates=62 uncited）。

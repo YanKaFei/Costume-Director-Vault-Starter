@@ -221,6 +221,20 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：3 对重复 URL、18 VERIFIED 未入库、59 isolates/38 draft/6 flags、P5-F 未提交、GUI NOT_RUN）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（不得声称通过）。
 
+## 4.16 R1.2 最终验收（2026-11-05 15:47，task-103）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 来源去重 | **PASS** | 3 canonical（0036/0022/0115）+3 deprecated/redirect（0175/0163/0157）；0 删除；URL 30/30 200；许可证 v1.3 |
+| Flags/draft/候选 | **PASS（人工 pending）** | 6 flags：3 REJECTED/1 INTERPRETATION/1 DESIGN_ONLY/1 INSUFFICIENT，全 pending_human；38/38 draft 未提升；18 候选 16 reconcile+2 pending，0 写入 |
+| 关系/图谱 | **PASS** | 345/0；graph **0/0/748**；source_ids 478/478 可见；MOC 224/234；59 isolates（+3 dup=62 uncited） |
+| 便携配置 | **PASS** | 模板/脚本 dry-run changed:false；测试 6/6；隔离 488/0/1；用户键保留；live `.obsidian` 未动 |
+| GUI UAT | **NOT_RUN/PENDING** | 11 项：3 PARTIAL 默认截图、8 NOT_RUN；无签核/两人签字 |
+| 回归 | **PASS** | validate 458、build 234、consistency 0/345、graph 0/0/748、acceptance 45/45、workflow 9/9、composer 9/9、Macbeth 11/11、单元 66/66；quality **PASS（4.2/0.921/0）**；**E2E official 3/3、overlay 3/3 五项全 true** |
+| 备份 | **PASS（P1 除外）** | R1.2 后 backup **2424/51.6MB** → verify OK → restore 2424/458/345；排除 projects/.obsidian/sandbox；**私有 projects 无独立备份（P1）** |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN/P1：私有 projects 无备份、GUI NOT_RUN、E2E retained failures、medium 83）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（不得声称通过）。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

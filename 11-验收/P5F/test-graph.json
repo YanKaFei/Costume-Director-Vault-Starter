@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T13:07:23+08:00",
+ "generated_at": "2026-11-05T15:38:10+08:00",
  "root": "/Users/coffee/Desktop/Costume-Director-Vault-Starter",
  "scanned_files": 489,
  "nodes_by_role": {
@@ -21,12 +21,12 @@
   "scene": 16,
   "look": 35
  },
- "wikilink_occurrences": 3037,
- "resolved_visible_edges": 2670,
+ "wikilink_occurrences": 3047,
+ "resolved_visible_edges": 2677,
  "nav_visible_edges": 567,
- "semantic_visible_edges": 2103,
+ "semantic_visible_edges": 2110,
  "unresolved_wikilinks": {},
- "typed_edges": 742,
+ "typed_edges": 748,
  "typed_unresolved": 0,
  "typed_without_visible": 15,
  "typed_without_visible_by_kind": {
@@ -34,8 +34,8 @@
  },
  "typed_by_kind": {
   "source_ids": 478,
-  "superseded_by": 1,
-  "canonical_id": 1,
+  "superseded_by": 4,
+  "canonical_id": 4,
   "key_garments": 40,
   "look_items": 195,
   "look_scene": 27
@@ -45,10 +45,10 @@
   "navigation->content": 263,
   "navigation->research": 5,
   "navigation->source": 234,
-  "content->content": 1091,
+  "content->content": 1092,
   "content->source": 486,
   "source->content": 510,
-  "source->source": 16,
+  "source->source": 22,
   "research->source": 9
  },
  "source_ids_pairs": 478,
@@ -116,7 +116,7 @@
     "content": 224,
     "source": 175
    },
-   "visible_edges_inside": 2118
+   "visible_edges_inside": 2125
   },
   {
    "component": 2,

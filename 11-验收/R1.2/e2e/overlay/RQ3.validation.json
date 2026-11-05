@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": false,
+    "complete_user_output": false
+  },
+  "ids": [
+    "GAR-0039"
+  ],
+  "final_chars": 139,
+  "skill_calls": 1,
+  "tool_calls": 2,
+  "completed_tool_results": 9,
+  "pass": false,
+  "final_preview": "Let me pull the item cards' own source mappings (especially GAR-0039, whose original toy source was removed) to report evidence precisely.\n"
+}

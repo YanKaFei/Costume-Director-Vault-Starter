@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0022",
+    "GAR-0037",
+    "GAR-0038",
+    "GAR-0039",
+    "GAR-0050",
+    "LOOK-0011",
+    "SRC-0123",
+    "SRC-0401",
+    "SRC-0402",
+    "SRC-0410",
+    "STY-0009"
+  ],
+  "final_chars": 1638,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 3,
+  "pass": true,
+  "final_preview": "## Brief\n- Card: `LOOK-0011` — 废弃空间站维修工 / derelict space station repair technician look\n- Type: `look` · `category: character_look` · `subcategory: fictional`\n- Evidence status: `interpretive` (not production-verified, explicitly not real spaceflight research)\n- Period/region: 22nd century, fictional world · Style: `STY-0009`, sci_fi, functional\n\n## Role\n`look_role`: **22 世纪废弃空间站维修工（虚构角色，fictional"
+}

@@ -699,6 +699,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0015",
                   "slot": "accessory",
                   "confidence": "explicit"
@@ -726,7 +731,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Macbeth, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -735,7 +740,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "配饰: GAR-0080 腰带 (functional)",
-                "linked structure cards: STR-0016, STR-0023, STR-0015",
+                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -753,6 +758,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0412",
                   "SRC-0200",
                   "SRC-0547",
@@ -801,6 +811,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0412",
@@ -858,7 +888,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Macbeth, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -1042,6 +1072,11 @@
                   "id": "STR-0023",
                   "slot": "one_piece",
                   "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -1066,7 +1101,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Macbeth, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -1075,7 +1110,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "携带物: GAR-0082 匕首 (functional)",
-                "linked structure cards: STR-0016, STR-0023",
+                "linked structure cards: STR-0016, STR-0023, STR-0035",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -1093,6 +1128,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0547",
                   "SRC-0534",
                   "SRC-0204",
@@ -1139,6 +1179,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0547",
@@ -1188,7 +1248,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Macbeth, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -1888,6 +1948,26 @@
               "url": "https://collections.vam.ac.uk/item/O137793/"
             },
             {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
+            },
+            {
               "source_id": "SRC-0412",
               "url": "https://collections.vam.ac.uk/item/O15693/"
             },
@@ -2241,6 +2321,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0015",
                   "slot": "accessory",
                   "confidence": "explicit"
@@ -2268,7 +2353,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Macbeth, unknown, scene: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -2277,7 +2362,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "配饰: GAR-0080 腰带 (functional)",
-                "linked structure cards: STR-0016, STR-0023, STR-0015",
+                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -2295,6 +2380,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0412",
                   "SRC-0200",
                   "SRC-0547",
@@ -2343,6 +2433,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0412",
@@ -2400,7 +2510,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Macbeth, unknown, scene: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -2584,6 +2694,11 @@
                   "id": "STR-0023",
                   "slot": "one_piece",
                   "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -2608,7 +2723,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Macbeth, unknown, scene: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -2617,7 +2732,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "携带物: GAR-0082 匕首 (functional)",
-                "linked structure cards: STR-0016, STR-0023",
+                "linked structure cards: STR-0016, STR-0023, STR-0035",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -2635,6 +2750,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0547",
                   "SRC-0534",
                   "SRC-0204",
@@ -2681,6 +2801,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0547",
@@ -2730,7 +2870,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Macbeth, unknown, scene: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -2908,6 +3048,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0019",
                   "slot": "carried_prop",
                   "confidence": "explicit"
@@ -2940,7 +3085,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Macbeth, unknown, scene: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -2949,7 +3094,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "携带物: GAR-0048 手提包 (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0019, STR-0026",
+                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0019, STR-0026",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -2967,6 +3112,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0547",
                   "SRC-0534",
                   "SRC-0204",
@@ -3009,6 +3159,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0547",
@@ -3058,7 +3228,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Macbeth, unknown, scene: S3: ACT I, SCENE III. A room in Macbeth's castle. Night., night, storm, cold, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=present; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -3433,6 +3603,26 @@
               "url": "https://collections.vam.ac.uk/item/O137793/"
             },
             {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
+            },
+            {
               "source_id": "SRC-0412",
               "url": "https://collections.vam.ac.uk/item/O15693/"
             },
@@ -3802,6 +3992,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0015",
                   "slot": "accessory",
                   "confidence": "explicit"
@@ -3829,7 +4024,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Banquo, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -3839,7 +4034,7 @@
                 "足部: GAR-0081 皮靴 (functional)",
                 "配饰: GAR-0080 腰带 (functional)",
                 "携带物: GAR-0082 匕首 (functional)",
-                "linked structure cards: STR-0016, STR-0023, STR-0015",
+                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -3859,6 +4054,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0412",
                   "SRC-0200",
                   "SRC-0547",
@@ -3917,6 +4117,26 @@
                     "url": "https://collections.vam.ac.uk/item/O137793/"
                   },
                   {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
+                  },
+                  {
                     "source_id": "SRC-0412",
                     "url": "https://collections.vam.ac.uk/item/O15693/"
                   },
@@ -3973,7 +4193,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Banquo, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -4202,6 +4422,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0015",
                   "slot": "accessory",
                   "confidence": "explicit"
@@ -4229,7 +4454,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Banquo, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, purple, silver, steel, tan, white, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
+              "prompt_image": "full-body character design of an adult Banquo, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, purple, silver, steel, tan, white, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
               "prompt_video": "Banquo, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 宽身长袍，手臂活动时宽袖与侧衩提供空间; 饰边与重料会限制快走。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
               "reasons": [
@@ -4239,7 +4464,7 @@
                 "足部: GAR-0081 皮靴 (functional)",
                 "配饰: GAR-0080 腰带 (functional)",
                 "携带物: GAR-0082 匕首 (functional)",
-                "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0015",
+                "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0035, STR-0015",
                 "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017"
               ],
               "risks": [
@@ -4260,6 +4485,11 @@
                   "SRC-0061",
                   "SRC-0486",
                   "SRC-0202",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0412",
                   "SRC-0200",
                   "SRC-0547",
@@ -4323,6 +4553,26 @@
                     "url": "https://collections.vam.ac.uk/item/O80590/"
                   },
                   {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
+                  },
+                  {
                     "source_id": "SRC-0412",
                     "url": "https://collections.vam.ac.uk/item/O15693/"
                   },
@@ -4383,7 +4633,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Banquo, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, purple, silver, steel, tan, white, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Banquo, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, purple, silver, steel, tan, white, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
               "prompt_video_en": "Banquo, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -4528,6 +4778,11 @@
                   "id": "STR-0023",
                   "slot": "one_piece",
                   "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -4552,7 +4807,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole, palette: beige, brown, khaki, lavender, linen, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole, palette: beige, brown, khaki, lavender, linen, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Banquo, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -4560,7 +4815,7 @@
                 "连身: GAR-0079 基尔特长袍 (functional)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
-                "linked structure cards: STR-0016, STR-0023",
+                "linked structure cards: STR-0016, STR-0023, STR-0035",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -4576,6 +4831,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0547",
                   "SRC-0534",
                   "SRC-0204",
@@ -4614,6 +4874,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0547",
@@ -4662,7 +4942,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole, palette: beige, brown, khaki, lavender, linen, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Banquo, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole, palette: beige, brown, khaki, lavender, linen, tan, wool, setting: S2: ACT I, SCENE II. A heath near Forres., day, storm, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Banquo, unknown, scene: S2: ACT I, SCENE II. A heath near Forres., day, storm, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -5036,6 +5316,26 @@
               "url": "https://collections.vam.ac.uk/item/O137793/"
             },
             {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
+            },
+            {
               "source_id": "SRC-0412",
               "url": "https://collections.vam.ac.uk/item/O15693/"
             },
@@ -5375,6 +5675,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0015",
                   "slot": "accessory",
                   "confidence": "explicit"
@@ -5402,7 +5707,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Witches, battle, scene: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -5411,7 +5716,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "配饰: GAR-0080 腰带 (functional)",
-                "linked structure cards: STR-0016, STR-0023, STR-0015",
+                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0015",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -5429,6 +5734,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0412",
                   "SRC-0200",
                   "SRC-0547",
@@ -5477,6 +5787,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0412",
@@ -5534,7 +5864,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beige, brown, gold, iron, khaki, lavender, linen, silver, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Witches, battle, scene: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -5718,6 +6048,11 @@
                   "id": "STR-0023",
                   "slot": "one_piece",
                   "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -5742,7 +6077,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Witches, battle, scene: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -5751,7 +6086,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "携带物: GAR-0082 匕首 (functional)",
-                "linked structure cards: STR-0016, STR-0023",
+                "linked structure cards: STR-0016, STR-0023, STR-0035",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -5769,6 +6104,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0547",
                   "SRC-0534",
                   "SRC-0204",
@@ -5815,6 +6155,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0547",
@@ -5864,7 +6224,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, ivory, khaki, lavender, linen, silver, steel, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Witches, battle, scene: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             },
             {
@@ -6042,6 +6402,11 @@
                   "confidence": "explicit"
                 },
                 {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
+                },
+                {
                   "id": "STR-0018",
                   "slot": "carried_prop",
                   "confidence": "explicit"
@@ -6074,7 +6439,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s small handbag, embroidered canvas with wool cross-stitch, fabric handles or wrist strap, framed or soft body, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); zipper (STR-0019), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s small handbag, embroidered canvas with wool cross-stitch, fabric handles or wrist strap, framed or soft body, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); buttons and buttonholes (STR-0018); zipper (STR-0019), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video": "Witches, battle, scene: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s small handbag, embroidered canvas with wool cross-stitch, fabric handles or wrist strap, framed or soft body, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: torchlight, cold moonlight, fog glow, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "reasons": [
@@ -6083,7 +6448,7 @@
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0081 皮靴 (functional)",
                 "携带物: GAR-0087 手袋结构（已迁移） (smart_casual)",
-                "linked structure cards: STR-0016, STR-0023, STR-0018, STR-0019",
+                "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0018, STR-0019",
                 "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
               ],
               "risks": [
@@ -6101,6 +6466,11 @@
                   "SRC-0201",
                   "SRC-0062",
                   "SRC-0486",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0413",
                   "SRC-0200",
                   "SRC-0547",
@@ -6145,6 +6515,26 @@
                   {
                     "source_id": "SRC-0486",
                     "url": "https://collections.vam.ac.uk/item/O137793/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0413",
@@ -6202,7 +6592,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s small handbag, embroidered canvas with wool cross-stitch, fabric handles or wrist strap, framed or soft body, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); zipper (STR-0019), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Witches, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; carried prop: 1930s small handbag, embroidered canvas with wool cross-stitch, fabric handles or wrist strap, framed or soft body, carried in hand or on wrist, palette: beige, brown, khaki, lavender, linen, multicolor, tan, wool, setting: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, art direction: stark medieval tragedy, torchlight and fog, lighting: torchlight, cold moonlight, fog glow, camera: medium shot with full-body inserts, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); buttons and buttonholes (STR-0018); zipper (STR-0019), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
               "prompt_video_en": "Witches, battle, scene: S1: ACT I, SCENE I. A desert place.; S2: ACT I, SCENE II. A heath near Forres., day, rain, storm, fog, camera: medium shot with full-body inserts, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0087 handbag construction (superseded) [multicolor; canvas, wool; carried prop]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -6576,6 +6966,26 @@
               "url": "https://collections.vam.ac.uk/item/O137793/"
             },
             {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
+            },
+            {
               "source_id": "SRC-0412",
               "url": "https://collections.vam.ac.uk/item/O15693/"
             },
@@ -6660,7 +7070,7 @@
             "rejected_count": 29
           }
         },
-        "stderr": "dium; source_ids=['SRC-0135']; rule=R-MAT-TOKEN; re ... \n                                         ^\nWARN card parse: 02-结构细节/STR-0006-胸衣插片.md: yaml parse error: while parsing a block collection\n  in \"<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+        "stderr": ""
       }
     }
   },
@@ -6960,7 +7370,7 @@
             "GAR-0009",
             "GAR-0010"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -6972,7 +7382,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -6984,7 +7394,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7003,7 +7413,7 @@
             "GAR-0047",
             "GAR-0045"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         }
       ],
       "kinds": []
@@ -7044,7 +7454,12 @@
           "SRC-0491",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0547",
           "SRC-0549"
@@ -7074,7 +7489,12 @@
           "SRC-0489",
           "SRC-0490",
           "SRC-0491",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0547",
           "SRC-0549"
@@ -7108,7 +7528,12 @@
           "SRC-0489",
           "SRC-0490",
           "SRC-0491",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0547",
           "SRC-0549"
@@ -7139,7 +7564,12 @@
           "SRC-0489",
           "SRC-0490",
           "SRC-0491",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0547",
           "SRC-0549"
@@ -7178,7 +7608,12 @@
       "SRC-0491",
       "SRC-0520",
       "SRC-0521",
+      "SRC-0530",
+      "SRC-0531",
+      "SRC-0533",
       "SRC-0534",
+      "SRC-0535",
+      "SRC-0536",
       "SRC-0538",
       "SRC-0547",
       "SRC-0549"

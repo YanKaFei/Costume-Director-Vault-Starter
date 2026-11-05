@@ -10,6 +10,9 @@ date_accessed: "2026-11-04"
 source_kind: industry_framework
 rights_statement: "© Fís Éireann/Screen Ireland；PDF 仅链接引用，不下载分发、不复制全文"
 license_status: link_only
+content_license: other_permission
+image_license: link_only
+license_verified: verified
 evidence_status: verified
 review_status: reviewed
 note: "Costume Department 分册：角色清单（CD/ACD/Supervisor/Stand-by/Trainee）与剧本拆解、连续性、面料动态等能力项"
@@ -27,6 +30,7 @@ tags: [source, industry_framework, costume_practice, continuity, script_breakdow
 **URL**：https://www.screenireland.ie/images/uploads/general/Booklet_5_-_Costume_Department_2024.pdf
 
 ## 可支撑事实（verified）
+- **R1.2-B canonical（去重裁决）**：同 URL/同版本重复卡 [[SRC-0175-ScreenIreland-服装部门能力框架2024]]（SRC-0175）已标记 `deprecated: 'true'` / `superseded_by: SRC-0036`；本卡为 canonical，保留旧引用。
 
 - 分册标题为《Costume Department》，属 Screen Ireland 剧组能力框架（2024）。
 - 角色清单：Costume Designer、Assistant Costume Designer、Costume Supervisor、Stand-by Costume Assistant、Costume Trainee。

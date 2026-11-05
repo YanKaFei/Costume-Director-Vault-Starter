@@ -1,0 +1,64 @@
+audit_type,source_id,classification,reason,canonical_or_note,counts_in_59,overlap_duplicate,recommendation
+isolate,SRC-0002,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0003,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0004,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0005,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0006,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0007,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0008,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0009,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0010,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0011,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0012,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0014,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0015,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0016,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0017,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0018,future_topic,background_or_dictionary_uncited,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0019,future_topic,background_or_dictionary_uncited,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0020,future_topic,background_or_dictionary_uncited,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0023,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0024,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0025,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0026,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0027,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0028,evidence_missing_expression,isolated_source,unique; no overlap,yes,no,人工复核后补 source_ids/关系候选；不得自动迁移。
+isolate,SRC-0029,evidence_missing_expression,isolated_source,unique; no overlap,yes,no,人工复核后补 source_ids/关系候选；不得自动迁移。
+isolate,SRC-0030,evidence_missing_expression,isolated_source,unique; no overlap,yes,no,人工复核后补 source_ids/关系候选；不得自动迁移。
+isolate,SRC-0031,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0032,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0033,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0034,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0035,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0037,evidence_missing_expression,isolated_source,unique; no overlap,yes,no,人工复核后补 source_ids/关系候选；不得自动迁移。
+isolate,SRC-0038,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0039,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0040,future_topic,isolated_source,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0041,evidence_missing_expression,isolated_source,unique; no overlap,yes,no,人工复核后补 source_ids/关系候选；不得自动迁移。
+isolate,SRC-0042,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0043,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0044,no_verifiable_relation,isolated_source,unique; no overlap,yes,no,仅作背景/导航，不建立内容关系。
+isolate,SRC-0045,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0046,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0047,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0048,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0049,legit_reference,isolated_source,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0050,evidence_missing_expression,isolated_source,unique; no overlap,yes,no,人工复核后补 source_ids/关系候选；不得自动迁移。
+isolate,SRC-0051,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0052,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0053,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0054,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0055,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0056,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0057,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0058,legit_reference,background_or_dictionary_uncited,unique; no overlap,yes,no,保留为独立参考/背景；MOC 标注用途，不强制建关系。
+isolate,SRC-0059,evidence_missing_expression,isolated_source,unique; no overlap,yes,no,人工复核后补 source_ids/关系候选；不得自动迁移。
+isolate,SRC-0060,future_topic,book_source_no_card_integration,unique; no overlap,yes,no,列入未来主题 backlog；先确认对应案例需求，不强行连接。
+isolate,SRC-0063,evidence_missing_expression,navigation_only,unique; no overlap,yes,no,P4 书籍结论在 TERMS-GLOSSARY/研究笔记；需人工决定是否迁入内容卡（book_fact），不硬连。
+isolate,SRC-0065,evidence_missing_expression,navigation_only,unique; no overlap,yes,no,P4 书籍结论在 TERMS-GLOSSARY/研究笔记；需人工决定是否迁入内容卡（book_fact），不硬连。
+isolate,SRC-0067,evidence_missing_expression,navigation_only,unique; no overlap,yes,no,P4 书籍结论在 TERMS-GLOSSARY/研究笔记；需人工决定是否迁入内容卡（book_fact），不硬连。
+isolate,SRC-0068,evidence_missing_expression,navigation_only,unique; no overlap,yes,no,P4 书籍结论在 TERMS-GLOSSARY/研究笔记；需人工决定是否迁入内容卡（book_fact），不硬连。
+uncited_duplicate,SRC-0163,duplicate_source,uncited duplicate; not in isolates.csv,canonical=SRC-0022,no,no (separate from 59),keep redirect; do not count as isolate; no forced link
+uncited_duplicate,SRC-0157,duplicate_source,uncited duplicate; not in isolates.csv,canonical=SRC-0115,no,no (separate from 59),keep redirect; do not count as isolate; no forced link
+uncited_duplicate,SRC-0175,duplicate_source,uncited duplicate; not in isolates.csv,canonical=SRC-0036,no,no (separate from 59),keep redirect; do not count as isolate; no forced link
+count_reconciliation,graph/components,60 components vs 59 isolates,60 = 59 singleton components + 1 largest semantic component (399 nodes),"graph: components=60, singletons=59, isolates.csv=59, classification sum=59",no,none,report 59 isolates; 60 is total components; uncited=62 = 59 isolates + 3 duplicates

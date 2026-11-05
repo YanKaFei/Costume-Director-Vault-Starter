@@ -63,6 +63,11 @@
       "SRC-0484",
       "SRC-0485",
       "SRC-0066",
+      "SRC-0530",
+      "SRC-0531",
+      "SRC-0533",
+      "SRC-0535",
+      "SRC-0536",
       "SRC-0141",
       "SRC-0547",
       "SRC-0534",
@@ -84,6 +89,26 @@
       {
         "source_id": "SRC-0066",
         "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+      },
+      {
+        "source_id": "SRC-0530",
+        "url": "https://collections.vam.ac.uk/item/O72654/"
+      },
+      {
+        "source_id": "SRC-0531",
+        "url": "https://collections.vam.ac.uk/item/O85657/"
+      },
+      {
+        "source_id": "SRC-0533",
+        "url": "https://collections.vam.ac.uk/item/O353415/"
+      },
+      {
+        "source_id": "SRC-0535",
+        "url": "https://collections.vam.ac.uk/item/O355340/"
+      },
+      {
+        "source_id": "SRC-0536",
+        "url": "https://collections.vam.ac.uk/item/O68370/"
       },
       {
         "source_id": "SRC-0141",
@@ -371,6 +396,11 @@
         "SRC-0484",
         "SRC-0485",
         "SRC-0066",
+        "SRC-0530",
+        "SRC-0531",
+        "SRC-0533",
+        "SRC-0535",
+        "SRC-0536",
         "SRC-0141",
         "SRC-0547",
         "SRC-0534",
@@ -396,6 +426,11 @@
           "SRC-0484",
           "SRC-0485",
           "SRC-0066",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0141",
           "SRC-0547",
           "SRC-0534",
@@ -416,6 +451,26 @@
           {
             "source_id": "SRC-0066",
             "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0141",
@@ -458,6 +513,7 @@
       "reasons": [
         "highest scoring dimensions: 环境气候 8.7/15, 摄影/一致性 6.9/10",
         "下装: GAR-0077 紧身长袜 (formal)",
+        "linked structure cards: STR-0035",
         "linked material cards: MAT-0002, MAT-0015, MAT-0013"
       ],
       "risks": [
@@ -468,7 +524,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": "none",
-      "prompt_image": "full-body character design of an adult Shen, lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops, palette: blue, oyster, white, setting: S1, night, storm, cold, art direction: cyberpunk neon, holographic fabrics, lighting: neon, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, continuity lock: GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0015, MAT-0013 --ar 2:3 --style raw --v 6",
+      "prompt_image": "full-body character design of an adult Shen, lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops, palette: blue, oyster, white, setting: S1, night, storm, cold, art direction: cyberpunk neon, holographic fabrics, lighting: neon, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: silhouette and proportion (STR-0035), continuity lock: GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0015, MAT-0013 --ar 2:3 --style raw --v 6",
       "prompt_video": "silk, wool, linen, baleen; lower body]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0015, MAT-0013, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
       "prompt_outfit": "complete outfit: one coherent full-body look; bottom GAR-0077; movement/action adaptation: walking to the newspaper office; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.50; palette blue, oyster, white; materials baleen, linen, silk, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: walking to the newspaper office; preserve range of motion, layer stability and footwear traction in motion",

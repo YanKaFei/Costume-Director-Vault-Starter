@@ -4843,6 +4843,11 @@
                   "id": "STR-0020",
                   "slot": "footwear",
                   "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -4867,7 +4872,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S1: SCENE 1. A rain-soaked alley in Shanghai, 1937., unknown, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
+              "prompt_image": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S1: SCENE 1. A rain-soaked alley in Shanghai, 1937., unknown, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); silhouette and proportion (STR-0035), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
               "prompt_video": "Mei, unknown, scene: S1: SCENE 1. A rain-soaked alley in Shanghai, 1937., unknown, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
               "reasons": [
@@ -4875,7 +4880,7 @@
                 "连身: GAR-0031 旗袍 (smart_casual)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)",
-                "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020",
+                "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020, STR-0035",
                 "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017"
               ],
               "risks": [
@@ -4894,6 +4899,11 @@
                   "SRC-0486",
                   "SRC-0451",
                   "SRC-0453",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0141",
                   "SRC-0143",
                   "SRC-0423",
@@ -4939,6 +4949,26 @@
                   {
                     "source_id": "SRC-0453",
                     "url": "https://collections.vam.ac.uk/item/O163754/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0141",
@@ -4989,7 +5019,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S1: SCENE 1. A rain-soaked alley in Shanghai, 1937., unknown, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S1: SCENE 1. A rain-soaked alley in Shanghai, 1937., unknown, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); silhouette and proportion (STR-0035), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
               "prompt_video_en": "Mei, unknown, scene: S1: SCENE 1. A rain-soaked alley in Shanghai, 1937., unknown, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -5548,6 +5578,26 @@
             {
               "source_id": "SRC-0453",
               "url": "https://collections.vam.ac.uk/item/O163754/"
+            },
+            {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
             },
             {
               "source_id": "SRC-0549",
@@ -6567,6 +6617,11 @@
                   "id": "STR-0020",
                   "slot": "footwear",
                   "confidence": "explicit"
+                },
+                {
+                  "id": "STR-0035",
+                  "slot": "footwear",
+                  "confidence": "explicit"
                 }
               ],
               "materials": [
@@ -6591,7 +6646,7 @@
                   "slot": "footwear"
                 }
               ],
-              "prompt_image": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S2: SCENE 2. A dry newspaper office, later that night., night, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
+              "prompt_image": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S2: SCENE 2. A dry newspaper office, later that night., night, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); silhouette and proportion (STR-0035), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
               "prompt_video": "Mei, unknown, scene: S2: SCENE 2. A dry newspaper office, later that night., night, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: cool moonlight with warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
               "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
               "reasons": [
@@ -6599,7 +6654,7 @@
                 "连身: GAR-0031 旗袍 (smart_casual)",
                 "外层: GAR-0045 风衣 (smart_casual)",
                 "足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)",
-                "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020",
+                "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020, STR-0035",
                 "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017"
               ],
               "risks": [
@@ -6618,6 +6673,11 @@
                   "SRC-0486",
                   "SRC-0451",
                   "SRC-0453",
+                  "SRC-0530",
+                  "SRC-0531",
+                  "SRC-0533",
+                  "SRC-0535",
+                  "SRC-0536",
                   "SRC-0141",
                   "SRC-0143",
                   "SRC-0423",
@@ -6663,6 +6723,26 @@
                   {
                     "source_id": "SRC-0453",
                     "url": "https://collections.vam.ac.uk/item/O163754/"
+                  },
+                  {
+                    "source_id": "SRC-0530",
+                    "url": "https://collections.vam.ac.uk/item/O72654/"
+                  },
+                  {
+                    "source_id": "SRC-0531",
+                    "url": "https://collections.vam.ac.uk/item/O85657/"
+                  },
+                  {
+                    "source_id": "SRC-0533",
+                    "url": "https://collections.vam.ac.uk/item/O353415/"
+                  },
+                  {
+                    "source_id": "SRC-0535",
+                    "url": "https://collections.vam.ac.uk/item/O355340/"
+                  },
+                  {
+                    "source_id": "SRC-0536",
+                    "url": "https://collections.vam.ac.uk/item/O68370/"
                   },
                   {
                     "source_id": "SRC-0141",
@@ -6713,7 +6793,7 @@
                 },
                 "missing_urls": []
               },
-              "prompt_image_en": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S2: SCENE 2. A dry newspaper office, later that night., night, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
+              "prompt_image_en": "full-body character design of an adult Mei, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: S2: SCENE 2. A dry newspaper office, later that night., night, rain, art direction: restrained urban period drama, rain and neon reflections, lighting: cool moonlight with warm practicals, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); silhouette and proportion (STR-0035), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017",
               "prompt_video_en": "Mei, unknown, scene: S2: SCENE 2. A dry newspaper office, later that night., night, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition"
             }
           ],
@@ -7281,6 +7361,26 @@
               "url": "https://collections.vam.ac.uk/item/O163754/"
             },
             {
+              "source_id": "SRC-0530",
+              "url": "https://collections.vam.ac.uk/item/O72654/"
+            },
+            {
+              "source_id": "SRC-0531",
+              "url": "https://collections.vam.ac.uk/item/O85657/"
+            },
+            {
+              "source_id": "SRC-0533",
+              "url": "https://collections.vam.ac.uk/item/O353415/"
+            },
+            {
+              "source_id": "SRC-0535",
+              "url": "https://collections.vam.ac.uk/item/O355340/"
+            },
+            {
+              "source_id": "SRC-0536",
+              "url": "https://collections.vam.ac.uk/item/O68370/"
+            },
+            {
               "source_id": "SRC-0549",
               "url": "https://vocab.getty.edu/page/aat/300011845"
             },
@@ -7343,7 +7443,7 @@
             "GAR-0065",
             "GAR-0066"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7362,7 +7462,7 @@
             "LOOK-0015",
             "LOOK-0030"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7377,7 +7477,7 @@
             "LOOK-0012",
             "SCN-0007"
           ],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7389,7 +7489,7 @@
           "exit": 0,
           "hits": 0,
           "ids": [],
-          "stderr": "<unicode string>\", line 23, column 3:\n      - 'target=SRC-0136; type=claim_s ... \n      ^\nexpected <block end>, but found '<scalar>'\n  in \"<unicode string>\", line 25, column 118:\n     ... confidence=medium; source_ids=['SRC-0136', 'SRC-0064']; rule=R-M ... \n                                         ^"
+          "stderr": ""
         },
         {
           "args": [
@@ -7788,7 +7888,12 @@
           "SRC-0489",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0547",
           "SRC-0549"
@@ -7822,7 +7927,12 @@
           "SRC-0489",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
           "SRC-0534",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0538",
           "SRC-0547",
           "SRC-0549"
@@ -7858,7 +7968,12 @@
       "SRC-0489",
       "SRC-0520",
       "SRC-0521",
+      "SRC-0530",
+      "SRC-0531",
+      "SRC-0533",
       "SRC-0534",
+      "SRC-0535",
+      "SRC-0536",
       "SRC-0538",
       "SRC-0547",
       "SRC-0549",

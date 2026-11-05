@@ -137,7 +137,9 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": [],
+          "source_ids": [
+            "SRC-0069"
+          ],
           "scores": {
             "period": 0.92,
             "identity": 0.21937500000000001,
@@ -217,6 +219,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0033",
+          "slot": "outerwear",
+          "confidence": "suggested"
+        },
+        {
           "id": "STR-0021",
           "slot": "footwear",
           "confidence": "explicit"
@@ -229,6 +236,10 @@
       ],
       "materials": [
         {
+          "id": "MAT-0015",
+          "slot": "one_piece"
+        },
+        {
           "id": "MAT-0013",
           "slot": "one_piece"
         },
@@ -239,18 +250,26 @@
         {
           "id": "MAT-0002",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body costume reference sheet of Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, neutral studio background, even light, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, reference only: use the per-scene prompts for action and weather, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
-      "prompt_video": "costume continuity reference for Lin, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, no action; reference pose, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, per-scene video prompts are provided separately, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
+      "prompt_image": "full-body costume reference sheet of Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, neutral studio background, even light, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, reference only: use the per-scene prompts for action and weather, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019",
+      "prompt_video": "costume continuity reference for Lin, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, no action; reference pose, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, per-scene video prompts are provided separately, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.9/15",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
-        "linked material cards: MAT-0013, MAT-0001, MAT-0002"
+        "linked structure cards: STR-0016, STR-0023, STR-0033, STR-0021, STR-0025",
+        "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019"
       ],
       "risks": [
         "fictional mode: no historical claim is made for this design",
@@ -260,20 +279,38 @@
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0405",
           "SRC-0123",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0545",
+          "SRC-0532",
           "SRC-0484",
           "SRC-0412",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0483",
-          "SRC-0141"
+          "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
@@ -291,8 +328,20 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0545",
+            "url": "https://vocab.getty.edu/page/aat/300210517"
+          },
+          {
+            "source_id": "SRC-0532",
+            "url": "https://collections.vam.ac.uk/item/O102166/"
           },
           {
             "source_id": "SRC-0484",
@@ -311,6 +360,22 @@
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
@@ -321,6 +386,30 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
         "context_style_ids": [],
@@ -443,16 +532,19 @@
       "GAR-0027",
       "GAR-0068",
       "GAR-0021",
+      "GAR-0088",
       "GAR-0025",
       "GAR-0028",
       "GAR-0026",
+      "GAR-0089",
       "GAR-0074",
       "GAR-0067",
       "GAR-0085",
       "GAR-0086",
       "GAR-0073",
       "GAR-0066",
-      "GAR-0083"
+      "GAR-0083",
+      "GAR-0090"
     ],
     "carried_prop": [
       "GAR-0082",
@@ -467,6 +559,7 @@
       "GAR-0058",
       "GAR-0035",
       "GAR-0060",
+      "GAR-0091",
       "GAR-0081"
     ],
     "one_piece": [
@@ -636,6 +729,10 @@
   ],
   "sources": [
     {
+      "source_id": "SRC-0069",
+      "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+    },
+    {
       "source_id": "SRC-0405",
       "url": "https://collections.vam.ac.uk/item/O1295635/"
     },
@@ -652,8 +749,20 @@
       "url": "https://collections.vam.ac.uk/item/O107537/"
     },
     {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+    },
+    {
       "source_id": "SRC-0486",
       "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0545",
+      "url": "https://vocab.getty.edu/page/aat/300210517"
+    },
+    {
+      "source_id": "SRC-0532",
+      "url": "https://collections.vam.ac.uk/item/O102166/"
     },
     {
       "source_id": "SRC-0484",
@@ -672,6 +781,22 @@
       "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
     },
     {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+    },
+    {
       "source_id": "SRC-0102",
       "url": "https://fashionhistory.fitnyc.edu/muslin/"
     },
@@ -682,6 +807,30 @@
     {
       "source_id": "SRC-0141",
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+    },
+    {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
+    },
+    {
+      "source_id": "SRC-0550",
+      "url": "https://vocab.getty.edu/page/aat/300014058"
+    },
+    {
+      "source_id": "SRC-0417",
+      "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+    },
+    {
+      "source_id": "SRC-0406",
+      "url": "https://collections.vam.ac.uk/item/O361727/"
     },
     {
       "source_id": "SRC-0107",
@@ -714,6 +863,26 @@
     {
       "source_id": "SRC-0418",
       "url": "https://collections.vam.ac.uk/item/O1380038/"
+    },
+    {
+      "source_id": "SRC-0530",
+      "url": "https://collections.vam.ac.uk/item/O72654/"
+    },
+    {
+      "source_id": "SRC-0531",
+      "url": "https://collections.vam.ac.uk/item/O85657/"
+    },
+    {
+      "source_id": "SRC-0533",
+      "url": "https://collections.vam.ac.uk/item/O353415/"
+    },
+    {
+      "source_id": "SRC-0535",
+      "url": "https://collections.vam.ac.uk/item/O355340/"
+    },
+    {
+      "source_id": "SRC-0536",
+      "url": "https://collections.vam.ac.uk/item/O68370/"
     }
   ],
   "missing_urls": [],
@@ -762,9 +931,9 @@
           "dirt": "none",
           "accessories": []
         },
-        "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: city street, evening, overcast, dry, art direction: restrained urban noir, lighting: cool moonlight with warm sodium practicals, camera: medium tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
-        "prompt_video": "Lin, walking to the meeting, scene: city street, evening, overcast, dry, camera: medium tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool moonlight with warm sodium practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-        "lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002"
+        "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: city street, evening, overcast, dry, art direction: restrained urban noir, lighting: cool moonlight with warm sodium practicals, camera: medium tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019",
+        "prompt_video": "Lin, walking to the meeting, scene: city street, evening, overcast, dry, camera: medium tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool moonlight with warm sodium practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+        "lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019"
       },
       {
         "scene_id": "S2",
@@ -783,9 +952,9 @@
           "dirt": "none",
           "accessories": []
         },
-        "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: rain-soaked street, night, heavy rain, art direction: restrained urban noir, lighting: cool moonlight with warm sodium practicals, camera: medium tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
-        "prompt_video": "Lin, running under an awning, scene: rain-soaked street, night, heavy rain, camera: medium tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool moonlight with warm sodium practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-        "lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002"
+        "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: rain-soaked street, night, heavy rain, art direction: restrained urban noir, lighting: cool moonlight with warm sodium practicals, camera: medium tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019",
+        "prompt_video": "Lin, running under an awning, scene: rain-soaked street, night, heavy rain, camera: medium tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool moonlight with warm sodium practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+        "lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=wet; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019"
       },
       {
         "scene_id": "S3",
@@ -804,9 +973,9 @@
           "dirt": "none",
           "accessories": []
         },
-        "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: dim office, late night, indoor, art direction: restrained urban noir, lighting: cool moonlight with warm sodium practicals, camera: medium tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002",
-        "prompt_video": "Lin, searching a desk, scene: dim office, late night, indoor, camera: medium tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool moonlight with warm sodium practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-        "lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002"
+        "prompt_image": "full-body character design of an adult Lin, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, linen, wool, setting: dim office, late night, indoor, art direction: restrained urban noir, lighting: cool moonlight with warm sodium practicals, camera: medium tracking shot, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019",
+        "prompt_video": "Lin, searching a desk, scene: dim office, late night, indoor, camera: medium tracking shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool moonlight with warm sodium practicals, original fictional-world costume design, explicitly not a historical reconstruction, internally consistent world-building, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+        "lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=drying; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019"
       }
     ]
   }

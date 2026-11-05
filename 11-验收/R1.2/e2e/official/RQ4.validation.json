@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0032",
+    "GAR-0034",
+    "LOOK-0008",
+    "SCN-0004",
+    "SRC-0202",
+    "SRC-0203",
+    "STR-0011"
+  ],
+  "final_chars": 678,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 4,
+  "pass": true,
+  "final_preview": "## LOOK-0008 — 1930s Shanghai changshan intellectual look\n\n**Look role:** 1930 年代上海/香港知识分子（虚构角色，historical 模式） — the traditional/impoverished side of the \"1930s Shanghai intellectual class shift\" scenario.\n\n**Item IDs (look_items):**\n- `GAR-0032` — 长衫\n- `GAR-0034` — 针织背心\n- `STR-0011` — 盘扣\n\n**source_ids:**\n- `SRC-0202`\n- `SRC-0203`\n\n**Card status:** `LOOK-0008`, type `look`, category `character_loo"
+}

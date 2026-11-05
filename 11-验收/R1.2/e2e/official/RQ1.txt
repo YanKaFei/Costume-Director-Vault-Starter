@@ -1,0 +1,1 @@
+Use the costume-director skill. For the 1930s Shanghai intellectual scenario, run exactly: python3 scripts/relation_trace.py --character "1930 上海知识分子" --json; then python3 scripts/query.py --id LOOK-0008 --json. Report complete outfit IDs, real paths, SRC/evidence, continuity limits, and image/video prompt. Complete answer only.

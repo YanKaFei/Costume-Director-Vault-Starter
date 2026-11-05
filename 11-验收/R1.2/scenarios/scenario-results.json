@@ -1,0 +1,336 @@
+{
+  "shanghai_intellectual": {
+    "look_id": "LOOK-0008",
+    "role": "1930 年代上海/香港知识分子（虚构角色，historical 模式）",
+    "items": [
+      {
+        "id": "GAR-0032",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/连身/GAR-0032-长衫.md",
+        "name_zh": "长衫",
+        "source_ids": [
+          "SRC-0202"
+        ]
+      },
+      {
+        "id": "GAR-0034",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/上装/GAR-0034-针织背心.md",
+        "name_zh": "针织背心",
+        "source_ids": [
+          "SRC-0203"
+        ]
+      },
+      {
+        "id": "STR-0011",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/02-结构细节/STR-0011-盘扣.md",
+        "name_zh": "盘扣",
+        "source_ids": [
+          "SRC-0200",
+          "SRC-0202"
+        ]
+      }
+    ],
+    "source_ids": [
+      "SRC-0202",
+      "SRC-0203"
+    ],
+    "evidence": "interpretive",
+    "prompt_image": "1930s Shanghai intellectual, cream-white gauze-silk changshan with small stand collar and five silk frog closures, long tight sleeves, side slits, worn over a muted knitted wool vest and trousers, leather shoes, historical mode",
+    "prompt_negative": "no modern slim-fit suit, no printed T-shirt, no sneakers, no zippers on the robe, no changed frog closure count, no anachronistic accessories",
+    "continuity_lock": "长衫立领高度、右衽五枚盘扣的位置与开合状态、袖长与直袖口、侧衩长度固定；针织背心领口露出宽度一致；提摆/放摆状态在上下楼梯镜头间必须一致",
+    "limits": "把长衫当成长袍戏服任意加刺绣；现代修身西装替代 1930–40 年代宽肩剪裁；无鞋履卡时拍摄全身镜头；把该造型断言为某一具体历史人物的穿着。"
+  },
+  "scifi_station": {
+    "look_id": "LOOK-0011",
+    "role": "22 世纪废弃空间站维修工（虚构角色，fictional 模式）",
+    "items": [
+      {
+        "id": "GAR-0038",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/连身/GAR-0038-连体工作服.md",
+        "name_zh": "连体工作服",
+        "source_ids": [
+          "SRC-0402"
+        ]
+      },
+      {
+        "id": "GAR-0039",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/头部/GAR-0039-安全头盔.md",
+        "name_zh": "安全头盔",
+        "source_ids": [
+          "SRC-0403"
+        ]
+      },
+      {
+        "id": "GAR-0037",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/外层/GAR-0037-消防防护外套.md",
+        "name_zh": "消防防护外套",
+        "source_ids": [
+          "SRC-0401"
+        ]
+      },
+      {
+        "id": "GAR-0022",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/足部/GAR-0022-威灵顿靴.md",
+        "name_zh": "威灵顿靴",
+        "source_ids": [
+          "SRC-0123"
+        ]
+      },
+      {
+        "id": "GAR-0050",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/配饰/GAR-0050-制服徽章.md",
+        "name_zh": "制服徽章",
+        "source_ids": [
+          "SRC-0410"
+        ]
+      }
+    ],
+    "source_ids": [
+      "SRC-0402",
+      "SRC-0401",
+      "SRC-0123",
+      "SRC-0410"
+    ],
+    "evidence": "interpretive",
+    "prompt_image": "fictional derelict space station repair technician, pale blue cotton coveralls with crossover front and long back ties, white papier-mache astronaut helmet with two black eye holes and cardboard neck flap, protective firefighter-style jacket as improvised over-layer, calf-length rubber boots, small cloth station badge",
+    "prompt_negative": "no sleek sci-fi armor, no glowing LED costume, no clean new clothing, no visible modern branding, no helmet off in vacuum, no changed tie position between shots",
+    "continuity_lock": "连体工作服系带与腰带位置、头盔眼孔方向、靴筒泥污/油污范围、袖口卷起状态跨镜头一致；头盔仅在进入真空/危险区时佩戴，摘下动作需与剧情对应",
+    "limits": "需要真实航天/舱外作业安全性的场景；高预算硬科幻（需专业设计与安全顾问）；与真实 NASA/ESA 制服比较的再现性场景。"
+  },
+  "shanghai_reporter": {
+    "look_id": "LOOK-0030",
+    "role": "1930 年代上海女记者（虚构角色；1930s 上海造型）",
+    "items": [
+      {
+        "id": "GAR-0031",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/连身/GAR-0031-旗袍.md",
+        "name_zh": "旗袍",
+        "source_ids": [
+          "SRC-0200",
+          "SRC-0201"
+        ]
+      },
+      {
+        "id": "GAR-0046",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/外层/GAR-0046-雨衣.md",
+        "name_zh": "雨衣",
+        "source_ids": [
+          "SRC-0406"
+        ]
+      },
+      {
+        "id": "GAR-0022",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/足部/GAR-0022-威灵顿靴.md",
+        "name_zh": "威灵顿靴",
+        "source_ids": [
+          "SRC-0123"
+        ]
+      },
+      {
+        "id": "GAR-0086",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/配饰/GAR-0086-胸针结构.md",
+        "name_zh": "胸针结构",
+        "source_ids": [
+          "SRC-0459"
+        ]
+      },
+      {
+        "id": "GAR-0047",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/01-服装单品/携带物/GAR-0047-雨伞.md",
+        "name_zh": "雨伞",
+        "source_ids": [
+          "SRC-0407"
+        ]
+      },
+      {
+        "id": "MAT-0002",
+        "path": "/Users/coffee/Desktop/Costume-Director-Vault-Starter/03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md",
+        "name_zh": "尚蒂伊蕾丝",
+        "source_ids": [
+          "SRC-0141"
+        ]
+      }
+    ],
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0406",
+      "SRC-0123",
+      "SRC-0459",
+      "SRC-0407",
+      "SRC-0141"
+    ],
+    "evidence": "interpretive",
+    "prompt_image": "1930s Shanghai female reporter in rain, indigo qipao under a dark rubberised raincoat, rubber wellington boots, small brooch, black umbrella, wet neon alley, film noir lighting, historical analogue",
+    "prompt_negative": "no modern nylon, no high heels in rain, no unchanged dry clothes, no clean boots, no fantasy elements",
+    "continuity_lock": "旗袍开衩/领口、雨衣湿深范围、靴筒泥污、伞面水珠与持握侧固定；雨→室内阴干单向推进。",
+    "limits": "需要严格历史复原而未做来源核验；把创作组合当历史事实；把类比卡当 11 世纪/某一文化的实证。"
+  },
+  "contemporary_theatre": {
+    "status": "declared_mismatch",
+    "looks": [
+      {
+        "look_ref": "A",
+        "items": [
+          {
+            "id": "GAR-0079",
+            "path": "",
+            "name_zh": "基尔特长袍",
+            "source_ids": [
+              "SRC-0069"
+            ]
+          },
+          {
+            "id": "GAR-0045",
+            "path": "",
+            "name_zh": "风衣",
+            "source_ids": [
+              "SRC-0405"
+            ]
+          },
+          {
+            "id": "GAR-0022",
+            "path": "",
+            "name_zh": "威灵顿靴",
+            "source_ids": [
+              "SRC-0123"
+            ]
+          },
+          {
+            "id": "GAR-0080",
+            "path": "",
+            "name_zh": "腰带",
+            "source_ids": [
+              "SRC-0487",
+              "SRC-0488"
+            ]
+          },
+          {
+            "id": "GAR-0047",
+            "path": "",
+            "name_zh": "雨伞",
+            "source_ids": [
+              "SRC-0407"
+            ]
+          }
+        ],
+        "prompt_image": "full-body character design of an adult The Actor, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: black silk umbrella, silver handle with engraved hunting scenes, slim wooden shaft, rain-wet silk canopy, carried in one hand, palette: beige, black, brown, gold, iron, khaki, lavender, linen, silver, wool, setting: black box theatre, final rehearsal, night, indoor, cold, art direction: psychological contemporary theatre, exposed rigging, monochrome layers, lighting: hard top light and practical work lights, camera: handheld medium and close-up, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025); waistline (STR-0015); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0003",
+        "prompt_video": "The Actor, stage combat, falls, crawling, repeated entrances, scene: black box theatre, final rehearsal, night, indoor, cold, camera: handheld medium and close-up, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0047 umbrella [black, silver; silk, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
+      },
+      {
+        "look_ref": "B",
+        "items": [
+          {
+            "id": "GAR-0006",
+            "path": "",
+            "name_zh": "达希基套衫",
+            "source_ids": [
+              "SRC-0107"
+            ]
+          },
+          {
+            "id": "GAR-0014",
+            "path": "",
+            "name_zh": "牛仔裤",
+            "source_ids": [
+              "SRC-0115"
+            ]
+          },
+          {
+            "id": "GAR-0045",
+            "path": "",
+            "name_zh": "风衣",
+            "source_ids": [
+              "SRC-0405"
+            ]
+          },
+          {
+            "id": "GAR-0022",
+            "path": "",
+            "name_zh": "威灵顿靴",
+            "source_ids": [
+              "SRC-0123"
+            ]
+          },
+          {
+            "id": "GAR-0070",
+            "path": "",
+            "name_zh": "头巾",
+            "source_ids": [
+              "SRC-0431"
+            ]
+          },
+          {
+            "id": "GAR-0048",
+            "path": "",
+            "name_zh": "手提包",
+            "source_ids": [
+              "SRC-0408"
+            ]
+          }
+        ],
+        "prompt_image": "full-body character design of an adult The Actor, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, blue black, brown, green, indigo, khaki, lavender, multicolor, orange, red, solid color, setting: black box theatre, final rehearsal, night, indoor, cold, art direction: psychological contemporary theatre, exposed rigging, monochrome layers, lighting: hard top light and practical work lights, camera: handheld medium and close-up, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); buttons and buttonholes (STR-0018); waistband (STR-0022); pocket construction (STR-0033); seams and darts (STR-0021); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, MAT-0015",
+        "prompt_video": "The Actor, stage combat, falls, crawling, repeated entrances, scene: black box theatre, final rehearsal, night, indoor, cold, camera: handheld medium and close-up, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; cotton, printed_cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0012, MAT-0013, MAT-0002, MAT-0017, MAT-0019, MAT-0015, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
+      },
+      {
+        "look_ref": "C",
+        "items": [
+          {
+            "id": "GAR-0069",
+            "path": "",
+            "name_zh": "阿格巴达",
+            "source_ids": [
+              "SRC-0430"
+            ]
+          },
+          {
+            "id": "GAR-0017",
+            "path": "",
+            "name_zh": "夫罗克大衣",
+            "source_ids": [
+              "SRC-0118",
+              "SRC-0066"
+            ]
+          },
+          {
+            "id": "GAR-0035",
+            "path": "",
+            "name_zh": "女式皮鞋",
+            "source_ids": [
+              "SRC-0205",
+              "SRC-0206"
+            ]
+          },
+          {
+            "id": "GAR-0070",
+            "path": "",
+            "name_zh": "头巾",
+            "source_ids": [
+              "SRC-0431"
+            ]
+          },
+          {
+            "id": "GAR-0048",
+            "path": "",
+            "name_zh": "手提包",
+            "source_ids": [
+              "SRC-0408"
+            ]
+          }
+        ],
+        "prompt_image": "full-body character design of an adult The Actor, one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, single- or double-breasted, wool; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, dark grey, green, multicolor, navy, orange, red, silver, striped, setting: black box theatre, final rehearsal, night, indoor, cold, art direction: psychological contemporary theatre, exposed rigging, monochrome layers, lighting: hard top light and practical work lights, camera: handheld medium and close-up, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); turndown collar and lapel (STR-0012); waistline (STR-0015); ease and fit (STR-0025); pocket construction (STR-0033); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0069 agbada [striped, multicolor; cotton, velvet, embroidery; one-piece] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0015, MAT-0002, MAT-0003, MAT-0014",
+        "prompt_video": "The Actor, stage combat, falls, crawling, repeated entrances, scene: black box theatre, final rehearsal, night, indoor, cold, camera: handheld medium and close-up, costume: one-piece: West African agbádá ensemble, striped cotton, embroidered neckline, Lagos ceremonial menswear; outer layer: 19th-century frock coat, knee-length, buttoned to the waist, single- or double-breasted, wool; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; accessory: West African gele head-tie, jacquard woven rayon, orange ground with geometric lines, tall sculptural wrap, matching with agbádá or boubou, ceremonial; cotton, velvet, embroidery; one-piece] | GAR-0017 frock coat [black, navy, dark_grey; wool; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0070 gele head-tie [orange, green, red; rayon, jacquard; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0015, MAT-0002, MAT-0003, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots"
+      }
+    ],
+    "warnings": [
+      "no reliable style card for art direction 'psychological contemporary theatre, exposed rigging, monochrome layers'",
+      "period evidence is approximate/none for GAR-0079, GAR-0080 (requested contemporary); treat these as era-level hypotheses, not exact period matches",
+      "cards document other regions for GAR-0006, GAR-0014, GAR-0069 (requested united kingdom); cross-region borrowing is flagged, not silently accepted",
+      "the vault has no 'stage performer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
+      "stage-specific A variation: carried_prop -> GAR-0047",
+      "A/B/C structural repair: 2 shared slot(s) replaced in look C",
+      "wetness/damage/dirt not specified; left unknown (not invented)",
+      "design includes declared per-item era/region mismatches; not a historical-accuracy claim"
+    ],
+    "violations": []
+  }
+}

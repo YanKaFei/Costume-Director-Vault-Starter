@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0022",
+    "GAR-0037",
+    "GAR-0038",
+    "GAR-0039",
+    "GAR-0050",
+    "LOOK-0011"
+  ],
+  "final_chars": 149,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 3,
+  "pass": true,
+  "final_preview": "- **Role（LOOK-0011）**：22 世纪废弃空间站维修工（虚构角色，fictional 模式）\n- **Item IDs**：\n  - 连身：GAR-0038\n  - 外层：GAR-0037\n  - 头部：GAR-0039\n  - 鞋：GAR-0022\n  - 配饰：GAR-0050"
+}

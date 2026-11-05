@@ -101,7 +101,9 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": [],
+          "source_ids": [
+            "SRC-0069"
+          ],
           "scores": {
             "period": 0.92,
             "identity": 0.21937500000000001,
@@ -214,7 +216,22 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0027",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0032",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0025",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0035",
           "slot": "footwear",
           "confidence": "explicit"
         },
@@ -225,6 +242,10 @@
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "one_piece"
+        },
         {
           "id": "MAT-0013",
           "slot": "one_piece"
@@ -238,25 +259,33 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0016",
+          "slot": "outerwear"
+        },
+        {
           "id": "MAT-0003",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
         },
         {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Wu, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beaded, buckskin, crimson, gold, iron, linen, silver, tan, white, wool, setting: S6, night, indoor, art direction: naturalistic low-budget realism, lighting: single warm practical lamp, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003, MAT-0011",
-      "prompt_video": "Wu, making tea and sitting on a worn sofa, scene: S6, night, indoor, camera: static medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: single warm practical lamp, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Wu, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: beaded, buckskin, crimson, gold, iron, linen, silver, tan, white, wool, setting: S6, night, indoor, art direction: naturalistic low-budget realism, lighting: single warm practical lamp, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); neckline shape (STR-0027); pleats and gathering (STR-0032); ease and fit (STR-0025); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0011",
+      "prompt_video": "Wu, making tea and sitting on a worn sofa, scene: S6, night, indoor, camera: static medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: single warm practical lamp, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.8/10",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0076 斗篷与披风 (formal)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
         "配饰: GAR-0080 腰带 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0025, STR-0015",
-        "linked material cards: MAT-0013, MAT-0012, MAT-0002, MAT-0003, MAT-0011"
+        "linked structure cards: STR-0016, STR-0023, STR-0027, STR-0032, STR-0025, STR-0035, STR-0015",
+        "linked material cards: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0011"
       ],
       "risks": [
         "region mismatch in GAR-0079, GAR-0076, GAR-0023, GAR-0080: cards document their own regions, not east_asia",
@@ -265,6 +294,7 @@
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0482",
           "SRC-0483",
           "SRC-0124",
@@ -272,17 +302,38 @@
           "SRC-0488",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0543",
+          "SRC-0544",
           "SRC-0521",
           "SRC-0520",
+          "SRC-0536",
           "SRC-0412",
           "SRC-0200",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0423",
           "SRC-0141",
-          "SRC-0142"
+          "SRC-0548",
+          "SRC-0539",
+          "SRC-0142",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0482",
             "url": "https://collections.vam.ac.uk/item/O77731/"
@@ -312,8 +363,36 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0543",
+            "url": "https://vocab.getty.edu/page/aat/300227874"
+          },
+          {
+            "source_id": "SRC-0544",
+            "url": "https://vocab.getty.edu/page/aat/300231237"
           },
           {
             "source_id": "SRC-0521",
@@ -324,12 +403,32 @@
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
             "source_id": "SRC-0412",
             "url": "https://collections.vam.ac.uk/item/O15693/"
           },
           {
             "source_id": "SRC-0200",
             "url": "https://collections.vam.ac.uk/item/O1151302/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0102",
@@ -344,8 +443,28 @@
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0548",
+            "url": "https://vocab.getty.edu/page/aat/300014069"
+          },
+          {
+            "source_id": "SRC-0539",
+            "url": "https://collections.vam.ac.uk/item/O1242729/"
+          },
+          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           }
         ],
         "context_style_ids": [],
@@ -431,7 +550,9 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": [],
+          "source_ids": [
+            "SRC-0069"
+          ],
           "scores": {
             "period": 0.92,
             "identity": 0.21937500000000001,
@@ -542,6 +663,16 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0027",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0032",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0021",
           "slot": "footwear",
           "confidence": "explicit"
@@ -555,9 +686,18 @@
           "id": "STR-0015",
           "slot": "accessory",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0035",
+          "slot": "accessory",
+          "confidence": "explicit"
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "one_piece"
+        },
         {
           "id": "MAT-0013",
           "slot": "one_piece"
@@ -571,21 +711,33 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0016",
+          "slot": "outerwear"
+        },
+        {
           "id": "MAT-0003",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Wu, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: black, brown, crimson, gold, iron, linen, silver, white, wool, setting: S6, night, indoor, art direction: naturalistic low-budget realism, lighting: single warm practical lamp, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003",
-      "prompt_video": "Wu, making tea and sitting on a worn sofa, scene: S6, night, indoor, camera: static medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: single warm practical lamp, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Wu, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, palette: black, brown, crimson, gold, iron, linen, silver, white, wool, setting: S6, night, indoor, art direction: naturalistic low-budget realism, lighting: single warm practical lamp, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); neckline shape (STR-0027); pleats and gathering (STR-0032); seams and darts (STR-0021); ease and fit (STR-0025); waistline (STR-0015); silhouette and proportion (STR-0035), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019",
+      "prompt_video": "Wu, making tea and sitting on a worn sofa, scene: S6, night, indoor, camera: static medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: single warm practical lamp, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.8/10",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0076 斗篷与披风 (formal)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "配饰: GAR-0080 腰带 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025, STR-0015",
-        "linked material cards: MAT-0013, MAT-0012, MAT-0002, MAT-0003"
+        "linked structure cards: STR-0016, STR-0023, STR-0027, STR-0032, STR-0021, STR-0025, STR-0015, STR-0035",
+        "linked material cards: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019"
       ],
       "risks": [
         "region mismatch in GAR-0079, GAR-0076, GAR-0022, GAR-0080: cards document their own regions, not east_asia",
@@ -594,6 +746,7 @@
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0482",
           "SRC-0483",
           "SRC-0123",
@@ -601,18 +754,42 @@
           "SRC-0488",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0543",
+          "SRC-0544",
           "SRC-0484",
           "SRC-0412",
           "SRC-0520",
           "SRC-0521",
           "SRC-0200",
+          "SRC-0536",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0423",
           "SRC-0141",
-          "SRC-0142"
+          "SRC-0548",
+          "SRC-0539",
+          "SRC-0142",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0482",
             "url": "https://collections.vam.ac.uk/item/O77731/"
@@ -642,8 +819,36 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0543",
+            "url": "https://vocab.getty.edu/page/aat/300227874"
+          },
+          {
+            "source_id": "SRC-0544",
+            "url": "https://vocab.getty.edu/page/aat/300231237"
           },
           {
             "source_id": "SRC-0484",
@@ -666,6 +871,26 @@
             "url": "https://collections.vam.ac.uk/item/O1151302/"
           },
           {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
@@ -678,8 +903,40 @@
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0548",
+            "url": "https://vocab.getty.edu/page/aat/300014069"
+          },
+          {
+            "source_id": "SRC-0539",
+            "url": "https://collections.vam.ac.uk/item/O1242729/"
+          },
+          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
         "context_style_ids": [],
@@ -765,7 +1022,9 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": [],
+          "source_ids": [
+            "SRC-0069"
+          ],
           "scores": {
             "period": 0.92,
             "identity": 0.21937500000000001,
@@ -877,6 +1136,16 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0027",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0032",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0021",
           "slot": "footwear",
           "confidence": "explicit"
@@ -888,6 +1157,10 @@
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "one_piece"
+        },
         {
           "id": "MAT-0013",
           "slot": "one_piece"
@@ -901,21 +1174,33 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0016",
+          "slot": "outerwear"
+        },
+        {
           "id": "MAT-0003",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Wu, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: black, brown, crimson, ivory, linen, silver, steel, white, wool, setting: S6, night, indoor, art direction: naturalistic low-budget realism, lighting: single warm practical lamp, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003",
-      "prompt_video": "Wu, making tea and sitting on a worn sofa, scene: S6, night, indoor, camera: static medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: single warm practical lamp, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0012, MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Wu, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: black, brown, crimson, ivory, linen, silver, steel, white, wool, setting: S6, night, indoor, art direction: naturalistic low-budget realism, lighting: single warm practical lamp, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); neckline shape (STR-0027); pleats and gathering (STR-0032); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019",
+      "prompt_video": "Wu, making tea and sitting on a worn sofa, scene: S6, night, indoor, camera: static medium shot, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: single warm practical lamp, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.8/10",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0076 斗篷与披风 (formal)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
-        "linked material cards: MAT-0013, MAT-0012, MAT-0002, MAT-0003"
+        "linked structure cards: STR-0016, STR-0023, STR-0027, STR-0032, STR-0021, STR-0025",
+        "linked material cards: MAT-0015, MAT-0013, MAT-0012, MAT-0002, MAT-0016, MAT-0003, MAT-0017, MAT-0019"
       ],
       "risks": [
         "region mismatch in GAR-0079, GAR-0076, GAR-0022, GAR-0082: cards document their own regions, not east_asia",
@@ -924,6 +1209,7 @@
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0482",
           "SRC-0483",
           "SRC-0123",
@@ -931,17 +1217,40 @@
           "SRC-0491",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0543",
+          "SRC-0544",
           "SRC-0484",
           "SRC-0412",
           "SRC-0520",
           "SRC-0521",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0423",
           "SRC-0141",
-          "SRC-0142"
+          "SRC-0548",
+          "SRC-0539",
+          "SRC-0142",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0482",
             "url": "https://collections.vam.ac.uk/item/O77731/"
@@ -971,8 +1280,36 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0543",
+            "url": "https://vocab.getty.edu/page/aat/300227874"
+          },
+          {
+            "source_id": "SRC-0544",
+            "url": "https://vocab.getty.edu/page/aat/300231237"
           },
           {
             "source_id": "SRC-0484",
@@ -991,6 +1328,22 @@
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
@@ -1003,8 +1356,40 @@
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0548",
+            "url": "https://vocab.getty.edu/page/aat/300014069"
+          },
+          {
+            "source_id": "SRC-0539",
+            "url": "https://collections.vam.ac.uk/item/O1242729/"
+          },
+          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
         "context_style_ids": [],
@@ -1129,6 +1514,7 @@
       "GAR-0067",
       "GAR-0068",
       "GAR-0021",
+      "GAR-0088",
       "GAR-0026",
       "GAR-0025",
       "GAR-0085",
@@ -1136,6 +1522,8 @@
       "GAR-0074",
       "GAR-0086",
       "GAR-0073",
+      "GAR-0090",
+      "GAR-0089",
       "GAR-0083"
     ],
     "carried_prop": [
@@ -1153,6 +1541,7 @@
       "GAR-0060",
       "GAR-0024",
       "GAR-0058",
+      "GAR-0091",
       "GAR-0084"
     ],
     "one_piece": [
@@ -1316,6 +1705,10 @@
   ],
   "sources": [
     {
+      "source_id": "SRC-0069",
+      "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+    },
+    {
       "source_id": "SRC-0482",
       "url": "https://collections.vam.ac.uk/item/O77731/"
     },
@@ -1344,8 +1737,36 @@
       "url": "https://collections.vam.ac.uk/item/O107537/"
     },
     {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+    },
+    {
       "source_id": "SRC-0486",
       "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0530",
+      "url": "https://collections.vam.ac.uk/item/O72654/"
+    },
+    {
+      "source_id": "SRC-0531",
+      "url": "https://collections.vam.ac.uk/item/O85657/"
+    },
+    {
+      "source_id": "SRC-0533",
+      "url": "https://collections.vam.ac.uk/item/O353415/"
+    },
+    {
+      "source_id": "SRC-0535",
+      "url": "https://collections.vam.ac.uk/item/O355340/"
+    },
+    {
+      "source_id": "SRC-0543",
+      "url": "https://vocab.getty.edu/page/aat/300227874"
+    },
+    {
+      "source_id": "SRC-0544",
+      "url": "https://vocab.getty.edu/page/aat/300231237"
     },
     {
       "source_id": "SRC-0521",
@@ -1356,12 +1777,32 @@
       "url": "https://freesewing.dev/howtos/design/seam-allowance/"
     },
     {
+      "source_id": "SRC-0536",
+      "url": "https://collections.vam.ac.uk/item/O68370/"
+    },
+    {
       "source_id": "SRC-0412",
       "url": "https://collections.vam.ac.uk/item/O15693/"
     },
     {
       "source_id": "SRC-0200",
       "url": "https://collections.vam.ac.uk/item/O1151302/"
+    },
+    {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
     },
     {
       "source_id": "SRC-0102",
@@ -1376,8 +1817,28 @@
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
+      "source_id": "SRC-0548",
+      "url": "https://vocab.getty.edu/page/aat/300014069"
+    },
+    {
+      "source_id": "SRC-0539",
+      "url": "https://collections.vam.ac.uk/item/O1242729/"
+    },
+    {
       "source_id": "SRC-0142",
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
     },
     {
       "source_id": "SRC-0123",
@@ -1386,6 +1847,18 @@
     {
       "source_id": "SRC-0484",
       "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0550",
+      "url": "https://vocab.getty.edu/page/aat/300014058"
+    },
+    {
+      "source_id": "SRC-0417",
+      "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+    },
+    {
+      "source_id": "SRC-0406",
+      "url": "https://collections.vam.ac.uk/item/O361727/"
     },
     {
       "source_id": "SRC-0490",

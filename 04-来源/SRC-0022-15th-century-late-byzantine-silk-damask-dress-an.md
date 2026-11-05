@@ -10,6 +10,9 @@ date_accessed: "2026-11-04"
 source_kind: academic_reference
 rights_statement: "© Fashion Institute of Technology；作者 Sonia Tournier；仅链接引用"
 license_status: link_only
+content_license: cc_by_nc_sa
+image_license: link_only
+license_verified: partial
 evidence_status: verified
 review_status: reviewed
 note: "晚期拜占庭精英女装仅存实物之一：Mystras 墓葬出土、日内瓦 MAH 与希腊文化部修复研究（2000 年出版）"
@@ -27,6 +30,7 @@ tags: [source, garment_analysis, byzantine, archaeology, 15th_century]
 **URL**：https://fashionhistory.fitnyc.edu/late-byzantine-silk-damask-dress/
 
 ## 可支撑事实（verified）
+- **R1.2-B canonical（去重裁决）**：同 URL/同版本重复卡 [[SRC-0163-FIT-拜占庭晚期丝绸服饰]]（SRC-0163）已标记 `deprecated: 'true'` / `superseded_by: SRC-0022`；本卡为 canonical，保留旧引用。
 
 - 个案：15 世纪晚期拜占庭丝质 damask 连衣裙与 taffeta 束腰衣；作者 Sonia Tournier，2024-09-08 发布、2025-11-18 更新。
 - 页面称这批残片是晚期拜占庭精英女性服饰『仅存的实物证据』，可反映 Mystras（希腊）的穿着习惯与 15 世纪拜占庭的多文化面貌。

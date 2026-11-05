@@ -101,6 +101,8 @@ continuity_state:
 style_observation:
 - 羊毛/亚麻的哑光层搭与铁灰/土褐来自 GAR-0075/0076/0081 来源卡；北方戏剧化组合为设计观察。
 approved_anchors: []
+relations:
+  - 'target=GAR-0075; type=appears_in_look; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0480; rule=R-LOOK-ITEMS; review_status=review_queue; factual=false; design_only=true'
 ---
 # 麦克白·野心上升·荒野战袍 / Macbeth ambition rise, heath field dress
 

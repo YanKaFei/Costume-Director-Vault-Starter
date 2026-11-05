@@ -252,6 +252,11 @@
         "SRC-0486",
         "SRC-0451",
         "SRC-0453",
+        "SRC-0530",
+        "SRC-0531",
+        "SRC-0533",
+        "SRC-0535",
+        "SRC-0536",
         "SRC-0412",
         "SRC-0200",
         "SRC-0547",
@@ -304,6 +309,11 @@
           "SRC-0486",
           "SRC-0451",
           "SRC-0453",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0412",
           "SRC-0200",
           "SRC-0547",
@@ -369,6 +379,26 @@
           {
             "source_id": "SRC-0453",
             "url": "https://collections.vam.ac.uk/item/O163754/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0412",
@@ -441,7 +471,7 @@
         "足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023, STR-0020, STR-0015",
+        "linked structure cards: STR-0016, STR-0023, STR-0020, STR-0035, STR-0015",
         "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017"
       ],
       "risks": [
@@ -450,7 +480,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, white, wool, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, white, wool, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017",
       "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0079; outerwear GAR-0045; footwear GAR-0060; accessory GAR-0080; carried prop GAR-0082; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.93; palette beige, brown, gold, iron, ivory, khaki, lavender, linen, silver, steel, tan, white, wool; materials cotton, gabardine, iron, ivory, lace, leather, linen, silver, steel, suede, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion",
@@ -669,6 +699,11 @@
         "SRC-0061",
         "SRC-0486",
         "SRC-0202",
+        "SRC-0530",
+        "SRC-0531",
+        "SRC-0533",
+        "SRC-0535",
+        "SRC-0536",
         "SRC-0412",
         "SRC-0200",
         "SRC-0201",
@@ -720,6 +755,11 @@
           "SRC-0061",
           "SRC-0486",
           "SRC-0202",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0412",
           "SRC-0200",
           "SRC-0201",
@@ -778,6 +818,26 @@
           {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0412",
@@ -854,7 +914,7 @@
         "足部: GAR-0081 皮靴 (functional)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0015, STR-0019, STR-0026",
+        "linked structure cards: STR-0005, STR-0010, STR-0023, STR-0035, STR-0015, STR-0019, STR-0026",
         "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017"
       ],
       "risks": [
@@ -863,7 +923,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, brown, gold, iron, khaki, lavender, multicolor, purple, silver, tan, white, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); waistline (STR-0015); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
+      "prompt_image": "full-body character design of an adult Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, brown, gold, iron, khaki, lavender, multicolor, purple, silver, tan, white, setting: battlefield and stairs, night, storm, art direction: stark medieval tragedy, lighting: torchlight, cold moonlight, camera: handheld tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); cuff (STR-0023); silhouette and proportion (STR-0035); waistline (STR-0015); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017",
       "prompt_video": "Macbeth, battle, running, riding, climbing stairs, scene: battlefield and stairs, night, storm, camera: handheld tracking, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0017, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0045; footwear GAR-0081; carried prop GAR-0048; accessory GAR-0080; movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.93; palette beige, brown, gold, iron, khaki, lavender, multicolor, purple, silver, tan, white; materials canvas, cotton, gabardine, iron, lace, leather, silk, silver, tapestry trim, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: battle, running, riding, climbing stairs; preserve range of motion, layer stability and footwear traction in motion",
@@ -1394,6 +1454,11 @@
       "SRC-0486",
       "SRC-0451",
       "SRC-0453",
+      "SRC-0530",
+      "SRC-0531",
+      "SRC-0533",
+      "SRC-0535",
+      "SRC-0536",
       "SRC-0412",
       "SRC-0200",
       "SRC-0547",
@@ -1414,13 +1479,8 @@
       "SRC-0142",
       "SRC-0205",
       "SRC-0206",
-      "SRC-0536",
       "SRC-0521",
       "SRC-0520",
-      "SRC-0530",
-      "SRC-0531",
-      "SRC-0533",
-      "SRC-0535",
       "SRC-0423",
       "SRC-0143"
     ],
@@ -1477,6 +1537,26 @@
       {
         "source_id": "SRC-0453",
         "url": "https://collections.vam.ac.uk/item/O163754/"
+      },
+      {
+        "source_id": "SRC-0530",
+        "url": "https://collections.vam.ac.uk/item/O72654/"
+      },
+      {
+        "source_id": "SRC-0531",
+        "url": "https://collections.vam.ac.uk/item/O85657/"
+      },
+      {
+        "source_id": "SRC-0533",
+        "url": "https://collections.vam.ac.uk/item/O353415/"
+      },
+      {
+        "source_id": "SRC-0535",
+        "url": "https://collections.vam.ac.uk/item/O355340/"
+      },
+      {
+        "source_id": "SRC-0536",
+        "url": "https://collections.vam.ac.uk/item/O68370/"
       },
       {
         "source_id": "SRC-0412",
@@ -1559,32 +1639,12 @@
         "url": "https://collections.vam.ac.uk/item/O350850/"
       },
       {
-        "source_id": "SRC-0536",
-        "url": "https://collections.vam.ac.uk/item/O68370/"
-      },
-      {
         "source_id": "SRC-0521",
         "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
       },
       {
         "source_id": "SRC-0520",
         "url": "https://freesewing.dev/howtos/design/seam-allowance/"
-      },
-      {
-        "source_id": "SRC-0530",
-        "url": "https://collections.vam.ac.uk/item/O72654/"
-      },
-      {
-        "source_id": "SRC-0531",
-        "url": "https://collections.vam.ac.uk/item/O85657/"
-      },
-      {
-        "source_id": "SRC-0533",
-        "url": "https://collections.vam.ac.uk/item/O353415/"
-      },
-      {
-        "source_id": "SRC-0535",
-        "url": "https://collections.vam.ac.uk/item/O355340/"
       },
       {
         "source_id": "SRC-0423",

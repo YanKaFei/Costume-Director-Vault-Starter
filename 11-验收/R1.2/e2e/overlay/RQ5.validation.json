@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0022",
+    "GAR-0037",
+    "GAR-0038",
+    "GAR-0039",
+    "GAR-0050",
+    "LOOK-0011"
+  ],
+  "final_chars": 735,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "pass": true,
+  "final_preview": "- **look_id**: LOOK-0011（废弃空间站维修工）\n- **item IDs**:\n  - GAR-0038 — 连体工作服（verified）\n  - GAR-0039 — 安全头盔（verified）\n  - GAR-0037 — 消防防护外套（verified）\n  - GAR-0022 — 威灵顿靴（verified）\n  - GAR-0050 — 制服徽章（verified）\n- **prompt (image)**: \"fictional derelict space station repair technician, pale blue cotton coveralls with crossover front and long back ties, white papier-mache astronaut helmet with two black ey"
+}

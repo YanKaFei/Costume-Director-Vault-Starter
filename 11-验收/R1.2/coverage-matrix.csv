@@ -1,0 +1,9 @@
+relation,applicable,formal_high,formal_medium,review,insufficient,not_applicable,coverage_formal,coverage_high,note
+Garment→Component,92,0,10,16,76,132,10.9,0.0,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field
+Garment→Material,92,0,26,27,39,132,28.3,0.0,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field
+Garment→Silhouette,92,74,0,0,18,132,80.4,80.4,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field
+Garment→Style,92,0,0,3,89,132,0.0,0.0,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field
+Garment→Footwear/Accessory,56,0,0,31,25,168,0.0,0.0,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field
+Garment→Outfit,92,55,0,0,37,132,59.8,59.8,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field
+Outfit→Narrative,35,25,0,0,10,189,71.4,71.4,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field
+Claim→Source,224,217,0,0,7,0,96.9,96.9,formal_high = high relation/structured field; formal_medium = medium relation; review = visible link/design; insufficient = applicable but no relation/field

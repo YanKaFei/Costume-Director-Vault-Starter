@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": false,
+    "complete_user_output": false
+  },
+  "ids": [],
+  "final_chars": 71,
+  "skill_calls": 1,
+  "tool_calls": 6,
+  "completed_tool_results": 17,
+  "pass": false,
+  "final_preview": "I'll load the costume-director skill first, then run the exact command."
+}

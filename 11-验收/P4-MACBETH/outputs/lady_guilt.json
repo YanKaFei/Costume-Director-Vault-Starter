@@ -250,6 +250,7 @@
         "SRC-0531",
         "SRC-0533",
         "SRC-0535",
+        "SRC-0536",
         "SRC-0412",
         "SRC-0200",
         "SRC-0547",
@@ -307,6 +308,7 @@
           "SRC-0531",
           "SRC-0533",
           "SRC-0535",
+          "SRC-0536",
           "SRC-0412",
           "SRC-0200",
           "SRC-0547",
@@ -391,6 +393,10 @@
             "url": "https://collections.vam.ac.uk/item/O355340/"
           },
           {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
             "source_id": "SRC-0412",
             "url": "https://collections.vam.ac.uk/item/O15693/"
           },
@@ -463,7 +469,7 @@
         "足部: GAR-0081 皮靴 (functional)",
         "配饰: GAR-0080 腰带 (functional)",
         "携带物: GAR-0049 手杖 (formal)",
-        "linked structure cards: STR-0005, STR-0010, STR-0016, STR-0027, STR-0015",
+        "linked structure cards: STR-0005, STR-0010, STR-0016, STR-0027, STR-0035, STR-0015",
         "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0017, MAT-0004",
         "based on curated vault look card LOOK-0025"
       ],
@@ -472,7 +478,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: gentleman’s walking stick, dark wood inlaid with brass wire and mother-of-pearl, gilded metal collar, tall above hand height, carried with authority, palette: brown, crimson, gold, iron, purple, silver, tan, white, setting: castle hall after the murder, night, cold, indoor, art direction: blood-red silk, gold and shadow, lighting: candlelight, close shadows, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); hem and vents/slits (STR-0016); neckline shape (STR-0027); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0017, MAT-0004",
+      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; carried prop: gentleman’s walking stick, dark wood inlaid with brass wire and mother-of-pearl, gilded metal collar, tall above hand height, carried with authority, palette: brown, crimson, gold, iron, purple, silver, tan, white, setting: castle hall after the murder, night, cold, indoor, art direction: blood-red silk, gold and shadow, lighting: candlelight, close shadows, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); hem and vents/slits (STR-0016); neckline shape (STR-0027); silhouette and proportion (STR-0035); waistline (STR-0015), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0017, MAT-0004",
       "prompt_video": "Lady Macbeth, washing hands and pacing, scene: castle hall after the murder, night, cold, indoor, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: medieval or early modern belt, iron buckle with silver inlay or silver-gilt buckle and belt end, dagger hung at the back or side; wool, silk, tapestry_trim; one-piece] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0080 belt [iron, silver, gold; iron, silver, leather; accessory] | GAR-0049 walking stick [brown, gold; wood, metal, mother_of_pearl; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0012, MAT-0011, MAT-0013, MAT-0014, MAT-0017, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0076; footwear GAR-0081; accessory GAR-0080; carried prop GAR-0049; movement/action adaptation: washing hands and pacing; preserve range of motion, layer stability and footwear traction in motion; silhouette A; proportion 0.93; palette brown, crimson, gold, iron, purple, silver, tan, white; materials iron, leather, linen, metal, metal thread, mother of pearl, satin, silk, silver, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: washing hands and pacing; preserve range of motion, layer stability and footwear traction in motion",
@@ -1173,6 +1179,11 @@
         "SRC-0062",
         "SRC-0521",
         "SRC-0520",
+        "SRC-0530",
+        "SRC-0531",
+        "SRC-0533",
+        "SRC-0535",
+        "SRC-0536",
         "SRC-0547",
         "SRC-0534",
         "SRC-0204",
@@ -1224,6 +1235,11 @@
           "SRC-0062",
           "SRC-0521",
           "SRC-0520",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0547",
           "SRC-0534",
           "SRC-0204",
@@ -1293,6 +1309,26 @@
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
             "source_id": "SRC-0547",
             "url": "https://vocab.getty.edu/page/aat/300243430"
           },
@@ -1353,7 +1389,7 @@
         "足部: GAR-0081 皮靴 (functional)",
         "配饰: GAR-0028 手笼 (formal)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0005, STR-0010, STR-0017, STR-0025",
+        "linked structure cards: STR-0005, STR-0010, STR-0017, STR-0025, STR-0035",
         "linked material cards: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0017, MAT-0012"
       ],
       "risks": [
@@ -1361,7 +1397,7 @@
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "budget_mode": null,
-      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: 18th-century gentleman’s banyan, cotton calico or floral silk, wide sleeves; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, calico print, fur brown, glazed wool, gold, ivory, purple, silk, silk floral, silver, steel, tan, white, setting: castle hall after the murder, night, cold, indoor, art direction: blood-red silk, gold and shadow, lighting: candlelight, close shadows, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); placket (STR-0017); ease and fit (STR-0025), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0016 banyan [calico_print, silk_floral, glazed_wool; cotton_calico, silk, glazed_wool; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0017, MAT-0012",
+      "prompt_image": "full-body character design of an adult Lady Macbeth, one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: 18th-century gentleman’s banyan, cotton calico or floral silk, wide sleeves; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: brown, calico print, fur brown, glazed wool, gold, ivory, purple, silk, silk floral, silver, steel, tan, white, setting: castle hall after the murder, night, cold, indoor, art direction: blood-red silk, gold and shadow, lighting: candlelight, close shadows, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: leg-of-mutton sleeves (STR-0005); slashing (STR-0010); placket (STR-0017); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0009 dalmatic tunic [purple, gold, white; wool, silk, tapestry_trim; one-piece] | GAR-0016 banyan [calico_print, silk_floral, glazed_wool; cotton_calico, silk, glazed_wool; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0017, MAT-0012",
       "prompt_video": "Lady Macbeth, washing hands and pacing, scene: castle hall after the murder, night, cold, indoor, camera: medium shot, costume: one-piece: long T-shaped dalmatic tunic, wide sleeves, tapestry-woven wool trim at neck, hem and wrists, roundel motifs; outer layer: 18th-century gentleman’s banyan, cotton calico or floral silk, wide sleeves; footwear: medieval leather ankle boot, round toe, toggle fastening, simple sole and upper, worn with hose, muddy or dusty surface, no modern rubber sole; accessory: fur muff, cylindrical hand warmer, hands inserted from both ends, suspended by a silk cord, 18th-century winter accessory; wool, silk, tapestry_trim; one-piece] | GAR-0016 banyan [calico_print, silk_floral, glazed_wool; cotton_calico, silk, glazed_wool; outer layer] | GAR-0081 leather boots [brown, tan; leather; footwear] | GAR-0028 muff [fur_brown, white, silk; fur, silk, wool; accessory] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0003, MAT-0001, MAT-0011, MAT-0017, MAT-0012, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
       "prompt_outfit": "complete outfit: one coherent full-body look; one-piece / dress GAR-0009; outerwear GAR-0016; footwear GAR-0081; accessory GAR-0028; carried prop GAR-0082; movement/action adaptation: washing hands and pacing; preserve range of motion, layer stability and footwear traction in motion; silhouette H; proportion 0.78; palette brown, calico print, fur brown, glazed wool, gold, ivory, purple, silk, silk floral, silver, steel, tan, white; materials cotton calico, fur, glazed wool, ivory, leather, silk, silver, steel, tapestry trim, wood, wool; keep every card ID, colour, material and accessory position consistent across shots; negative constraints: no costume morphing, no extra layers, no colour shift, no invented accessories, no logo/text/watermark, no changing hairstyle",
       "movement_note": "movement/action adaptation: washing hands and pacing; preserve range of motion, layer stability and footwear traction in motion",
@@ -1439,6 +1475,7 @@
       "SRC-0531",
       "SRC-0533",
       "SRC-0535",
+      "SRC-0536",
       "SRC-0412",
       "SRC-0200",
       "SRC-0547",
@@ -1456,7 +1493,6 @@
       "SRC-0129",
       "SRC-0490",
       "SRC-0491",
-      "SRC-0536",
       "SRC-0521",
       "SRC-0520",
       "SRC-0013",
@@ -1534,6 +1570,10 @@
         "url": "https://collections.vam.ac.uk/item/O355340/"
       },
       {
+        "source_id": "SRC-0536",
+        "url": "https://collections.vam.ac.uk/item/O68370/"
+      },
+      {
         "source_id": "SRC-0412",
         "url": "https://collections.vam.ac.uk/item/O15693/"
       },
@@ -1600,10 +1640,6 @@
       {
         "source_id": "SRC-0491",
         "url": "https://collections.vam.ac.uk/item/O97427/"
-      },
-      {
-        "source_id": "SRC-0536",
-        "url": "https://collections.vam.ac.uk/item/O68370/"
       },
       {
         "source_id": "SRC-0521",

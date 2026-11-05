@@ -1,0 +1,7 @@
+audit_id,prd,target,verdict,period_check,source_check,cross_era_or_revival,recommendation,human_status,auto_closed,card_edit
+FLAG-KG-04,PRD-0004,GAR-0007,REJECTED,1920s 与 GAR-0007 1890s–Edwardian/early20c 无重叠；无 1920s 来源,GAR-0007 的 FIT 来源只覆盖 18–19c；无 1920s 形制证据,无跨时代借鉴/复兴证据；region 邻近不构成 1920s 典型,建议移除；不得自动删改,pending_human,no,no
+FLAG-KG-06B,PRD-0006,GAR-0022,REJECTED,1940s 与 Wellington 19c/contemporary 无重叠；无 1940s 战时靴来源,SRC-0123 只覆盖 19c Wellington；无 1940s 配给/军靴证据,非后世复兴；无跨时代证据,建议移除；不得自动删改,pending_human,no,no
+FLAG-KG-07,PRD-0007,GAR-0023,REJECTED,1950s 与 moccasin 19c/contemporary 无重叠；region indigenous_america 与美英不兼容,SRC-0124 为北美原住民/19c 型制；1950s 美英无直接证据,非跨文化借鉴证据；不得强留,建议移除；除非补跨文化/年代证据,pending_human,no,no
+FLAG-KG-08,PRD-0008,GAR-0014,INTERPRETATION_REVIEWED,牛仔裤 1950s/contemporary；1960s 延续是解释，card periods 无 1960s,SRC-0115 为 1950s 概览；无 1960s 精确来源,可解释 1960s 青年/休闲延续，但不是 source-verified,条件保留为解释性语境，或 owner 补 1960s 来源；不得自动确认,pending_human,no,no
+FLAG-KG-08B,PRD-0008,MAT-0004,INSUFFICIENT_EVIDENCE,Lurex 1940s/1970s/contemporary；1960s 无精确 period/source,SRC-0143 只覆盖 Lurex 1940s 起源/1970s 高峰；1960s 无直接来源,不能证明 1960s 使用；不升级,保留 review；不要为覆盖率强留,pending_human,no,no
+FLAG-KG-11,PRD-0011,GAR-0033,DESIGN_ONLY,GAR-0033 periods=1940s；PRD 1930s Shanghai；西式休闲西装为设计推断,SRC-0204 为 1940s 英国实例；无 1930s 上海来源,1930s 上海使用属设计/上下文借用，非史实,标 design-only/interpretive 或移除；不得当 1930s 事实,pending_human,no,no

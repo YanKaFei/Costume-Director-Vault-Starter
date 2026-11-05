@@ -15,6 +15,12 @@ source_ids: []
 evidence_status: verified
 review_status: reviewed
 license_status: link_only
+deprecated: 'true'
+superseded_by: SRC-0036
+canonical_id: SRC-0036
+content_license: other_permission
+image_license: link_only
+license_verified: verified
 url: https://www.screenireland.ie/images/uploads/general/Booklet_5_-_Costume_Department_2024.pdf
 publisher: Fís Éireann/Screen Ireland
 date_accessed: 2026-11-04
@@ -26,6 +32,7 @@ tags: [costume, source, industry, continuity]
 # SRC-0175 爱尔兰银幕服装部门能力框架 2024
 
 ## 定义
+- **R1.2-B 去重（deprecated）**：本卡与 [[SRC-0036-booklet-5-costume-department-2024]] 为同一 URL/同一版本的重复来源；canonical 为 [[SRC-0036-booklet-5-costume-department-2024]]，`superseded_by: SRC-0036` / `canonical_id: SRC-0036`。本卡保留历史引用，不删除。
 Fís Éireann/Screen Ireland 发布的《Screen Guilds of Ireland Competency Framework — Costume Department》行业能力框架（2024 年 PDF，版权页标注 © 2022）。本卡登记其 URL、权利状态与可支撑的连续性工作方法范围。
 
 ## 结构要点

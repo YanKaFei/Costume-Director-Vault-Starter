@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0022",
+    "GAR-0037",
+    "GAR-0038",
+    "GAR-0039",
+    "GAR-0050",
+    "LOOK-0011",
+    "SRC-0123",
+    "SRC-0401",
+    "SRC-0402",
+    "SRC-0410"
+  ],
+  "final_chars": 1242,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "pass": true,
+  "final_preview": "Command run exactly as specified (exit 0). Results from `relation_trace.py`:\n\n## Look\n- **look_id:** `LOOK-0011` — 废弃空间站维修工\n- **path:** `09-造型组合/LOOK-0011-废弃空间站维修工.md`\n- **role:** 22 世纪废弃空间站维修工（虚构角色，fictional 模式）\n- **evidence:** interpretive\n- **source_ids:** `SRC-0402`, `SRC-0401`, `SRC-0123`, `SRC-0410`\n\n## Item IDs\n| ID | Name | Evidence |\n| --- | --- | --- |\n| `GAR-0038` | 连体工作服 | verified |\n|"
+}

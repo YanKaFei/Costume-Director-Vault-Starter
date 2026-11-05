@@ -13,6 +13,34 @@
     "score": 5.5
   },
   {
+    "id": "STY-0012",
+    "path": "05-风格体系/STY-0012-1930s-Shanghai-rain-noir.md",
+    "name_zh": "1930s 上海雨夜黑色电影",
+    "name_en": "1930s Shanghai rain noir",
+    "type": "style",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0405",
+      "SRC-0407",
+      "SRC-0408"
+    ],
+    "snippet": "# 1930s 上海雨夜黑色电影 / 1930s shanghai rain noir ## 定义 1930s 上海雨夜黑色电影是一种**设计解释**，不是历史事实或风格实体。以旗袍/长衫的直身轮廓、湿雨反光、深色外层与伞/包的“都市外…",
+    "score": 5.5
+  },
+  {
+    "id": "SRC-0405",
+    "path": "04-来源/SRC-0405-V&A-蕾丝风衣2014.md",
+    "name_zh": "V&A：Burberry Prorsum 蕾丝风衣（2014）",
+    "name_en": "V&A: Burberry Prorsum lace trench coat, 2014",
+    "type": "source",
+    "evidence_status": "verified",
+    "source_ids": [],
+    "snippet": "…940年代战后通勤]] - [[sty-0012-1930s-shanghai-rain-noir]]",
+    "score": 4.32
+  },
+  {
     "id": "LOOK-0021",
     "path": "09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md",
     "name_zh": "当代雨夜调查者·四场连续性升级",
@@ -38,6 +66,25 @@
       "SRC-0036"
     ],
     "snippet": "…costume change without continuity event, no coat drying between rain shots, no added bag or umbrella, no color shift, no cl…",
+    "score": 3.0
+  },
+  {
+    "id": "LOOK-0030",
+    "path": "09-造型组合/LOOK-0030-1930s-Shanghai-rain,-female-reporter.md",
+    "name_zh": "1930s 上海雨夜·女记者",
+    "name_en": "1930s Shanghai rain, female reporter",
+    "type": "look",
+    "evidence_status": "interpretive",
+    "source_ids": [
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0406",
+      "SRC-0123",
+      "SRC-0459",
+      "SRC-0407",
+      "SRC-0141"
+    ],
+    "snippet": "…brooch, black umbrella, wet neon alley, film noir lighting, historical analogue` - 视频：`female reporter walking through a rai…",
     "score": 3.0
   }
 ]

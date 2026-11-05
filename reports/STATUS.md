@@ -212,3 +212,18 @@
 - **GUI**：**NOT_RUN / HUMAN_UAT_PENDING**（11 项无截图/签字；MOC 第 2 项预期 PASS）。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：重复 URL、18 VERIFIED 未入库、59 isolates/38 draft/6 flags、GUI NOT_RUN）**；PUBLIC-READY = **NO（B1–B6 + L1–L6）**。
 - 详见 `reports/P5F-FINAL.md`、`P5F-RELEASE-CHECK.md`（§9）、`P5F-REGRESSION.md`（§7）、`P5F-OBSIDIAN-UAT.md`、`P5F-MAINTENANCE.md`。
+
+
+## 18. R1.2 最终验收（2026-11-05 15:47，task-103）
+
+- **快照**：HEAD `8bea691` + R1.2 工作区（未提交）；**458 卡 = 224 内容 + 234 来源；345 relations（high 262 / medium 83）**；validate **458/458**、build **234**、consistency **0/345**。
+- **去重 PASS**：SRC-0036/0022/0115 canonical；SRC-0175/0163/0157 deprecated/redirect；**0 删除**；引用仍解析；许可证 v1.3 字段；URL 30/30 200；9 书 5 connected/4 background、page UNCONFIRMED。
+- **Flags/draft/候选/单点**：6 flags（3 REJECTED/1 INTERPRETATION/1 DESIGN_ONLY/1 INSUFFICIENT，全部 pending_human）；38/38 基线 draft 未变（全库 79）；18 候选=16 formal medium reconcile + 2 pending，0 写卡/0 提升；59 isolates +3 duplicates=62 uncited；components 60=59+主分量。
+- **图谱/可见性**：graph **0/0/748**（dedupe superseded/canonical 4/4 后）；source_ids **478/478 可见（100%）**；MOC 224/224+234/234；typed_without_visible 15（key_garments）。
+- **便携配置**：模板/脚本 dry-run changed:false、测试 6/6、隔离 488/0/1、用户键保留、live `.obsidian` 未动。
+- **GUI**：**NOT_RUN / HUMAN_UAT_PENDING**（11 项：3 PARTIAL 默认截图、8 NOT_RUN；无签核）。
+- **回归**：validate/build/consistency/graph PASS；acceptance **45/45**、workflow **9/9**、composer 9/9、Macbeth 11/11、relation_trace/66 单元测试 PASS；**quality PASS（4.2/0.921/0；lead 复跑）**；**E2E engineer report：official 3/3、overlay 3/3 五项全 true**（早期探索失败不计）。
+- **备份**：R1.2 后独立 **backup 2424 文件/51.6MB → verify OK → restore 2424/458/345**；排除 projects/.obsidian/sandbox；**P1 私有 projects 仍无备份**；/tmp 临时。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN/P1：私有备份、GUI、E2E retained failures、medium 83）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；GUI **NOT_RUN**。
+- **建议**：进入维护模式，优先私有备份/GUI 人工/quality 重跑/E2E 报告/人工 flags+draft；停止大规模扩卡。
+- 详见 `reports/R1.2-FINAL.md`、`R1.2-GUI-UAT.md`、`R1.2-MAINTENANCE.md`。

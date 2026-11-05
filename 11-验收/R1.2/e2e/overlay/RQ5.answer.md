@@ -1,0 +1,9 @@
+- **look_id**: LOOK-0011（废弃空间站维修工）
+- **item IDs**:
+  - GAR-0038 — 连体工作服（verified）
+  - GAR-0039 — 安全头盔（verified）
+  - GAR-0037 — 消防防护外套（verified）
+  - GAR-0022 — 威灵顿靴（verified）
+  - GAR-0050 — 制服徽章（verified）
+- **prompt (image)**: "fictional derelict space station repair technician, pale blue cotton coveralls with crossover front and long back ties, white papier-mache astronaut helmet with two black eye holes and cardboard neck flap, protective firefighter-style jacket as improvised over-layer, calf-length rubber boots, small cloth station badge"
+- **prompt (negative)**: "no sleek sci-fi armor, no glowing LED costume, no clean new clothing, no visible modern branding, no helmet off in vacuum, no changed tie position between shots"

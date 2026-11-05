@@ -100,6 +100,8 @@ historical_evidence:
 - SRC-0201
 - GAR-0031:SRC-0200
 approved_anchors: []
+relations:
+  - 'target=STY-0012; type=in_style; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0200; rule=R-STY-EXACT; review_status=review_queue; factual=false; design_only=true'
 ---
 # 1930s 上海雨夜·女记者 / 1930s Shanghai rain, female reporter
 

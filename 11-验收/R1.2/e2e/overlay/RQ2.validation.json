@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": false,
+    "complete_user_output": false
+  },
+  "ids": [],
+  "final_chars": 159,
+  "skill_calls": 1,
+  "tool_calls": 2,
+  "completed_tool_results": 7,
+  "pass": false,
+  "final_preview": "The output was truncated and stderr claims BLOCKED while the JSON tail shows `declared_mismatch`. I need the head of the full output and the actual exit code.\n"
+}

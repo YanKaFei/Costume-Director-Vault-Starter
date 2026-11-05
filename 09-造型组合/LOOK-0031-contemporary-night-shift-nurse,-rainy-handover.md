@@ -95,6 +95,8 @@ continuity_state:
 style_observation:
 - 职业锚点（护士服/工牌/闭口工作鞋/雨衣）来自来源卡与库内职业卡；医院场景为设计观察。
 approved_anchors: []
+relations:
+  - 'target=GAR-0036; type=appears_in_look; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0400; rule=R-LOOK-ITEMS; review_status=review_queue; factual=false; design_only=true'
 ---
 # 当代夜班护士·雨夜交班 / contemporary night-shift nurse, rainy handover
 

@@ -1,0 +1,239 @@
+{
+  "retrieval_checks": [
+    {
+      "check": "garment_to_part",
+      "args": [
+        "--relation-type",
+        "may_have_part",
+        "--related-to",
+        "STR-0011"
+      ],
+      "exit": 0,
+      "results": 6,
+      "ids": [
+        "GAR-0031",
+        "GAR-0032",
+        "GAR-0034",
+        "GAR-0035",
+        "GAR-0048"
+      ]
+    },
+    {
+      "check": "garment_to_material",
+      "args": [
+        "--relation-type",
+        "uses_material",
+        "--related-to",
+        "MAT-0017"
+      ],
+      "exit": 0,
+      "results": 10,
+      "ids": [
+        "GAR-0003",
+        "GAR-0022",
+        "GAR-0023",
+        "GAR-0024",
+        "GAR-0058"
+      ]
+    },
+    {
+      "check": "garment_to_accessory",
+      "args": [
+        "--relation-type",
+        "ensemble_with",
+        "--limit",
+        "3"
+      ],
+      "exit": 0,
+      "results": 3,
+      "ids": [
+        "GAR-0002",
+        "GAR-0003",
+        "GAR-0004"
+      ]
+    },
+    {
+      "check": "style_to_garment",
+      "args": [
+        "--relation-type",
+        "in_style",
+        "--related-to",
+        "STY-0010"
+      ],
+      "exit": 0,
+      "results": 10,
+      "ids": [
+        "LOOK-0001",
+        "LOOK-0003",
+        "LOOK-0005",
+        "LOOK-0008",
+        "LOOK-0009"
+      ]
+    },
+    {
+      "check": "period_to_outfit",
+      "args": [
+        "--relation-type",
+        "context_includes",
+        "--related-to",
+        "GAR-0015"
+      ],
+      "exit": 0,
+      "results": 1,
+      "ids": [
+        "PRD-0001"
+      ]
+    },
+    {
+      "check": "character_to_look",
+      "args": [
+        "--id",
+        "LOOK-0008"
+      ],
+      "exit": 0,
+      "results": 1,
+      "ids": [
+        "LOOK-0008"
+      ]
+    },
+    {
+      "check": "design_to_source",
+      "args": [
+        "--relation-type",
+        "claim_supported_by",
+        "--related-to",
+        "SRC-0538"
+      ],
+      "exit": 0,
+      "results": 2,
+      "ids": [
+        "GAR-0088",
+        "MAT-0017"
+      ]
+    },
+    {
+      "check": "scene_continuity",
+      "args": [
+        "--id",
+        "LOOK-0008",
+        "--id",
+        "SCN-0004"
+      ],
+      "exit": 0,
+      "results": 2,
+      "ids": [
+        "LOOK-0008",
+        "SCN-0004"
+      ]
+    },
+    {
+      "check": "approved_anchors",
+      "args": [
+        "--id",
+        "LOOK-0001"
+      ],
+      "exit": 0,
+      "results": 1,
+      "ids": [
+        "LOOK-0001"
+      ]
+    },
+    {
+      "check": "low_confidence_not_history",
+      "args": [
+        "--relation-type",
+        "may_have_part",
+        "--confidence",
+        "medium",
+        "--limit",
+        "3"
+      ],
+      "exit": 0,
+      "results": 3,
+      "ids": [
+        "GAR-0001",
+        "GAR-0002",
+        "GAR-0003"
+      ]
+    }
+  ],
+  "new_relations_impact": [
+    {
+      "from": "GAR-0015",
+      "to": "STR-0006",
+      "type": "may_have_part",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "GAR-0031",
+      "to": "STR-0011",
+      "type": "may_have_part",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "GAR-0032",
+      "to": "STR-0011",
+      "type": "may_have_part",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "GAR-0083",
+      "to": "STR-0023",
+      "type": "may_have_part",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "LOOK-0001",
+      "to": "GAR-0015",
+      "type": "appears_in_look",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "LOOK-0004",
+      "to": "GAR-0004",
+      "type": "appears_in_look",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "LOOK-0006",
+      "to": "STY-0007",
+      "type": "in_style",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "LOOK-0014",
+      "to": "STY-0010",
+      "type": "in_style",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "LOOK-0024",
+      "to": "GAR-0075",
+      "type": "appears_in_look",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "LOOK-0030",
+      "to": "STY-0012",
+      "type": "in_style",
+      "current_returns": 1,
+      "without_new_relation": 0
+    },
+    {
+      "from": "LOOK-0031",
+      "to": "GAR-0036",
+      "type": "appears_in_look",
+      "current_returns": 1,
+      "without_new_relation": 0
+    }
+  ]
+}
