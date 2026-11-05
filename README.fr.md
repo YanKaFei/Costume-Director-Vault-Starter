@@ -37,6 +37,7 @@
 - [Qualité et limites](#qualité-et-limites)
 - [Droits et conditions d’utilisation](#droits-et-conditions-dutilisation)
 - [État du projet](#état-du-projet)
+- [DSH ecosystem](#dsh-ecosystem)
 
 ## À propos
 
@@ -231,3 +232,12 @@ Ce dépôt est un **atelier de recherche**, pas un manuel d’histoire, une auto
 <p align="center">
   <sub>Costume Director · Carnet de recherche visuelle personnel · Usage non commercial uniquement</sub>
 </p>
+
+## DSH ecosystem
+
+- [Costume Director Vault Starter](https://github.com/YanKaFei/Costume-Director-Vault-Starter) — costume visual knowledge skill
+- [Art Aesthetic Vault](https://github.com/YanKaFei/art-aesthetic-vault) — visual style layers
+- [ASCII H3 Director](https://github.com/YanKaFei/ascii-h3-director) — ASCII / kinetic-typography direction
+- [2D Limited MV Studio](https://github.com/YanKaFei/2d-limited-mv-studio) — 2D anime MV prompt package
+- [Virtual Heroine Atlas](https://github.com/YanKaFei/virtual-heroine-atlas) — virtual character design research
+- [SmartStaff AI](https://github.com/YanKaFei/smartstaff-ai-deepseek-plugin) — restaurant workforce SaaS test framework
