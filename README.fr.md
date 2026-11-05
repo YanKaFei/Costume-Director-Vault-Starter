@@ -4,6 +4,8 @@
 
 <h1 align="center">Costume Director</h1>
 
+<p align="center" data-ecosystem-nav="1"><sub><a href="https://github.com/YanKaFei/Costume-Director-Vault-Starter">Costume</a> · <a href="https://github.com/YanKaFei/art-aesthetic-vault">Art</a> · <a href="https://github.com/YanKaFei/ascii-cinema-engine">ASCII Cinema</a> · <a href="https://github.com/YanKaFei/ascii-h3-director">ASCII H3</a> · <a href="https://github.com/YanKaFei/2d-limited-mv-studio">2D MV</a> · <a href="https://github.com/YanKaFei/virtual-heroine-atlas">Virtual Heroine</a></sub></p>
+
 <p align="center">
   <b>Une base de connaissances visuelles pour le costume, la silhouette et le personnage</b><br>
   <sub>Silhouette · Surface · Construction · Character</sub>
@@ -231,3 +233,13 @@ Ce dépôt est un **atelier de recherche**, pas un manuel d’histoire, une auto
 <p align="center">
   <sub>Costume Director · Carnet de recherche visuelle personnel · Usage non commercial uniquement</sub>
 </p>
+
+
+## DSH ecosystem
+
+- [Costume](https://github.com/YanKaFei/Costume-Director-Vault-Starter) — connaissances visuelles du costume
+- [Art](https://github.com/YanKaFei/art-aesthetic-vault) — couches de style art et cinéma
+- [ASCII Cinema](https://github.com/YanKaFei/ascii-cinema-engine) — cinéma en grille de caractères
+- [ASCII H3](https://github.com/YanKaFei/ascii-h3-director) — direction ASCII / typographie cinétique
+- [2D MV](https://github.com/YanKaFei/2d-limited-mv-studio) — package de prompts MV anime 2D
+- [Virtual Heroine](https://github.com/YanKaFei/virtual-heroine-atlas) — recherche sur les personnages virtuels
