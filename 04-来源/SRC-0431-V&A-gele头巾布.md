@@ -51,3 +51,9 @@ V&A 馆藏对象记录（对象页 + Collections API），含对象类型、年�
 
 ## 相关卡片
 - [[GAR-0070-头巾]]
+- [[LOOK-0013-加纳英国婚礼新娘仪式造型]]
+- [[LOOK-0018-西非阿散蒂家庭节庆]]
+- [[LOOK-0032-Ghanaian-British-wedding-bride,-juxtaposition]]
+- [[SCN-0008-加纳英国婚礼]]
+- [[SCN-0012-阿克拉家庭庆典]]
+- [[STY-0014-diasporic-wedding-juxtaposition]]

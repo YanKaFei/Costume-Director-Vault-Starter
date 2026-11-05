@@ -51,7 +51,7 @@ Utility 裙套装是 1942 年英国 CC41 民用服装方案下的节省布料套
 - 中文造型说明：1942 年英国 CC41 Utility 灰色人字纹裙套装，收腰外套，及膝裙，短袖衬衫，CC41 纽扣。
 
 ## 来源链接
-- `SRC-0413` V&A：1942 年 CC41 Utility 裙套装 — https://collections.vam.ac.uk/item/O15667/
+- [[SRC-0413-V&A-1942Utility裙套装]] V&A：1942 年 CC41 Utility 裙套装 — https://collections.vam.ac.uk/item/O15667/
 - 支撑范围：V&A 藏 1942 年 CC41 Utility 裙套装：灰色人字纹羊毛外套、裙与短袖衬衫；Digby Morton 设计；纽扣铸 CC41 标志；衬衫以布边作下摆节省面料。
 
 ## 相关卡片

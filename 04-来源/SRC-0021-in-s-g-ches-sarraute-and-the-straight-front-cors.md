@@ -49,3 +49,7 @@ tags: [source, thematic_essay, corset, underwear, 1900s]
 ## 可配合的主题
 
 - 束身衣史、内衣结构、1900 年代轮廓
+
+## 相关卡片
+
+- [[PRD-0003-1890年代英美服饰语境]]

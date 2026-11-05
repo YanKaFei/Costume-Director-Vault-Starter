@@ -48,3 +48,7 @@ tags: [source, garment_analysis, byzantine, archaeology, 15th_century]
 ## 可配合的主题
 
 - 拜占庭服饰、考古实物、丝织品、束腰衣
+
+## 相关卡片
+
+- [[PRD-0010-拜占庭帝国晚期]]

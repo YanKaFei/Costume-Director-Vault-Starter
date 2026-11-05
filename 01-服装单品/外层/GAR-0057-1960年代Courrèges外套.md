@@ -54,7 +54,7 @@ Courrèges 外套是 1960 年代 Mod/Space Age 风格代表：箱形轮廓、乙
 - 中文造型说明：1960 年代 Courrèges 深绿乙烯基外套，箱形轮廓，高领，前胸 logo，腰带，硬挺反光。
 
 ## 来源链接
-- `SRC-0417` FIT：1963–1969 Courrèges 乙烯基外套 — https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/
+- [[SRC-0417-FIT-1963-1969Courreges外套]] FIT：1963–1969 Courrèges 乙烯基外套 — https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/
 - 支撑范围：FIT 单件研究：Courrèges 1963–1969 乙烯基外套，箱形轮廓、深绿、前胸品牌 logo、可作外套或连衣裙、腰带明确腰线、高领与纽扣、前袋便于使用；Met 藏 1984.601.5a,b（cotton, polyurethane, acrylic）。
 
 ## 相关卡片

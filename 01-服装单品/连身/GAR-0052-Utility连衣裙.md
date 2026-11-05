@@ -51,7 +51,7 @@ Utility 连衣裙是 1942 年英国战时 Utility 方案下的简化女装：限
 - 中文造型说明：1942 年英国 Utility 猩红人造丝连衣裙，长袖，前扣，垫肩，及膝，简洁战时剪裁。
 
 ## 来源链接
-- `SRC-0412` V&A：1942 年英国 Utility 日装连衣裙 — https://collections.vam.ac.uk/item/O15693/
+- [[SRC-0412-V&A-1942Utility连衣裙]] V&A：1942 年英国 Utility 日装连衣裙 — https://collections.vam.ac.uk/item/O15693/
 - 支撑范围：V&A 藏 1942 年英国 Utility 日装连衣裙：猩红人造丝 crepe、长袖、前扣、垫肩、装饰与缝线集中在胸衣；Utility 方案，Victor Stiebel 设计，Board of Trade pattern 23。
 
 ## 相关卡片

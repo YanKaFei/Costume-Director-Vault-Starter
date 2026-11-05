@@ -41,3 +41,7 @@ tags: [source, vocabulary, aat, p5c]
 ## 可配合的主题
 
 - 绗缝、填充结构
+
+## 相关卡片
+
+- [[STR-0031-填充与绗缝]]

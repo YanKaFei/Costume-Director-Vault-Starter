@@ -51,3 +51,7 @@ tags: [source, ontology, terminology, fashionpedia]
 ## 可配合的主题
 
 - 单品类别、部件、属性标签；提示词与检索字段设计
+
+## 相关卡片
+
+- [[STR-0024-结构属性词表（Fashionpedia）]]

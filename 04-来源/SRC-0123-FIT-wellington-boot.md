@@ -51,3 +51,8 @@ FIT Fashion History Timeline 术语/年代条目：Wellington boot（威灵顿�
 
 ## 相关卡片
 - [[GAR-0022-威灵顿靴]]
+- [[LOOK-0011-废弃空间站维修工]]
+- [[LOOK-0016-1940年代复员军人身份上升]]
+- [[LOOK-0021-当代雨夜调查者四场连续性升级]]
+- [[LOOK-0030-1930s-Shanghai-rain,-female-reporter]]
+- [[LOOK-0033-zero-gravity-opera-singer]]

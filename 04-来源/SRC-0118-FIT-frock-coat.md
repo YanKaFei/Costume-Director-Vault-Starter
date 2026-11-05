@@ -51,3 +51,4 @@ FIT Fashion History Timeline 术语/年代条目：frock coat（夫罗克大衣�
 
 ## 相关卡片
 - [[GAR-0017-夫罗克大衣]]
+- [[STR-0012-翻领与驳领]]

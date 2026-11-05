@@ -41,3 +41,7 @@ tags: [source, vocabulary, aat, p5c]
 ## 可配合的主题
 
 - 羊毛织物、材质族
+
+## 相关卡片
+
+- [[MAT-0015-羊毛织物]]

@@ -51,3 +51,11 @@ V&A 馆藏对象记录（对象页 + Collections API），含对象类型、年�
 
 ## 相关卡片
 - [[MAT-0011-拜占庭samite丝绸]]
+- [[LOOK-0024-Macbeth-ambition-rise,-heath-field-dress]]
+- [[LOOK-0025-Macbeth-guilt,-borrowed-royal-robe]]
+- [[LOOK-0027-Lady-Macbeth-ambition-rise,-reading-the-letter]]
+- [[LOOK-0028-Lady-Macbeth-guilt,-blood-on-the-hands]]
+- [[LOOK-0034-expressionist-Lady-Macbeth-finale]]
+- [[MAT-0012-织物组织]]
+- [[MAT-0014-反光与金属线]]
+- [[MAT-0018-丝绸]]

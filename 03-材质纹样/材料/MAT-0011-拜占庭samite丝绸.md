@@ -49,7 +49,7 @@ samite 是一种斜纹丝织，起源于萨珊波斯，常见于拜占庭/埃及
 - 中文造型说明：拜占庭 samite 斜纹丝绸，黄棕/红黄配色，圆形徽章对鸟纹，方向性丝光。
 
 ## 来源链接
-- `SRC-0423` V&A：约 700–1000 年拜占庭/埃及 samite 丝织物 — https://collections.vam.ac.uk/item/O315431/
+- [[SRC-0423-V&A-拜占庭samite丝绸]] V&A：约 700–1000 年拜占庭/埃及 samite 丝织物 — https://collections.vam.ac.uk/item/O315431/
 - 支撑范围：V&A 藏约 700–1000 年 samite 残片：两片斜纹丝织，可能埃及 Akhmim 或拜占庭，黄棕/红黄丝；圆形徽章（可能双鸟对树）与菱形花卉藤蔓边框；samite 起源于萨珊波斯，常用于装饰。
 
 ## 相关卡片

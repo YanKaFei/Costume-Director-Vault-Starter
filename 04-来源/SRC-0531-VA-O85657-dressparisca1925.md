@@ -45,3 +45,9 @@ tags: [source, museum_collection, vam, p5c]
 ## 可配合的主题
 
 - 领口形态（round）、抽褶、1920s 日装
+
+## 相关卡片
+
+- [[STR-0027-领口形态]]
+- [[STR-0032-褶裥与抽褶]]
+- [[STR-0035-廓形与比例]]

@@ -51,3 +51,6 @@ V&A 馆藏对象记录（对象页 + Collections API），含对象类型、年�
 
 ## 相关卡片
 - [[GAR-0074-哀悼戒指与胸针]]
+- [[GAR-0086-胸针结构]]
+- [[LOOK-0030-1930s-Shanghai-rain,-female-reporter]]
+- [[LOOK-0032-Ghanaian-British-wedding-bride,-juxtaposition]]

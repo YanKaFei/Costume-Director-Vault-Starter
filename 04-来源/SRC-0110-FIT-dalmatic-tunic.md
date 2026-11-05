@@ -51,3 +51,6 @@ FIT Fashion History Timeline 术语/年代条目：dalmatic tunic（达尔马提
 
 ## 相关卡片
 - [[GAR-0009-达尔马提亚长袍]]
+- [[LOOK-0025-Macbeth-guilt,-borrowed-royal-robe]]
+- [[LOOK-0034-expressionist-Lady-Macbeth-finale]]
+- [[STY-0011-northern-medieval-theatrical-minimalism]]

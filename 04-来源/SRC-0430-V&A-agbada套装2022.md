@@ -51,3 +51,4 @@ V&A 馆藏对象记录（对象页 + Collections API），含对象类型、年�
 
 ## 相关卡片
 - [[GAR-0069-阿格巴达]]
+- [[STY-0014-diasporic-wedding-juxtaposition]]

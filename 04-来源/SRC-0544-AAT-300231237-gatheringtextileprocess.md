@@ -41,3 +41,7 @@ tags: [source, vocabulary, aat, p5c]
 ## 可配合的主题
 
 - 抽褶、量感结构
+
+## 相关卡片
+
+- [[STR-0032-褶裥与抽褶]]

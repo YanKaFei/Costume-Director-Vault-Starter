@@ -45,3 +45,8 @@ tags: [source, museum_collection, vam, p5c]
 ## 可配合的主题
 
 - 腰封/束腰带、1940s New Look、腰线塑形
+
+## 相关卡片
+
+- [[GAR-0089-腰封-束腰带]]
+- [[STR-0035-廓形与比例]]

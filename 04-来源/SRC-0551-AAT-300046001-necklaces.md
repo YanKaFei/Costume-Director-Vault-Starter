@@ -41,3 +41,7 @@ tags: [source, vocabulary, aat, p5c]
 ## 可配合的主题
 
 - 项链、配饰/珠宝
+
+## 相关卡片
+
+- [[GAR-0090-项链与耳环]]

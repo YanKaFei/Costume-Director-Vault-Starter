@@ -51,3 +51,5 @@ FIT Fashion History Timeline 术语/年代条目：Chantilly lace（尚蒂伊蕾
 
 ## 相关卡片
 - [[MAT-0002-尚蒂伊蕾丝]]
+- [[LOOK-0030-1930s-Shanghai-rain,-female-reporter]]
+- [[LOOK-0035-1930s-Shanghai-rain,-male-reporter]]

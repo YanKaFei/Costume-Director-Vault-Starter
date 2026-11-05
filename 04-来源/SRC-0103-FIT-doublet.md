@@ -51,3 +51,4 @@ FIT Fashion History Timeline 术语/年代条目：doublet（达布里特）
 
 ## 相关卡片
 - [[GAR-0002-达布里特]]
+- [[LOOK-0003-十六世纪欧洲宫廷男装]]

@@ -51,3 +51,5 @@ The Met Collection API 对象元数据：4–7 世纪科普特（Coptic）束腰
 
 ## 相关卡片
 - [[GAR-0061-科普特束腰长袍]]
+- [[LOOK-0026-Macbeth-downfall,-stripped-kingship]]
+- [[STY-0011-northern-medieval-theatrical-minimalism]]

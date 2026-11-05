@@ -16,3 +16,7 @@
 - [FIT Fashion History Timeline](https://fashionhistory.fitnyc.edu/)
 - [Met Open Access](https://github.com/metmuseum/openaccess)
 - [Costume Designers Guild](https://costumedesignersguild.com/what-is-costume-design/)
+
+## 知识库导航
+
+- 从 [[00-系统/MOC/README|MOC 总览]] 进入分类导航；本 README 只说明启动包用途。

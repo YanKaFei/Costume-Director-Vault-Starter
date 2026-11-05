@@ -51,3 +51,9 @@ FIT Fashion History Timeline 术语/年代条目：kente（肯特布）
 
 ## 相关卡片
 - [[MAT-0005-肯特布]]
+- [[LOOK-0013-加纳英国婚礼新娘仪式造型]]
+- [[LOOK-0018-西非阿散蒂家庭节庆]]
+- [[LOOK-0032-Ghanaian-British-wedding-bride,-juxtaposition]]
+- [[SCN-0008-加纳英国婚礼]]
+- [[SCN-0012-阿克拉家庭庆典]]
+- [[STY-0014-diasporic-wedding-juxtaposition]]

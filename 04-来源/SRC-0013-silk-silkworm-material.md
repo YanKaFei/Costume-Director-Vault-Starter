@@ -48,3 +48,7 @@ tags: [source, aat, terminology, material, silk]
 ## 可配合的主题
 
 - 材质属性、丝绸、面料术语
+
+## 相关卡片
+
+- [[MAT-0018-丝绸]]

@@ -49,3 +49,8 @@ tags: [source, industry_framework, costume_practice, continuity, script_breakdow
 ## 可配合的主题
 
 - 服装部门角色、剧本拆解、continuity、面料动态、时期内衣
+
+## 相关卡片
+
+- [[LOOK-0007-当代雨夜调查者连续性]]
+- [[SCN-0001-雨夜追查]]

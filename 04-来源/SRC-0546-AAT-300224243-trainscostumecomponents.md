@@ -41,3 +41,7 @@ tags: [source, vocabulary, aat, p5c]
 ## 可配合的主题
 
 - 拖尾、裙摆结构
+
+## 相关卡片
+
+- [[STR-0034-拖尾]]

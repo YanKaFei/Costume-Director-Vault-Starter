@@ -41,3 +41,7 @@ tags: [source, vocabulary, aat, p5c]
 ## 可配合的主题
 
 - 里布与衬、结构塑形
+
+## 相关卡片
+
+- [[STR-0030-里布与衬]]

@@ -50,3 +50,11 @@ tags: [source, book, public_domain, gutenberg, gutenberg_pg, fashion_history]
 ## 可配合的主题
 
 - 详见 `06-时代地域/书籍研究/` 与 `11-验收/P4-BOOKS/`。
+
+## 相关卡片
+
+- [[GAR-0008-马甲]]
+- [[GAR-0011-尼克裤]]
+- [[GAR-0017-夫罗克大衣]]
+- [[GAR-0077-紧身长袜]]
+- [[MAT-0015-羊毛织物]]

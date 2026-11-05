@@ -185,6 +185,16 @@ def main():
         t = target.strip().strip("[]").replace("\\", "/")
         if t.endswith(".md"):
             t = t[:-3]
+        # Obsidian also resolves folder-qualified paths (e.g. 04-来源/README).
+        if t in nodes:
+            return t
+        if (t + ".md") in nodes:
+            return t + ".md"
+        base = t.split("/")[-1]
+        if base in by_stem:
+            return by_stem[base]
+        if base.lower() in by_lower:
+            return by_lower[base.lower()]
         if t in by_stem:
             return by_stem[t]
         if t.lower() in by_lower:

@@ -54,3 +54,4 @@ FIT Fashion History Timeline 单件研究：André Courrèges 1963–1969 年乙
 
 ## 相关卡片
 - [[GAR-0057-1960年代Courrèges外套]]
+- [[MAT-0019-现代合成纤维与防水涂层]]

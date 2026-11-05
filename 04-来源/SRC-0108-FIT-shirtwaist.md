@@ -51,3 +51,4 @@ FIT Fashion History Timeline 术语/年代条目：shirtwaist（衬衫式女衫�
 
 ## 相关卡片
 - [[GAR-0007-衬衫式女衫]]
+- [[STR-0017-门襟]]

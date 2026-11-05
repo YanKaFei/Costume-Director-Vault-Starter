@@ -51,3 +51,4 @@ FIT Fashion History Timeline 术语/年代条目：Lurex（卢勒克斯金属线
 
 ## 相关卡片
 - [[MAT-0004-卢勒克斯金属线]]
+- [[MAT-0014-反光与金属线]]

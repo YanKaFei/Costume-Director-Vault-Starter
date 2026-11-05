@@ -48,7 +48,7 @@ relations:
 - 中文造型说明：按类别/部件/属性分层描述服装：类别（单品类型）、部件（领袖腰摆）、属性（形状/长度/闭合/材料）。
 
 ## 来源链接
-- `SRC-0001` Fashionpedia 时尚本体（主页） — https://fashionpedia.github.io/home/index.html
+- [[SRC-0001-fashionpedia]] Fashionpedia 时尚本体（主页） — https://fashionpedia.github.io/home/index.html
 - 支撑范围：Fashionpedia 主页（SRC-0001）：专家构建的服饰本体，27 main apparel categories、19 apparel parts、294 fine-grained attributes；类别与属性分离。
 
 ## 相关卡片

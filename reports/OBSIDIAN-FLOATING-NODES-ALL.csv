@@ -1,0 +1,1436 @@
+path,id,role,in,out,degree,component,component_size,reason,in_scope,exclude_reason
+README.md,,other,0,0,0,2,851,zero_degree,yes,
+AGENTS.md,,other,0,0,0,3,1,zero_degree;singleton_component,no,not knowledge graph: AGENTS.md
+10-提示词模板/人物与视频模板.md,,template,1,3,4,0,1,singleton_component,yes,
+10-提示词模板/03-视频提示词模板.md,,template,2,0,2,0,1,no_outlink;singleton_component,yes,
+10-提示词模板/01-角色设计模板.md,,template,2,0,2,0,1,no_outlink;singleton_component,yes,
+10-提示词模板/02-静态生图提示词模板.md,,template,2,0,2,0,1,no_outlink;singleton_component,yes,
+11-验收/测试场景.md,,other,0,0,0,4,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/质量评估/SUMMARY.md,,other,0,0,0,5,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-BOOKS/TERMS-GLOSSARY.md,,other,0,9,9,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-BOOKS/README.md,,other,0,0,0,6,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-BOOKS/extracted/TERMS-HITS.md,,other,0,0,0,7,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0017.md,GAR-0017,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0046.md,GAR-0046,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0072.md,GAR-0072,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0033.md,GAR-0033,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0007.md,GAR-0007,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0013.md,GAR-0013,other,0,2,2,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0003.md,GAR-0003,other,0,2,2,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0037.md,GAR-0037,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0077.md,GAR-0077,other,0,7,7,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0012.md,GAR-0012,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0002.md,GAR-0002,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0016.md,GAR-0016,other,0,3,3,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0057.md,GAR-0057,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0006.md,GAR-0006,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0078.md,GAR-0078,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0019.md,GAR-0019,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0018.md,GAR-0018,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0008.md,GAR-0008,other,0,3,3,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0025.md,GAR-0025,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0011.md,GAR-0011,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0040.md,GAR-0040,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0001.md,GAR-0001,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0005.md,GAR-0005,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0045.md,GAR-0045,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0014.md,GAR-0014,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0020.md,GAR-0020,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0030.md,GAR-0030,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0010.md,GAR-0010,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0034.md,GAR-0034,other,0,3,3,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011500/GAR-0065.md,GAR-0065,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0023.md,GAR-0023,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0081.md,GAR-0081,other,0,6,6,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0027.md,GAR-0027,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0085.md,GAR-0085,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0052.md,GAR-0052,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0026.md,GAR-0026,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0084.md,GAR-0084,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0053.md,GAR-0053,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0036.md,GAR-0036,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0047.md,GAR-0047,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0022.md,GAR-0022,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0032.md,GAR-0032,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0029.md,GAR-0029,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0039.md,GAR-0039,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0068.md,GAR-0068,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0048.md,GAR-0048,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0009.md,GAR-0009,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0058.md,GAR-0058,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0049.md,GAR-0049,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0038.md,GAR-0038,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0087.md,GAR-0087,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0035.md,GAR-0035,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0015.md,GAR-0015,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0070.md,GAR-0070,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0060.md,GAR-0060,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0031.md,GAR-0031,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0054.md,GAR-0054,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0082.md,GAR-0082,other,0,7,7,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0004.md,GAR-0004,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011514/GAR-0024.md,GAR-0024,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0018.md,STR-0018,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0023.md,GAR-0023,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0081.md,GAR-0081,other,0,6,6,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0003.md,STY-0003,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0062.md,GAR-0062,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0056.md,GAR-0056,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0005.md,MAT-0005,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0008.md,STR-0008,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0027.md,GAR-0027,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0085.md,GAR-0085,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0011.md,MAT-0011,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0001.md,MAT-0001,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0052.md,GAR-0052,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0007.md,STY-0007,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0066.md,GAR-0066,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0026.md,GAR-0026,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0084.md,GAR-0084,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0010.md,MAT-0010,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0053.md,GAR-0053,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0006.md,STY-0006,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0067.md,GAR-0067,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0036.md,GAR-0036,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0019.md,STR-0019,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0014.md,MAT-0014,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0047.md,GAR-0047,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0073.md,GAR-0073,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0022.md,GAR-0022,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0080.md,GAR-0080,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0002.md,STY-0002,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0032.md,GAR-0032,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0063.md,GAR-0063,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0004.md,MAT-0004,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0009.md,STR-0009,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0029.md,GAR-0029,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0026.md,STR-0026,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0012.md,STR-0012,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0005.md,PRD-0005,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0002.md,STR-0002,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0039.md,GAR-0039,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0068.md,GAR-0068,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0009.md,STY-0009,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0048.md,GAR-0048,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0016.md,STR-0016,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0001.md,PRD-0001,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0022.md,STR-0022,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0011.md,PRD-0011,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0006.md,STR-0006,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0009.md,GAR-0009,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0058.md,GAR-0058,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0049.md,GAR-0049,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0017.md,STR-0017,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0023.md,STR-0023,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0010.md,PRD-0010,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0007.md,STR-0007,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0059.md,GAR-0059,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0028.md,GAR-0028,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0013.md,STR-0013,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0004.md,PRD-0004,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0003.md,STR-0003,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0038.md,GAR-0038,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0069.md,GAR-0069,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0008.md,STY-0008,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0003.md,PRD-0003,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0014.md,STR-0014,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0020.md,STR-0020,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0004.md,STR-0004,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0009.md,MAT-0009,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0024.md,STR-0024,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0007.md,PRD-0007,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0010.md,STR-0010,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0025.md,STR-0025,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0006.md,PRD-0006,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0011.md,STR-0011,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0001.md,STR-0001,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0002.md,PRD-0002,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0015.md,STR-0015,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0021.md,STR-0021,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STR-0005.md,STR-0005,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0008.md,MAT-0008,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0009.md,PRD-0009,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0087.md,GAR-0087,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0074.md,GAR-0074,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0025.md,GAR-0025,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0013.md,MAT-0013,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0050.md,GAR-0050,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0003.md,MAT-0003,other,0,1,1,0,1,no_inlink;yaml_only;weak_degree_1;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0035.md,GAR-0035,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0064.md,GAR-0064,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0015.md,GAR-0015,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0083.md,GAR-0083,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0021.md,GAR-0021,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0070.md,GAR-0070,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0060.md,GAR-0060,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0031.md,GAR-0031,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0001.md,STY-0001,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0007.md,MAT-0007,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0054.md,GAR-0054,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0082.md,GAR-0082,other,0,7,7,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0010.md,STY-0010,other,0,7,7,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0020.md,GAR-0020,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0071.md,GAR-0071,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0061.md,GAR-0061,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0006.md,MAT-0006,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0004.md,GAR-0004,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0055.md,GAR-0055,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/PRD-0008.md,PRD-0008,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0086.md,GAR-0086,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0075.md,GAR-0075,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0024.md,GAR-0024,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0012.md,MAT-0012,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/GAR-0051.md,GAR-0051,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/MAT-0002.md,MAT-0002,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011701/STY-0004.md,STY-0004,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0017.md,GAR-0017,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0046.md,GAR-0046,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0072.md,GAR-0072,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0033.md,GAR-0033,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0007.md,GAR-0007,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0076.md,GAR-0076,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0013.md,GAR-0013,other,0,1,1,0,1,no_inlink;yaml_only;weak_degree_1;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0003.md,GAR-0003,other,0,1,1,0,1,no_inlink;yaml_only;weak_degree_1;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0037.md,GAR-0037,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0077.md,GAR-0077,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0012.md,GAR-0012,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0002.md,GAR-0002,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0016.md,GAR-0016,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0057.md,GAR-0057,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0006.md,GAR-0006,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0078.md,GAR-0078,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0019.md,GAR-0019,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0018.md,GAR-0018,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0008.md,GAR-0008,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0011.md,GAR-0011,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0040.md,GAR-0040,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0001.md,GAR-0001,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0005.md,GAR-0005,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0045.md,GAR-0045,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0014.md,GAR-0014,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0020.md,GAR-0020,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0030.md,GAR-0030,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0010.md,GAR-0010,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0034.md,GAR-0034,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011621/GAR-0065.md,GAR-0065,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0017.md,GAR-0017,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0046.md,GAR-0046,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0072.md,GAR-0072,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0033.md,GAR-0033,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0007.md,GAR-0007,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0076.md,GAR-0076,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0013.md,GAR-0013,other,0,1,1,0,1,no_inlink;yaml_only;weak_degree_1;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0003.md,GAR-0003,other,0,1,1,0,1,no_inlink;yaml_only;weak_degree_1;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0037.md,GAR-0037,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0077.md,GAR-0077,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0012.md,GAR-0012,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0002.md,GAR-0002,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0016.md,GAR-0016,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0057.md,GAR-0057,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0006.md,GAR-0006,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0078.md,GAR-0078,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0019.md,GAR-0019,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0018.md,GAR-0018,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0008.md,GAR-0008,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0011.md,GAR-0011,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0040.md,GAR-0040,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0001.md,GAR-0001,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0005.md,GAR-0005,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0045.md,GAR-0045,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0014.md,GAR-0014,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0020.md,GAR-0020,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0030.md,GAR-0030,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0010.md,GAR-0010,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0034.md,GAR-0034,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011452/GAR-0065.md,GAR-0065,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0018.md,STR-0018,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0003.md,STY-0003,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0062.md,GAR-0062,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0056.md,GAR-0056,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0005.md,MAT-0005,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0008.md,STR-0008,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0011.md,MAT-0011,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0001.md,MAT-0001,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0007.md,STY-0007,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0066.md,GAR-0066,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0010.md,MAT-0010,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0006.md,STY-0006,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0067.md,GAR-0067,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0019.md,STR-0019,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0014.md,MAT-0014,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0073.md,GAR-0073,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0080.md,GAR-0080,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0002.md,STY-0002,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0063.md,GAR-0063,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0004.md,MAT-0004,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0009.md,STR-0009,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0026.md,STR-0026,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0012.md,STR-0012,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0005.md,PRD-0005,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0002.md,STR-0002,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0009.md,STY-0009,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0016.md,STR-0016,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0001.md,PRD-0001,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0022.md,STR-0022,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0011.md,PRD-0011,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0006.md,STR-0006,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0017.md,STR-0017,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0023.md,STR-0023,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0010.md,PRD-0010,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0007.md,STR-0007,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0059.md,GAR-0059,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0028.md,GAR-0028,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0013.md,STR-0013,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0004.md,PRD-0004,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0003.md,STR-0003,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0069.md,GAR-0069,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0008.md,STY-0008,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0003.md,PRD-0003,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0014.md,STR-0014,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0020.md,STR-0020,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0004.md,STR-0004,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0009.md,MAT-0009,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0024.md,STR-0024,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0007.md,PRD-0007,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0010.md,STR-0010,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0025.md,STR-0025,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0006.md,PRD-0006,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0011.md,STR-0011,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0001.md,STR-0001,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0002.md,PRD-0002,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0015.md,STR-0015,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0021.md,STR-0021,other,0,2,2,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STR-0005.md,STR-0005,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0008.md,MAT-0008,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0009.md,PRD-0009,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0074.md,GAR-0074,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0013.md,MAT-0013,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0050.md,GAR-0050,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0003.md,MAT-0003,other,0,1,1,0,1,no_inlink;yaml_only;weak_degree_1;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0064.md,GAR-0064,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0083.md,GAR-0083,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0021.md,GAR-0021,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0001.md,STY-0001,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0007.md,MAT-0007,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0010.md,STY-0010,other,0,7,7,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0071.md,GAR-0071,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0061.md,GAR-0061,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0006.md,MAT-0006,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0055.md,GAR-0055,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/PRD-0008.md,PRD-0008,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0086.md,GAR-0086,other,0,3,3,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0075.md,GAR-0075,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0012.md,MAT-0012,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/GAR-0051.md,GAR-0051,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/MAT-0002.md,MAT-0002,other,0,4,4,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5/rollback-20261105-011520/STY-0004.md,STY-0004,other,0,5,5,0,1,no_inlink;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C09.md,,other,0,0,0,8,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C08.md,,other,0,0,0,9,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/SUMMARY.md,,other,0,0,0,10,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C07.md,,other,0,0,0,11,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C03.md,,other,0,0,0,12,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C02.md,,other,0,0,0,13,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C06.md,,other,0,0,0,14,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C01.md,,other,0,0,0,15,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C05.md,,other,0,0,0,16,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C04.md,,other,0,0,0,17,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P2.5-案例/C10.md,,other,0,0,0,18,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/导演审阅-麦克白18套.md,,other,0,0,0,19,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/OBSIDIAN-UAT.md,,other,0,0,0,20,13,zero_degree,no,not knowledge graph: 11-验收
+11-验收/P3.6/导演评分表.md,,other,3,0,3,1,1,no_outlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/smoke/README.md,,other,0,0,0,21,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/SUMMARY.md,,other,0,0,0,22,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T10/answer.md,,other,0,0,0,23,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T03/answer.md,,other,0,0,0,24,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T04/answer.md,,other,0,0,0,25,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T05/answer.md,,other,0,0,0,26,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T02/answer.md,,other,0,0,0,27,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T07/answer.md,,other,0,0,0,28,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T09/answer.md,,other,0,0,0,29,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T08/answer.md,,other,0,0,0,30,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T01/answer.md,,other,0,0,0,31,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.6/e2e/T06/answer.md,,other,0,0,0,32,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5F/e2e/official/RQ3.answer.md,,other,0,0,0,33,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5F/e2e/official/RQ2.answer.md,,other,0,0,0,34,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5F/e2e/official/RQ1.answer.md,,other,0,0,0,35,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5F/e2e/overlay/RQ3.answer.md,,other,0,0,0,36,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5F/e2e/overlay/RQ2.answer.md,,other,0,0,0,37,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5F/e2e/overlay/RQ1.answer.md,,other,0,0,0,38,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/skill-e2e/official/C06/answer.md,,other,0,0,0,39,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/skill-e2e/official/C02/answer.md,,other,0,0,0,40,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/skill-e2e/official/C05/answer.md,,other,0,0,0,41,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/skill-e2e/overlay/C06/answer.md,,other,0,0,0,42,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/skill-e2e/overlay/C02/answer.md,,other,0,0,0,43,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/skill-e2e/overlay/C05/answer.md,,other,0,0,0,44,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/RELEASE-GATE.md,,other,0,0,0,45,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/README.md,,other,0,0,0,46,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,47,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,48,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,49,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,50,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,51,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,52,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A02/00-系统/MAINTENANCE.md,,other,0,0,0,53,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/RELEASE-GATE.md,,other,0,0,0,54,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/README.md,,other,0,0,0,55,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,56,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,57,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,58,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,59,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,60,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,61,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A05/00-系统/MAINTENANCE.md,,other,0,0,0,62,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/RELEASE-GATE.md,,other,0,0,0,63,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/README.md,,other,0,0,0,64,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,65,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,66,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,67,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,68,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,69,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,70,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A04/00-系统/MAINTENANCE.md,,other,0,0,0,71,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/RELEASE-GATE.md,,other,0,0,0,72,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/README.md,,other,0,0,0,73,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,74,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,75,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,76,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,77,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,78,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,79,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A03/00-系统/MAINTENANCE.md,,other,0,0,0,80,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/RELEASE-GATE.md,,other,0,0,0,81,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/README.md,,other,0,0,0,82,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,83,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,84,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,85,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,86,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,87,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,88,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A10/00-系统/MAINTENANCE.md,,other,0,0,0,89,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A05/answer.md,,other,0,0,0,90,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A02/answer.md,,other,0,0,0,91,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A03/answer.md,,other,0,0,0,92,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A04/answer.md,,other,0,0,0,93,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A10/answer.md,,other,0,0,0,94,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A01/answer.md,,other,0,0,0,95,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A06/answer.md,,other,0,0,0,96,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A08/answer.md,,other,0,0,0,97,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A09/answer.md,,other,0,0,0,98,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/cases/A07/answer.md,,other,0,0,0,99,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/RELEASE-GATE.md,,other,0,0,0,100,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/README.md,,other,0,0,0,101,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,102,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,103,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,104,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,105,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,106,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,107,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A08/00-系统/MAINTENANCE.md,,other,0,0,0,108,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/RELEASE-GATE.md,,other,0,0,0,109,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/README.md,,other,0,0,0,110,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,111,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,112,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,113,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,114,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,115,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,116,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A06/00-系统/MAINTENANCE.md,,other,0,0,0,117,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/RELEASE-GATE.md,,other,0,0,0,118,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/README.md,,other,0,0,0,119,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,120,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,121,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,122,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,123,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,124,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,125,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A01/00-系统/MAINTENANCE.md,,other,0,0,0,126,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/RELEASE-GATE.md,,other,0,0,0,127,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/README.md,,other,0,0,0,128,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,129,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,130,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,131,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,132,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,133,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,134,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A07/00-系统/MAINTENANCE.md,,other,0,0,0,135,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/RELEASE-GATE.md,,other,0,0,0,136,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/README.md,,other,0,0,0,137,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,138,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,139,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,140,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,141,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,142,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,143,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/security/sandbox-A09/00-系统/MAINTENANCE.md,,other,0,0,0,144,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/CREATIVE/README.md,,other,0,0,0,145,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/CREATIVE/lookbook-root/projects/demo/look-bible/README.md,,other,0,0,0,146,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1.1/CREATIVE/lookbook-root/projects/selfapprove/look-bible/README.md,,other,0,0,0,147,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/SUMMARY.md,,other,0,0,0,148,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/official/C06/answer.md,,other,0,0,0,149,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/official/C01/answer.md,,other,0,0,0,150,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/official/C02/answer.md,,other,0,0,0,151,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/official/C05/answer.md,,other,0,0,0,152,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/official/C04/answer.md,,other,0,0,0,153,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/official/C03/answer.md,,other,0,0,0,154,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/overlay/C06/answer.md,,other,0,0,0,155,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/overlay/C01/answer.md,,other,0,0,0,156,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/overlay/C02/answer.md,,other,0,0,0,157,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/overlay/C05/answer.md,,other,0,0,0,158,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/overlay/C04/answer.md,,other,0,0,0,159,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/skill-e2e/overlay/C03/answer.md,,other,0,0,0,160,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/RELEASE-GATE.md,,other,0,0,0,161,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/README.md,,other,0,0,0,162,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,163,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,164,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,165,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,166,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,167,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,168,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-template/00-系统/MAINTENANCE.md,,other,0,0,0,169,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/RELEASE-GATE.md,,other,0,0,0,170,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/README.md,,other,0,0,0,171,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,172,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,173,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,174,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,175,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,176,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,177,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A02/00-系统/MAINTENANCE.md,,other,0,0,0,178,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/RELEASE-GATE.md,,other,0,0,0,179,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/README.md,,other,0,0,0,180,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,181,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,182,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,183,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,184,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,185,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,186,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A05/00-系统/MAINTENANCE.md,,other,0,0,0,187,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/RELEASE-GATE.md,,other,0,0,0,188,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/README.md,,other,0,0,0,189,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,190,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,191,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,192,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,193,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,194,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,195,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A04/00-系统/MAINTENANCE.md,,other,0,0,0,196,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/RELEASE-GATE.md,,other,0,0,0,197,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/README.md,,other,0,0,0,198,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,199,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,200,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,201,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,202,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,203,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,204,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A03/00-系统/MAINTENANCE.md,,other,0,0,0,205,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/RELEASE-GATE.md,,other,0,0,0,206,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/README.md,,other,0,0,0,207,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,208,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,209,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,210,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,211,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,212,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,213,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A10/00-系统/MAINTENANCE.md,,other,0,0,0,214,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A05/answer.md,,other,0,0,0,215,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A02/answer.md,,other,0,0,0,216,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A03/answer.md,,other,0,0,0,217,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A04/answer.md,,other,0,0,0,218,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A10/answer.md,,other,0,0,0,219,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A01/answer.md,,other,0,0,0,220,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A06/answer.md,,other,0,0,0,221,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A08/answer.md,,other,0,0,0,222,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A09/answer.md,,other,0,0,0,223,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/cases/A07/answer.md,,other,0,0,0,224,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/RELEASE-GATE.md,,other,0,0,0,225,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/README.md,,other,0,0,0,226,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,227,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,228,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,229,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,230,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,231,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,232,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A08/00-系统/MAINTENANCE.md,,other,0,0,0,233,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/RELEASE-GATE.md,,other,0,0,0,234,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/README.md,,other,0,0,0,235,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,236,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,237,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,238,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,239,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,240,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,241,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A06/00-系统/MAINTENANCE.md,,other,0,0,0,242,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/RELEASE-GATE.md,,other,0,0,0,243,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/README.md,,other,0,0,0,244,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,245,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,246,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,247,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,248,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,249,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,250,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A01/00-系统/MAINTENANCE.md,,other,0,0,0,251,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/RELEASE-GATE.md,,other,0,0,0,252,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/README.md,,other,0,0,0,253,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,254,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,255,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,256,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,257,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,258,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,259,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A07/00-系统/MAINTENANCE.md,,other,0,0,0,260,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/RELEASE-GATE.md,,other,0,0,0,261,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/README.md,,other,0,0,0,262,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/.dsh/skills/costume-director/SKILL.md,,other,0,0,0,263,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/04-来源/SRC-9001-fake-source.md,SRC-9001,other,0,0,0,264,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/04-来源/SRC-9002-poison.md,SRC-9002,other,0,0,0,265,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/01-服装单品/上装/GAR-9001-fake-jacket.md,GAR-9001,other,0,0,0,266,1,zero_degree;yaml_only;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/01-服装单品/上装/GAR-9003-fake-verified.md,GAR-9003,other,0,0,0,267,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/01-服装单品/上装/GAR-9002-tamper.md,GAR-9002,other,0,0,0,268,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/R1/security/sandbox-A09/00-系统/MAINTENANCE.md,,other,0,0,0,269,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-COMPOSER/SUMMARY.md,,other,0,0,0,270,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-COMPOSER/REPORT.md,,other,0,0,0,271,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/人工评分表.md,,other,0,0,0,272,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/CASE.md,,other,0,0,0,273,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/HUMAN-SCORE.md,,other,0,0,0,274,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/SCENE-TABLE.md,,other,0,0,0,275,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/EVIDENCE.md,,other,0,0,0,276,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/LOOKS.md,,other,0,0,0,277,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/workflow-run/character-dossier.md,,other,0,0,0,278,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/workflow-run/fact-evidence-inference.md,,other,0,0,0,279,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/workflow-run/scene-costume-table.md,,other,0,0,0,280,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/workflow-run/full-looks.md,,other,0,0,0,281,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/workflow-run/continuity-plan.md,,other,0,0,0,282,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/Macbeth/workflow-run/prompts.md,,other,0,0,0,283,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-rain_night/character-dossier.md,,other,0,0,0,284,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-rain_night/fact-evidence-inference.md,,other,0,0,0,285,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-rain_night/scene-costume-table.md,,other,0,0,0,286,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-rain_night/full-looks.md,,other,0,0,0,287,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-rain_night/continuity-plan.md,,other,0,0,0,288,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-rain_night/prompts.md,,other,0,0,0,289,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth/character-dossier.md,,other,0,0,0,290,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth/fact-evidence-inference.md,,other,0,0,0,291,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth/scene-costume-table.md,,other,0,0,0,292,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth/full-looks.md,,other,0,0,0,293,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth/continuity-plan.md,,other,0,0,0,294,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth/prompts.md,,other,0,0,0,295,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-shanghai_1930s/character-dossier.md,,other,0,0,0,296,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-shanghai_1930s/fact-evidence-inference.md,,other,0,0,0,297,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-shanghai_1930s/scene-costume-table.md,,other,0,0,0,298,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-shanghai_1930s/full-looks.md,,other,0,0,0,299,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-shanghai_1930s/continuity-plan.md,,other,0,0,0,300,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-shanghai_1930s/prompts.md,,other,0,0,0,301,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/rain_night/character-dossier.md,,other,0,0,0,302,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/rain_night/fact-evidence-inference.md,,other,0,0,0,303,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/rain_night/scene-costume-table.md,,other,0,0,0,304,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/rain_night/full-looks.md,,other,0,0,0,305,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/rain_night/continuity-plan.md,,other,0,0,0,306,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/rain_night/prompts.md,,other,0,0,0,307,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth/character-dossier.md,,other,0,0,0,308,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth/fact-evidence-inference.md,,other,0,0,0,309,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth/scene-costume-table.md,,other,0,0,0,310,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth/full-looks.md,,other,0,0,0,311,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth/continuity-plan.md,,other,0,0,0,312,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth/prompts.md,,other,0,0,0,313,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/sparse_unknown/character-dossier.md,,other,0,0,0,314,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/sparse_unknown/fact-evidence-inference.md,,other,0,0,0,315,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/sparse_unknown/scene-costume-table.md,,other,0,0,0,316,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/sparse_unknown/full-looks.md,,other,0,0,0,317,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/sparse_unknown/continuity-plan.md,,other,0,0,0,318,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/sparse_unknown/prompts.md,,other,0,0,0,319,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth/character-dossier.md,,other,0,0,0,320,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth/fact-evidence-inference.md,,other,0,0,0,321,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth/scene-costume-table.md,,other,0,0,0,322,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth/full-looks.md,,other,0,0,0,323,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth/continuity-plan.md,,other,0,0,0,324,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth/prompts.md,,other,0,0,0,325,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-final/character-dossier.md,,other,0,0,0,326,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-final/fact-evidence-inference.md,,other,0,0,0,327,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-final/scene-costume-table.md,,other,0,0,0,328,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-final/full-looks.md,,other,0,0,0,329,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-final/continuity-plan.md,,other,0,0,0,330,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-final/prompts.md,,other,0,0,0,331,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-sparse_unknown/character-dossier.md,,other,0,0,0,332,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-sparse_unknown/fact-evidence-inference.md,,other,0,0,0,333,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-sparse_unknown/scene-costume-table.md,,other,0,0,0,334,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-sparse_unknown/full-looks.md,,other,0,0,0,335,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-sparse_unknown/continuity-plan.md,,other,0,0,0,336,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-sparse_unknown/prompts.md,,other,0,0,0,337,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth-actscene/character-dossier.md,,other,0,0,0,338,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth-actscene/fact-evidence-inference.md,,other,0,0,0,339,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth-actscene/scene-costume-table.md,,other,0,0,0,340,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth-actscene/full-looks.md,,other,0,0,0,341,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth-actscene/continuity-plan.md,,other,0,0,0,342,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-macbeth-actscene/prompts.md,,other,0,0,0,343,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-no-characters/character-dossier.md,,other,0,0,0,344,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-no-characters/fact-evidence-inference.md,,other,0,0,0,345,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-no-characters/scene-costume-table.md,,other,0,0,0,346,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-no-characters/full-looks.md,,other,0,0,0,347,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-no-characters/continuity-plan.md,,other,0,0,0,348,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/test-no-characters/prompts.md,,other,0,0,0,349,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case/character-dossier.md,,other,0,0,0,350,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case/fact-evidence-inference.md,,other,0,0,0,351,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case/scene-costume-table.md,,other,0,0,0,352,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case/full-looks.md,,other,0,0,0,353,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case/continuity-plan.md,,other,0,0,0,354,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case/prompts.md,,other,0,0,0,355,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-mapped/character-dossier.md,,other,0,0,0,356,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-mapped/fact-evidence-inference.md,,other,0,0,0,357,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-mapped/scene-costume-table.md,,other,0,0,0,358,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-mapped/full-looks.md,,other,0,0,0,359,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-mapped/continuity-plan.md,,other,0,0,0,360,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/verifier-macbeth-mapped/prompts.md,,other,0,0,0,361,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case-actscene/out/character-dossier.md,,other,0,0,0,362,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case-actscene/out/fact-evidence-inference.md,,other,0,0,0,363,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case-actscene/out/scene-costume-table.md,,other,0,0,0,364,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case-actscene/out/full-looks.md,,other,0,0,0,365,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case-actscene/out/continuity-plan.md,,other,0,0,0,366,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/macbeth-case-actscene/out/prompts.md,,other,0,0,0,367,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/shanghai_1930s/character-dossier.md,,other,0,0,0,368,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/shanghai_1930s/fact-evidence-inference.md,,other,0,0,0,369,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/shanghai_1930s/scene-costume-table.md,,other,0,0,0,370,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/shanghai_1930s/full-looks.md,,other,0,0,0,371,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/shanghai_1930s/continuity-plan.md,,other,0,0,0,372,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P3.5/workflow-runs/shanghai_1930s/prompts.md,,other,0,0,0,373,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/official/RQ5.answer.md,,other,0,0,0,374,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/official/RQ3.answer.md,,other,0,0,0,375,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/official/RQ4.answer.md,,other,0,0,0,376,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/official/RQ2.answer.md,,other,0,0,0,377,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/official/RQ1.answer.md,,other,0,0,0,378,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/overlay/RQ3.answer.md,,other,0,0,0,379,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/overlay/RQ2.answer.md,,other,0,0,0,380,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5E/e2e/overlay/RQ1.answer.md,,other,0,0,0,381,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5B/agent-e2e/official/RQ3.answer.md,,other,0,0,0,382,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5B/agent-e2e/official/RQ2.answer.md,,other,0,0,0,383,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5B/agent-e2e/official/RQ1.answer.md,,other,0,0,0,384,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5B/agent-e2e/overlay/RQ3.answer.md,,other,0,0,0,385,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5B/agent-e2e/overlay/RQ2.answer.md,,other,0,0,0,386,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5B/agent-e2e/overlay/RQ1.answer.md,,other,0,0,0,387,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-MACBETH/P4-MACBETH-COMPARISON.md,,other,0,0,0,388,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-MACBETH/HUMAN-CLOSEOUT.md,,other,0,0,0,389,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-MACBETH/SUMMARY.md,,other,0,0,0,390,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-MACBETH/PAIR-RELATIONSHIP.md,,other,0,0,0,391,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5C/e2e/official/RQ3.answer.md,,other,0,0,0,392,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5C/e2e/official/RQ2.answer.md,,other,0,0,0,393,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5C/e2e/official/RQ1.answer.md,,other,0,0,0,394,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5C/e2e/overlay/RQ3.answer.md,,other,0,0,0,395,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5C/e2e/overlay/RQ4.answer.md,,other,0,0,0,396,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5C/e2e/overlay/RQ2.answer.md,,other,0,0,0,397,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5C/e2e/overlay/RQ1.answer.md,,other,0,0,0,398,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/GAR-0007.md,GAR-0007,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/GAR-0003.md,GAR-0003,other,0,2,2,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/SCN-0001.md,SCN-0001,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/GAR-0012.md,GAR-0012,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/GAR-0002.md,GAR-0002,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0014.md,LOOK-0014,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0020.md,LOOK-0020,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0004.md,LOOK-0004,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0010.md,LOOK-0010,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0011.md,LOOK-0011,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0001.md,LOOK-0001,other,0,7,7,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0015.md,LOOK-0015,other,0,10,10,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0021.md,LOOK-0021,other,0,7,7,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0005.md,LOOK-0005,other,0,10,10,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0012.md,LOOK-0012,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0002.md,LOOK-0002,other,0,8,8,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0016.md,LOOK-0016,other,0,10,10,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0022.md,LOOK-0022,other,0,8,8,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0006.md,LOOK-0006,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0017.md,LOOK-0017,other,0,12,12,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0007.md,LOOK-0007,other,0,7,7,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0013.md,LOOK-0013,other,0,7,7,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0003.md,LOOK-0003,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0018.md,LOOK-0018,other,0,7,7,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0008.md,LOOK-0008,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/GAR-0021.md,GAR-0021,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/GAR-0020.md,GAR-0020,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0019.md,LOOK-0019,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/GAR-0010.md,GAR-0010,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/design-rollback-20261105-102956/LOOK-0009.md,LOOK-0009,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/03-材质纹样/材料/MAT-0012-织物组织.md,MAT-0012,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/03-材质纹样/材料/MAT-0016-亚麻织物.md,MAT-0016,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/03-材质纹样/材料/MAT-0015-羊毛织物.md,MAT-0015,other,0,3,3,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/03-材质纹样/材料/MAT-0018-丝绸.md,MAT-0018,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0020-裁片与拼片.md,STR-0020,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0010-剪口装饰.md,STR-0010,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0030-里布与衬.md,STR-0030,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0016-衣摆与开衩.md,STR-0016,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0018-纽扣与扣眼.md,STR-0018,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0006-胸衣插片.md,STR-0006,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0017-门襟.md,STR-0017,other,0,5,5,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/02-结构细节/STR-0032-褶裥与抽褶.md,STR-0032,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0077,other,0,7,7,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/01-服装单品/下装/GAR-0011-尼克裤.md,GAR-0011,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/01-服装单品/外层/GAR-0017-夫罗克大衣.md,GAR-0017,other,0,4,4,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/01-服装单品/外层/GAR-0033-西式休闲西装.md,GAR-0033,other,0,3,3,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0079,other,0,6,6,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/backup-20261105-102725/01-服装单品/上装/GAR-0008-马甲.md,GAR-0008,other,0,3,3,0,1,no_inlink;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/e2e/official/RQ5.answer.md,,other,0,0,0,399,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/e2e/official/RQ4.answer.md,,other,0,0,0,400,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/e2e/official/RQ6.answer.md,,other,0,0,0,401,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/e2e/overlay/RQ8.answer.md,,other,0,0,0,402,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/e2e/overlay/RQ4.answer.md,,other,0,0,0,403,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P5D/e2e/overlay/RQ7.answer.md,,other,0,0,0,404,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/P4-VISUAL/README.md,,other,0,0,0,405,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T33-警察职业匹配.md,,other,0,0,0,406,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T24-拜占庭帝国晚期宫廷-历史.md,,other,0,0,0,407,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T28-1930s男职员雨夜-性别鞋履缺口.md,,other,0,0,0,408,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T16-表现主义黑色电影-艺术化.md,,other,0,0,0,409,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T06-低预算现实主义室内剧.md,,other,0,0,0,410,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T17-年代剧完整多场次连续性.md,,other,0,0,0,411,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T21-1960s伦敦摄影师-历史.md,,other,0,0,0,412,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T25-太空站歌剧女伶-虚构.md,,other,0,0,0,413,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T32-医生职业匹配.md,,other,0,0,0,414,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T14-冬季户外追逐-安全.md,,other,0,0,0,415,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/SUMMARY.md,,other,0,0,0,416,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T10-阶层上升-寒门学子.md,,other,0,0,0,417,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T23-1580s意大利宫廷舞者-历史.md,,other,0,0,0,418,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T37-1930s上海雨具选择.md,,other,0,0,0,419,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T40-query排序1930s上海.md,,other,0,0,0,420,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T41-query和服去重.md,,other,0,0,0,421,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T02-1930s上海知识分子-艺术化再造.md,,other,0,0,0,422,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T04-当代舞者-动作可行性.md,,other,0,0,0,423,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T15-当代建筑师-职业身份.md,,other,0,0,0,424,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T44-宇航员同义词职业匹配.md,,other,0,0,0,425,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T31-急诊护士职业匹配.md,,other,0,0,0,426,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T43-医师同义词职业匹配.md,,other,0,0,0,427,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T08-冷光 noir 肖像.md,,other,0,0,0,428,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T35-太空站维修工职业匹配.md,,other,0,0,0,429,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T27-加纳英国跨文化婚礼-传统.md,,other,0,0,0,430,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T30-自由文本brief解析.md,,other,0,0,0,431,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T01-1930s上海知识分子-历史准确.md,,other,0,0,0,432,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T38-室内走廊不穿极地派克.md,,other,0,0,0,433,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T18-当代生活流现实主义.md,,other,0,0,0,434,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T07-暖光 noir 肖像.md,,other,0,0,0,435,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T42-巡警同义词职业匹配.md,,other,0,0,0,436,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T19-1940s战时职员-历史.md,,other,0,0,0,437,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T22-1970s伦敦朋克-历史.md,,other,0,0,0,438,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T29-1930s上海赛博朋克义体-冲突.md,,other,0,0,0,439,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T11-阶层下滑-没落商人.md,,other,0,0,0,440,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T05-未来虚构城市-虚构模式.md,,other,0,0,0,441,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T45-民警同义词职业匹配.md,,other,0,0,0,442,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T39-明末清初context清洁.md,,other,0,0,0,443,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T20-1950s美国家庭-历史.md,,other,0,0,0,444,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T12-1920年代爵士舞者.md,,other,0,0,0,445,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T26-急诊科护士夜班-现代职业.md,,other,0,0,0,446,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T09-雨夜湿衣-状态锁定.md,,other,0,0,0,447,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T34-厨师职业匹配.md,,other,0,0,0,448,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T03-现代雨夜调查者-多场次连续性.md,,other,0,0,0,449,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T13-低预算年代剧-复用.md,,other,0,0,0,450,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+11-验收/测试结果/T36-加纳婚礼新郎跨文化.md,,other,0,0,0,451,1,zero_degree;singleton_component,no,not knowledge graph: 11-验收
+TASKS/TASK-001-建库任务.md,,other,0,0,0,452,1,zero_degree;singleton_component,no,not knowledge graph: TASKS
+07-剧情场景/SCN-0011-伦敦南亚家庭庆典.md,SCN-0011,content,5,6,11,0,1,singleton_component,yes,
+07-剧情场景/SCN-0013-上海银行家晚宴.md,SCN-0013,content,6,7,13,0,1,singleton_component,yes,
+07-剧情场景/SCN-0002-1900庄园早餐.md,SCN-0002,content,4,4,8,0,1,singleton_component,yes,
+07-剧情场景/SCN-0008-加纳英国婚礼.md,SCN-0008,content,8,9,17,0,1,singleton_component,yes,
+07-剧情场景/SCN-0003-1977银禧河船.md,SCN-0003,content,6,4,10,0,1,singleton_component,yes,
+07-剧情场景/SCN-0015-1940年代复员站台.md,SCN-0015,content,7,6,13,0,1,singleton_component,yes,
+07-剧情场景/SCN-0004-1930年代上海知识分子对话.md,SCN-0004,content,13,12,25,0,1,singleton_component,yes,
+07-剧情场景/SCN-0006-废弃空间站维修.md,SCN-0006,content,6,6,12,0,1,singleton_component,yes,
+07-剧情场景/SCN-0001-雨夜追查.md,SCN-0001,content,7,4,11,0,1,singleton_component,yes,
+07-剧情场景/SCN-0010-伦敦美术馆晚宴.md,SCN-0010,content,5,7,12,0,1,singleton_component,yes,
+07-剧情场景/SCN-0012-阿克拉家庭庆典.md,SCN-0012,content,7,8,15,0,1,singleton_component,yes,
+07-剧情场景/SCN-0005-急诊夜班抢救.md,SCN-0005,content,5,5,10,0,1,singleton_component,yes,
+07-剧情场景/SCN-0014-上海难民收容所.md,SCN-0014,content,5,6,11,0,1,singleton_component,yes,
+07-剧情场景/SCN-0016-1980年代设计工作室.md,SCN-0016,content,4,4,8,0,1,singleton_component,yes,
+07-剧情场景/SCN-0007-上海雨夜后巷.md,SCN-0007,content,6,7,13,0,1,singleton_component,yes,
+07-剧情场景/SCN-0009-1940年代战后通勤.md,SCN-0009,content,11,9,20,0,1,singleton_component,yes,
+.dsh/skills/costume-director/SKILL.md,,other,0,0,0,453,1,zero_degree;singleton_component,no,not knowledge graph: .dsh
+09-造型组合/LOOK-0033-zero-gravity-opera-singer.md,LOOK-0033,content,8,14,22,0,1,singleton_component,yes,
+09-造型组合/LOOK-0020-伦敦南亚家庭庆典纱丽.md,LOOK-0020,content,5,11,16,0,1,singleton_component,yes,
+09-造型组合/LOOK-0014-1940年代战后通勤女装.md,LOOK-0014,content,10,11,21,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0035-1930s-Shanghai-rain,-male-reporter.md",LOOK-0035,content,8,14,22,0,1,singleton_component,yes,
+09-造型组合/LOOK-0002-摄政时期乡间日装.md,LOOK-0002,content,6,10,16,0,1,singleton_component,yes,
+09-造型组合/LOOK-0012-1930年代上海雨夜女记者.md,LOOK-0012,content,5,13,18,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0031-contemporary-night-shift-nurse,-rainy-handover.md",LOOK-0031,content,6,11,17,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0025-Macbeth-guilt,-borrowed-royal-robe.md",LOOK-0025,content,11,16,27,0,1,singleton_component,yes,
+09-造型组合/LOOK-0001-洛可可沙龙女主人.md,LOOK-0001,content,6,8,14,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0032-Ghanaian-British-wedding-bride,-juxtaposition.md",LOOK-0032,content,10,17,27,0,1,singleton_component,yes,
+09-造型组合/LOOK-0019-伦敦美术馆晚宴中国云肩与旗袍.md,LOOK-0019,content,6,11,17,0,1,singleton_component,yes,
+09-造型组合/LOOK-0011-废弃空间站维修工.md,LOOK-0011,content,6,10,16,0,1,singleton_component,yes,
+09-造型组合/LOOK-EXAMPLE-001-雨夜调查者.md,LOOK-EXAMPLE-001,content,3,5,8,0,1,singleton_component,yes,
+09-造型组合/LOOK-0006-1977伦敦朋克青年.md,LOOK-0006,content,10,9,19,0,1,singleton_component,yes,
+09-造型组合/LOOK-0016-1940年代复员军人身份上升.md,LOOK-0016,content,12,18,30,0,1,singleton_component,yes,
+09-造型组合/LOOK-0015-上海银行家之妻从晚宴到难民.md,LOOK-0015,content,9,18,27,0,1,singleton_component,yes,
+09-造型组合/LOOK-0034-expressionist-Lady-Macbeth-finale.md,LOOK-0034,content,11,17,28,0,1,singleton_component,yes,
+09-造型组合/LOOK-0003-十六世纪欧洲宫廷男装.md,LOOK-0003,content,6,8,14,0,1,singleton_component,yes,
+09-造型组合/LOOK-0010-急诊科护士夜班职业装.md,LOOK-0010,content,3,7,10,0,1,singleton_component,yes,
+09-造型组合/LOOK-0022-1940年代战后通勤三场连续性.md,LOOK-0022,content,7,13,20,0,1,singleton_component,yes,
+09-造型组合/LOOK-0017-1977朋克到1980年代职业人.md,LOOK-0017,content,5,15,20,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0026-Macbeth-downfall,-stripped-kingship.md",LOOK-0026,content,10,14,24,0,1,singleton_component,yes,
+09-造型组合/LOOK-0009-1930年代上海旗袍女性知识分子.md,LOOK-0009,content,8,10,18,0,1,singleton_component,yes,
+09-造型组合/LOOK-0021-当代雨夜调查者四场连续性升级.md,LOOK-0021,content,8,10,18,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0024-Macbeth-ambition-rise,-heath-field-dress.md",LOOK-0024,content,12,17,29,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0029-Lady-Macbeth-downfall,-sleepwalking.md",LOOK-0029,content,10,14,24,0,1,singleton_component,yes,
+09-造型组合/LOOK-0013-加纳英国婚礼新娘仪式造型.md,LOOK-0013,content,12,13,25,0,1,singleton_component,yes,
+09-造型组合/LOOK-0007-当代雨夜调查者连续性.md,LOOK-0007,content,10,8,18,0,1,singleton_component,yes,
+09-造型组合/LOOK-0008-1930年代上海长衫知识分子.md,LOOK-0008,content,9,7,16,0,1,singleton_component,yes,
+09-造型组合/LOOK-0005-1900南方庄园女主人.md,LOOK-0005,content,10,12,22,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0027-Lady-Macbeth-ambition-rise,-reading-the-letter.md",LOOK-0027,content,11,16,27,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0028-Lady-Macbeth-guilt,-blood-on-the-hands.md",LOOK-0028,content,11,16,27,0,1,singleton_component,yes,
+09-造型组合/LOOK-0004-奥斯曼晚期官员.md,LOOK-0004,content,5,7,12,0,1,singleton_component,yes,
+09-造型组合/LOOK-0018-西非阿散蒂家庭节庆.md,LOOK-0018,content,7,12,19,0,1,singleton_component,yes,
+"09-造型组合/LOOK-0030-1930s-Shanghai-rain,-female-reporter.md",LOOK-0030,content,9,15,24,0,1,singleton_component,yes,
+projects/README.md,,other,0,0,0,454,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/_template/README.md,,other,0,0,0,455,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/_template/look-bible/README.md,,other,0,0,0,456,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/_template/look-bible/examples/aud-004-slotfix.md,,other,0,0,0,457,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-3stages/outputs/design-9-looks.md,,other,0,0,0,458,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-3stages/outputs/character-dossier.md,,other,0,0,0,459,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-3stages/outputs/fact-evidence-inference.md,,other,0,0,0,460,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-3stages/outputs/scene-costume-table.md,,other,0,0,0,461,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-3stages/outputs/full-looks.md,,other,0,0,0,462,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-3stages/outputs/continuity-plan.md,,other,0,0,0,463,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-3stages/outputs/prompts.md,,other,0,0,0,464,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-act1/outputs/workflow/character-dossier.md,,other,0,0,0,465,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-act1/outputs/workflow/fact-evidence-inference.md,,other,0,0,0,466,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-act1/outputs/workflow/scene-costume-table.md,,other,0,0,0,467,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-act1/outputs/workflow/full-looks.md,,other,0,0,0,468,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-act1/outputs/workflow/continuity-plan.md,,other,0,0,0,469,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-lady-act1/outputs/workflow/prompts.md,,other,0,0,0,470,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/nurse-rain-shift/outputs/character-dossier.md,,other,0,0,0,471,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/nurse-rain-shift/outputs/fact-evidence-inference.md,,other,0,0,0,472,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/nurse-rain-shift/outputs/scene-costume-table.md,,other,0,0,0,473,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/nurse-rain-shift/outputs/full-looks.md,,other,0,0,0,474,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/nurse-rain-shift/outputs/continuity-plan.md,,other,0,0,0,475,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/nurse-rain-shift/outputs/prompts.md,,other,0,0,0,476,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/lady-macbeth-act1-abc/outfit.md,,other,0,0,0,477,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/lady-macbeth-act1-outfit/outfit.md,,other,0,0,0,478,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/shanghai-journalist/outputs/character-dossier.md,,other,0,0,0,479,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/shanghai-journalist/outputs/fact-evidence-inference.md,,other,0,0,0,480,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/shanghai-journalist/outputs/scene-costume-table.md,,other,0,0,0,481,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/shanghai-journalist/outputs/full-looks.md,,other,0,0,0,482,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/shanghai-journalist/outputs/continuity-plan.md,,other,0,0,0,483,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/shanghai-journalist/outputs/prompts.md,,other,0,0,0,484,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-3stages/outputs/character-dossier.md,,other,0,0,0,485,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-3stages/outputs/fact-evidence-inference.md,,other,0,0,0,486,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-3stages/outputs/scene-costume-table.md,,other,0,0,0,487,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-3stages/outputs/full-looks.md,,other,0,0,0,488,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-3stages/outputs/continuity-plan.md,,other,0,0,0,489,1,zero_degree;singleton_component,no,not knowledge graph: projects
+projects/macbeth-3stages/outputs/prompts.md,,other,0,0,0,490,1,zero_degree;singleton_component,no,not knowledge graph: projects
+03-材质纹样/材料/MAT-0003-装饰绦带.md,MAT-0003,content,36,2,38,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0012-织物组织.md,MAT-0012,content,0,7,7,0,1,no_inlink;singleton_component,yes,
+03-材质纹样/材料/MAT-0016-亚麻织物.md,MAT-0016,content,0,6,6,0,1,no_inlink;singleton_component,yes,
+03-材质纹样/材料/MAT-0013-克重与垂坠.md,MAT-0013,content,7,5,12,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0015-羊毛织物.md,MAT-0015,content,0,5,5,0,1,no_inlink;only_source_links;singleton_component,yes,
+03-材质纹样/材料/MAT-0002-尚蒂伊蕾丝.md,MAT-0002,content,67,5,72,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0017-皮革.md,MAT-0017,content,15,5,20,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0010-苯胺染料.md,MAT-0010,content,11,5,16,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0019-现代合成纤维与防水涂层.md,MAT-0019,content,5,6,11,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0011-拜占庭samite丝绸.md,MAT-0011,content,19,5,24,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0014-反光与金属线.md,MAT-0014,content,6,5,11,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0009-胭脂虫红染料.md,MAT-0009,content,9,5,14,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0008-型染.md,MAT-0008,content,9,5,14,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0018-丝绸.md,MAT-0018,content,0,7,7,0,1,no_inlink;singleton_component,yes,
+03-材质纹样/材料/MAT-0004-卢勒克斯金属线.md,MAT-0004,content,27,4,31,0,1,singleton_component,yes,
+03-材质纹样/材料/MAT-0001-平纹细布.md,MAT-0001,content,55,5,60,0,1,singleton_component,yes,
+03-材质纹样/纹样/MAT-0006-阿丁克拉纹样.md,MAT-0006,content,29,5,34,0,1,singleton_component,yes,
+03-材质纹样/纹样/MAT-0005-肯特布.md,MAT-0005,content,41,5,46,0,1,singleton_component,yes,
+03-材质纹样/纹样/MAT-0007-泥染布纹样.md,MAT-0007,content,8,5,13,0,1,singleton_component,yes,
+docs/OUTFIT-COMPOSER.md,,other,0,0,0,491,1,zero_degree;singleton_component,no,not knowledge graph: docs
+docs/OUTFIT-QUALITY.md,,other,0,0,0,492,1,zero_degree;singleton_component,no,not knowledge graph: docs
+docs/SKILL-USAGE.md,,other,0,0,0,493,1,zero_degree;singleton_component,no,not knowledge graph: docs
+docs/WORKFLOW.md,,other,0,0,0,494,1,zero_degree;singleton_component,no,not knowledge graph: docs
+docs/VISUAL-REFERENCE.md,,other,0,0,0,495,1,zero_degree;singleton_component,no,not knowledge graph: docs
+04-来源/SRC-0414-V&A-1950s鸡尾酒裙.md,SRC-0414,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0013-silk-silkworm-material.md,SRC-0013,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0005-coats-garments.md,SRC-0005,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0487-V&A-7世纪腰带扣.md,SRC-0487,source,10,9,19,0,1,singleton_component,yes,
+04-来源/SRC-0489-V&A-15世纪皮靴.md,SRC-0489,source,7,6,13,0,1,singleton_component,yes,
+04-来源/SRC-0173-Met-朋克T恤1977.md,SRC-0173,source,5,4,9,0,1,singleton_component,yes,
+04-来源/SRC-0140-FIT-slashing.md,SRC-0140,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0147-FIT-katazome.md,SRC-0147,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0415-V&A-1951儿童印花裙.md,SRC-0415,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0056-turbans.md,SRC-0056,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0427-V&A-1930s腰带obi.md,SRC-0427,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0172-Met-法国棉连衣裙1804.md,SRC-0172,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0169-FIT-1995理智与情感.md,SRC-0169,source,5,4,9,0,1,singleton_component,yes,
+04-来源/SRC-0485-V&A-1640-60靴袜.md,SRC-0485,source,4,0,4,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0165-FIT-1977朋克T恤.md,SRC-0165,source,6,6,12,0,1,singleton_component,yes,
+04-来源/SRC-0136-FIT-stomacher.md,SRC-0136,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0123-FIT-wellington-boot.md,SRC-0123,source,7,6,13,0,1,singleton_component,yes,
+04-来源/SRC-0452-V&A-勒克瑙angarkha.md,SRC-0452,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0138-FIT-cage-crinoline.md,SRC-0138,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0453-V&A-farshi-paijama.md,SRC-0453,source,5,1,6,0,1,singleton_component,yes,
+04-来源/SRC-0015-fashion-history-timeline.md,SRC-0015,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0054-purses-ladies-accessories.md,SRC-0054,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0167-FIT-1941小狐狸.md,SRC-0167,source,4,5,9,0,1,singleton_component,yes,
+04-来源/SRC-0532-VA-O102166-stagejacketthegreatmasonica1.md,SRC-0532,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0020-1855-english-blue-and-white-print-day-dress.md,SRC-0020,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0484-V&A-1618紧身裤.md,SRC-0484,source,6,2,8,0,1,singleton_component,yes,
+04-来源/SRC-0023-dress-ca-1855.md,SRC-0023,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0423-V&A-拜占庭samite丝绸.md,SRC-0423,source,12,7,19,0,1,singleton_component,yes,
+04-来源/SRC-0019-1883-charles-frederick-worth-red-silk-satin-and.md,SRC-0019,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0413-V&A-1942Utility裙套装.md,SRC-0413,source,7,4,11,0,1,singleton_component,yes,
+04-来源/SRC-0134-FIT-gigot-sleeve.md,SRC-0134,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0027-wedding-corset-1881-82.md,SRC-0027,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0121-FIT-chemisette.md,SRC-0121,source,5,1,6,0,1,singleton_component,yes,
+04-来源/SRC-0037-trench-coats-from-real-mud-to-nostalgia-of-mud.md,SRC-0037,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0523-V&A-1590-1670毡帽.md,SRC-0523,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0550-AAT-300014058-syntheticfiber.md,SRC-0550,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0102-FIT-muslin.md,SRC-0102,source,7,4,11,0,1,singleton_component,yes,
+04-来源/SRC-0420-V&A-1935男式牛津鞋.md,SRC-0420,source,5,4,9,0,1,singleton_component,yes,
+04-来源/SRC-0021-in-s-g-ches-sarraute-and-the-straight-front-cors.md,SRC-0021,source,4,1,5,0,1,singleton_component,yes,
+04-来源/SRC-0540-AAT-300227843-interlining.md,SRC-0540,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0122-FIT-pinafore.md,SRC-0122,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0024-dress-1886-88.md,SRC-0024,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0120-FIT-anorak.md,SRC-0120,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0450-V&A-莫卧儿jama18世纪.md,SRC-0450,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0539-VA-O1242729-embroideredlinenjacketdriesv.md,SRC-0539,source,4,1,5,0,1,singleton_component,yes,
+04-来源/SRC-0408-V&A-1930年代刺绣手袋.md,SRC-0408,source,14,8,22,0,1,singleton_component,yes,
+04-来源/SRC-0530-VA-O72654-eveningdresscocochanelkitmir.md,SRC-0530,source,5,2,7,0,1,singleton_component,yes,
+04-来源/SRC-0040-guest-post-a-warrior-s-magic-shirt.md,SRC-0040,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0016-dictionary.md,SRC-0016,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0168-FIT-1964贝克特.md,SRC-0168,source,2,3,5,0,1,singleton_component,yes,
+04-来源/SRC-0002-fashionpedia-dataset.md,SRC-0002,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0426-V&A-1910-30和服.md,SRC-0426,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0143-FIT-lurex.md,SRC-0143,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0491-V&A-1475-1500匕首.md,SRC-0491,source,9,8,17,0,1,singleton_component,yes,
+04-来源/SRC-0150-FIT-1770年代概览.md,SRC-0150,source,3,4,7,0,1,singleton_component,yes,
+04-来源/SRC-0104-FIT-jerkin.md,SRC-0104,source,4,1,5,0,1,singleton_component,yes,
+04-来源/SRC-0166-FIT-1997第五元素.md,SRC-0166,source,2,3,5,0,1,singleton_component,yes,
+04-来源/SRC-0483-V&A-1590-1610女披肩.md,SRC-0483,source,10,9,19,0,1,singleton_component,yes,
+04-来源/SRC-0171-Met-美国丧服1867.md,SRC-0171,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0146-FIT-bogolanfini.md,SRC-0146,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0033-what-is-costume-design.md,SRC-0033,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0416-V&A-1960s迷你裙.md,SRC-0416,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0418-V&A-1970s厚底鞋.md,SRC-0418,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0410-V&A-ENSA制服徽章.md,SRC-0410,source,7,6,13,0,1,singleton_component,yes,
+04-来源/SRC-0162-FIT-费兹帽与奥斯曼现代化之路.md,SRC-0162,source,3,4,7,0,1,singleton_component,yes,
+04-来源/SRC-0139-FIT-panniers.md,SRC-0139,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0050-belt-for-a-lady-s-dress-c-1375-1400.md,SRC-0050,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0406-V&A-橡胶丝绸雨衣1920.md,SRC-0406,source,10,8,18,0,1,singleton_component,yes,
+04-来源/SRC-0131-FIT-huipilli-huipil.md,SRC-0131,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0428-V&A-中国云肩.md,SRC-0428,source,4,3,7,0,1,singleton_component,yes,
+04-来源/SRC-0401-V&A-日本消防员外套.md,SRC-0401,source,6,4,10,0,1,singleton_component,yes,
+04-来源/SRC-0059-a-very-brief-history-of-staying-dry.md,SRC-0059,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0025-dress-ca-1885.md,SRC-0025,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0403-V&A-1969年宇航员头盔.md,SRC-0403,source,5,4,9,0,1,singleton_component,yes,
+04-来源/SRC-0400-V&A-1960年代护士戏服.md,SRC-0400,source,6,5,11,0,1,singleton_component,yes,
+04-来源/SRC-0008-corsets.md,SRC-0008,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0026-corset-ca-1890.md,SRC-0026,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0137-FIT-bustle.md,SRC-0137,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0064-PG48551-costume-fanciful-historical-and-theatric.md,SRC-0064,source,5,0,5,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0521-FreeSewing-袖山适配袖窿.md,SRC-0521,source,2,2,4,0,1,singleton_component,yes,
+04-来源/SRC-0041-guest-post-stitch-narratives-continuance-and-evo.md,SRC-0041,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0049-khalili-collection-of-kimono-kx158-jpg.md,SRC-0049,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0116-FIT-robe-a-la-francaise.md,SRC-0116,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0405-V&A-蕾丝风衣2014.md,SRC-0405,source,10,7,17,0,1,singleton_component,yes,
+04-来源/SRC-0409-V&A-嵌饰手杖.md,SRC-0409,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0028-kimono-ca-1910.md,SRC-0028,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0110-FIT-dalmatic-tunic.md,SRC-0110,source,5,4,9,0,1,singleton_component,yes,
+04-来源/SRC-0014-lace-needlework.md,SRC-0014,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0061-PG34903-dress-design-an-account-of-costume-for-a.md,SRC-0061,source,5,0,5,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0036-booklet-5-costume-department-2024.md,SRC-0036,source,4,2,6,0,1,singleton_component,yes,
+04-来源/SRC-0053-scarves-costume-accessories.md,SRC-0053,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0480-V&A-450-650束腰长袍.md,SRC-0480,source,4,3,7,0,1,singleton_component,yes,
+04-来源/SRC-0203-V&A-1930年代男式针织背心.md,SRC-0203,source,6,4,10,0,1,singleton_component,yes,
+04-来源/SRC-0007-trousers.md,SRC-0007,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0043-the-costume-society.md,SRC-0043,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0206-V&A-1930年代女式晚宴鞋.md,SRC-0206,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0067-PG56978-the-book-of-the-feet-a-history-of-boots.md,SRC-0067,source,4,0,4,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0451-V&A-1855jama.md,SRC-0451,source,4,1,5,0,1,singleton_component,yes,
+04-来源/SRC-0482-V&A-1580-1600男斗篷.md,SRC-0482,source,10,9,19,0,1,singleton_component,yes,
+04-来源/SRC-0424-V&A-寺庙纱丽.md,SRC-0424,source,4,3,7,0,1,singleton_component,yes,
+04-来源/SRC-0001-fashionpedia.md,SRC-0001,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0547-AAT-300243430-wooltextile.md,SRC-0547,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0459-V&A-Alice公主哀悼胸针.md,SRC-0459,source,5,4,9,0,1,singleton_component,yes,
+04-来源/SRC-0163-FIT-拜占庭晚期丝绸服饰.md,SRC-0163,source,1,3,4,0,1,singleton_component,yes,
+04-来源/SRC-0108-FIT-shirtwaist.md,SRC-0108,source,6,1,7,0,1,singleton_component,yes,
+04-来源/SRC-0170-Met-美国丧服1872.md,SRC-0170,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0057-veils-headcloths.md,SRC-0057,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0012-shoes-footwear.md,SRC-0012,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0068-PG76717-the-history-of-fashion-in-france.md,SRC-0068,source,4,0,4,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0111-FIT-bloomers.md,SRC-0111,source,4,1,5,0,1,singleton_component,yes,
+04-来源/SRC-0149-FIT-aniline-dyes.md,SRC-0149,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0431-V&A-gele头巾布.md,SRC-0431,source,8,7,15,0,1,singleton_component,yes,
+04-来源/SRC-0044-museum.md,SRC-0044,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0549-AAT-300011845-leather.md,SRC-0549,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0141-FIT-chantilly-lace.md,SRC-0141,source,4,3,7,0,1,singleton_component,yes,
+04-来源/SRC-0204-V&A-1940年代男式西装.md,SRC-0204,source,9,3,12,0,1,singleton_component,yes,
+04-来源/SRC-0126-FIT-tricorne-hat.md,SRC-0126,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0421-Met-科普特长袍.md,SRC-0421,source,4,3,7,0,1,singleton_component,yes,
+04-来源/SRC-0006-shirts-main-garments.md,SRC-0006,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0135-FIT-leg-of-mutton-sleeves.md,SRC-0135,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0039-from-feathers-to-fascinators-part-three.md,SRC-0039,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0419-V&A-1970s牛仔背带裤.md,SRC-0419,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0069-PG46949-chats-on-costume.md,SRC-0069,source,5,0,5,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0538-VA-O356431-operalengthkidglovesfrance19.md,SRC-0538,source,3,2,5,0,1,singleton_component,yes,
+04-来源/README.md,,source,0,0,0,496,1,zero_degree;singleton_component,yes,
+04-来源/SRC-0114-FIT-codpiece.md,SRC-0114,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0454-V&A-churidar-Gujarat.md,SRC-0454,source,4,2,6,0,1,singleton_component,yes,
+04-来源/SRC-0417-FIT-1963-1969Courreges外套.md,SRC-0417,source,4,2,6,0,1,singleton_component,yes,
+04-来源/SRC-0522-V&A-1660s手套.md,SRC-0522,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0107-FIT-dashiki.md,SRC-0107,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0537-VA-O135197-leatherloafersgreatbritain19.md,SRC-0537,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0552-AAT-300045998-earringsjewelry.md,SRC-0552,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0534-VA-O353447-wooljacketengland18651885.md,SRC-0534,source,5,0,5,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0032-athletic-ensemble-1898-1900.md,SRC-0032,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0100-Met-日本江户和服.md,SRC-0100,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0160-FIT-1980年代概览.md,SRC-0160,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0154-FIT-1920年代概览.md,SRC-0154,source,5,3,8,0,1,singleton_component,yes,
+04-来源/SRC-0130-FIT-toga.md,SRC-0130,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0460-V&A-发丝哀悼胸针.md,SRC-0460,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0022-15th-century-late-byzantine-silk-damask-dress-an.md,SRC-0022,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0042-costume-society-of-america.md,SRC-0042,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0106-FIT-boubou.md,SRC-0106,source,9,7,16,0,1,singleton_component,yes,
+04-来源/SRC-0010-waistcoats-garments.md,SRC-0010,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0011-hats.md,SRC-0011,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0115-FIT-period-1950-1959.md,SRC-0115,source,4,2,6,0,1,singleton_component,yes,
+04-来源/验证记录.md,,source,2,0,2,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0066-PG76299-a-dictionary-of-men-s-wear.md,SRC-0066,source,9,0,9,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0152-FIT-1800年代概览.md,SRC-0152,source,6,4,10,0,1,singleton_component,yes,
+04-来源/SRC-0411-V&A-1970s朋克徽章.md,SRC-0411,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0003-fashionpedia-terms-of-use.md,SRC-0003,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0062-PG21534-textiles-and-clothing.md,SRC-0062,source,14,0,14,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0101-FIT-Medici-collar.md,SRC-0101,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0063-PG33020-english-costume.md,SRC-0063,source,4,0,4,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0038-undressed.md,SRC-0038,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0157-FIT-1950年代概览.md,SRC-0157,source,1,3,4,0,1,singleton_component,yes,
+04-来源/SRC-0117-FIT-banyan.md,SRC-0117,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0051-skirts-garments.md,SRC-0051,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0129-FIT-muff.md,SRC-0129,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0202-V&A-1930年代长衫.md,SRC-0202,source,10,7,17,0,1,singleton_component,yes,
+04-来源/SRC-0055-boots-footwear.md,SRC-0055,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0105-FIT-kaftan.md,SRC-0105,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0200-V&A-上海新新公司旗袍1930.md,SRC-0200,source,17,14,31,0,1,singleton_component,yes,
+04-来源/SRC-0159-FIT-1970年代概览.md,SRC-0159,source,5,5,10,0,1,singleton_component,yes,
+04-来源/SRC-0429-V&A-1902婚礼头纱.md,SRC-0429,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0520-FreeSewing-缝份与折边指南.md,SRC-0520,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0142-FIT-passementerie.md,SRC-0142,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0048-corset-royal-worcester-corset-company-ca-1890-jp.md,SRC-0048,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0488-V&A-1500-1600腰带扣.md,SRC-0488,source,9,8,17,0,1,singleton_component,yes,
+04-来源/SRC-0047-print-plate-no-153-in-fashion-review-in-the-fami.md,SRC-0047,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0542-AAT-300227860-paddingmaterial.md,SRC-0542,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0125-FIT-mule.md,SRC-0125,source,6,5,11,0,1,singleton_component,yes,
+04-来源/SRC-0544-AAT-300231237-gatheringtextileprocess.md,SRC-0544,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0407-V&A-丝绸雨伞1927.md,SRC-0407,source,11,9,20,0,1,singleton_component,yes,
+04-来源/SRC-0031-gym-suit-1895-99.md,SRC-0031,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0422-V&A-1600意大利丝袍.md,SRC-0422,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0030-waistcoat-1780-1800.md,SRC-0030,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0458-V&A-Pitt哀悼戒指.md,SRC-0458,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0103-FIT-doublet.md,SRC-0103,source,5,2,7,0,1,singleton_component,yes,
+04-来源/SRC-0112-FIT-knickerbockers.md,SRC-0112,source,4,0,4,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0128-FIT-fez.md,SRC-0128,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0481-V&A-6-7世纪束腰长袍.md,SRC-0481,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0109-FIT-vest-waistcoat.md,SRC-0109,source,4,0,4,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0531-VA-O85657-dressparisca1925.md,SRC-0531,source,5,2,7,0,1,singleton_component,yes,
+04-来源/SRC-0541-AAT-300053656-quilting.md,SRC-0541,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0045-wedding-dress-met-69-2-26-front-cp4-jpg.md,SRC-0045,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0175-ScreenIreland-服装部门能力框架2024.md,SRC-0175,source,1,3,4,0,1,singleton_component,yes,
+04-来源/SRC-0174-FIT-Pingat黑色日装.md,SRC-0174,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0455-V&A-jet项链1870.md,SRC-0455,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0124-FIT-moccasins.md,SRC-0124,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0551-AAT-300046001-necklaces.md,SRC-0551,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0009-kimonos.md,SRC-0009,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0155-FIT-1930年代概览.md,SRC-0155,source,7,4,11,0,1,singleton_component,yes,
+04-来源/SRC-0545-AAT-300210517-pocketscostumecomponents.md,SRC-0545,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0144-FIT-kente.md,SRC-0144,source,8,7,15,0,1,singleton_component,yes,
+04-来源/SRC-0161-FIT-1990年代概览.md,SRC-0161,source,3,3,6,0,1,singleton_component,yes,
+04-来源/SRC-0430-V&A-agbada套装2022.md,SRC-0430,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0205-V&A-1930年代女式蕾丝便鞋.md,SRC-0205,source,12,12,24,0,1,singleton_component,yes,
+04-来源/SRC-0133-FIT-ruff.md,SRC-0133,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0029-waistcoat-1615-20.md,SRC-0029,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0456-V&A-jet胸针1870.md,SRC-0456,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0060-location-scout-part-ii-resist-block-printing.md,SRC-0060,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0486-V&A-1620-40亚麻衬衣.md,SRC-0486,source,8,4,12,0,1,singleton_component,yes,
+04-来源/SRC-0533-VA-O353415-muslindressenglandca18251830.md,SRC-0533,source,6,3,9,0,1,singleton_component,yes,
+04-来源/SRC-0153-FIT-1890年代概览.md,SRC-0153,source,3,4,7,0,1,singleton_component,yes,
+04-来源/SRC-0018-1869-red-silk-dress.md,SRC-0018,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0201-V&A-1930年代末旗袍.md,SRC-0201,source,16,13,29,0,1,singleton_component,yes,
+04-来源/SRC-0017-how-to-research-fashion.md,SRC-0017,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0151-FIT-1790年代概览.md,SRC-0151,source,5,3,8,0,1,singleton_component,yes,
+04-来源/SRC-0046-petersons-walking-dress-1870-jpg.md,SRC-0046,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0412-V&A-1942Utility连衣裙.md,SRC-0412,source,11,8,19,0,1,singleton_component,yes,
+04-来源/SRC-0132-FIT-falling-band.md,SRC-0132,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0004-dresses-garments.md,SRC-0004,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0546-AAT-300224243-trainscostumecomponents.md,SRC-0546,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0425-V&A-1970s韩服.md,SRC-0425,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0457-V&A-雕花jet项链.md,SRC-0457,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0543-AAT-300227874-pleats.md,SRC-0543,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0065-PG49559-modern-design-in-jewellery-and-fans.md,SRC-0065,source,4,0,4,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0035-competency-framework-crew.md,SRC-0035,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0158-FIT-1960年代概览.md,SRC-0158,source,4,3,7,0,1,singleton_component,yes,
+04-来源/SRC-0058-sleeves-costume.md,SRC-0058,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0145-FIT-adinkra.md,SRC-0145,source,8,7,15,0,1,singleton_component,yes,
+04-来源/SRC-0034-design-details.md,SRC-0034,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0052-gloves.md,SRC-0052,source,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+04-来源/SRC-0404-Met-1941年美军大衣.md,SRC-0404,source,4,2,6,0,1,singleton_component,yes,
+04-来源/SRC-0148-FIT-cochineal-dyes.md,SRC-0148,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0490-V&A-1360-1400匕首.md,SRC-0490,source,9,8,17,0,1,singleton_component,yes,
+04-来源/SRC-0548-AAT-300014069-linenmaterial.md,SRC-0548,source,3,0,3,0,1,no_outlink;singleton_component,yes,
+04-来源/SRC-0113-FIT-pantalettes.md,SRC-0113,source,4,1,5,0,1,singleton_component,yes,
+04-来源/SRC-0536-VA-O68370-waspiecorsetfrance1948.md,SRC-0536,source,3,2,5,0,1,singleton_component,yes,
+04-来源/SRC-0119-FIT-spencer-jacket.md,SRC-0119,source,3,1,4,0,1,singleton_component,yes,
+04-来源/SRC-0402-V&A-1960年代连体工作服.md,SRC-0402,source,6,5,11,0,1,singleton_component,yes,
+04-来源/SRC-0118-FIT-frock-coat.md,SRC-0118,source,5,1,6,0,1,singleton_component,yes,
+04-来源/SRC-0535-VA-O355340-silkdressengland18701872.md,SRC-0535,source,6,3,9,0,1,singleton_component,yes,
+04-来源/SRC-0524-V&A-1770-89高跟鞋.md,SRC-0524,source,2,1,3,0,1,singleton_component,yes,
+04-来源/SRC-0156-FIT-1940年代概览.md,SRC-0156,source,5,3,8,0,1,singleton_component,yes,
+04-来源/SRC-0127-FIT-poke-bonnet.md,SRC-0127,source,2,1,3,0,1,singleton_component,yes,
+06-时代地域/PRD-0002-1790到1810英法新古典时代.md,PRD-0002,content,18,10,28,0,1,singleton_component,yes,
+06-时代地域/PRD-0001-1770年代英法服饰语境.md,PRD-0001,content,10,6,16,0,1,singleton_component,yes,
+06-时代地域/PRD-0003-1890年代英美服饰语境.md,PRD-0003,content,15,8,23,0,1,singleton_component,yes,
+06-时代地域/PRD-0004-1920年代美国与西欧.md,PRD-0004,content,8,6,14,0,1,singleton_component,yes,
+06-时代地域/PRD-0007-1950年代美英战后语境.md,PRD-0007,content,9,6,15,0,1,singleton_component,yes,
+06-时代地域/PRD-0011-1930年代上海民国语境.md,PRD-0011,content,11,11,22,0,1,singleton_component,yes,
+06-时代地域/PRD-0009-奥斯曼帝国晚期.md,PRD-0009,content,10,7,17,0,1,singleton_component,yes,
+06-时代地域/PRD-0008-1960年代伦敦与美国.md,PRD-0008,content,19,6,25,0,1,singleton_component,yes,
+06-时代地域/PRD-0005-1930年代美国好莱坞语境.md,PRD-0005,content,8,6,14,0,1,singleton_component,yes,
+06-时代地域/PRD-0010-拜占庭帝国晚期.md,PRD-0010,content,10,6,16,0,1,singleton_component,yes,
+06-时代地域/PRD-0006-1940年代英美战时语境.md,PRD-0006,content,10,5,15,0,1,singleton_component,yes,
+06-时代地域/书籍研究/来源复用-白名单增补-2026-11-05.md,,content,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+06-时代地域/书籍研究/书籍研究-历史服饰术语与结构.md,,content,1,9,10,0,1,only_source_links;singleton_component,yes,
+06-时代地域/书籍研究/书籍章节级证据与卡片引用.md,,content,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+06-时代地域/书籍研究/README.md,,content,0,0,0,497,1,zero_degree;singleton_component,yes,
+06-时代地域/书籍研究/书籍来源复用指南.md,,content,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+02-结构细节/STR-0012-翻领与驳领.md,STR-0012,content,10,3,13,0,1,singleton_component,yes,
+02-结构细节/STR-0003-拉夫领.md,STR-0003,content,23,5,28,0,1,singleton_component,yes,
+02-结构细节/STR-0023-袖口.md,STR-0023,content,6,5,11,0,1,singleton_component,yes,
+02-结构细节/STR-0029-泡泡袖.md,STR-0029,content,2,6,8,0,1,singleton_component,yes,
+02-结构细节/STR-0020-裁片与拼片.md,STR-0020,content,0,6,6,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0002-垂领.md,STR-0002,content,5,5,10,0,1,singleton_component,yes,
+02-结构细节/STR-0028-青果领-披肩领.md,STR-0028,content,3,5,8,0,1,singleton_component,yes,
+02-结构细节/STR-0010-剪口装饰.md,STR-0010,content,0,6,6,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0035-廓形与比例.md,STR-0035,content,6,9,15,0,1,singleton_component,yes,
+02-结构细节/STR-0014-肩线与肩垫.md,STR-0014,content,9,5,14,0,1,singleton_component,yes,
+02-结构细节/STR-0007-臀垫.md,STR-0007,content,7,5,12,0,1,singleton_component,yes,
+02-结构细节/STR-0011-盘扣.md,STR-0011,content,21,6,27,0,1,singleton_component,yes,
+02-结构细节/STR-0030-里布与衬.md,STR-0030,content,0,5,5,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0027-领口形态.md,STR-0027,content,5,8,13,0,1,singleton_component,yes,
+02-结构细节/STR-0008-笼式裙撑.md,STR-0008,content,13,5,18,0,1,singleton_component,yes,
+02-结构细节/STR-0009-裙侧撑.md,STR-0009,content,22,4,26,0,1,singleton_component,yes,
+02-结构细节/STR-0015-腰线.md,STR-0015,content,17,6,23,0,1,singleton_component,yes,
+02-结构细节/STR-0016-衣摆与开衩.md,STR-0016,content,0,6,6,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0026-手袋结构.md,STR-0026,content,11,4,15,0,1,singleton_component,yes,
+02-结构细节/STR-0013-装袖与插肩袖.md,STR-0013,content,14,6,20,0,1,singleton_component,yes,
+02-结构细节/STR-0018-纽扣与扣眼.md,STR-0018,content,0,6,6,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0005-十六世纪羊腿袖.md,STR-0005,content,17,5,22,0,1,singleton_component,yes,
+02-结构细节/STR-0021-接缝与省道.md,STR-0021,content,7,5,12,0,1,singleton_component,yes,
+02-结构细节/STR-0006-胸衣插片.md,STR-0006,content,0,6,6,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0033-口袋结构.md,STR-0033,content,3,4,7,0,1,singleton_component,yes,
+02-结构细节/STR-0034-拖尾.md,STR-0034,content,3,4,7,0,1,singleton_component,yes,
+02-结构细节/STR-0024-结构属性词表（Fashionpedia）.md,STR-0024,content,5,4,9,0,1,singleton_component,yes,
+02-结构细节/STR-0017-门襟.md,STR-0017,content,0,6,6,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0022-腰头.md,STR-0022,content,6,5,11,0,1,singleton_component,yes,
+02-结构细节/STR-0032-褶裥与抽褶.md,STR-0032,content,0,7,7,0,1,no_inlink;singleton_component,yes,
+02-结构细节/STR-0001-美第奇领.md,STR-0001,content,26,4,30,0,1,singleton_component,yes,
+02-结构细节/STR-0025-松量与版型.md,STR-0025,content,10,6,16,0,1,singleton_component,yes,
+02-结构细节/STR-0031-填充与绗缝.md,STR-0031,content,3,4,7,0,1,singleton_component,yes,
+02-结构细节/STR-0004-羊腿袖（19世纪）.md,STR-0004,content,13,5,18,0,1,singleton_component,yes,
+02-结构细节/STR-0019-拉链.md,STR-0019,content,10,3,13,0,1,singleton_component,yes,
+01-服装单品/下装/GAR-0072-帕贾马裤.md,GAR-0072,content,13,6,19,0,1,singleton_component,yes,
+01-服装单品/下装/GAR-0014-牛仔裤.md,GAR-0014,content,40,4,44,0,1,singleton_component,yes,
+01-服装单品/下装/GAR-0010-灯笼裤.md,GAR-0010,content,26,4,30,0,1,singleton_component,yes,
+01-服装单品/下装/GAR-0077-紧身长袜.md,GAR-0077,content,0,8,8,0,1,no_inlink;singleton_component,yes,
+01-服装单品/下装/GAR-0013-遮阴袋.md,GAR-0013,content,8,2,10,0,1,singleton_component,yes,
+01-服装单品/下装/GAR-0011-尼克裤.md,GAR-0011,content,0,5,5,0,1,no_inlink;singleton_component,yes,
+01-服装单品/配饰/GAR-0074-哀悼戒指与胸针.md,GAR-0074,content,15,7,22,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0091-乐福鞋.md,GAR-0091,content,3,5,8,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0028-手笼.md,GAR-0028,content,17,5,22,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0086-胸针结构.md,GAR-0086,content,9,4,13,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0067-云肩.md,GAR-0067,content,9,6,15,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0021-围裙裙.md,GAR-0021,content,12,5,17,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0050-制服徽章.md,GAR-0050,content,19,4,23,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0088-晚装长手套.md,GAR-0088,content,6,6,12,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0089-腰封-束腰带.md,GAR-0089,content,3,5,8,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0090-项链与耳环.md,GAR-0090,content,7,8,15,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0083-手套.md,GAR-0083,content,14,5,19,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0051-朋克徽章.md,GAR-0051,content,11,5,16,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0066-和服腰带.md,GAR-0066,content,14,6,20,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0080-腰带.md,GAR-0080,content,22,8,30,0,1,singleton_component,yes,
+01-服装单品/配饰/GAR-0073-维多利亚哀悼珠宝.md,GAR-0073,content,12,7,19,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0040-军装外套.md,GAR-0040,content,16,4,20,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0018-斯宾塞短夹克.md,GAR-0018,content,16,4,20,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0016-班扬袍.md,GAR-0016,content,16,3,19,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0045-风衣.md,GAR-0045,content,37,5,42,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0057-1960年代Courrèges外套.md,GAR-0057,content,8,6,14,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0041-医生白袍.md,GAR-0041,content,5,4,9,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0076-斗篷与披风.md,GAR-0076,content,26,7,33,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0019-派克大衣.md,GAR-0019,content,26,5,31,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0037-消防防护外套.md,GAR-0037,content,12,5,17,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0046-雨衣.md,GAR-0046,content,22,5,27,0,1,singleton_component,yes,
+01-服装单品/外层/GAR-0017-夫罗克大衣.md,GAR-0017,content,0,5,5,0,1,no_inlink;singleton_component,yes,
+01-服装单品/外层/GAR-0033-西式休闲西装.md,GAR-0033,content,0,4,4,0,1,no_inlink;singleton_component,yes,
+01-服装单品/内层/GAR-0020-假衬衣.md,GAR-0020,content,14,5,19,0,1,singleton_component,yes,
+01-服装单品/内层/GAR-0012-衬裤.md,GAR-0012,content,32,5,37,0,1,singleton_component,yes,
+01-服装单品/内层/GAR-0078-亚麻衬衣.md,GAR-0078,content,9,6,15,0,1,singleton_component,yes,
+01-服装单品/专门类型/GAR-0065-和服.md,GAR-0065,content,15,5,20,0,1,singleton_component,yes,
+01-服装单品/专门类型/GAR-0001-和服.md,GAR-0001,content,30,6,36,0,1,singleton_component,yes,
+01-服装单品/专门类型/GAR-0005-布布长袍.md,GAR-0005,content,34,5,39,0,1,singleton_component,yes,
+01-服装单品/专门类型/GAR-0030-惠皮尔.md,GAR-0030,content,14,5,19,0,1,singleton_component,yes,
+01-服装单品/携带物/GAR-0047-雨伞.md,GAR-0047,content,38,5,43,0,1,singleton_component,yes,
+01-服装单品/携带物/GAR-0048-手提包.md,GAR-0048,content,45,5,50,0,1,singleton_component,yes,
+01-服装单品/携带物/GAR-0049-手杖.md,GAR-0049,content,9,5,14,0,1,singleton_component,yes,
+01-服装单品/携带物/GAR-0087-手袋结构.md,GAR-0087,content,10,4,14,0,1,singleton_component,yes,
+01-服装单品/携带物/GAR-0082-匕首.md,GAR-0082,content,20,9,29,0,1,singleton_component,yes,
+01-服装单品/头部/GAR-0085-帽子结构.md,GAR-0085,content,4,5,9,0,1,singleton_component,yes,
+01-服装单品/头部/GAR-0025-三角帽.md,GAR-0025,content,31,4,35,0,1,singleton_component,yes,
+01-服装单品/头部/GAR-0027-费兹帽.md,GAR-0027,content,22,4,26,0,1,singleton_component,yes,
+01-服装单品/头部/GAR-0070-头巾.md,GAR-0070,content,13,5,18,0,1,singleton_component,yes,
+01-服装单品/头部/GAR-0039-安全头盔.md,GAR-0039,content,11,5,16,0,1,singleton_component,yes,
+01-服装单品/头部/GAR-0026-波克帽.md,GAR-0026,content,16,5,21,0,1,singleton_component,yes,
+01-服装单品/头部/GAR-0068-婚礼头纱.md,GAR-0068,content,16,5,21,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0081-皮靴.md,GAR-0081,content,12,8,20,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0084-高跟鞋.md,GAR-0084,content,4,6,10,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0024-穆勒鞋.md,GAR-0024,content,39,6,45,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0035-女式皮鞋.md,GAR-0035,content,42,6,48,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0058-1970年代厚底鞋.md,GAR-0058,content,22,6,28,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0023-莫卡辛鞋.md,GAR-0023,content,17,6,23,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0044-医疗工作鞋.md,GAR-0044,content,15,4,19,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0022-威灵顿靴.md,GAR-0022,content,62,5,67,0,1,singleton_component,yes,
+01-服装单品/足部/GAR-0060-1930年代男式皮鞋.md,GAR-0060,content,29,5,34,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0062-意大利文艺复兴长袍.md,GAR-0062,content,37,4,41,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0069-阿格巴达.md,GAR-0069,content,8,5,13,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0042-警察制服.md,GAR-0042,content,2,4,6,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0029-托加袍.md,GAR-0029,content,22,4,26,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0015-法式长袍.md,GAR-0015,content,60,4,64,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0009-达尔马提亚长袍.md,GAR-0009,content,50,4,54,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0059-1970年代牛仔背带裤.md,GAR-0059,content,12,5,17,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0056-1960年代迷你裙.md,GAR-0056,content,12,5,17,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0052-Utility连衣裙.md,GAR-0052,content,20,5,25,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0038-连体工作服.md,GAR-0038,content,15,5,20,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0075-束腰长袍.md,GAR-0075,content,17,7,24,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0061-科普特束腰长袍.md,GAR-0061,content,36,5,41,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0054-1950年代鸡尾酒裙.md,GAR-0054,content,11,5,16,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0055-1950年代儿童印花裙.md,GAR-0055,content,5,5,10,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0071-莫卧儿jama.md,GAR-0071,content,12,7,19,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0032-长衫.md,GAR-0032,content,42,4,46,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0036-护士制服.md,GAR-0036,content,13,5,18,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0079-基尔特长袍.md,GAR-0079,content,0,7,7,0,1,no_inlink;singleton_component,yes,
+01-服装单品/连身/GAR-0004-卡夫坦长袍.md,GAR-0004,content,24,5,29,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0063-纱丽.md,GAR-0063,content,12,5,17,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0031-旗袍.md,GAR-0031,content,64,6,70,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0053-Utility裙套装.md,GAR-0053,content,24,5,29,0,1,singleton_component,yes,
+01-服装单品/连身/GAR-0064-韩服.md,GAR-0064,content,12,5,17,0,1,singleton_component,yes,
+01-服装单品/上装/GAR-0007-衬衫式女衫.md,GAR-0007,content,66,5,71,0,1,singleton_component,yes,
+01-服装单品/上装/GAR-0034-针织背心.md,GAR-0034,content,20,3,23,0,1,singleton_component,yes,
+01-服装单品/上装/GAR-0008-马甲.md,GAR-0008,content,0,4,4,0,1,no_inlink;singleton_component,yes,
+01-服装单品/上装/GAR-0043-厨师服.md,GAR-0043,content,1,4,5,0,1,singleton_component,yes,
+01-服装单品/上装/GAR-EXAMPLE-001-白色立领衬衫.md,GAR-EXAMPLE-001,content,10,4,14,0,1,singleton_component,yes,
+01-服装单品/上装/GAR-0003-杰金.md,GAR-0003,content,21,3,24,0,1,singleton_component,yes,
+01-服装单品/上装/GAR-0006-达希基套衫.md,GAR-0006,content,22,5,27,0,1,singleton_component,yes,
+01-服装单品/上装/GAR-0002-达布里特.md,GAR-0002,content,40,4,44,0,1,singleton_component,yes,
+skills/costume-director/SKILL.md,,other,0,0,0,498,1,zero_degree;singleton_component,no,not knowledge graph: skills
+05-风格体系/STY-EXAMPLE-001-克制的都市黑色电影.md,STY-EXAMPLE-001,content,3,3,6,0,1,singleton_component,yes,
+05-风格体系/STY-0011-northern-medieval-theatrical-minimalism.md,STY-0011,content,14,12,26,0,1,singleton_component,yes,
+05-风格体系/STY-0012-1930s-Shanghai-rain-noir.md,STY-0012,content,8,7,15,0,1,singleton_component,yes,
+05-风格体系/STY-0006-军装制服风.md,STY-0006,content,12,7,19,0,1,singleton_component,yes,
+05-风格体系/STY-0007-朋克亚文化风格.md,STY-0007,content,14,8,22,0,1,singleton_component,yes,
+05-风格体系/STY-0002-维多利亚丧服风格.md,STY-0002,content,16,6,22,0,1,singleton_component,yes,
+05-风格体系/STY-0010-时代剧历史考据造型.md,STY-0010,content,40,10,50,0,1,singleton_component,yes,
+05-风格体系/STY-0009-复古未来主义科幻街头.md,STY-0009,content,3,5,8,0,1,singleton_component,yes,
+05-风格体系/STY-0014-diasporic-wedding-juxtaposition.md,STY-0014,content,7,6,13,0,1,singleton_component,yes,
+05-风格体系/STY-0001-新古典主义着装.md,STY-0001,content,16,9,25,0,1,singleton_component,yes,
+05-风格体系/STY-0015-zero-gravity-opera-and-sci-fi-theatre.md,STY-0015,content,6,5,11,0,1,singleton_component,yes,
+05-风格体系/STY-0005-黑色电影造型.md,STY-0005,content,23,5,28,0,1,singleton_component,yes,
+05-风格体系/STY-0003-爵士时代摩登风格.md,STY-0003,content,11,6,17,0,1,singleton_component,yes,
+05-风格体系/STY-0008-九十年代极简主义.md,STY-0008,content,12,7,19,0,1,singleton_component,yes,
+05-风格体系/STY-0004-好莱坞魅惑造型.md,STY-0004,content,15,6,21,0,1,singleton_component,yes,
+05-风格体系/STY-0013-contemporary-occupational-uniform-realism.md,STY-0013,content,4,3,7,0,1,singleton_component,yes,
+00-系统/关系类型.md,,nav,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+00-系统/Outfit模型.md,,nav,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+00-系统/索引.md,,nav,1,4,5,0,1,singleton_component,yes,
+00-系统/来源规范.md,,nav,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+00-系统/数据字典-v1.2-扩展.md,,nav,2,0,2,0,1,no_outlink;singleton_component,yes,
+00-系统/数据字典-v1.4-扩展.md,,nav,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+00-系统/数据字典-v1.3-扩展.md,,nav,2,0,2,0,1,no_outlink;singleton_component,yes,
+00-系统/卡片模板.md,,nav,1,0,1,0,1,no_outlink;weak_degree_1;singleton_component,yes,
+00-系统/数据字典.md,,nav,1,2,3,0,1,singleton_component,yes,
+00-系统/MOC/时代地域.md,,moc,5,14,19,0,1,singleton_component,yes,
+00-系统/MOC/服装单品.md,,moc,8,92,100,0,1,singleton_component,yes,
+00-系统/MOC/来源证据.md,,moc,2,242,244,0,1,singleton_component,yes,
+00-系统/MOC/造型组合.md,,moc,4,53,57,0,1,singleton_component,yes,
+00-系统/MOC/结构细节.md,,moc,5,30,35,0,1,singleton_component,yes,
+00-系统/MOC/材质纹样.md,,moc,5,17,22,0,1,singleton_component,yes,
+00-系统/MOC/README.md,,moc,0,24,24,0,1,no_inlink;singleton_component,yes,
+00-系统/MOC/鞋履配饰.md,,moc,3,39,42,0,1,singleton_component,yes,
+00-系统/MOC/风格体系.md,,moc,5,18,23,0,1,singleton_component,yes,
+reports/R1.1-DEFECT-CLOSURE.md,,other,0,0,0,499,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5-GRAPH-AFTER.md,,other,0,0,0,500,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5D-BASELINE.md,,other,0,0,0,501,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/R1.1-SECURITY.md,,other,0,0,0,502,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/CHANGELOG-P3.md,,other,1,0,1,1,1,no_outlink;weak_degree_1;singleton_component,no,not knowledge graph: reports
+reports/SKILL-E2E-R1.md,,other,0,0,0,503,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/SCHEMA-CODE-AUDIT.md,,other,0,1,1,0,1,no_inlink;weak_degree_1;singleton_component,no,not knowledge graph: reports
+reports/P5D-SEMANTIC.md,,other,0,0,0,504,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P3.6-REPORT.md,,other,0,0,0,505,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P4-REGRESSION.md,,other,0,0,0,506,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5D-RELATION-QA.md,,other,0,0,0,507,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/DRAFT-SIGNOFF-R1.1.md,,other,1,1,2,1,1,singleton_component,no,not knowledge graph: reports
+reports/P5C-RELATION-FIX.md,,other,0,0,0,508,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5B-SEMANTIC-AUDIT.md,,other,0,0,0,509,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/RELEASE-GATE.md,,other,0,0,0,510,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5E-FINAL.md,,other,0,0,0,511,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5D-FINAL.md,,other,0,0,0,512,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5F-OBSIDIAN-UAT.md,,other,0,0,0,513,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5B-AGENT-E2E.md,,other,0,0,0,514,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/QA.md,,other,0,5,5,1,1,no_inlink;singleton_component,no,not knowledge graph: reports
+reports/P5B-GRAPH-QA.md,,other,0,0,0,515,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/KNOWLEDGE-QUALITY-AUDIT.md,,other,2,0,2,1,1,no_outlink;singleton_component,no,not knowledge graph: reports
+reports/P5-SOURCE-RELATIONS.md,,other,0,0,0,516,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5B-FINAL.md,,other,0,0,0,517,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5C-FINAL.md,,other,0,0,0,518,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5D-AGENT-REGRESSION.md,,other,0,0,0,519,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/INTEGRATION-AUDIT.md,,other,0,0,0,520,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/R1.1-REPORT.md,,other,0,0,0,521,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/STATUS.md,,other,0,9,9,1,1,no_inlink;singleton_component,no,not knowledge graph: reports
+reports/P5F-UNRESOLVED-CLOSURE.md,,other,0,0,0,522,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5E-AGENT-REGRESSION.md,,other,0,0,0,523,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P3-QA.md,,other,2,0,2,1,1,no_outlink;singleton_component,no,not knowledge graph: reports
+reports/NEXT-PLAN-P4.md,,other,0,0,0,524,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5D-COVERAGE.md,,other,0,0,0,525,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5E-RELATION-ELIGIBILITY.md,,other,0,0,0,526,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5-MOC.md,,other,0,0,0,527,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/NEXT-PLAN.md,,other,1,0,1,1,1,no_outlink;weak_degree_1;singleton_component,no,not knowledge graph: reports
+reports/P5C-AGENT-REGRESSION.md,,other,0,0,0,528,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5-SEMANTIC-REVIEW.md,,other,0,1,1,0,1,no_inlink;weak_degree_1;singleton_component,no,not knowledge graph: reports
+reports/P4-SOURCE-AUDIT.md,,other,0,0,0,529,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/R1.1-KNOWLEDGE-REPO.md,,other,3,1,4,1,1,singleton_component,no,not knowledge graph: reports
+reports/P5E-SOURCE-RESEARCH.md,,other,0,0,0,530,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P3-COVERAGE.md,,other,2,0,2,1,1,no_outlink;singleton_component,no,not knowledge graph: reports
+reports/R1.1-SKILL-INTEGRATION.md,,other,0,0,0,531,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/R1.1-KNOWLEDGE.md,,other,0,0,0,532,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5-GRAPH-QA.md,,other,0,0,0,533,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5C-RELATION-COVERAGE.md,,other,0,0,0,534,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5E-KNOWLEDGE-EXPANSION.md,,other,0,0,0,535,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5D-BOOK-EVIDENCE.md,,other,0,0,0,536,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5E-CANDIDATE-REVIEW.md,,other,0,0,0,537,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5F-REGRESSION.md,,other,0,0,0,538,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5-RELATION-MIGRATION.md,,other,0,0,0,539,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5E-GRAPH-COMPARISON.md,,other,0,0,0,540,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5C-STRUCTURE-MATERIAL.md,,other,0,0,0,541,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/COPYRIGHT-MATRIX.md,,other,0,0,0,542,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P4-BOOKS-INDEX.md,,other,0,9,9,0,1,no_inlink;singleton_component,no,not knowledge graph: reports
+reports/P5-GRAPH-DIAGNOSIS.md,,other,0,0,0,543,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5F-MAINTENANCE.md,,other,0,0,0,544,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5F-CANDIDATE-REVIEW.md,,other,0,0,0,545,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5F-FINAL.md,,other,0,0,0,546,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5C-SOURCE-REUSE.md,,other,0,0,0,547,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P3-DEFECTS.md,,other,2,0,2,1,1,no_outlink;singleton_component,no,not knowledge graph: reports
+reports/P4-COVERAGE.md,,other,0,0,0,548,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5F-RELEASE-CHECK.md,,other,0,0,0,549,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5C-STYLE-ACCESSORIES.md,,other,0,0,0,550,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/GAP-ANALYSIS.md,,other,0,0,0,551,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P2.5-ACCEPTANCE.md,,other,0,0,0,552,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/OBSIDIAN-UAT-CHECKLIST.md,,other,0,0,0,553,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5E-BASELINE.md,,other,0,0,0,554,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/COVERAGE.md,,other,0,2,2,1,1,no_inlink;singleton_component,no,not knowledge graph: reports
+reports/P5E-HUMAN-UAT.md,,other,0,0,0,555,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/REGRESSION-MATRIX.md,,other,0,0,0,556,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5-COVERAGE-GAPS.md,,other,0,0,0,557,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5C-OUTFIT-KNOWLEDGE.md,,other,0,0,0,558,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5D-RELATION-BACKFILL.md,,other,0,0,0,559,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/CREATIVE-QUALITY-AUDIT.md,,other,0,0,0,560,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5B-RELATION-COVERAGE.md,,other,0,0,0,561,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P3.5-REPORT.md,,other,0,0,0,562,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P4-REPORT.md,,other,1,0,1,1,1,no_outlink;weak_degree_1;singleton_component,no,not knowledge graph: reports
+reports/P5B-EXPANSION-PLAN.md,,other,0,0,0,563,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/SECURITY-TEST.md,,other,0,0,0,564,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5-HUMAN-UAT.md,,other,0,0,0,565,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/R1.1-DATA-SAFETY.md,,other,0,0,0,566,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P5C-BASELINE.md,,other,0,0,0,567,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/R1.1-CREATIVE.md,,other,0,0,0,568,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/P2.5-AUDIT.md,,other,0,0,0,569,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/CHANGELOG-P4.md,,other,0,0,0,570,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/R1.1-REGRESSION.md,,other,0,0,0,571,1,zero_degree;singleton_component,no,not knowledge graph: reports
+reports/NEXT-PRIORITY.md,,other,0,0,0,572,1,zero_degree;singleton_component,no,not knowledge graph: reports

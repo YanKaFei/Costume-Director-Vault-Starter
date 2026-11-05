@@ -45,3 +45,9 @@ tags: [source, museum_collection, vam, p5c]
 ## 可配合的主题
 
 - 领口形态（square）、丝绸/乔其纱、1920s 晚装
+
+## 相关卡片
+
+- [[MAT-0018-丝绸]]
+- [[STR-0027-领口形态]]
+- [[STR-0035-廓形与比例]]

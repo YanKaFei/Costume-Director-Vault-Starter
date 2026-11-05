@@ -52,3 +52,4 @@ FIT Fashion History Timeline 术语条目，汇编词典与学术著作对 Medic
 ## 相关卡片
 - [[STR-0001-美第奇领]]
 - [[GAR-0015-法式长袍]]
+- [[LOOK-0003-十六世纪欧洲宫廷男装]]

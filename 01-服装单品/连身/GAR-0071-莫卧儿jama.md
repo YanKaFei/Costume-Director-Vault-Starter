@@ -53,9 +53,9 @@ jama 是莫卧儿/南亚男性的交叉襟长袍：胸前交叉、侧边系合�
 - 中文造型说明：莫卧儿 jama 长袍，白棉细布金线刺绣，交叉襟侧系，宽大下摆，红缎衬边，南亚宫廷男装。
 
 ## 来源链接
-- `SRC-0450` V&A：18 世纪印度莫卧儿 jama 男袍 — https://collections.vam.ac.uk/item/O144142/
-- `SRC-0451` V&A：约 1855 年 Bharatpur 白棉 jama — https://collections.vam.ac.uk/item/O109190/
-- `SRC-0452` V&A：勒克瑙 angarkha 细布男袍（20 世纪初） — https://collections.vam.ac.uk/item/O438362/
+- [[SRC-0450-V&A-莫卧儿jama18世纪]] V&A：18 世纪印度莫卧儿 jama 男袍 — https://collections.vam.ac.uk/item/O144142/
+- [[SRC-0451-V&A-1855jama]] V&A：约 1855 年 Bharatpur 白棉 jama — https://collections.vam.ac.uk/item/O109190/
+- [[SRC-0452-V&A-勒克瑙angarkha]] V&A：勒克瑙 angarkha 细布男袍（20 世纪初） — https://collections.vam.ac.uk/item/O438362/
 - 支撑范围：V&A 藏 18 世纪印度 jama（O144142）：白棉细布、金线刺绣、竖条纹与金箔小枝、边缘内侧红缎；长 152.5 cm。V&A 藏约 1855 年 Bharatpur jama（O109190）：胸前交叉、侧系、裙摆 277 块三角片、下摆周长约 65 米。V&A 藏勒克瑙 angarkha（O438362，20 世纪初）：胸前圆形布片、chikan 刺绣。
 
 ## 相关卡片

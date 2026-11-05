@@ -52,3 +52,7 @@ tags: [source, book, public_domain, gutenberg, gitenberg, fashion_history]
 ## 可配合的主题
 
 - 详见 `06-时代地域/书籍研究/` 与 `11-验收/P4-BOOKS/`。
+
+## 相关卡片
+
+- [[STR-0010-剪口装饰]]

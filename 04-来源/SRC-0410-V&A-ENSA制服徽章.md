@@ -51,3 +51,8 @@ V&A 馆藏对象记录（对象页 + Collections API），含对象类型、年�
 
 ## 相关卡片
 - [[GAR-0050-制服徽章]]
+- [[LOOK-0011-废弃空间站维修工]]
+- [[LOOK-0016-1940年代复员军人身份上升]]
+- [[LOOK-0031-contemporary-night-shift-nurse,-rainy-handover]]
+- [[LOOK-0033-zero-gravity-opera-singer]]
+- [[STY-0013-contemporary-occupational-uniform-realism]]

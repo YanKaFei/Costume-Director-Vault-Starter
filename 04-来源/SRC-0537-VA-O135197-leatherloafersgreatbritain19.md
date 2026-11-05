@@ -45,3 +45,7 @@ tags: [source, museum_collection, vam, p5c]
 ## 可配合的主题
 
 - 乐福鞋/便装鞋、流苏饰
+
+## 相关卡片
+
+- [[GAR-0091-乐福鞋]]

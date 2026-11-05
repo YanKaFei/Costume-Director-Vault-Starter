@@ -51,3 +51,7 @@ FIT Fashion History Timeline 术语/年代条目：mule（穆勒鞋）
 
 ## 相关卡片
 - [[GAR-0024-穆勒鞋]]
+- [[LOOK-0027-Lady-Macbeth-ambition-rise,-reading-the-letter]]
+- [[LOOK-0028-Lady-Macbeth-guilt,-blood-on-the-hands]]
+- [[LOOK-0029-Lady-Macbeth-downfall,-sleepwalking]]
+- [[LOOK-0034-expressionist-Lady-Macbeth-finale]]

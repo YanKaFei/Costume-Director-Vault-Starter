@@ -45,3 +45,8 @@ tags: [source, museum_collection, vam, p5c]
 ## 可配合的主题
 
 - 晚装长手套、正式配饰、皮革
+
+## 相关卡片
+
+- [[GAR-0088-晚装长手套]]
+- [[MAT-0017-皮革]]

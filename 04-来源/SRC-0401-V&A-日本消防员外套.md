@@ -51,3 +51,6 @@ V&A 馆藏对象记录（对象页 + Collections API），含对象类型、年�
 
 ## 相关卡片
 - [[GAR-0037-消防防护外套]]
+- [[LOOK-0011-废弃空间站维修工]]
+- [[LOOK-0033-zero-gravity-opera-singer]]
+- [[STY-0015-zero-gravity-opera-and-sci-fi-theatre]]
