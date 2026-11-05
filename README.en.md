@@ -23,6 +23,20 @@
 
 ---
 
+## Contents
+
+- [About](#about)
+- [Why this repository exists](#why-this-repository-exists)
+- [The atlas at a glance](#the-atlas-at-a-glance)
+- [What is inside](#what-is-inside)
+- [Knowledge chain](#knowledge-chain)
+- [Visual language](#visual-language)
+- [Core capabilities](#core-capabilities)
+- [How to use](#how-to-use)
+- [Quality and boundaries](#quality-and-boundaries)
+- [Rights and usage](#rights-and-usage)
+- [Project status](#project-status)
+
 ## About
 
 This is a personally maintained visual knowledge base for costume. It turns garment structures, materials, garments, styles and complete outfits into searchable Obsidian cards, with visual notes, English image prompts and reference-image status for each card. It is made for costume design, character styling and visual research — not as a commercial product.
@@ -183,20 +197,6 @@ This is a **research workbench**, not a history textbook, rights clearance, prof
 - Scope: structure, material, garment, style, complete outfit, visual prompts
 - Current focus: reference-image evidence, professional prompt distinction, real image testing and human visual review
 - Principle: **evidence before expression; structure before adjectives; verification before reuse.**
-
-## Contents
-
-- [About](#about)
-- [Why this repository exists](#why-this-repository-exists)
-- [The atlas at a glance](#the-atlas-at-a-glance)
-- [What is inside](#what-is-inside)
-- [Knowledge chain](#knowledge-chain)
-- [Visual language](#visual-language)
-- [Core capabilities](#core-capabilities)
-- [How to use](#how-to-use)
-- [Quality and boundaries](#quality-and-boundaries)
-- [Rights and usage](#rights-and-usage)
-- [Project status](#project-status)
 
 ---
 

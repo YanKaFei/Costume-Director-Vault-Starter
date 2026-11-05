@@ -23,6 +23,20 @@
 
 ---
 
+## Sommaire
+
+- [À propos](#à-propos)
+- [Pourquoi ce dépôt](#pourquoi-ce-dépôt)
+- [L’atlas en un coup d’œil](#latlas-en-un-coup-dœil)
+- [Ce que contient le dépôt](#ce-que-contient-le-dépôt)
+- [La chaîne de connaissance](#la-chaîne-de-connaissance)
+- [Langage visuel](#langage-visuel)
+- [Capacités principales](#capacités-principales)
+- [Comment l’utiliser](#comment-lutiliser)
+- [Qualité et limites](#qualité-et-limites)
+- [Droits et conditions d’utilisation](#droits-et-conditions-dutilisation)
+- [État du projet](#état-du-projet)
+
 ## À propos
 
 Ce dépôt est une base de connaissances visuelles sur le costume, tenue à titre personnel. Il transforme les structures de vêtements, les matières, les pièces, les styles et les silhouettes complètes en fiches Obsidian interrogeables, avec des notes visuelles, des prompts d’image en anglais et l’état des images de référence pour chaque fiche. Il est destiné au design de costume, au stylisme de personnage et à la recherche visuelle — ce n’est pas un produit commercial.
@@ -183,20 +197,6 @@ Ce dépôt est un **atelier de recherche**, pas un manuel d’histoire, une auto
 - Périmètre : structure, matière, pièce, style, silhouette complète, prompts visuels
 - Priorité actuelle : preuves des images de référence, distinction professionnelle des prompts, tests réels d’images, revue visuelle humaine
 - Principe : **la preuve avant l’expression ; la structure avant les adjectifs ; la vérification avant la réutilisation.**
-
-## Sommaire
-
-- [À propos](#à-propos)
-- [Pourquoi ce dépôt](#pourquoi-ce-dépôt)
-- [L’atlas en un coup d’œil](#latlas-en-un-coup-dœil)
-- [Ce que contient le dépôt](#ce-que-contient-le-dépôt)
-- [La chaîne de connaissance](#la-chaîne-de-connaissance)
-- [Langage visuel](#langage-visuel)
-- [Capacités principales](#capacités-principales)
-- [Comment l’utiliser](#comment-lutiliser)
-- [Qualité et limites](#qualité-et-limites)
-- [Droits et conditions d’utilisation](#droits-et-conditions-dutilisation)
-- [État du projet](#état-du-projet)
 
 ---
 
