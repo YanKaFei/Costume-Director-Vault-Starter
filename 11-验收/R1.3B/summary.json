@@ -1,29 +1,71 @@
 {
-  "prompts": 388,
-  "cards": 142,
-  "text_valid": 388,
+  "prompts": 472,
+  "cards": 163,
+  "text_valid": 472,
   "text_invalid": 0,
-  "warnings": 366,
+  "warnings": 450,
   "errors": 0,
   "subtype_counts": {
     "applied": 26,
-    "base": 195,
+    "base": 216,
     "character_body": 4,
     "detail": 26,
     "front_full": 29,
-    "product": 25,
-    "side_back": 54,
+    "product": 46,
+    "side_back": 75,
     "style_case": 4,
-    "worn": 25
+    "worn": 46
   },
   "type_counts": {
-    "image": 251,
-    "video": 137
+    "image": 314,
+    "video": 158
   },
-  "homogeneity_pairs": 737,
-  "template_scaffold_pairs": 2125,
+  "homogeneity_pairs": 1120,
+  "template_scaffold_pairs": 4394,
   "homogeneity_threshold": "content-token Jaccard >= 0.80 after removing template vocabulary",
   "homogeneity": [
+    {
+      "prompt_kind": "image",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "GAR-0018",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0087",
+      "content_jaccard": 0.88
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0087",
+      "content_jaccard": 0.833
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0087",
+      "content_jaccard": 0.842
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "GAR-0074",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "GAR-0083",
+      "card_b": "GAR-0088",
+      "content_jaccard": 0.8
+    },
     {
       "prompt_kind": "image",
       "card_a": "STR-0011",
@@ -327,20 +369,68 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0010",
+      "card_b": "GAR-0013",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
       "card_b": "GAR-0014",
       "content_jaccard": 0.857
     },
     {
       "prompt_kind": "video",
       "card_a": "GAR-0010",
+      "card_b": "GAR-0072",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
       "card_b": "GAR-0077",
       "content_jaccard": 0.857
     },
     {
       "prompt_kind": "video",
       "card_a": "GAR-0010",
+      "card_b": "GAR-0005",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0030",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
       "card_b": "GAR-0016",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -353,6 +443,18 @@
       "card_a": "GAR-0010",
       "card_b": "GAR-0019",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -375,6 +477,30 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0010",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
       "card_b": "GAR-0021",
       "content_jaccard": 0.857
     },
@@ -383,6 +509,12 @@
       "card_a": "GAR-0010",
       "card_b": "GAR-0028",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -405,6 +537,18 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0010",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0010",
       "card_b": "GAR-0090",
       "content_jaccard": 0.8
     },
@@ -412,6 +556,12 @@
       "prompt_kind": "video",
       "card_a": "GAR-0010",
       "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0013",
       "content_jaccard": 0.857
     },
     {
@@ -423,14 +573,56 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0011",
+      "card_b": "GAR-0072",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
       "card_b": "GAR-0077",
       "content_jaccard": 0.857
     },
     {
       "prompt_kind": "video",
       "card_a": "GAR-0011",
+      "card_b": "GAR-0005",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0030",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
       "card_b": "GAR-0016",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -443,6 +635,18 @@
       "card_a": "GAR-0011",
       "card_b": "GAR-0019",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -465,6 +669,30 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0011",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
       "card_b": "GAR-0021",
       "content_jaccard": 0.857
     },
@@ -473,6 +701,12 @@
       "card_a": "GAR-0011",
       "card_b": "GAR-0028",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -491,6 +725,18 @@
       "card_a": "GAR-0011",
       "card_b": "GAR-0080",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0011",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -506,6 +752,198 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0014",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0072",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0077",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0005",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0030",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0016",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0018",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0076",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0013",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0072",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "GAR-0014",
       "card_b": "GAR-0077",
       "content_jaccard": 0.857
@@ -513,8 +951,44 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0014",
+      "card_b": "GAR-0005",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0030",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
       "card_b": "GAR-0016",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -527,6 +1001,18 @@
       "card_a": "GAR-0014",
       "card_b": "GAR-0019",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -549,6 +1035,30 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0014",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
       "card_b": "GAR-0021",
       "content_jaccard": 0.857
     },
@@ -557,6 +1067,12 @@
       "card_a": "GAR-0014",
       "card_b": "GAR-0028",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -575,6 +1091,18 @@
       "card_a": "GAR-0014",
       "card_b": "GAR-0080",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0014",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -590,9 +1118,219 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0077",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0005",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0030",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0016",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0018",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0076",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0072",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0005",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0030",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "GAR-0077",
       "card_b": "GAR-0016",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -605,6 +1343,18 @@
       "card_a": "GAR-0077",
       "card_b": "GAR-0019",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -627,6 +1377,30 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0077",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
       "card_b": "GAR-0021",
       "content_jaccard": 0.857
     },
@@ -635,6 +1409,12 @@
       "card_a": "GAR-0077",
       "card_b": "GAR-0028",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -653,6 +1433,18 @@
       "card_a": "GAR-0077",
       "card_b": "GAR-0080",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0077",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -728,6 +1520,696 @@
     },
     {
       "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0030",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0016",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0018",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0076",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0005",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0012",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0016",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0018",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0076",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0030",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0020",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0016",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0018",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0076",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0012",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0078",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0016",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0018",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0076",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0020",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0016",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0078",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
+      "card_b": "GAR-0017",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
       "card_a": "GAR-0016",
       "card_b": "GAR-0018",
       "content_jaccard": 0.8
@@ -741,6 +2223,18 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0016",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
       "card_b": "GAR-0040",
       "content_jaccard": 0.8
     },
@@ -759,6 +2253,30 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0016",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
       "card_b": "GAR-0021",
       "content_jaccard": 0.857
     },
@@ -767,6 +2285,12 @@
       "card_a": "GAR-0016",
       "card_b": "GAR-0028",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -789,6 +2313,18 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0016",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0016",
       "card_b": "GAR-0090",
       "content_jaccard": 0.8
     },
@@ -797,6 +2333,84 @@
       "card_a": "GAR-0016",
       "card_b": "GAR-0091",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0019",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0040",
+      "content_jaccard": 0.867
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0057",
+      "content_jaccard": 0.812
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0017",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -807,7 +2421,31 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0018",
+      "card_b": "GAR-0037",
+      "content_jaccard": 0.867
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0018",
       "card_b": "GAR-0046",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0018",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0018",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0018",
+      "card_b": "GAR-0082",
       "content_jaccard": 0.8
     },
     {
@@ -837,7 +2475,25 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0018",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0018",
       "card_b": "GAR-0091",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
+      "card_b": "GAR-0033",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
+      "card_b": "GAR-0037",
       "content_jaccard": 0.8
     },
     {
@@ -861,6 +2517,30 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0019",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
       "card_b": "GAR-0021",
       "content_jaccard": 0.857
     },
@@ -869,6 +2549,12 @@
       "card_a": "GAR-0019",
       "card_b": "GAR-0028",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -891,6 +2577,18 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0019",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0019",
       "card_b": "GAR-0090",
       "content_jaccard": 0.8
     },
@@ -899,6 +2597,126 @@
       "card_a": "GAR-0019",
       "card_b": "GAR-0091",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0033",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0046",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0037",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -915,6 +2733,24 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0040",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0040",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0040",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0040",
       "card_b": "GAR-0021",
       "content_jaccard": 0.8
     },
@@ -939,6 +2775,12 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0040",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0040",
       "card_b": "GAR-0091",
       "content_jaccard": 0.8
     },
@@ -951,6 +2793,30 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0046",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0046",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0046",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0046",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0046",
       "card_b": "GAR-0021",
       "content_jaccard": 0.857
     },
@@ -959,6 +2825,12 @@
       "card_a": "GAR-0046",
       "card_b": "GAR-0028",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0046",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -981,6 +2853,18 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0046",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0046",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0046",
       "card_b": "GAR-0090",
       "content_jaccard": 0.8
     },
@@ -989,6 +2873,24 @@
       "card_a": "GAR-0046",
       "card_b": "GAR-0091",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0076",
+      "card_b": "GAR-0047",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0076",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0076",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -1017,8 +2919,278 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0076",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0076",
       "card_b": "GAR-0091",
       "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0048",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0047",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0049",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0087",
+      "content_jaccard": 0.867
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0048",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0049",
+      "card_b": "GAR-0082",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0049",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0049",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0049",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0049",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0049",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0049",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0021",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0028",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0067",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0082",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0087",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.812
     },
     {
       "prompt_kind": "video",
@@ -1173,6 +3345,12 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0021",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0021",
       "card_b": "GAR-0066",
       "content_jaccard": 0.857
     },
@@ -1191,6 +3369,18 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0021",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0021",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0021",
       "card_b": "GAR-0090",
       "content_jaccard": 0.8
     },
@@ -1199,6 +3389,12 @@
       "card_a": "GAR-0021",
       "card_b": "GAR-0091",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0028",
+      "card_b": "GAR-0050",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -1221,6 +3417,18 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0028",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0028",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0028",
       "card_b": "GAR-0090",
       "content_jaccard": 0.8
     },
@@ -1229,6 +3437,30 @@
       "card_a": "GAR-0028",
       "card_b": "GAR-0091",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0050",
+      "card_b": "GAR-0066",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0050",
+      "card_b": "GAR-0080",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0050",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0050",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -1241,6 +3473,18 @@
       "card_a": "GAR-0066",
       "card_b": "GAR-0080",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0066",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0066",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -1263,7 +3507,31 @@
     {
       "prompt_kind": "video",
       "card_a": "GAR-0067",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0067",
       "card_b": "GAR-0091",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0074",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.812
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0080",
+      "card_b": "GAR-0083",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0080",
+      "card_b": "GAR-0086",
       "content_jaccard": 0.8
     },
     {
@@ -1283,6 +3551,36 @@
       "card_a": "GAR-0080",
       "card_b": "GAR-0091",
       "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0083",
+      "card_b": "GAR-0086",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0083",
+      "card_b": "GAR-0088",
+      "content_jaccard": 0.867
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0083",
+      "card_b": "GAR-0090",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0083",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0086",
+      "card_b": "GAR-0091",
+      "content_jaccard": 0.8
     },
     {
       "prompt_kind": "video",
@@ -4448,7 +6746,7 @@
     }
   ],
   "statuses": {
-    "TEXT_VALID": 388,
+    "TEXT_VALID": 472,
     "DOMAIN_REVIEWED": "NOT_RUN",
     "IMAGE_TESTED": "NOT_RUN",
     "HUMAN_VISUAL_APPROVED": "NOT_RUN"

@@ -1,0 +1,208 @@
+card_id,card_type,visual_applicable,visual_status,image_prompt_count,video_prompt_count,reference_status,evidence_status,missing_reason
+GAR-0002,garment,True,complete,3,0,REFERENCE_PENDING,verified,
+GAR-0003,garment,True,complete,3,0,REFERENCE_PENDING,verified,
+GAR-0006,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0007,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0008,garment,True,complete,1,1,ASSET,verified,
+GAR-0034,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0043,garment,False,none,0,0,NOT_MARKED,interpretive,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-EXAMPLE-001,garment,False,none,0,0,NOT_MARKED,example,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0010,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0011,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0013,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0014,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0072,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0077,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0001,garment,True,complete,1,1,ASSET,verified,
+GAR-0005,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0030,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0065,garment,True,complete,3,0,REFERENCE_PENDING,verified,
+GAR-0012,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0020,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0078,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0016,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0017,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0018,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0019,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0033,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0037,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0040,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0041,garment,False,none,0,0,NOT_MARKED,interpretive,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0045,garment,True,complete,3,0,REFERENCE_PENDING,verified,
+GAR-0046,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0057,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0076,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0025,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0026,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0027,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0039,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0068,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0070,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0085,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0047,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0048,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0049,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0082,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0087,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0022,garment,True,complete,1,1,NOT_MARKED,verified,
+GAR-0023,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0024,garment,True,complete,1,1,NOT_MARKED,verified,
+GAR-0035,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0044,garment,False,none,0,0,NOT_MARKED,interpretive,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0058,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0060,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0081,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0084,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0004,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0009,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0015,garment,True,complete,1,1,NOT_MARKED,verified,
+GAR-0029,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0031,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0032,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0036,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0038,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0042,garment,False,none,0,0,NOT_MARKED,interpretive,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0052,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0053,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0054,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0055,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0056,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0059,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0061,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0062,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0063,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0064,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0069,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0071,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0075,garment,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0079,garment,False,none,0,0,NOT_MARKED,interpretive,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+GAR-0021,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0028,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0050,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0051,garment,True,complete,3,0,REFERENCE_PENDING,verified,
+GAR-0066,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0067,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0073,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0074,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0080,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0083,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0086,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0088,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0089,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0090,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+GAR-0091,garment,True,complete,3,1,REFERENCE_PENDING,verified,
+STR-0001,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0002,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0003,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0004,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0005,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0006,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0007,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0008,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0009,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0010,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0011,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0012,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0013,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0014,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0015,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0016,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0017,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0018,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0019,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0020,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0021,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0022,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0023,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0024,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0025,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0026,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0027,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0028,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0029,garment_part,True,complete,1,1,NOT_MARKED,verified,
+STR-0030,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0031,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0032,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0033,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0034,garment_part,True,complete,2,1,REFERENCE_PENDING,verified,
+STR-0035,garment_part,True,complete,2,1,REFERENCE_PENDING,interpretive,
+MAT-0001,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0002,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0003,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0004,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0008,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0009,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0010,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0011,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0012,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0013,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0014,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0015,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0016,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0017,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0018,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0019,material,True,complete,1,1,NOT_MARKED,verified,
+MAT-0005,pattern,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+MAT-0006,pattern,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+MAT-0007,pattern,False,none,0,0,NOT_MARKED,verified,not_visual_applicable: example/draft/no reliable visual source/duplicate role
+STY-0001,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0002,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0003,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0004,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0005,style,True,complete,1,1,REFERENCE_PENDING,interpretive,
+STY-0006,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0007,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0008,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0009,style,True,complete,1,1,REFERENCE_PENDING,verified,
+STY-0010,style,True,complete,1,1,NOT_MARKED,verified,
+STY-0011,style,True,complete,1,1,REFERENCE_PENDING,interpretive,
+STY-0012,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0013,style,True,complete,2,1,REFERENCE_PENDING,interpretive,
+STY-0014,style,True,complete,2,1,REFERENCE_PENDING,interpretive,
+STY-0015,style,True,complete,2,1,REFERENCE_PENDING,interpretive,
+STY-0016,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0017,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0018,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0019,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0020,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0021,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0022,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0023,style,True,complete,1,1,NOT_MARKED,interpretive,
+STY-0024,style,True,complete,1,1,REFERENCE_PENDING,interpretive,
+STY-0025,style,True,complete,1,1,REFERENCE_PENDING,interpretive,
+STY-EXAMPLE-001,style,True,complete,2,1,REFERENCE_PENDING,example,
+LOOK-0001,look,True,complete,1,1,NOT_MARKED,interpretive,
+LOOK-0002,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0003,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0004,look,True,complete,1,1,REFERENCE_PENDING,interpretive,
+LOOK-0005,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0006,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0007,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0008,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0009,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0010,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0011,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0012,look,True,complete,1,1,REFERENCE_PENDING,interpretive,
+LOOK-0013,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0014,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0015,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0016,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0017,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0018,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0019,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0020,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0021,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0022,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0024,look,True,complete,1,1,REFERENCE_PENDING,interpretive,
+LOOK-0025,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0026,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0027,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0028,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0029,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0030,look,True,complete,1,1,NOT_MARKED,interpretive,
+LOOK-0031,look,True,complete,1,1,NOT_MARKED,interpretive,
+LOOK-0032,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0033,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0034,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-0035,look,True,complete,2,1,REFERENCE_PENDING,interpretive,
+LOOK-EXAMPLE-001,look,True,complete,2,1,REFERENCE_PENDING,example,
