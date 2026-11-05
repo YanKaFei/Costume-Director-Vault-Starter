@@ -120,3 +120,20 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 
 - 旧 `R1.3-VISUAL-COVERAGE.csv` 已重生成（205 行；74 visual/31 pending/2 asset-linked）；license CSV 同步 batch2 状态列。
 - 剩余 **131 张视觉卡**未视觉化；不以卡数/资产数为目标。
+
+
+## R1.3B Batch3 视觉覆盖（2026-11-05）
+
+| 项 | 数值 |
+|---|---:|
+| 视觉类卡（9 类） | **207** |
+| 有视觉层 | **89（43.0%）** |
+| prompt 块 | **209**（task-114） |
+| Batch3 新增视觉卡 | **15**（10 Style+3 Outfit+2 主题）；+30 prompt 块 |
+| REFERENCE_PENDING | **46** |
+| ASSET_LINKED 卡 | 2（3 个 IN_USE 资产） |
+| 15 ASSET 状态 | IN_USE 3、4 approved associations、5 LINK pending、其余未用；0 下载/0 生图 |
+| 人工视觉评分 | **N/A** |
+
+- 覆盖 CSV 207 行已更新（89 visual/46 pending/209 text valid）；license CSV 20 行 + batch3 列。
+- 剩余 Style 4 + Look 29 未视觉化；不追资产/卡数量。

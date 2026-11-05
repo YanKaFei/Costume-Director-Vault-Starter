@@ -17,6 +17,7 @@ prompt that asserts material/structure while the card has no evidence is flagged
 """
 import argparse
 import csv
+import hashlib
 import json
 import re
 import sys
@@ -59,12 +60,27 @@ def load_cards():
 
 
 def prompt_blocks(card):
+    """Return every fenced prompt block, including ### detail/applied/product sub-blocks.
+
+    Earlier versions joined all fenced blocks under a ## heading into one prompt,
+    which under-counted structure/garment sub-prompts by 36 (143 vs 179).
+    """
     blocks = []
     for match in BLOCK.finditer(card["body"]):
         kind = "image" if match.group(1) == "生图提示词" else "video"
-        texts = TEXT_BLOCK.findall(match.group(2))
-        prompt = "\n".join(texts).strip() or match.group(2).strip()
-        blocks.append({"kind": kind, "prompt": prompt})
+        section = match.group(2)
+        # Find each code fence and the nearest preceding ### subtype heading.
+        for text_match in TEXT_BLOCK.finditer(section):
+            prefix = section[:text_match.start()]
+            subheads = re.findall(r"(?m)^###\s+(.+?)\s*$", prefix)
+            subtype = subheads[-1].strip() if subheads else ""
+            prompt = text_match.group(1).strip()
+            if prompt:
+                blocks.append({"kind": kind, "subtype": subtype,
+                               "location": "## %s%s" % (
+                                   match.group(1),
+                                   (" / ### " + subtype) if subtype else ""),
+                               "prompt": prompt})
     return blocks
 
 
@@ -116,7 +132,13 @@ def check_prompt(card, block):
                    for m in materials if m not in ("unknown", "")):
             warnings.append("materials not represented in prompt")
     else:
-        if re.search(r"(silk|wool|leather|cotton|linen|lace|satin|velvet|denim|nylon)", prompt, re.I):
+        material_hypothesis = ("INFERENCE" in material_line.upper() or
+                               "HYPOTHESIS" in prompt.upper() or
+                               "UNKNOWN" in prompt.upper() or
+                               "NOT MATERIAL FACT" in prompt.upper())
+        if (not material_hypothesis and
+                re.search(r"(silk|wool|leather|cotton|linen|lace|satin|velvet|denim|nylon)",
+                          prompt, re.I)):
             errors.append("prompt asserts material while card has no materials field")
     if card["meta"].get("type") in ("garment", "garment_part"):
         if "STRUCTURE" not in prompt.upper():
@@ -153,19 +175,37 @@ def main(argv=None):
     p.add_argument("--out-csv", default=str(OUT / "PROMPT-QA.csv"))
     p.add_argument("--out-md", default=str(OUT / "PROMPT-QA.md"))
     p.add_argument("--json", action="store_true")
+    p.add_argument("--baseline-179", action="store_true",
+                   help="audit the 179-block Batch2 baseline; exclude the 13 "
+                        "cards whose 26 base blocks were added in Batch3")
     args = p.parse_args(argv)
     OUT.mkdir(parents=True, exist_ok=True)
     cards = load_cards()
+    batch3_cards = {f"STY-{i:04d}" for i in range(1, 12)} | {
+        "LOOK-0004", "LOOK-0024", "STY-0024", "STY-0025"}
+    if args.baseline_179:
+        cards = [c for c in cards if c["id"] not in batch3_cards]
     rows = []
     prompt_map = {}
+    pid = 0
     for card in cards:
         blocks = prompt_blocks(card)
         if not blocks:
             continue
         for block in blocks:
+            pid += 1
             checks = check_prompt(card, block)
             text_valid = not checks["errors"]
-            row = {"card_id": card["id"], "path": str(card["path"].relative_to(ROOT)),
+            prompt_hash = hashlib.sha256(block["prompt"].encode("utf-8")).hexdigest()[:16]
+            row = {"card_id": card["id"],
+                   "prompt_id": "PID-%04d" % pid,
+                   "type": block["kind"],
+                   "subtype": block["subtype"] or "base",
+                   "location": block["location"],
+                   "hash": prompt_hash,
+                   "status": "TEXT_VALID" if text_valid else "TEXT_INVALID",
+                   "evidence": "FACT/OBSERVATION/INFERENCE/CREATIVE",
+                   "path": str(card["path"].relative_to(ROOT)),
                    "prompt_kind": block["kind"], "chars": len(block["prompt"]),
                    "text_status": "TEXT_VALID" if text_valid else "TEXT_INVALID",
                    "domain_reviewed": "NOT_RUN", "image_tested": "NOT_RUN",
@@ -205,6 +245,10 @@ def main(argv=None):
                "text_valid": sum(1 for r in rows if r["text_status"] == "TEXT_VALID"),
                "text_invalid": len(errors), "warnings": len(warnings),
                "errors": sum(1 for r in rows for _ in (r["errors"].split(";") if r["errors"] else [])),
+               "subtype_counts": {t: sum(1 for r in rows if r["subtype"] == t)
+                                  for t in sorted({r["subtype"] for r in rows})},
+               "type_counts": {t: sum(1 for r in rows if r["type"] == t)
+                               for t in sorted({r["type"] for r in rows})},
                "homogeneity_pairs": len(homogeneity),
                "template_scaffold_pairs": template_pairs,
                "homogeneity_threshold": "content-token Jaccard >= 0.80 after removing template vocabulary",

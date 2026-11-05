@@ -2,12 +2,12 @@
 
 本目录（`/Users/coffee/Desktop/Costume-Director-Vault-Starter`）是唯一允许写入的项目根；面向 DeepSeek Harness / Agent 的服装与造型知识库。详细任务以 `TASKS/` 与 `reports/STATUS.md` 为准；本文件是当前实际命令与规则。
 
-## 当前状态（R1.3B Batch2，2026-11-05）
+## 当前状态（R1.3B Batch3，2026-11-05）
 
-- **471 卡 = 232 内容 + 239 来源；345 relations（high 262 / medium 83）**
-- validate **471/471 PASS**；build_sources **239 PASS**；relation_consistency **0 errors**；graph **typed_unresolved 0 / unresolved 0 / typed_edges 748**
+- **473 卡 = 234 内容 + 239 来源；345 relations（high 262 / medium 83）**
+- validate **473/473 PASS**；build_sources **239 PASS**；relation_consistency **0 errors**；graph **typed_unresolved 0 / unresolved 0 / typed_edges 768**
 - source_ids 可见 **478/478（100%）**；MOC **232/232 + 239/239**；59 isolates（+3 dup=62 uncited）；38 基线 draft；6 flags 待人工
-- 视觉层：**74/205 卡**（R1.3 23 + Batch1 20 + Batch2 31）/ **143 prompt 块**；15 CC0/PD ASSET+5 LINK；**31 张 REFERENCE_PENDING**；0 本地图/0 下载；同质化/视角缺口见 R1.3B-BATCH2-REPORT
+- 视觉层：**89/207 卡**（+Batch3 15）/ **209 prompt 块**；15 CC0/PD ASSET（4 approved associations）+5 LINK；**46 REFERENCE_PENDING**；0 本地图/0 下载；UAT 包见 R1.3B-BATCH3-VISUAL-UAT
 - **GUI = NOT_RUN / HUMAN_UAT_PENDING**；quality_eval **PASS（4.20/0.921/0）**；**E2E R1.3 official 3/3、overlay 3/3 五项全 true**（AI 未生图）
 - 门禁：PRIVATE-USE **YES（WARN/P1）**；PUBLIC **NO（B1–B6、L1–L6）**
 

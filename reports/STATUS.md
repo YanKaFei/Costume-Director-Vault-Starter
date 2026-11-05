@@ -254,3 +254,17 @@
 - **回归**：task-111 当前 Batch2：validate 471、build 239、consistency 0/345、graph 0、acceptance **45/45**、quality **PASS**、workflow **9/9（159.3s）**、Macbeth **11/11**、单元 **71/71**（visual_prompt 9/9、prompt_qa 6/6、skill-sync 3/3）；E2E official **3/3**、overlay **3/3** 五项全 true（no_image_claim）；GUI **NOT_RUN**；生图 0；人工评分 N/A。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：31 REFERENCE_PENDING、同质化 597 对、12 未用/5 LINK、GUI/domain/image/human visual NOT_RUN）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；建议维护模式。
 - 详见 `reports/R1.3B-BATCH2-REPORT.md`、`R1.3B-BATCH2-ASSET-REVIEW.csv`、`R1.3-VISUAL-COVERAGE.csv`。
+
+
+## 21. R1.3B Batch3 收口（2026-11-05 18:00，task-115）
+
+- **快照**：HEAD `b28f4bd` + Batch3 工作区；**473 卡 = 234 内容 + 239 来源；345 relations**；validate **473/473**、build **239**、consistency **0/345**、graph **0 unresolved / 0 typed / 768 typed**；scope **503/0/1/0**。
+- **Batch3-C/D**：+15 视觉卡（10 Style +3 Outfit +2 新主题 STY-0024/0025）；+30 prompt 块；**视觉 89/207（43.0%）**、**209 prompt 块**；全部 **REFERENCE_PENDING**；未改事实/ID/draft。
+- **资产 E**：4 MATCHED 复核——0009/0010→STY-0002 style reference、0011→STY-0001/PRD-0002 period-style、0012→GAR-0061 **exact object**，均 **APPROVED**（ledger 记录；owner 需加卡链接）；6 个优先参考 **REFERENCE_PENDING**（无已验证许可图像；Met API 尝试未完成核验，不伪造）；15 ASSET（IN_USE 3、5 LINK pending、不下载）。
+- **覆盖/许可**：`R1.3-VISUAL-COVERAGE.csv` **207 行/89 visual/46 REFERENCE_PENDING/2 asset-linked**；`R1.3-IMAGE-LICENSE.csv` 20 行 + batch3 列（4 approved）。
+- **QA**：task-114 CSV **209 prompts/TEXT_VALID 209/INVALID 0**；warnings **192**；同质化 **602/1257 对** → WARN；独立 20/20；DOMAIN/IMAGE/HUMAN_VISUAL_APPROVED 均 **NOT_RUN**；无生图；人工评分 N/A。
+- **UAT 包**：`R1.3B-BATCH3-VISUAL-UAT.md` 89 卡（prompt 原文摘录/视觉要点/不应出现/参考地址/四状态/模型版本栏/评分位置）；不代填。
+- **回归**：validate 473、build 239、consistency 0/345、graph 0；acceptance 45/45、quality PASS、workflow 9/9 OK、Macbeth 11/11（task-114 logs）；E2E 最近 official 3/3+overlay 3/3 五项，但 **Batch3 专属 E2E 未落盘 → NOT_RUN/PARTIAL**；GUI **NOT_RUN**。
+- **不一致**：`11-验收/R1.3B/summary.json` 仍 179/74（Batch2）未同步 209/89；以 PROMPT-QA.csv/header 为准；task-114 COUNT/SIMILARITY/AGENT-E2E reports 未落盘（仅 artifacts）。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：46 REFERENCE_PENDING、warnings/同质化、4 associations 待 owner、Batch3 E2E 未跑、Style4/Look29 未视觉化、GUI/domain/image/human visual NOT_RUN）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；建议维护模式/停止连续开发。
+- 详见 `R1.3B-BATCH3-BASELINE.md`、`R1.3B-BATCH3-FINAL.md`、`R1.3B-BATCH3-ASSET-REVIEW.csv`、`R1.3B-BATCH3-VISUAL-UAT.md`。

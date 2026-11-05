@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "SRC-0118",
+    "STR-0012"
+  ],
+  "final_chars": 614,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Query result — STR-0012\n\n- **ID**: STR-0012\n- **Name**: 翻领与驳领 / turndown collar and lapel\n- **Type**: `garment_part`\n- **Evidence status**: `verified`\n- **Source (evidence)**: SRC-0118\n- **Card path**: `02-结构细节/STR-0012-翻领与驳领.md`\n\n## Image-generation request — refused\n\nI cannot generate an image for STR-0012. No image-generation tool is used in this environment; the costume-director workflow pr"
+}

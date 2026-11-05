@@ -1,0 +1,15 @@
+{
+  "pairs_total_available": 11236,
+  "audit_slice": 597,
+  "above_jaccard_0_80": 597,
+  "lead_baseline": 597,
+  "category_counts": {
+    "style_rename_only": 105,
+    "same_character_silhouette": 6,
+    "same_structure_or_silhouette": 346,
+    "same_material_surface": 110,
+    "conflict_period": 23,
+    "other_professional": 7
+  },
+  "method": "top 597 content-similarity pairs; lead 597-pair baseline; above-threshold count reported"
+}

@@ -41,7 +41,10 @@ class PromptQATests(unittest.TestCase):
     def test_invalid_cases_reported(self):
         bad = [r for r in self.rows if r["text_status"] == "TEXT_INVALID"]
         self.assertEqual(len(bad), self.summary["text_invalid"])
-        self.assertTrue(any("asserts material" in r["errors"] for r in bad))
+        # Current cards must not assert material without evidence; historically
+        # two such cases existed and were fixed by their card owners.
+        self.assertEqual(bad, [])
+        self.assertEqual(self.summary["text_invalid"], 0)
 
     def test_homogeneity_reported(self):
         self.assertGreater(self.summary["homogeneity_pairs"], 0)
@@ -56,6 +59,28 @@ class PromptQATests(unittest.TestCase):
         block = {"kind": "image", "prompt": "SUBJECT: full-body X. MATERIAL (FACT): silk."}
         result = qa.check_prompt(card, block)
         self.assertIn("prompt asserts material while card has no materials field", result["errors"])
+
+    def test_baseline_179_block_audit(self):
+        p = subprocess.run([sys.executable, "scripts/prompt_qa.py", "--baseline-179",
+                            "--out-csv", str(OUT / "BLOCK-AUDIT-179.csv"),
+                            "--out-md", str(OUT / "BLOCK-AUDIT-179.md")],
+                           cwd=str(ROOT), capture_output=True, text=True)
+        self.assertEqual(p.returncode, 0, p.stderr)
+        rows = list(csv.DictReader((OUT / "BLOCK-AUDIT-179.csv").open(encoding="utf-8")))
+        self.assertEqual(len(rows), 179)
+        self.assertTrue(all(r["status"] == "TEXT_VALID" for r in rows))
+        columns = {"card_id", "prompt_id", "type", "subtype", "location", "hash",
+                   "status", "evidence"}
+        self.assertTrue(columns.issubset(set(rows[0].keys())))
+        self.assertEqual(len({r["prompt_id"] for r in rows}), 179)
+        subtypes = {}
+        types = {}
+        for r in rows:
+            subtypes[r["subtype"]] = subtypes.get(r["subtype"], 0) + 1
+            types[r["type"]] = types.get(r["type"], 0) + 1
+        self.assertEqual(subtypes, {"base": 112, "detail": 26, "applied": 26,
+                                    "product": 5, "worn": 5, "side_back": 5})
+        self.assertEqual(types, {"image": 110, "video": 69})
 
     def test_clean_text(self):
         card = {"id": "GAR-0015", "meta": {"name_en": "robe", "type": "garment",

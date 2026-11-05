@@ -121,3 +121,12 @@
 - 独立 20 条 Prompt QA：**18/20 通过**；2 失败 = STR-0023/STR-0011 缺 front/side/back（仅 45° detail）；CJK/坏链/typo/截断 **0**；evidence tags 正确；材质/颜色空字段写 unknown；同质化 3 对 >0.9（无精确重复）。
 - engineer task-111：143 prompts；TEXT_VALID 139 / TEXT_INVALID 4；warnings 141；同质化 Jaccard≥0.80 597 对、scaffold≥0.82 1122 对 → **WARN**；DOMAIN_REVIEWED/IMAGE_TESTED/HUMAN_VISUAL_APPROVED = NOT_RUN；生图 0。
 - 回归：validate 471、build 239、consistency 0/345、graph 0/0/764、Macbeth 11/11；task-111 的 acceptance/quality/workflow 日志为空 → **NOT_RUN**（另有当前独立重跑见 R1.3B-BATCH2-REPORT）；E2E Batch2 **official 3/3、overlay 3/3 五项全 true（no_image_claim）**；GUI NOT_RUN。
+
+
+## R1.3B Batch3 QA（2026-11-05 18:00）
+
+- 视觉 89/207；prompt **209**；TEXT_VALID **209/209**；warnings **192**；同质化 content Jaccard≥0.80 **650 对**、scaffold≥0.82 **1348 对** → WARN。
+- 独立 20 样本 **20/20**；无 CJK/坏链/typo；evidence tags 齐全；REFERENCE_PENDING 正确；2 个曾 invalid（STY-0024/25）已由 task-114 修复为 TEXT_VALID。
+- DOMAIN_REVIEWED/IMAGE_TESTED/HUMAN_VISUAL_APPROVED = **NOT_RUN**；生图 **0**；人工视觉评分 **N/A**。
+- 不一致：`11-验收/R1.3B/summary.json` 仍 179/74/0/536/1149，未同步 209/89；以 PROMPT-QA.csv/header 为准。
+- 回归：validate 473、build 239、consistency 0/345、graph 0、acceptance 45/45、quality PASS、workflow 9/9、Macbeth 11/11；E2E 最近 3/3+3/3（Batch3 专属报告未落盘→NOT_RUN/PARTIAL）；GUI NOT_RUN。

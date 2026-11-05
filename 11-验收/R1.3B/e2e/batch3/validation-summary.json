@@ -1,0 +1,161 @@
+{
+  "official": {
+    "RQ1": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "MAT-0016",
+        "SRC-0133",
+        "SRC-0532",
+        "SRC-0539",
+        "STR-0003",
+        "STR-0012",
+        "STR-0028"
+      ],
+      "final_chars": 6024,
+      "skill_calls": 1,
+      "tool_calls": 3,
+      "completed_tool_results": 18,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Scope and commands run\n\n| Step | Command | Result |\n|---|---|---|\n| 1 | `python3 scripts/query.py --id STR-0028 --json` | 1 hit, exact-ID lookup (`score 0.0` = exact match, not low relevance) |\n| 2 | `python3 scripts/query.py --id STR-0003 --json` | 1 hit, exact-ID lookup |\n| 3 | `python3 scripts/visual_prompt.py --id STR-0028 --kind component_detail --json` | `image_generation: false`, `delive"
+    },
+    "RQ2": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0028",
+        "LOOK-0001",
+        "MAT-0002",
+        "SRC-0064",
+        "SRC-0116",
+        "SRC-0125",
+        "SRC-0129",
+        "SRC-0136",
+        "SRC-0139",
+        "SRC-0141",
+        "SRC-0150",
+        "SRC-0167",
+        "SRC-0168",
+        "SRC-0169",
+        "STR-0006",
+        "STR-0009",
+        "STY-0010"
+      ],
+      "final_chars": 5150,
+      "skill_calls": 1,
+      "tool_calls": 4,
+      "completed_tool_results": 7,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Command result\n\n`python3 scripts/visual_prompt.py --id LOOK-0001 --kind outfit --json` ran from the Vault root and exited **0**.\n\n- Card: **LOOK-0001** 洛可可沙龙女主人 / rococo salon hostess look (`09-造型组合/LOOK-0001-洛可可沙龙女主人.md`)\n- Kind: `outfit` · lang `en` · `model_agnostic: true`\n- **`image_generation: false`** · delivery: `text prompt only`\n\n## Material / item / accessory IDs\n\n`look_items` has exa"
+    },
+    "RQ4": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "SRC-0553",
+        "SRC-0554",
+        "SRC-0557",
+        "STY-0008",
+        "STY-0019",
+        "STY-0023",
+        "STY-0024",
+        "STY-0025"
+      ],
+      "final_chars": 6713,
+      "skill_calls": 1,
+      "tool_calls": 2,
+      "completed_tool_results": 6,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Brief\n- Two style cards, both `type: style`, `evidence_status: interpretive`, `review_status: draft`, `periods: [\"2025\",\"2026\"]`, `regions: [global]`, `license_status: not_applicable`.\n- Both are 2025–26 runway trend observations, explicitly **not** historical costume facts; both source pages are Vogue Runway `link_only` and images were not individually verified.\n- Query `score: 0.0` on both is"
+    }
+  },
+  "overlay": {
+    "RQ4": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "SRC-0532",
+        "SRC-0539",
+        "STR-0028"
+      ],
+      "final_chars": 704,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## STR-0028 — Query Result\n\n- **Card ID:** STR-0028\n- **Part family / type:** `garment_part` — 结构细节\n- **Name:**\n  - 中文：青果领 / 披肩领\n  - English: **shawl collar**\n- **Evidence status:** `verified`\n- **Sources (source_ids):**\n  - **SRC-0532**\n  - **SRC-0539**\n- **Card path:** `02-结构细节/STR-0028-青果领-披肩领.md`\n- **Evidence snippet:** Defines shawl collar as a lapel variant with the collar face and front edg"
+    },
+    "RQ5": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0028",
+        "LOOK-0001",
+        "MAT-0002",
+        "SRC-0150",
+        "STR-0006",
+        "STR-0009"
+      ],
+      "final_chars": 1407,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## LOOK-0001 — Outfit Visual Prompt\n\n**Card:** LOOK-0001 (洛可可沙龙女主人 / Rococo salon hostess) · kind: `outfit` · evidence status: `interpretive` (notice: not verified) · source: SRC-0150\n\n### Item IDs\n- **GAR-0015** — robe à la française (cream silk brocade)\n- **STR-0009** — panniers (sideways skirt widening)\n- **STR-0006** — decorated stomacher\n- **GAR-0028** — fur muff\n- **GAR-0024** — silk mule sl"
+    },
+    "RQ6": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "SRC-0118",
+        "STR-0012"
+      ],
+      "final_chars": 614,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Query result — STR-0012\n\n- **ID**: STR-0012\n- **Name**: 翻领与驳领 / turndown collar and lapel\n- **Type**: `garment_part`\n- **Evidence status**: `verified`\n- **Source (evidence)**: SRC-0118\n- **Card path**: `02-结构细节/STR-0012-翻领与驳领.md`\n\n## Image-generation request — refused\n\nI cannot generate an image for STR-0012. No image-generation tool is used in this environment; the costume-director workflow pr"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "MAT-0016",
+    "SRC-0133",
+    "SRC-0532",
+    "SRC-0539",
+    "STR-0003",
+    "STR-0012",
+    "STR-0028"
+  ],
+  "final_chars": 6024,
+  "skill_calls": 1,
+  "tool_calls": 3,
+  "completed_tool_results": 18,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Scope and commands run\n\n| Step | Command | Result |\n|---|---|---|\n| 1 | `python3 scripts/query.py --id STR-0028 --json` | 1 hit, exact-ID lookup (`score 0.0` = exact match, not low relevance) |\n| 2 | `python3 scripts/query.py --id STR-0003 --json` | 1 hit, exact-ID lookup |\n| 3 | `python3 scripts/visual_prompt.py --id STR-0028 --kind component_detail --json` | `image_generation: false`, `delive"
+}

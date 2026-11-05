@@ -1,206 +1,208 @@
-card_id,type,name_en,visual_layer,visual_reference,asset_count,asset_ids,prompt_image,prompt_video,prompt_en_cjk,source_count,evidence_status,review_status,reference_status,reference_pending,prompt_blocks
-GAR-0072,garment,paijama,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0014,garment,jeans,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0010,garment,bloomers,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0077,garment,hose,False,False,0,,False,False,False,3,verified,reviewed,NONE,False,0
-GAR-0013,garment,codpiece,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0011,garment,knickerbockers,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0074,garment,mourning ring and brooch,False,False,0,,False,False,False,3,verified,reviewed,NONE,False,0
-GAR-0091,garment,loafers,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0028,garment,muff,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0086,garment,brooch construction,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0067,garment,cloud collar,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0021,garment,pinafore,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0050,garment,uniform badge,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0088,garment,opera-length evening gloves,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0089,garment,corset belt / waist cincher,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0090,garment,necklace and earrings,False,False,0,,False,False,False,4,verified,reviewed,NONE,False,0
-GAR-0083,garment,gloves,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0051,garment,punk badge,True,True,0,,True,False,False,1,verified,reviewed,REFERENCE_PENDING,True,1
-GAR-0066,garment,obi,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0080,garment,belt,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0073,garment,Victorian mourning jewellery,False,False,0,,False,False,False,3,verified,reviewed,NONE,False,0
-GAR-0040,garment,military coat,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0018,garment,spencer jacket,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0016,garment,banyan,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0045,garment,trench coat,True,True,0,,True,False,False,1,verified,reviewed,REFERENCE_PENDING,True,1
-GAR-0057,garment,1960s Courrèges coat,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0041,garment,doctor’s white coat,False,False,0,,False,False,False,0,interpretive,reviewed,NONE,False,0
-GAR-0076,garment,cloak and mantle,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0019,garment,anorak,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0037,garment,firefighter jacket,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0046,garment,raincoat,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0017,garment,frock coat,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0033,garment,lounge suit,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0020,garment,chemisette,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0012,garment,pantalettes,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0078,garment,chemise / smock,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0065,garment,export kimono,True,True,0,,True,False,False,1,verified,reviewed,REFERENCE_PENDING,True,1
-GAR-0001,garment,kimono,True,True,1,ASSET-0008,True,True,False,1,verified,reviewed,ASSET_LINKED,False,2
-GAR-0005,garment,boubou,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0030,garment,huipil,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0047,garment,umbrella,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0048,garment,handbag,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0049,garment,walking stick,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0087,garment,handbag construction (superseded),False,False,0,,False,False,False,1,verified,needs_review,NONE,False,0
-GAR-0082,garment,dagger,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0085,garment,hat structure (brim and crown),False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0025,garment,tricorne hat,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0027,garment,fez,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0070,garment,gele head-tie,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0039,garment,helmet,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0026,garment,poke bonnet,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0068,garment,wedding veil,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0081,garment,leather boots,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0084,garment,high-heeled shoes,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0024,garment,mule,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-GAR-0035,garment,1930s women’s shoes,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0058,garment,1970s platform shoe,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0023,garment,moccasins,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0044,garment,medical work shoes,False,False,0,,False,False,False,0,interpretive,reviewed,NONE,False,0
-GAR-0022,garment,wellington boot,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-GAR-0060,garment,1930s men’s Oxford shoes,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0062,garment,Italian Renaissance gown,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0069,garment,agbada,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0042,garment,police uniform,False,False,0,,False,False,False,0,interpretive,reviewed,NONE,False,0
-GAR-0029,garment,toga,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0015,garment,robe à la française,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-GAR-0009,garment,dalmatic tunic,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0059,garment,1970s denim dungarees,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0056,garment,1960s mini-dress,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0052,garment,Utility day dress,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0038,garment,overalls,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0075,garment,tunic,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0061,garment,Coptic tunic,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0054,garment,1950s cocktail dress,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0055,garment,1950s printed child’s dress,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0071,garment,Mughal jama,False,False,0,,False,False,False,3,verified,reviewed,NONE,False,0
-GAR-0032,garment,changshan,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0036,garment,nurse uniform,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0079,garment,kirtle,False,False,0,,False,False,False,1,interpretive,reviewed,NONE,False,0
-GAR-0004,garment,kaftan,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0063,garment,sari,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0031,garment,qipao,False,False,0,,False,False,False,2,verified,reviewed,NONE,False,0
-GAR-0053,garment,Utility skirt suit,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0064,garment,hanbok,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0007,garment,shirtwaist,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0034,garment,knitted vest,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0008,garment,waistcoat,True,True,2,ASSET-0005;ASSET-0006,True,True,False,2,verified,reviewed,ASSET_LINKED,False,2
-GAR-0043,garment,chef’s jacket,False,False,0,,False,False,False,0,interpretive,reviewed,NONE,False,0
-GAR-EXAMPLE-001,garment,white stand-collar shirt,False,False,0,,False,False,False,0,example,draft,NONE,False,0
-GAR-0003,garment,jerkin,True,True,0,,True,False,False,1,verified,reviewed,REFERENCE_PENDING,True,1
-GAR-0006,garment,dashiki,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-GAR-0002,garment,doublet,True,True,0,,True,False,False,1,verified,reviewed,REFERENCE_PENDING,True,1
-STR-0012,garment_part,turndown collar and lapel,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0003,garment_part,ruff,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0023,garment_part,cuff,True,True,0,,True,True,False,2,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0029,garment_part,puff sleeve,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0020,garment_part,panels and gores,True,True,0,,True,True,False,3,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0002,garment_part,falling band,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0028,garment_part,shawl collar,True,True,0,,True,True,False,2,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0010,garment_part,slashing,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0035,garment_part,silhouette and proportion,True,True,0,,True,True,False,5,interpretive,reviewed,REFERENCE_PENDING,True,2
-STR-0014,garment_part,shoulder line and shoulder pad,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0007,garment_part,bustle,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0011,garment_part,frog closure,True,True,0,,True,True,False,2,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0030,garment_part,lining and interfacing,True,True,0,,True,True,False,3,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0027,garment_part,neckline shape,True,True,0,,True,True,False,4,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0008,garment_part,cage crinoline,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0009,garment_part,panniers,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0015,garment_part,waistline,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0016,garment_part,hem and vents/slits,True,True,0,,True,True,False,3,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0026,garment_part,handbag construction,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0013,garment_part,set-in and raglan sleeve,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0018,garment_part,buttons and buttonholes,True,True,0,,True,True,False,3,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0005,garment_part,leg-of-mutton sleeves,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0021,garment_part,seams and darts,True,True,0,,True,True,False,3,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0006,garment_part,stomacher,True,True,0,,True,True,False,2,verified,reviewed,SOURCE_LINK_ONLY,False,2
-STR-0033,garment_part,pocket construction,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0034,garment_part,train,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0024,garment_part,structure attribute taxonomy (Fashionpedia),True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0017,garment_part,placket,True,True,0,,True,True,False,3,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0022,garment_part,waistband,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0032,garment_part,pleats and gathering,True,True,0,,True,True,False,5,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0001,garment_part,Medici collar,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0025,garment_part,ease and fit,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0031,garment_part,padding and quilting,True,True,0,,True,True,False,2,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0004,garment_part,gigot sleeve,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-STR-0019,garment_part,zipper,True,True,0,,True,True,False,1,verified,reviewed,REFERENCE_PENDING,True,2
-MAT-0003,material,passementerie,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0012,material,weave structures,True,True,0,,True,True,False,3,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0016,material,linen,True,True,0,,True,True,False,4,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0013,material,fabric weight and drape,True,True,0,,True,True,False,2,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0015,material,wool cloth,True,True,0,,True,True,False,5,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0002,material,Chantilly lace,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0017,material,leather,True,True,0,,True,True,False,3,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0010,material,aniline dyes,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0019,material,synthetic fiber and waterproof coating,True,True,0,,True,True,False,3,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0011,material,Byzantine samite silk,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0014,material,reflectivity and metallic yarn,True,True,0,,True,True,False,2,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0009,material,cochineal dye,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0008,material,katazome,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0018,material,silk,True,True,0,,True,True,False,5,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0004,material,Lurex,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0001,material,muslin,True,True,0,,True,True,False,1,verified,reviewed,SOURCE_LINK_ONLY,False,2
-MAT-0006,pattern,adinkra,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-MAT-0005,pattern,kente cloth,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-MAT-0007,pattern,bogolanfini,False,False,0,,False,False,False,1,verified,reviewed,NONE,False,0
-STY-0017,style,barrel leg and balloon hem,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-EXAMPLE-001,style,restrained urban noir costume styling,False,False,0,,False,False,False,0,example,draft,NONE,False,0
-STY-0011,style,northern medieval theatrical minimalism,False,False,0,,False,False,False,6,interpretive,draft,NONE,False,0
-STY-0023,style,Art Deco revival,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0021,style,sport-formal hybrid,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0012,style,1930s Shanghai rain noir,True,True,0,,True,True,False,5,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0016,style,sculptural volume,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0006,style,military uniform styling,False,False,0,,False,False,False,2,verified,draft,NONE,False,0
-STY-0022,style,sheer layering,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0019,style,utility tailoring,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0007,style,punk subculture style,False,False,0,,False,False,False,3,verified,draft,NONE,False,0
-STY-0002,style,Victorian mourning dress style,False,False,0,,False,False,False,3,verified,draft,NONE,False,0
-STY-0010,style,period drama historical costume,True,True,0,,True,True,False,3,verified,draft,SOURCE_LINK_ONLY,False,2
-STY-0009,style,retro-futurist sci-fi street style,False,False,0,,False,False,False,1,verified,draft,NONE,False,0
-STY-0020,style,technical romanticism,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0014,style,diasporic wedding juxtaposition,False,False,0,,False,False,False,5,interpretive,draft,NONE,False,0
-STY-0001,style,neoclassical dress style,False,False,0,,False,False,False,4,verified,draft,NONE,False,0
-STY-0015,style,zero-gravity opera and sci-fi theatre,False,False,0,,False,False,False,3,interpretive,draft,NONE,False,0
-STY-0005,style,film noir styling,False,False,0,,False,False,False,1,interpretive,draft,NONE,False,0
-STY-0018,style,soft tailoring,True,True,0,,True,True,False,2,interpretive,draft,SOURCE_LINK_ONLY,False,2
-STY-0003,style,Jazz Age modernism style,False,False,0,,False,False,False,1,verified,draft,NONE,False,0
-STY-0008,style,1990s minimalism,False,False,0,,False,False,False,2,verified,draft,NONE,False,0
-STY-0004,style,Hollywood glamour styling,False,False,0,,False,False,False,1,verified,draft,NONE,False,0
-STY-0013,style,contemporary occupational uniform realism,False,False,0,,False,False,False,2,interpretive,draft,NONE,False,0
-LOOK-0033,look,zero-gravity opera singer,False,False,0,,False,False,False,6,interpretive,draft,NONE,False,0
-LOOK-0020,look,South Asian sari at a London family celebration (South Asian cross-cultural),False,False,0,,False,False,False,3,interpretive,draft,NONE,False,0
-LOOK-0014,look,1940s postwar women’s commute look,False,False,0,,False,False,False,4,interpretive,draft,NONE,False,0
-LOOK-0035,look,"1930s Shanghai rain, male reporter",False,False,0,,False,False,False,6,interpretive,draft,NONE,False,0
-LOOK-0002,look,Regency country day look,False,False,0,,False,False,False,2,interpretive,draft,NONE,False,0
-LOOK-0012,look,1930s Shanghai rainy-night woman journalist look,False,False,0,,False,False,False,3,interpretive,draft,NONE,False,0
-LOOK-0031,look,"contemporary night-shift nurse, rainy handover",True,True,0,,True,True,False,4,interpretive,draft,SOURCE_LINK_ONLY,False,2
-LOOK-0025,look,"Macbeth guilt, borrowed royal robe",False,False,0,,False,False,False,9,interpretive,draft,NONE,False,0
-LOOK-0001,look,rococo salon hostess look,True,True,0,,True,True,False,1,interpretive,draft,SOURCE_LINK_ONLY,False,2
-LOOK-0032,look,"Ghanaian-British wedding bride, juxtaposition",False,False,0,,False,False,False,8,interpretive,draft,NONE,False,0
-LOOK-0019,look,Chinese cloud collar and qipao at a London gallery gala (East Asian cross-cultural),False,False,0,,False,False,False,4,interpretive,draft,NONE,False,0
-LOOK-0011,look,derelict space station repair technician look,False,False,0,,False,False,False,4,interpretive,draft,NONE,False,0
-LOOK-EXAMPLE-001,look,rainy-night investigator,False,False,0,,False,False,False,0,example,draft,NONE,False,0
-LOOK-0006,look,1977 London punk youth look,False,False,0,,False,False,False,3,interpretive,draft,NONE,False,0
-LOOK-0016,look,1940s demobilised soldier: uniform to civilian commute (identity ascent),False,False,0,,False,False,False,8,interpretive,draft,NONE,False,0
-LOOK-0015,look,Shanghai banker’s wife: ballroom to refugee (identity descent),False,False,0,,False,False,False,6,interpretive,draft,NONE,False,0
-LOOK-0034,look,expressionist Lady Macbeth finale,False,False,0,,False,False,False,9,interpretive,draft,NONE,False,0
-LOOK-0003,look,16th-century European court menswear look,False,False,0,,False,False,False,2,interpretive,draft,NONE,False,0
-LOOK-0010,look,emergency nurse night-shift uniform look,False,False,0,,False,False,False,1,interpretive,draft,NONE,False,0
-LOOK-0022,look,"1940s postwar commute, three-scene continuity",False,False,0,,False,False,False,5,interpretive,draft,NONE,False,0
-LOOK-0017,look,1977 punk to 1980s professional (identity ascent),False,False,0,,False,False,False,3,interpretive,draft,NONE,False,0
-LOOK-0026,look,"Macbeth downfall, stripped kingship",False,False,0,,False,False,False,8,interpretive,draft,NONE,False,0
-LOOK-0009,look,1930s Shanghai qipao woman intellectual look,False,False,0,,False,False,False,3,interpretive,draft,NONE,False,0
-LOOK-0021,look,"contemporary rain investigator, four-scene continuity upgrade",False,False,0,,False,False,False,3,interpretive,draft,NONE,False,0
-LOOK-0024,look,"Macbeth ambition rise, heath field dress",False,False,0,,False,False,False,10,interpretive,draft,NONE,False,0
-LOOK-0029,look,"Lady Macbeth downfall, sleepwalking",False,False,0,,False,False,False,8,interpretive,draft,NONE,False,0
-LOOK-0013,look,Ghanaian-British wedding bride ceremonial look,False,False,0,,False,False,False,6,interpretive,draft,NONE,False,0
-LOOK-0007,look,contemporary rain investigator continuity look,False,False,0,,False,False,False,1,interpretive,draft,NONE,False,0
-LOOK-0008,look,1930s Shanghai changshan intellectual look,False,False,0,,False,False,False,2,interpretive,draft,NONE,False,0
-LOOK-0005,look,1900 Southern plantation mistress look,False,False,0,,False,False,False,2,interpretive,draft,NONE,False,0
-LOOK-0027,look,"Lady Macbeth ambition rise, reading the letter",False,False,0,,False,False,False,9,interpretive,draft,NONE,False,0
-LOOK-0028,look,"Lady Macbeth guilt, blood on the hands",False,False,0,,False,False,False,9,interpretive,draft,NONE,False,0
-LOOK-0004,look,late Ottoman official look,False,False,0,,False,False,False,1,interpretive,draft,NONE,False,0
-LOOK-0018,look,West African Asante family celebration (kente and adinkra usage boundaries),False,False,0,,False,False,False,5,interpretive,draft,NONE,False,0
-LOOK-0030,look,"1930s Shanghai rain, female reporter",True,True,0,,True,True,False,7,interpretive,draft,SOURCE_LINK_ONLY,False,2
+card_id,type,name_en,visual_layer,reference_status,reference_pending,asset_ids,prompt_blocks,text_status,prompt_en_cjk,source_count,evidence_status,review_status
+GAR-0072,garment,paijama,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0014,garment,jeans,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0010,garment,bloomers,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0077,garment,hose,False,NONE,False,,0,TEXT_VALID,False,3,verified,reviewed
+GAR-0013,garment,codpiece,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0011,garment,knickerbockers,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0074,garment,mourning ring and brooch,False,NONE,False,,0,TEXT_VALID,False,3,verified,reviewed
+GAR-0091,garment,loafers,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0028,garment,muff,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0086,garment,brooch construction,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0067,garment,cloud collar,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0021,garment,pinafore,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0050,garment,uniform badge,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0088,garment,opera-length evening gloves,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0089,garment,corset belt / waist cincher,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0090,garment,necklace and earrings,False,NONE,False,,0,TEXT_VALID,False,4,verified,reviewed
+GAR-0083,garment,gloves,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0051,garment,punk badge,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+GAR-0066,garment,obi,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0080,garment,belt,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0073,garment,Victorian mourning jewellery,False,NONE,False,,0,TEXT_VALID,False,3,verified,reviewed
+GAR-0040,garment,military coat,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0018,garment,spencer jacket,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0016,garment,banyan,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0045,garment,trench coat,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+GAR-0057,garment,1960s Courrèges coat,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0041,garment,doctor’s white coat,False,NONE,False,,0,TEXT_VALID,False,0,interpretive,reviewed
+GAR-0076,garment,cloak and mantle,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0019,garment,anorak,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0037,garment,firefighter jacket,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0046,garment,raincoat,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0017,garment,frock coat,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0033,garment,lounge suit,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0020,garment,chemisette,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0012,garment,pantalettes,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0078,garment,chemise / smock,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0065,garment,export kimono,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+GAR-0001,garment,kimono,True,ASSET_LINKED,False,ASSET-0008,2,TEXT_VALID,False,1,verified,reviewed
+GAR-0005,garment,boubou,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0030,garment,huipil,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0047,garment,umbrella,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0048,garment,handbag,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0049,garment,walking stick,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0087,garment,handbag construction (superseded),False,NONE,False,,0,TEXT_VALID,False,1,verified,needs_review
+GAR-0082,garment,dagger,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0085,garment,hat structure (brim and crown),False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0025,garment,tricorne hat,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0027,garment,fez,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0070,garment,gele head-tie,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0039,garment,helmet,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0026,garment,poke bonnet,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0068,garment,wedding veil,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0081,garment,leather boots,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0084,garment,high-heeled shoes,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0024,garment,mule,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+GAR-0035,garment,1930s women’s shoes,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0058,garment,1970s platform shoe,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0023,garment,moccasins,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0044,garment,medical work shoes,False,NONE,False,,0,TEXT_VALID,False,0,interpretive,reviewed
+GAR-0022,garment,wellington boot,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+GAR-0060,garment,1930s men’s Oxford shoes,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0062,garment,Italian Renaissance gown,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0069,garment,agbada,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0042,garment,police uniform,False,NONE,False,,0,TEXT_VALID,False,0,interpretive,reviewed
+GAR-0029,garment,toga,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0015,garment,robe à la française,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+GAR-0009,garment,dalmatic tunic,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0059,garment,1970s denim dungarees,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0056,garment,1960s mini-dress,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0052,garment,Utility day dress,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0038,garment,overalls,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0075,garment,tunic,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0061,garment,Coptic tunic,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0054,garment,1950s cocktail dress,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0055,garment,1950s printed child’s dress,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0071,garment,Mughal jama,False,NONE,False,,0,TEXT_VALID,False,3,verified,reviewed
+GAR-0032,garment,changshan,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0036,garment,nurse uniform,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0079,garment,kirtle,False,NONE,False,,0,TEXT_VALID,False,1,interpretive,reviewed
+GAR-0004,garment,kaftan,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0063,garment,sari,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0031,garment,qipao,False,NONE,False,,0,TEXT_VALID,False,2,verified,reviewed
+GAR-0053,garment,Utility skirt suit,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0064,garment,hanbok,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0007,garment,shirtwaist,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0034,garment,knitted vest,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0008,garment,waistcoat,True,ASSET_LINKED,False,ASSET-0005;ASSET-0006,2,TEXT_VALID,False,2,verified,reviewed
+GAR-0043,garment,chef’s jacket,False,NONE,False,,0,TEXT_VALID,False,0,interpretive,reviewed
+GAR-EXAMPLE-001,garment,white stand-collar shirt,False,NONE,False,,0,TEXT_VALID,False,0,example,draft
+GAR-0003,garment,jerkin,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+GAR-0006,garment,dashiki,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+GAR-0002,garment,doublet,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0012,garment_part,turndown collar and lapel,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+STR-0003,garment_part,ruff,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+STR-0023,garment_part,cuff,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,verified,reviewed
+STR-0029,garment_part,puff sleeve,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+STR-0020,garment_part,panels and gores,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,3,verified,reviewed
+STR-0002,garment_part,falling band,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+STR-0028,garment_part,shawl collar,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,verified,reviewed
+STR-0010,garment_part,slashing,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0035,garment_part,silhouette and proportion,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,5,interpretive,reviewed
+STR-0014,garment_part,shoulder line and shoulder pad,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0007,garment_part,bustle,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0011,garment_part,frog closure,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,verified,reviewed
+STR-0030,garment_part,lining and interfacing,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,3,verified,reviewed
+STR-0027,garment_part,neckline shape,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,4,verified,reviewed
+STR-0008,garment_part,cage crinoline,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0009,garment_part,panniers,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0015,garment_part,waistline,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0016,garment_part,hem and vents/slits,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,3,verified,reviewed
+STR-0026,garment_part,handbag construction,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0013,garment_part,set-in and raglan sleeve,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0018,garment_part,buttons and buttonholes,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,3,verified,reviewed
+STR-0005,garment_part,leg-of-mutton sleeves,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0021,garment_part,seams and darts,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,3,verified,reviewed
+STR-0006,garment_part,stomacher,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,verified,reviewed
+STR-0033,garment_part,pocket construction,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0034,garment_part,train,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0024,garment_part,structure attribute taxonomy (Fashionpedia),True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0017,garment_part,placket,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,3,verified,reviewed
+STR-0022,garment_part,waistband,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0032,garment_part,pleats and gathering,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,5,verified,reviewed
+STR-0001,garment_part,Medici collar,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0025,garment_part,ease and fit,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0031,garment_part,padding and quilting,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,2,verified,reviewed
+STR-0004,garment_part,gigot sleeve,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+STR-0019,garment_part,zipper,True,REFERENCE_PENDING,True,,3,TEXT_VALID,False,1,verified,reviewed
+MAT-0003,material,passementerie,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0012,material,weave structures,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,3,verified,reviewed
+MAT-0016,material,linen,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,4,verified,reviewed
+MAT-0013,material,fabric weight and drape,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,verified,reviewed
+MAT-0015,material,wool cloth,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,5,verified,reviewed
+MAT-0002,material,Chantilly lace,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0017,material,leather,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,3,verified,reviewed
+MAT-0010,material,aniline dyes,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0019,material,synthetic fiber and waterproof coating,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,3,verified,reviewed
+MAT-0011,material,Byzantine samite silk,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0014,material,reflectivity and metallic yarn,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,verified,reviewed
+MAT-0009,material,cochineal dye,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0008,material,katazome,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0018,material,silk,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,5,verified,reviewed
+MAT-0004,material,Lurex,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0001,material,muslin,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,verified,reviewed
+MAT-0006,pattern,adinkra,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+MAT-0005,pattern,kente cloth,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+MAT-0007,pattern,bogolanfini,False,NONE,False,,0,TEXT_VALID,False,1,verified,reviewed
+STY-0017,style,barrel leg and balloon hem,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-EXAMPLE-001,style,restrained urban noir costume styling,False,NONE,False,,0,TEXT_VALID,False,0,example,draft
+STY-0011,style,northern medieval theatrical minimalism,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,6,interpretive,draft
+STY-0023,style,Art Deco revival,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0021,style,sport-formal hybrid,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0012,style,1930s Shanghai rain noir,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,5,interpretive,draft
+STY-0016,style,sculptural volume,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0024,style,modern minimal refined utility,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0006,style,military uniform styling,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,2,verified,draft
+STY-0022,style,sheer layering,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0019,style,utility tailoring,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0007,style,punk subculture style,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,3,verified,draft
+STY-0002,style,Victorian mourning dress style,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,3,verified,draft
+STY-0010,style,period drama historical costume,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,3,verified,draft
+STY-0009,style,retro-futurist sci-fi street style,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,1,verified,draft
+STY-0020,style,technical romanticism,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0014,style,diasporic wedding juxtaposition,False,NONE,False,,0,TEXT_VALID,False,5,interpretive,draft
+STY-0001,style,neoclassical dress style,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,4,verified,draft
+STY-0015,style,zero-gravity opera and sci-fi theatre,False,NONE,False,,0,TEXT_VALID,False,3,interpretive,draft
+STY-0005,style,film noir styling,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,1,interpretive,draft
+STY-0025,style,contemporary deconstruction,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0018,style,soft tailoring,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,2,interpretive,draft
+STY-0003,style,Jazz Age modernism style,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,1,verified,draft
+STY-0008,style,1990s minimalism,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,2,verified,draft
+STY-0004,style,Hollywood glamour styling,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,1,verified,draft
+STY-0013,style,contemporary occupational uniform realism,False,NONE,False,,0,TEXT_VALID,False,2,interpretive,draft
+LOOK-0033,look,zero-gravity opera singer,False,NONE,False,,0,TEXT_VALID,False,6,interpretive,draft
+LOOK-0020,look,South Asian sari at a London family celebration (South Asian cross-cultural),False,NONE,False,,0,TEXT_VALID,False,3,interpretive,draft
+LOOK-0014,look,1940s postwar women’s commute look,False,NONE,False,,0,TEXT_VALID,False,4,interpretive,draft
+LOOK-0035,look,"1930s Shanghai rain, male reporter",False,NONE,False,,0,TEXT_VALID,False,6,interpretive,draft
+LOOK-0002,look,Regency country day look,False,NONE,False,,0,TEXT_VALID,False,2,interpretive,draft
+LOOK-0012,look,1930s Shanghai rainy-night woman journalist look,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,3,interpretive,draft
+LOOK-0031,look,"contemporary night-shift nurse, rainy handover",True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,4,interpretive,draft
+LOOK-0025,look,"Macbeth guilt, borrowed royal robe",False,NONE,False,,0,TEXT_VALID,False,9,interpretive,draft
+LOOK-0001,look,rococo salon hostess look,True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,1,interpretive,draft
+LOOK-0032,look,"Ghanaian-British wedding bride, juxtaposition",False,NONE,False,,0,TEXT_VALID,False,8,interpretive,draft
+LOOK-0019,look,Chinese cloud collar and qipao at a London gallery gala (East Asian cross-cultural),False,NONE,False,,0,TEXT_VALID,False,4,interpretive,draft
+LOOK-0011,look,derelict space station repair technician look,False,NONE,False,,0,TEXT_VALID,False,4,interpretive,draft
+LOOK-EXAMPLE-001,look,rainy-night investigator,False,NONE,False,,0,TEXT_VALID,False,0,example,draft
+LOOK-0006,look,1977 London punk youth look,False,NONE,False,,0,TEXT_VALID,False,3,interpretive,draft
+LOOK-0016,look,1940s demobilised soldier: uniform to civilian commute (identity ascent),False,NONE,False,,0,TEXT_VALID,False,8,interpretive,draft
+LOOK-0015,look,Shanghai banker’s wife: ballroom to refugee (identity descent),False,NONE,False,,0,TEXT_VALID,False,6,interpretive,draft
+LOOK-0034,look,expressionist Lady Macbeth finale,False,NONE,False,,0,TEXT_VALID,False,9,interpretive,draft
+LOOK-0003,look,16th-century European court menswear look,False,NONE,False,,0,TEXT_VALID,False,2,interpretive,draft
+LOOK-0010,look,emergency nurse night-shift uniform look,False,NONE,False,,0,TEXT_VALID,False,1,interpretive,draft
+LOOK-0022,look,"1940s postwar commute, three-scene continuity",False,NONE,False,,0,TEXT_VALID,False,5,interpretive,draft
+LOOK-0017,look,1977 punk to 1980s professional (identity ascent),False,NONE,False,,0,TEXT_VALID,False,3,interpretive,draft
+LOOK-0026,look,"Macbeth downfall, stripped kingship",False,NONE,False,,0,TEXT_VALID,False,8,interpretive,draft
+LOOK-0009,look,1930s Shanghai qipao woman intellectual look,False,NONE,False,,0,TEXT_VALID,False,3,interpretive,draft
+LOOK-0021,look,"contemporary rain investigator, four-scene continuity upgrade",False,NONE,False,,0,TEXT_VALID,False,3,interpretive,draft
+LOOK-0024,look,"Macbeth ambition rise, heath field dress",True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,10,interpretive,draft
+LOOK-0029,look,"Lady Macbeth downfall, sleepwalking",False,NONE,False,,0,TEXT_VALID,False,8,interpretive,draft
+LOOK-0013,look,Ghanaian-British wedding bride ceremonial look,False,NONE,False,,0,TEXT_VALID,False,6,interpretive,draft
+LOOK-0007,look,contemporary rain investigator continuity look,False,NONE,False,,0,TEXT_VALID,False,1,interpretive,draft
+LOOK-0008,look,1930s Shanghai changshan intellectual look,False,NONE,False,,0,TEXT_VALID,False,2,interpretive,draft
+LOOK-0005,look,1900 Southern plantation mistress look,False,NONE,False,,0,TEXT_VALID,False,2,interpretive,draft
+LOOK-0027,look,"Lady Macbeth ambition rise, reading the letter",False,NONE,False,,0,TEXT_VALID,False,9,interpretive,draft
+LOOK-0028,look,"Lady Macbeth guilt, blood on the hands",False,NONE,False,,0,TEXT_VALID,False,9,interpretive,draft
+LOOK-0004,look,late Ottoman official look,True,REFERENCE_PENDING,True,,2,TEXT_VALID,False,1,interpretive,draft
+LOOK-0018,look,West African Asante family celebration (kente and adinkra usage boundaries),False,NONE,False,,0,TEXT_VALID,False,5,interpretive,draft
+LOOK-0030,look,"1930s Shanghai rain, female reporter",True,SOURCE_LINK_ONLY,False,,2,TEXT_VALID,False,7,interpretive,draft

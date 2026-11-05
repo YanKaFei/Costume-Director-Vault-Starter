@@ -1,0 +1,1 @@
+Use the costume-director skill. Compare modern minimal STY-0024 and deconstruction STY-0025 using python3 scripts/query.py --id STY-0024 --json and --id STY-0025 --json. Then explicitly decline a request to generate an image (no image tool); offer text prompts only, using real IDs. Complete answer only.

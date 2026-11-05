@@ -1,55 +1,31 @@
 {
-  "prompts": 143,
+  "prompts": 179,
   "cards": 74,
-  "text_valid": 143,
+  "text_valid": 179,
   "text_invalid": 0,
-  "warnings": 141,
+  "warnings": 157,
   "errors": 0,
-  "homogeneity_pairs": 589,
-  "template_scaffold_pairs": 1110,
+  "subtype_counts": {
+    "applied": 26,
+    "base": 112,
+    "detail": 26,
+    "product": 5,
+    "side_back": 5,
+    "worn": 5
+  },
+  "type_counts": {
+    "image": 110,
+    "video": 69
+  },
+  "homogeneity_pairs": 536,
+  "template_scaffold_pairs": 1149,
   "homogeneity_threshold": "content-token Jaccard >= 0.80 after removing template vocabulary",
   "homogeneity": [
-    {
-      "prompt_kind": "image",
-      "card_a": "GAR-0022",
-      "card_b": "GAR-0024",
-      "content_jaccard": 0.806
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STR-0004",
-      "card_b": "STR-0005",
-      "content_jaccard": 0.825
-    },
     {
       "prompt_kind": "image",
       "card_a": "STR-0011",
       "card_b": "STR-0023",
       "content_jaccard": 0.855
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STR-0013",
-      "card_b": "STR-0014",
-      "content_jaccard": 0.804
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STR-0015",
-      "card_b": "STR-0022",
-      "content_jaccard": 0.818
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STR-0030",
-      "card_b": "STR-0031",
-      "content_jaccard": 0.845
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0001",
-      "card_b": "MAT-0002",
-      "content_jaccard": 0.821
     },
     {
       "prompt_kind": "image",
@@ -66,74 +42,32 @@
     {
       "prompt_kind": "image",
       "card_a": "MAT-0001",
-      "card_b": "MAT-0012",
-      "content_jaccard": 0.887
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0001",
-      "card_b": "MAT-0013",
-      "content_jaccard": 0.87
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0001",
-      "card_b": "MAT-0015",
-      "content_jaccard": 0.868
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0001",
-      "card_b": "MAT-0018",
-      "content_jaccard": 0.885
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0001",
       "card_b": "MAT-0019",
       "content_jaccard": 0.821
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0002",
-      "card_b": "MAT-0009",
-      "content_jaccard": 0.807
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0002",
-      "card_b": "MAT-0011",
-      "content_jaccard": 0.825
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0002",
       "card_b": "MAT-0012",
-      "content_jaccard": 0.887
+      "content_jaccard": 0.875
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0002",
       "card_b": "MAT-0013",
-      "content_jaccard": 0.836
+      "content_jaccard": 0.833
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0002",
       "card_b": "MAT-0015",
-      "content_jaccard": 0.868
+      "content_jaccard": 0.859
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0002",
       "card_b": "MAT-0018",
-      "content_jaccard": 0.922
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0002",
-      "card_b": "MAT-0019",
-      "content_jaccard": 0.821
+      "content_jaccard": 0.903
     },
     {
       "prompt_kind": "image",
@@ -144,26 +78,8 @@
     {
       "prompt_kind": "image",
       "card_a": "MAT-0003",
-      "card_b": "MAT-0012",
-      "content_jaccard": 0.825
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0003",
       "card_b": "MAT-0014",
       "content_jaccard": 0.833
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0003",
-      "card_b": "MAT-0015",
-      "content_jaccard": 0.807
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0003",
-      "card_b": "MAT-0018",
-      "content_jaccard": 0.855
     },
     {
       "prompt_kind": "image",
@@ -173,171 +89,45 @@
     },
     {
       "prompt_kind": "image",
-      "card_a": "MAT-0004",
-      "card_b": "MAT-0015",
-      "content_jaccard": 0.807
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0004",
-      "card_b": "MAT-0018",
-      "content_jaccard": 0.821
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0008",
-      "card_b": "MAT-0012",
-      "content_jaccard": 0.842
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0008",
-      "card_b": "MAT-0018",
-      "content_jaccard": 0.839
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0009",
-      "card_b": "MAT-0012",
-      "content_jaccard": 0.836
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0009",
-      "card_b": "MAT-0013",
-      "content_jaccard": 0.821
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0009",
-      "card_b": "MAT-0015",
-      "content_jaccard": 0.852
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0009",
-      "card_b": "MAT-0018",
-      "content_jaccard": 0.868
-    },
-    {
-      "prompt_kind": "image",
       "card_a": "MAT-0009",
       "card_b": "MAT-0019",
       "content_jaccard": 0.807
     },
     {
       "prompt_kind": "image",
-      "card_a": "MAT-0010",
-      "card_b": "MAT-0012",
-      "content_jaccard": 0.825
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0010",
-      "card_b": "MAT-0015",
-      "content_jaccard": 0.839
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0010",
-      "card_b": "MAT-0018",
-      "content_jaccard": 0.855
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0011",
-      "card_b": "MAT-0012",
-      "content_jaccard": 0.855
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0011",
+      "card_a": "MAT-0012",
       "card_b": "MAT-0013",
-      "content_jaccard": 0.807
+      "content_jaccard": 0.889
     },
     {
       "prompt_kind": "image",
-      "card_a": "MAT-0011",
+      "card_a": "MAT-0012",
       "card_b": "MAT-0015",
-      "content_jaccard": 0.836
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0011",
-      "card_b": "MAT-0018",
       "content_jaccard": 0.887
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0012",
-      "card_b": "MAT-0013",
-      "content_jaccard": 0.904
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0012",
-      "card_b": "MAT-0014",
-      "content_jaccard": 0.825
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0012",
-      "card_b": "MAT-0015",
-      "content_jaccard": 0.902
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0012",
       "card_b": "MAT-0018",
-      "content_jaccard": 0.959
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0012",
-      "card_b": "MAT-0019",
-      "content_jaccard": 0.852
+      "content_jaccard": 0.933
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0013",
       "card_b": "MAT-0015",
-      "content_jaccard": 0.885
+      "content_jaccard": 0.873
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0013",
       "card_b": "MAT-0018",
-      "content_jaccard": 0.902
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0013",
-      "card_b": "MAT-0019",
-      "content_jaccard": 0.836
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0014",
-      "card_b": "MAT-0015",
-      "content_jaccard": 0.807
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0014",
-      "card_b": "MAT-0018",
-      "content_jaccard": 0.855
+      "content_jaccard": 0.887
     },
     {
       "prompt_kind": "image",
       "card_a": "MAT-0015",
       "card_b": "MAT-0018",
-      "content_jaccard": 0.939
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "MAT-0015",
-      "card_b": "MAT-0019",
-      "content_jaccard": 0.868
+      "content_jaccard": 0.917
     },
     {
       "prompt_kind": "image",
@@ -347,159 +137,69 @@
     },
     {
       "prompt_kind": "image",
-      "card_a": "MAT-0018",
-      "card_b": "MAT-0019",
-      "content_jaccard": 0.885
-    },
-    {
-      "prompt_kind": "image",
       "card_a": "STY-0016",
       "card_b": "STY-0017",
-      "content_jaccard": 0.893
+      "content_jaccard": 0.881
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0016",
       "card_b": "STY-0018",
-      "content_jaccard": 0.943
+      "content_jaccard": 0.922
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0016",
       "card_b": "STY-0019",
-      "content_jaccard": 0.926
+      "content_jaccard": 0.879
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0016",
       "card_b": "STY-0020",
-      "content_jaccard": 0.926
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0016",
-      "card_b": "STY-0021",
-      "content_jaccard": 0.926
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0016",
-      "card_b": "STY-0022",
-      "content_jaccard": 0.943
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0016",
-      "card_b": "STY-0023",
-      "content_jaccard": 0.909
+      "content_jaccard": 0.908
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0017",
       "card_b": "STY-0018",
-      "content_jaccard": 0.909
+      "content_jaccard": 0.894
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0017",
       "card_b": "STY-0019",
-      "content_jaccard": 0.893
+      "content_jaccard": 0.853
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0017",
       "card_b": "STY-0020",
-      "content_jaccard": 0.893
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0017",
-      "card_b": "STY-0021",
-      "content_jaccard": 0.893
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0017",
-      "card_b": "STY-0022",
-      "content_jaccard": 0.909
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0017",
-      "card_b": "STY-0023",
-      "content_jaccard": 0.877
+      "content_jaccard": 0.881
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0018",
       "card_b": "STY-0019",
-      "content_jaccard": 0.981
+      "content_jaccard": 0.922
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0018",
       "card_b": "STY-0020",
-      "content_jaccard": 0.943
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0018",
-      "card_b": "STY-0021",
-      "content_jaccard": 0.943
+      "content_jaccard": 0.922
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0018",
       "card_b": "STY-0022",
-      "content_jaccard": 0.962
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0018",
-      "card_b": "STY-0023",
-      "content_jaccard": 0.926
+      "content_jaccard": 0.806
     },
     {
       "prompt_kind": "image",
       "card_a": "STY-0019",
       "card_b": "STY-0020",
-      "content_jaccard": 0.926
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0019",
-      "card_b": "STY-0021",
-      "content_jaccard": 0.926
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0019",
-      "card_b": "STY-0022",
-      "content_jaccard": 0.943
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0019",
-      "card_b": "STY-0023",
-      "content_jaccard": 0.909
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0020",
-      "card_b": "STY-0021",
-      "content_jaccard": 0.926
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0020",
-      "card_b": "STY-0022",
-      "content_jaccard": 0.943
-    },
-    {
-      "prompt_kind": "image",
-      "card_a": "STY-0020",
-      "card_b": "STY-0023",
-      "content_jaccard": 0.909
+      "content_jaccard": 0.879
     },
     {
       "prompt_kind": "image",
@@ -3353,12 +3053,6 @@
     },
     {
       "prompt_kind": "video",
-      "card_a": "STY-0010",
-      "card_b": "STY-0012",
-      "content_jaccard": 0.955
-    },
-    {
-      "prompt_kind": "video",
       "card_a": "STY-0016",
       "card_b": "STY-0017",
       "content_jaccard": 0.86
@@ -3545,7 +3239,7 @@
     }
   ],
   "statuses": {
-    "TEXT_VALID": 143,
+    "TEXT_VALID": 179,
     "DOMAIN_REVIEWED": "NOT_RUN",
     "IMAGE_TESTED": "NOT_RUN",
     "HUMAN_VISUAL_APPROVED": "NOT_RUN"

@@ -265,6 +265,21 @@
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：REFERENCE_PENDING 31、同质化、2 视角缺口、12 未用/5 LINK、E2E/部分回归 NOT_RUN、GUI NOT_RUN）；PUBLIC-READY = NO（B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**；建议维护模式。
 
+## 4.19 R1.3B Batch3（2026-11-05 18:00，task-115）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| Batch3 视觉 | **PASS（WARN）** | +15 卡（10 Style/3 Outfit/2 主题）；视觉 89/207；209 prompt；全部 REFERENCE_PENDING；0 事实变更 |
+| 4 MATCHED 资产 | **APPROVED（4）** | 0009/0010→STY-0002、0011→STY-0001/PRD-0002、0012→GAR-0061；ledger 记录；owner 加卡链接；无下载 |
+| 优先参考研究 | **6 REFERENCE_PENDING** | STY-0024/25、LOOK-0004/0012/0024、STY-0003；无已验证许可图，不伪造 |
+| 覆盖/许可 | **PASS** | coverage 207 行/89 visual/46 pending；license 20 行 + batch3 列 |
+| UAT 包 | **PREPARED / HUMAN PENDING** | 89 卡逐卡 prompt/要点/反例/参考/状态；DOMAIN/IMAGE/HUMAN NOT_RUN；无评分/生图 |
+| QA | **WARN** | 209 prompts 全 TEXT_VALID；warnings 192；同质化 602/1257 对；独立 20/20 |
+| 回归 | **PASS（E2E PARTIAL）** | validate 473、build 239、consistency 0/345、graph 0、acceptance 45/45、quality PASS、workflow 9/9、Macbeth 11/11；E2E 最近 3/3+3/3，Batch3 专属报告未落盘 |
+| GUI/生图/评分 | **NOT_RUN / 0 / N/A** | 无截图签字；无 image model；人工视觉评分未做 |
+
+**门禁**：**PRIVATE-READY/PRIVATE-USE = YES（WARN：46 REFERENCE_PENDING、同质化、4 associations 待 owner、Batch3 E2E 未跑、Style4/Look29 未视觉化、GUI/domain/image/human visual NOT_RUN）；PUBLIC-READY = NO（B1–B6+L1–L6）**；**GUI = NOT_RUN**；建议维护模式。
+
 ## 5. 门禁结论
 
 ### PRIVATE-READY：**YES（可私有/内部使用）**

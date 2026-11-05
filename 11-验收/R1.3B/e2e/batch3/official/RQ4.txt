@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id STY-0024 --json; then python3 scripts/query.py --id STY-0025 --json. Report both IDs and differences, then explicitly refuse an image-generation request: no image tool, text prompt only. Complete answer only.

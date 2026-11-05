@@ -13,7 +13,7 @@
 | [[材质纹样]] | 03-材质纹样（material/pattern） | 19 |
 | [[鞋履配饰]] | 01 中 footwear/headwear/accessory/carried_prop 子集 | 36 |
 | [[时代地域]] | 06-时代地域（period_region） | 11 |
-| [[风格体系]] | 05-风格体系（style） | 24 |
+| [[风格体系]] | 05-风格体系（style） | 26 |
 | [[造型组合]] | 09-造型组合（look）+ 07-剧情场景（scene） | 35+16 |
 | [[来源证据]] | 04-来源（source） | 239 |
 

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "SRC-0553",
+    "SRC-0554",
+    "SRC-0557",
+    "STY-0008",
+    "STY-0019",
+    "STY-0023",
+    "STY-0024",
+    "STY-0025"
+  ],
+  "final_chars": 6713,
+  "skill_calls": 1,
+  "tool_calls": 2,
+  "completed_tool_results": 6,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Brief\n- Two style cards, both `type: style`, `evidence_status: interpretive`, `review_status: draft`, `periods: [\"2025\",\"2026\"]`, `regions: [global]`, `license_status: not_applicable`.\n- Both are 2025–26 runway trend observations, explicitly **not** historical costume facts; both source pages are Vogue Runway `link_only` and images were not individually verified.\n- Query `score: 0.0` on both is"
+}

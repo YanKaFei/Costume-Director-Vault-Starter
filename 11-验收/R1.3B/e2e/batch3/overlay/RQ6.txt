@@ -1,0 +1,1 @@
+Use the costume-director skill. Run exactly: python3 scripts/query.py --id STR-0012 --json. Report ID/name/evidence, then explicitly refuse an image-generation request (no image tool; text only). Complete answer only.

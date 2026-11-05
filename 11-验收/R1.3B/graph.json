@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-05T17:27:23+08:00",
+ "generated_at": "2026-11-05T17:56:44+08:00",
  "root": "/Users/coffee/Desktop/Costume-Director-Vault-Starter",
- "scanned_files": 504,
+ "scanned_files": 506,
  "nodes_by_role": {
   "navigation": 28,
-  "content": 232,
+  "content": 234,
   "source": 239,
   "research": 5
  },
@@ -15,25 +15,25 @@
   "material": 16,
   "pattern": 3,
   "source": 239,
-  "style": 24,
+  "style": 26,
   "period_region": 11,
   "none": 5,
   "scene": 16,
   "look": 35
  },
- "wikilink_occurrences": 3321,
- "resolved_visible_edges": 2751,
- "nav_visible_edges": 579,
- "semantic_visible_edges": 2172,
+ "wikilink_occurrences": 3371,
+ "resolved_visible_edges": 2763,
+ "nav_visible_edges": 581,
+ "semantic_visible_edges": 2182,
  "unresolved_wikilinks": {},
- "typed_edges": 764,
+ "typed_edges": 768,
  "typed_unresolved": 0,
  "typed_without_visible": 15,
  "typed_without_visible_by_kind": {
   "key_garments": 15
  },
  "typed_by_kind": {
-  "source_ids": 494,
+  "source_ids": 498,
   "superseded_by": 4,
   "canonical_id": 4,
   "key_garments": 40,
@@ -42,30 +42,30 @@
  },
  "visible_by_role_pair": {
   "navigation->navigation": 55,
-  "navigation->content": 271,
+  "navigation->content": 273,
   "navigation->research": 5,
   "navigation->source": 239,
-  "content->content": 1138,
-  "content->source": 502,
+  "content->content": 1144,
+  "content->source": 506,
   "source->content": 510,
   "source->source": 22,
   "research->source": 9
  },
- "source_ids_pairs": 494,
+ "source_ids_pairs": 498,
  "source_ids_without_visible": 0,
- "cards_with_source_ids": 225,
+ "cards_with_source_ids": 227,
  "cards_with_source_ids_without_any_visible_source": 0,
  "sources_cited_typed": 176,
  "sources_cited_visible": 176,
  "role_stats": {
   "content": {
-   "nodes": 232,
+   "nodes": 234,
    "zero_visible": 0,
    "zero_total": 0,
    "only_in_visible": 0,
    "only_out_visible": 0,
-   "bidirectional_visible": 232,
-   "with_source_ids": 225,
+   "bidirectional_visible": 234,
+   "with_source_ids": 227,
    "source_ids_no_visible": 0
   },
   "source": {
@@ -99,24 +99,24 @@
    "source_ids_no_visible": 0
   }
  },
- "semantic_nodes": 471,
+ "semantic_nodes": 473,
  "components": 61,
  "largest_component": {
-  "size": 411,
+  "size": 413,
   "roles": {
-   "content": 232,
+   "content": 234,
    "source": 179
   }
  },
  "component_rows_top": [
   {
    "component": 1,
-   "size": 411,
+   "size": 413,
    "roles": {
-    "content": 232,
+    "content": 234,
     "source": 179
    },
-   "visible_edges_inside": 2187
+   "visible_edges_inside": 2197
   },
   {
    "component": 2,
@@ -195,7 +195,7 @@
   }
  },
  "component_size_histogram": {
-  "411": 1,
+  "413": 1,
   "1": 60
  },
  "components_with_content_and_source": 1,

@@ -103,6 +103,9 @@ style_observation:
 approved_anchors: []
 relations:
   - 'target=GAR-0075; type=appears_in_look; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0480; rule=R-LOOK-ITEMS; review_status=review_queue; factual=false; design_only=true'
+visual_prompt_profile: outfit_standard
+visual_prompt_type: [full_body, detail, video]
+visual_evidence: [FACT, OBSERVATION, INFERENCE, CREATIVE]
 ---
 # 麦克白·野心上升·荒野战袍 / Macbeth ambition rise, heath field dress
 
@@ -114,6 +117,10 @@ relations:
 - **人物功能**：战场归来的领主：功能优先、泥与汗；预言的“借来的袍子”尚未出现。
 - **叙事意义**：荒野/战场之后的实用层：束腰长袍、斗篷、腰带、皮靴与匕首都是“还在打仗的人”的工具；没有王权装饰。
 
+- R1.3B 完整构成：look_items 精确 ID 见下；不新增未登记单品。
+- 正面/侧背：full-body front + side/back 两视图；结构/材质锚点：materials=wool, linen, leather, iron；colors=earth_brown, charcoal, iron_grey, blood_red。
+- 角色/场景：scene=unknown；跨镜连续性以原 `continuity_lock` 为准，视觉层不修改。
+- 动作响应：见生图/视频 prompt 的 ACTION_RESPONSE；Look Bible/Approved Anchors 保留。
 ## 视觉辨识
 - 色彩：earth_brown, charcoal, iron_grey, blood_red；材质：wool, linen, leather, iron。
 - 关键识别点：斗篷披法、腰带位置、匕首持握侧、靴筒泥污范围跨镜头固定；雨/泥状态只允许按场次单向增加，不做自动变干。
@@ -150,3 +157,34 @@ relations:
 - [[MAT-0011-拜占庭samite丝绸|拜占庭 samite 丝绸]]
 - [[STY-0011-northern-medieval-theatrical-minimalism|STY-0011]]
 
+
+## 视觉参考
+- REFERENCE_PENDING：本卡无已登记匹配 ASSET；现有 source_ids [[SRC-0480-V&A-450-650束腰长袍|SRC-0480]], [[SRC-0481-V&A-6-7世纪束腰长袍|SRC-0481]], [[SRC-0482-V&A-1580-1600男斗篷|SRC-0482]], [[SRC-0483-V&A-1590-1610女披肩|SRC-0483]], [[SRC-0489-V&A-15世纪皮靴|SRC-0489]], [[SRC-0487-V&A-7世纪腰带扣|SRC-0487]], [[SRC-0488-V&A-1500-1600腰带扣|SRC-0488]], [[SRC-0490-V&A-1360-1400匕首|SRC-0490]], [[SRC-0491-V&A-1475-1500匕首|SRC-0491]], [[SRC-0423-V&A-拜占庭samite丝绸|SRC-0423]] 仅为 link_only 文字参考，未下载/未内嵌图像。
+- Look Bible / Approved Anchors：本批未改 `continuity_lock`、`look_items`、Approved Anchors；视觉层仅追加，不覆盖硬约束。
+
+## 生图提示词
+```text
+SUBJECT (FACT): LOOK-0024; fictional character look; scene ID unknown.
+FULL OUTFIT COMPOSITION (FACT): look_items IDs=GAR-0075, GAR-0076, GAR-0081, GAR-0080, GAR-0082, MAT-0011.
+FRONT FULL BODY (CREATIVE): centered full-body front view, neutral standing pose, complete outfit visible.
+SIDE_BACK (CREATIVE): side and three-quarter back view, same outfit, same styling.
+STRUCTURE/MATERIAL ANCHORS (FACT): materials=wool, linen, leather, iron; colors=earth_brown, charcoal, iron_grey, blood_red; preserve stated structure and layer order.
+CHARACTER/SCENE (OBSERVATION): scene ID unknown; environment per card, no new narrative facts.
+CONTINUITY (OBSERVATION): preserve garment IDs, layer order, closure/accessory side and wet/mud state direction across shots.
+ACTION RESPONSE (OBSERVATION): full-body Macbeth in early-medieval analogue field dress: earth-brown wool tunic with side gores and belt, charcoal cloak, leather ankle boots, dagger at belt, mud and sweat, storm heath, cold overcast light, filmic historical analogue
+LIGHT (CREATIVE): soft cinematic key, controlled contrast, period-appropriate ambience without claiming historical lighting.
+CAMERA (CREATIVE): 35–50mm, full-body, eye level, 3/4 for side/back.
+BACKGROUND (CREATIVE): restrained environment per scene; no invented landmarks.
+NEGATIVE (CREATIVE): no logo/text/watermark, no extra layers, no costume morphing, no colour shift, no brand copy.
+CONSISTENCY (OBSERVATION): keep outfit composition, palette, structure and accessory placement identical across frames.
+```
+
+## 视频提示词
+```text
+SUBJECT (FACT): LOOK-0024; one continuous character look; scene ID unknown.
+ACTION/MOTION (OBSERVATION): walking/turning response; garment and layers move according to their structure.
+CONTINUITY (OBSERVATION): preserve garment IDs, layer order, closure/accessory side, wet/mud direction and palette across frames.
+LIGHT (CREATIVE): controlled cinematic key; no historical lighting claim.
+CAMERA (CREATIVE): medium tracking shot, 35–50mm, eye level, stable.
+NEGATIVE (CREATIVE): no costume morphing, no colour shift, no extra layers, no logo/text/watermark, no anachronistic additions.
+```

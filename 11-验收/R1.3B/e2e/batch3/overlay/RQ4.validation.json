@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "SRC-0532",
+    "SRC-0539",
+    "STR-0028"
+  ],
+  "final_chars": 704,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## STR-0028 — Query Result\n\n- **Card ID:** STR-0028\n- **Part family / type:** `garment_part` — 结构细节\n- **Name:**\n  - 中文：青果领 / 披肩领\n  - English: **shawl collar**\n- **Evidence status:** `verified`\n- **Sources (source_ids):**\n  - **SRC-0532**\n  - **SRC-0539**\n- **Card path:** `02-结构细节/STR-0028-青果领-披肩领.md`\n- **Evidence snippet:** Defines shawl collar as a lapel variant with the collar face and front edg"
+}
