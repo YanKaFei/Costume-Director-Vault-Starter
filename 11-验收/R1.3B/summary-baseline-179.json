@@ -1,0 +1,3249 @@
+{
+  "prompts": 179,
+  "cards": 74,
+  "text_valid": 179,
+  "text_invalid": 0,
+  "warnings": 157,
+  "errors": 0,
+  "subtype_counts": {
+    "applied": 26,
+    "base": 112,
+    "detail": 26,
+    "product": 5,
+    "side_back": 5,
+    "worn": 5
+  },
+  "type_counts": {
+    "image": 110,
+    "video": 69
+  },
+  "homogeneity_pairs": 536,
+  "template_scaffold_pairs": 1149,
+  "homogeneity_threshold": "content-token Jaccard >= 0.80 after removing template vocabulary",
+  "homogeneity": [
+    {
+      "prompt_kind": "image",
+      "card_a": "STR-0011",
+      "card_b": "STR-0023",
+      "content_jaccard": 0.855
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0008",
+      "content_jaccard": 0.814
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0009",
+      "content_jaccard": 0.807
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.821
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.875
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.833
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.859
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.903
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0004",
+      "content_jaccard": 0.833
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.833
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.864
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.807
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.889
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.887
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.933
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0013",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.873
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0013",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.887
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0015",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.917
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "MAT-0016",
+      "card_b": "MAT-0017",
+      "content_jaccard": 0.914
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0016",
+      "card_b": "STY-0017",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0016",
+      "card_b": "STY-0018",
+      "content_jaccard": 0.922
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0016",
+      "card_b": "STY-0019",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0016",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.908
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0017",
+      "card_b": "STY-0018",
+      "content_jaccard": 0.894
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0017",
+      "card_b": "STY-0019",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0017",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0018",
+      "card_b": "STY-0019",
+      "content_jaccard": 0.922
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0018",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.922
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0018",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0019",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0021",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.943
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0021",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.909
+    },
+    {
+      "prompt_kind": "image",
+      "card_a": "STY-0022",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "GAR-0001",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "GAR-0022",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "GAR-0024",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "GAR-0015",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "STR-0006",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "STR-0011",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "MAT-0016",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "MAT-0017",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "LOOK-0001",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "LOOK-0030",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0008",
+      "card_b": "LOOK-0031",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "GAR-0022",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "GAR-0024",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "GAR-0015",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "STR-0006",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "STR-0011",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "MAT-0016",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "MAT-0017",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "LOOK-0001",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "LOOK-0030",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0001",
+      "card_b": "LOOK-0031",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "GAR-0024",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "GAR-0015",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "STR-0006",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "STR-0011",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "MAT-0016",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "MAT-0017",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "LOOK-0001",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "LOOK-0030",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0022",
+      "card_b": "LOOK-0031",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "GAR-0015",
+      "content_jaccard": 0.95
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "STR-0006",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "STR-0011",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "MAT-0016",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "MAT-0017",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "LOOK-0001",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "LOOK-0030",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0024",
+      "card_b": "LOOK-0031",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0015",
+      "card_b": "STR-0006",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0015",
+      "card_b": "STR-0011",
+      "content_jaccard": 0.8
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0015",
+      "card_b": "MAT-0016",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0015",
+      "card_b": "MAT-0017",
+      "content_jaccard": 0.818
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0015",
+      "card_b": "LOOK-0001",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0015",
+      "card_b": "LOOK-0030",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "GAR-0015",
+      "card_b": "LOOK-0031",
+      "content_jaccard": 0.804
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0004",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0005",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0007",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0008",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0009",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0010",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0013",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0014",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0001",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0002",
+      "card_b": "STR-0003",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0002",
+      "card_b": "STR-0012",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0002",
+      "card_b": "STR-0020",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0002",
+      "card_b": "STR-0028",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0002",
+      "card_b": "STR-0029",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0003",
+      "card_b": "STR-0012",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0003",
+      "card_b": "STR-0020",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0003",
+      "card_b": "STR-0028",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0003",
+      "card_b": "STR-0029",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0005",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0007",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0008",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0009",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0010",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0013",
+      "content_jaccard": 0.857
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0014",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0004",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0007",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0008",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0009",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0010",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0013",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0014",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0005",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0006",
+      "card_b": "STR-0011",
+      "content_jaccard": 0.953
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0008",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0009",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0010",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0013",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0014",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0007",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0009",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0010",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0013",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0014",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0008",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0010",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0013",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0014",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0009",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0013",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0014",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0010",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0012",
+      "card_b": "STR-0020",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0012",
+      "card_b": "STR-0028",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0012",
+      "card_b": "STR-0029",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0013",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0015",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0014",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0016",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0015",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0017",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0016",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0018",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0017",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0019",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0018",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0021",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0019",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0020",
+      "card_b": "STR-0028",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0020",
+      "card_b": "STR-0029",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0022",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0021",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0024",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0022",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0025",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0024",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.806
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0026",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0025",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0026",
+      "card_b": "STR-0027",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0026",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0026",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0026",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0026",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0026",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0026",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0027",
+      "card_b": "STR-0030",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0027",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0027",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0027",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0027",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0027",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0028",
+      "card_b": "STR-0029",
+      "content_jaccard": 0.929
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0030",
+      "card_b": "STR-0031",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0030",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0030",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0030",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0030",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0031",
+      "card_b": "STR-0032",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0031",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0031",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0031",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0032",
+      "card_b": "STR-0033",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0032",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0032",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.829
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0033",
+      "card_b": "STR-0034",
+      "content_jaccard": 0.879
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0033",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STR-0034",
+      "card_b": "STR-0035",
+      "content_jaccard": 0.853
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0002",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0003",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0004",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0008",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0009",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0010",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0011",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0001",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0003",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0004",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0008",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0009",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0010",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0011",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0002",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0004",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0008",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0009",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0010",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0011",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0003",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0008",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0009",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0010",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0011",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0004",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0009",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0010",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0011",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0008",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0010",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0011",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0009",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0010",
+      "card_b": "MAT-0011",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0010",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0010",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0010",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0010",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0010",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0010",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0011",
+      "card_b": "MAT-0012",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0011",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0011",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0011",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0011",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0011",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0013",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0012",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0013",
+      "card_b": "MAT-0014",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0013",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0013",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0013",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0014",
+      "card_b": "MAT-0015",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0014",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0014",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0015",
+      "card_b": "MAT-0018",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0015",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0016",
+      "card_b": "MAT-0017",
+      "content_jaccard": 0.952
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "MAT-0018",
+      "card_b": "MAT-0019",
+      "content_jaccard": 0.926
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0017",
+      "content_jaccard": 0.86
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0018",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0019",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0021",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0016",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0018",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0019",
+      "content_jaccard": 0.86
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.86
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0021",
+      "content_jaccard": 0.86
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0017",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.841
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0018",
+      "card_b": "STY-0019",
+      "content_jaccard": 0.974
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0018",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0018",
+      "card_b": "STY-0021",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0018",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.949
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0018",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0019",
+      "card_b": "STY-0020",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0019",
+      "card_b": "STY-0021",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0019",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0019",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0020",
+      "card_b": "STY-0021",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0020",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0020",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0021",
+      "card_b": "STY-0022",
+      "content_jaccard": 0.925
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0021",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.881
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "STY-0022",
+      "card_b": "STY-0023",
+      "content_jaccard": 0.902
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "LOOK-0001",
+      "card_b": "LOOK-0030",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "LOOK-0001",
+      "card_b": "LOOK-0031",
+      "content_jaccard": 0.956
+    },
+    {
+      "prompt_kind": "video",
+      "card_a": "LOOK-0030",
+      "card_b": "LOOK-0031",
+      "content_jaccard": 0.956
+    }
+  ],
+  "statuses": {
+    "TEXT_VALID": 179,
+    "DOMAIN_REVIEWED": "NOT_RUN",
+    "IMAGE_TESTED": "NOT_RUN",
+    "HUMAN_VISUAL_APPROVED": "NOT_RUN"
+  },
+  "unknown_policy": "unknown material/structure is not guessed; asserted material without card evidence = error",
+  "image_generation": false
+}

@@ -125,8 +125,8 @@
 
 ## R1.3B Batch3 QA（2026-11-05 18:00）
 
-- 视觉 89/207；prompt **209**；TEXT_VALID **209/209**；warnings **192**；同质化 content Jaccard≥0.80 **650 对**、scaffold≥0.82 **1348 对** → WARN。
+- 视觉 89/207；prompt **209**；TEXT_VALID **209/209**；warnings **187**；同质化 content Jaccard≥0.80 **602 对**、scaffold≥0.82 **1257 对** → WARN。
 - 独立 20 样本 **20/20**；无 CJK/坏链/typo；evidence tags 齐全；REFERENCE_PENDING 正确；2 个曾 invalid（STY-0024/25）已由 task-114 修复为 TEXT_VALID。
 - DOMAIN_REVIEWED/IMAGE_TESTED/HUMAN_VISUAL_APPROVED = **NOT_RUN**；生图 **0**；人工视觉评分 **N/A**。
-- 不一致：`11-验收/R1.3B/summary.json` 仍 179/74/0/536/1149，未同步 209/89；以 PROMPT-QA.csv/header 为准。
-- 回归：validate 473、build 239、consistency 0/345、graph 0、acceptance 45/45、quality PASS、workflow 9/9、Macbeth 11/11；E2E 最近 3/3+3/3（Batch3 专属报告未落盘→NOT_RUN/PARTIAL）；GUI NOT_RUN。
+- 不一致：`11-验收/R1.3B/summary.json` 已同步 209/89/0；Batch2 快照归档。
+- 回归：validate 473、build 239、consistency 0/345、graph 0、acceptance 45/45、quality PASS、workflow 9/9、Macbeth 11/11；E2E 最近 3/3+3/3（Batch3 报告已落盘（3/3+3/3）→NOT_RUN/PARTIAL）；GUI NOT_RUN。

@@ -274,11 +274,11 @@
 | 优先参考研究 | **6 REFERENCE_PENDING** | STY-0024/25、LOOK-0004/0012/0024、STY-0003；无已验证许可图，不伪造 |
 | 覆盖/许可 | **PASS** | coverage 207 行/89 visual/46 pending；license 20 行 + batch3 列 |
 | UAT 包 | **PREPARED / HUMAN PENDING** | 89 卡逐卡 prompt/要点/反例/参考/状态；DOMAIN/IMAGE/HUMAN NOT_RUN；无评分/生图 |
-| QA | **WARN** | 209 prompts 全 TEXT_VALID；warnings 192；同质化 602/1257 对；独立 20/20 |
-| 回归 | **PASS（E2E PARTIAL）** | validate 473、build 239、consistency 0/345、graph 0、acceptance 45/45、quality PASS、workflow 9/9、Macbeth 11/11；E2E 最近 3/3+3/3，Batch3 专属报告未落盘 |
+| QA | **WARN** | 209 prompts 全 TEXT_VALID；warnings 187；同质化 602/1257 对；独立 20/20 |
+| 回归 | **PASS（E2E PASS）** | validate 473、build 239、consistency 0/345、graph 0、acceptance 45/45、quality PASS、workflow 9/9、Macbeth 11/11；E2E 最近 3/3+3/3，Batch3 报告已落盘（3/3+3/3） |
 | GUI/生图/评分 | **NOT_RUN / 0 / N/A** | 无截图签字；无 image model；人工视觉评分未做 |
 
-**门禁**：**PRIVATE-READY/PRIVATE-USE = YES（WARN：46 REFERENCE_PENDING、同质化、4 associations 待 owner、Batch3 E2E 未跑、Style4/Look29 未视觉化、GUI/domain/image/human visual NOT_RUN）；PUBLIC-READY = NO（B1–B6+L1–L6）**；**GUI = NOT_RUN**；建议维护模式。
+**门禁**：**PRIVATE-READY/PRIVATE-USE = YES（WARN：46 REFERENCE_PENDING、同质化、4 associations 待 owner、Style4/Look29 未视觉化、GUI/domain/image/human visual NOT_RUN）；PUBLIC-READY = NO（B1–B6+L1–L6）**；**GUI = NOT_RUN**；建议维护模式。
 
 ## 5. 门禁结论
 
