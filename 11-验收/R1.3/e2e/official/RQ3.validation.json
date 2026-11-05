@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "SRC-0116"
+  ],
+  "final_chars": 2364,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Brief\n- Requested: `GAR-0015`, kind `garment_flat`, period `1930s`, English prompt, JSON output.\n- Card: `01-服装单品/连身/GAR-0015-法式长袍.md`\n- Card type: 法式长袍 (robe à la française) — card periods: `18th_century`, `rococo`.\n\n## Conflict\n**1 error, 0 warnings, 0 notices**\n\n| Code | Severity | Detail |\n|---|---|---|\n| `period_conflict` | **error** | requested `1930s` vs card periods `['18th_century', 'r"
+}

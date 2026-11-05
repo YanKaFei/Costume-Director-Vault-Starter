@@ -37,16 +37,19 @@ style_family: cinematic_genre
 style_period: *id001
 design_language: 以旗袍/长衫的直身轮廓、湿雨反光、深色外层与伞/包的“都市外壳”，把 1930 年代上海与黑色电影的雨夜节奏并置；实物来源是风格观察，叙事组合是设计。
 prompt_en: 1930s Shanghai rain noir, straight qipao or changshan silhouette, wet reflective
-  street, dark raincoat, umbrella, leather bag, low-key neon, film noir framing
+ street, dark raincoat, umbrella, leather bag, low-key neon, film noir framing
 tags:
 - costume
 - style
 - design_interpretation
 relations:
-- '  - ''target=LOOK-0030; type=style_interpretation; direction=outgoing; evidence=interpretive;
-  confidence=medium; source_ids=SRC-0200; rule=R-CURATED-DESIGN'''
-- '  - ''target=LOOK-0035; type=style_interpretation; direction=outgoing; evidence=interpretive;
-  confidence=medium; source_ids=SRC-0200; rule=R-CURATED-DESIGN'''
+- ' - ''target=LOOK-0030; type=style_interpretation; direction=outgoing; evidence=interpretive;
+ confidence=medium; source_ids=SRC-0200; rule=R-CURATED-DESIGN'''
+- ' - ''target=LOOK-0035; type=style_interpretation; direction=outgoing; evidence=interpretive;
+ confidence=medium; source_ids=SRC-0200; rule=R-CURATED-DESIGN'''
+visual_prompt_profile: style_reference_case
+visual_prompt_type: [character_scene, consistency, video]
+visual_evidence: [FACT, OBSERVATION, INFERENCE, CREATIVE]
 ---
 # 1930s 上海雨夜黑色电影 / 1930s Shanghai rain noir
 
@@ -82,3 +85,29 @@ relations:
 - [[LOOK-0030-1930s-Shanghai-rain,-female-reporter|1930s 上海雨夜·女记者]]
 - [[LOOK-0035-1930s-Shanghai-rain,-male-reporter|1930s 上海雨夜·男记者]]
 - 说明：设计解释：旗袍/长衫与雨具均有来源卡；雨夜 noir 的组织方式是电影化设计，不是历史事实。
+
+## 视觉参考
+- 本卡暂无已登记 ASSET；仅以现有 source_ids（[[SRC-0200-V&A-上海新新公司旗袍1930|SRC-0200]], [[SRC-0201-V&A-1930年代末旗袍|SRC-0201]], [[SRC-0405-V&A-蕾丝风衣2014|SRC-0405]], [[SRC-0407-V&A-丝绸雨伞1927|SRC-0407]], [[SRC-0408-V&A-1930年代刺绣手袋|SRC-0408]]；按来源卡许可）作文字参考，未下载/未内嵌图像。
+
+## 生图提示词
+```text
+SUBJECT (FACT): style reference board for STY-0012 (1930s ), no brand-specific garment copied.
+STRUCTURE (FACT): style interpretation only; no garment construction inferred unless shown by a linked card.
+MATERIAL (FACT): materials palette=silk, gabardine, rubber, satin.
+COLOR (FACT): colors=indigo, black, rain_grey, off_white.
+LIGHT (CREATIVE): soft directional light, low contrast, gentle falloff; no claim about historical lighting.
+CAMERA (CREATIVE): 35mm editorial reference framing, eye level.
+BACKGROUND (CREATIVE): neutral studio or restrained period-appropriate setting; CREATIVE.
+STYLE (INFERENCE): style tags=STY-0012; design interpretation only, not a historical claim.
+NEGATIVE (CREATIVE): no invented fiber, weave, weight, transparency or structure; no extra garments/accessories; no logos or text; no costume morphing; no brand-specific design copying.
+CONSISTENCY (OBSERVATION): keep card ID, palette, material tokens, silhouette/part family and relative proportions identical across frames.
+```
+
+## 视频提示词
+```text
+SUBJECT (FACT): style reference STY-0012; slow editorial pan across a reference board; no brand copy.
+CONSISTENCY (OBSERVATION): preserve card ID, colors, material tokens, silhouette/part family and accessory placement across frames; no layering changes.
+LIGHT (CREATIVE): soft directional key with gentle falloff; no invented historical lighting.
+CAMERA (CREATIVE): slow gimbal move, 35-50mm, eye level, shallow but stable depth of field.
+NEGATIVE (CREATIVE): no costume morphing, no colour shift, no extra layers, no logo/text/watermark, no brand-specific design copying.
+```

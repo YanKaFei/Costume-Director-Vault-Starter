@@ -71,12 +71,12 @@
         "renaissance",
         "tudor"
       ],
-      "budget_mode": "equivalent_cost",
-      "budget_explanation": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
+      "budget_mode": "cheaper",
+      "budget_explanation": "Look C is a lower-cost alternative (>=10% cheaper than A).",
       "differences": {
         "a_b": 3,
-        "a_c": 4,
-        "b_c": 3
+        "a_c": 3,
+        "b_c": 2
       },
       "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve court dancer; the court attendant economic register shows through material and finish; formality runs from formal / unknown / formal; the black, contrast color, gold palette controls the emotional temperature; against the arc (dancing for a patron's favour) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
       "items": [
@@ -189,6 +189,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0016",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0025",
           "slot": "footwear",
           "confidence": "explicit"
@@ -200,6 +205,10 @@
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "upper_body"
+        },
         {
           "id": "MAT-0002",
           "slot": "upper_body"
@@ -213,20 +222,24 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Isabella, upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: black, contrast color, gold, red, silk, slashed contrast, setting: ducal ballroom, night, indoor, art direction: renaissance court, candlelight and brocade, lighting: candlelight and warm practicals, camera: medium full-body tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); leg-of-mutton sleeves (STR-0005); stomacher (STR-0006); slashing (STR-0010); ease and fit (STR-0025); Medici collar (STR-0001), continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0013, MAT-0003, MAT-0011",
-      "prompt_video": "Isabella, turning, leaping, changing position quickly, curtseying, scene: ducal ballroom, night, indoor, camera: medium full-body tracking, costume: upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 固定在长袜/裤裆前，行走与坐下时位置明显; 不能在高动作镜头中忽略其体积。; 合体收腰，抬臂时肩袖与后背拉扯明显; 下摆短或带垂片，需与袜带/裤装固定关系。, lighting: candlelight and warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0013, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0013, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Isabella, upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: black, contrast color, gold, red, silk, slashed contrast, setting: ducal ballroom, night, indoor, art direction: renaissance court, candlelight and brocade, lighting: candlelight and warm practicals, camera: medium full-body tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ruff (STR-0003); leg-of-mutton sleeves (STR-0005); stomacher (STR-0006); slashing (STR-0010); hem and vents/slits (STR-0016); ease and fit (STR-0025); Medici collar (STR-0001), continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011",
+      "prompt_video": "Isabella, turning, leaping, changing position quickly, curtseying, scene: ducal ballroom, night, indoor, camera: medium full-body tracking, costume: upper body: men’s fitted doublet, long sleeves, standing neckband, center-front lacing or buttons, nipped waist; lower body: padded Renaissance codpiece, prominent front pouch at the fork of the hose, decorated with slashing, embroidery or jewels; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 固定在长袜/裤裆前，行走与坐下时位置明显; 不能在高动作镜头中忽略其体积。; 合体收腰，抬臂时肩袖与后背拉扯明显; 下摆短或带垂片，需与袜带/裤装固定关系。, lighting: candlelight and warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0002 doublet [black, red, slashed_contrast; wool, silk, linen; upper body] | GAR-0013 codpiece [contrast_color, gold; wool, silk, velvet; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 21.5/25, 摄影/一致性 6.9/10",
         "上装: GAR-0002 达布里特 (formal)",
         "下装: GAR-0013 遮阴袋 (unknown)",
         "足部: GAR-0024 穆勒鞋 (formal)",
-        "linked structure cards: STR-0003, STR-0005, STR-0006, STR-0010, STR-0025, STR-0001",
-        "linked material cards: MAT-0002, MAT-0013, MAT-0003, MAT-0011",
+        "linked structure cards: STR-0003, STR-0005, STR-0006, STR-0010, STR-0016, STR-0025, STR-0001",
+        "linked material cards: MAT-0015, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011",
         "based on curated vault look card LOOK-0003",
         "period/culture score is supported by period-tagged cards"
       ],
@@ -242,14 +255,26 @@
           "SRC-0133",
           "SRC-0135",
           "SRC-0136",
+          "SRC-0064",
           "SRC-0140",
+          "SRC-0061",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0062",
           "SRC-0521",
           "SRC-0520",
           "SRC-0101",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0141",
           "SRC-0102",
           "SRC-0483",
           "SRC-0142",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
           "SRC-0423"
         ],
         "source_urls": [
@@ -278,8 +303,28 @@
             "url": "https://fashionhistory.fitnyc.edu/stomacher/"
           },
           {
+            "source_id": "SRC-0064",
+            "url": "https://www.gutenberg.org/cache/epub/48551/pg48551.txt"
+          },
+          {
             "source_id": "SRC-0140",
             "url": "https://fashionhistory.fitnyc.edu/slashing/"
+          },
+          {
+            "source_id": "SRC-0061",
+            "url": "https://www.gutenberg.org/cache/epub/34903/pg34903.txt"
+          },
+          {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
             "source_id": "SRC-0521",
@@ -292,6 +337,22 @@
           {
             "source_id": "SRC-0101",
             "url": "https://fashionhistory.fitnyc.edu/medici-collar/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0141",
@@ -308,6 +369,18 @@
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           },
           {
             "source_id": "SRC-0423",
@@ -445,6 +518,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0016",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0025",
           "slot": "footwear",
           "confidence": "explicit"
@@ -456,19 +534,23 @@
           "slot": "one_piece"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0003",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Isabella, one-piece: late Renaissance Italian silk gown, cream brocaded floral motifs, diagonal slashing between motifs, sleeveless open front, small upright back collar, shoulder wings, box-pleated back; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: blue, cream, gold, green, pink, red, silk, yellow, setting: ducal ballroom, night, indoor, art direction: renaissance court, candlelight and brocade, lighting: candlelight and warm practicals, camera: medium full-body tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: Medici collar (STR-0001); ruff (STR-0003); ease and fit (STR-0025), continuity lock: GAR-0062 Italian Renaissance gown [cream, green, pink, yellow, blue; silk, fustian; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
-      "prompt_video": "Isabella, turning, leaping, changing position quickly, curtseying, scene: ducal ballroom, night, indoor, camera: medium full-body tracking, costume: one-piece: late Renaissance Italian silk gown, cream brocaded floral motifs, diagonal slashing between motifs, sleeveless open front, small upright back collar, shoulder wings, box-pleated back; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 无袖开襟长袍依赖内层固定; 剪口与金属饰边易勾挂; 长摆限制步幅。, lighting: candlelight and warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0062 Italian Renaissance gown [cream, green, pink, yellow, blue; silk, fustian; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0062 Italian Renaissance gown [cream, green, pink, yellow, blue; silk, fustian; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Isabella, one-piece: late Renaissance Italian silk gown, cream brocaded floral motifs, diagonal slashing between motifs, sleeveless open front, small upright back collar, shoulder wings, box-pleated back; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: blue, cream, gold, green, pink, red, silk, yellow, setting: ducal ballroom, night, indoor, art direction: renaissance court, candlelight and brocade, lighting: candlelight and warm practicals, camera: medium full-body tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: Medici collar (STR-0001); ruff (STR-0003); hem and vents/slits (STR-0016); ease and fit (STR-0025), continuity lock: GAR-0062 Italian Renaissance gown [cream, green, pink, yellow, blue; silk, fustian; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0017, MAT-0003",
+      "prompt_video": "Isabella, turning, leaping, changing position quickly, curtseying, scene: ducal ballroom, night, indoor, camera: medium full-body tracking, costume: one-piece: late Renaissance Italian silk gown, cream brocaded floral motifs, diagonal slashing between motifs, sleeveless open front, small upright back collar, shoulder wings, box-pleated back; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 无袖开襟长袍依赖内层固定; 剪口与金属饰边易勾挂; 长摆限制步幅。, lighting: candlelight and warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0062 Italian Renaissance gown [cream, green, pink, yellow, blue; silk, fustian; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0017, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0062 Italian Renaissance gown [cream, green, pink, yellow, blue; silk, fustian; one-piece] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0017, MAT-0003",
       "reasons": [
         "highest scoring dimensions: 年代/文化 21.9/25, 美术方向 6.9/15",
         "连身: GAR-0062 意大利文艺复兴长袍 (formal)",
         "足部: GAR-0024 穆勒鞋 (formal)",
-        "linked structure cards: STR-0001, STR-0003, STR-0025",
-        "linked material cards: MAT-0002, MAT-0003",
+        "linked structure cards: STR-0001, STR-0003, STR-0016, STR-0025",
+        "linked material cards: MAT-0002, MAT-0017, MAT-0003",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -481,9 +563,15 @@
           "SRC-0125",
           "SRC-0101",
           "SRC-0133",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0062",
           "SRC-0521",
           "SRC-0520",
           "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
           "SRC-0142"
         ],
         "source_urls": [
@@ -504,6 +592,18 @@
             "url": "https://fashionhistory.fitnyc.edu/ruff/"
           },
           {
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
@@ -514,6 +614,18 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           },
           {
             "source_id": "SRC-0142",
@@ -532,39 +644,35 @@
     },
     {
       "look_ref": "C",
-      "source_look_id": null,
-      "total": 39.7,
+      "source_look_id": "LOOK-0034",
+      "total": 38.0,
       "scores": {
-        "period": 18.3,
-        "identity": 4.0,
+        "period": 19.2,
+        "identity": 4.3,
         "environment": 1.8,
-        "art": 1.9,
-        "movement": 4.4,
+        "art": 2.7,
+        "movement": 4.5,
         "arc": 3.5,
-        "camera": 6.8
+        "camera": 6.9
       },
-      "missing": [],
-      "cost": 0.439,
-      "cost_total": 1.318,
+      "missing": [
+        "upper_body+lower_body or one_piece"
+      ],
+      "cost": 0.488,
+      "cost_total": 0.975,
       "contains_example": false,
       "evidence_tier": "era",
       "period_tiers": {
-        "upper_body": "approximate",
-        "lower_body": "unknown",
+        "outerwear": "unknown",
         "footwear": "era"
       },
       "region_tiers": {
-        "upper_body": "regional",
-        "lower_body": "regional",
+        "outerwear": "regional",
         "footwear": "regional"
       },
       "colors": [
-        "black",
-        "blue",
-        "cream",
-        "embroidered",
+        "crimson",
         "gold",
-        "oyster",
         "red",
         "silk",
         "white"
@@ -573,76 +681,43 @@
         "analogue",
         "boudoir",
         "court",
-        "dandy",
         "early",
         "early modern",
-        "menswear",
-        "modern",
-        "victorian"
+        "modern"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve court dancer; the court attendant economic register shows through material and finish; formality runs from business / formal / formal; the black, blue, cream palette controls the emotional temperature; against the arc (dancing for a patron's favour) the look functions as a visible state that can be tracked or deliberately broken in later scenes.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve court dancer; the court attendant economic register shows through material and finish; formality runs from formal / formal; the crimson, gold, red palette controls the emotional temperature; against the arc (dancing for a patron's favour) the look functions as a visible state that can be tracked or deliberately broken in later scenes; the missing layers mark a production gap rather than a design choice.",
       "items": [
         {
-          "slot": "upper_body",
-          "id": "GAR-0008",
-          "name_zh": "马甲",
-          "name_en": "waistcoat",
+          "slot": "outerwear",
+          "id": "GAR-0076",
+          "name_zh": "斗篷与披风",
+          "name_en": "cloak and mantle",
           "colors": [
-            "black",
-            "cream",
-            "embroidered"
-          ],
-          "materials": [
-            "wool",
-            "silk",
-            "cotton"
-          ],
-          "evidence_status": "verified",
-          "source_ids": [
-            "SRC-0109"
-          ],
-          "scores": {
-            "period": 0.6560000000000001,
-            "identity": 0.225,
-            "environment": 0.12249999999999998,
-            "art": 0.0,
-            "movement": 0.5,
-            "arc": 0.35,
-            "camera": 0.69
-          }
-        },
-        {
-          "slot": "lower_body",
-          "id": "GAR-0077",
-          "name_zh": "紧身长袜",
-          "name_en": "hose",
-          "colors": [
-            "oyster",
-            "blue",
+            "crimson",
             "white"
           ],
           "materials": [
+            "satin",
             "silk",
-            "wool",
             "linen",
-            "baleen"
+            "metal_thread"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0484",
-            "SRC-0485"
+            "SRC-0482",
+            "SRC-0483"
           ],
           "scores": {
             "period": 0.69,
             "identity": 0.225,
             "environment": 0.12249999999999998,
             "art": 0.0,
-            "movement": 0.4,
+            "movement": 0.5,
             "arc": 0.35,
-            "camera": 0.65
+            "camera": 0.69
           }
         },
         {
@@ -677,104 +752,132 @@
       ],
       "parts": [
         {
-          "id": "STR-0006",
-          "slot": "upper_body",
+          "id": "STR-0016",
+          "slot": "outerwear",
           "confidence": "explicit"
         },
         {
-          "id": "STR-0015",
-          "slot": "upper_body",
+          "id": "STR-0027",
+          "slot": "outerwear",
           "confidence": "explicit"
         },
         {
           "id": "STR-0025",
           "slot": "footwear",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0035",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
         {
+          "id": "MAT-0012",
+          "slot": "outerwear"
+        },
+        {
           "id": "MAT-0002",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0001",
-          "slot": "upper_body"
-        },
-        {
-          "id": "MAT-0003",
-          "slot": "lower_body"
+          "slot": "outerwear"
         },
         {
           "id": "MAT-0013",
-          "slot": "lower_body"
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0003",
+          "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
         },
         {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Isabella, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: black, blue, cream, embroidered, gold, oyster, red, silk, white, setting: ducal ballroom, night, indoor, art direction: renaissance court, candlelight and brocade, lighting: candlelight and warm practicals, camera: medium full-body tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); ease and fit (STR-0025), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011",
-      "prompt_video": "Isabella, turning, leaping, changing position quickly, curtseying, scene: ducal ballroom, night, indoor, camera: medium full-body tracking, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: candlelight and warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
-      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011",
+      "prompt_image": "full-body character design of an adult Isabella, outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, palette: crimson, gold, red, silk, white, setting: ducal ballroom, night, indoor, art direction: renaissance court, candlelight and brocade, lighting: candlelight and warm practicals, camera: medium full-body tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); neckline shape (STR-0027); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0012, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011",
+      "prompt_video": "Isabella, turning, leaping, changing position quickly, curtseying, scene: ducal ballroom, night, indoor, camera: medium full-body tracking, costume: outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: backless mule slippers, vamp only with no quarters, silk or velvet, embroidered, high heel, worn indoors or at court, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。, lighting: candlelight and warm practicals, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0012, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories",
+      "continuity_lock": "continuity lock: GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0024 mule [red, silk, gold; leather, silk, velvet; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0012, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 18.3/25, 摄影/一致性 6.8/10",
-        "上装: GAR-0008 马甲 (business)",
-        "下装: GAR-0077 紧身长袜 (formal)",
+        "highest scoring dimensions: 年代/文化 19.2/25, 摄影/一致性 6.9/10",
+        "外层: GAR-0076 斗篷与披风 (formal)",
         "足部: GAR-0024 穆勒鞋 (formal)",
-        "linked structure cards: STR-0006, STR-0015, STR-0025",
-        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011",
+        "linked structure cards: STR-0016, STR-0027, STR-0025, STR-0035",
+        "linked material cards: MAT-0012, MAT-0002, MAT-0013, MAT-0003, MAT-0017, MAT-0011",
+        "based on curated vault look card LOOK-0034",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
+        "incomplete look, missing: upper_body+lower_body or one_piece (knowledge-base gap, do not invent items)",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
       "evidence": {
         "source_ids": [
-          "SRC-0109",
-          "SRC-0484",
-          "SRC-0485",
+          "SRC-0482",
+          "SRC-0483",
           "SRC-0125",
-          "SRC-0136",
-          "SRC-0412",
-          "SRC-0200",
+          "SRC-0202",
+          "SRC-0201",
+          "SRC-0062",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
           "SRC-0521",
           "SRC-0520",
-          "SRC-0141",
+          "SRC-0536",
           "SRC-0102",
+          "SRC-0423",
+          "SRC-0141",
           "SRC-0142",
-          "SRC-0483",
-          "SRC-0423"
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538"
         ],
         "source_urls": [
           {
-            "source_id": "SRC-0109",
-            "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+            "source_id": "SRC-0482",
+            "url": "https://collections.vam.ac.uk/item/O77731/"
           },
           {
-            "source_id": "SRC-0484",
-            "url": "https://collections.vam.ac.uk/item/O356786/"
-          },
-          {
-            "source_id": "SRC-0485",
-            "url": "https://collections.vam.ac.uk/item/O107795/"
+            "source_id": "SRC-0483",
+            "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0125",
             "url": "https://fashionhistory.fitnyc.edu/mule/"
           },
           {
-            "source_id": "SRC-0136",
-            "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+            "source_id": "SRC-0202",
+            "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
-            "source_id": "SRC-0412",
-            "url": "https://collections.vam.ac.uk/item/O15693/"
+            "source_id": "SRC-0201",
+            "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
           },
           {
             "source_id": "SRC-0521",
@@ -785,32 +888,43 @@
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
-            "source_id": "SRC-0141",
-            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           },
           {
+            "source_id": "SRC-0423",
+            "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0141",
+            "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           },
           {
-            "source_id": "SRC-0483",
-            "url": "https://collections.vam.ac.uk/item/O356064/"
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
           },
           {
-            "source_id": "SRC-0423",
-            "url": "https://collections.vam.ac.uk/item/O315431/"
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           }
         ],
         "context_style_ids": [],
         "context_period_ids": [],
         "context_scene_ids": [],
         "item_evidence": {
-          "GAR-0008": "verified",
-          "GAR-0077": "verified",
+          "GAR-0076": "verified",
           "GAR-0024": "verified"
         },
         "missing_urls": []
@@ -848,15 +962,6 @@
       "look": null
     },
     {
-      "code": "period_approximate",
-      "severity": "medium",
-      "message": "period evidence is approximate/none for GAR-0008 (requested 1580s); treat these as era-level hypotheses, not exact period matches",
-      "items": [
-        "GAR-0008"
-      ],
-      "look": null
-    },
-    {
       "code": "period_era_level",
       "severity": "low",
       "message": "period evidence is era-level (century bucket) for GAR-0002, GAR-0013, GAR-0024, GAR-0062; exact-decade cards are missing",
@@ -866,6 +971,13 @@
         "GAR-0024",
         "GAR-0062"
       ],
+      "look": null
+    },
+    {
+      "code": "knowledge_gap_slots",
+      "severity": "high",
+      "message": "looks are missing required layers: upper_body+lower_body or one_piece (no invented replacements)",
+      "items": [],
       "look": null
     },
     {
@@ -881,23 +993,16 @@
       "message": "dance/action scene with heeled or backless footwear GAR-0024 — suggested resolution: choose flat secure shoes; if no card exists, log the safety gap and test the movement",
       "items": [],
       "look": null
-    },
-    {
-      "code": "budget_equivalent",
-      "severity": "medium",
-      "message": "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.",
-      "items": [],
-      "look": null
     }
   ],
   "budget_model": {
-    "mode": "equivalent_cost",
+    "mode": "cheaper",
     "a_cost_total": 1.43,
-    "c_cost_total": 1.318,
+    "c_cost_total": 0.975,
     "differences": {
       "a_b": 3,
-      "a_c": 4,
-      "b_c": 3
+      "a_c": 3,
+      "b_c": 2
     }
   },
   "retrieved_ids": {
@@ -1474,16 +1579,43 @@
       "reasons": [
         "historical mode: period mismatch (1580s vs 19th_century)"
       ]
+    },
+    {
+      "id": "GAR-0088",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1910s)"
+      ]
+    },
+    {
+      "id": "GAR-0089",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1940s)"
+      ]
+    },
+    {
+      "id": "GAR-0090",
+      "slot": "accessory",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1870s, 19th_century)"
+      ]
+    },
+    {
+      "id": "GAR-0091",
+      "slot": "footwear",
+      "reasons": [
+        "historical mode: period mismatch (1580s vs 1970s)"
+      ]
     }
   ],
   "warnings": [
     "no reliable period/region context card after period/region normalization (requested: 1580s / italy)",
     "no reliable style card for art direction 'renaissance court, candlelight and brocade'",
-    "period evidence is approximate/none for GAR-0008 (requested 1580s); treat these as era-level hypotheses, not exact period matches",
     "period evidence is era-level (century bucket) for GAR-0002, GAR-0013, GAR-0024, GAR-0062; exact-decade cards are missing",
+    "looks are missing required layers: upper_body+lower_body or one_piece (no invented replacements)",
     "the vault has no 'court dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted",
-    "dance/action scene with heeled or backless footwear GAR-0024 — suggested resolution: choose flat secure shoes; if no card exists, log the safety gap and test the movement",
-    "No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained."
+    "dance/action scene with heeled or backless footwear GAR-0024 — suggested resolution: choose flat secure shoes; if no card exists, log the safety gap and test the movement"
   ],
   "sources": [
     {
@@ -1511,8 +1643,28 @@
       "url": "https://fashionhistory.fitnyc.edu/stomacher/"
     },
     {
+      "source_id": "SRC-0064",
+      "url": "https://www.gutenberg.org/cache/epub/48551/pg48551.txt"
+    },
+    {
       "source_id": "SRC-0140",
       "url": "https://fashionhistory.fitnyc.edu/slashing/"
+    },
+    {
+      "source_id": "SRC-0061",
+      "url": "https://www.gutenberg.org/cache/epub/34903/pg34903.txt"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0201",
+      "url": "https://collections.vam.ac.uk/item/O107537/"
+    },
+    {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
     },
     {
       "source_id": "SRC-0521",
@@ -1525,6 +1677,22 @@
     {
       "source_id": "SRC-0101",
       "url": "https://fashionhistory.fitnyc.edu/medici-collar/"
+    },
+    {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
     },
     {
       "source_id": "SRC-0141",
@@ -1543,6 +1711,18 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
+    },
+    {
       "source_id": "SRC-0423",
       "url": "https://collections.vam.ac.uk/item/O315431/"
     },
@@ -1551,24 +1731,28 @@
       "url": "https://collections.vam.ac.uk/item/O74085/"
     },
     {
-      "source_id": "SRC-0109",
-      "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+      "source_id": "SRC-0482",
+      "url": "https://collections.vam.ac.uk/item/O77731/"
     },
     {
-      "source_id": "SRC-0484",
-      "url": "https://collections.vam.ac.uk/item/O356786/"
+      "source_id": "SRC-0530",
+      "url": "https://collections.vam.ac.uk/item/O72654/"
     },
     {
-      "source_id": "SRC-0485",
-      "url": "https://collections.vam.ac.uk/item/O107795/"
+      "source_id": "SRC-0531",
+      "url": "https://collections.vam.ac.uk/item/O85657/"
     },
     {
-      "source_id": "SRC-0412",
-      "url": "https://collections.vam.ac.uk/item/O15693/"
+      "source_id": "SRC-0533",
+      "url": "https://collections.vam.ac.uk/item/O353415/"
     },
     {
-      "source_id": "SRC-0200",
-      "url": "https://collections.vam.ac.uk/item/O1151302/"
+      "source_id": "SRC-0535",
+      "url": "https://collections.vam.ac.uk/item/O355340/"
+    },
+    {
+      "source_id": "SRC-0536",
+      "url": "https://collections.vam.ac.uk/item/O68370/"
     }
   ],
   "missing_urls": [],
@@ -1582,7 +1766,7 @@
     "history_evidence": true,
     "abc_distinct": true,
     "no_example_in_a": true,
-    "complete_looks": true,
+    "complete_looks": false,
     "context_refs_filtered": true,
     "narrative_present": true,
     "brief_parsed": false,
@@ -1591,7 +1775,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": null,
-    "warnings_count": 7,
-    "rejected_count": 74
+    "warnings_count": 6,
+    "rejected_count": 78
   }
 }

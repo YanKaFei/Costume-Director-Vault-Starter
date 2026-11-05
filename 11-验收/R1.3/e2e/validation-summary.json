@@ -1,0 +1,138 @@
+{
+  "official": {
+    "RQ1": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "SRC-0116"
+      ],
+      "final_chars": 1073,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Result — GAR-0015\n\n- **Card:** 法式长袍 (`GAR-0015`)\n- **Path:** `01-服装单品/连身/GAR-0015-法式长袍.md`\n- **Kind:** `garment_worn`\n- **Evidence status:** `verified`\n- **Source:** `SRC-0116`\n- **Image generation:** **NO — no image was generated.** `image_generation: false`; delivery is a text prompt only.\n\n## Modules\n\n| Module | Evidence tags | Source |\n|---|---|---|\n| `garment_worn` | `FACT`, `OBSERVATION`,"
+    },
+    "RQ2": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0028",
+        "LOOK-0001",
+        "MAT-0002",
+        "SRC-0150",
+        "STR-0006",
+        "STR-0009"
+      ],
+      "final_chars": 2696,
+      "skill_calls": 1,
+      "tool_calls": 2,
+      "completed_tool_results": 3,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## LOOK-0001 / outfit — visual prompt result\n\n**Command run (exact):**\n```\npython3 scripts/visual_prompt.py --id LOOK-0001 --kind outfit --json\n```\n\n**Card:** `09-造型组合/LOOK-0001-洛可可沙龙女主人.md`\n**Kind:** `outfit` · **Lang:** `en` · **Evidence status:** `interpretive` · **Source:** `SRC-0150`\n**Look items:** `GAR-0015`, `STR-0009`, `STR-0006`, `GAR-0028`, `GAR-0024`, `MAT-0002`\n**Palette:** cream, pas"
+    },
+    "RQ3": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "SRC-0116"
+      ],
+      "final_chars": 2364,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Brief\n- Requested: `GAR-0015`, kind `garment_flat`, period `1930s`, English prompt, JSON output.\n- Card: `01-服装单品/连身/GAR-0015-法式长袍.md`\n- Card type: 法式长袍 (robe à la française) — card periods: `18th_century`, `rococo`.\n\n## Conflict\n**1 error, 0 warnings, 0 notices**\n\n| Code | Severity | Detail |\n|---|---|---|\n| `period_conflict` | **error** | requested `1930s` vs card periods `['18th_century', 'r"
+    }
+  },
+  "overlay": {
+    "RQ1": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "SRC-0116"
+      ],
+      "final_chars": 2059,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## Run\n\n`python3 scripts/visual_prompt.py --id GAR-0015 --kind garment_worn --json` — exit 0.\n\n- **Card:** GAR-0015 — 法式长袍 (robe à la française), `01-服装单品/连身/GAR-0015-法式长袍.md`\n- **Kind / language:** `garment_worn` / en; model-agnostic, text prompt only\n- **Evidence status:** verified · **Source:** SRC-0116\n\n## Modules\n\n1. **garment_worn** (source: YAML + body)\n   - English prompt: full-body neutra"
+    },
+    "RQ2": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "GAR-0024",
+        "GAR-0028",
+        "LOOK-0001",
+        "MAT-0002",
+        "SRC-0150",
+        "STR-0006",
+        "STR-0009"
+      ],
+      "final_chars": 2366,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## LOOK-0001 — Outfit visual prompt (`--kind outfit --json`)\n\n**Card:** LOOK-0001 (`09-造型组合/LOOK-0001-洛可可沙龙女主人.md`) · evidence_status: **interpretive** · source: **SRC-0150**\nEvidence tags present: OBSERVATION, INFERENCE, CREATIVE (FACT appears within modules). Conflicts: **0 errors, 0 warnings, 1 notice** — `low_confidence`: evidence is interpretive, not verified.\n\n### Outfit modules\n\n1. **outfit"
+    },
+    "RQ3": {
+      "criteria": {
+        "skill_call": true,
+        "tools_executed": true,
+        "result_success": true,
+        "turn_end_completed": true,
+        "complete_user_output": true
+      },
+      "ids": [
+        "GAR-0015",
+        "SRC-0116"
+      ],
+      "final_chars": 1968,
+      "skill_calls": 1,
+      "tool_calls": 1,
+      "completed_tool_results": 2,
+      "no_image_claim_ok": true,
+      "pass": true,
+      "final_preview": "## GAR-0015 — garment_flat prompt run\n\n**Command:** `python3 scripts/visual_prompt.py --id GAR-0015 --kind garment_flat --period 1930s --json` (ran from Vault root, exit 0)\n\n### Card / evidence\n- **Card:** GAR-0015 `法式长袍` (robe à la française; 19th-century reproductions also called Watteau gown)\n- **Path:** `01-服装单品/连身/GAR-0015-法式长袍.md`\n- **Evidence status:** `verified`\n- **Source:** **SRC-0116**\n"
+    }
+  }
+}

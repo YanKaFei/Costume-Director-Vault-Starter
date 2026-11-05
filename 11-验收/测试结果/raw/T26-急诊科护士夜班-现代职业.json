@@ -231,6 +231,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0033",
+          "slot": "one_piece",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0012",
           "slot": "outerwear",
           "confidence": "explicit"
@@ -257,17 +262,29 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0014",
           "slot": "footwear"
+        },
+        {
+          "id": "MAT-0015",
+          "slot": "accessory"
         },
         {
           "id": "MAT-0003",
           "slot": "accessory"
         }
       ],
-      "prompt_image": "full-body character design of an adult 林悦, one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, blue, gold, multicolor, red, white, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ease and fit (STR-0025); turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0014, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。; 连衣裙/罩衣结构限制大步幅; 围裙与帽子的系带在动作中会松脱，镜头间需锁定。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0014, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0014, MAT-0003",
+      "prompt_image": "full-body character design of an adult 林悦, one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: black, blue, gold, multicolor, red, white, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: ease and fit (STR-0025); pocket construction (STR-0033); turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0017, MAT-0019, MAT-0014, MAT-0015, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: one-piece: 1960s nurse outfit, apron, institutional clean lines, practical short sleeves, name badge, flat closed shoes; outer layer: knee-length white medical coat, button front, breast pocket with pen, side pockets, clean or slightly worn cotton, stethoscope around neck; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; accessory: trefoil cloth uniform badge, red blue black white and gold, embroidered ENSA lettering, sewn onto a uniform, slightly worn threads; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 及膝/大腿长度限制快走; 口袋负重会拉扯衣身; 扣合状态需跨镜头锁定。; 连衣裙/罩衣结构限制大步幅; 围裙与帽子的系带在动作中会松脱，镜头间需锁定。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0017, MAT-0019, MAT-0014, MAT-0015, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0036 nurse uniform [white, blue; polyester; one-piece] | GAR-0041 doctor’s white coat [white; cotton, polyester; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0050 uniform badge [red, blue, black, white, gold; cloth, thread; accessory] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0017, MAT-0019, MAT-0014, MAT-0015, MAT-0003",
       "reasons": [
         "highest scoring dimensions: 年代/文化 12.8/25, 角色身份 7.2/15",
         "连身: GAR-0036 护士制服 (functional)",
@@ -275,8 +292,8 @@
         "足部: GAR-0044 医疗工作鞋 (functional)",
         "配饰: GAR-0050 制服徽章 (functional)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0025, STR-0012, STR-0016, STR-0019, STR-0026",
-        "linked material cards: MAT-0001, MAT-0014, MAT-0003",
+        "linked structure cards: STR-0025, STR-0033, STR-0012, STR-0016, STR-0019, STR-0026",
+        "linked material cards: MAT-0001, MAT-0017, MAT-0019, MAT-0014, MAT-0015, MAT-0003",
         "based on curated vault look card LOOK-0010"
       ],
       "risks": [
@@ -291,12 +308,25 @@
           "SRC-0408",
           "SRC-0521",
           "SRC-0520",
+          "SRC-0545",
+          "SRC-0532",
           "SRC-0118",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0102",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406",
           "SRC-0143",
           "SRC-0423",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0142"
         ],
         "source_urls": [
@@ -321,6 +351,14 @@
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
+            "source_id": "SRC-0545",
+            "url": "https://vocab.getty.edu/page/aat/300210517"
+          },
+          {
+            "source_id": "SRC-0532",
+            "url": "https://collections.vam.ac.uk/item/O102166/"
+          },
+          {
             "source_id": "SRC-0118",
             "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
           },
@@ -333,8 +371,36 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           },
           {
             "source_id": "SRC-0143",
@@ -343,6 +409,22 @@
           {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0142",
@@ -437,7 +519,9 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": [],
+          "source_ids": [
+            "SRC-0069"
+          ],
           "scores": {
             "period": 0.92,
             "identity": 0.21937500000000001,
@@ -545,9 +629,18 @@
           "id": "STR-0023",
           "slot": "one_piece",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0033",
+          "slot": "outerwear",
+          "confidence": "suggested"
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "one_piece"
+        },
         {
           "id": "MAT-0013",
           "slot": "one_piece"
@@ -561,21 +654,29 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0014",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 林悦, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, black, ivory, khaki, lavender, linen, silver, steel, white, wool, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, MAT-0014 --ar 2:3 --style raw --v 6",
-      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, MAT-0014",
+      "prompt_image": "full-body character design of an adult 林悦, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, palette: beige, black, ivory, khaki, lavender, linen, silver, steel, white, wool, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014 --ar 2:3 --style raw --v 6",
+      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: medieval or early modern dagger in a carved sheath, worn at the belt, ivory hilt with carved lion pommel or steel blade with engraved silver hilt, practical everyday tool and status accessory, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0082 dagger [steel, ivory, silver; steel, ivory, silver, wood; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 环境气候 8.1/15",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0044 医疗工作鞋 (functional)",
         "携带物: GAR-0082 匕首 (functional)",
-        "linked structure cards: STR-0016, STR-0023",
-        "linked material cards: MAT-0013, MAT-0001, MAT-0002, MAT-0014"
+        "linked structure cards: STR-0016, STR-0023, STR-0033",
+        "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014"
       ],
       "risks": [
         "region mismatch in GAR-0079, GAR-0045, GAR-0044, GAR-0082: cards document their own regions, not urban china shanghai",
@@ -584,19 +685,37 @@
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0405",
           "SRC-0490",
           "SRC-0491",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0545",
+          "SRC-0532",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0483",
           "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406",
           "SRC-0143",
           "SRC-0423"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
@@ -618,8 +737,36 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0545",
+            "url": "https://vocab.getty.edu/page/aat/300210517"
+          },
+          {
+            "source_id": "SRC-0532",
+            "url": "https://collections.vam.ac.uk/item/O102166/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0102",
@@ -632,6 +779,30 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           },
           {
             "source_id": "SRC-0143",
@@ -726,7 +897,9 @@
             "linen"
           ],
           "evidence_status": "interpretive",
-          "source_ids": [],
+          "source_ids": [
+            "SRC-0069"
+          ],
           "scores": {
             "period": 0.92,
             "identity": 0.21937500000000001,
@@ -831,6 +1004,11 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0033",
+          "slot": "outerwear",
+          "confidence": "suggested"
+        },
+        {
           "id": "STR-0019",
           "slot": "carried_prop",
           "confidence": "explicit"
@@ -842,6 +1020,10 @@
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "one_piece"
+        },
         {
           "id": "MAT-0013",
           "slot": "one_piece"
@@ -855,21 +1037,29 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0014",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 林悦, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, linen, multicolor, white, wool, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, MAT-0014 --ar 2:3 --style raw --v 6",
-      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0013, MAT-0001, MAT-0002, MAT-0014",
+      "prompt_image": "full-body character design of an adult 林悦, one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, linen, multicolor, white, wool, setting: 急诊抢救区, night, indoor air-conditioned, rain outside, art direction: handheld documentary, cool fluorescent realism, lighting: cool fluorescent, camera: handheld close and medium, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); pocket construction (STR-0033); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014 --ar 2:3 --style raw --v 6",
+      "prompt_video": "林悦, fast walking, bending, lifting a stretcher, putting on gloves, scene: 急诊抢救区, night, indoor air-conditioned, rain outside, camera: handheld close and medium, costume: one-piece: medieval kirtle, side lacing or belt, long sleeves, worn over a linen chemise, earth-toned or muted colour; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: white closed-toe medical work shoes, low heel, non-slip rubber sole, lace-up or slip-on, clean but worn, hospital lighting; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 及踝长袍限制步幅; 系带/腰带影响腰线; 外裙在转身时展开。, lighting: cool fluorescent, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0079 kirtle [wool, linen; wool, linen; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0044 medical work shoes [white, black; leather, rubber, synthetic; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014",
       "reasons": [
         "highest scoring dimensions: 年代/文化 20.7/25, 环境气候 8.8/15",
         "连身: GAR-0079 基尔特长袍 (functional)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0044 医疗工作鞋 (functional)",
         "携带物: GAR-0048 手提包 (smart_casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0019, STR-0026",
-        "linked material cards: MAT-0013, MAT-0001, MAT-0002, MAT-0014"
+        "linked structure cards: STR-0016, STR-0023, STR-0033, STR-0019, STR-0026",
+        "linked material cards: MAT-0015, MAT-0013, MAT-0001, MAT-0002, MAT-0017, MAT-0019, MAT-0014"
       ],
       "risks": [
         "region mismatch in GAR-0079, GAR-0045, GAR-0044, GAR-0048: cards document their own regions, not urban china shanghai",
@@ -878,18 +1068,36 @@
       ],
       "evidence": {
         "source_ids": [
+          "SRC-0069",
           "SRC-0405",
           "SRC-0408",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0545",
+          "SRC-0532",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
           "SRC-0102",
           "SRC-0483",
           "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406",
           "SRC-0143",
           "SRC-0423"
         ],
         "source_urls": [
+          {
+            "source_id": "SRC-0069",
+            "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
+          },
           {
             "source_id": "SRC-0405",
             "url": "https://collections.vam.ac.uk/item/O1295635/"
@@ -907,8 +1115,36 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0545",
+            "url": "https://vocab.getty.edu/page/aat/300210517"
+          },
+          {
+            "source_id": "SRC-0532",
+            "url": "https://collections.vam.ac.uk/item/O102166/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0102",
@@ -921,6 +1157,30 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           },
           {
             "source_id": "SRC-0143",
@@ -1038,16 +1298,19 @@
     "accessory": [
       "GAR-0080",
       "GAR-0021",
+      "GAR-0088",
       "GAR-0050",
       "GAR-0028",
       "GAR-0025",
       "GAR-0051",
       "GAR-0026",
+      "GAR-0089",
       "GAR-0083",
       "GAR-0085",
       "GAR-0074",
       "GAR-0086",
-      "GAR-0073"
+      "GAR-0073",
+      "GAR-0090"
     ],
     "carried_prop": [
       "GAR-0082",
@@ -1064,6 +1327,7 @@
       "GAR-0035",
       "GAR-0058",
       "GAR-0081",
+      "GAR-0091",
       "GAR-0084"
     ],
     "one_piece": [
@@ -1338,6 +1602,14 @@
       "url": "https://freesewing.dev/howtos/design/seam-allowance/"
     },
     {
+      "source_id": "SRC-0545",
+      "url": "https://vocab.getty.edu/page/aat/300210517"
+    },
+    {
+      "source_id": "SRC-0532",
+      "url": "https://collections.vam.ac.uk/item/O102166/"
+    },
+    {
       "source_id": "SRC-0118",
       "url": "https://fashionhistory.fitnyc.edu/frock-coat/"
     },
@@ -1350,8 +1622,36 @@
       "url": "https://collections.vam.ac.uk/item/O107537/"
     },
     {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+    },
+    {
       "source_id": "SRC-0102",
       "url": "https://fashionhistory.fitnyc.edu/muslin/"
+    },
+    {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
+    },
+    {
+      "source_id": "SRC-0550",
+      "url": "https://vocab.getty.edu/page/aat/300014058"
+    },
+    {
+      "source_id": "SRC-0417",
+      "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+    },
+    {
+      "source_id": "SRC-0406",
+      "url": "https://collections.vam.ac.uk/item/O361727/"
     },
     {
       "source_id": "SRC-0143",
@@ -1362,8 +1662,28 @@
       "url": "https://collections.vam.ac.uk/item/O315431/"
     },
     {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+    },
+    {
       "source_id": "SRC-0142",
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+    },
+    {
+      "source_id": "SRC-0069",
+      "url": "https://www.gutenberg.org/cache/epub/46949/pg46949.txt"
     },
     {
       "source_id": "SRC-0405",

@@ -220,10 +220,24 @@
 - **去重 PASS**：SRC-0036/0022/0115 canonical；SRC-0175/0163/0157 deprecated/redirect；**0 删除**；引用仍解析；许可证 v1.3 字段；URL 30/30 200；9 书 5 connected/4 background、page UNCONFIRMED。
 - **Flags/draft/候选/单点**：6 flags（3 REJECTED/1 INTERPRETATION/1 DESIGN_ONLY/1 INSUFFICIENT，全部 pending_human）；38/38 基线 draft 未变（全库 79）；18 候选=16 formal medium reconcile + 2 pending，0 写卡/0 提升；59 isolates +3 duplicates=62 uncited；components 60=59+主分量。
 - **图谱/可见性**：graph **0/0/748**（dedupe superseded/canonical 4/4 后）；source_ids **478/478 可见（100%）**；MOC 224/224+234/234；typed_without_visible 15（key_garments）。
-- **便携配置**：模板/脚本 dry-run changed:false、测试 6/6、隔离 488/0/1、用户键保留、live `.obsidian` 未动。
+- **便携配置**：模板/脚本 dry-run changed:false、测试 6/6、隔离 501/0/1、用户键保留、live `.obsidian` 未动。
 - **GUI**：**NOT_RUN / HUMAN_UAT_PENDING**（11 项：3 PARTIAL 默认截图、8 NOT_RUN；无签核）。
 - **回归**：validate/build/consistency/graph PASS；acceptance **45/45**、workflow **9/9**、composer 9/9、Macbeth 11/11、relation_trace/66 单元测试 PASS；**quality PASS（4.2/0.921/0；lead 复跑）**；**E2E engineer report：official 3/3、overlay 3/3 五项全 true**（早期探索失败不计）。
 - **备份**：R1.2 后独立 **backup 2424 文件/51.6MB → verify OK → restore 2424/458/345**；排除 projects/.obsidian/sandbox；**P1 私有 projects 仍无备份**；/tmp 临时。
 - **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（附 WARN/P1：私有备份、GUI、E2E retained failures、medium 83）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；GUI **NOT_RUN**。
 - **建议**：进入维护模式，优先私有备份/GUI 人工/quality 重跑/E2E 报告/人工 flags+draft；停止大规模扩卡。
 - 详见 `reports/R1.2-FINAL.md`、`R1.2-GUI-UAT.md`、`R1.2-MAINTENANCE.md`。
+
+
+## 19. R1.3 最终验收（2026-11-05 16:05，task-109）
+
+- **快照**：HEAD `62795ab` + R1.3 工作区（未提交）；**471 卡 = 232 内容 + 239 来源；345 relations**；validate **471/471**、build **239**、consistency **0/345**；graph **0 unresolved / 748 typed / 60 components / 59 singletons**。
+- **视觉层**：15 试点卡 +8 当代 STY（共 23 张有视觉参考/生图/视频）；**46 prompt 块**；15 CC0/PD ASSET（12 CC0+3 PD）+5 LINK（link_only pending）；`local_copy=no`；3 ASSET 被 2 卡使用且双向；12 未用有意；0 本地图片/0 下载。
+- **Prompt**：修复版 `visual_prompt.py` 测试 **9/9**；20 张抽样 **20/20 无 CJK/`[[`/typo/截断、evidence tags 正确**；**但卡片内 21/23 个 prompt/video 块仍含旧 CJK → 不宣称 copy-ready English**。
+- **当代 8 卡**：STY-0016..0023，interpretive/draft；5 Vogue 来源 HTTP 200；无品牌名/独特设计复制；趋势 vs 稳定 8/8；2 主题未覆盖。
+- **覆盖 CSV**：基线 197 卡/287 行（15:49）**滞后于 232 内容/23 视觉层/15 ASSET** → WARN，需重生成。
+- **Obsidian scope**：**501/0/1/unresolved 0**（visuals 排除；ASSET 链接 markdown）。
+- **回归**：validate/build/consistency/graph PASS；acceptance **45/45**；quality **PASS 4.20/0.921/0**；E2E R1.3 official **3/3**、overlay **3/3** 五项全 true（no_image_claim）；其余回归见 R1.3-FINAL/日志。
+- **GUI**：**NOT_RUN/HUMAN_UAT_PENDING**（11 项：3 PARTIAL 默认截图、8 NOT_RUN；无签核）。
+- **门禁**：PRIVATE-READY/PRIVATE-USE = **YES（WARN：卡片 prompt 块 23/23 已清理、12 ASSET 未用/5 LINK pending、GUI NOT_RUN、2 主题未覆盖）**；PUBLIC-READY = **NO（B1–B6+L1–L6）**；**停止连续开发，进入维护模式**。
+- 详见 `reports/R1.3-FINAL.md`、`R1.3-OBSIDIAN-UAT.md`。

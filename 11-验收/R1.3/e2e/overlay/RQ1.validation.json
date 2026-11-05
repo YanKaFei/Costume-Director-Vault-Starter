@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "SRC-0116"
+  ],
+  "final_chars": 2059,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Run\n\n`python3 scripts/visual_prompt.py --id GAR-0015 --kind garment_worn --json` — exit 0.\n\n- **Card:** GAR-0015 — 法式长袍 (robe à la française), `01-服装单品/连身/GAR-0015-法式长袍.md`\n- **Kind / language:** `garment_worn` / en; model-agnostic, text prompt only\n- **Evidence status:** verified · **Source:** SRC-0116\n\n## Modules\n\n1. **garment_worn** (source: YAML + body)\n   - English prompt: full-body neutra"
+}

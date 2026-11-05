@@ -1,6 +1,6 @@
 # P2 验收测试 SUMMARY
 
-- 运行时间：2026-11-05T01:20:19+08:00
+- 运行时间：2026-11-05T16:01:28+08:00
 - Python：3.9.6
 - 测试数：45
 - 结果目录：`11-验收/测试结果/`
@@ -8,38 +8,38 @@
 
 ## 知识库快照
 
-- 卡片总数：400
-  - `garment`: 88
-  - `garment_part`: 26
-  - `look`: 23
-  - `material`: 11
+- 卡片总数：471
+  - `garment`: 92
+  - `garment_part`: 35
+  - `look`: 35
+  - `material`: 16
   - `pattern`: 3
   - `period_region`: 11
   - `scene`: 16
-  - `source`: 211
-  - `style`: 11
-- 来源卡：211
+  - `source`: 239
+  - `style`: 24
+- 来源卡：239
 
 ## 逐例结果
 
 | 用例 | 标题 | 模式 | recommend exit | query exit | query hits | VERDICT | 失败项 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | T01 | 1930 年代上海知识分子：历史准确（historical） | standard | 0 | 0 | 6 | PASS | - |
-| T02 | 1930 年代上海知识分子：艺术化再造（inspired，与 T01 对照） | standard | 0 | 0 | 5 | PASS | - |
+| T02 | 1930 年代上海知识分子：艺术化再造（inspired，与 T01 对照） | standard | 0 | 0 | 6 | PASS | - |
 | T03 | 现代雨夜调查者：雨前 / 雨中 / 室内三场连续性（fictional） | continuity | 0 | 0 | 6 | PASS | - |
 | T04 | 当代舞者：动作空间、鞋底防滑、衣物扫动（dance movement） | standard | 0 | 0 | 6 | PASS | - |
 | T05 | 未来虚构城市信使：明确虚构、不伪造史料（fictional） | standard | 0 | 0 | 1 | PASS | - |
 | T06 | 低预算现实主义室内剧：复用单品、保留角色弧线 | standard | 0 | 0 | 2 | PASS | - |
-| T07 | 暖光肖像：同一角色的冷暖光对照（warm lighting） | standard | 0 | 0 | 3 | PASS | - |
-| T08 | 冷光肖像：同一角色的冷暖光对照（cool lighting） | standard | 0 | 0 | 3 | PASS | - |
-| T09 | 雨夜湿衣特写：wetness 状态显式锁定 | standard | 0 | 0 | 5 | PASS | - |
+| T07 | 暖光肖像：同一角色的冷暖光对照（warm lighting） | standard | 0 | 0 | 6 | PASS | - |
+| T08 | 冷光肖像：同一角色的冷暖光对照（cool lighting） | standard | 0 | 0 | 6 | PASS | - |
+| T09 | 雨夜湿衣特写：wetness 状态显式锁定 | standard | 0 | 0 | 6 | PASS | - |
 | T10 | 阶层变化（上行）：寒门职员到体面绅士（1890s，class change） | standard | 0 | 0 | 1 | PASS | - |
 | T11 | 阶层变化（下行）：富商之家到没落绅士（1890s，class change） | standard | 0 | 0 | 4 | PASS | - |
 | T12 | 1920 年代爵士舞者：年代 + 舞蹈动作可行性 | standard | 0 | 0 | 5 | PASS | - |
 | T13 | 低预算年代剧：有限置装量下的复用与美术替代 | standard | 0 | 0 | 6 | PASS | - |
 | T14 | 冬季户外追逐：保暖、行动自由与鞋履安全 | standard | 0 | 0 | 4 | PASS | - |
 | T15 | 当代建筑师：职业身份与正式度（modern realism） | standard | 0 | 0 | 6 | PASS | - |
-| T16 | 表现主义黑色电影：美术风格驱动 vs 现实主义的冲突（inspired） | standard | 0 | 0 | 1 | PASS | - |
+| T16 | 表现主义黑色电影：美术风格驱动 vs 现实主义的冲突（inspired） | standard | 0 | 0 | 6 | PASS | - |
 | T17 | 完整多场次服装连续性（4 场：干→湿→阴干→次日，含破损） | continuity | 0 | 0 | 1 | PASS | - |
 | T18 | 当代生活流现实主义：日常场景的可信度（modern realism） | standard | 0 | 0 | 6 | PASS | - |
 | T19 | 1940s 英国战时职员：历史模式不再崩溃 | standard | 0 | 0 | 3 | PASS | - |
@@ -74,7 +74,7 @@
 
 - PASS：45 / 45
 - FAIL：0 / 45
-- query.py 命中总数：190（逐例：T01=6, T02=5, T03=6, T04=6, T05=1, T06=2, T07=3, T08=3, T09=5, T10=1, T11=4, T12=5, T13=6, T14=4, T15=6, T16=1, T17=1, T18=6, T19=3, T20=4, T21=2, T22=2, T23=6, T24=6, T25=1, T26=6, T27=6, T28=6, T29=6, T30=6, T31=6, T32=5, T33=3, T34=1, T35=6, T36=6, T37=6, T38=5, T39=6, T40=5, T41=5, T42=2, T43=1, T44=6, T45=2）
+- query.py 命中总数：203（逐例：T01=6, T02=6, T03=6, T04=6, T05=1, T06=2, T07=6, T08=6, T09=6, T10=1, T11=4, T12=5, T13=6, T14=4, T15=6, T16=6, T17=1, T18=6, T19=3, T20=4, T21=2, T22=2, T23=6, T24=6, T25=1, T26=6, T27=6, T28=6, T29=6, T30=6, T31=6, T32=5, T33=3, T34=1, T35=6, T36=6, T37=6, T38=5, T39=6, T40=5, T41=5, T42=2, T43=1, T44=6, T45=2）
 - 每个场景 query 步骤均返回 ≥1 命中：是
 
 ## 失败明细
@@ -85,18 +85,18 @@
 
 - ×10 period evidence is approximate/none for GAR-0079 (requested contemporary); treat these as era-level hypotheses, not exact period matches
 - ×7 wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot
-- ×7 No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
-- ×5 cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
-- ×4 period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
+- ×5 No cheaper distinct combination was available in the vault; Look C is an art-direction alternative at equivalent cost, explicitly explained.
+- ×4 cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - ×4 fictional/future setting has no future-base garment cards; current pieces are historical/contemporary stand-ins
+- ×3 period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing
 - ×3 no reliable style card for art direction 'restrained urban noir'
 - ×3 the vault has no 'private investigator'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+- ×3 looks are missing required layers: upper_body+lower_body or one_piece (no invented replacements)
 - ×3 no reliable style card for art direction 'gritty urban realism'
 - ×3 cards document other regions for GAR-0022 (requested united_states); cross-region borrowing is flagged, not silently accepted
 - ×3 period evidence is approximate/none for GAR-0079, GAR-0082 (requested contemporary); treat these as era-level hypotheses, not exact period matches
-- ×3 no reliable style card for art direction 'restrained historical noir'
-- ×2 no reliable style card for art direction 'restrained urban period drama'
-- ×2 the vault has no 'journalist and writer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
+- ×3 period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing
+- ×3 cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - ×2 the vault has no 'courier'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×2 period evidence is approximate/none for GAR-0045 (requested 1890s); treat these as era-level hypotheses, not exact period matches
 - ×2 the vault has no 'student then clerk'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
@@ -108,8 +108,6 @@
 - ×2 cross-cultural wedding brief: confirm which ceremony (traditional / white wedding / both) and whether kente or adinkra is appropriate; the vault has no wedding-ceremony garment cards
 - ×2 no reliable style card for art direction 'clinical realism'
 - ×2 cards document other regions for GAR-0022, GAR-0041, GAR-0044, GAR-0076, GAR-0079 (requested urban china); cross-region borrowing is flagged, not silently accepted
-- ×2 period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing
-- ×2 cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - ×1 no reliable style card for art direction 'stylised period drama, heightened contrast and saturated accents'
 - ×1 identity/economic arc present but one locked wardrobe spans all scenes; wardrobe-stage change not modeled
 - ×1 the vault has no 'contemporary dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
@@ -133,8 +131,10 @@
 - ×1 cards document other regions for GAR-0022, GAR-0069, GAR-0079 (requested east_asia); cross-region borrowing is flagged, not silently accepted
 - ×1 the vault has no 'architect'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 no reliable style card for art direction 'expressionist noir, distorted shadows, stark geometry'
+- ×1 no reliable style card for art direction 'restrained urban period drama'
 - ×1 period evidence is era-level (century bucket) for GAR-0008, GAR-0010, GAR-0021, GAR-0022, GAR-0023; exact-decade cards are missing
 - ×1 cards document other regions for GAR-0022, GAR-0045 (requested united_states); cross-region borrowing is flagged, not silently accepted
+- ×1 the vault has no 'journalist and writer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 no reliable style card for art direction 'naturalistic slice-of-life realism'
 - ×1 cards document other regions for GAR-0006, GAR-0022, GAR-0023, GAR-0045, GAR-0076, GAR-0077 (requested east_asia); cross-region borrowing is flagged, not silently accepted
 - ×1 the vault has no 'primary school teacher'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
@@ -152,7 +152,6 @@
 - ×1 the vault has no 'punk musician'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 no reliable period/region context card after period/region normalization (requested: 1580s / italy)
 - ×1 no reliable style card for art direction 'renaissance court, candlelight and brocade'
-- ×1 period evidence is approximate/none for GAR-0008 (requested 1580s); treat these as era-level hypotheses, not exact period matches
 - ×1 period evidence is era-level (century bucket) for GAR-0002, GAR-0013, GAR-0024, GAR-0062; exact-decade cards are missing
 - ×1 the vault has no 'court dancer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 dance/action scene with heeled or backless footwear GAR-0024 — suggested resolution: choose flat secure shoes; if no card exists, log the safety gap and test the movement
@@ -165,10 +164,8 @@
 - ×1 the vault has no 'orbital opera singer'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 the vault has no 'male bank clerk'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 male-presenting brief but the look uses documented women's pieces (GAR-0031, GAR-0035); men's/neutral cards are missing for this category
-- ×1 no reliable style card for art direction 'historical noir + cyberpunk neon and body modification'
 - ×1 the vault has no 'newspaper editor and body-modded courier'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 historical fidelity conflicts with science-fiction / body-mod / neon elements in the brief — suggested resolution: split the brief: historical base costume + explicit fictional overlay; or set fidelity_mode=inspired/fictional and declare the anachronism
-- ×1 no reliable style card for art direction 'noir'
 - ×1 cards document other regions for GAR-0023, GAR-0042 (requested britain); cross-region borrowing is flagged, not silently accepted
 - ×1 no reliable style card for art direction 'warm documentary kitchen realism'
 - ×1 cards document other regions for GAR-0014, GAR-0043 (requested italy); cross-region borrowing is flagged, not silently accepted
@@ -178,8 +175,8 @@
 - ×1 no reliable period/region context card after period/region normalization (requested: 1644 late Ming early Qing / jiangnan china)
 - ×1 no reliable style card for art direction '文人水墨、克制、低饱和'
 - ×1 period evidence is approximate/none for GAR-0071, GAR-0084 (requested 1644 late Ming early Qing); treat these as era-level hypotheses, not exact period matches
-- ×1 period evidence is era-level (century bucket) for GAR-0024, GAR-0062; exact-decade cards are missing
-- ×1 cards document other regions for GAR-0024, GAR-0062, GAR-0084 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
+- ×1 period evidence is era-level (century bucket) for GAR-0024; exact-decade cards are missing
+- ×1 cards document other regions for GAR-0024, GAR-0076, GAR-0084 (requested jiangnan china); cross-region borrowing is flagged, not silently accepted
 - ×1 the vault has no '书院教师、江南文人'-specific garment cards; generic pieces are used and no other profession's uniform is substituted
 - ×1 no reliable style card for art direction 'theatre period drama'
 - ×1 cards document other regions for GAR-0035, GAR-0058 (requested japan); cross-region borrowing is flagged, not silently accepted

@@ -1,11 +1,11 @@
 # T41 — query 去重：同名和服卡不得重复占据 top5
 
-- 运行时间：2026-11-05T01:20:09+08:00
+- 运行时间：2026-11-05T16:01:17+08:00
 - 测试类型：query_dedup, D3
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T41-query和服去重.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json`
-- 退出码：**0**（耗时 1.86s）
+- 退出码：**0**（耗时 2.09s）
 
 ## 实际输入
 
@@ -75,12 +75,12 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json` | 0 | 1.86s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 和服 --limit 5 --json` | 0 | 0.99s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T41-query和服去重.json --json` | 0 | 2.09s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 和服 --limit 5 --json` | 0 | 1.19s |
 
 - `query.py` 命中数量：**5**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0001, GAR-0065, GAR-0066, SRC-0009, SRC-0028
-- `recommend.py` 候选池：accessory=GAR-0067, GAR-0066, GAR-0068, GAR-0074, GAR-0086, GAR-0073, GAR-0070, GAR-0028, GAR-0026, GAR-0080, GAR-0021, GAR-0083, GAR-0085, GAR-0025; carried_prop=GAR-0048, GAR-0087, GAR-0049, GAR-0047, GAR-0082; footwear=GAR-0035, GAR-0058, GAR-0022, GAR-0060, GAR-0024, GAR-0023, GAR-0084, GAR-0081; inner_layer=GAR-0020, GAR-0078, GAR-0012; lower_body=GAR-0072, GAR-0014, GAR-0010, GAR-0011, GAR-0077, GAR-0013; one_piece=GAR-0031, GAR-0032, GAR-0063, GAR-0064, GAR-0071, GAR-0054, GAR-0056, GAR-0055, GAR-0069, GAR-0015, GAR-0053, GAR-0062, GAR-0052, GAR-0029, GAR-0075, GAR-0079; outerwear=GAR-0057, GAR-0045, GAR-0017, GAR-0046, GAR-0016, GAR-0018, GAR-0033, GAR-0076; set=GAR-0065, GAR-0001; upper_body=GAR-EXAMPLE-001, GAR-0008, GAR-0007, GAR-0034, GAR-0006, GAR-0002, GAR-0003
+- `recommend.py` 候选池：accessory=GAR-0067, GAR-0066, GAR-0068, GAR-0074, GAR-0086, GAR-0073, GAR-0070, GAR-0028, GAR-0088, GAR-0089, GAR-0026, GAR-0080, GAR-0021, GAR-0090, GAR-0083, GAR-0085, GAR-0025; carried_prop=GAR-0048, GAR-0087, GAR-0049, GAR-0047, GAR-0082; footwear=GAR-0035, GAR-0058, GAR-0022, GAR-0060, GAR-0024, GAR-0091, GAR-0023, GAR-0084, GAR-0081; inner_layer=GAR-0020, GAR-0078, GAR-0012; lower_body=GAR-0072, GAR-0014, GAR-0010, GAR-0011, GAR-0077, GAR-0013; one_piece=GAR-0031, GAR-0032, GAR-0063, GAR-0064, GAR-0071, GAR-0054, GAR-0056, GAR-0055, GAR-0069, GAR-0015, GAR-0053, GAR-0062, GAR-0052, GAR-0029, GAR-0075, GAR-0079; outerwear=GAR-0057, GAR-0045, GAR-0017, GAR-0046, GAR-0016, GAR-0018, GAR-0033, GAR-0076; set=GAR-0065, GAR-0001; upper_body=GAR-EXAMPLE-001, GAR-0008, GAR-0007, GAR-0034, GAR-0006, GAR-0002, GAR-0003
 - 三套推荐选中：A: GAR-0065, GAR-0035; B: GAR-0031, GAR-0035; C: GAR-0065, GAR-0058
 
 ## 候选造型 A/B/C
@@ -112,8 +112,8 @@
 | set | `GAR-0065` | 出口和服 / export kimono | cream, red, gold | silk_crepe, silk | verified |
 | footwear | `GAR-0058` | 1970 年代厚底鞋 / 1970s platform shoe | black, gold | leather, metal, rubber | verified |
 
-- 结构卡：STR-0016, STR-0017
-- 材质卡：MAT-0002, MAT-0003, MAT-0004
+- 结构卡：STR-0016, STR-0017, STR-0035
+- 材质卡：MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019
 
 ### 评分明细
 
@@ -163,13 +163,13 @@ Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: m
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult Aiko, complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream, gold, red, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); placket (STR-0017), continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004
+full-body character design of an adult Aiko, complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, palette: black, cream, gold, red, setting: theatre stage, evening, indoor, art direction: theatre period drama, lighting: warm stage light, camera: medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); placket (STR-0017); silhouette and proportion (STR-0035), continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019
 ```
 
 **Video prompt (EN):**
 
 ```
-Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0004, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
+Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: medium shot, costume: complete set: early 20th-century Japanese kimono, cream silk crepe, silk embroidery, small gold crests, red silk lining, narrow western-style sash, export market; footwear: 1970s black leather platform shoe, thick rubber sole, twisted gold U-shaped buckle, bold glam rock styling, visible height and weight, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0065 export kimono [cream, red, gold; silk_crepe, silk; complete set] | GAR-0058 1970s platform shoe [black, gold; leather, metal, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots
 ```
 
 ## 风险
@@ -210,12 +210,13 @@ Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: m
 - 理由（解释性，不是史实）：足部: GAR-0035 女式皮鞋 (smart_casual)
 - 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0017, STR-0025
 - 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0003, MAT-0011, MAT-0014
-- source_ids：SRC-0426, SRC-0205, SRC-0206, SRC-0202, SRC-0201, SRC-0108, SRC-0412, SRC-0521, SRC-0520, SRC-0141, SRC-0142, SRC-0423, SRC-0143
+- source_ids：SRC-0426, SRC-0205, SRC-0206, SRC-0202, SRC-0201, SRC-0062, SRC-0108, SRC-0412, SRC-0521, SRC-0520, SRC-0141, SRC-0142, SRC-0423, SRC-0143
 - 来源链接：SRC-0426 → https://collections.vam.ac.uk/item/O25781/
 - 来源链接：SRC-0205 → https://collections.vam.ac.uk/item/O350849/
 - 来源链接：SRC-0206 → https://collections.vam.ac.uk/item/O350850/
 - 来源链接：SRC-0202 → https://collections.vam.ac.uk/item/O80590/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
+- 来源链接：SRC-0062 → https://www.gutenberg.org/cache/epub/21534/pg21534.txt
 - 来源链接：SRC-0108 → https://fashionhistory.fitnyc.edu/shirtwaist/
 - 来源链接：SRC-0412 → https://collections.vam.ac.uk/item/O15693/
 - 来源链接：SRC-0521 → https://freesewing.dev/howtos/design/fit-sleeve/
@@ -234,12 +235,13 @@ Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: m
 - 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0025
 - 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0011
 - 理由（解释性，不是史实）：based on curated vault look card LOOK-0009
-- source_ids：SRC-0200, SRC-0201, SRC-0205, SRC-0206, SRC-0202, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142
+- source_ids：SRC-0200, SRC-0201, SRC-0205, SRC-0206, SRC-0202, SRC-0062, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
 - 来源链接：SRC-0205 → https://collections.vam.ac.uk/item/O350849/
 - 来源链接：SRC-0206 → https://collections.vam.ac.uk/item/O350850/
 - 来源链接：SRC-0202 → https://collections.vam.ac.uk/item/O80590/
+- 来源链接：SRC-0062 → https://www.gutenberg.org/cache/epub/21534/pg21534.txt
 - 来源链接：SRC-0521 → https://freesewing.dev/howtos/design/fit-sleeve/
 - 来源链接：SRC-0520 → https://freesewing.dev/howtos/design/seam-allowance/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
@@ -253,18 +255,30 @@ Aiko, walking across the stage, scene: theatre stage, evening, indoor, camera: m
 - 理由（解释性，不是史实）：highest scoring dimensions: 年代/文化 15.8/25, 摄影/一致性 6.9/10
 - 理由（解释性，不是史实）：成套: GAR-0065 出口和服 (ceremonial)
 - 理由（解释性，不是史实）：足部: GAR-0058 1970 年代厚底鞋 (smart_casual)
-- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0017
-- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0003, MAT-0004
-- source_ids：SRC-0426, SRC-0418, SRC-0202, SRC-0201, SRC-0108, SRC-0412, SRC-0141, SRC-0142, SRC-0143
+- 理由（解释性，不是史实）：linked structure cards: STR-0016, STR-0017, STR-0035
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0003, MAT-0017, MAT-0004, MAT-0019
+- source_ids：SRC-0426, SRC-0418, SRC-0202, SRC-0201, SRC-0062, SRC-0108, SRC-0412, SRC-0530, SRC-0531, SRC-0533, SRC-0535, SRC-0536, SRC-0141, SRC-0142, SRC-0549, SRC-0489, SRC-0538, SRC-0143, SRC-0550, SRC-0417, SRC-0406
 - 来源链接：SRC-0426 → https://collections.vam.ac.uk/item/O25781/
 - 来源链接：SRC-0418 → https://collections.vam.ac.uk/item/O1380038/
 - 来源链接：SRC-0202 → https://collections.vam.ac.uk/item/O80590/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
+- 来源链接：SRC-0062 → https://www.gutenberg.org/cache/epub/21534/pg21534.txt
 - 来源链接：SRC-0108 → https://fashionhistory.fitnyc.edu/shirtwaist/
 - 来源链接：SRC-0412 → https://collections.vam.ac.uk/item/O15693/
+- 来源链接：SRC-0530 → https://collections.vam.ac.uk/item/O72654/
+- 来源链接：SRC-0531 → https://collections.vam.ac.uk/item/O85657/
+- 来源链接：SRC-0533 → https://collections.vam.ac.uk/item/O353415/
+- 来源链接：SRC-0535 → https://collections.vam.ac.uk/item/O355340/
+- 来源链接：SRC-0536 → https://collections.vam.ac.uk/item/O68370/
 - 来源链接：SRC-0141 → https://fashionhistory.fitnyc.edu/chantilly-lace/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
+- 来源链接：SRC-0549 → https://vocab.getty.edu/page/aat/300011845
+- 来源链接：SRC-0489 → https://collections.vam.ac.uk/item/O107847/
+- 来源链接：SRC-0538 → https://collections.vam.ac.uk/item/O356431/
 - 来源链接：SRC-0143 → https://fashionhistory.fitnyc.edu/lurex/
+- 来源链接：SRC-0550 → https://vocab.getty.edu/page/aat/300014058
+- 来源链接：SRC-0417 → https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/
+- 来源链接：SRC-0406 → https://collections.vam.ac.uk/item/O361727/
 - 单件证据状态：GAR-0065=verified; GAR-0058=verified
 
 ## 验收判定

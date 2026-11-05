@@ -43,23 +43,23 @@ look_scene:
 - SCN-0005
 continuity_lock: 制服领口/口袋、工牌位置、雨衣湿深、工作鞋鞋底/颜色固定；液体污渍只按事件增加。
 prompt_en: contemporary emergency nurse at night in rain, white uniform under a dark
-  raincoat, closed non-slip medical shoes, badge, off-duty bag, hospital entrance,
-  wet pavement, realistic cinematic light
+ raincoat, closed non-slip medical shoes, badge, off-duty bag, hospital entrance,
+ wet pavement, realistic cinematic light
 negative_prompt_en: no printed scrubs, no high heels, no open-toe shoes, no jewelry,
-  no instant stain removal, no costume change
+ no instant stain removal, no costume change
 narrative_meaning: 白色制服是秩序与专业，雨衣与工作鞋是通勤功能层，工牌/包是身份与下班界线。
 prompt_image: contemporary emergency nurse at night in rain, white uniform under a
-  dark raincoat, closed non-slip medical shoes, badge, off-duty bag, hospital entrance,
-  wet pavement, realistic cinematic light
+ dark raincoat, closed non-slip medical shoes, badge, off-duty bag, hospital entrance,
+ wet pavement, realistic cinematic light
 prompt_video: nurse walking quickly into an emergency department in rain, raincoat
-  over white uniform, badge catching light, bag set down, handheld medium shot, continuity
-  on uniform and badge
+ over white uniform, badge catching light, bag set down, handheld medium shot, continuity
+ on uniform and badge
 negative_prompt: no printed scrubs, no high heels, no open-toe shoes, no jewelry,
-  no instant stain removal, no costume change
+ no instant stain removal, no costume change
 slot_coverage: one_piece=GAR-0036；外层=GAR-0046；鞋=GAR-0044；配饰=GAR-0050；携带物=GAR-0048
 scene_states: S0 雨中到院（wet）：雨衣湿、鞋面水；S1 交班（drying）：雨衣挂起、制服干；液体污渍仅事件后增加。
 evidence_limits: GAR-0036 为 1960s V&A 护士装，非现代临床制服；GAR-0044 为 interpretive 医疗工作鞋；无现代
-  scrub/PPE/口罩；不得声称某医院真实制服。
+ scrub/PPE/口罩；不得声称某医院真实制服。
 evidence_type: sourced_style_observation
 character_function: 雨夜赶到医院的护士：职业锚点（护士服/工牌/闭口工作鞋）+ 防水外层。
 hard_constraint_status: "PASS (R1.1 outfit.validate_hard_constraints; validate_outfits 12/12; 0 violations; 2026-11-05)"
@@ -96,7 +96,10 @@ style_observation:
 - 职业锚点（护士服/工牌/闭口工作鞋/雨衣）来自来源卡与库内职业卡；医院场景为设计观察。
 approved_anchors: []
 relations:
-  - 'target=GAR-0036; type=appears_in_look; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0400; rule=R-LOOK-ITEMS; review_status=review_queue; factual=false; design_only=true'
+ - 'target=GAR-0036; type=appears_in_look; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0400; rule=R-LOOK-ITEMS; review_status=review_queue; factual=false; design_only=true'
+visual_prompt_profile: outfit_character_scene
+visual_prompt_type: [character_scene, detail, video]
+visual_evidence: [FACT, OBSERVATION, INFERENCE, CREATIVE]
 ---
 # 当代夜班护士·雨夜交班 / contemporary night-shift nurse, rainy handover
 
@@ -138,3 +141,29 @@ relations:
 - [[STY-0013-contemporary-occupational-uniform-realism|STY-0013]]
 - [[SCN-0005-急诊夜班抢救|急诊夜班抢救]]
 
+
+## 视觉参考
+- 本卡暂无已登记 ASSET；仅以现有 source_ids（[[SRC-0400-V&A-1960年代护士戏服|SRC-0400]], [[SRC-0406-V&A-橡胶丝绸雨衣1920|SRC-0406]], [[SRC-0410-V&A-ENSA制服徽章|SRC-0410]], [[SRC-0408-V&A-1930年代刺绣手袋|SRC-0408]]；按来源卡许可）作文字参考，未下载/未内嵌图像。
+
+## 生图提示词
+```text
+SUBJECT (FACT): full-body character look LOOK-0031 (·), one complete outfit, no extra layers.
+STRUCTURE (FACT): look_items count=5; exact IDs are FACT; do not invent additional garments.
+MATERIAL (FACT): materials=cotton, polyester, rubber, leather.
+COLOR (FACT): colors=white, navy, pale_blue, black.
+LIGHT (CREATIVE): soft directional light, low contrast, gentle falloff; no claim about historical lighting.
+CAMERA (CREATIVE): 35mm environmental full-body, eye level, 3/4 angle.
+BACKGROUND (CREATIVE): restrained cinematic interior/exterior consistent with card scene; CREATIVE.
+STYLE (INFERENCE): style tags=STY-0013; design interpretation only, not a historical claim.
+NEGATIVE (CREATIVE): no invented fiber, weave, weight, transparency or structure; no extra garments/accessories; no logos or text; no costume morphing; no brand-specific design copying.
+CONSISTENCY (OBSERVATION): keep card ID, palette, material tokens, silhouette/part family and relative proportions identical across frames.
+```
+
+## 视频提示词
+```text
+SUBJECT (FACT): character look LOOK-0031; one continuous walking/turn shot; preserve full outfit.
+CONSISTENCY (OBSERVATION): preserve card ID, colors, material tokens, silhouette/part family and accessory placement across frames; no layering changes.
+LIGHT (CREATIVE): soft directional key with gentle falloff; no invented historical lighting.
+CAMERA (CREATIVE): slow gimbal move, 35-50mm, eye level, shallow but stable depth of field.
+NEGATIVE (CREATIVE): no costume morphing, no colour shift, no extra layers, no logo/text/watermark, no brand-specific design copying.
+```

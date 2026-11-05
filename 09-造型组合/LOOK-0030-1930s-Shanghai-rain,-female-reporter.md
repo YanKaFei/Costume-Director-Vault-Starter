@@ -47,19 +47,19 @@ look_scene:
 - SCN-0007
 continuity_lock: 旗袍开衩/领口、雨衣湿深范围、靴筒泥污、伞面水珠与持握侧固定；雨→室内阴干单向推进。
 prompt_en: 1930s Shanghai female reporter in rain, indigo qipao under a dark rubberised
-  raincoat, rubber wellington boots, small brooch, black umbrella, wet neon alley,
-  film noir lighting, historical analogue
+ raincoat, rubber wellington boots, small brooch, black umbrella, wet neon alley,
+ film noir lighting, historical analogue
 negative_prompt_en: no modern nylon, no high heels in rain, no unchanged dry clothes,
-  no clean boots, no fantasy elements
+ no clean boots, no fantasy elements
 narrative_meaning: 旗袍是都市职业身份，橡胶雨衣与威灵顿靴是雨夜的功能层，胸针结构与蕾丝提供近景细节；伞是移动的“屋檐”。
 prompt_image: 1930s Shanghai female reporter in rain, indigo qipao under a dark rubberised
-  raincoat, rubber wellington boots, small brooch, black umbrella, wet neon alley,
-  film noir lighting, historical analogue
+ raincoat, rubber wellington boots, small brooch, black umbrella, wet neon alley,
+ film noir lighting, historical analogue
 prompt_video: female reporter walking through a rainy Shanghai alley under an umbrella,
-  qipao hem and raincoat wet, boots splashing, medium tracking shot, neon reflections,
-  continuity on wetness and umbrella side
+ qipao hem and raincoat wet, boots splashing, medium tracking shot, neon reflections,
+ continuity on wetness and umbrella side
 negative_prompt: no modern nylon, no high heels in rain, no unchanged dry clothes,
-  no clean boots, no fantasy elements
+ no clean boots, no fantasy elements
 slot_coverage: one_piece=GAR-0031；外层=GAR-0046；鞋=GAR-0022；配饰=GAR-0086；携带物=GAR-0047；材料=MAT-0002
 scene_states: S0 出门（dry）：旗袍/雨衣干、靴干净；S1 雨中（wet）：雨衣湿深、靴泥、伞水珠；S2 室内（drying）：雨衣挂起、靴泥干。
 evidence_limits: 旗袍/雨衣/伞有来源；GAR-0086 为 19 世纪胸针结构类比；无 1930s 上海女记者专门卡；雨夜组合为创作推断。
@@ -101,7 +101,10 @@ historical_evidence:
 - GAR-0031:SRC-0200
 approved_anchors: []
 relations:
-  - 'target=STY-0012; type=in_style; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0200; rule=R-STY-EXACT; review_status=review_queue; factual=false; design_only=true'
+ - 'target=STY-0012; type=in_style; direction=outgoing; evidence=interpretive; confidence=medium; source_ids=SRC-0200; rule=R-STY-EXACT; review_status=review_queue; factual=false; design_only=true'
+visual_prompt_profile: outfit_character_scene
+visual_prompt_type: [character_scene, detail, video]
+visual_evidence: [FACT, OBSERVATION, INFERENCE, CREATIVE]
 ---
 # 1930s 上海雨夜·女记者 / 1930s Shanghai rain, female reporter
 
@@ -147,3 +150,29 @@ relations:
 - [[STY-0012-1930s-Shanghai-rain-noir|STY-0012]]
 - [[SCN-0007-上海雨夜后巷|上海雨夜后巷]]
 
+
+## 视觉参考
+- 本卡暂无已登记 ASSET；仅以现有 source_ids（[[SRC-0200-V&A-上海新新公司旗袍1930|SRC-0200]], [[SRC-0201-V&A-1930年代末旗袍|SRC-0201]], [[SRC-0406-V&A-橡胶丝绸雨衣1920|SRC-0406]], [[SRC-0123-FIT-wellington-boot|SRC-0123]], [[SRC-0459-V&A-Alice公主哀悼胸针|SRC-0459]], [[SRC-0407-V&A-丝绸雨伞1927|SRC-0407]], [[SRC-0141-FIT-chantilly-lace|SRC-0141]]；按来源卡许可）作文字参考，未下载/未内嵌图像。
+
+## 生图提示词
+```text
+SUBJECT (FACT): full-body character look LOOK-0030 (1930s ·), one complete outfit, no extra layers.
+STRUCTURE (FACT): look_items count=6; exact IDs are FACT; do not invent additional garments.
+MATERIAL (FACT): materials=silk, gabardine, rubber, satin.
+COLOR (FACT): colors=indigo, black, rain_grey, off_white.
+LIGHT (CREATIVE): soft directional light, low contrast, gentle falloff; no claim about historical lighting.
+CAMERA (CREATIVE): 35mm environmental full-body, eye level, 3/4 angle.
+BACKGROUND (CREATIVE): restrained cinematic interior/exterior consistent with card scene; CREATIVE.
+STYLE (INFERENCE): style tags=STY-0012; design interpretation only, not a historical claim.
+NEGATIVE (CREATIVE): no invented fiber, weave, weight, transparency or structure; no extra garments/accessories; no logos or text; no costume morphing; no brand-specific design copying.
+CONSISTENCY (OBSERVATION): keep card ID, palette, material tokens, silhouette/part family and relative proportions identical across frames.
+```
+
+## 视频提示词
+```text
+SUBJECT (FACT): character look LOOK-0030; one continuous walking/turn shot; preserve full outfit.
+CONSISTENCY (OBSERVATION): preserve card ID, colors, material tokens, silhouette/part family and accessory placement across frames; no layering changes.
+LIGHT (CREATIVE): soft directional key with gentle falloff; no invented historical lighting.
+CAMERA (CREATIVE): slow gimbal move, 35-50mm, eye level, shallow but stable depth of field.
+NEGATIVE (CREATIVE): no costume morphing, no colour shift, no extra layers, no logo/text/watermark, no brand-specific design copying.
+```

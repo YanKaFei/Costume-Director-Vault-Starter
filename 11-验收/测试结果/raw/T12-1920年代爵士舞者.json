@@ -103,7 +103,8 @@
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0109"
+            "SRC-0109",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.81,
@@ -197,9 +198,18 @@
           "id": "STR-0025",
           "slot": "footwear",
           "confidence": "explicit"
+        },
+        {
+          "id": "STR-0035",
+          "slot": "footwear",
+          "confidence": "explicit"
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "upper_body"
+        },
         {
           "id": "MAT-0002",
           "slot": "upper_body"
@@ -213,20 +223,24 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mabel, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, blue black, buckskin, cream, embroidered, indigo, tan, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); buttons and buttonholes (STR-0018); waistband (STR-0022); ease and fit (STR-0025), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0011",
+      "prompt_image": "full-body character design of an adult Mabel, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, blue black, buckskin, cream, embroidered, indigo, tan, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); buttons and buttonholes (STR-0018); waistband (STR-0022); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0017, MAT-0011 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: 1950s blue denim jeans, straight or slim cut, working-class youth styling, visible wear at knees; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 丹宁较硬，新裤在蹲坐时有明显折痕; 旧化后膝部与裆部会形成固定褶皱，跨镜头需保持一致。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0014 jeans [indigo, blue_black; denim, cotton; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0017, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 20.2/25, 环境气候 7.9/15",
         "上装: GAR-0008 马甲 (business)",
         "下装: GAR-0014 牛仔裤 (casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0006, STR-0015, STR-0018, STR-0022, STR-0025",
-        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0011"
+        "linked structure cards: STR-0006, STR-0015, STR-0018, STR-0022, STR-0025, STR-0035",
+        "linked material cards: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0017, MAT-0011"
       ],
       "risks": [
         "character psychology is a directorial interpretation, not a clothing-history fact",
@@ -235,24 +249,42 @@
       "evidence": {
         "source_ids": [
           "SRC-0109",
+          "SRC-0066",
           "SRC-0115",
           "SRC-0124",
           "SRC-0136",
+          "SRC-0064",
           "SRC-0412",
           "SRC-0200",
           "SRC-0413",
+          "SRC-0062",
           "SRC-0454",
           "SRC-0521",
           "SRC-0520",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
           "SRC-0141",
           "SRC-0102",
           "SRC-0142",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
           "SRC-0423"
         ],
         "source_urls": [
           {
             "source_id": "SRC-0109",
             "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0115",
@@ -267,6 +299,10 @@
             "url": "https://fashionhistory.fitnyc.edu/stomacher/"
           },
           {
+            "source_id": "SRC-0064",
+            "url": "https://www.gutenberg.org/cache/epub/48551/pg48551.txt"
+          },
+          {
             "source_id": "SRC-0412",
             "url": "https://collections.vam.ac.uk/item/O15693/"
           },
@@ -277,6 +313,10 @@
           {
             "source_id": "SRC-0413",
             "url": "https://collections.vam.ac.uk/item/O15667/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
             "source_id": "SRC-0454",
@@ -291,6 +331,38 @@
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
@@ -301,6 +373,18 @@
           {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           },
           {
             "source_id": "SRC-0423",
@@ -389,7 +473,8 @@
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0109"
+            "SRC-0109",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.81,
@@ -477,12 +562,16 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0035",
           "slot": "footwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "upper_body"
+        },
         {
           "id": "MAT-0002",
           "slot": "upper_body"
@@ -500,20 +589,24 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mabel, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, buckskin, cream, dark, embroidered, tan, white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); ease and fit (STR-0025); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011",
+      "prompt_image": "full-body character design of an adult Mabel, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, black, buckskin, cream, dark, embroidered, tan, white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0017, MAT-0011 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0017, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 20.2/25, 环境气候 8.1/15",
         "上装: GAR-0008 马甲 (business)",
         "下装: GAR-0010 灯笼裤 (casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0006, STR-0015, STR-0025, STR-0011",
-        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0011"
+        "linked structure cards: STR-0006, STR-0015, STR-0025, STR-0035",
+        "linked material cards: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0017, MAT-0011"
       ],
       "risks": [
         "character psychology is a directorial interpretation, not a clothing-history fact",
@@ -522,24 +615,41 @@
       "evidence": {
         "source_ids": [
           "SRC-0109",
+          "SRC-0066",
           "SRC-0111",
           "SRC-0124",
           "SRC-0136",
+          "SRC-0064",
           "SRC-0412",
           "SRC-0200",
           "SRC-0521",
           "SRC-0520",
-          "SRC-0202",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0062",
           "SRC-0141",
           "SRC-0102",
           "SRC-0142",
           "SRC-0483",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
           "SRC-0423"
         ],
         "source_urls": [
           {
             "source_id": "SRC-0109",
             "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0111",
@@ -552,6 +662,10 @@
           {
             "source_id": "SRC-0136",
             "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+          },
+          {
+            "source_id": "SRC-0064",
+            "url": "https://www.gutenberg.org/cache/epub/48551/pg48551.txt"
           },
           {
             "source_id": "SRC-0412",
@@ -570,8 +684,40 @@
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
-            "source_id": "SRC-0202",
-            "url": "https://collections.vam.ac.uk/item/O80590/"
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
             "source_id": "SRC-0141",
@@ -588,6 +734,18 @@
           {
             "source_id": "SRC-0483",
             "url": "https://collections.vam.ac.uk/item/O356064/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           },
           {
             "source_id": "SRC-0423",
@@ -722,9 +880,9 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0035",
           "slot": "footwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
         }
       ],
       "materials": [
@@ -737,19 +895,23 @@
           "slot": "set"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0003",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mabel, complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, buckskin, multicolor, red, tan, white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); ease and fit (STR-0025); frog closure (STR-0011), continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003 --ar 2:3 --style raw --v 6",
-      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
-      "continuity_lock": "continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0003",
+      "prompt_image": "full-body character design of an adult Mabel, complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, buckskin, multicolor, red, tan, white, setting: S10, night, indoor, hot, art direction: 1920s dance-hall glamour, lighting: warm stage spotlights with mirror-ball highlights, camera: full body tracking, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); ease and fit (STR-0025); silhouette and proportion (STR-0035), continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0017, MAT-0003 --ar 2:3 --style raw --v 6",
+      "prompt_video": "Mabel, fast jazz dance with spins and kicks, scene: S10, night, indoor, hot, camera: full body tracking, costume: complete set: Mesoamerican huipil, rectangular cloth with a central neck opening, sides sewn leaving armholes, woven geometric and animal motifs, loose tunic; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: natural fabric response to the action, gravity and wind, lighting: warm stage spotlights with mirror-ball highlights, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0017, MAT-0003, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no unstable footwear, no wardrobe malfunction, no rigid garment that blocks movement",
+      "continuity_lock": "continuity lock: GAR-0030 huipil [multicolor, red, white; cotton, silk, brocade; complete set] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0017, MAT-0003",
       "reasons": [
         "highest scoring dimensions: 年代/文化 20.2/25, 环境气候 7.8/15",
         "成套: GAR-0030 惠皮尔 (ceremonial)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0016, STR-0025, STR-0011",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0003"
+        "linked structure cards: STR-0016, STR-0025, STR-0035",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0017, MAT-0003"
       ],
       "risks": [
         "region mismatch in GAR-0030: cards document their own regions, not north_america",
@@ -762,11 +924,19 @@
           "SRC-0124",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0521",
           "SRC-0520",
-          "SRC-0200",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0102",
           "SRC-0141",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
           "SRC-0142"
         ],
         "source_urls": [
@@ -787,6 +957,10 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
@@ -795,8 +969,24 @@
             "url": "https://freesewing.dev/howtos/design/seam-allowance/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0102",
@@ -805,6 +995,18 @@
           {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           },
           {
             "source_id": "SRC-0142",
@@ -910,13 +1112,16 @@
       "GAR-0026",
       "GAR-0025",
       "GAR-0068",
+      "GAR-0089",
       "GAR-0028",
       "GAR-0086",
       "GAR-0083",
+      "GAR-0088",
       "GAR-0074",
       "GAR-0080",
       "GAR-0073",
       "GAR-0070",
+      "GAR-0090",
       "GAR-0085"
     ],
     "carried_prop": [
@@ -932,6 +1137,7 @@
       "GAR-0058",
       "GAR-0060",
       "GAR-0022",
+      "GAR-0091",
       "GAR-0081"
     ],
     "one_piece": [
@@ -1145,6 +1351,10 @@
       "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
     },
     {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+    },
+    {
       "source_id": "SRC-0115",
       "url": "https://fashionhistory.fitnyc.edu/1950-1959/"
     },
@@ -1155,6 +1365,10 @@
     {
       "source_id": "SRC-0136",
       "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+    },
+    {
+      "source_id": "SRC-0064",
+      "url": "https://www.gutenberg.org/cache/epub/48551/pg48551.txt"
     },
     {
       "source_id": "SRC-0412",
@@ -1169,6 +1383,10 @@
       "url": "https://collections.vam.ac.uk/item/O15667/"
     },
     {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+    },
+    {
       "source_id": "SRC-0454",
       "url": "https://collections.vam.ac.uk/item/O1240056/"
     },
@@ -1179,6 +1397,38 @@
     {
       "source_id": "SRC-0520",
       "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+    },
+    {
+      "source_id": "SRC-0530",
+      "url": "https://collections.vam.ac.uk/item/O72654/"
+    },
+    {
+      "source_id": "SRC-0531",
+      "url": "https://collections.vam.ac.uk/item/O85657/"
+    },
+    {
+      "source_id": "SRC-0533",
+      "url": "https://collections.vam.ac.uk/item/O353415/"
+    },
+    {
+      "source_id": "SRC-0535",
+      "url": "https://collections.vam.ac.uk/item/O355340/"
+    },
+    {
+      "source_id": "SRC-0536",
+      "url": "https://collections.vam.ac.uk/item/O68370/"
+    },
+    {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
     },
     {
       "source_id": "SRC-0141",
@@ -1193,6 +1443,18 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
+    },
+    {
       "source_id": "SRC-0423",
       "url": "https://collections.vam.ac.uk/item/O315431/"
     },
@@ -1201,16 +1463,16 @@
       "url": "https://fashionhistory.fitnyc.edu/bloomers/"
     },
     {
-      "source_id": "SRC-0202",
-      "url": "https://collections.vam.ac.uk/item/O80590/"
-    },
-    {
       "source_id": "SRC-0483",
       "url": "https://collections.vam.ac.uk/item/O356064/"
     },
     {
       "source_id": "SRC-0131",
       "url": "https://fashionhistory.fitnyc.edu/huipilli-huipil/"
+    },
+    {
+      "source_id": "SRC-0202",
+      "url": "https://collections.vam.ac.uk/item/O80590/"
     },
     {
       "source_id": "SRC-0201",

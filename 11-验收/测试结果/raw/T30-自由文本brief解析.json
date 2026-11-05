@@ -55,12 +55,12 @@
     {
       "look_ref": "A",
       "source_look_id": "LOOK-0012",
-      "total": 48.1,
+      "total": 47.1,
       "scores": {
         "period": 14.2,
         "identity": 4.1,
         "environment": 7.2,
-        "art": 6.1,
+        "art": 5.1,
         "movement": 4.6,
         "arc": 3.5,
         "camera": 6.5
@@ -146,7 +146,7 @@
             "period": 1.0,
             "identity": 0.23581250000000004,
             "environment": 0.305,
-            "art": 0.7357142857142858,
+            "art": 0.5638888888888889,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -175,7 +175,7 @@
             "period": 0.332,
             "identity": 0.3355,
             "environment": 0.9249999999999999,
-            "art": 0.17857142857142855,
+            "art": 0.17222222222222222,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -206,7 +206,7 @@
             "period": 0.4000000000000001,
             "identity": 0.26956250000000004,
             "environment": 0.27249999999999996,
-            "art": 0.3571428571428571,
+            "art": 0.319047619047619,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -234,7 +234,7 @@
             "period": 0.332,
             "identity": 0.23581250000000004,
             "environment": 0.27249999999999996,
-            "art": 0.17857142857142855,
+            "art": 0.19007936507936507,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -316,6 +316,7 @@
           "SRC-0206",
           "SRC-0407",
           "SRC-0202",
+          "SRC-0062",
           "SRC-0486",
           "SRC-0521",
           "SRC-0520",
@@ -355,6 +356,10 @@
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
@@ -387,7 +392,9 @@
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
           }
         ],
-        "context_style_ids": [],
+        "context_style_ids": [
+          "STY-0012"
+        ],
         "context_period_ids": [
           "PRD-0011"
         ],
@@ -406,12 +413,12 @@
     {
       "look_ref": "B",
       "source_look_id": "LOOK-0015",
-      "total": 49.3,
+      "total": 48.3,
       "scores": {
         "period": 14.4,
         "identity": 4.1,
         "environment": 8.1,
-        "art": 6.1,
+        "art": 5.1,
         "movement": 4.7,
         "arc": 3.5,
         "camera": 6.5
@@ -493,7 +500,7 @@
             "period": 1.0,
             "identity": 0.23581250000000004,
             "environment": 0.305,
-            "art": 0.7357142857142858,
+            "art": 0.5638888888888889,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -522,7 +529,7 @@
             "period": 0.332,
             "identity": 0.3355,
             "environment": 0.9249999999999999,
-            "art": 0.17857142857142855,
+            "art": 0.17222222222222222,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -553,7 +560,7 @@
             "period": 0.4000000000000001,
             "identity": 0.26956250000000004,
             "environment": 0.27249999999999996,
-            "art": 0.3571428571428571,
+            "art": 0.319047619047619,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -579,7 +586,7 @@
             "period": 0.4000000000000001,
             "identity": 0.2041875,
             "environment": 0.76,
-            "art": 0.20714285714285713,
+            "art": 0.19444444444444442,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -638,11 +645,15 @@
         {
           "id": "MAT-0011",
           "slot": "footwear"
+        },
+        {
+          "id": "MAT-0015",
+          "slot": "carried_prop"
         }
       ],
-      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: unspecified location, unknown, rain, art direction: noir, lighting: unknown, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011",
-      "prompt_video": "unnamed character, walking, scene: unspecified location, unknown, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: unknown, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011",
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: unspecified location, unknown, rain, art direction: noir, lighting: unknown, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015",
+      "prompt_video": "unnamed character, walking, scene: unspecified location, unknown, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: unknown, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015",
       "reasons": [
         "highest scoring dimensions: 年代/文化 14.4/25, 环境气候 8.1/15",
         "连身: GAR-0031 旗袍 (smart_casual)",
@@ -650,7 +661,7 @@
         "足部: GAR-0035 女式皮鞋 (smart_casual)",
         "携带物: GAR-0048 手提包 (smart_casual)",
         "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025, STR-0019, STR-0026",
-        "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011",
+        "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015",
         "based on curated vault look card LOOK-0015"
       ],
       "risks": [
@@ -667,6 +678,7 @@
           "SRC-0408",
           "SRC-0405",
           "SRC-0202",
+          "SRC-0062",
           "SRC-0486",
           "SRC-0521",
           "SRC-0520",
@@ -674,7 +686,11 @@
           "SRC-0143",
           "SRC-0423",
           "SRC-0142",
-          "SRC-0102"
+          "SRC-0102",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066"
         ],
         "source_urls": [
           {
@@ -704,6 +720,10 @@
           {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
           },
           {
             "source_id": "SRC-0486",
@@ -736,9 +756,27 @@
           {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           }
         ],
-        "context_style_ids": [],
+        "context_style_ids": [
+          "STY-0012"
+        ],
         "context_period_ids": [
           "PRD-0011"
         ],
@@ -757,25 +795,25 @@
     {
       "look_ref": "C",
       "source_look_id": null,
-      "total": 48.0,
+      "total": 46.9,
       "scores": {
-        "period": 14.9,
-        "identity": 3.8,
-        "environment": 9.7,
-        "art": 6.2,
+        "period": 14.5,
+        "identity": 4.2,
+        "environment": 10.0,
+        "art": 4.8,
         "movement": 4.3,
         "arc": 3.5,
         "camera": 6.5
       },
       "missing": [],
-      "cost": 0.347,
-      "cost_total": 1.04,
+      "cost": 0.282,
+      "cost_total": 0.847,
       "contains_example": false,
       "evidence_tier": "exact",
       "period_tiers": {
         "one_piece": "exact",
         "outerwear": "era",
-        "footwear": "exact"
+        "footwear": "era"
       },
       "region_tiers": {
         "one_piece": "exact",
@@ -784,36 +822,35 @@
       },
       "colors": [
         "beige",
+        "black",
         "brown",
         "khaki",
         "lavender",
         "mid blue",
         "orange red",
         "pink",
-        "tan",
         "white"
       ],
       "style_tags": [
-        "1930s",
         "art",
         "art deco",
         "burberry",
         "classic",
+        "country",
         "deco",
         "era",
         "gabardine",
-        "menswear",
+        "military",
         "modern",
         "republican",
         "republican era",
         "shanghai",
-        "shanghai modern",
-        "tailoring"
+        "shanghai modern"
       ],
       "budget_mode": null,
       "budget_explanation": null,
       "differences": {},
-      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve journalist / editor; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the beige, brown, khaki palette controls the emotional temperature.",
+      "narrative_meaning": "Narrative meaning (directorial interpretation, not clothing-history fact): the silhouette is cut to serve journalist / editor; the low economic register shows through material and finish; formality runs from smart_casual / smart_casual / smart_casual; the beige, black, brown palette controls the emotional temperature.",
       "items": [
         {
           "slot": "one_piece",
@@ -841,7 +878,7 @@
             "period": 1.0,
             "identity": 0.23581250000000004,
             "environment": 0.305,
-            "art": 0.7357142857142858,
+            "art": 0.5638888888888889,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -870,7 +907,7 @@
             "period": 0.332,
             "identity": 0.3355,
             "environment": 0.9249999999999999,
-            "art": 0.17857142857142855,
+            "art": 0.17222222222222222,
             "movement": 0.5,
             "arc": 0.35,
             "camera": 0.65
@@ -878,27 +915,26 @@
         },
         {
           "slot": "footwear",
-          "id": "GAR-0060",
-          "name_zh": "1930 年代男式皮鞋",
-          "name_en": "1930s men’s Oxford shoes",
+          "id": "GAR-0022",
+          "name_zh": "威灵顿靴",
+          "name_en": "wellington boot",
           "colors": [
-            "tan",
-            "white",
+            "black",
             "brown"
           ],
           "materials": [
             "leather",
-            "suede"
+            "rubber"
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0420"
+            "SRC-0123"
           ],
           "scores": {
-            "period": 0.4000000000000001,
-            "identity": 0.16706250000000003,
-            "environment": 0.76,
-            "art": 0.2785714285714286,
+            "period": 0.332,
+            "identity": 0.279125,
+            "environment": 0.825,
+            "art": 0.19007936507936507,
             "movement": 0.4,
             "arc": 0.35,
             "camera": 0.65
@@ -922,7 +958,12 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0020",
+          "id": "STR-0021",
+          "slot": "footwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0025",
           "slot": "footwear",
           "confidence": "explicit"
         }
@@ -943,21 +984,29 @@
         {
           "id": "MAT-0001",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, palette: beige, brown, khaki, lavender, mid blue, orange red, pink, tan, white, setting: unspecified location, unknown, rain, art direction: noir, lighting: unknown, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); panels and gores (STR-0020), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001",
-      "prompt_video": "unnamed character, walking, scene: unspecified location, unknown, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s men’s Oxford shoes, polished tan leather with white suede panels, narrow pointed toe, six pairs of lace holes, leather sole, closed-tab construction, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: unknown, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0060 1930s men’s Oxford shoes [tan, white, brown; leather, suede; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001",
+      "prompt_image": "full-body character design of an adult unnamed character, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, mid blue, orange red, pink, white, setting: unspecified location, unknown, rain, art direction: noir, lighting: unknown, camera: medium shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019",
+      "prompt_video": "unnamed character, walking, scene: unspecified location, unknown, rain, camera: medium shot, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: unknown, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019",
       "reasons": [
-        "highest scoring dimensions: 年代/文化 14.9/25, 环境气候 9.7/15",
+        "highest scoring dimensions: 年代/文化 14.5/25, 环境气候 10.0/15",
         "连身: GAR-0031 旗袍 (smart_casual)",
         "外层: GAR-0045 风衣 (smart_casual)",
-        "足部: GAR-0060 1930 年代男式皮鞋 (smart_casual)",
-        "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0020",
-        "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001"
+        "足部: GAR-0022 威灵顿靴 (smart_casual)",
+        "linked structure cards: STR-0011, STR-0016, STR-0023, STR-0021, STR-0025",
+        "linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019"
       ],
       "risks": [
-        "region mismatch in GAR-0045, GAR-0060: cards document their own regions, not shanghai",
+        "region mismatch in GAR-0045, GAR-0022: cards document their own regions, not shanghai",
         "character psychology is a directorial interpretation, not a clothing-history fact",
         "all images remain external links; no third-party images are embedded in the vault"
       ],
@@ -966,16 +1015,25 @@
           "SRC-0200",
           "SRC-0201",
           "SRC-0405",
-          "SRC-0420",
+          "SRC-0123",
           "SRC-0202",
+          "SRC-0062",
           "SRC-0486",
-          "SRC-0451",
-          "SRC-0453",
+          "SRC-0484",
+          "SRC-0412",
+          "SRC-0520",
+          "SRC-0521",
           "SRC-0141",
           "SRC-0143",
           "SRC-0423",
           "SRC-0142",
-          "SRC-0102"
+          "SRC-0102",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
           {
@@ -991,24 +1049,36 @@
             "url": "https://collections.vam.ac.uk/item/O1295635/"
           },
           {
-            "source_id": "SRC-0420",
-            "url": "https://collections.vam.ac.uk/item/O135417/"
+            "source_id": "SRC-0123",
+            "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
           },
           {
             "source_id": "SRC-0202",
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
-            "source_id": "SRC-0451",
-            "url": "https://collections.vam.ac.uk/item/O109190/"
+            "source_id": "SRC-0484",
+            "url": "https://collections.vam.ac.uk/item/O356786/"
           },
           {
-            "source_id": "SRC-0453",
-            "url": "https://collections.vam.ac.uk/item/O163754/"
+            "source_id": "SRC-0412",
+            "url": "https://collections.vam.ac.uk/item/O15693/"
+          },
+          {
+            "source_id": "SRC-0520",
+            "url": "https://freesewing.dev/howtos/design/seam-allowance/"
+          },
+          {
+            "source_id": "SRC-0521",
+            "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
           {
             "source_id": "SRC-0141",
@@ -1029,9 +1099,35 @@
           {
             "source_id": "SRC-0102",
             "url": "https://fashionhistory.fitnyc.edu/muslin/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
-        "context_style_ids": [],
+        "context_style_ids": [
+          "STY-0012"
+        ],
         "context_period_ids": [
           "PRD-0011"
         ],
@@ -1041,14 +1137,16 @@
         "item_evidence": {
           "GAR-0031": "verified",
           "GAR-0045": "verified",
-          "GAR-0060": "verified"
+          "GAR-0022": "verified"
         },
         "missing_urls": []
       }
     }
   ],
   "context": {
-    "style_refs": [],
+    "style_refs": [
+      "STY-0012"
+    ],
     "period_refs": [
       "PRD-0011"
     ],
@@ -1057,6 +1155,14 @@
     ]
   },
   "context_refs": [
+    {
+      "id": "STY-0012",
+      "type": "style",
+      "score": 1.0,
+      "period_tier": "exact",
+      "region_tier": "exact",
+      "reason": "style tag match"
+    },
     {
       "id": "PRD-0011",
       "type": "period_region",
@@ -1108,17 +1214,11 @@
   ],
   "warnings_detail": [
     {
-      "code": "context_gap",
-      "severity": "medium",
-      "message": "no reliable style card for art direction 'noir'",
-      "items": [],
-      "look": null
-    },
-    {
       "code": "period_era_level",
       "severity": "low",
-      "message": "period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing",
+      "message": "period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing",
       "items": [
+        "GAR-0022",
         "GAR-0045",
         "GAR-0047"
       ],
@@ -1127,13 +1227,13 @@
     {
       "code": "region_mismatch",
       "severity": "medium",
-      "message": "cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted",
+      "message": "cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted",
       "items": [
+        "GAR-0022",
         "GAR-0035",
         "GAR-0045",
         "GAR-0047",
-        "GAR-0048",
-        "GAR-0060"
+        "GAR-0048"
       ],
       "look": null
     },
@@ -1155,7 +1255,7 @@
   "budget_model": {
     "mode": "cheaper",
     "a_cost_total": 1.433,
-    "c_cost_total": 1.04,
+    "c_cost_total": 0.847,
     "differences": {
       "a_b": 2,
       "a_c": 3,
@@ -1191,14 +1291,17 @@
     "accessory": [
       "GAR-0066",
       "GAR-0067",
-      "GAR-0068",
       "GAR-0021",
+      "GAR-0068",
+      "GAR-0088",
       "GAR-0028",
+      "GAR-0089",
       "GAR-0026",
       "GAR-0070",
       "GAR-0086",
+      "GAR-0073",
       "GAR-0074",
-      "GAR-0073"
+      "GAR-0090"
     ],
     "carried_prop": [
       "GAR-0048",
@@ -1206,9 +1309,10 @@
       "GAR-0047"
     ],
     "footwear": [
-      "GAR-0060",
       "GAR-0022",
+      "GAR-0060",
       "GAR-0058",
+      "GAR-0091",
       "GAR-0023",
       "GAR-0035"
     ],
@@ -1511,9 +1615,8 @@
     }
   ],
   "warnings": [
-    "no reliable style card for art direction 'noir'",
-    "period evidence is era-level (century bucket) for GAR-0045, GAR-0047; exact-decade cards are missing",
-    "cards document other regions for GAR-0035, GAR-0045, GAR-0047, GAR-0048, GAR-0060 (requested shanghai); cross-region borrowing is flagged, not silently accepted",
+    "period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing",
+    "cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted",
     "wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot"
   ],
   "sources": [
@@ -1544,6 +1647,10 @@
     {
       "source_id": "SRC-0202",
       "url": "https://collections.vam.ac.uk/item/O80590/"
+    },
+    {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
     },
     {
       "source_id": "SRC-0486",
@@ -1582,16 +1689,56 @@
       "url": "https://collections.vam.ac.uk/item/O367714/"
     },
     {
-      "source_id": "SRC-0420",
-      "url": "https://collections.vam.ac.uk/item/O135417/"
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
     },
     {
-      "source_id": "SRC-0451",
-      "url": "https://collections.vam.ac.uk/item/O109190/"
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
     },
     {
-      "source_id": "SRC-0453",
-      "url": "https://collections.vam.ac.uk/item/O163754/"
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+    },
+    {
+      "source_id": "SRC-0123",
+      "url": "https://fashionhistory.fitnyc.edu/wellington-boot/"
+    },
+    {
+      "source_id": "SRC-0484",
+      "url": "https://collections.vam.ac.uk/item/O356786/"
+    },
+    {
+      "source_id": "SRC-0412",
+      "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
+    },
+    {
+      "source_id": "SRC-0550",
+      "url": "https://vocab.getty.edu/page/aat/300014058"
+    },
+    {
+      "source_id": "SRC-0417",
+      "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+    },
+    {
+      "source_id": "SRC-0406",
+      "url": "https://collections.vam.ac.uk/item/O361727/"
     }
   ],
   "missing_urls": [],
@@ -1614,7 +1761,7 @@
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": true,
-    "warnings_count": 4,
+    "warnings_count": 3,
     "rejected_count": 40
   }
 }

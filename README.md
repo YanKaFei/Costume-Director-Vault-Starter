@@ -2,18 +2,19 @@
 
 这是 **Obsidian 可浏览、AI 可检索** 的服装/造型知识库与启动包（半成品→持续维护型），不是完成的服装史。用 Obsidian “打开本地文件夹作为仓库”即可浏览；Agent 通过仓库内脚本检索/组合造型并给出有来源约束的提示词。
 
-## 当前状态（R1.2，2026-11-05）
+## 当前状态（R1.3，2026-11-05）
 
 | 项 | 值 |
 |---|---|
-| 卡片 | **458 = 224 内容 + 234 来源** |
+| 卡片 | **471 = 232 内容 + 239 来源** |
 | 关系 | **345（high 262 / medium 83）**；relation_consistency **0 errors** |
-| 校验 | validate **458/458 PASS**、build_sources **234 PASS**、graph **typed_unresolved 0 / unresolved 0** |
-| 来源可见 | source_ids **478/478（100%）**；MOC **224/224 内容 + 234/234 来源** |
+| 视觉层 | 23 张卡有视觉参考/生图/视频（46 prompt 块）；15 CC0/PD ASSET +5 link-only 外链；0 本地图/0 下载 |
+| 校验 | validate **471/471 PASS**、build_sources **239 PASS**、graph **typed_unresolved 0 / unresolved 0** |
+| 来源可见 | source_ids **478/478（100%）**；MOC **232/232 内容 + 239/239 来源**（R1.3 后） |
 | draft | 79（其中 38 基线 draft 待人工；未自动提升） |
-| GUI | **NOT_RUN / HUMAN_UAT_PENDING**（11 项见 `reports/R1.2-GUI-UAT.md`） |
-| quality_eval | **NOT_RUN**（最近一次超时；旧 PASS 不作当前证据） |
-| E2E | engineer report：official **3/3**、overlay **3/3** 五项全 true（selected runs；早期探索失败不计） |
+| GUI | **NOT_RUN / HUMAN_UAT_PENDING**（11 项见 `reports/R1.3-OBSIDIAN-UAT.md`） |
+| quality_eval | **PASS（4.20 / 0.921 / 0）**（R1.3 当前内容） |
+| E2E | **R1.3 official 3/3、overlay 3/3 五项全 true**；AI 未生图（no_image_claim） |
 | 发布门禁 | PRIVATE-USE = **YES（附 WARN/P1）**；PUBLIC = **NO（B1–B6、L1–L6 未关闭）** |
 
 ## 快速开始
@@ -21,8 +22,8 @@
 1. **Obsidian**：Open folder as vault → 本目录；从 `00-系统/MOC/README.md` 进入导航。
 2. **校验**（仓库根）：
    ```bash
-   python3 scripts/validate.py                 # 458/458
-   python3 scripts/build_sources.py --check    # 234 sources / CSV
+   python3 scripts/validate.py                 # 471/471
+   python3 scripts/build_sources.py --check    # 239 sources / CSV
    python3 scripts/relation_consistency.py     # 0 errors / 345 relations
    python3 scripts/graph_analyze.py --root .   # 0 unresolved / 748 typed
    ```
@@ -34,7 +35,7 @@
 
 - `00-系统/`：数据字典、关系类型 v3、MOC 导航、来源规范
 - `01-服装单品/`、`02-结构细节/`、`03-材质纹样/`、`05-风格体系/`、`06-时代地域/`、`07-剧情场景/`、`09-造型组合/`：知识卡
-- `04-来源/`：来源卡（234；canonical/deprecated 规则）
+- `04-来源/`：来源卡（239；canonical/deprecated 规则）
 - `10-提示词模板/`：生图/视频提示词接口
 - `scripts/`、`tests/`、`11-验收/`：工具、测试、验收证据
 - `reports/`：STATUS/QA/COVERAGE/RELEASE-GATE/各阶段报告
@@ -54,6 +55,9 @@
 ## 当前限制
 
 - GUI 人工验收未执行（仅默认前后截图，见 `reports/obsidian-graph/`）。
-- quality_eval 当前未通过（超时）；E2E engineer report：official 3/3、overlay 3/3 五项全 true（selected runs；早期探索失败不计）。
+- 视觉层：23 卡/46 prompt 块；15 CC0/PD 资产 +5 LINK；**卡片内 21/23 个 prompt/video 块仍含旧 CJK，暂不宣称 copy-ready English**。
+- E2E R1.3：official 3/3、overlay 3/3 五项全 true；AI 未生图（0 图像）。
+- 旧 `R1.3-VISUAL-COVERAGE.csv` 为基线快照（197/287），当前为 232 内容/23 视觉层/15 ASSET，需重生成。
+- 建议 R1.3 后进入维护模式：停止大规模扩卡；优先重生成卡片 prompt 块/coverage CSV、GUI 11 项人工、资产/外链审阅。
 - 6 flags、38 draft、59 isolates、18 候选（16+2）仍待人工/审批；不自动提升。
-- 详细状态与门禁见 `reports/STATUS.md`、`reports/RELEASE-GATE.md`、`reports/R1.2-FINAL.md`。
+- 详细状态与门禁见 `reports/STATUS.md`、`reports/RELEASE-GATE.md`、`reports/R1.3-FINAL.md`、`reports/R1.3-OBSIDIAN-UAT.md`。

@@ -43,7 +43,7 @@ recommended ignore filters and graph keys; no files were written.
 ## Expected isolated-vault result
 
 After applying to a clean knowledge copy:
-- **488 nodes**, **0 zero-degree**, **1 component**;
+- **501 nodes**, **0 zero-degree**, **1 component**;
 - cards/MOC/backlinks resolve normally;
 - user custom keys/themes/plugins/hotkeys/workspace preserved;
 - repeated apply and restore verified.

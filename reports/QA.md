@@ -94,3 +94,23 @@
 | GUI | **NOT_RUN/HUMAN_UAT_PENDING**（11 项：3 PARTIAL 截图、8 NOT_RUN；无签字） |
 
 - 说明：PASS 仅指脚本/数据检查，不是艺术/历史评价；quality/E2E/GUI 未闭合项不得写成 PASS。
+
+
+## R1.3 机械验收（2026-11-05 16:05）
+
+| 项 | 结果 |
+|---|---|
+| validate | **471/471 PASS** |
+| build_sources | **239 PASS**（CSV 与来源一致） |
+| relation_consistency | **0 errors / 345 relations** |
+| graph | **0 unresolved / 0 typed unresolved / 748 typed / 60 components / 59 singletons** |
+| acceptance | **PASS 45/45（134.2s）** |
+| quality_eval | **PASS（4.20 / 0.921 / 0）** |
+| prompt tool | `visual_prompt.py` 测试 **9/9 PASS**；20/20 抽样无 CJK/wikilink/typo/截断，evidence tags 正确 |
+| prompt 卡片块 | **21/23 含旧 CJK** → WARN；不得宣称 copy-ready English |
+| E2E | official **3/3**、overlay **3/3** 五项全 true；no_image_claim_ok |
+| 其他回归 | workflow 9/9（130.7s）、Macbeth 11/11（32.4s）、composer 9/9、relation_trace 6/6、security 7/7、lookbook 6/6、skill-sync 3/3、backup 7/7、human 3/3；prompt tool 9/9 |
+| Obsidian scope | **501 / 0 zero / 1 component / 0 unresolved**（visuals 排除） |
+| GUI | **NOT_RUN/HUMAN_UAT_PENDING**（3 PARTIAL 截图、8 NOT_RUN；无签核） |
+
+- PASS 仅脚本/数据检查，不是艺术/历史评价；AI 未生图、未评分；人工视觉评分 **N/A**。

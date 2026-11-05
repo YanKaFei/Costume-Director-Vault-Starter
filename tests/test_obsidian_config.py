@@ -59,9 +59,9 @@ class ObsidianConfigTests(unittest.TestCase):
     def tearDown(self):
         shutil.rmtree(self.vault, ignore_errors=True)
 
-    def test_scope_488_0_1(self):
+    def test_scope_501_0_1(self):
         stats = oc.scope_stats(self.vault)
-        self.assertEqual(stats["nodes"], 488)
+        self.assertEqual(stats["nodes"], 501)
         self.assertEqual(stats["zero_degree"], 0)
         self.assertEqual(stats["components"], 1)
 
@@ -87,10 +87,10 @@ class ObsidianConfigTests(unittest.TestCase):
         self.assertEqual(workspace, (self.obsidian / "workspace.json").read_bytes())
         self.assertEqual(appearance, (self.obsidian / "appearance.json").read_bytes())
         self.assertTrue((self.obsidian / "themes/custom.css").exists())
-        # configured scope stays 488/0/1
+        # configured scope stays 501/0/1
         stats = oc.scope_stats(self.vault)
         self.assertEqual((stats["nodes"], stats["zero_degree"], stats["components"]),
-                         (488, 0, 1))
+                         (501, 0, 1))
 
     def test_idempotent_and_restore(self):
         proc = run(self.vault, "--apply")
@@ -121,7 +121,7 @@ class ObsidianConfigTests(unittest.TestCase):
         proc = run(self.vault, "--scope-report", "--json")
         self.assertEqual(proc.returncode, 0, proc.stderr)
         data = json.loads(proc.stdout)
-        self.assertEqual(data["nodes"], 488)
+        self.assertEqual(data["nodes"], 501)
         self.assertEqual(data["zero_degree"], 0)
         self.assertEqual(data["components"], 1)
 

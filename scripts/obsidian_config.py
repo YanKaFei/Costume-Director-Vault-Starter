@@ -30,7 +30,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TPL = ROOT / "config/obsidian"
 DEFAULT_IGNORES = ["11-验收/", "reports/", "projects/", "docs/", "tests/",
-                   "skills/", ".dsh/", "TASKS/", "TASKS.md", "AGENTS.md"]
+                   "skills/", ".dsh/", "TASKS/", "TASKS.md", "AGENTS.md",
+                   "visuals/", "images/", "assets/", "templates/",
+                   "00-系统/视觉规范.md", "00-系统/数据字典-v1.5-扩展.md"]
 WIKILINK = re.compile(r"\[\[([^\]]+)\]\]")
 CODE = re.compile(r"`[^`\n]*`")
 FENCE = re.compile(r"(?ms)^```.*?^```")

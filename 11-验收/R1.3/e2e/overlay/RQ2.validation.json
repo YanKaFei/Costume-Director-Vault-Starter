@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "GAR-0024",
+    "GAR-0028",
+    "LOOK-0001",
+    "MAT-0002",
+    "SRC-0150",
+    "STR-0006",
+    "STR-0009"
+  ],
+  "final_chars": 2366,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## LOOK-0001 — Outfit visual prompt (`--kind outfit --json`)\n\n**Card:** LOOK-0001 (`09-造型组合/LOOK-0001-洛可可沙龙女主人.md`) · evidence_status: **interpretive** · source: **SRC-0150**\nEvidence tags present: OBSERVATION, INFERENCE, CREATIVE (FACT appears within modules). Conflicts: **0 errors, 0 warnings, 1 notice** — `low_confidence`: evidence is interpretive, not verified.\n\n### Outfit modules\n\n1. **outfit"
+}

@@ -228,12 +228,29 @@
 | 来源去重 | **PASS** | 3 canonical（0036/0022/0115）+3 deprecated/redirect（0175/0163/0157）；0 删除；URL 30/30 200；许可证 v1.3 |
 | Flags/draft/候选 | **PASS（人工 pending）** | 6 flags：3 REJECTED/1 INTERPRETATION/1 DESIGN_ONLY/1 INSUFFICIENT，全 pending_human；38/38 draft 未提升；18 候选 16 reconcile+2 pending，0 写入 |
 | 关系/图谱 | **PASS** | 345/0；graph **0/0/748**；source_ids 478/478 可见；MOC 224/234；59 isolates（+3 dup=62 uncited） |
-| 便携配置 | **PASS** | 模板/脚本 dry-run changed:false；测试 6/6；隔离 488/0/1；用户键保留；live `.obsidian` 未动 |
+| 便携配置 | **PASS** | 模板/脚本 dry-run changed:false；测试 6/6；隔离 501/0/1；用户键保留；live `.obsidian` 未动 |
 | GUI UAT | **NOT_RUN/PENDING** | 11 项：3 PARTIAL 默认截图、8 NOT_RUN；无签核/两人签字 |
 | 回归 | **PASS** | validate 458、build 234、consistency 0/345、graph 0/0/748、acceptance 45/45、workflow 9/9、composer 9/9、Macbeth 11/11、单元 66/66；quality **PASS（4.2/0.921/0）**；**E2E official 3/3、overlay 3/3 五项全 true** |
 | 备份 | **PASS（P1 除外）** | R1.2 后 backup **2424/51.6MB** → verify OK → restore 2424/458/345；排除 projects/.obsidian/sandbox；**私有 projects 无独立备份（P1）** |
 
 **门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN/P1：私有 projects 无备份、GUI NOT_RUN、E2E retained failures、medium 83）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**Obsidian GUI UAT = NOT_RUN/PENDING**（不得声称通过）。
+
+## 4.17 R1.3 最终验收（2026-11-05 16:05，task-109）
+
+| 域 | 结果 | 证据 |
+|---|---|---|
+| 视觉卡/资产 | **PASS（WARN）** | 23 张视觉层卡/46 prompt 块；15 CC0/PD ASSET +5 LINK；0 本地图/0 下载；3 用/12 未用 |
+| 许可/HTTP | **PASS** | 12 CC0+3 PD；link_only 5；API/image 200；Met 对象页 429 限流如实；无品牌复制 |
+| 双向关联 | **PASS（部分）** | 3 ASSET 双向；12 未用有意；5 LINK pending |
+| Prompt 工具/卡片块 | **PASS（WARN）** | 工具 9/9 tests；20/20 抽样干净；**卡片 21/23 prompt 块仍含 CJK 旧文本**→不宣称 copy-ready English |
+| 当代 8 卡 | **PASS** | STY-0016..0023 interpretive/draft；5 Vogue 200；趋势 vs 稳定 8/8；无品牌名 |
+| 覆盖 CSV | **WARN** | 基线 CSV 滞后（197/287），当前 232/23/15 ASSET；需重生成 |
+| Obsidian | **PASS** | scope 501/0/1/unresolved 0（visuals 排除；ASSET 链接 markdown） |
+| 回归 | **PASS** | validate 471、build 239、consistency 0/345、graph 0/0/748、acceptance 45/45、quality 4.20/0.921/0、workflow 9/9、Macbeth 11/11、composer 9/9、relation_trace/security/lookbook/skill-sync/backup/human PASS、prompt tool 9/9 |
+| E2E | **PASS** | official 3/3、overlay 3/3，五项全 true；no_image_claim_ok |
+| GUI | **NOT_RUN/PENDING** | 11 项：3 PARTIAL 默认截图、8 NOT_RUN；无签核 |
+
+**门禁**：**PRIVATE-READY / PRIVATE-USE = YES（附 WARN：卡片 prompt 块 23/23 已清理、12 ASSET 未用/5 LINK pending、GUI NOT_RUN、2 主题未覆盖）；PUBLIC-READY = NO（BLOCKED，B1–B6 + L1–L6）**；**GUI = NOT_RUN/PENDING**（不得声称通过；建议停止连续开发/维护模式）。
 
 ## 5. 门禁结论
 

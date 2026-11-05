@@ -1,11 +1,11 @@
 # T40 — query 排序：1930s 上海 top5 必须含 GAR-0031 且无 example
 
-- 运行时间：2026-11-05T01:20:07+08:00
+- 运行时间：2026-11-05T16:01:13+08:00
 - 测试类型：query_ranking, M8
 - 模式：standard
 - 输入文件：`11-验收/测试输入/T40-query排序1930s上海.json`
 - 运行命令：`/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json`
-- 退出码：**0**（耗时 1.3s）
+- 退出码：**0**（耗时 1.54s）
 
 ## 实际输入
 
@@ -75,17 +75,17 @@
 
 | 命令 | 退出码 | 耗时 |
 | --- | --- | --- |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json` | 0 | 1.3s |
-| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s 上海 --limit 5 --json` | 0 | 0.99s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/recommend.py /Users/coffee/Desktop/Costume-Director-Vault-Starter/11-验收/测试输入/T40-query排序1930s上海.json --json` | 0 | 1.54s |
+| `/Library/Developer/CommandLineTools/usr/bin/python3 scripts/query.py 1930s 上海 --limit 5 --json` | 0 | 1.2s |
 
 - `query.py` 命中数量：**5**（验收要求 ≥1）
 - `query.py` 命中卡片 ID：GAR-0031, LOOK-0008, LOOK-0009, LOOK-0012, LOOK-0015
-- `recommend.py` 候选池：accessory=GAR-0066, GAR-0067, GAR-0068, GAR-0021, GAR-0028, GAR-0070, GAR-0026, GAR-0074, GAR-0086, GAR-0073; carried_prop=GAR-0048, GAR-0087, GAR-0047; footwear=GAR-0035, GAR-0022, GAR-0060, GAR-0058, GAR-0023; inner_layer=GAR-0012, GAR-0078, GAR-0020; lower_body=GAR-0072, GAR-0014, GAR-0010, GAR-0077, GAR-0011; one_piece=GAR-0031, GAR-0032, GAR-0064, GAR-0063, GAR-0071, GAR-0069, GAR-0053, GAR-0055, GAR-0056, GAR-0052, GAR-0054; outerwear=GAR-0045; set=GAR-0065, GAR-0001; upper_body=GAR-0008, GAR-0034, GAR-0007, GAR-0006
+- `recommend.py` 候选池：accessory=GAR-0066, GAR-0067, GAR-0068, GAR-0088, GAR-0021, GAR-0028, GAR-0089, GAR-0070, GAR-0026, GAR-0073, GAR-0074, GAR-0086, GAR-0090; carried_prop=GAR-0048, GAR-0087, GAR-0047; footwear=GAR-0035, GAR-0022, GAR-0060, GAR-0058, GAR-0091, GAR-0023; inner_layer=GAR-0012, GAR-0078, GAR-0020; lower_body=GAR-0072, GAR-0014, GAR-0010, GAR-0011, GAR-0077; one_piece=GAR-0031, GAR-0032, GAR-0064, GAR-0063, GAR-0071, GAR-0069, GAR-0053, GAR-0055, GAR-0052, GAR-0056, GAR-0054; outerwear=GAR-0045; set=GAR-0065, GAR-0001; upper_body=GAR-0008, GAR-0034, GAR-0007, GAR-0006
 - 三套推荐选中：A: GAR-0031, GAR-0045, GAR-0035, GAR-0047; B: GAR-0031, GAR-0045, GAR-0035, GAR-0048; C: GAR-0031, GAR-0045, GAR-0022
 
 ## 候选造型 A/B/C
 
-### Look A（score 50.2/100，cost 0.358，source_look=LOOK-0012）
+### Look A（score 49.1/100，cost 0.358，source_look=LOOK-0012）
 
 | 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
 | --- | --- | --- | --- | --- | --- |
@@ -97,7 +97,7 @@
 - 结构卡：STR-0011, STR-0016, STR-0023, STR-0025
 - 材质卡：MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012
 
-### Look B（score 50.8/100，cost 0.317，source_look=LOOK-0015）
+### Look B（score 49.7/100，cost 0.317，source_look=LOOK-0015）
 
 | 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
 | --- | --- | --- | --- | --- | --- |
@@ -107,9 +107,9 @@
 | carried_prop | `GAR-0048` | 手提包 / handbag | multicolor | canvas, wool | verified |
 
 - 结构卡：STR-0011, STR-0016, STR-0023, STR-0025, STR-0019, STR-0026
-- 材质卡：MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
+- 材质卡：MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015
 
-### Look C（score 48.2/100，cost 0.282，source_look=assembled）
+### Look C（score 47.2/100，cost 0.282，source_look=assembled）
 
 | 层级 | ID | 名称 | 颜色 | 材质 | 证据 |
 | --- | --- | --- | --- | --- | --- |
@@ -118,7 +118,7 @@
 | footwear | `GAR-0022` | 威灵顿靴 / wellington boot | black, brown | leather, rubber | verified |
 
 - 结构卡：STR-0011, STR-0016, STR-0023, STR-0021, STR-0025
-- 材质卡：MAT-0002, MAT-0014, MAT-0003, MAT-0001
+- 材质卡：MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019
 
 ### 评分明细
 
@@ -127,11 +127,11 @@
 | 年代/文化 | 14.2 | 14.4 | 14.5 |
 | 角色身份 | 5.2 | 5.0 | 5.2 |
 | 环境气候 | 7.8 | 8.4 | 8.8 |
-| 美术方向 | 6.5 | 6.4 | 6.4 |
+| 美术方向 | 5.4 | 5.3 | 5.3 |
 | 动作可行 | 4.6 | 4.7 | 4.3 |
 | 剧情弧线 | 3.5 | 3.5 | 3.5 |
 | 摄影/一致性 | 6.5 | 6.5 | 6.5 |
-| **总计** | 50.2 | 50.8 | 48.2 |
+| **总计** | 49.1 | 49.7 | 47.2 |
 
 ## 生图 / 视频 Prompt（实际输出）
 
@@ -154,13 +154,13 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult Shen, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
+full-body character design of an adult Shen, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, palette: beige, black, khaki, lavender, mid blue, multicolor, orange red, pink, red, silver, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025); zipper (STR-0019); handbag construction (STR-0026), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015
 ```
 
 **Video prompt (EN):**
 
 ```
-Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: medium tracking, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: sodium street light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition
+Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: medium tracking, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: 1930s women’s shoes, black lace overlay flat pumps with small pink and green sequins, alternative red and silver floral brocade evening shoes with a silver buckle, art deco styling; carried prop: 1930s embroidered canvas handbag, cross-stitch wool floral pattern, fabric handle, small framed purse, carried in hand or on wrist, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: sodium street light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0035 1930s women’s shoes [black, red, silver; lace, sequins, silk, metallic_brocade; footwear] | GAR-0048 handbag [multicolor; canvas, wool; carried prop]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition
 ```
 
 ### Look C
@@ -168,13 +168,13 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 **Image prompt (EN):**
 
 ```
-full-body character design of an adult Shen, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, mid blue, orange red, pink, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001
+full-body character design of an adult Shen, one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: beige, black, brown, khaki, lavender, mid blue, orange red, pink, white, setting: rain-soaked newspaper alley, night, rain, art direction: restrained historical noir, lighting: sodium street light, camera: medium tracking, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: frog closure (STR-0011); hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019
 ```
 
 **Video prompt (EN):**
 
 ```
-Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: medium tracking, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: sodium street light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition
+Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: medium tracking, costume: one-piece: 1930s Shanghai qipao, high stiff stand-up collar, right-side fastening with loop-and-knot buttons, side slits, short sleeves or long tight sleeves, printed devoré velvet or silk damask, art deco lace trim; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 侧衩限制步幅，跨步/上下楼梯时最明显; 贴身剪裁在坐姿时前襟与腰腹起皱; 长紧袖款限制手腕动作; 右衽盘扣与隐藏拉链的开合状态必须跨镜头锁定。, lighting: sodium street light, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0031 qipao [white, orange_red, pink, mid_blue; silk, synthetic_velvet, crepe, silk_damask; one-piece] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition
 ```
 
 ## 风险
@@ -199,11 +199,9 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 
 ### 脚本级风险与缺口
 
-- [context_gap/medium] no reliable style card for art direction 'restrained historical noir'
 - [period_era_level/low] period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing
 - [region_mismatch/medium] cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - [conflict_weather_vs_material/medium] wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot
-- no reliable style card for art direction 'restrained historical noir'
 - period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing
 - cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot
@@ -220,7 +218,7 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 - 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025
 - 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0012
 - 理由（解释性，不是史实）：based on curated vault look card LOOK-0012
-- source_ids：SRC-0200, SRC-0201, SRC-0405, SRC-0205, SRC-0206, SRC-0407, SRC-0202, SRC-0486, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102
+- source_ids：SRC-0200, SRC-0201, SRC-0405, SRC-0205, SRC-0206, SRC-0407, SRC-0202, SRC-0062, SRC-0486, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
 - 来源链接：SRC-0405 → https://collections.vam.ac.uk/item/O1295635/
@@ -228,6 +226,7 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 - 来源链接：SRC-0206 → https://collections.vam.ac.uk/item/O350850/
 - 来源链接：SRC-0407 → https://collections.vam.ac.uk/item/O470711/
 - 来源链接：SRC-0202 → https://collections.vam.ac.uk/item/O80590/
+- 来源链接：SRC-0062 → https://www.gutenberg.org/cache/epub/21534/pg21534.txt
 - 来源链接：SRC-0486 → https://collections.vam.ac.uk/item/O137793/
 - 来源链接：SRC-0521 → https://freesewing.dev/howtos/design/fit-sleeve/
 - 来源链接：SRC-0520 → https://freesewing.dev/howtos/design/seam-allowance/
@@ -246,9 +245,9 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 - 理由（解释性，不是史实）：足部: GAR-0035 女式皮鞋 (smart_casual)
 - 理由（解释性，不是史实）：携带物: GAR-0048 手提包 (smart_casual)
 - 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0025, STR-0019, STR-0026
-- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0011, MAT-0015
 - 理由（解释性，不是史实）：based on curated vault look card LOOK-0015
-- source_ids：SRC-0200, SRC-0201, SRC-0205, SRC-0206, SRC-0408, SRC-0405, SRC-0202, SRC-0486, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102
+- source_ids：SRC-0200, SRC-0201, SRC-0205, SRC-0206, SRC-0408, SRC-0405, SRC-0202, SRC-0062, SRC-0486, SRC-0521, SRC-0520, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102, SRC-0547, SRC-0534, SRC-0204, SRC-0066
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
 - 来源链接：SRC-0205 → https://collections.vam.ac.uk/item/O350849/
@@ -256,6 +255,7 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 - 来源链接：SRC-0408 → https://collections.vam.ac.uk/item/O367714/
 - 来源链接：SRC-0405 → https://collections.vam.ac.uk/item/O1295635/
 - 来源链接：SRC-0202 → https://collections.vam.ac.uk/item/O80590/
+- 来源链接：SRC-0062 → https://www.gutenberg.org/cache/epub/21534/pg21534.txt
 - 来源链接：SRC-0486 → https://collections.vam.ac.uk/item/O137793/
 - 来源链接：SRC-0521 → https://freesewing.dev/howtos/design/fit-sleeve/
 - 来源链接：SRC-0520 → https://freesewing.dev/howtos/design/seam-allowance/
@@ -264,6 +264,10 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
+- 来源链接：SRC-0547 → https://vocab.getty.edu/page/aat/300243430
+- 来源链接：SRC-0534 → https://collections.vam.ac.uk/item/O353447/
+- 来源链接：SRC-0204 → https://collections.vam.ac.uk/item/O110441/
+- 来源链接：SRC-0066 → https://www.gutenberg.org/cache/epub/76299/pg76299.txt
 - 单件证据状态：GAR-0031=verified; GAR-0045=verified; GAR-0035=verified; GAR-0048=verified
 
 ### Look C
@@ -273,13 +277,14 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 - 理由（解释性，不是史实）：外层: GAR-0045 风衣 (smart_casual)
 - 理由（解释性，不是史实）：足部: GAR-0022 威灵顿靴 (smart_casual)
 - 理由（解释性，不是史实）：linked structure cards: STR-0011, STR-0016, STR-0023, STR-0021, STR-0025
-- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001
-- source_ids：SRC-0200, SRC-0201, SRC-0405, SRC-0123, SRC-0202, SRC-0486, SRC-0484, SRC-0412, SRC-0520, SRC-0521, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102
+- 理由（解释性，不是史实）：linked material cards: MAT-0002, MAT-0014, MAT-0003, MAT-0001, MAT-0017, MAT-0019
+- source_ids：SRC-0200, SRC-0201, SRC-0405, SRC-0123, SRC-0202, SRC-0062, SRC-0486, SRC-0484, SRC-0412, SRC-0520, SRC-0521, SRC-0141, SRC-0143, SRC-0423, SRC-0142, SRC-0102, SRC-0549, SRC-0489, SRC-0538, SRC-0550, SRC-0417, SRC-0406
 - 来源链接：SRC-0200 → https://collections.vam.ac.uk/item/O1151302/
 - 来源链接：SRC-0201 → https://collections.vam.ac.uk/item/O107537/
 - 来源链接：SRC-0405 → https://collections.vam.ac.uk/item/O1295635/
 - 来源链接：SRC-0123 → https://fashionhistory.fitnyc.edu/wellington-boot/
 - 来源链接：SRC-0202 → https://collections.vam.ac.uk/item/O80590/
+- 来源链接：SRC-0062 → https://www.gutenberg.org/cache/epub/21534/pg21534.txt
 - 来源链接：SRC-0486 → https://collections.vam.ac.uk/item/O137793/
 - 来源链接：SRC-0484 → https://collections.vam.ac.uk/item/O356786/
 - 来源链接：SRC-0412 → https://collections.vam.ac.uk/item/O15693/
@@ -290,6 +295,12 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 - 来源链接：SRC-0423 → https://collections.vam.ac.uk/item/O315431/
 - 来源链接：SRC-0142 → https://fashionhistory.fitnyc.edu/passementerie/
 - 来源链接：SRC-0102 → https://fashionhistory.fitnyc.edu/muslin/
+- 来源链接：SRC-0549 → https://vocab.getty.edu/page/aat/300011845
+- 来源链接：SRC-0489 → https://collections.vam.ac.uk/item/O107847/
+- 来源链接：SRC-0538 → https://collections.vam.ac.uk/item/O356431/
+- 来源链接：SRC-0550 → https://vocab.getty.edu/page/aat/300014058
+- 来源链接：SRC-0417 → https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/
+- 来源链接：SRC-0406 → https://collections.vam.ac.uk/item/O361727/
 - 单件证据状态：GAR-0031=verified; GAR-0045=verified; GAR-0022=verified
 
 ## 验收判定
@@ -308,7 +319,6 @@ Shen, walking quickly, scene: rain-soaked newspaper alley, night, rain, camera: 
 
 ## 备注
 
-- 脚本警告：no reliable style card for art direction 'restrained historical noir'
 - 脚本警告：period evidence is era-level (century bucket) for GAR-0022, GAR-0045, GAR-0047; exact-decade cards are missing
 - 脚本警告：cards document other regions for GAR-0022, GAR-0035, GAR-0045, GAR-0047, GAR-0048 (requested shanghai); cross-region borrowing is flagged, not silently accepted
 - 脚本警告：wet/snow weather with delicate footwear GAR-0035 — suggested resolution: use leather/rubber boots or declare a dry interior shot

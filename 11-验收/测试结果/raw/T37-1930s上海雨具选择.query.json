@@ -41,42 +41,56 @@
     "score": 3.0
   },
   {
-    "id": "GAR-0045",
-    "path": "01-服装单品/外层/GAR-0045-风衣.md",
-    "name_zh": "风衣",
-    "name_en": "trench coat",
-    "type": "garment",
-    "evidence_status": "verified",
+    "id": "LOOK-0030",
+    "path": "09-造型组合/LOOK-0030-1930s-Shanghai-rain,-female-reporter.md",
+    "name_zh": "1930s 上海雨夜·女记者",
+    "name_en": "1930s Shanghai rain, female reporter",
+    "type": "look",
+    "evidence_status": "interpretive",
     "source_ids": [
-      "SRC-0405"
+      "SRC-0200",
+      "SRC-0201",
+      "SRC-0406",
+      "SRC-0123",
+      "SRC-0459",
+      "SRC-0407",
+      "SRC-0141"
     ],
-    "snippet": "…undsen/shackleton 探险供装。 ## 相关卡片 - [[gar-0046-雨衣]] - [[gar-0047-雨伞]] - [[gar-0060-1930年代男式皮鞋]] - [[mat-0003-装饰绦带]] - [[src-…",
-    "score": 1.05
+    "snippet": "…性：旗袍的直身轮廓 + 防水外层 + 伞。 - **叙事意义**：旗袍是都市职业身份，橡胶雨衣与威灵顿靴是雨夜的功能层，胸针结构与蕾丝提供近景细节；伞是移动的“屋檐”。 ## 视觉辨识 - 色彩：indigo, black, rain_grey…",
+    "score": 3.0
   },
   {
-    "id": "GAR-0047",
-    "path": "01-服装单品/携带物/GAR-0047-雨伞.md",
-    "name_zh": "雨伞",
-    "name_en": "umbrella",
-    "type": "garment",
-    "evidence_status": "verified",
+    "id": "LOOK-0031",
+    "path": "09-造型组合/LOOK-0031-contemporary-night-shift-nurse,-rainy-handover.md",
+    "name_zh": "当代夜班护士·雨夜交班",
+    "name_en": "contemporary night-shift nurse, rainy handover",
+    "type": "look",
+    "evidence_status": "interpretive",
     "source_ids": [
-      "SRC-0407"
+      "SRC-0400",
+      "SRC-0406",
+      "SRC-0410",
+      "SRC-0408"
     ],
-    "snippet": "…叶片纹、柄缘刻 initials a. t.。 ## 相关卡片 - [[gar-0046-雨衣]] - [[gar-0045-风衣]] - [[gar-0048-手提包]] - [[gar-0049-手杖]] - [[src-0407-v&a-…",
-    "score": 1.05
+    "snippet": "…点（护士服/工牌/闭口工作鞋）+ 防水外层。 - **叙事意义**：白色制服是秩序与专业，雨衣与工作鞋是通勤功能层，工牌/包是身份与下班界线。 ## 视觉辨识 - 色彩：white, navy, pale_blue, black；材质：cott…",
+    "score": 3.0
   },
   {
-    "id": "GAR-0049",
-    "path": "01-服装单品/携带物/GAR-0049-手杖.md",
-    "name_zh": "手杖",
-    "name_en": "walking stick",
-    "type": "garment",
-    "evidence_status": "verified",
+    "id": "LOOK-0035",
+    "path": "09-造型组合/LOOK-0035-1930s-Shanghai-rain,-male-reporter.md",
+    "name_zh": "1930s 上海雨夜·男记者",
+    "name_en": "1930s Shanghai rain, male reporter",
+    "type": "look",
+    "evidence_status": "interpretive",
     "source_ids": [
-      "SRC-0409"
+      "SRC-0202",
+      "SRC-0406",
+      "SRC-0420",
+      "SRC-0522",
+      "SRC-0407",
+      "SRC-0141"
     ],
-    "snippet": "…ar-0047-雨伞]] - [[gar-0048-手提包]] - [[gar-0046-雨衣]] - [[src-0409-v&a-嵌饰手杖]] — cited source (exact source_ids; no url guessin…",
-    "score": 1.05
+    "snippet": "…083；携带物=gar-0047；材料=mat-0002 - **人物功能**：长衫 + 雨衣 + 皮鞋 + 伞的男性职业者：传统轮廓与租界现代性的并置。 - **叙事意义**：长衫是公共知识分子的日常，橡胶雨衣/伞/皮鞋是雨夜功能层；用层搭而…",
+    "score": 3.0
   }
 ]

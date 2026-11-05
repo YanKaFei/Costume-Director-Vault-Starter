@@ -262,9 +262,9 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0035",
           "slot": "footwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
         },
         {
           "id": "STR-0003",
@@ -290,17 +290,29 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0015",
+          "slot": "lower_body"
+        },
+        {
+          "id": "MAT-0016",
+          "slot": "lower_body"
+        },
+        {
           "id": "MAT-0012",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
         },
         {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, palette: beaded, beige, black, buckskin, cream, dark, khaki, lavender, navy, printed, striped, tan, white, setting: S9, afternoon, rain, art direction: naturalistic tenement period drama, lighting: cold grey daylight, camera: medium full-body shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); ease and fit (STR-0025); cuff (STR-0023); frog closure (STR-0011); ruff (STR-0003), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0012, MAT-0011 --ar 2:3 --style raw --v 6",
-      "prompt_video": "沈砚, carrying parcels up narrow tenement stairs, scene: S9, afternoon, rain, camera: medium full-body shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: cold grey daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0012, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0012, MAT-0011",
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, palette: beaded, beige, black, buckskin, cream, dark, khaki, lavender, navy, printed, striped, tan, white, setting: S9, afternoon, rain, art direction: naturalistic tenement period drama, lighting: cold grey daylight, camera: medium full-body shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); ease and fit (STR-0025); cuff (STR-0023); silhouette and proportion (STR-0035); ruff (STR-0003), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0015, MAT-0016, MAT-0012, MAT-0017, MAT-0011 --ar 2:3 --style raw --v 6",
+      "prompt_video": "沈砚, carrying parcels up narrow tenement stairs, scene: S9, afternoon, rain, camera: medium full-body shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: cold grey daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0015, MAT-0016, MAT-0012, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0015, MAT-0016, MAT-0012, MAT-0017, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 19.0/25, 环境气候 8.9/15",
         "上装: GAR-0007 衬衫式女衫 (smart_casual)",
@@ -308,8 +320,8 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
         "配饰: GAR-0021 围裙裙 (casual)",
-        "linked structure cards: STR-0012, STR-0016, STR-0025, STR-0023, STR-0011, STR-0003",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0012, MAT-0011",
+        "linked structure cards: STR-0012, STR-0016, STR-0025, STR-0023, STR-0035, STR-0003",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0015, MAT-0016, MAT-0012, MAT-0017, MAT-0011",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -327,16 +339,30 @@
           "SRC-0118",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0521",
           "SRC-0520",
           "SRC-0486",
-          "SRC-0200",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0133",
           "SRC-0102",
           "SRC-0141",
           "SRC-0483",
           "SRC-0142",
-          "SRC-0423"
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0066",
+          "SRC-0548",
+          "SRC-0539",
+          "SRC-0423",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538"
         ],
         "source_urls": [
           {
@@ -372,6 +398,10 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
@@ -384,8 +414,24 @@
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0133",
@@ -408,8 +454,44 @@
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+          },
+          {
+            "source_id": "SRC-0548",
+            "url": "https://vocab.getty.edu/page/aat/300014069"
+          },
+          {
+            "source_id": "SRC-0539",
+            "url": "https://collections.vam.ac.uk/item/O1242729/"
+          },
+          {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           }
         ],
         "context_style_ids": [],
@@ -537,7 +619,8 @@
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0112"
+            "SRC-0112",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.8900000000000001,
@@ -658,9 +741,9 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0035",
           "slot": "footwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
         },
         {
           "id": "STR-0003",
@@ -682,8 +765,16 @@
           "slot": "upper_body"
         },
         {
+          "id": "MAT-0015",
+          "slot": "lower_body"
+        },
+        {
           "id": "MAT-0003",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
         },
         {
           "id": "MAT-0011",
@@ -692,11 +783,15 @@
         {
           "id": "MAT-0012",
           "slot": "accessory"
+        },
+        {
+          "id": "MAT-0016",
+          "slot": "accessory"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: wool tweed knickerbockers; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, palette: beaded, beige, brown, buckskin, cream, earth, khaki, lavender, navy, printed, striped, tan, tweed grey, white, setting: S9, afternoon, rain, art direction: naturalistic tenement period drama, lighting: cold grey daylight, camera: medium full-body shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); ease and fit (STR-0025); cuff (STR-0023); frog closure (STR-0011); ruff (STR-0003), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011, MAT-0012 --ar 2:3 --style raw --v 6",
-      "prompt_video": "沈砚, carrying parcels up narrow tenement stairs, scene: S9, afternoon, rain, camera: medium full-body shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: wool tweed knickerbockers; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限; 裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: cold grey daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011, MAT-0012, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011, MAT-0012",
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: wool tweed knickerbockers; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, palette: beaded, beige, brown, buckskin, cream, earth, khaki, lavender, navy, printed, striped, tan, tweed grey, white, setting: S9, afternoon, rain, art direction: naturalistic tenement period drama, lighting: cold grey daylight, camera: medium full-body shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: turndown collar and lapel (STR-0012); hem and vents/slits (STR-0016); ease and fit (STR-0025); cuff (STR-0023); silhouette and proportion (STR-0035); ruff (STR-0003), continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0015, MAT-0003, MAT-0017, MAT-0011, MAT-0012, MAT-0016 --ar 2:3 --style raw --v 6",
+      "prompt_video": "沈砚, carrying parcels up narrow tenement stairs, scene: S9, afternoon, rain, camera: medium full-body shot, costume: upper body: 1890s women’s shirtwaist, button-down front, tailored collar, high neck, full upper sleeves tapering to fitted lower arm; lower body: wool tweed knickerbockers; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel; accessory: ruffled hem curving up at the sides, white cotton or printed fabric, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 膝下束口，骑行/高尔夫挥杆时膝部活动受限; 裤腿宽松，跑动时有鼓动。; 塞入裙腰，抬臂时前襟与袖山易被拉出; 高领限制颈部转动。, lighting: cold grey daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0015, MAT-0003, MAT-0017, MAT-0011, MAT-0012, MAT-0016, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0007 shirtwaist [white, cream, striped; cotton, silk, linen; upper body] | GAR-0011 knickerbockers [tweed_grey, brown, earth; wool, tweed; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear] | GAR-0021 pinafore [white, printed, navy; cotton, linen; accessory]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0002, MAT-0013, MAT-0015, MAT-0003, MAT-0017, MAT-0011, MAT-0012, MAT-0016",
       "reasons": [
         "highest scoring dimensions: 年代/文化 19.0/25, 环境气候 8.7/15",
         "上装: GAR-0007 衬衫式女衫 (smart_casual)",
@@ -704,8 +799,8 @@
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
         "配饰: GAR-0021 围裙裙 (casual)",
-        "linked structure cards: STR-0012, STR-0016, STR-0025, STR-0023, STR-0011, STR-0003",
-        "linked material cards: MAT-0001, MAT-0002, MAT-0013, MAT-0003, MAT-0011, MAT-0012",
+        "linked structure cards: STR-0012, STR-0016, STR-0025, STR-0023, STR-0035, STR-0003",
+        "linked material cards: MAT-0001, MAT-0002, MAT-0013, MAT-0015, MAT-0003, MAT-0017, MAT-0011, MAT-0012, MAT-0016",
         "period/culture score is supported by period-tagged cards"
       ],
       "risks": [
@@ -717,22 +812,36 @@
         "source_ids": [
           "SRC-0108",
           "SRC-0112",
+          "SRC-0066",
           "SRC-0405",
           "SRC-0124",
           "SRC-0122",
           "SRC-0118",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0521",
           "SRC-0520",
           "SRC-0486",
-          "SRC-0200",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
           "SRC-0133",
           "SRC-0102",
           "SRC-0141",
           "SRC-0483",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
           "SRC-0142",
-          "SRC-0423"
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0423",
+          "SRC-0548",
+          "SRC-0539"
         ],
         "source_urls": [
           {
@@ -742,6 +851,10 @@
           {
             "source_id": "SRC-0112",
             "url": "https://fashionhistory.fitnyc.edu/knickerbockers/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0405",
@@ -768,6 +881,10 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0521",
             "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
           },
@@ -780,8 +897,24 @@
             "url": "https://collections.vam.ac.uk/item/O137793/"
           },
           {
-            "source_id": "SRC-0200",
-            "url": "https://collections.vam.ac.uk/item/O1151302/"
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
           },
           {
             "source_id": "SRC-0133",
@@ -800,12 +933,44 @@
             "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
             "source_id": "SRC-0142",
             "url": "https://fashionhistory.fitnyc.edu/passementerie/"
           },
           {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0548",
+            "url": "https://vocab.getty.edu/page/aat/300014069"
+          },
+          {
+            "source_id": "SRC-0539",
+            "url": "https://collections.vam.ac.uk/item/O1242729/"
           }
         ],
         "context_style_ids": [],
@@ -900,7 +1065,8 @@
           ],
           "evidence_status": "verified",
           "source_ids": [
-            "SRC-0109"
+            "SRC-0109",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.8900000000000001,
@@ -1022,12 +1188,16 @@
           "confidence": "explicit"
         },
         {
-          "id": "STR-0011",
+          "id": "STR-0035",
           "slot": "footwear",
-          "confidence": "suggested"
+          "confidence": "explicit"
         }
       ],
       "materials": [
+        {
+          "id": "MAT-0015",
+          "slot": "upper_body"
+        },
         {
           "id": "MAT-0002",
           "slot": "upper_body"
@@ -1049,21 +1219,25 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult 沈砚, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, black, buckskin, cream, dark, embroidered, khaki, lavender, tan, white, setting: S9, afternoon, rain, art direction: naturalistic tenement period drama, lighting: cold grey daylight, camera: medium full-body shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); ease and fit (STR-0025); cuff (STR-0023); frog closure (STR-0011), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0011 --ar 2:3 --style raw --v 6",
-      "prompt_video": "沈砚, carrying parcels up narrow tenement stairs, scene: S9, afternoon, rain, camera: medium full-body shot, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: cold grey daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
-      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0011",
+      "prompt_image": "full-body character design of an adult 沈砚, upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, black, buckskin, cream, dark, embroidered, khaki, lavender, tan, white, setting: S9, afternoon, rain, art direction: naturalistic tenement period drama, lighting: cold grey daylight, camera: medium full-body shot, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: stomacher (STR-0006); waistline (STR-0015); ease and fit (STR-0025); cuff (STR-0023); silhouette and proportion (STR-0035), continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0017, MAT-0011 --ar 2:3 --style raw --v 6",
+      "prompt_video": "沈砚, carrying parcels up narrow tenement stairs, scene: S9, afternoon, rain, camera: medium full-body shot, costume: upper body: fitted sleeveless waistcoat, single- or double-breasted, buttoned front, waist-length, matching or contrasting fabric; lower body: loose bloomers gathered below the knee or at the ankle, white cotton or dark wool, full trouser legs; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; 宽松裤腿在膝/踝处收口，跑动时裤腿鼓起; 骑行时需确认不会卷入车轮。; 贴身无袖，弯腰时前襟下摆翘起; 双排扣款对动作更敏感，需锁定扣合状态。, lighting: cold grey daylight, historically grounded period costume, period-accurate construction and materials, no modern fashion elements, single continuous take, consistent costume and accessories, continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots, no modern zippers, no modern sneakers, no printed t-shirts, no anachronistic plastic accessories, no instant drying between shots; wetness changes only on an explicit state transition",
+      "continuity_lock": "continuity lock: GAR-0008 waistcoat [black, cream, embroidered; wool, silk, cotton; upper body] | GAR-0010 bloomers [white, black, dark; cotton, wool, linen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0017, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 17.8/25, 环境气候 8.9/15",
         "上装: GAR-0008 马甲 (business)",
         "下装: GAR-0010 灯笼裤 (casual)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0006, STR-0015, STR-0025, STR-0023, STR-0011",
-        "linked material cards: MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0011"
+        "linked structure cards: STR-0006, STR-0015, STR-0025, STR-0023, STR-0035",
+        "linked material cards: MAT-0015, MAT-0002, MAT-0001, MAT-0003, MAT-0013, MAT-0012, MAT-0017, MAT-0011"
       ],
       "risks": [
         "region mismatch in GAR-0045: cards document their own regions, not united_states",
@@ -1073,26 +1247,44 @@
       "evidence": {
         "source_ids": [
           "SRC-0109",
+          "SRC-0066",
           "SRC-0111",
           "SRC-0405",
           "SRC-0124",
           "SRC-0136",
+          "SRC-0064",
           "SRC-0412",
           "SRC-0200",
           "SRC-0521",
           "SRC-0520",
           "SRC-0486",
           "SRC-0202",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
+          "SRC-0062",
           "SRC-0141",
           "SRC-0102",
           "SRC-0142",
           "SRC-0483",
-          "SRC-0423"
+          "SRC-0423",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538"
         ],
         "source_urls": [
           {
             "source_id": "SRC-0109",
             "url": "https://fashionhistory.fitnyc.edu/vest-waistcoat/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0111",
@@ -1109,6 +1301,10 @@
           {
             "source_id": "SRC-0136",
             "url": "https://fashionhistory.fitnyc.edu/stomacher/"
+          },
+          {
+            "source_id": "SRC-0064",
+            "url": "https://www.gutenberg.org/cache/epub/48551/pg48551.txt"
           },
           {
             "source_id": "SRC-0412",
@@ -1135,6 +1331,42 @@
             "url": "https://collections.vam.ac.uk/item/O80590/"
           },
           {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0141",
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
@@ -1153,6 +1385,18 @@
           {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           }
         ],
         "context_style_ids": [],
@@ -1277,9 +1521,12 @@
       "GAR-0025",
       "GAR-0028",
       "GAR-0068",
+      "GAR-0088",
       "GAR-0074",
       "GAR-0073",
       "GAR-0086",
+      "GAR-0089",
+      "GAR-0090",
       "GAR-0070"
     ],
     "carried_prop": [
@@ -1293,6 +1540,7 @@
       "GAR-0060",
       "GAR-0035",
       "GAR-0058",
+      "GAR-0091",
       "GAR-0084"
     ],
     "one_piece": [
@@ -1647,6 +1895,10 @@
       "url": "https://collections.vam.ac.uk/item/O107537/"
     },
     {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+    },
+    {
       "source_id": "SRC-0521",
       "url": "https://freesewing.dev/howtos/design/fit-sleeve/"
     },
@@ -1659,8 +1911,24 @@
       "url": "https://collections.vam.ac.uk/item/O137793/"
     },
     {
-      "source_id": "SRC-0200",
-      "url": "https://collections.vam.ac.uk/item/O1151302/"
+      "source_id": "SRC-0530",
+      "url": "https://collections.vam.ac.uk/item/O72654/"
+    },
+    {
+      "source_id": "SRC-0531",
+      "url": "https://collections.vam.ac.uk/item/O85657/"
+    },
+    {
+      "source_id": "SRC-0533",
+      "url": "https://collections.vam.ac.uk/item/O353415/"
+    },
+    {
+      "source_id": "SRC-0535",
+      "url": "https://collections.vam.ac.uk/item/O355340/"
+    },
+    {
+      "source_id": "SRC-0536",
+      "url": "https://collections.vam.ac.uk/item/O68370/"
     },
     {
       "source_id": "SRC-0133",
@@ -1683,8 +1951,44 @@
       "url": "https://fashionhistory.fitnyc.edu/passementerie/"
     },
     {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+    },
+    {
+      "source_id": "SRC-0548",
+      "url": "https://vocab.getty.edu/page/aat/300014069"
+    },
+    {
+      "source_id": "SRC-0539",
+      "url": "https://collections.vam.ac.uk/item/O1242729/"
+    },
+    {
       "source_id": "SRC-0423",
       "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
     },
     {
       "source_id": "SRC-0112",
@@ -1699,8 +2003,16 @@
       "url": "https://fashionhistory.fitnyc.edu/stomacher/"
     },
     {
+      "source_id": "SRC-0064",
+      "url": "https://www.gutenberg.org/cache/epub/48551/pg48551.txt"
+    },
+    {
       "source_id": "SRC-0412",
       "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0200",
+      "url": "https://collections.vam.ac.uk/item/O1151302/"
     }
   ],
   "missing_urls": [],
@@ -1719,7 +2031,7 @@
     "narrative_present": true,
     "brief_parsed": false,
     "conflicts": 0,
-    "occupation_category": "generic:clerk",
+    "occupation_category": "generic:student",
     "occupation_match": false,
     "occupation_forbidden_selected": [],
     "rainwear_selected": true,

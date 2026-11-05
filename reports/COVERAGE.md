@@ -80,3 +80,24 @@ garment **75**、garment_part 11、material 8、pattern 3、style 11、period_re
 - 口径：formal_high = high relation/结构化字段；formal_medium = medium relation；review = 仅可见链接/design；insufficient = 适用但无证据关系/字段；N/A 为类型/方向不适用。high 0% 表示“无高置信 formal 关系”，不是“无该维度字段/review”。
 - **关系数 ≠ 卡级覆盖**：345 relations 中新增 medium/review 不自动提高 formal_high；不以全连通率为目标。
 - 当前：458 卡/234 来源；source_ids 478/478 可见（100%）；MOC 224/224+234/234；59 isolates（+3 duplicates=62 uncited）。
+
+
+## R1.3 视觉覆盖（2026-11-05；独立于滞后 CSV）
+
+| 项 | 数值 |
+|---|---:|
+| 内容卡 | **232**（224+8 当代） |
+| 来源卡 | **239**（+5 Vogue） |
+| prompt_en | **216/232** |
+| 有视觉层卡（视觉参考/生图/视频） | **23**（15 试点 +8 当代） |
+| 模块化 prompt 块 | **46**（23×2） |
+| 旧 prompt_image 字段 | 25（旧 LOOK） |
+| 本地图像/嵌入 | **0** |
+| 真实参考 ASSET | **15**（12 CC0 +3 PD） |
+| LINK（link_only pending） | **5** |
+| ASSET 使用 / 未用 | **3 / 12**（未用为有意不硬配） |
+| 当代卡 | **8**（STY-0016..0023，全部 draft/interpretive） |
+| 人工视觉评分 | **N/A**（未评分） |
+
+- 旧 `R1.3-VISUAL-COVERAGE.csv`（197 卡/287 行，15:49）为基线，**未含 8 当代卡/15 ASSET/23 视觉层卡**；需重生成，不得把旧 CSV 当最终覆盖。
+- 视觉覆盖与关系覆盖分开：345 relations 不变；视觉层是新增卡片区块/资产，不是关系数。

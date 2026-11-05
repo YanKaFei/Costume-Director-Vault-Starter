@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "skill_call": true,
+    "tools_executed": true,
+    "result_success": true,
+    "turn_end_completed": true,
+    "complete_user_output": true
+  },
+  "ids": [
+    "GAR-0015",
+    "SRC-0116"
+  ],
+  "final_chars": 1073,
+  "skill_calls": 1,
+  "tool_calls": 1,
+  "completed_tool_results": 2,
+  "no_image_claim_ok": true,
+  "pass": true,
+  "final_preview": "## Result — GAR-0015\n\n- **Card:** 法式长袍 (`GAR-0015`)\n- **Path:** `01-服装单品/连身/GAR-0015-法式长袍.md`\n- **Kind:** `garment_worn`\n- **Evidence status:** `verified`\n- **Source:** `SRC-0116`\n- **Image generation:** **NO — no image was generated.** `image_generation: false`; delivery is a text prompt only.\n\n## Modules\n\n| Module | Evidence tags | Source |\n|---|---|---|\n| `garment_worn` | `FACT`, `OBSERVATION`,"
+}

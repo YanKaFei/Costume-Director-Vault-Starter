@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT: generated from .dsh/skills/costume-director/SKILL.md by scripts/sync_skill.py -->
-<!-- source-sha256: bde9d8318cf19fe5296910d66690d2b47aae53cc25e432c3d27434f54ea95c0c -->
+<!-- source-sha256: bd0fd86552930550a395ff2aeb35c1bfae836a86aa85b9fefa6dca53f1838a7e -->
 ---
 name: costume-director
 description: "Script-driven costume design and research inside the Costume Director Vault: parse a script or single scene, break down characters and their needs, retrieve real cards with SRC provenance, produce A/B/C looks, check evidence/conflicts, plan cross-scene continuity, and write English image/video prompts. Offline, read-only toward the knowledge base."
@@ -279,6 +279,42 @@ Keep IDs and SRC IDs exact. Never shorten `GAR-0031` to “qipao card” without
   and image URL is not a redistribution license.
 - **Relationship / cross-cultural retrieval**: use `query.py` with period/region/
   style/type filters and cite IDs+SRC; do not infer culture from a single colour.
+
+## 6c. Visual prompt generation (R1.3-D)
+
+Use the Vault's typed prompt builder; never claim image generation.
+
+```bash
+python3 scripts/visual_prompt.py --id GAR-0015 --kind garment_worn --lang en --json
+python3 scripts/visual_prompt.py --id MAT-0017 --kind material_macro --lang zh --markdown
+python3 scripts/visual_prompt.py --id LOOK-0001 --kind outfit --record
+```
+
+Kinds: `material_macro`, `component_detail`, `garment_flat`, `garment_worn`,
+`accessory`, `style`, `outfit`. Model-agnostic; output is text only
+(`image_generation: false`). Every module tags evidence:
+
+- **FACT** — verified structured card/source fields;
+- **OBSERVATION** — card visual/lighting/movement prose;
+- **INFERENCE** — interpretive combination/design reading;
+- **CREATIVE** — requested staging/art-direction choices.
+
+Conflict checks: missing material/structure/source, period/region mismatch,
+low-confidence/example cards, and wrong kind/card type. HARD RULES:
+- do not present INFERENCE/CREATIVE as historical fact;
+- low-confidence/example cards must carry the warning and must not be used as
+  historical evidence;
+- consume `11-验收/P4-VISUAL/visual-index.csv` for visual references (link-only;
+  `MET-API` rows have no independent SRC card — never fabricate one);
+- approved anchors from a Look Bible remain frozen; prompts must not silently
+  change approved hard anchors;
+- if no image model/tool is available, deliver the prompt and say no image was
+  generated.
+
+Three natural-language requests it should serve:
+1. "给 GAR-0015 法式长袍生成平铺图和穿着图的英文 prompt，并标注哪些是事实、哪些是推断。"
+2. "用 MAT-0017 皮革做一个材质微距 prompt，检查有没有缺失材质或来源冲突。"
+3. "给 LOOK-0001 做完整 outfit 的 image/video prompt，保留 continuity lock，并说明 approved anchors 是否为空。"
 
 ## 7. Troubleshooting your own run
 

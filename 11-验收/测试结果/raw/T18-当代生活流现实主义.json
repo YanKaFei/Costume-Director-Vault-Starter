@@ -136,7 +136,8 @@
           "evidence_status": "verified",
           "source_ids": [
             "SRC-0484",
-            "SRC-0485"
+            "SRC-0485",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.92,
@@ -220,6 +221,21 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0035",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0027",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0032",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0025",
           "slot": "footwear",
           "confidence": "explicit"
@@ -239,6 +255,10 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0015",
+          "slot": "lower_body"
+        },
+        {
           "id": "MAT-0013",
           "slot": "lower_body"
         },
@@ -251,21 +271,33 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0016",
+          "slot": "outerwear"
+        },
+        {
           "id": "MAT-0014",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0018",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, blue, buckskin, crimson, multicolor, oyster, solid color, tan, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014",
-      "prompt_video": "Mei, cooking dinner while talking on the phone, scene: S15, evening, indoor, camera: static medium shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm kitchen overhead light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014",
+      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, blue, buckskin, crimson, multicolor, oyster, solid color, tan, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); neckline shape (STR-0027); pleats and gathering (STR-0032); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0018",
+      "prompt_video": "Mei, cooking dinner while talking on the phone, scene: S15, evening, indoor, camera: static medium shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm kitchen overhead light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0018, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0018",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
         "上装: GAR-0006 达希基套衫 (casual)",
         "下装: GAR-0077 紧身长袜 (formal)",
         "外层: GAR-0076 斗篷与披风 (formal)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0025",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014"
+        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0027, STR-0032, STR-0025",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0018"
       ],
       "risks": [
         "region mismatch in GAR-0006, GAR-0077, GAR-0076, GAR-0023: cards document their own regions, not east_asia",
@@ -277,19 +309,37 @@
           "SRC-0107",
           "SRC-0484",
           "SRC-0485",
+          "SRC-0066",
           "SRC-0482",
           "SRC-0483",
           "SRC-0124",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
+          "SRC-0543",
+          "SRC-0544",
           "SRC-0521",
           "SRC-0520",
           "SRC-0102",
           "SRC-0142",
           "SRC-0141",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
           "SRC-0423",
-          "SRC-0143"
+          "SRC-0548",
+          "SRC-0539",
+          "SRC-0143",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0013"
         ],
         "source_urls": [
           {
@@ -303,6 +353,10 @@
           {
             "source_id": "SRC-0485",
             "url": "https://collections.vam.ac.uk/item/O107795/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0482",
@@ -325,8 +379,40 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
+            "source_id": "SRC-0543",
+            "url": "https://vocab.getty.edu/page/aat/300227874"
+          },
+          {
+            "source_id": "SRC-0544",
+            "url": "https://vocab.getty.edu/page/aat/300231237"
           },
           {
             "source_id": "SRC-0521",
@@ -349,12 +435,48 @@
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
           },
           {
+            "source_id": "SRC-0548",
+            "url": "https://vocab.getty.edu/page/aat/300014069"
+          },
+          {
+            "source_id": "SRC-0539",
+            "url": "https://collections.vam.ac.uk/item/O1242729/"
+          },
+          {
             "source_id": "SRC-0143",
             "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0013",
+            "url": "https://vocab.getty.edu/page/aat/300014072"
           }
         ],
         "context_style_ids": [],
@@ -481,7 +603,8 @@
           "evidence_status": "verified",
           "source_ids": [
             "SRC-0484",
-            "SRC-0485"
+            "SRC-0485",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.92,
@@ -564,6 +687,16 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0035",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0033",
+          "slot": "outerwear",
+          "confidence": "suggested"
+        },
+        {
           "id": "STR-0025",
           "slot": "footwear",
           "confidence": "explicit"
@@ -583,6 +716,10 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0015",
+          "slot": "lower_body"
+        },
+        {
           "id": "MAT-0013",
           "slot": "lower_body"
         },
@@ -591,21 +728,25 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
           "id": "MAT-0011",
           "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, blue, buckskin, khaki, lavender, multicolor, oyster, solid color, tan, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011",
-      "prompt_video": "Mei, cooking dinner while talking on the phone, scene: S15, evening, indoor, camera: static medium shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm kitchen overhead light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011",
+      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, palette: beaded, beige, blue, buckskin, khaki, lavender, multicolor, oyster, solid color, tan, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); pocket construction (STR-0033); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011",
+      "prompt_video": "Mei, cooking dinner while talking on the phone, scene: S15, evening, indoor, camera: static medium shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: trench coat, double-breasted, belted waist, storm flap, epaulettes, cuff straps, knee-length gabardine, khaki or dark, rain-beaded surface; footwear: soft-soled leather moccasins, one-piece hide wrapped around the foot, no separate heel, fabric motion: 长下摆与腰带限制大步; 肩部覆片/袖口扣在抬臂时拉扯; 雨天湿重贴身。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm kitchen overhead light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0045 trench coat [khaki, beige, lavender; gabardine, cotton, lace; outer layer] | GAR-0023 moccasins [tan, buckskin, beaded; leather, beads, silk_ribbon; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
         "上装: GAR-0006 达希基套衫 (casual)",
         "下装: GAR-0077 紧身长袜 (formal)",
         "外层: GAR-0045 风衣 (smart_casual)",
         "足部: GAR-0023 莫卡辛鞋 (casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0025",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011"
+        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0033, STR-0025",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0017, MAT-0011"
       ],
       "risks": [
         "region mismatch in GAR-0006, GAR-0077, GAR-0045, GAR-0023: cards document their own regions, not east_asia",
@@ -617,18 +758,33 @@
           "SRC-0107",
           "SRC-0484",
           "SRC-0485",
+          "SRC-0066",
           "SRC-0405",
           "SRC-0124",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
+          "SRC-0545",
+          "SRC-0532",
           "SRC-0521",
           "SRC-0520",
           "SRC-0102",
           "SRC-0142",
           "SRC-0141",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
           "SRC-0483",
-          "SRC-0423"
+          "SRC-0423",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538"
         ],
         "source_urls": [
           {
@@ -642,6 +798,10 @@
           {
             "source_id": "SRC-0485",
             "url": "https://collections.vam.ac.uk/item/O107795/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0405",
@@ -660,8 +820,40 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
+            "source_id": "SRC-0545",
+            "url": "https://vocab.getty.edu/page/aat/300210517"
+          },
+          {
+            "source_id": "SRC-0532",
+            "url": "https://collections.vam.ac.uk/item/O102166/"
           },
           {
             "source_id": "SRC-0521",
@@ -684,12 +876,36 @@
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
             "source_id": "SRC-0483",
             "url": "https://collections.vam.ac.uk/item/O356064/"
           },
           {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
           }
         ],
         "context_style_ids": [],
@@ -810,7 +1026,8 @@
           "evidence_status": "verified",
           "source_ids": [
             "SRC-0484",
-            "SRC-0485"
+            "SRC-0485",
+            "SRC-0066"
           ],
           "scores": {
             "period": 0.92,
@@ -892,6 +1109,21 @@
           "confidence": "explicit"
         },
         {
+          "id": "STR-0035",
+          "slot": "lower_body",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0027",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
+          "id": "STR-0032",
+          "slot": "outerwear",
+          "confidence": "explicit"
+        },
+        {
           "id": "STR-0021",
           "slot": "footwear",
           "confidence": "explicit"
@@ -916,6 +1148,10 @@
           "slot": "lower_body"
         },
         {
+          "id": "MAT-0015",
+          "slot": "lower_body"
+        },
+        {
           "id": "MAT-0013",
           "slot": "lower_body"
         },
@@ -928,21 +1164,33 @@
           "slot": "outerwear"
         },
         {
+          "id": "MAT-0016",
+          "slot": "outerwear"
+        },
+        {
           "id": "MAT-0014",
           "slot": "outerwear"
+        },
+        {
+          "id": "MAT-0017",
+          "slot": "footwear"
+        },
+        {
+          "id": "MAT-0019",
+          "slot": "footwear"
         }
       ],
-      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue, brown, crimson, multicolor, oyster, solid color, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014",
-      "prompt_video": "Mei, cooking dinner while talking on the phone, scene: S15, evening, indoor, camera: static medium shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm kitchen overhead light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
-      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014",
+      "prompt_image": "full-body character design of an adult Mei, upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, palette: black, blue, brown, crimson, multicolor, oyster, solid color, white, setting: S15, evening, indoor, art direction: naturalistic slice-of-life realism, lighting: warm kitchen overhead light, camera: static medium shot, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, realistic fabric texture, visible seams and construction details, cinematic costume reference, construction details: hem and vents/slits (STR-0016); cuff (STR-0023); silhouette and proportion (STR-0035); neckline shape (STR-0027); pleats and gathering (STR-0032); seams and darts (STR-0021); ease and fit (STR-0025), continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0019",
+      "prompt_video": "Mei, cooking dinner while talking on the phone, scene: S15, evening, indoor, camera: static medium shot, costume: upper body: colorful African-inspired cotton print, patch pockets, embroidered neckline and cuffs, short sleeves; lower body: early modern hose, padded and slashed trunk hose over silk stockings, or knitted blue-and-white wool boot hose with large boot tops; outer layer: early modern cloak or mantle, half-circle crimson satin with silver-gilt embroidery and fringe, or white linen mantle with whitework and needlelace, standing collar; footwear: water-repellent leather, seam at the ankle, boot pulls at the top, oak-tanned soles and rubber heels, fabric motion: 半圆/圆形斗篷在转身时大幅展开; 长下摆易被踩/勾; 系带或领扣决定稳定性。; trunk hose 蓬起限制蹲坐; 针织长袜贴合腿部、脚踝 clock 处易松; 靴袜在靴内滑动。; 宽松套头，手臂活动自由; 下摆与袖口在动作中易上移，需确认长度。, lighting: warm kitchen overhead light, period-inspired modern interpretation, historical silhouette cues mixed with contemporary construction, single continuous take, consistent costume and accessories, continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0019, negative constraints: no costume morphing between shots, no unexpected accessories, no color shift, no logo, text or watermark, no extra layers appearing or disappearing, no warped hands, no deformed body, no changing hairstyle between shots",
+      "continuity_lock": "continuity lock: GAR-0006 dashiki [multicolor, solid_color; cotton, printed_cotton; upper body] | GAR-0077 hose [oyster, blue, white; silk, wool, linen, baleen; lower body] | GAR-0076 cloak and mantle [crimson, white; satin, silk, linen, metal_thread; outer layer] | GAR-0022 wellington boot [black, brown; leather, rubber; footwear]; wetness=dry; damage=none; dirt=none; keep all IDs, colors, materials, trims and accessory positions constant across shots; fabric links: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0019",
       "reasons": [
         "highest scoring dimensions: 年代/文化 23.0/25, 摄影/一致性 6.7/10",
         "上装: GAR-0006 达希基套衫 (casual)",
         "下装: GAR-0077 紧身长袜 (formal)",
         "外层: GAR-0076 斗篷与披风 (formal)",
         "足部: GAR-0022 威灵顿靴 (smart_casual)",
-        "linked structure cards: STR-0016, STR-0023, STR-0021, STR-0025",
-        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0013, MAT-0012, MAT-0011, MAT-0014"
+        "linked structure cards: STR-0016, STR-0023, STR-0035, STR-0027, STR-0032, STR-0021, STR-0025",
+        "linked material cards: MAT-0001, MAT-0003, MAT-0002, MAT-0015, MAT-0013, MAT-0012, MAT-0011, MAT-0016, MAT-0014, MAT-0017, MAT-0019"
       ],
       "risks": [
         "region mismatch in GAR-0006, GAR-0077, GAR-0076, GAR-0022: cards document their own regions, not east_asia",
@@ -954,20 +1202,40 @@
           "SRC-0107",
           "SRC-0484",
           "SRC-0485",
+          "SRC-0066",
           "SRC-0482",
           "SRC-0483",
           "SRC-0123",
           "SRC-0202",
           "SRC-0201",
+          "SRC-0062",
           "SRC-0486",
+          "SRC-0530",
+          "SRC-0531",
+          "SRC-0533",
+          "SRC-0535",
+          "SRC-0536",
+          "SRC-0543",
+          "SRC-0544",
           "SRC-0412",
           "SRC-0520",
           "SRC-0521",
           "SRC-0102",
           "SRC-0142",
           "SRC-0141",
+          "SRC-0547",
+          "SRC-0534",
+          "SRC-0204",
           "SRC-0423",
-          "SRC-0143"
+          "SRC-0548",
+          "SRC-0539",
+          "SRC-0143",
+          "SRC-0549",
+          "SRC-0489",
+          "SRC-0538",
+          "SRC-0550",
+          "SRC-0417",
+          "SRC-0406"
         ],
         "source_urls": [
           {
@@ -981,6 +1249,10 @@
           {
             "source_id": "SRC-0485",
             "url": "https://collections.vam.ac.uk/item/O107795/"
+          },
+          {
+            "source_id": "SRC-0066",
+            "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
           },
           {
             "source_id": "SRC-0482",
@@ -1003,8 +1275,40 @@
             "url": "https://collections.vam.ac.uk/item/O107537/"
           },
           {
+            "source_id": "SRC-0062",
+            "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+          },
+          {
             "source_id": "SRC-0486",
             "url": "https://collections.vam.ac.uk/item/O137793/"
+          },
+          {
+            "source_id": "SRC-0530",
+            "url": "https://collections.vam.ac.uk/item/O72654/"
+          },
+          {
+            "source_id": "SRC-0531",
+            "url": "https://collections.vam.ac.uk/item/O85657/"
+          },
+          {
+            "source_id": "SRC-0533",
+            "url": "https://collections.vam.ac.uk/item/O353415/"
+          },
+          {
+            "source_id": "SRC-0535",
+            "url": "https://collections.vam.ac.uk/item/O355340/"
+          },
+          {
+            "source_id": "SRC-0536",
+            "url": "https://collections.vam.ac.uk/item/O68370/"
+          },
+          {
+            "source_id": "SRC-0543",
+            "url": "https://vocab.getty.edu/page/aat/300227874"
+          },
+          {
+            "source_id": "SRC-0544",
+            "url": "https://vocab.getty.edu/page/aat/300231237"
           },
           {
             "source_id": "SRC-0412",
@@ -1031,12 +1335,56 @@
             "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
           },
           {
+            "source_id": "SRC-0547",
+            "url": "https://vocab.getty.edu/page/aat/300243430"
+          },
+          {
+            "source_id": "SRC-0534",
+            "url": "https://collections.vam.ac.uk/item/O353447/"
+          },
+          {
+            "source_id": "SRC-0204",
+            "url": "https://collections.vam.ac.uk/item/O110441/"
+          },
+          {
             "source_id": "SRC-0423",
             "url": "https://collections.vam.ac.uk/item/O315431/"
           },
           {
+            "source_id": "SRC-0548",
+            "url": "https://vocab.getty.edu/page/aat/300014069"
+          },
+          {
+            "source_id": "SRC-0539",
+            "url": "https://collections.vam.ac.uk/item/O1242729/"
+          },
+          {
             "source_id": "SRC-0143",
             "url": "https://fashionhistory.fitnyc.edu/lurex/"
+          },
+          {
+            "source_id": "SRC-0549",
+            "url": "https://vocab.getty.edu/page/aat/300011845"
+          },
+          {
+            "source_id": "SRC-0489",
+            "url": "https://collections.vam.ac.uk/item/O107847/"
+          },
+          {
+            "source_id": "SRC-0538",
+            "url": "https://collections.vam.ac.uk/item/O356431/"
+          },
+          {
+            "source_id": "SRC-0550",
+            "url": "https://vocab.getty.edu/page/aat/300014058"
+          },
+          {
+            "source_id": "SRC-0417",
+            "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+          },
+          {
+            "source_id": "SRC-0406",
+            "url": "https://collections.vam.ac.uk/item/O361727/"
           }
         ],
         "context_style_ids": [],
@@ -1156,11 +1504,14 @@
       "GAR-0066",
       "GAR-0067",
       "GAR-0068",
+      "GAR-0088",
       "GAR-0021",
       "GAR-0026",
       "GAR-0074",
       "GAR-0086",
       "GAR-0073",
+      "GAR-0090",
+      "GAR-0089",
       "GAR-0028",
       "GAR-0085",
       "GAR-0083",
@@ -1181,6 +1532,7 @@
       "GAR-0024",
       "GAR-0081",
       "GAR-0058",
+      "GAR-0091",
       "GAR-0084"
     ],
     "one_piece": [
@@ -1356,6 +1708,10 @@
       "url": "https://collections.vam.ac.uk/item/O107795/"
     },
     {
+      "source_id": "SRC-0066",
+      "url": "https://www.gutenberg.org/cache/epub/76299/pg76299.txt"
+    },
+    {
       "source_id": "SRC-0482",
       "url": "https://collections.vam.ac.uk/item/O77731/"
     },
@@ -1376,8 +1732,40 @@
       "url": "https://collections.vam.ac.uk/item/O107537/"
     },
     {
+      "source_id": "SRC-0062",
+      "url": "https://www.gutenberg.org/cache/epub/21534/pg21534.txt"
+    },
+    {
       "source_id": "SRC-0486",
       "url": "https://collections.vam.ac.uk/item/O137793/"
+    },
+    {
+      "source_id": "SRC-0530",
+      "url": "https://collections.vam.ac.uk/item/O72654/"
+    },
+    {
+      "source_id": "SRC-0531",
+      "url": "https://collections.vam.ac.uk/item/O85657/"
+    },
+    {
+      "source_id": "SRC-0533",
+      "url": "https://collections.vam.ac.uk/item/O353415/"
+    },
+    {
+      "source_id": "SRC-0535",
+      "url": "https://collections.vam.ac.uk/item/O355340/"
+    },
+    {
+      "source_id": "SRC-0536",
+      "url": "https://collections.vam.ac.uk/item/O68370/"
+    },
+    {
+      "source_id": "SRC-0543",
+      "url": "https://vocab.getty.edu/page/aat/300227874"
+    },
+    {
+      "source_id": "SRC-0544",
+      "url": "https://vocab.getty.edu/page/aat/300231237"
     },
     {
       "source_id": "SRC-0521",
@@ -1400,16 +1788,60 @@
       "url": "https://fashionhistory.fitnyc.edu/chantilly-lace/"
     },
     {
+      "source_id": "SRC-0547",
+      "url": "https://vocab.getty.edu/page/aat/300243430"
+    },
+    {
+      "source_id": "SRC-0534",
+      "url": "https://collections.vam.ac.uk/item/O353447/"
+    },
+    {
+      "source_id": "SRC-0204",
+      "url": "https://collections.vam.ac.uk/item/O110441/"
+    },
+    {
       "source_id": "SRC-0423",
       "url": "https://collections.vam.ac.uk/item/O315431/"
+    },
+    {
+      "source_id": "SRC-0548",
+      "url": "https://vocab.getty.edu/page/aat/300014069"
+    },
+    {
+      "source_id": "SRC-0539",
+      "url": "https://collections.vam.ac.uk/item/O1242729/"
     },
     {
       "source_id": "SRC-0143",
       "url": "https://fashionhistory.fitnyc.edu/lurex/"
     },
     {
+      "source_id": "SRC-0549",
+      "url": "https://vocab.getty.edu/page/aat/300011845"
+    },
+    {
+      "source_id": "SRC-0489",
+      "url": "https://collections.vam.ac.uk/item/O107847/"
+    },
+    {
+      "source_id": "SRC-0538",
+      "url": "https://collections.vam.ac.uk/item/O356431/"
+    },
+    {
+      "source_id": "SRC-0013",
+      "url": "https://vocab.getty.edu/page/aat/300014072"
+    },
+    {
       "source_id": "SRC-0405",
       "url": "https://collections.vam.ac.uk/item/O1295635/"
+    },
+    {
+      "source_id": "SRC-0545",
+      "url": "https://vocab.getty.edu/page/aat/300210517"
+    },
+    {
+      "source_id": "SRC-0532",
+      "url": "https://collections.vam.ac.uk/item/O102166/"
     },
     {
       "source_id": "SRC-0123",
@@ -1418,6 +1850,18 @@
     {
       "source_id": "SRC-0412",
       "url": "https://collections.vam.ac.uk/item/O15693/"
+    },
+    {
+      "source_id": "SRC-0550",
+      "url": "https://vocab.getty.edu/page/aat/300014058"
+    },
+    {
+      "source_id": "SRC-0417",
+      "url": "https://fashionhistory.fitnyc.edu/1963-1969-andre-courreges-coat/"
+    },
+    {
+      "source_id": "SRC-0406",
+      "url": "https://collections.vam.ac.uk/item/O361727/"
     }
   ],
   "missing_urls": [],

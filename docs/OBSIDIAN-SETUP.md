@@ -24,6 +24,7 @@ skills/
 TASKS/
 TASKS.md
 AGENTS.md
+visuals/
 ```
 
 Purpose: keep audit/sandbox/reports/tooling out of the knowledge graph while
@@ -81,7 +82,7 @@ The restore leaves themes/plugins/hotkeys/workspace untouched.
 
 1. Copy/clone the vault (excluding `.obsidian`, or preserving it without merging).
 2. Run `--diff`, then `--apply`.
-3. Verify `--scope-report`: expected **488 nodes / 0 zero-degree / 1 component**
+3. Verify `--scope-report`: expected **501 nodes / 0 zero-degree / 1 component**
    for the current knowledge scope.
 4. Open Obsidian → Graph: MOC/cards/backlinks should show; audit/reports/tests
    should be absent.
@@ -90,7 +91,7 @@ The restore leaves themes/plugins/hotkeys/workspace untouched.
 
 ## Scope note
 
-The 488/0/1 target is the **knowledge scope** after userIgnoreFilters; it is not
+The 501/0/1 target is the **knowledge scope** after userIgnoreFilters; it is not
 the full-vault graph (which includes sandboxes/audit files and is intentionally
 excluded). The graph is for card navigation, not a claim that all historical
 relations are verified.

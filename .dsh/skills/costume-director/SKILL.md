@@ -278,6 +278,42 @@ Keep IDs and SRC IDs exact. Never shorten `GAR-0031` to “qipao card” without
 - **Relationship / cross-cultural retrieval**: use `query.py` with period/region/
   style/type filters and cite IDs+SRC; do not infer culture from a single colour.
 
+## 6c. Visual prompt generation (R1.3-D)
+
+Use the Vault's typed prompt builder; never claim image generation.
+
+```bash
+python3 scripts/visual_prompt.py --id GAR-0015 --kind garment_worn --lang en --json
+python3 scripts/visual_prompt.py --id MAT-0017 --kind material_macro --lang zh --markdown
+python3 scripts/visual_prompt.py --id LOOK-0001 --kind outfit --record
+```
+
+Kinds: `material_macro`, `component_detail`, `garment_flat`, `garment_worn`,
+`accessory`, `style`, `outfit`. Model-agnostic; output is text only
+(`image_generation: false`). Every module tags evidence:
+
+- **FACT** — verified structured card/source fields;
+- **OBSERVATION** — card visual/lighting/movement prose;
+- **INFERENCE** — interpretive combination/design reading;
+- **CREATIVE** — requested staging/art-direction choices.
+
+Conflict checks: missing material/structure/source, period/region mismatch,
+low-confidence/example cards, and wrong kind/card type. HARD RULES:
+- do not present INFERENCE/CREATIVE as historical fact;
+- low-confidence/example cards must carry the warning and must not be used as
+  historical evidence;
+- consume `11-验收/P4-VISUAL/visual-index.csv` for visual references (link-only;
+  `MET-API` rows have no independent SRC card — never fabricate one);
+- approved anchors from a Look Bible remain frozen; prompts must not silently
+  change approved hard anchors;
+- if no image model/tool is available, deliver the prompt and say no image was
+  generated.
+
+Three natural-language requests it should serve:
+1. "给 GAR-0015 法式长袍生成平铺图和穿着图的英文 prompt，并标注哪些是事实、哪些是推断。"
+2. "用 MAT-0017 皮革做一个材质微距 prompt，检查有没有缺失材质或来源冲突。"
+3. "给 LOOK-0001 做完整 outfit 的 image/video prompt，保留 continuity lock，并说明 approved anchors 是否为空。"
+
 ## 7. Troubleshooting your own run
 
 - `workflow.py` exit `2`: check the script/meta path exists and JSON is valid; `--out`

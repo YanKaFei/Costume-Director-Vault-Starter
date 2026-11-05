@@ -1,0 +1,14 @@
+test_all_kinds_clean_english (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_card_not_found (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_component_detail (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_conflicts (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_garment_flat (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_markdown_and_record (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_material_macro (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_outfit_modules_and_continuity (tests.test_visual_prompt.VisualPromptTests) ... ok
+test_style_module (tests.test_visual_prompt.VisualPromptTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 7.573s
+
+OK

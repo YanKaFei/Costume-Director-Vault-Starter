@@ -59,35 +59,40 @@
     "score": 4.0
   },
   {
-    "id": "SCN-0008",
-    "path": "07-剧情场景/SCN-0008-加纳英国婚礼.md",
-    "name_zh": "加纳英国婚礼",
-    "name_en": "Ghanaian-British wedding",
-    "type": "scene",
+    "id": "LOOK-0032",
+    "path": "09-造型组合/LOOK-0032-Ghanaian-British-wedding-bride,-juxtaposition.md",
+    "name_zh": "加纳-英国婚礼·新娘并置",
+    "name_en": "Ghanaian-British wedding bride, juxtaposition",
+    "type": "look",
     "evidence_status": "interpretive",
     "source_ids": [
       "SRC-0106",
       "SRC-0431",
+      "SRC-0205",
+      "SRC-0206",
+      "SRC-0459",
+      "SRC-0408",
       "SRC-0144",
       "SRC-0145"
     ],
-    "snippet": "…+ 暖色串灯；中近景与头巾/手部特写。 ## 视觉辨识 布布长袍 + 高耸 gele + kente/adinkra 布在花园绿意中形成高饱和块面；暖光下金线与刺绣反光；晚宴段换装后轮廓变窄、手袋与低跟鞋更突出。 ## 适用条件 加纳/西非家族婚礼与…",
-    "score": 1.0
+    "snippet": "…/mat-0006 - **人物功能**：在伦敦花园举行加纳式仪式的家庭：布布/gele/kente/adinkra 与英国婚礼场地并置。 - **叙事意义**：布布长袍与 gele 是仪式身份，kente/adinkra 提供纹样层，手袋/胸针/鞋…",
+    "score": 4.0
   },
   {
-    "id": "SCN-0012",
-    "path": "07-剧情场景/SCN-0012-阿克拉家庭庆典.md",
-    "name_zh": "阿克拉家庭庆典",
-    "name_en": "Accra family celebration",
-    "type": "scene",
+    "id": "STY-0014",
+    "path": "05-风格体系/STY-0014-diasporic-wedding-juxtaposition.md",
+    "name_zh": "跨文化婚礼并置",
+    "name_en": "diasporic wedding juxtaposition",
+    "type": "style",
     "evidence_status": "interpretive",
     "source_ids": [
       "SRC-0106",
+      "SRC-0430",
       "SRC-0431",
       "SRC-0144",
       "SRC-0145"
     ],
-    "snippet": "…ra family celebration ## 定义 加纳阿克拉家庭庆典场次，用于检验 kente/adinkra 的场合语义与跨区域西非组合的边界。家族与场地为虚构/`unknown`。 ## 结构要点 - 人物：阿散蒂家庭女性宾客（见 [[lo…",
-    "score": 1.0
+    "snippet": "…定义 跨文化婚礼并置是一种**设计解释**，不是历史事实或风格实体。以加纳布布/gele/kente/adinkra 的层搭与英国婚礼场地并置，表达离散家庭的“双重礼仪”；并列不是混搭许可，文化边界必须保留。 ## 结构要点 - 设计语言：以加纳布布…",
+    "score": 4.0
   }
 ]
